@@ -1,0 +1,1304 @@
+## intent:asking_do_you_need_anything_else
+- do you need anything else?
+- are you expecting anything?
+- what else do you need?
+- what are you expecting?
+- were you expecting things differently?
+- what are ur expectations?
+- anything else you want to discuss?
+- do you want anything?
+- [shud](grammar:should) I say anything?
+- do you want something?
+- [sir](gender:male) will that be it?
+- do u [wanna](grammar:want) ask anything else besides that?
+- is there anything else that I can help you with?
+- were you expecting something else?
+- is there anything else other than this?
+- is something else bothering you?
+- anything else?
+- [wat](grammar:what) r u expecting?
+- [sir](gender:male) do you need anything else besides this?
+- anything else is what you want to ask?
+- feel free to ask anything
+- do u need anything else?
+- anything else [sir](gender:male)
+- do you want something?
+- any other thing that I can help you with?
+- will that be it or is there anything else to ask?
+- should I say something [now](time)?
+- Is there anything else you [wanna](grammar:want) talk?
+- anything else, [ma'am](gender:female)
+- Do you want something?
+- anything else?
+- [ma'am](gender:female) do you need anything else?
+- do u need anything else?
+- is there anything else?
+
+## intent:asking_goto_next_step
+- Take me to the next step
+- Next step
+- let's move on
+- next [plzz](action:please)
+- next step [please](action)
+- go on.
+- Can you [please](action) tell me the next step?
+- I want to go to the next step.
+- let's get going
+- let's keep going
+- I think we should not stop here but move on.
+- lets go to the bext step
+- lets move [ahead](direction:forward) a [little](quantity:less)
+- [Please](action:please) take me to the next step
+- Next step please
+- Go on
+- next step please
+- next step plz
+- step [forward](direction)
+- Jump to the next step
+- we should probably get moving
+- [Guys](gender:male) I think we should start moving on.
+- lets go a [little](quantity:less) [further](direction:forward)
+- Go to the next step
+- lets move [ahead](direction:forward)
+- let's go [ahead](direction:forward)
+- take me to the next step
+- Move a step [forward](direction)
+- let's get on with this
+- Next
+- uh... next
+
+## intent:asking_goto_previous_step
+- Take me to the previous step
+- [previous](direction:backward) step please
+- which is the [previous](direction:backward) step?
+- I want to go to the previous step.
+- show me the previous step
+- can you please go [back](direction:backward) a [little](quantity:less)
+- i [wanna](grammar:want) go a step [back](direction:backward)
+- Please take me to the previous step
+- Previous step please
+- let's go [back](direction:backward)
+- before this.
+- Go [back](direction:backward)
+- what was that before this?
+- a step [back](direction:backward)
+- Jump to the previous step
+- Go to the previous step
+- go [back](direction:backward)
+- step [backward](direction)
+- show me before this
+- stop, go [back](direction:backward)
+- Can you [plz](action:please) tell me the [previous](direction:backward) step?
+- ah.. [back](direction:backward)
+- sho me the previous step
+- [previous](direction:backward)step
+- take me [back](direction:backward).
+- go [back](direction:backward) a [lil](quantity:less)
+- Move a step [backward](direction)
+- what was the previous step about?
+- move [li'l](quantity:less) [backwards](direction)
+
+## intent:asking_how_are_you
+- How are you?
+- R u okay?
+- how r you?
+- how are ya?
+- how are you doing?
+- Are you alright?
+- how's it going?
+- Are you okay?
+- Is everything ok?
+- how r u holding [up](direction)?
+- Are you feeling good?
+- r u ok?
+- how are you doing this [morning](time)
+- how's it hanging?
+- how about your [day](time)
+- how's your life treating you?
+- how are things going?
+- wat else is happening in ur lyf?
+- Feeling better?
+- do you feel good?
+- how's life?
+- hw u have been?
+- How was your [day](time)?
+- how is your [day](time)?
+- how's it going?
+- how are things?
+- how are you
+- Is everything alright?
+- Is everything okay?
+- how are you doing [today](date)
+- how are you doing by yourself?
+- hows it going?
+- how do you do?
+- how is your [evening](time)
+- How's your [day](time) going?
+- how are you feeling?
+- how r u?
+- how r things?
+- how are you holding [up](direction)?
+- How do u do?
+- how's ur life?
+- how you have been?
+- what's new?
+
+## intent:asking_someones_name
+- what is your name?
+- May I know your name?
+- what is your name?
+- wat is your name
+- what is ur name?
+- Tell me your name.
+- What do I call you?
+- what should I call you?
+- what should I call u?
+- what's your name?
+- wat's ur name?
+- What [could](grammar:could) be your name?
+- tell me ur name.
+- what name do you go by?
+- Do you have a name?
+- do you have a name? what is it?
+- what are u named?
+- Say your name.
+- What are you named after?
+- what are you named?
+- What do [people](people) call you?
+- what do [people](people) call u?
+- Can you tell me your name?
+- can u tell me ur name?
+- Can you [plz](action:please) tell me your name?
+- May I know your name?
+- may i know ur name?
+- May I know your name?
+- tell me your name?
+- what's your name?
+- I'd like to know your name.
+- Inform me what your name is.
+- Please tell me your name.
+- May I know your name, please?
+- Can you tell me your name, please?
+- what is the name that your given?
+- What are you called?
+- who r u?
+- whats ur name?
+- who is speaking?
+- who is talking?
+- I need to know who are u?
+- what does [everyone](people) call you?
+- what are u called?
+- What did your [parents](people) call you?
+- What did your [colleagues](people) call you?
+- Do you know what your name is?
+- What is your first name?
+- What is your full name?
+- Can I get to know whom I am talking to?
+- what exactly is your name?
+- Explain me your name.
+- Who are you again?
+- What name [should](grammar:should) I recognize you with?
+- And what shall I call you?
+- What shall I call you?
+- who is this?
+- what on [earth](planet) are you?
+- who on [earth](planet) are you?
+- I wanna know who are you?
+- whom am i speaking to?
+- Who is this?
+- whom I am talking to?
+- who's this?
+- whom am I talking to?
+- who is this?
+- what on [earth](planet) should I call you?
+
+## intent:asking_weather_details
+- [pleas](action:please) tell me [today](date)'s weather.
+- what is the weather like?
+- tell me the weather.
+- what [cud](grammar:could) be the weather out there?
+- will you please tell me the weather for [today](date)
+- tell me weather, please
+- I need to know the weather
+- what [would](grammar:would) be the weather there?
+- what is the weather?
+- Do a weather check.
+- I need some help with weather details
+- show me weather
+- tell me the weather.
+- what is the weather information [today](date)
+- i need to know the weather details
+- I want to understand the weather out [today](date)
+- I want the weather details, please.
+- what is the weather like?
+- what is the weather?
+- Weather check
+- I want the weather details.
+- Show me the weather details.
+- what's the weather there?
+- I need the weather details.
+- how [cold](temperature) is there?
+- What's the weather [today](date)?
+- May I know the weather, please?
+- Can I get the weather details, please?
+- I wonder what is the weather out there?
+- What is the weather out there?
+- I want to know the weather details.
+- what's the weather like outside?
+- I want to know what's the weather?
+- I wonder how is the weather out there?
+- Can you tell me weather, please?
+- check weather
+- tell me weather
+- How is the weather [today](date)?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+- Is it hot or cold?
+- Beautiful [day](time), isn't it?
+- What's the weather forecast?
+- Is it quite breezy outside?
+
+## intent:asking_weather_details+telling_current_location
+- What's the weather in [London](city) [today](date)?
+- what is the weather in [Berlin](city) as we speak?
+- Show me the weather in [Paris](city)
+- How [warm](temperature) would it be in [malibu](city)?
+- I wonder what is the weather in [Vilnius](city) [right now](time)?
+- Show me what's the weather in [Munich](state)
+- How [hot](temperature) is it in [Rajasthan](state)?
+- Can you [plzzz](action:please) tell me what's the weather [today](date) in [Mumbai](city)?
+- tell me weather in [Mumbai](city).
+- Show me the weather in [Dublin](city), please
+- Can you please tell me the weather in [Thane](city)
+- tell me weather in [Bristol](city)
+- I wonder what [wud](grammar:would) be the weather in [Paris](city).
+- tell me [current](time) weather in [malibu](city)
+- what is the weather like in [shanghai](city)?
+- whats the weather like in [china](country)?
+- what is the [climate](weather) in [Mumbai](city)?
+- tell me weather conditions for [Mumbai](city)
+- how is the [climate](weather) in [Thane](city)?
+- what is the weather like [today](date)?
+- how [hot](temperature) is it in [Texas](state)?
+- how [cold](temperature) it would be in [london](city) [right now](time)?
+- I'm guessing what [cud](grammar:could) be the weather be like in [New York](city)?
+- what could the weather be like in [paris](city) [now](time)?
+- what must be the [climate](weather) in [Sudan](country) right now?
+- I wonder how must the weather be in [Mexico](country).
+- what weather [should](grammar:should) I expect in [california](state)?
+- [mexico](country)'s weather
+- how [cold](temperature) it would be in [Dublin](city), now?
+- I want to know how [cold](temperature) is the temperature in [Mumbai](city) is?
+- tell me weather condition in [russia](country).
+- what must be it like the weather in [russia](country)?
+- what could be the [climate](weather) of [algeria](country) be like?
+- tell me the [climatic](weather:climate) conditions of [norway](country) now.
+- what [wud](grammar:would) be the weather like in [New Jersey](state)?
+- what do you think the weather of [Mumbai](city) is like?
+- tell me [mumbai](city)'s weather.
+- tell me weather in [Oklahoma City](city).
+- What are the weather conditions in [Toronto](city)?
+- tell me [malibu](city)'s weather [today](date)
+- How is the weather in [Oklahoma City](city)?
+- How [humid](temperature) is it in [Madagascar](country)?
+- weather condition in [Cairo](city).
+- Currently Im in [Mumbai](city). what is the weather here?
+- wats the weather be like in [Seoul](city)?
+- how [chilling](temperature) it would be in [Rhode Island](state)?
+- May I understand the weather conditions in [Alabama](state)?
+- Is the weather nice in [Barcelona](city) [today](date)?
+- How is [Europe](country) doing in terms of weather conditions?
+- tell me weather in [Brazil](country)
+- how is the [climate](weather) in [Sudan](country)?
+- Weather in [Mumbai](city)?
+- [Mumbai](city)'s weather?
+- How is the weather be like in [Lyon](city)?
+- what is the [climate](weather) in [Washington](state) now?
+- do you know the weather conditions in [Algeria](country)?
+- weather in [New York](city)
+- How is the weather in [Westminster](city)?
+- tell me weather in [aberdeen](city)
+
+## intent:asking_who_built_you
+- [Plz](action:please) tell me who made you
+- Tell me your creator's name
+- Tell me your boss's name
+- can you share your boss's details with me?
+- I wanna know who made you
+- I want know who created you
+- I [wanna](grammar:want) know who invented you
+- May I ask who invented you?
+- Please tell me who created you?
+- tell me [more](quantity) about your creator
+- tell me about your founders
+- who created you?
+- who brought you into existence?
+- Who's your boss?
+- who's your builder?
+- Who built you?
+- Who created you?
+- Who designed you?
+- who made u?
+- who is ur creator?
+- who fabricated you?
+- who is your boss?
+- who made u like this?
+- Who modelled you?
+- Who thought of building you?
+- who designed u?
+- who is your creator?
+- who programmed you?
+- who is [behind](direction) you?
+- who is your boss tell me
+- Who is your boss
+- Who owns you?
+- who built you?
+- who made you?
+- who thought of making you?
+
+## intent:asking_play_music_with_no_track_details
+- play music
+- Play some [musci](music:track)
+- thrill me.
+- Play music.
+- how quiet is here. music please
+- can you please play something?
+- make my mood.
+- I want to hear some music very badly
+- I [wud](grammar:would) like to [listen](action) to some music.
+- Play some [musik](music:track)
+- Drop the needle.
+- make me happy.
+- start the [beat](music:track)
+- Charlotte, could you please play something?
+- i want a live performance
+- i [wnna](grammar:want) dance to some music.
+- I want some music here.
+- i would like to calm myself by some soothing music
+- play that [tune](music:track).
+- play songs
+- [Daddy](people)'s home!
+- yes i would like some music to be playing [now](time).
+- play something
+- Cheer me up.
+- dance mode on!!!
+- i would like to dance to some music
+- show me your musical talent
+- play anything on music player.
+- music please
+- can you play some [music](music:track) to release the tension?
+- play the [tune](music:track) from your system
+- Drop basss!
+- i [wanna](grammar:want) [listen](action) some music
+- [cud](grammar:could) you please play something?
+- i'm feeling low. play something
+- make me feel comfortable
+- i wanna enjoy music
+- [babe](gender:female), play something for me, would you?
+- can you play something that would make me happy?
+- shoot me with some [beats](music:track)
+- drop the beat
+- make some noise
+- turn on the [music](music:track)
+- calm me.
+- play me [songs](music:track) like this.
+- cheer me up.
+- wanna sing a song now!!
+- i want to hear some music
+- please me
+- Play something
+- playy music
+- help me relax.
+- play anything on music player.
+- i want to relax myself by music
+- play music to set my mood
+- put the music in action
+- Set the mood
+- turn the music on!!
+- drop my needle
+- I am feeling little low. cheer me [up](direction).
+- I'm feelin a low. Pep me up.
+- drop that bass
+- sure. play something.
+
+## intent:asking_play_music_with_genre
+- [cud](grammar:could) u play [edm](genre)?
+- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](genre) [music](music:track).
+- Play [Dubstep](genre) songs
+- Play [edm](genre), would u?
+- Play [edm](genre) music.
+- Play [dubstep](genre) songs.
+- Cn you play [rap](genre)?
+- Play [Dubstep](genre) [music](music:track).
+- what do u think of [dubstep](genre) Play it.
+- [could](grammar:could) u play [rap](genre) for us?
+- play [rap](genre) for me dear
+- could youu play some [edm](genre).
+- will u play some [edm](genre)
+- could youu play some [dubstep](genre).
+- I wanna dance to some [edm](genre) music.
+- I wanna dance to some [rap](genre) music.
+- Play some [Dubstep](genre) music
+- please play [rap](genre) [song](music:track)
+- Play [dubstep](genre). please.
+- Some [edm](genre) here would be nice.
+- Play the [Dubstep](genre).
+- Play [Dubstep](genre).
+
+## intent:saying_goodbye
+- Bye
+- bye
+- goodbye
+- Good Bye
+- good [night](time)
+- goodnight
+- see you [later](time)
+- see you
+- see ya
+- cya
+- c ya
+- cu
+- bye bye
+- got to go
+- gotta go
+- c u
+- farewell
+- catch you [later](time)
+- catch u [later](time)
+- bye for [now](time)
+- smell you [later](time)
+- it was nice talking to you
+- it was nice talking to u
+- okay bye
+- k bye
+- will see you [soon](time)
+- will talk to u [soon](time)
+- ttyl
+- talk to you [later](time)
+- talk to u [later](time)
+- ciao
+- bye!
+- good bye!
+- Goodbye!
+- goodbye [friend](people)
+- bu-bye
+- tata
+- see u around
+- see you next time
+- until next time
+- byee
+- byeee
+- byyeee
+- ta ta
+- ok bye
+- have a nice [day](time)
+- have a good [day](time)
+- have a great [day](time)
+- see you [friend](people)
+- goodbye
+
+## intent:saying_hello
+- Hi
+- Hey
+- Hello
+- Hi again
+- Oh hello
+- Hey you!
+- Hey hi!
+- hey there
+- hello again
+- greetings
+- Hi again
+- Hi [folks](people)
+- hallo
+- hola
+- heya
+- hiya!
+- howdy
+- How you doing?
+- whats [up](direction)?
+- Heya
+- hi there
+- hi there, it's me
+- hey, let's talk
+- Well, hello there
+- hey there!
+- yo!
+- Oi!
+- Hola!
+- Bonjour!
+- Que pasa!
+- Wassup?
+- whaddup
+- wazzup?
+- yo
+- Hey [pal](gender:male)!
+- Hey bot
+- Hi bot!
+- Helllo
+- helloo
+- hellooo
+- Hi?
+- Aye!
+- Ahoy!
+- hey!
+- have a good [evening](time)
+- good [morning](time)
+- good [day](time)
+- gday
+- good [afternoon](time)
+- good [evening](time)
+- Hey yo!
+- Heyo!
+- Hope you are having a good [day](time)
+- Hey [boy](gender:male)
+- hey [girl](gender:female)
+- Hey [man](gender:male)!
+- hey [friend](people)
+- hi
+- Hello
+- hello
+- hello
+- hello
+
+## intent:saying_hello+asking_how_are_you
+- Hello! how are you?
+- hey! how are you?
+- Ahoy mate! how are you?
+- Hi! how are you?
+- Hey there! how r u?
+- hei! how are you?
+- hello! how are you?
+- Hey hi! What's up?
+- hello hw u have been?
+- Yo! whaddup [bruh](gender:male)
+- Hey! Is everything alright?
+- Hey! what's [up](direction)?
+- Hey yo! What's [up](direction)?
+- Hey! how's everything?
+- Hello! how are you?
+- Hi! How are you?
+- Hey! Good [morning](time). How are you?
+- Hello how are you?
+- Yo! what is up?
+- Oi! how r u?
+- Hello good [morning](time). How are you?
+- Good [evening](time). How are you?
+- Good [afternoon](time). How is it going?
+- Hey! how are you doing lately?
+
+## intent:saying_hello+asking_someones_name
+- Hi! who is this?
+- Hello! May I have your name?
+- Hey there! Can you tell me your name?
+- Hey! Could you please tell me your name?
+- Hello! what's your name?
+- good [afternoon](time)! can you tell me ur name.
+- Hi there! May I have your name, please?
+- Hi! May I know whom am I talking to?
+- Good [evening](time)! May I have your name, please?
+- Hello! Can I have your name please?
+- Yo! Tell me your name.
+- Yo! Temme your name
+- Hey there! Can I know your name?
+- Good [day](time)! Tell me your name.
+- Hello there! can i have ur name?
+- hey! may i know ur name, please?
+- Good [morning](time)! Please tell me your name.
+- Hi! Whom am I speaking to?
+- Hi! who are you again?
+- Oi! Tell me your name.
+- Hello! What's your name?
+- Hey! Can you quickly tell me your name?
+- hellooo! whats ur name?
+- Hey [friend](people)! What r u called?
+- Hey [mate](people)! whats your name?
+- Hi there! who is this?
+- Hi there. Who are you?
+- hi! what's your name?
+
+## intent:saying_hello+asking_weather_details+telling_current_location
+- hey tell me weather for [Washington](state)
+- hello, I want to weather for [brisbane](city).
+- I want details updates for [Mumbai](city) and Hi by the way.
+- Heyo! tell me weather in [Sacramento](city)
+- hello update me with weather details for [westeros](state)
+- hi tell me weather in [San Francisco](city)
+- Hi. Waht are the weather updates for [Sacramento](city)?
+- hey tell me weather in [America](country)
+- Hello. tell me weather in [Mumbai](city)?
+- hey I need weather details for [Mumbai](city).
+- yo! tell me weather for [abhor](city)
+- Hello tell me weather for [Abakan](city)
+- hey girl, can you get me weather details for [Alaska](state)?
+- Hello [Mumbai](city), weather details.
+- hi. how does the weather look like in [LA](city)?
+- howdy! tell me weather in [Alabama](state)
+- hey can you tell me weather in [luxemborg](country)?
+- Helllooo I'm in [Mumbai](city) I need weather details
+- Hey! I'm in [North Carolina](state). Can you [puh-lease](action:please) tell me the weather here?
+- Hey I need weather conditions for [Abuja](city).
+- hey get me weather update for [San Francisco](city)
+
+## intent:saying_no
+- no
+- Nope
+- Not a chance
+- Wrong
+- Not okay
+- Incorrect
+- that's not correct
+- that's wrong
+- nope
+- No. That's all i wanted.
+- I don't think so.
+- not cool
+- not okay
+- that's not okay
+- that's not good
+- Nahi
+- not really
+- no!!!!
+- not possible
+- not a chance
+- that's not what I meant
+- that is incorrect
+- No!
+- sounds terrible
+- deny
+- negative
+- No. That will be it.
+- disagree
+- didn't understand
+- Nah
+- Naa
+- Naah
+- don't go for it
+- that's incorrect
+- that's [stupid](bleep_words)
+- that's horrible
+- not my thing
+- nt a chance
+- nt sure
+- no, I can't
+- I disapprove
+- Nope. That's all I need
+- reject
+- refuse
+- rejection
+- cancel
+- of course not
+- Nothing!
+- cannot say
+- can't confirm
+- naa
+- not right
+- Not sure
+- disagree
+- Nope
+- deny
+- definitely not
+- never
+- absolutely not
+- I don't think so
+- I'm afraid not
+- No [sir](gender:male)
+- No [ma'am](gender:female)
+- No, not really
+- no way
+- No way!
+- no no no
+- that's all
+- No! No!
+- Nothing from me
+- No thanks
+- That's not right
+- decline
+- nevermind
+- Sorry no
+- no. thanks
+- not really
+- not for real
+- never mind
+- I don't [wanna](grammar:want) give it to you
+- I don't think I'll giving it to you
+- I dn't want to.
+- Neither of these
+- Nah thanks
+- No you [moron](bleep_words)
+- No!!
+- No!
+- nope. thank you.
+- Nothing
+- No [folks](people)
+- No [people](people)
+- that's not [right](direction)
+- No.
+- no. that's fine
+- nope, that [wud](grammar:would) be it
+- no new selection
+- no thanks
+- no thank you
+- breath no
+- ah no
+- do you have something else
+- no this does not work for me
+- no danish food
+- no north
+- no new selection
+- no im looking for pan asian
+- no thanks
+- no i want american food
+- no thank you good bye
+- no thank you
+- no spanish food
+- no im looking in the south of the town
+- no indian food
+- uh no
+- no american food
+- no the south part
+- oh no and cheap
+- no spanish
+- no british food
+- no south part of town
+- no im looking for one that serves vietnamese food
+- do you have something else
+- no chinese
+- no i want halal food
+- no hungarian food
+- no center
+- no this does not work for me
+- no thai
+
+## intent:saying_no_for_telling_name
+- I'm not going to tell my name
+- I won't tell you my name.
+- i will not tell u my name.
+- nope, I can't tell u my name.
+- I wont say my name.
+- I cannot tell you my name
+- I won't tell you my name.
+- no telling name.
+- Why do you need my name? I'm not telling you.
+- No identity breaching
+- i'm not telling that
+- i cannot say my name to you.
+- No way, I'm tell you my name.
+- I am not going to tell my name.
+- No name telling.
+- It's a secret.
+- I won't tell u my name [now](time), maybe [later](time)?
+- No no no, i'm not telling u that
+- I shall never tell u my name
+- negative. I will not tell u my name.
+- I will not tell u ma name.
+- No, I cannot tell you my name.
+- I won't reveal my name to you.
+- I shan't say my name
+- No. I cannot tell my name.
+- I'm not authorized to reveal that.
+- i cannot tell u my name
+- I cannot say my name.
+- Nope. I will never tell you my name.
+- Sorry, my identity is a secret
+- Mom said not to reveal my identity
+- It is very difficult for me to tell u my name.
+- I'm sorry, I cannot tell you that.
+- sorry, [cud](grammar:could) you [plzz](action:please) ask something else?
+- Sorry, I cannot tell u my name.
+- I refuse to tell you my name
+- No way i'm telling u my name.
+- NO. I will not tell you my name.
+- Why you need my name? I'm not telling you the details.
+- I cannot tell you my name or any other details.
+- I'm not authorized to reveal any details
+- i can't tell u that.
+- I'm afraid I cannot tell that.
+- I will not tell you my name
+- I cnnot reveal my identity
+- no, i'll not tell you my name.
+- I m not gonna tell u my name
+- I'm afraid I cannot tell you my identity
+- Nah, i'm not interested in telling you my name.
+- Sorry, i cannot tell ya my name.
+- I can't give you that information
+- I cannot tell my name to a [stranger](people).
+- nope I'm not telling you my name
+- I will not say my name to you.
+- I'm sorry, I cannot tell you my name.
+
+## intent:saying_okay
+- okay
+- ok
+- ok cool
+- Oh, okay
+- Uh, okay
+- Alrighty
+- owkay!!
+- OKAY!
+- okay alright
+- ok cool
+- sounds okay to me.
+- okay cool
+- [Natasha](name) that's absolutely fine.
+- that's absolutely fine.
+- fine
+- that's fine.
+- oki doki
+- okay. alright
+- alright. I got this.
+- got it
+- Gotcha!
+- I get it [Alice](name), its okay.
+- that's totally fine.
+- gotcha
+- It's okay, [Hannah](name)
+- I think it's fine.
+- understood
+- okay, that's fine.
+- Hmmm, okay
+- OKAY!
+- hmmm ok
+- Its okay [XA](ai_creator:xa).
+- oh ok
+- alright
+- okay. I understood
+- It's fine with me.
+- [Charlotte](name), its alright.
+- Ah ok.
+- Owkay.
+- Owkay alright!
+- alright, that's fine.
+- it's okay, [Tony](name)
+- its alright.
+
+## intent:saying_thank_you
+- Thanks
+- Thank you
+- Thank you very much
+- Thanks for that
+- cheers
+- Thanks!
+- Thank you!
+- cheers [bro](gender:male)
+- cheers [girl](gender:female)
+- ok thanks!
+- okay thanks!
+- okay thank you!
+- Shukriyah
+- Shukriya
+- Thanks [a lot](quantity:more) [Saj](name)
+- perfect thank you
+- perfect thanks!
+- thanks [a bunch](quantity:more) for everything
+- thanks for the help
+- thanks [a lot](quantity:more)
+- cool, thanks
+- cool, thank you
+- thanks
+- dhanyawad
+- thank you, [ruby](name)
+- danke schön
+- thanks [bruh](gender:male)
+- thank you [gal](gender:female)
+- Thank you so much
+- thanks!
+- thanks [a ton](quantity:more)!
+- I appreciate what you did.
+- really appreciate it. thanks [XA](ai_creator:xa)!
+- Cool. Thanks
+- thanks
+- thanks [Sam](name)
+- thanks this is great
+- thank you
+- thankful!
+- I'm very thankful to you.
+- great thanks
+- cool thanks
+- thanks!
+- thanks, [Michelle](name)
+
+## intent:saying_thank_you+saying_goodbye
+- um thank you good bye
+- okay cool uh good bye thank you
+- okay thank you good bye
+- you rock [xa](ai_creator)
+- and thats all thank you and good bye
+- thank you and good bye
+- sorry about my mistakes thank you good bye
+- noise thank you good bye
+- thank you goodbye noise
+- okay thank you goodbye
+- uh thank you good bye
+- thank you goodbye
+- thank you goodbye noise thank you goodbye
+- breath thank you goodbye
+- thank you
+- okay thank you
+- thanks goodbye
+- ah thank you goodbye
+- thank you noise
+- thank you good bye
+- breath thank you very much goodbye
+- thanks
+- noise thank you goodbye
+- unintelligible thank you goodbye
+- uh okay thank you good bye
+- thank you bye
+- um okay thank you good bye
+
+## intent:saying_yes
+- yes
+- Of course
+- Uh huh
+- [right](direction)
+- sure
+- yeah!
+- Hell yes!
+- Yas
+- Yass!
+- Yep
+- Yup.
+- indeed
+- Yes [sir](gender:male)
+- Yes [madam](gender:female)
+- Yes my [lady](gender:female)
+- Yes please
+- accept
+- Oh awesome!
+- go for it
+- yep, will do thank you
+- Yes
+- yep, will do
+- I accept
+- accept
+- Hell yeah!
+- yes, got it.
+- I accept it
+- yes [sir](gender:male)
+- that sounds good.
+- yes please
+- yes, will do
+- yes, please
+- yop
+- confirm
+- that's correct
+- agree
+- Ho
+- yup
+- Yup!
+- uh huh
+- approve
+- Absolutely [sir](gender:male)
+- yes, sounds good to me.
+- sure thing
+- absolutely
+- Sure
+- Sure, why not
+- great
+- yes [ma'am](gender:female)
+- that's so correct
+- correct!
+- sounds good
+- how nice!
+- that's great!
+- sure!
+- I knew it.
+- definitely yes without a doubt
+- that's a step in [right](direction) direction
+- yes
+- yup
+- uh yes im looking [forward](direction) to it
+- yeah that's correct
+- correct
+- ye
+- uh yes
+- let's do it
+- yeah
+- yes that sounds bout right
+- yes
+- i love that
+
+## intent:telling_current_location
+- I'm going to [France](country)
+- In [Fenchurch](street).
+- Out of [Las Vegas](city)
+- I am from [The United States of America](country:usa)
+- I'll be leaving for [Mumbai](city) this [morning](time).
+- in [Delhi](state)
+- at [Oberhausen](city)
+- Im calling from [britain](country:uk)
+- In [london](city), please
+- I am at [CST](train_station) [now](time)
+- [United States](country) is the place.
+- I'll leave for [San Francisco](city) [tomorrow](date).
+- I'm in [Mumbai](city).
+- [Russia](country)
+- I'll be in [Kolkata](city)
+- Im from [Kolkata](city).
+- I am leaving for [chicago](city).
+- I'm leaving [US](country:usa) for [now](time)
+- I'm in [South Dakota](state)
+- I'm driving to [US](country:usa) on my own.
+- We are visiting [Stonehenge](landmark) [tomorrow](date).
+- We arrived at [Las Vegas](city) [airport](airport) this [morning](time)
+- We should have a drink in [Las Vegas](city).
+- I'll be travelling to [London](city) [tomorrow](date) [morning](time).
+- I'm in [Mumbai](city)
+- I'll be going to [Dadar](train_station) for picking up [Charlotte](name)
+- I am planning my trip to [Amsterdam](city).
+- I am currently residing in [the states](country:usa) [now](time)
+- At [Costa Rica](country).
+- in [London](city).
+- Near [Dr. R.P.Road](street)
+- [tomorrow](date) I'm coming to [Denmark](country)
+- I'm based of [San Francisco](city)
+- I live in [New York](city)
+- I'll be flying to [Unites States of America](country)
+- At [Frankfurt](city) [airport](airport)
+- in [Westminster](city) please.
+- In [tokyo](city).
+- [Mumbai](city)
+- [USA](country:usa)
+- I'm from [Mumbai](city)
+- im in currently in [united Kingdom](country:uk)
+- presently i'm in [berlin](city).
+- I'm currently completing my graduation in [the states](country:usa).
+- [US](country:usa)
+- [United Kingdom](country)
+- I am planning my trip to [Amsterdam](city).
+- on [Freemont street](street)
+- from [America](country:usa)
+- I am going to [London](city) [today](date).
+- I shall be in [Montreal](city) by [tomorrow](date).
+- somewhere in [Bombay](city)
+- Nearby [Thames river](landmark) in [London](city).
+- I'm planning to leave for [Canada](country).
+- I'll see you in [France](country).
+- Currently Im in [Mumbai](city).
+- [UK](country:uk)
+- Why are you in [UK](country:uk)
+- I am going to [London](city) [today](date)
+- We [shud](grammar:should) catchup in [Germany](country).
+- in [San Jose](city).
+- In [Mumbai](city)
+- Well I'm in [Mumbai](city) right now.
+- in [shanghai](city)
+- for [cairo](city)
+- in [toronto](city)
+- In [San Francisco](city)
+- in the [great britain](country:uk)
+- at [Baker street](street).
+- in [the united states of america](country:usa)
+
+## intent:telling_my_name
+- [Charlotte Parks](full_name)
+- My name is [Max Richard](full_name)
+- [Sarah White](full_name)
+- I'm [Kristen Miller](full_name)
+- [Ann Vunderbacht](full_name)
+- [Victoria McMillan](full_name)
+- [Denise Hughes](full_name)
+- [Joshua Geldorf](full_name)
+- [Susan Sandsburn](full_name)
+- [Taylor Jones](full_name)
+- [Meredith Grey](full_name)
+- [Alex Karev](full_name)
+- my name is [linda](name)
+- my name is [marc](name)
+- [Mr. XA](ai_creator:xa)
+- [Philip](name)
+- [Jim](name)
+- [Jim Scharwz](name)
+- And, I'm [Ironman](name) snaps*
+- my name is [meenal](name)
+- My name is [XA](ai_creator:xa)
+- [XAMES3](ai_creator:xa)
+- [xa](ai_creator:xa)
+- [XA MES3](ai_creator:xa)
+- [Elise](name)
+- My name is [XAMES3](ai_creator:xa)
+- You can call me [Freya](name)
+- [linda](name)
+- [Jacqueline](name)
+- i'm [robert](name)
+- I'm [Batman](name)
+- it's [Ali Park](full_name)
+- My name is [Tom](name)
+- [Al Capone](full_name)
+- [Akshay Mestry](ai_creator:xa)
+- my name is [jimmy](name)
+- [akela](name)
+- [James](name)
+- [XAMES3](ai_creator:xa)
+- [Danny](name)
+- [Danny Daniels](full_name)
+- [Lana Rhoades](full_name)
+- You can call me [Johnny](name)
+- Please call me [Chanel](name)
+- Name is [Rick](name)
+- my name is [Xavier K. Lapham](full_name)
+- it's [Rupert Kay Lawrence](full_name)
+- I go with name [Khanese C. Sharma](full_name)
+- [People](people) all me [Josh](name)
+- They call me [XA](ai_creator:xa)
+- They recognize me as [xa](ai_creator:xa)
+- I am [Brodie](name)
+- I'm [Michelle](name)
+- [Tony](name)
+- [Peter](name)
+- [Bruce](name)
+- [Natasha](name)
+- [Tan](name)
+- I am [Richard](name)
+- I'm [Mestry Akshay](ai_creator:xa)
+- [Chanel Preston](full_name)
+- I'm [Scott](name)
+- Call me [Emma](name)
+- I am [Festo](name)
+- I am [Charlie](name)
+- [Mike](name) is my name
+- [XAMES3](ai_creator:xa) is the name
+- [Betty](name) is my first name
+- [Ross](name) is my last name
+- Few call me as [Natalie](name)
+- [Mr. Joseph](name)
+- name is [David](name)
+- I'm [Chantelle](name)
+- Some call me [Uma](name)
+- Everyone calls me [XAMES3](ai_creator:xa)
+- I am [Ganesh](name)
+- My name is [Mike](name)
+- just call me [Monika](name)
+- Few call [Dan Cassey](full_name)
+- You can always call me [Shashank](name)
+- Some will call me [Ashlesha](name)
+- My name is [Shubhra](name)
+- I call [Akshita](name)
+- People call me [Steve](name)
+- It's [Shaun](name)
+- My name is [John](name)
+- I am [XAMES3](ai_creator:xa)
+- You can call me [Alan](name)
+- Call me [Mike](name)
+- Please call me [Meredith](name)
+- Usually people call me [Daisy](name)
+- [Shrushthi Patel](full_name)
+- [Peter](name)
+- [Elon](name)
+- [Nightking](name)
+- My full name is [Akshay Arvind Mestry](ai_creator:xa)
+- I'm [Akshay](name)
+- [Pl](action:please) call me [Leonardo](name)
+- name is [Shweta](name)
+- name [Sanjay](name)
+- my name is [Bran Stark](name)
+
+## synonym:xa
+- XA
+- Mr. XA
+- XAMES3
+- xa
+- XA MES3
+- Akshay Mestry
+- Mestry Akshay
+- Akshay Arvind Mestry
+
+## synonym:artist
+- band
+
+## synonym:backward
+- previous
+- back
+
+## synonym:climate
+- climatic
+
+## synonym:female
+- ma'am
+- girl
+- gal
+- madam
+- lady
+
+## synonym:forward
+- ahead
+- further
+
+## synonym:less
+- little
+- lil
+- li'l
+
+## synonym:male
+- sir
+- Guys
+- pal
+- boy
+- man
+- bruh
+- bro
+
+## synonym:more
+- a lot
+- a bunch
+- a ton
+
+## synonym:movie
+- picture
+- film
+
+## synonym:please
+- plzz
+- Please
+- plz
+- pleas
+- plzzz
+- Plz
+- puh-lease
+- Pl
+
+## synonym:track
+- music
+- musci
+- tune
+- songs
+- rhythms
+- tunes
+- songz
+- beats
+- tracks
+- cover
+- msuic
+- musik
+- musical tracks
+- song
+- beat
+- songzz
+- songg
+
+## synonym:uk
+- britain
+- united Kingdom
+- UK
+- great britain
+
+## synonym:usa
+- The United States of America
+- US
+- the states
+- USA
+- America
+- the united states of america
+
+## synonym:want
+- wana
+- wanna
+- wann
+- want to
+- Wanna
+- wnna
