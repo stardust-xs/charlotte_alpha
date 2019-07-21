@@ -124,7 +124,7 @@ def find(file: str, file_dir: str, min_score: int = 65) -> tuple:
                 return no_match_found, no_match_score
 
 
-def play_music(file: str, file_dir: str = PATH['music']) -> None:
+def play_music(file: str = None, file_dir: str = PATH['music']) -> None:
     """
     Definition
     ----------
@@ -141,12 +141,18 @@ def play_music(file: str, file_dir: str = PATH['music']) -> None:
             Here, it`s under Music directory.
             Global default: D:/Music/
     """
-    from os import startfile
-    from os.path import join
+    from os import startfile, listdir
+    from os.path import isfile, join
+    from random import choice
 
-    file_name, file_score = find(file, file_dir)
-    if file_score == 0:
-        return file_name
+    if file is not None:
+        file_name, file_score = find(file, file_dir)
+        if file_score == 0:
+            return file_name
+        else:
+            music_file = join(file_dir, file_name)
+            startfile(f'{music_file}')
     else:
-        music_file = join(file_dir, file_name)
-        startfile(f'{music_file}')
+        random_file = choice([join(PATH['music'], file) for file in listdir(
+            PATH['music']) if isfile(join(PATH['music'], file))])
+        startfile(random_file)
