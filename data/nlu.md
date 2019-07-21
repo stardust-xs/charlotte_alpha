@@ -143,6 +143,99 @@
 - how you have been?
 - what's new?
 
+## intent:asking_play_any_music
+- play music
+- Play some [musci](music:track)
+- thrill me.
+- Play music.
+- how quiet is here. music please
+- can you please play something?
+- make my mood.
+- I want to hear some music very badly
+- I [wud](grammar:would) like to [listen](action) to some music.
+- Play some [musik](music:track)
+- Drop the needle.
+- make me happy.
+- start the [beat](music:track)
+- Charlotte, could you please play something?
+- i want a live performance
+- i [wnna](grammar:want) dance to some music.
+- I want some music here.
+- i would like to calm myself by some soothing music
+- play that [tune](music:track).
+- play songs
+- [Daddy](people)'s home!
+- yes i would like some music to be playing [now](time).
+- play something
+- Cheer me up.
+- dance mode on!!!
+- i would like to dance to some music
+- show me your musical talent
+- play anything on music player.
+- music please
+- can you play some [music](music:track) to release the tension?
+- play the [tune](music:track) from your system
+- Drop basss!
+- i [wanna](grammar:want) [listen](action) some music
+- [cud](grammar:could) you please play something?
+- i'm feeling low. play something
+- make me feel comfortable
+- i wanna enjoy music
+- [babe](gender:female), play something for me, would you?
+- can you play something that would make me happy?
+- shoot me with some [beats](music:track)
+- drop the beat
+- make some noise
+- turn on the [music](music:track)
+- calm me.
+- play me [songs](music:track) like this.
+- cheer me up.
+- wanna sing a song now!!
+- i want to hear some music
+- please me
+- Play something
+- playy music
+- help me relax.
+- play anything on music player.
+- i want to relax myself by music
+- play music to set my mood
+- put the music in action
+- Set the mood
+- turn the music on!!
+- drop my needle
+- I am feeling little low. cheer me [up](direction).
+- I'm feelin a low. Pep me up.
+- drop that bass
+- sure. play something.
+- play something
+- charlotte, play something
+- play music
+
+## intent:asking_play_music_with_genre
+- [cud](grammar:could) u play [edm](genre)?
+- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](genre) [music](music:track).
+- Play [Dubstep](genre) songs
+- Play [edm](genre), would u?
+- Play [edm](genre) music.
+- Play [dubstep](genre) songs.
+- Cn you play [rap](genre)?
+- Play [Dubstep](genre) [music](music:track).
+- what do u think of [dubstep](genre) Play it.
+- [could](grammar) u play [rap](genre) for us?
+- play [rap](genre) for me dear
+- could youu play some [edm](genre).
+- will u play some [edm](genre)
+- could youu play some [dubstep](genre).
+- I wanna dance to some [edm](genre) music.
+- I wanna dance to some [rap](genre) music.
+- Play some [Dubstep](genre) music
+- please play [rap](genre) [song](music:track)
+- Play [dubstep](genre). please.
+- Some [edm](genre) here would be nice.
+- Play the [Dubstep](genre).
+- Play [Dubstep](genre).
+- play [dubstep](genre)
+
 ## intent:asking_someones_name
 - what is your name?
 - May I know your name?
@@ -155,7 +248,7 @@
 - what should I call u?
 - what's your name?
 - wat's ur name?
-- What [could](grammar:could) be your name?
+- What [could](grammar) be your name?
 - tell me ur name.
 - what name do you go by?
 - Do you have a name?
@@ -197,7 +290,7 @@
 - what exactly is your name?
 - Explain me your name.
 - Who are you again?
-- What name [should](grammar:should) I recognize you with?
+- What name [should](grammar) I recognize you with?
 - And what shall I call you?
 - What shall I call you?
 - who is this?
@@ -220,7 +313,7 @@
 - will you please tell me the weather for [today](date)
 - tell me weather, please
 - I need to know the weather
-- what [would](grammar:would) be the weather there?
+- what [would](grammar) be the weather there?
 - what is the weather?
 - Do a weather check.
 - I need some help with weather details
@@ -289,7 +382,7 @@
 - what could the weather be like in [paris](city) [now](time)?
 - what must be the [climate](weather) in [Sudan](country) right now?
 - I wonder how must the weather be in [Mexico](country).
-- what weather [should](grammar:should) I expect in [california](state)?
+- what weather [should](grammar) I expect in [california](state)?
 - [mexico](country)'s weather
 - how [cold](temperature) it would be in [Dublin](city), now?
 - I want to know how [cold](temperature) is the temperature in [Mumbai](city) is?
@@ -359,95 +452,6 @@
 - who built you?
 - who made you?
 - who thought of making you?
-
-## intent:asking_play_music_with_no_track_details
-- play music
-- Play some [musci](music:track)
-- thrill me.
-- Play music.
-- how quiet is here. music please
-- can you please play something?
-- make my mood.
-- I want to hear some music very badly
-- I [wud](grammar:would) like to [listen](action) to some music.
-- Play some [musik](music:track)
-- Drop the needle.
-- make me happy.
-- start the [beat](music:track)
-- Charlotte, could you please play something?
-- i want a live performance
-- i [wnna](grammar:want) dance to some music.
-- I want some music here.
-- i would like to calm myself by some soothing music
-- play that [tune](music:track).
-- play songs
-- [Daddy](people)'s home!
-- yes i would like some music to be playing [now](time).
-- play something
-- Cheer me up.
-- dance mode on!!!
-- i would like to dance to some music
-- show me your musical talent
-- play anything on music player.
-- music please
-- can you play some [music](music:track) to release the tension?
-- play the [tune](music:track) from your system
-- Drop basss!
-- i [wanna](grammar:want) [listen](action) some music
-- [cud](grammar:could) you please play something?
-- i'm feeling low. play something
-- make me feel comfortable
-- i wanna enjoy music
-- [babe](gender:female), play something for me, would you?
-- can you play something that would make me happy?
-- shoot me with some [beats](music:track)
-- drop the beat
-- make some noise
-- turn on the [music](music:track)
-- calm me.
-- play me [songs](music:track) like this.
-- cheer me up.
-- wanna sing a song now!!
-- i want to hear some music
-- please me
-- Play something
-- playy music
-- help me relax.
-- play anything on music player.
-- i want to relax myself by music
-- play music to set my mood
-- put the music in action
-- Set the mood
-- turn the music on!!
-- drop my needle
-- I am feeling little low. cheer me [up](direction).
-- I'm feelin a low. Pep me up.
-- drop that bass
-- sure. play something.
-
-## intent:asking_play_music_with_genre
-- [cud](grammar:could) u play [edm](genre)?
-- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](genre) [music](music:track).
-- Play [Dubstep](genre) songs
-- Play [edm](genre), would u?
-- Play [edm](genre) music.
-- Play [dubstep](genre) songs.
-- Cn you play [rap](genre)?
-- Play [Dubstep](genre) [music](music:track).
-- what do u think of [dubstep](genre) Play it.
-- [could](grammar:could) u play [rap](genre) for us?
-- play [rap](genre) for me dear
-- could youu play some [edm](genre).
-- will u play some [edm](genre)
-- could youu play some [dubstep](genre).
-- I wanna dance to some [edm](genre) music.
-- I wanna dance to some [rap](genre) music.
-- Play some [Dubstep](genre) music
-- please play [rap](genre) [song](music:track)
-- Play [dubstep](genre). please.
-- Some [edm](genre) here would be nice.
-- Play the [Dubstep](genre).
-- Play [Dubstep](genre).
 
 ## intent:saying_goodbye
 - Bye
@@ -561,6 +565,7 @@
 - hey [friend](people)
 - hi
 - Hello
+- hello
 - hello
 - hello
 - hello
@@ -1118,7 +1123,7 @@
 - my name is [meenal](name)
 - My name is [XA](ai_creator:xa)
 - [XAMES3](ai_creator:xa)
-- [xa](ai_creator:xa)
+- [xa](ai_creator)
 - [XA MES3](ai_creator:xa)
 - [Elise](name)
 - My name is [XAMES3](ai_creator:xa)
@@ -1146,7 +1151,7 @@
 - I go with name [Khanese C. Sharma](full_name)
 - [People](people) all me [Josh](name)
 - They call me [XA](ai_creator:xa)
-- They recognize me as [xa](ai_creator:xa)
+- They recognize me as [xa](ai_creator)
 - I am [Brodie](name)
 - I'm [Michelle](name)
 - [Tony](name)
@@ -1198,16 +1203,6 @@
 - name [Sanjay](name)
 - my name is [Bran Stark](name)
 
-## synonym:xa
-- XA
-- Mr. XA
-- XAMES3
-- xa
-- XA MES3
-- Akshay Mestry
-- Mestry Akshay
-- Akshay Arvind Mestry
-
 ## synonym:artist
 - band
 
@@ -1218,8 +1213,12 @@
 ## synonym:climate
 - climatic
 
+## synonym:could
+- cud
+
 ## synonym:female
 - ma'am
+- babe
 - girl
 - gal
 - madam
@@ -1233,6 +1232,9 @@
 - little
 - lil
 - li'l
+
+## synonym:listen
+- hear
 
 ## synonym:male
 - sir
@@ -1262,22 +1264,25 @@
 - puh-lease
 - Pl
 
+## synonym:should
+- shud
+
 ## synonym:track
-- music
 - musci
+- musik
+- beat
 - tune
+- music
+- beats
 - songs
+- song
 - rhythms
 - tunes
 - songz
-- beats
 - tracks
 - cover
 - msuic
-- musik
 - musical tracks
-- song
-- beat
 - songzz
 - songg
 
@@ -1296,9 +1301,25 @@
 - the united states of america
 
 ## synonym:want
-- wana
 - wanna
+- wnna
+- wana
 - wann
 - want to
 - Wanna
-- wnna
+
+## synonym:what
+- wat
+
+## synonym:would
+- wud
+
+## synonym:xa
+- XA
+- Mr. XA
+- XAMES3
+- XA MES3
+- Akshay Mestry
+- Mestry Akshay
+- Akshay Arvind Mestry
+- xa
