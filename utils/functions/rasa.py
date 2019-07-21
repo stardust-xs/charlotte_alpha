@@ -22,9 +22,6 @@ from . questions import answer, confirm
 from .. fluids.paths import DIR, FILE
 from .. profile.user import ai_lower, ai_title, lower, title
 
-config = FILE['config']
-domain = FILE['domain']
-
 
 def render_model(model: str = None) -> None:
     make_dir(DIR['models'])
@@ -34,20 +31,20 @@ def render_model(model: str = None) -> None:
         if option is True:
             model_name = answer(f'{title}, what would you like to call it?')
             call(
-                f'rasa train --fixed-model-name "{model_name}" --config {config} --domain {domain} --force', shell=True)
+                f'rasa train --fixed-model-name "{model_name}" --force', shell=True)
         else:
             call(
-                f'rasa train --fixed-model-name "{ai_lower}" --config {config} --domain {domain} --force', shell=True)
+                f'rasa train --fixed-model-name "{ai_lower}" --force', shell=True)
     else:
         option = confirm(
             f'Would you like to rename the model, {lower}? Default name is "{model}".')
         if option is True:
             model_name = answer(f'What would you like to call it, {lower}?')
             call(
-                f'rasa train {model} --fixed-model-name "{model_name}" --config {config} --domain {domain} --force', shell=True)
+                f'rasa train {model} --fixed-model-name "{model_name}" --force', shell=True)
         else:
             call(
-                f'rasa train {model} --fixed-model-name "{model}" --config {config} --domain {domain} --force', shell=True)
+                f'rasa train {model} --fixed-model-name "{model}" --force', shell=True)
 
 
 def run_nlu():
@@ -68,7 +65,7 @@ def start_training():
     if model_check(ai_lower):
         charlotte = model_check(ai_lower)
         call(
-            f'rasa interactive --config {config} --domain {domain} --model {charlotte} --skip-visualization', shell=True)
+            f'rasa interactive --model {charlotte} --skip-visualization', shell=True)
     else:
         option = confirm(
             f'Sorry {lower}, I couldn\'t find my model in ./models directory. Shall I create one now?')
