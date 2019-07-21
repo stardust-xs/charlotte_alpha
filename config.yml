@@ -3,13 +3,20 @@ language: en
 pipeline: supervised_embeddings
 
 policies:
-    - batch_size: 50
-      epochs: 300
-      max_training_samples: 300
-      name: KerasPolicy
-    - fallback_action_name: action_default_fallback
-      name: FallbackPolicy
-    - max_history: 5
-      name: MemoizationPolicy
+    - name: KerasPolicy
+        batch_size: 50
+        epochs: 300
+        max_training_samples: 300
+        featurizer:
+            - name: MaxHistoryTrackerFeaturizer
+                max_history: 5
+                state_featurizer:
+            - name: BinarySingleStateFeaturizer
+    - name: MemoizationPolicy
+        max_history: 5
+    - name: FallbackPolicy
+        nlu_threshold: 0.4
+        core_threshold: 0.3
+        fallback_action_name: action_default_fallback
     - name: FormPolicy
     - name: MappingPolicy
