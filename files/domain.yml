@@ -1,0 +1,72 @@
+actions:
+- action_playing_music
+- utter_play_music_with_genre
+- utter_playing_music_with_track_name
+- utter_saying_hello
+entities:
+- genre
+- action
+- time
+- state
+- planet
+- street
+- ai_creator
+- temperature
+- train_station
+- country
+- people
+- name
+- gender
+- landmark
+- bleep_words
+- quantity
+- grammar
+- city
+- music
+- airport
+- date
+- full_name
+- weather
+- direction
+intents:
+- asking_play_music
+- asking_play_music_with_genre
+- saying_hello
+- asking_do_you_need_anything_else
+- asking_goto_next_step
+- asking_goto_previous_step
+- asking_how_are_you
+- asking_someones_name
+- asking_weather_details
+- asking_weather_details+telling_current_location
+- asking_who_built_you
+- saying_goodbye
+- saying_hello+asking_how_are_you
+- saying_hello+asking_someones_name
+- saying_hello+asking_weather_details+telling_current_location
+- saying_no
+- saying_no_for_telling_name
+- saying_okay
+- saying_thank_you
+- saying_thank_you+saying_goodbye
+- saying_yes
+- telling_current_location
+- telling_my_name
+slots:
+  genre:
+    type: text
+templates:
+  action_default_fallback:
+  - text: I'm sorry I don't understand what you mean.
+  - text: I'm sorry I didn't get what you mean.
+  utter_play_music_with_genre:
+  - text: Playing music by {artist}.
+  - text: Playing {artist}'s track.
+  utter_playing_music_with_track_name:
+  - text: Playing {track_name}.
+  - text: Sure. Playing {track_name}.
+  utter_saying_hello:
+  - text: Hello! I am Charlotte.
+  - text: Hello, I am Charlotte. Nice to meet you!
+  - text: Hey there, its me Charlotte.
+  - text: Well, hello!
