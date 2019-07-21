@@ -13,7 +13,6 @@ PARENT = dirname(dirname(dirname(__file__)))
 DIR = {
     'data': join(PARENT, 'data/'),
     'docs': join(PARENT, 'docs/'),
-    'files': join(PARENT, 'files/'),
     'logs': join(PARENT, 'logs/'),
     'models': join(PARENT, 'models/'),
     'users': join(PARENT, 'users/'),
@@ -29,8 +28,9 @@ FILE = {
     'nlu': join(DIR['data'], 'nlu.md'),
     'core': join(DIR['data'], 'stories.md'),
     'actions': join(PARENT, 'actions.py'),
-    'config': join(DIR['files'], 'config.yml'),
-    'domain': join(DIR['files'], 'domain.yml'),
+    'config': join(PARENT, 'config.yml'),
+    'domain': join(PARENT, 'domain.yml'),
+    'endpoints': join(PARENT, 'endpoints.yml'),
     'master': join(DIR['users'], 'master.yml'),
     'key': join(DIR['security'], 'key.xai')
 }
