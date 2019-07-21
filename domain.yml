@@ -1,0 +1,81 @@
+%YAML 1.1
+---
+actions:
+- action_play_any_music
+- utter_play_music_with_genre
+- utter_playing_any_music
+- utter_saying_hello
+entities:
+- action
+- ai_creator
+- airport
+- bleep_words
+- city
+- country
+- date
+- direction
+- full_name
+- gender
+- genre
+- grammar
+- landmark
+- music
+- name
+- people
+- planet
+- quantity
+- state
+- street
+- temperature
+- time
+- train_station
+- weather
+intents:
+- asking_play_any_music
+- saying_no
+- saying_goodbye
+- asking_who_built_you
+- asking_someones_name
+- saying_no_for_telling_name
+- asking_weather_details+telling_current_location
+- asking_goto_previous_step
+- saying_thank_you
+- saying_hello+asking_how_are_you
+- telling_my_name
+- saying_hello+asking_weather_details+telling_current_location
+- telling_current_location
+- asking_play_music_with_genre
+- asking_do_you_need_anything_else
+- saying_hello+asking_someones_name
+- asking_goto_next_step
+- saying_yes
+- asking_weather_details
+- saying_okay
+- saying_thank_you+saying_goodbye
+- saying_hello
+- asking_how_are_you
+slots:
+  ai:
+    initial_value: charlotte
+    type: text
+  genre:
+    type: text
+  xa:
+    initial_value: boss
+    type: text
+templates:
+  action_default_fallback:
+  - text: I'm sorry {xa} I didn't get what you mean.
+  - text: Sorry {xa}. I didn't quite get that part.
+  - text: I would need your help {xa}.
+  utter_play_music_with_genre:
+  - text: Alright {xa}. Playing {genre} music.
+  - text: Playing a {genre} track. Hope you like this one {xa}.
+  - text: Playing a {genre} track.
+  - text: Playing now {xa}.
+  utter_playing_any_music:
+  - text: Sure {xa}, playing music.
+  - text: Playing music {xa}.
+  utter_saying_hello:
+  - text: Well, hello {xa}!
+  - text: Greetings {xa}!
