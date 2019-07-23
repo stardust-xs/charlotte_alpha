@@ -1,6 +1,6 @@
 """
-Charlotte`s Setup Module
-========================
+Charlotte Setup Module
+======================
 
 This module represents Charlotte`s current package status.
 
