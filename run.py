@@ -1,22 +1,22 @@
 """
-Charlotte`s main console
-========================
+Charlotte Console
+=================
 
-Runs Charlotte on terminal.
+This module runs Charlotte on terminal.
 
-See https://github.com/xames3/charlotte for complete documentation.
+See https://github.com/xames3/charlotte for cloning the repository.
 """
 from sys import exit
 from subprocess import call
 
 from questionary import Choice, select
 
-from utils.functions.basics import display
-from utils.functions.questions import confirm, answer
-from utils.functions.rasa import (render_model,
-                                  run_nlu,
-                                  start_training)
-from utils.profile.user import ai_lower, ai_title, lower, title
+from charlotte.utils.helpers.common import display
+from charlotte.utils.helpers.questions import answer, confirm
+from charlotte.utils.profiles.user import ai_lower, ai_title, lower, title
+from charlotte.utils.rasa.rasa import (render_model,
+                                       run_nlu,
+                                       start_training)
 
 while True:
     option = select(message=f'Hello {lower}, what would you like me to do?',
