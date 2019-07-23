@@ -126,4 +126,5 @@ dmypy.json
 # Key
 /utils/cryptics/key.xai
 
-# /sandbox.py
+# Sandbox script
+/sandbox.py
