@@ -9,7 +9,7 @@ See https://github.com/xames3/charlotte for complete documentation.
 from rasa_sdk import Action
 from rasa_sdk.events import SlotSet
 
-from utils.functions.assistant import play_music
+from charlotte.utils.helpers.actions import play_music
 
 
 class ActionPlayMusicWithTrackName(Action):
