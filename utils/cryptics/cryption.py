@@ -10,7 +10,7 @@ The module has 3 functions:
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
-from charlotte.utils.globals.paths import FILE
+from charlotte.utils.paths.files import ai_file
 
 
 # https://nitratine.net/blog/post/encryption-and-decryption-in-python/
@@ -57,7 +57,7 @@ def keygen(passcode: str, save_to_file: bool = True) -> bytes:
     if save_to_file is False:
         return key
     else:
-        key_file = open(FILE['key'], 'wb')
+        key_file = open(ai_file['key'], 'wb')
         key_file.write(key)
         key_file.close()
 

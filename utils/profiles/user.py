@@ -14,19 +14,19 @@ except ImportError:
     from yaml import Loader
 
 from charlotte.utils.cryptics.cryption import decipher
-from charlotte.utils.globals.paths import FILE
+from charlotte.utils.paths.files import ai_file
 
-if not exists(FILE['key']):
+if not exists(ai_file['key']):
     from charlotte.utils.helpers.common import display
 
     display('Key check failed! Creating user profile.')
     from charlotte.utils.profiles.master import *
 else:
-    if not exists(FILE['master']):
+    if not exists(ai_file['master']):
         from charlotte.utils.profiles.master import *
 
-profile = load(open(FILE['master']), Loader=Loader)
-with open(FILE['key'], 'rb') as key_file:
+profile = load(open(ai_file['master']), Loader=Loader)
+with open(ai_file['key'], 'rb') as key_file:
     key = key_file.read()
 
 primary = decipher(profile['user_name_primary'], key)

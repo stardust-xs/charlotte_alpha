@@ -21,10 +21,10 @@ from questionary import Choice, select
 from twilio.rest import Client
 
 from charlotte.utils.cryptics.cryption import cipher, decipher, keygen
-from charlotte.utils.globals.paths import FILE
 from charlotte.utils.helpers.actions import age, locate
 from charlotte.utils.helpers.common import display, quit
 from charlotte.utils.helpers.questions import answer, confirm, decide, secure
+from charlotte.utils.paths.files import ai_file
 from charlotte.setup import NAME, NUMBER
 
 # https://stackoverflow.com/questions/28557626/how-to-update-yaml-file-using-python
@@ -74,7 +74,7 @@ wake_phrase: {{ wake_phrase }}
 # Built by XA
 ''')
 
-if not exists(FILE['master']):
+if not exists(ai_file['master']):
     start = confirm(
         f'Hello, I\'m {NAME.title()}, your personal assistant.\n  I don\'t see'
         ' any profile in my system. Would you like me to create one now?')
@@ -90,7 +90,7 @@ if not exists(FILE['master']):
         key_file = keygen(
             secure('Before we initiate user creation sequence, please'
                    ' provide a password.'))
-        with open(FILE['key'], 'rb') as key_file:
+        with open(ai_file['key'], 'rb') as key_file:
             key = key_file.read()
 
         display('Tip #1: All inputs should be one-worded, Eg: Sir, Ma\'am,'
@@ -324,7 +324,7 @@ if not exists(FILE['master']):
                                   user_home_country=user_home_country,
                                   wake_phrase=wake_phrase)
 
-        otp = randint(000000, 999999)
+        otp = randint(000000000000, 999999999999)
         client = Client(os.environ.get('TWILIO_SID'),
                         os.environ.get('TWILIO_TOKEN'))
         message = client.messages.create(
@@ -335,11 +335,11 @@ if not exists(FILE['master']):
         match = secure(f'{name.title()}, I\'ve sent an SMS onto your'
                        ' phone. Please enter it to proceed.')
         if int(match) == otp:
-            with open(FILE['master'], 'w') as profile:
+            with open(ai_file['master'], 'w') as profile:
                 profile.write(details)
             display(f'Profile created. {name.title()}, I\'m ready!')
         else:
             display(
                 f'I\'m not able to verify you {decipher(user_first_name, key).title()}. I\'m afraid I need to terminate myself.')
-            remove(FILE['key'])
+            remove(ai_file['key'])
             exit()
