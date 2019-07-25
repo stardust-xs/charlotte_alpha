@@ -11,7 +11,7 @@ The module has 4 functions:
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
-from charlotte.utils.globals.paths import PATH
+from charlotte.utils.paths.directories import local_dir
 
 
 def age(birthdate: str) -> int:
@@ -128,7 +128,7 @@ def find(file: str, file_dir: str, min_score: int = 65) -> tuple:
                 return no_match_found, no_match_score
 
 
-def play_music(file: str = None, file_dir: str = PATH['music']) -> None:
+def play_music(file: str = None, file_dir: str = local_dir['music']) -> None:
     """
     Definition
     ----------
@@ -157,6 +157,6 @@ def play_music(file: str = None, file_dir: str = PATH['music']) -> None:
             music_file = join(file_dir, file_name)
             startfile(f'{music_file}')
     else:
-        random_file = choice([join(PATH['music'], file) for file in listdir(
-            PATH['music']) if isfile(join(PATH['music'], file))])
+        random_file = choice([join(local_dir['music'], file) for file in listdir(
+            local_dir['music']) if isfile(join(local_dir['music'], file))])
         startfile(random_file)

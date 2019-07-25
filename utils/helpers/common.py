@@ -14,8 +14,9 @@ The module has 6 functions:
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
-from charlotte.utils.globals.paths import DIR, FILE
 from charlotte.utils.helpers.questions import confirm
+from charlotte.utils.paths.directories import ai_dir
+from charlotte.utils.paths.files import ai_file
 
 
 def make_dir(dir_name: str, need_init: bool = True) -> None:
@@ -47,7 +48,7 @@ def make_dir(dir_name: str, need_init: bool = True) -> None:
         if not exists(dir_name):
             makedirs(dir_name)
             if need_init is True:
-                init = open(join(dir_name, FILE['init']), 'a+')
+                init = open(join(dir_name, ai_file['init']), 'a+')
                 init.close()
     except OSError as error:
         if error.errno != errno.EEXIST:
@@ -85,7 +86,7 @@ def json_print(json_data: str, indentation: int = None) -> None:
         print(dumps(json_data, indent=indentation))
 
 
-def model_check(model: str, model_dir: str = DIR['models']) -> None:
+def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
     """
     Definition
     ----------

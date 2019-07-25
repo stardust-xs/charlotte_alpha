@@ -8,8 +8,8 @@ All the logs are stored in `./logs/` directory with the timestamp.
 See https://github.com/xames3/charlotte for cloning the repository.
 """
 from charlotte.utils.globals.constants import TIMESTAMP
-from charlotte.utils.globals.paths import DIR
 from charlotte.utils.helpers.common import make_dir
+from charlotte.utils.paths.directories import ai_dir
 
 
 def timestamp(timestamp_format: str) -> str:
@@ -88,7 +88,7 @@ def make_log(file: str, show_tf_warnings: bool = None) -> classmethod:
     from os.path import join, basename
     from sys import stdout
 
-    make_dir(DIR['logs'], need_init=False)
+    make_dir(ai_dir['logs'], need_init=False)
 
     log = getLogger(file).setLevel(DEBUG)
     log_file = basename(str(file).lower()).split('.py')[0]
@@ -100,7 +100,7 @@ def make_log(file: str, show_tf_warnings: bool = None) -> classmethod:
                               '   %(message)-8s',
                               datefmt='%Y-%m-%d %H:%M:%S')
 
-    file_handler = FileHandler(join(DIR['logs'], log_name))
+    file_handler = FileHandler(join(ai_dir['logs'], log_name))
     file_handler.setFormatter(log_formatter)
     log.addHandler(file_handler)
 
