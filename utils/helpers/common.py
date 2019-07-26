@@ -80,10 +80,14 @@ def json_print(json_data: str, indentation: int = None) -> None:
     """
     from json import dumps
 
-    if indentation is None:
-        print(dumps(json_data, indent=2))
-    else:
-        print(dumps(json_data, indent=indentation))
+    try:
+        if indentation is None:
+            print(dumps(json_data, indent=2))
+        else:
+            print(dumps(json_data, indent=indentation))
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
@@ -109,10 +113,14 @@ def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
     from os import walk
     from os.path import join
 
-    for root, _, files in walk(model_dir):
-        for file in files:
-            if file.startswith(str(model).lower()) and file.endswith('tar.gz'):
-                return join(root, file)
+    try:
+        for root, _, files in walk(model_dir):
+            for file in files:
+                if file.startswith(str(model).lower()) and file.endswith('tar.gz'):
+                    return join(root, file)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def display(message: str) -> None:
@@ -166,9 +174,13 @@ def line_randomizer(from_file: str, to_file: str) -> None:
     """
     from random import random
 
-    with open(from_file, 'r') as lines:
-        source = [(random(), line) for line in lines]
-    source.sort()
-    with open(to_file, 'w') as target:
-        for _, line in source:
-            target.write(line)
+    try:
+        with open(from_file, 'r') as lines:
+            source = [(random(), line) for line in lines]
+        source.sort()
+        with open(to_file, 'w') as target:
+            for _, line in source:
+                target.write(line)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
