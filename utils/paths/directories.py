@@ -37,7 +37,9 @@ ai_dir = {
     'cryptics': PARENT/'utils/cryptics',
     'globals': PARENT/'utils/globals',
     'helpers': PARENT/'utils/helpers',
-    'profiles': PARENT/'utils/profiles'
+    'profiles': PARENT/'utils/profiles',
+    'knowledge': PARENT/'data/knowledge',
+    'csv': PARENT/'data/knowledge/csv'
 }
 
 local_dir = {
