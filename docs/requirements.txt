@@ -60,3 +60,4 @@ python-vlc==3.0.6109
 fleep==1.0.1
 tinytag==1.2.2
 grakn-client==1.5.3
+hurry.filesize==0.9
