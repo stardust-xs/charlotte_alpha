@@ -128,3 +128,6 @@ dmypy.json
 
 # Sandbox script
 /sandbox.py
+
+# CSV Folder
+/data/knowledge/csv/
