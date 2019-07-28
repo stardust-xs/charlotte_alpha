@@ -11,6 +11,7 @@ The module has 6 functions:
     - display           : Prints statements with `?` prefix
     - quit              : Exits the program
     - line_randomizer   : Randomizes the lines in the file
+    - csv_writer        : Creates CSV files and adds data to it
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -181,6 +182,32 @@ def line_randomizer(from_file: str, to_file: str) -> None:
         with open(to_file, 'w') as target:
             for _, line in source:
                 target.write(line)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
+
+
+def csv_writer(file: str, *args) -> None:
+    """
+    Definition
+    ----------
+        Creates and writes CSV files.
+
+    Parameters
+    ----------
+        file : string, mandatory
+            Path to the CSV file.
+
+        *args : default, mandatory
+            Elements to be added to the CSV file.
+    """
+    from csv import QUOTE_MINIMAL, writer
+    from os.path import exists
+
+    try:
+        with open(file, 'a', newline='', encoding='utf-8') as csv_file:
+            csv_writer = writer(csv_file, delimiter=',', quoting=QUOTE_MINIMAL)
+            csv_writer.writerow([*args])
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
