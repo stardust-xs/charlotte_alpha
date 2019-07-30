@@ -2,6 +2,7 @@
 ---
 actions:
 - action_play_any_music
+- action_tell_weather_condition
 - utter_play_music_with_genre
 - utter_playing_any_music
 - utter_saying_hello
@@ -31,13 +32,13 @@ entities:
 - train_station
 - weather
 intents:
+- asking_weather_details+telling_current_location
 - asking_play_any_music
 - saying_no
 - saying_goodbye
 - asking_who_built_you
 - asking_someones_name
 - saying_no_for_telling_name
-- asking_weather_details+telling_current_location
 - asking_goto_previous_step
 - saying_thank_you
 - saying_hello+asking_how_are_you
