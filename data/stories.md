@@ -10,3 +10,7 @@
 * asking_play_any_music
     - utter_playing_any_music
     - action_play_any_music
+
+## tell_weather_condition
+* asking_weather_details+telling_current_location{"city": "abau"}
+    - action_tell_weather_condition
