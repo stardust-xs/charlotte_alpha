@@ -1,0 +1,13 @@
+mercury
+venus
+earth
+mars
+jupiter
+saturn
+uranus
+neptune
+pluto
+kepler 13b
+sun
+moon
+rhea
