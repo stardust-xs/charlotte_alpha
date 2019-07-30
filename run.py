@@ -14,9 +14,9 @@ from questionary import Choice, select
 from charlotte.utils.helpers.common import display
 from charlotte.utils.helpers.questions import answer, confirm
 from charlotte.utils.profiles.user import ai_lower, ai_title, lower, title
-from charlotte.utils.rasa.rasa import (render_model,
-                                       run_nlu,
-                                       start_training)
+from charlotte.utils.helpers.rasa import (render_model,
+                                          run_nlu,
+                                          start_training)
 
 while True:
     option = select(message=f'Hello {lower}, what would you like me to do?',
