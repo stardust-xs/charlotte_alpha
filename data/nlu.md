@@ -415,6 +415,7 @@
 - weather in [New York](city)
 - How is the weather in [Westminster](city)?
 - tell me weather in [aberdeen](city)
+- tell me weather in [abau](city)
 
 ## intent:asking_who_built_you
 - [Plz](action:please) tell me who made you
@@ -1323,3 +1324,12 @@
 - Mestry Akshay
 - Akshay Arvind Mestry
 - xa
+
+## lookup:city
+  data/lookup_tables/city.txt
+
+## lookup:country
+data/lookup_tables/country.txt
+
+## lookup:planet
+data/lookup_tables/planet.txt
