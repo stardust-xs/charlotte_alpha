@@ -176,12 +176,14 @@ def line_randomizer(from_file: str, to_file: str) -> None:
     from random import random
 
     try:
-        with open(from_file, 'r') as lines:
-            source = [(random(), line) for line in lines]
-        source.sort()
-        with open(to_file, 'w') as target:
+        with open(from_file, 'r') as source_file:
+            source = [(random(), line) for line in source_file]
+            source.sort()
+            source_file.close()
+        with open(to_file, 'w') as target_file:
             for _, line in source:
-                target.write(line)
+                target_file.write(line)
+                target_file.close()
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
@@ -202,12 +204,83 @@ def csv_writer(file: str, *args) -> None:
             Elements to be added to the CSV file.
     """
     from csv import QUOTE_MINIMAL, writer
-    from os.path import exists
 
     try:
         with open(file, 'a', newline='', encoding='utf-8') as csv_file:
             csv_writer = writer(csv_file, delimiter=',', quoting=QUOTE_MINIMAL)
             csv_writer.writerow([*args])
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
+
+
+def csv_extractor(from_file: str, to_file: str, column: str) -> None:
+    """
+    Definition
+    ----------
+        Extracts the particular column from CSV file and saves it in another
+        file.
+
+    Parameters
+    ----------
+        from_file : string, mandatory
+            File name from which the data needs to be read.
+
+        to_file : string, mandatory
+            File name to which the sorted data needs to be written.
+
+        column : string, mandatory
+            Column name to be extracted.
+
+    Notes
+    -----
+        This function is primarily used for extracting specific column from
+        CSV file (this is needed for creating lookup tables).
+    """
+    from csv import DictReader
+
+    try:
+        with open(from_file, 'r', encoding='utf-8', errors='ignore') as source_file:
+            csv_data = DictReader(source_file)
+            data_dict = {}
+            for index in csv_data:
+                for header, value in index.items():
+                    try:
+                        data_dict[header].append(value)
+                    except KeyError:
+                        data_dict[header] = [value]
+
+        extract = data_dict[column]
+        extract.sort()
+        for line in extract:
+            csv_writer(to_file, line)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
+
+
+def lookup_sorter(from_file: str, to_file: str) -> None:
+    """
+    Definition
+    ----------
+        Sorts the lines alphabetically in the file and saves it in another
+        file.
+
+    Parameters
+    ----------
+        from_file : string, mandatory
+            File name from which the data needs to be read.
+
+        to_file : string, mandatory
+            File name to which the sorted data needs to be written.
+    """
+    try:
+        with open(from_file) as source_file:
+            lines = source_file.readlines()
+            lines.sort()
+            for line in range(len(lines)):
+                with open(to_file, 'a') as target_file:
+                    target_file.write(lines[line])
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
