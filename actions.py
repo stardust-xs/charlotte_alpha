@@ -28,3 +28,13 @@ class ActionPlayAnyMusic(Action):
 
     def run(self, dispatcher, tracker, domain: dict) -> list:
         dispatcher.utter_message(play_music())
+
+
+class ActionTellWeatherConditions(Action):
+    def name(self):
+        return 'action_tell_weather_condition'
+
+    def run(self, dispatcher, tracker, domain: dict) -> list:
+        city = tracker.get_slot('city')
+        dispatcher.utter_message(print(city))
+        return [SlotSet('city', city)]
