@@ -12,6 +12,8 @@ The module has 6 functions:
     - quit              : Exits the program
     - line_randomizer   : Randomizes the lines in the file
     - csv_writer        : Creates CSV files and adds data to it
+    - csv_extractor     : Extracts columns from csv file
+    - lookup_sorter     : Sorts the lines alphabetically in the file
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
