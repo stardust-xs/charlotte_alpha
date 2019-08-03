@@ -1,6 +1,6 @@
 """
-Charlotte`s actions
-===================
+Charlotte Actions
+=================
 
 It runs actions.
 
@@ -16,7 +16,7 @@ class ActionPlayMusicWithTrackName(Action):
     def name(self):
         return 'action_play_music_with_track_name'
 
-    def run(self, dispatcher, tracker, domain: dict) -> list:
+    def run(self, dispatcher, tracker, domain) -> list:
         music = tracker.get_slot('track_name')
         dispatcher.utter_message(play_music(music))
         return [SlotSet('track_name', music)]
@@ -26,7 +26,7 @@ class ActionPlayAnyMusic(Action):
     def name(self):
         return 'action_play_any_music'
 
-    def run(self, dispatcher, tracker, domain: dict) -> list:
+    def run(self, dispatcher, tracker, domain) -> list:
         dispatcher.utter_message(play_music())
 
 
@@ -34,7 +34,7 @@ class ActionTellWeatherConditions(Action):
     def name(self):
         return 'action_tell_weather_condition'
 
-    def run(self, dispatcher, tracker, domain: dict) -> list:
+    def run(self, dispatcher, tracker, domain) -> list:
         city = tracker.get_slot('city')
         dispatcher.utter_message(print(city))
         return [SlotSet('city', city)]
