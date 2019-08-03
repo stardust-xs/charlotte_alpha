@@ -46,20 +46,24 @@ def keygen(passcode: str, save_to_file: bool = True) -> bytes:
     from cryptography.hazmat.primitives.hashes import SHA512
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-    password = passcode.encode()
-    kdf = PBKDF2HMAC(algorithm=SHA512(),
-                     length=32,
-                     salt=urandom(128),
-                     iterations=100000,
-                     backend=default_backend()
-                     )
-    key = urlsafe_b64encode(kdf.derive(password))
-    if save_to_file is False:
-        return key
-    else:
-        key_file = open(ai_file['key'], 'wb')
-        key_file.write(key)
-        key_file.close()
+    try:
+        password = passcode.encode()
+        kdf = PBKDF2HMAC(algorithm=SHA512(),
+                         length=32,
+                         salt=urandom(128),
+                         iterations=100000,
+                         backend=default_backend()
+                         )
+        key = urlsafe_b64encode(kdf.derive(password))
+        if save_to_file is False:
+            return key
+        else:
+            key_file = open(ai_file['key'], 'wb')
+            key_file.write(key)
+            key_file.close()
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def cipher(message: str, key: bytes) -> str:
@@ -88,11 +92,15 @@ def cipher(message: str, key: bytes) -> str:
     """
     from cryptography.fernet import Fernet
 
-    to_encode = message.encode()
-    fernet_key = Fernet(key)
-    encode = fernet_key.encrypt(to_encode)
-    super_encode = fernet_key.encrypt(encode)
-    return super_encode.decode()
+    try:
+        to_encode = message.encode()
+        fernet_key = Fernet(key)
+        encode = fernet_key.encrypt(to_encode)
+        super_encode = fernet_key.encrypt(encode)
+        return super_encode.decode()
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def decipher(ciper_text: str, key: bytes) -> str:
@@ -121,7 +129,11 @@ def decipher(ciper_text: str, key: bytes) -> str:
     """
     from cryptography.fernet import Fernet
 
-    fernet_key = Fernet(key)
-    decode = fernet_key.decrypt(ciper_text.encode())
-    super_decode = fernet_key.decrypt(decode)
-    return super_decode.decode()
+    try:
+        fernet_key = Fernet(key)
+        decode = fernet_key.decrypt(ciper_text.encode())
+        super_decode = fernet_key.decrypt(decode)
+        return super_decode.decode()
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
