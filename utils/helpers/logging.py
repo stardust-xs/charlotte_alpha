@@ -30,7 +30,11 @@ def timestamp(timestamp_format: str) -> str:
     """
     from datetime import datetime
 
-    return str(datetime.now().strftime(timestamp_format))
+    try:
+        return str(datetime.now().strftime(timestamp_format))
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def plain(text: str) -> str:
@@ -51,8 +55,12 @@ def plain(text: str) -> str:
     """
     from re import compile
 
-    ansi_escape = compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
-    return ansi_escape.sub('', text)
+    try:
+        ansi_escape = compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
+        return ansi_escape.sub('', text)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def make_log(file: str, show_tf_warnings: bool = None) -> classmethod:
@@ -88,31 +96,37 @@ def make_log(file: str, show_tf_warnings: bool = None) -> classmethod:
     from os.path import join, basename
     from sys import stdout
 
-    make_dir(ai_dir['logs'], need_init=False)
+    try:
+        make_dir(ai_dir['logs'], need_init=False)
 
-    log = getLogger(file).setLevel(DEBUG)
-    log_file = basename(str(file).lower()).split('.py')[0]
-    log_time = TIMESTAMP['datetime_12_hrs_log']
-    log_name = f'{log_file}_{timestamp(log_time)}.log'
+        log = getLogger(file)
+        log.setLevel(DEBUG)
+        log_file = basename(str(file).lower()).split('.py')[0]
+        log_time = TIMESTAMP['datetime_12_hrs_log']
+        log_name = f'{log_file}_{timestamp(log_time)}.log'
 
-    log_formatter = Formatter(fmt=f'%(asctime)s.%(msecs)06d    %(levelname)'
-                              '-8s    %(filename)s:%(lineno)-4s '
-                              '   %(message)-8s',
-                              datefmt='%Y-%m-%d %H:%M:%S')
+        log_formatter = Formatter(fmt=f'%(asctime)s.%(msecs)06d    %(levelname)'
+                                  '-8s    %(filename)s:%(lineno)-4s '
+                                  '   %(message)-8s',
+                                  datefmt='%Y-%m-%d %H:%M:%S')
 
-    file_handler = FileHandler(join(ai_dir['logs'], log_name))
-    file_handler.setFormatter(log_formatter)
-    log.addHandler(file_handler)
+        file_handler = FileHandler(join(ai_dir['logs'], log_name))
+        file_handler.setFormatter(log_formatter)
+        log.addHandler(file_handler)
 
-    stream_handler = StreamHandler(stdout)
-    stream_handler.setFormatter(log_formatter)
-    log.addHandler(stream_handler)
+        stream_handler = StreamHandler(stdout)
+        stream_handler.setFormatter(log_formatter)
+        log.addHandler(stream_handler)
 
-    if show_tf_warnings is None:
-        import os
-        import tensorflow.python.util.deprecation as deprecation
+        if show_tf_warnings is None:
+            import os
+            import tensorflow.python.util.deprecation as deprecation
 
-        deprecation._PRINT_DEPRECATION_WARNINGS = False
-        os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+            deprecation._PRINT_DEPRECATION_WARNINGS = False
+            os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-    return log
+        return log
+
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
