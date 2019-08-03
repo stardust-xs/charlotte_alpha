@@ -13,4 +13,5 @@
 
 ## tell_weather_condition
 * asking_weather_details+telling_current_location{"city": "abau"}
+    - slot{"city": "abau"}
     - action_tell_weather_condition
