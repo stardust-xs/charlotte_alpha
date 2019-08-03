@@ -37,12 +37,16 @@ def age(birthdate: str) -> int:
     """
     from datetime import date
 
-    days_in_year = 365.2425
-    year = int(birthdate.split('-')[0])
-    month = int(birthdate.split('-')[1])
-    day = int(birthdate.split('-')[2])
-    age = int((date.today() - date(year, month, day)).days / days_in_year)
-    return age
+    try:
+        days_in_year = 365.2425
+        year = int(birthdate.split('-')[0])
+        month = int(birthdate.split('-')[1])
+        day = int(birthdate.split('-')[2])
+        age = int((date.today() - date(year, month, day)).days / days_in_year)
+        return age
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def locate(area: str = None) -> str:
@@ -72,19 +76,24 @@ def locate(area: str = None) -> str:
     from geocoder import osm
     from googlemaps import Client
 
-    gmaps = Client(key=os.environ.get('CHARLOTTE_MAPS'))
-    current_coords = gmaps.geolocate()
-    location = osm(list(current_coords['location'].values()), method='reverse')
-    if area is not None:
-        try:
-            return location.json[area]
-        except:
-            return 'NA'
-    else:
-        try:
-            return location.json['address']
-        except:
-            return 'NA'
+    try:
+        gmaps = Client(key=os.environ.get('CHARLOTTE_MAPS'))
+        current_coords = gmaps.geolocate()
+        location = osm(
+            list(current_coords['location'].values()), method='reverse')
+        if area is not None:
+            try:
+                return location.json[area]
+            except:
+                return 'NA'
+        else:
+            try:
+                return location.json['address']
+            except:
+                return 'NA'
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def find(file: str, file_dir: str, min_score: int = 65) -> tuple:
@@ -115,17 +124,21 @@ def find(file: str, file_dir: str, min_score: int = 65) -> tuple:
     from os import walk
     from fuzzywuzzy import fuzz, process
 
-    for root, _, files in walk(file_dir):
-        guessed_files = process.extract(
-            file, files, limit=3, scorer=fuzz.partial_ratio)
-        no_match_score = 0
-        no_match_found = f'Sorry, I could\'nt find \'{file}\' in the directory.'
-        for actual_file in guessed_files:
-            current_score = fuzz.partial_ratio(file, actual_file)
-            if current_score > min_score and current_score > no_match_score:
-                return actual_file[0], current_score
-            else:
-                return no_match_found, no_match_score
+    try:
+        for root, _, files in walk(file_dir):
+            guessed_files = process.extract(
+                file, files, limit=3, scorer=fuzz.partial_ratio)
+            no_match_score = 0
+            no_match_found = f'Sorry, I could\'nt find \'{file}\' in the directory.'
+            for actual_file in guessed_files:
+                current_score = fuzz.partial_ratio(file, actual_file)
+                if current_score > min_score and current_score > no_match_score:
+                    return actual_file[0], current_score
+                else:
+                    return no_match_found, no_match_score
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def play_music(file: str = None, file_dir: str = local_dir['music']) -> None:
@@ -149,14 +162,18 @@ def play_music(file: str = None, file_dir: str = local_dir['music']) -> None:
     from os.path import isfile, join
     from random import choice
 
-    if file is not None:
-        file_name, file_score = find(file, file_dir)
-        if file_score == 0:
-            return file_name
+    try:
+        if file is not None:
+            file_name, file_score = find(file, file_dir)
+            if file_score == 0:
+                return file_name
+            else:
+                music_file = join(file_dir, file_name)
+                startfile(f'{music_file}')
         else:
-            music_file = join(file_dir, file_name)
-            startfile(f'{music_file}')
-    else:
-        random_file = choice([join(local_dir['music'], file) for file in listdir(
-            local_dir['music']) if isfile(join(local_dir['music'], file))])
-        startfile(random_file)
+            random_file = choice([join(local_dir['music'], file) for file in listdir(
+                local_dir['music']) if isfile(join(local_dir['music'], file))])
+            startfile(random_file)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')

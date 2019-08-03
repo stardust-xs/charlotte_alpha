@@ -63,19 +63,23 @@ def answer(question: str) -> str:
         This function needs to be assigned to a variable and then the variable
         should be used in an `if-else` condition to invoke the action.
     """
-    while True:
-        revert = text(question + '\n»').ask()
-        if revert is '':
-            option = confirm(
-                'No inputs received. Would you like to try that again?')
-            while option is False:
-                if option is False:
-                    return 'NA'
-                else:
-                    revert = text(question + '\n»').ask()
-                    return revert
-        else:
-            return revert
+    try:
+        while True:
+            revert = text(question + '\n»').ask()
+            if revert is '':
+                option = confirm(
+                    'No inputs received. Would you like to try that again?')
+                while option is False:
+                    if option is False:
+                        return 'NA'
+                    else:
+                        revert = text(question + '\n»').ask()
+                        return revert
+            else:
+                return revert
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def secure(question: str) -> str:
@@ -100,19 +104,23 @@ def secure(question: str) -> str:
         This function displays output in terms of `*` while returning it in
         it`s true form.
     """
-    while True:
-        revert = password(question + '\n»').ask()
-        if revert is '':
-            option = confirm(
-                'No inputs received. Would you like to try that again?')
-            while option is False:
-                if option is False:
-                    return 'NA'
-                else:
-                    revert = password(question + '\n»').ask()
-                    return revert
-        else:
-            return revert
+    try:
+        while True:
+            revert = password(question + '\n»').ask()
+            if revert is '':
+                option = confirm(
+                    'No inputs received. Would you like to try that again?')
+                while option is False:
+                    if option is False:
+                        return 'NA'
+                    else:
+                        revert = password(question + '\n»').ask()
+                        return revert
+            else:
+                return revert
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def decide(confirm_question: str, question: str) -> str:
@@ -131,12 +139,16 @@ def decide(confirm_question: str, question: str) -> str:
         revert : string, default
             Answers the question based on chosed option.
     """
-    if confirm_question is not None:
-        option = confirm(confirm_question)
-        if option is True:
-            revert = answer(question)
-            return revert
+    try:
+        if confirm_question is not None:
+            option = confirm(confirm_question)
+            if option is True:
+                revert = answer(question)
+                return revert
+            else:
+                return 'NA'
         else:
             return 'NA'
-    else:
-        return 'NA'
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')

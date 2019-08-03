@@ -32,55 +32,69 @@ from charlotte.utils.profiles.user import ai_lower, ai_title, lower, title
 
 
 def render_model(model: str = None) -> None:
-    make_dir(ai_dir['models'])
-    if model is None:
-        option = confirm(
-            f'Would you like to rename the model, {lower}? Default name is "{ai_lower}".')
-        if option is True:
-            model_name = answer(f'{title}, what would you like to call it?')
-            call(
-                f'rasa train --fixed-model-name "{model_name}" --force', shell=True)
+    try:
+        make_dir(ai_dir['models'])
+        if model is None:
+            option = confirm(
+                f'Would you like to rename the model, {lower}? Default name is "{ai_lower}".')
+            if option is True:
+                model_name = answer(
+                    f'{title}, what would you like to call it?')
+                call(
+                    f'rasa train --fixed-model-name "{model_name}" --force', shell=True)
+            else:
+                call(
+                    f'rasa train --fixed-model-name "{ai_lower}" --force', shell=True)
         else:
-            call(
-                f'rasa train --fixed-model-name "{ai_lower}" --force', shell=True)
-    else:
-        option = confirm(
-            f'Would you like to rename the model, {lower}? Default name is "{model}".')
-        if option is True:
-            model_name = answer(f'What would you like to call it, {lower}?')
-            call(
-                f'rasa train {model} --fixed-model-name "{model_name}" --force', shell=True)
-        else:
-            call(
-                f'rasa train {model} --fixed-model-name "{model}" --force', shell=True)
+            option = confirm(
+                f'Would you like to rename the model, {lower}? Default name is "{model}".')
+            if option is True:
+                model_name = answer(
+                    f'What would you like to call it, {lower}?')
+                call(
+                    f'rasa train {model} --fixed-model-name "{model_name}" --force', shell=True)
+            else:
+                call(
+                    f'rasa train {model} --fixed-model-name "{model}" --force', shell=True)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def run_nlu():
-    if model_check(ai_lower):
-        charlotte = model_check(ai_lower)
-        call(
-            f'rasa shell nlu model-as-positional-argument "{charlotte}"', shell=True)
-    else:
-        option = confirm(
-            f'Sorry {lower}, I couldn\'t find NLU model in ./models directory. Shall I create one now?')
-        if option is True:
-            render_model()
+    try:
+        if model_check(ai_lower):
+            charlotte = model_check(ai_lower)
+            call(
+                f'rasa shell nlu model-as-positional-argument "{charlotte}"', shell=True)
         else:
-            display('Model not created.')
+            option = confirm(
+                f'Sorry {lower}, I couldn\'t find NLU model in ./models directory. Shall I create one now?')
+            if option is True:
+                render_model()
+            else:
+                display('Model not created.')
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def start_training():
-    if model_check(ai_lower):
-        charlotte = model_check(ai_lower)
-        call(
-            f'rasa interactive --model {charlotte} --skip-visualization', shell=True)
-    else:
-        option = confirm(
-            f'Sorry {lower}, I couldn\'t find my model in ./models directory. Shall I create one now?')
-        if option is True:
-            render_model()
+    try:
+        if model_check(ai_lower):
+            charlotte = model_check(ai_lower)
+            call(
+                f'rasa interactive --model {charlotte} --skip-visualization', shell=True)
         else:
-            display('Model not created.')
+            option = confirm(
+                f'Sorry {lower}, I couldn\'t find my model in ./models directory. Shall I create one now?')
+            if option is True:
+                render_model()
+            else:
+                display('Model not created.')
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error}.')
 
 
 def nlu_stats() -> list:
