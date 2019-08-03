@@ -131,3 +131,7 @@ dmypy.json
 
 # CSV Folder
 /data/knowledge/csv/
+
+# Assistant Files
+/bin/action.json
+/bin/creds.data
