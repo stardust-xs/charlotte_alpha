@@ -1,5 +1,3 @@
-%YAML 1.1
----
 actions:
 - action_play_any_music
 - action_tell_weather_condition
@@ -60,6 +58,48 @@ slots:
     initial_value: charlotte
     type: text
   genre:
+    type: text
+  action:
+    type: text
+  city:
+    type: text
+  country:
+    type: text
+  full_name:
+    type: text
+  state:
+    type: text
+  train_station:
+    type: text
+  street:
+    type: text
+  airport:
+    type: text
+  bleep_words:
+    type: text
+  date:
+    type: text
+  direction:
+    type: text
+  gender:
+    type: text
+  landmark:
+    type: text
+  music:
+    type: text
+  name:
+    type: text
+  people:
+    type: text
+  planet:
+    type: text
+  quantity:
+    type: text
+  temperature:
+    type: text
+  time:
+    type: text
+  weather:
     type: text
   xa:
     initial_value: boss
