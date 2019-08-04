@@ -1,11 +1,25 @@
+%YAML 1.1
+---
 actions:
 - action_play_any_music
-- action_tell_weather_condition
-- utter_play_music_with_genre
+- action_play_music_with_track_name
+- action_tell_current_forecast_weather_conditions
+- action_tell_current_weather_conditions
+- action_tell_forecast_weather_conditions
+- utter_ask_current_weather_only
+- utter_ask_forecast_weather_only
+- utter_ask_use_home_location_for_weather
+- utter_asking_city_for_weather
+- utter_do_you_need_anything_else
+- utter_play_any_music_with_genre
 - utter_playing_any_music
+- utter_saying_fetching_current_weather_details
 - utter_saying_hello
+- utter_saying_okay
+- utter_saying_welcome_to_action
 entities:
 - action
+- ai
 - ai_creator
 - airport
 - bleep_words
@@ -30,58 +44,56 @@ entities:
 - train_station
 - weather
 intents:
-- asking_weather_details+telling_current_location
-- asking_play_any_music
 - saying_no
-- saying_goodbye
-- asking_who_built_you
-- asking_someones_name
-- saying_no_for_telling_name
-- asking_goto_previous_step
-- saying_thank_you
-- saying_hello+asking_how_are_you
-- telling_my_name
-- saying_hello+asking_weather_details+telling_current_location
-- telling_current_location
-- asking_play_music_with_genre
-- asking_do_you_need_anything_else
-- saying_hello+asking_someones_name
-- asking_goto_next_step
+- asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location
 - saying_yes
-- asking_weather_details
-- saying_okay
+- saying_thank_you
+- asking_current_weather_conditions+asking_forecast_weather_conditions
+- telling_current_location
+- saying_hello+asking_someones_name
+- saying_no_for_telling_name
+- saying_goodbye
 - saying_thank_you+saying_goodbye
-- saying_hello
+- saying_hello+asking_how_are_you
+- asking_play_any_music
 - asking_how_are_you
+- asking_goto_next_step
+- saying_hello
+- asking_goto_previous_step
+- saying_okay
+- telling_my_name
+- asking_someones_name
+- asking_forecast_weather_conditions
+- saying_hello+asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location
+- asking_who_built_you
+- asking_do_you_need_anything_else
+- asking_play_any_music_with_genre
+- asking_current_weather_conditions
+- telling_forecast_location
 slots:
-  ai:
-    initial_value: charlotte
-    type: text
-  genre:
-    type: text
   action:
     type: text
-  city:
-    type: text
-  country:
-    type: text
-  full_name:
-    type: text
-  state:
-    type: text
-  train_station:
-    type: text
-  street:
+  ai:
+    initial_value: charlotte
     type: text
   airport:
     type: text
   bleep_words:
     type: text
+  city:
+    initial_value: mumbai
+    type: text
+  country:
+    type: text
   date:
     type: text
   direction:
     type: text
+  full_name:
+    type: text
   gender:
+    type: text
+  genre:
     type: text
   landmark:
     type: text
@@ -95,9 +107,15 @@ slots:
     type: text
   quantity:
     type: text
+  state:
+    type: text
+  street:
+    type: text
   temperature:
     type: text
   time:
+    type: text
+  train_station:
     type: text
   weather:
     type: text
@@ -109,7 +127,43 @@ templates:
   - text: I'm sorry {xa} I didn't get what you mean.
   - text: Sorry {xa}. I didn't quite get that part.
   - text: I would need your help {xa}.
-  utter_play_music_with_genre:
+  - text: Sorry {xa}, I didn't get that.
+  - text: Sorry {xa}, perhaps could you rephrase that one more time?
+  - text: "{xa}, I'm afraid I didn't quite understand what you just said. Could you please rephrase that?"
+  - text: Pardon me, could you rephrase that please?
+  - text: Pardon me, could you please rephrase that?
+  - text: Pardon me could you please rephrase that again?
+  - text: "{xa}, please may I request you to rephrase that one? I didn't quite get it."
+  - text: I'm sorry {xa}, I didn't understand what you mean.
+  utter_ask_use_home_location_for_weather:
+  - text: Shall I use our home location for fetching weather details, {xa}?
+  - text: Should I use home location for fetching weather details, {xa}?
+  - text: Shall I use our home location for fetching weather conditions, {xa}?
+  - text: Should I use home location for fetching weather conditions, {xa}?
+  - text: '{xa}, should I use our home location for narrowing weather search?'
+  - text: Am I to consider our home location, {xa}?
+  - text: '{xa}, shall I continue using our home location?'
+  - text: Am I suppose to fetch weather details for our base location, {xa}?
+  utter_asking_city_for_weather:
+  - text: In which location, {xa}?
+  - text: Where exactly, {xa}?
+  - text: '{xa} could you please tell me for which city you need the weather details for?'
+  - text: '{xa} can you please tell me for which city you need the weather conditions for?'
+  - text: '{xa}, perhaps you can help me with the city name.'
+  - text: Perhaps you can help me with the city name, {xa}.
+  - text: And where exactly you need the weather details, {xa}?
+  - text: Which city are we looking for to, {xa}?
+  - text: And which city's weather condition should I search for?
+  - text: Perhaps you could tell me the city name, {xa}.
+  - text: Where is you are trying to know the weather results for, {xa}?
+  utter_do_you_need_anything_else:
+  - text: Any other request, {xa}?
+  - text: Do you need anything else, {xa}?
+  - text: Should I assist you with anything else?
+  - text: '{xa}, do you need any more assistance?'
+  - text: Anything else, {xa}?
+  - text: Will that be it, {xa}?
+  utter_play_any_music_with_genre:
   - text: Alright {xa}. Playing {genre} music.
   - text: Playing a {genre} track. Hope you like this one {xa}.
   - text: Playing a {genre} track.
@@ -117,6 +171,66 @@ templates:
   utter_playing_any_music:
   - text: Sure {xa}, playing music.
   - text: Playing music {xa}.
+  utter_saying_fetching_current_weather_details:
+  - text: Give me a minute, let me fetch the current weather details in {city}.
+  - text: As you wish {xa}, here you go.
+  - text: Fetching current weather details for {city}...
+  - text: Processing...
+  - text: Search complete, {xa}.
+  - text: Working on it, {xa}...
+  - text: Accessing weather details from APIXU's database...
+  - text: Let me quickly fetch current weather details for {city}...
+  - text: Running weather check for {city}...
   utter_saying_hello:
   - text: Well, hello {xa}!
-  - text: Greetings {xa}!
+  - text: Hello {xa}!
+  - text: At your service {xa}.
+  - text: Welcome back, {xa}.
+  utter_saying_welcome_to_action:
+  - text: No problem, {xa}.
+  - text: No issues, {xa}.
+  - text: Happy to help you, {xa}.
+  - text: My pleasure, {xa}.
+  - text: No worries, {xa}.
+  - text: No need to thank me, {xa}. It's my job to assist you by all means.
+  - text: No need to say thanks, {xa}. It's my job to aid you by all means.
+  - text: The pleasure's all mine, {xa}.
+  - text: Glad I could help you, {xa}.
+  - text: I'm happy to serve you, {xa}.
+  - text: Glad I could be of your help, {xa}.
+  - text: I'm glad I could be of your help.
+  - text: The pleasure is all mine, {xa}.
+  - text: No need to thank me, {xa}. I'm a people person.
+  - text: As always {xa}, it's great helping you.
+  utter_ask_current_weather_only:
+  - text: Just the current weather? Or do you need the forecast as well?
+  - text: "{xa}, should I include the forecast as well?"
+  - text: Would you like to know the forecast as well, {xa}?
+  - text: Would you like to have the forecast as well, {xa}?
+  - text: Should I include the forecast details as well?
+  - text: Should I inlcude the forecasted report as well?
+  - text: Am I suppose to include the forecast details as well, {xa}?
+  - text: "{xa}, do you need the forecast as well?"
+  - text: "{xa}, should I include the forecast details as well?"
+  utter_ask_forecast_weather_only:
+  - text: Just the forecast? Or should I include weather details?
+  - text: "{xa}, would you like to know the current weather as well?"
+  - text: Should I include the current weather report as well?
+  - text: Would you like to have the current weather as well, {xa}?
+  - text: Would you like to know the current weather as well?
+  - text: "{xa}, should I include report on current weather?"
+  - text: Am I suppose to include the current weather report as well, {xa}?
+  utter_saying_okay:
+  - text: Okay.
+  - text: Ah okay.
+  - text: Got it.
+  - text: Uh-huh.
+  - text: Alright.
+  - text: Alright, {xa}.
+  - text: Got it, {xa}.
+  - text: Okay, {xa}.
+  - text: Sure, {xa}.
+  - text: Sure.
+  - text: Erm... okay.
+  - text: Umm... okay.
+  - text: Umm... okay, {xa}.
