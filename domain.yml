@@ -223,11 +223,9 @@ templates:
   utter_saying_okay:
   - text: Okay.
   - text: Ah okay.
-  - text: Got it.
   - text: Uh-huh.
   - text: Alright.
   - text: Alright, {xa}.
-  - text: Got it, {xa}.
   - text: Okay, {xa}.
   - text: Sure, {xa}.
   - text: Sure.
