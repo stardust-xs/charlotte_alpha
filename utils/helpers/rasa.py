@@ -105,7 +105,7 @@ def nlu_stats() -> list:
     """
     from rasa.nlu.training_data import load_data
 
-    nlu_data = load_data(ai_file['nlu'])
+    nlu_data = load_data(str(ai_file['nlu']))
     intents = [nlu_data.intents]
     entities = [nlu_data.entities]
     return intents, entities
