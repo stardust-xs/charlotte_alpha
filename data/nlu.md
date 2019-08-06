@@ -83,6 +83,7 @@
 - Do you have good weather?
 - Is it raining?
 - What's it like out there?
+- dear could u please get me  the weather reports?
 
 ## intent:asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location
 - What's the weather in [London](city) [today](date)?
@@ -195,40 +196,70 @@
 ## intent:asking_forecast_weather_conditions
 - how will be the [weather](weather) [today](date)?
 - what do you think the weather be like in next [hr](time:hours)?
-- I would like to knew the weather in next 10 hours.
+- I would like to knew the weather in next [10](hours) hours.
 - weather [forecast](forecast)
+- babe, could you pleasr find the weather forecast for me for like [12](minutes) mins?
 - what is the [forecasted](forecast:forecast) weather?
 - what is the weather forecast looking like?
+- what would be the weather conditions in next [7](hours) hours
 - Upcoming weather details.
-- i [wnna](grammar:want) know the weather in next 10 [mins](time:minutes).
+- i want to know the weather situations in next [54](minutes) minutes.
+- i [wnna](grammar:want) know the weather in next [10](minutes) [mins](time:minutes).
+- weather forecast for [23](minutes) minutes.
+- what could be the weather in [45](minutes) [mins](time:minutes)
 - what is the [Forecasted](forecast:forecast) weather?
-- what is the weather gonna look like in 15 [min](time:minutes).
+- what is the weather gonna look like in [15](minutes) [min](time:minutes).
 - Weather forecast for [today](date)?
-- What's the weather forecast?
+- weather forecast.
+- weather [predictions](forecast:forecast) for [57](minutes) [mins](time:minutes).
+- What's the weather forecast for next [3](hours) hrs?
 - [Tomorrow](date)'s weather reports.
-- I wanna know what the [weather](weather) will look like in 10 [minutes](time).
+- I wanna know what the [weather](weather) will look like in [10](minutes) minutes.
+- how would be the weather in next [12](hours) hours?
+- will the skies be clear for next [8](hours) hrs?
+- I would be much happy if I could get the prediction for the weather upto [23](minutes) minutes.
+- weather forecasted for next [32](minutes) mins.
+- oh my god, what [woould](grammar:would) next [52](minutes) minutes.
+- what must be the weather forecast for next [4](hours) hours?
 - Charlotte, what is the weather [forecast](forecast) for [today](date)?
-- what is the weather looking like [today](date) in next 5 [hrs](time:hours)?
+- what is the weather looking like [today](date) in next [5](hours) [hrs](time:hours)?
 - what do you think the weather is going to be [tomorrow](date).
 - what is [tomorrow](date)'s weather
-- I would like to know what's the weather going to be like in next 5 [hours](time).
-- can you please tell me how's the weather going to be in next 8 [hours](time).
+- I would like to know what's the weather going to be like in next [5](hours) hours.
+- Jeez, I wonder what would be the wetaher in tonight.
+- Charlotte, can you please tell me the weather for next [21](hours) hours?
+- please tell me the forecast for next [22](hours) hours
+- can you please tell me how's the weather going to be in next [8](hours) hours.
 - [Predicted](forecast:forecast) weather for [tomorrow](date)?
-- i want to know what the weather is going to be any [minute](time:minutes).
+- i want to know what the weather is going to be any minute.
 - what are your [weather](weather) [predictions](forecast:forecast)?
 - what do yu think the [wetaher](weather:weather) is going to be like?
 - just tell me the forecast
+- just tell me weather forecast for [26](minutes) [mins](time:minutes).
+- tell me weather for next [10](minutes) minutes.
 - could you please get the forecast reports for me?
+- is there any forecast report for me with next [17](minutes) mins?
+- do you have any idea what could be the weather in next [5](minutes) [mins](time:minutes)?
+- [charlotte](ai) i wonder what could be the weather in [houston](city) in next [6](hours) hours?/
 
 ## intent:asking_forecast_weather_conditions+telling_forecast_location
-- tell me the forecast in [rajkot](city)
+- tell me the forecast in [rajkot](city) for like next [10](minutes) minutes.
 - just tell me the forecast for [aberdeen](city).
 - Upcoming weather details for [Chitre](city).
-- What's the weather forecast for [mumbai](city)?
-- what is the weather forecasting for [Abuja](city)?
+- What's the weather forecast for [abha](city) in next [26](minutes) [mins](time:minutes)?
+- what is the weather forecasting for [apodi](city) for [27](minutes) mins?
+- any weather forecast reports for [brisbane](city) for next [2](hours) [hrs](time:hours)?
+- i wanna know the [predicted](forecast:forecast) [climate](weather:weather) for [Mumbai](city).
+- what do you predict of the weather in [luxemborg](country) for nearly [3](hours) hours?
+- what do you think the [wetaher](weather:weather) is going to be like in [San Francisco](city) for next [19](minutes) minutes?
+- I need weather predictions for [Mumbai](city) upto [7](hours) [hrs](time:hours).
+- Will it be sunny in [apace](city)?
+- will it be rainy in [Sudan](country) for [14](hours) hours straight?
+- Is it going to snow in [India](country) for next [4](hours) hours?
+- hows the weather going to be in next couple of hours here in [Los Angeles](city: los_angeles)?
+- wats its gonna be like in [antrim](city) [later](time)
 - [Forecast](forecast:forecast) report for [America](country)
 - what are your [predictions](forecast:forecast) for [Sacramento](city)?
-- i wanna know the [predicted](forecast:forecast) [climate](weather:weather) for [Mumbai](city).
 - what's its gonna be like in [Mumbai](city) [later](time)
 - any weather forecast reports for [brisbane](city)?
 - what do you think the weather is gonna be like in [luxemborg](country)?
@@ -237,9 +268,12 @@
 - Will it be sunny in [Mumbai](city)?
 - will it be rainy in [America](country)?
 - Is it going to snow in [Russia](country)?
-- hows the weather going to be in next couple of [hours](time) here in [LA](city: los_angeles)?
+- hows the weather going to be in next couple of hours here in [LA](city: los_angeles)?
 - Is the weather going to be the same in [Los Angeles](city: los_angeles)?
 - yes tell me the weather forecast for [aberdeen](city)
+- [charlotte](ai) whats the weather like in [mumbai](city) for next [8](hours) hours?
+- babe i wonder what would be the weather like in [kalyan](city) in next [38](minutes) [mins](time:minutes)?
+- i wish i could knew the weather in [ape](city) for next [18](hours) [hrs](time:hours).
 
 ## intent:asking_goto_next_step
 - Take me to the next step
@@ -1048,6 +1082,9 @@
 - thanks, [charlotte](ai)
 - thanks [charlotte](ai), this will do.
 - thank you [charlotte](ai)
+- thanks dear
+- thanks dear
+- thanks
 
 ## intent:saying_thank_you+saying_goodbye
 - um thank you good bye
@@ -1077,6 +1114,7 @@
 - uh okay thank you good bye
 - thank you bye
 - um okay thank you good bye
+- thanks bye
 
 ## intent:saying_yes
 - yes
@@ -1150,6 +1188,8 @@
 - yes
 - i love that
 - yes, why not
+- yes, please
+- yeah yeah
 
 ## intent:telling_current_location
 - In [Fenchurch](street).
@@ -1340,8 +1380,10 @@
 - my name is [Bran Stark](name)
 
 ## synonym: los_angeles
-- LA
 - Los Angeles
+- LA
+- los angeles
+- la
 
 ## synonym:artist
 - band
@@ -1364,10 +1406,10 @@
 ## synonym:forecast
 - forecasted
 - Forecasted
-- Predicted
 - predictions
-- Forecast
+- Predicted
 - predicted
+- Forecast
 
 ## synonym:forward
 - ahead
@@ -1401,6 +1443,7 @@
 - mins
 - min
 - minute
+- minutes
 
 ## synonym:more
 - a lot
@@ -1478,12 +1521,14 @@
 - climatic
 - wetaher
 - climate
+- weater
 
 ## synonym:what
 - wat
 
 ## synonym:would
 - wud
+- woould
 
 ## synonym:xa
 - XA
@@ -1503,3 +1548,9 @@
 
 ## lookup:planet
   data/lookup_tables/planet.txt
+
+## lookup:hours
+  data/lookup_tables/hours.txt
+
+## lookup:minutes
+  data/lookup_tables/minutes.txt
