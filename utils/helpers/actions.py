@@ -254,7 +254,7 @@ def current_weather(city: str) -> str:
               f' {error}.')
 
 
-def forecast_weather(city: str) -> str:
+def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
     import os
     from random import choice
     from apixu.client import ApixuClient
@@ -262,7 +262,17 @@ def forecast_weather(city: str) -> str:
     try:
         client = ApixuClient(api_key=os.environ.get('CHARLOTTE_APIXU'))
 
-        local_area = client.forecast(q=city, hour=5)
+        if hours is None or hours is 'None':
+            if mins is None or mins is 'None':
+                local_area = client.forecast(q=city, hour=5)
+            else:
+                min_to_hour = int(mins) // 60
+                local_area = client.forecast(q=city, hour=min_to_hour)
+        else:
+            if hours >= 23:
+                local_area = client.forecast(q=city, days=1)
+            else:
+                local_area = client.forecast(q=city, hour=hours)
         name = local_area['location']['name']
         condition = local_area['current']['condition']['text']
         temperature_c = local_area['current']['temp_c']
