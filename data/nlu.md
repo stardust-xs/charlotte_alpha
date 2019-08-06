@@ -1,3 +1,161 @@
+## intent:asking_current_weather_conditions
+- tell me the [current](time:now) weather
+- [current](time:now) weather condition
+- could you possibly tell me the current weather.
+- what is the weather [now](time)?
+- I would like to know the [cureent](time:now) weather details.
+- please show me the [current](time:now) weather condition.
+- [latest](time:now) weather please.
+- could you please tell me how's the weather looking [now](time)?
+- what's the weather out there [now](time)?
+- [Current](time:now) weather
+- [Latest](time:now) weather report, please
+- what is the current weather?
+- [Please](action:please) tell the [currnt](time:now) weather.
+- I need to know what is the [current](time:now) weather outside.
+- I would like to know the [current](time:now) weather.
+- what is the [current](time:now) wetaher?
+- I need to know the [current](time:now) weather.
+- what would you say about the current [weather](weather) condition?
+- current weather details please.
+- what's the [latest](time:now) weather report?
+- What are the [curent](time:now) weather conditions.
+- what is the [current](time:now) weather?
+- Can you please tell me the [current](time:now) weather?
+- the [latest](time:now) weather conditions.
+- can you please report the current [weather](weather) report?
+- what is the [current](time:now) weather.
+- [plz](action:please) tell the current weather.
+- may I know the current weather condition please?
+- what should I assume the current weather conditions are?
+- I want to understand the current weather conditions.
+- please tell [current](time:now) weather
+- please tell me the current weater
+- tell me the [current](time:now) weather
+- tell me the [current](time:now) weather
+- I wanna know the [current](time:now) weather conditions
+- what is the [current](time:now) weather like in [mumbai](city)
+- no, just the [current](time:now) weather is fine.
+
+## intent:asking_current_weather_conditions+asking_forecast_weather_conditions
+- [pleas](action:please) tell me [today](date)'s weather.
+- what is the weather like?
+- tell me the weather.
+- what [cud](grammar:could) be the weather out there?
+- will you please tell me the weather for [today](date)
+- tell me weather, please
+- I need to know the weather
+- what [would](grammar) be the weather there?
+- what is the weather?
+- Do a weather check.
+- I need some help with weather details
+- show me weather
+- tell me the weather.
+- what is the weather information [today](date)
+- i need to know the weather details
+- I want to understand the weather out [today](date)
+- I want the weather details, please.
+- what is the weather like?
+- what is the weather?
+- Weather check
+- just tell the [damn](bleep_words) weather
+- I want the weather details.
+- Show me the weather details.
+- what's the weather there?
+- Is it quite breezy?
+- I need the [weather](weather) details.
+- how [cold](temperature) is there?
+- What's the weather [today](date)?
+- May I know the weather, please?
+- Can I get the weather details, please?
+- I wonder what is the weather out there?
+- I want to know the weather details.
+- what's the weather like?
+- I want to know what's the weather?
+- I wonder how is the weather out there?
+- Can you tell me weather, please?
+- check weather
+- tell me weather
+- How is the weather [today](date)?
+- What's the weather like?
+- How is the weather?
+- What is the weather at your place?
+- Do you have good weather?
+- Is it raining?
+- What's it like out there?
+
+## intent:asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location
+- What's the weather in [London](city) [today](date)?
+- what is the weather in [Berlin](city) as we speak?
+- Show me the weather in [Paris](city)
+- How [warm](temperature) would it be in [malibu](city)?
+- I wonder what is the weather in [Vilnius](city) [right now](time)?
+- Show me what's the weather in [Munich](state)
+- How [hot](temperature) is it in [Rajasthan](state)?
+- Can you [plzzz](action:please) tell me what's the weather [today](date) in [Mumbai](city)?
+- tell me weather in [Mumbai](city).
+- Show me the weather in [Dublin](city), please
+- Can you please tell me the weather in [Thane](city)
+- tell me weather in [Bristol](city)
+- I wonder what [wud](grammar:would) be the weather in [Paris](city).
+- tell me [current](time:now) weather in [malibu](city)
+- what is the weather like in [shanghai](city)?
+- whats the weather like in [china](country)?
+- what is the [climate](weather) in [Mumbai](city)?
+- tell me weather conditions for [Mumbai](city)
+- how is the [climate](weather) in [Thane](city)?
+- what is the weather like [today](date)?
+- how [hot](temperature) is it in [Texas](state)?
+- how [cold](temperature) it would be in [london](city) [right now](time)?
+- I'm guessing what [cud](grammar:could) be the weather be like in [New York](city)?
+- what could the weather be like in [paris](city) [now](time)?
+- what must be the [climate](weather) in [Sudan](country) right now?
+- I wonder how must the weather be in [Mexico](country).
+- what weather [should](grammar) I expect in [california](state)?
+- [mexico](country)'s weather
+- how [cold](temperature) it would be in [Dublin](city), now?
+- I want to know how [cold](temperature) is the temperature in [Mumbai](city) is?
+- tell me weather condition in [russia](country).
+- what must be it like the weather in [russia](country)?
+- what could be the [climate](weather) of [algeria](country) be like?
+- tell me the [climatic](weather:weather) conditions of [norway](country) now.
+- what [wud](grammar:would) be the weather like in [New Jersey](state)?
+- what do you think the weather of [Mumbai](city) is like?
+- tell me [mumbai](city)'s weather.
+- tell me weather in [Oklahoma City](city).
+- What are the weather conditions in [Toronto](city)?
+- tell me [malibu](city)'s weather [today](date)
+- How is the weather in [Oklahoma City](city)?
+- How [humid](temperature) is it in [Madagascar](country)?
+- weather condition in [Cairo](city).
+- Currently Im in [Mumbai](city). what is the weather here?
+- wats the weather be like in [Seoul](city)?
+- how [chilling](temperature) it would be in [Rhode Island](state)?
+- May I understand the weather conditions in [Alabama](state)?
+- Is the weather nice in [Barcelona](city) [today](date)?
+- How is [Europe](country) doing in terms of weather conditions?
+- tell me weather in [Brazil](country)
+- how is the [climate](weather) in [Sudan](country)?
+- Weather in [Mumbai](city)?
+- [Mumbai](city)'s weather?
+- How is the weather be like in [Lyon](city)?
+- what is the [climate](weather) in [Washington](state) now?
+- do you know the weather conditions in [Algeria](country)?
+- weather in [New York](city)
+- How is the weather in [Westminster](city)?
+- tell me weather in [aberdeen](city)
+- yes, please tell me what's the weather in [london](city)
+- please tell me weather in [San Jose](city)
+- nah, find weather in [seoul](city)
+- yes, tell mwe the weather in [london](city)
+- tell me the weather in [delhi](city)
+- tell me the [current](time:now) weather in [alesund](city)
+- yes, i would like to know the weather in [mumbai](city)
+- [charlotte](ai), tell me the weather in [abau](city)
+- [charlotte](ai), can you please tell me the weather in [chicago](city)
+- please tell me the weather in [newcastle](city) as well.
+- tell me th weather in [houston](city)
+
 ## intent:asking_do_you_need_anything_else
 - do you need anything else?
 - are you expecting anything?
@@ -33,6 +191,55 @@
 - [ma'am](gender:female) do you need anything else?
 - do u need anything else?
 - is there anything else?
+
+## intent:asking_forecast_weather_conditions
+- how will be the [weather](weather) [today](date)?
+- what do you think the weather be like in next [hr](time:hours)?
+- I would like to knew the weather in next 10 hours.
+- weather [forecast](forecast)
+- what is the [forecasted](forecast:forecast) weather?
+- what is the weather forecast looking like?
+- Upcoming weather details.
+- i [wnna](grammar:want) know the weather in next 10 [mins](time:minutes).
+- what is the [Forecasted](forecast:forecast) weather?
+- what is the weather gonna look like in 15 [min](time:minutes).
+- Weather forecast for [today](date)?
+- What's the weather forecast?
+- [Tomorrow](date)'s weather reports.
+- I wanna know what the [weather](weather) will look like in 10 [minutes](time).
+- Charlotte, what is the weather [forecast](forecast) for [today](date)?
+- what is the weather looking like [today](date) in next 5 [hrs](time:hours)?
+- what do you think the weather is going to be [tomorrow](date).
+- what is [tomorrow](date)'s weather
+- I would like to know what's the weather going to be like in next 5 [hours](time).
+- can you please tell me how's the weather going to be in next 8 [hours](time).
+- [Predicted](forecast:forecast) weather for [tomorrow](date)?
+- i want to know what the weather is going to be any [minute](time:minutes).
+- what are your [weather](weather) [predictions](forecast:forecast)?
+- what do yu think the [wetaher](weather:weather) is going to be like?
+- just tell me the forecast
+- could you please get the forecast reports for me?
+
+## intent:asking_forecast_weather_conditions+telling_forecast_location
+- tell me the forecast in [rajkot](city)
+- just tell me the forecast for [aberdeen](city).
+- Upcoming weather details for [Chitre](city).
+- What's the weather forecast for [mumbai](city)?
+- what is the weather forecasting for [Abuja](city)?
+- [Forecast](forecast:forecast) report for [America](country)
+- what are your [predictions](forecast:forecast) for [Sacramento](city)?
+- i wanna know the [predicted](forecast:forecast) [climate](weather:weather) for [Mumbai](city).
+- what's its gonna be like in [Mumbai](city) [later](time)
+- any weather forecast reports for [brisbane](city)?
+- what do you think the weather is gonna be like in [luxemborg](country)?
+- what do you think the [wetaher](weather:weather) is going to be like in [San Francisco](city)?
+- I need weather predictions for [Mumbai](city)
+- Will it be sunny in [Mumbai](city)?
+- will it be rainy in [America](country)?
+- Is it going to snow in [Russia](country)?
+- hows the weather going to be in next couple of [hours](time) here in [LA](city: los_angeles)?
+- Is the weather going to be the same in [Los Angeles](city: los_angeles)?
+- yes tell me the weather forecast for [aberdeen](city)
 
 ## intent:asking_goto_next_step
 - Take me to the next step
@@ -157,7 +364,7 @@
 - Drop the needle.
 - make me happy.
 - start the [beat](music:track)
-- Charlotte, could you please play something?
+- [Charlotte](ai), could you please play something?
 - i want a live performance
 - i [wnna](grammar:want) dance to some music.
 - I want some music here.
@@ -208,10 +415,10 @@
 - drop that bass
 - sure. play something.
 - play something
-- charlotte, play something
+- [charlotte](ai), play something
 - play music
 
-## intent:asking_play_music_with_genre
+## intent:asking_play_any_music_with_genre
 - [cud](grammar:could) u play [edm](genre)?
 - I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](genre) [music](music:track).
 - Play [Dubstep](genre) songs
@@ -304,118 +511,6 @@
 - whom am I talking to?
 - who is this?
 - what on [earth](planet) should I call you?
-
-## intent:asking_weather_details
-- [pleas](action:please) tell me [today](date)'s weather.
-- what is the weather like?
-- tell me the weather.
-- what [cud](grammar:could) be the weather out there?
-- will you please tell me the weather for [today](date)
-- tell me weather, please
-- I need to know the weather
-- what [would](grammar) be the weather there?
-- what is the weather?
-- Do a weather check.
-- I need some help with weather details
-- show me weather
-- tell me the weather.
-- what is the weather information [today](date)
-- i need to know the weather details
-- I want to understand the weather out [today](date)
-- I want the weather details, please.
-- what is the weather like?
-- what is the weather?
-- Weather check
-- I want the weather details.
-- Show me the weather details.
-- what's the weather there?
-- I need the weather details.
-- how [cold](temperature) is there?
-- What's the weather [today](date)?
-- May I know the weather, please?
-- Can I get the weather details, please?
-- I wonder what is the weather out there?
-- What is the weather out there?
-- I want to know the weather details.
-- what's the weather like outside?
-- I want to know what's the weather?
-- I wonder how is the weather out there?
-- Can you tell me weather, please?
-- check weather
-- tell me weather
-- How is the weather [today](date)?
-- What's the weather like?
-- How is the weather?
-- What is the weather at your place?
-- Do you have good weather?
-- Is it raining?
-- What's it like out there?
-- Is it hot or cold?
-- Beautiful [day](time), isn't it?
-- What's the weather forecast?
-- Is it quite breezy outside?
-
-## intent:asking_weather_details+telling_current_location
-- What's the weather in [London](city) [today](date)?
-- what is the weather in [Berlin](city) as we speak?
-- Show me the weather in [Paris](city)
-- How [warm](temperature) would it be in [malibu](city)?
-- I wonder what is the weather in [Vilnius](city) [right now](time)?
-- Show me what's the weather in [Munich](state)
-- How [hot](temperature) is it in [Rajasthan](state)?
-- Can you [plzzz](action:please) tell me what's the weather [today](date) in [Mumbai](city)?
-- tell me weather in [Mumbai](city).
-- Show me the weather in [Dublin](city), please
-- Can you please tell me the weather in [Thane](city)
-- tell me weather in [Bristol](city)
-- I wonder what [wud](grammar:would) be the weather in [Paris](city).
-- tell me [current](time) weather in [malibu](city)
-- what is the weather like in [shanghai](city)?
-- whats the weather like in [china](country)?
-- what is the [climate](weather) in [Mumbai](city)?
-- tell me weather conditions for [Mumbai](city)
-- how is the [climate](weather) in [Thane](city)?
-- what is the weather like [today](date)?
-- how [hot](temperature) is it in [Texas](state)?
-- how [cold](temperature) it would be in [london](city) [right now](time)?
-- I'm guessing what [cud](grammar:could) be the weather be like in [New York](city)?
-- what could the weather be like in [paris](city) [now](time)?
-- what must be the [climate](weather) in [Sudan](country) right now?
-- I wonder how must the weather be in [Mexico](country).
-- what weather [should](grammar) I expect in [california](state)?
-- [mexico](country)'s weather
-- how [cold](temperature) it would be in [Dublin](city), now?
-- I want to know how [cold](temperature) is the temperature in [Mumbai](city) is?
-- tell me weather condition in [russia](country).
-- what must be it like the weather in [russia](country)?
-- what could be the [climate](weather) of [algeria](country) be like?
-- tell me the [climatic](weather:climate) conditions of [norway](country) now.
-- what [wud](grammar:would) be the weather like in [New Jersey](state)?
-- what do you think the weather of [Mumbai](city) is like?
-- tell me [mumbai](city)'s weather.
-- tell me weather in [Oklahoma City](city).
-- What are the weather conditions in [Toronto](city)?
-- tell me [malibu](city)'s weather [today](date)
-- How is the weather in [Oklahoma City](city)?
-- How [humid](temperature) is it in [Madagascar](country)?
-- weather condition in [Cairo](city).
-- Currently Im in [Mumbai](city). what is the weather here?
-- wats the weather be like in [Seoul](city)?
-- how [chilling](temperature) it would be in [Rhode Island](state)?
-- May I understand the weather conditions in [Alabama](state)?
-- Is the weather nice in [Barcelona](city) [today](date)?
-- How is [Europe](country) doing in terms of weather conditions?
-- tell me weather in [Brazil](country)
-- how is the [climate](weather) in [Sudan](country)?
-- Weather in [Mumbai](city)?
-- [Mumbai](city)'s weather?
-- How is the weather be like in [Lyon](city)?
-- what is the [climate](weather) in [Washington](state) now?
-- do you know the weather conditions in [Algeria](country)?
-- weather in [New York](city)
-- How is the weather in [Westminster](city)?
-- tell me weather in [aberdeen](city)
-- tell me weather in [abau](city)
 
 ## intent:asking_who_built_you
 - [Plz](action:please) tell me who made you
@@ -566,10 +661,30 @@
 - hey [friend](people)
 - hi
 - Hello
-- hello
-- hello
-- hello
-- hello
+
+## intent:saying_hello+asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location
+- hey tell me weather for [Washington](state)
+- hello, I want to weather for [brisbane](city).
+- I want details updates for [Mumbai](city) and Hi by the way.
+- Heyo! tell me weather in [Sacramento](city)
+- hello update me with weather details for [westeros](state)
+- hi tell me weather in [San Francisco](city)
+- Hi. Waht are the weather updates for [Sacramento](city)?
+- hey tell me weather in [America](country)
+- Hello. tell me weather in [Mumbai](city)?
+- hey I need weather details for [Mumbai](city).
+- yo! tell me weather for [abhor](city)
+- Hello tell me weather for [Abakan](city)
+- hey girl, can you get me weather details for [Alaska](state)?
+- Hello [Mumbai](city), weather details.
+- hi. how does the weather look like in [LA](city: los_angeles)?
+- howdy! tell me weather in [Alabama](state)
+- hey can you tell me weather in [luxemborg](country)?
+- Helllooo I'm in [Mumbai](city) I need weather details
+- Hey! I'm in [North Carolina](state). Can you [puh-lease](action:please) tell me the weather here?
+- Hey I need weather conditions for [Abuja](city).
+- hey get me weather update for [San Francisco](city)
+- hey can you please tell me the weather in [rajkot](city)?
 
 ## intent:saying_hello+asking_how_are_you
 - Hello! how are you?
@@ -626,29 +741,6 @@
 - Hi there! who is this?
 - Hi there. Who are you?
 - hi! what's your name?
-
-## intent:saying_hello+asking_weather_details+telling_current_location
-- hey tell me weather for [Washington](state)
-- hello, I want to weather for [brisbane](city).
-- I want details updates for [Mumbai](city) and Hi by the way.
-- Heyo! tell me weather in [Sacramento](city)
-- hello update me with weather details for [westeros](state)
-- hi tell me weather in [San Francisco](city)
-- Hi. Waht are the weather updates for [Sacramento](city)?
-- hey tell me weather in [America](country)
-- Hello. tell me weather in [Mumbai](city)?
-- hey I need weather details for [Mumbai](city).
-- yo! tell me weather for [abhor](city)
-- Hello tell me weather for [Abakan](city)
-- hey girl, can you get me weather details for [Alaska](state)?
-- Hello [Mumbai](city), weather details.
-- hi. how does the weather look like in [LA](city)?
-- howdy! tell me weather in [Alabama](state)
-- hey can you tell me weather in [luxemborg](country)?
-- Helllooo I'm in [Mumbai](city) I need weather details
-- Hey! I'm in [North Carolina](state). Can you [puh-lease](action:please) tell me the weather here?
-- Hey I need weather conditions for [Abuja](city).
-- hey get me weather update for [San Francisco](city)
 
 ## intent:saying_no
 - no
@@ -779,6 +871,30 @@
 - no center
 - no this does not work for me
 - no thai
+- no
+- no thanks.
+- nope. that's fine.
+- no, I don't need that.
+- no, that will be it.
+- nah
+- no.
+- no
+- nope
+- not really
+- no. that would be it.
+- No, use something else.
+- no, that would be it [charlotte](ai).
+- no. that would be it. thanks
+- no
+- nothing as of [now](time).
+- oh no. this will make it.
+- no. dont  add it.
+- Nah.
+- no. i'm really not interested in knowing that.
+- no, that will be it.
+- yep, nothing more from me.
+- no [charlotte](ai), that will be it for [now](time).
+- no thank you.
 
 ## intent:saying_no_for_telling_name
 - I'm not going to tell my name
@@ -874,13 +990,15 @@
 - alright
 - okay. I understood
 - It's fine with me.
-- [Charlotte](name), its alright.
+- [charlotte](ai), its alright.
 - Ah ok.
 - Owkay.
 - Owkay alright!
 - alright, that's fine.
 - it's okay, [Tony](name)
 - its alright.
+- that's fine
+- hmm okay
 
 ## intent:saying_thank_you
 - Thanks
@@ -927,6 +1045,9 @@
 - cool thanks
 - thanks!
 - thanks, [Michelle](name)
+- thanks, [charlotte](ai)
+- thanks [charlotte](ai), this will do.
+- thank you [charlotte](ai)
 
 ## intent:saying_thank_you+saying_goodbye
 - um thank you good bye
@@ -1028,44 +1149,34 @@
 - yes that sounds bout right
 - yes
 - i love that
+- yes, why not
 
 ## intent:telling_current_location
-- I'm going to [France](country)
 - In [Fenchurch](street).
 - Out of [Las Vegas](city)
 - I am from [The United States of America](country:usa)
-- I'll be leaving for [Mumbai](city) this [morning](time).
 - in [Delhi](state)
 - at [Oberhausen](city)
 - Im calling from [britain](country:uk)
 - In [london](city), please
 - I am at [CST](train_station) [now](time)
 - [United States](country) is the place.
-- I'll leave for [San Francisco](city) [tomorrow](date).
 - I'm in [Mumbai](city).
 - [Russia](country)
-- I'll be in [Kolkata](city)
 - Im from [Kolkata](city).
-- I am leaving for [chicago](city).
-- I'm leaving [US](country:usa) for [now](time)
 - I'm in [South Dakota](state)
 - I'm driving to [US](country:usa) on my own.
-- We are visiting [Stonehenge](landmark) [tomorrow](date).
 - We arrived at [Las Vegas](city) [airport](airport) this [morning](time)
 - We should have a drink in [Las Vegas](city).
-- I'll be travelling to [London](city) [tomorrow](date) [morning](time).
 - I'm in [Mumbai](city)
-- I'll be going to [Dadar](train_station) for picking up [Charlotte](name)
-- I am planning my trip to [Amsterdam](city).
 - I am currently residing in [the states](country:usa) [now](time)
 - At [Costa Rica](country).
 - in [London](city).
 - Near [Dr. R.P.Road](street)
-- [tomorrow](date) I'm coming to [Denmark](country)
 - I'm based of [San Francisco](city)
 - I live in [New York](city)
-- I'll be flying to [Unites States of America](country)
 - At [Frankfurt](city) [airport](airport)
+- I'll leave for [San Francisco](city) [tomorrow](date).
 - in [Westminster](city) please.
 - In [tokyo](city).
 - [Mumbai](city)
@@ -1076,19 +1187,14 @@
 - I'm currently completing my graduation in [the states](country:usa).
 - [US](country:usa)
 - [United Kingdom](country)
-- I am planning my trip to [Amsterdam](city).
 - on [Freemont street](street)
 - from [America](country:usa)
 - I am going to [London](city) [today](date).
-- I shall be in [Montreal](city) by [tomorrow](date).
 - somewhere in [Bombay](city)
 - Nearby [Thames river](landmark) in [London](city).
-- I'm planning to leave for [Canada](country).
-- I'll see you in [France](country).
 - Currently Im in [Mumbai](city).
 - [UK](country:uk)
 - Why are you in [UK](country:uk)
-- I am going to [London](city) [today](date)
 - We [shud](grammar:should) catchup in [Germany](country).
 - in [San Jose](city).
 - In [Mumbai](city)
@@ -1100,6 +1206,35 @@
 - in the [great britain](country:uk)
 - at [Baker street](street).
 - in [the united states of america](country:usa)
+- in [newcastle](city)
+- [cairo](city)
+- [london](city)
+- in [chicago](city)
+- in [jaipur](city)
+- in [malibu](city)
+
+## intent:telling_forecast_location
+- I shall be in [Montreal](city) by [tomorrow](date).
+- I'll be leaving for [Mumbai](city) this [morning](time).
+- I am going to [London](city) [today](date)
+- I'm going to [France](country)
+- I'll be in [Kolkata](city)
+- I am leaving for [chicago](city).
+- tell me the weather for forecast for [Amsterdam](city)
+- I'm leaving [US](country:usa) for [now](time)
+- I'll be going to [Dadar](train_station) for picking up [charlotte](ai)
+- I am planning my trip to [Amsterdam](city).
+- I'll be flying to [Unites States of America](country)
+- I'll be flying to [India](country).
+- We are visiting [Stonehenge](landmark) [tomorrow](date).
+- I'll be travelling to [London](city) [tomorrow](date) [morning](time).
+- I'm planning to leave for [Canada](country).
+- I'll see you in [France](country).
+- I am planning my trip to [Amsterdam](city).
+- [tomorrow](date) I'm coming to [Denmark](country).
+- I might go to [Thane](train_station) [later](time)
+- I would be going to [Delhi](train_station) later.
+- no, tell me forecast for [london](city)
 
 ## intent:telling_my_name
 - [Charlotte Parks](full_name)
@@ -1204,15 +1339,16 @@
 - name [Sanjay](name)
 - my name is [Bran Stark](name)
 
+## synonym: los_angeles
+- LA
+- Los Angeles
+
 ## synonym:artist
 - band
 
 ## synonym:backward
 - previous
 - back
-
-## synonym:climate
-- climatic
 
 ## synonym:could
 - cud
@@ -1225,9 +1361,24 @@
 - madam
 - lady
 
+## synonym:forecast
+- forecasted
+- Forecasted
+- Predicted
+- predictions
+- Forecast
+- predicted
+
 ## synonym:forward
 - ahead
 - further
+
+## synonym:hours
+- hr
+- hrs
+- hour
+- Hours
+- Hrs
 
 ## synonym:less
 - little
@@ -1246,6 +1397,11 @@
 - bruh
 - bro
 
+## synonym:minutes
+- mins
+- min
+- minute
+
 ## synonym:more
 - a lot
 - a bunch
@@ -1255,12 +1411,21 @@
 - picture
 - film
 
+## synonym:now
+- current
+- cureent
+- latest
+- Current
+- Latest
+- currnt
+- curent
+
 ## synonym:please
-- plzz
 - Please
 - plz
 - pleas
 - plzzz
+- plzz
 - Plz
 - puh-lease
 - Pl
@@ -1309,6 +1474,11 @@
 - want to
 - Wanna
 
+## synonym:weather
+- climatic
+- wetaher
+- climate
+
 ## synonym:what
 - wat
 
@@ -1329,7 +1499,7 @@
   data/lookup_tables/city.txt
 
 ## lookup:country
-data/lookup_tables/country.txt
+  data/lookup_tables/country.txt
 
 ## lookup:planet
-data/lookup_tables/planet.txt
+  data/lookup_tables/planet.txt
