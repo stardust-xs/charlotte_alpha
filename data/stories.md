@@ -175,6 +175,17 @@
     - slot{"time": "now"}
     - utter_saying_okay
 
+## telling_current_forecast_weather_for_home_with_okay_and_thank_you
+* asking_current_weather_conditions+asking_forecast_weather_conditions
+    - utter_saying_okay
+    - utter_ask_use_home_location_for_weather
+* saying_yes
+    - utter_saying_fetching_current_weather_details
+    - action_tell_current_forecast_weather_conditions
+    - slot{"city": "mumbai"}
+* saying_thank_you
+    - utter_saying_welcome_to_action
+
 ## telling_current_forecast_weather_for_asked_city_and_forecast_again
 * saying_hello+asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location{"city": "rajkot"}
     - slot{"city": "rajkot"}
@@ -212,4 +223,52 @@
     - utter_saying_okay
     - utter_saying_fetching_current_weather_details
     - action_tell_current_forecast_weather_conditions
+    - slot{"city": "houston"}
+
+## telling_forecast_weather_for_asked_city_for_XX_hours
+* asking_forecast_weather_conditions+telling_forecast_location{"ai": "charlotte", "city": "mumbai", "hours": "8"}
+    - slot{"ai": "charlotte"}
+    - slot{"city": "mumbai"}
+    - slot{"hours": "8"}
+    - action_tell_forecast_weather_conditions
+    - slot{"city": "mumbai"}
+* saying_thank_you
+    - utter_saying_welcome_to_action
+
+## telling_forecast_weather_for_home_for_XX_minutes
+* asking_forecast_weather_conditions{"minutes": "5", "time": "minutes"}
+    - slot{"minutes": "5"}
+    - slot{"time": "minutes"}
+    - utter_ask_use_home_location_for_weather
+* saying_yes
+    - utter_saying_fetching_current_weather_details
+    - action_tell_forecast_weather_conditions
+    - slot{"city": "mumbai"}
+* saying_thank_you+saying_goodbye
+    - utter_saying_welcome_to_action
+
+## telling_direct_forecast_weather_for_asked_city_for_XX_minutes
+* asking_forecast_weather_conditions+telling_forecast_location{"city": "kalyan", "minutes": "38", "time": "minutes"}
+    - slot{"city": "kalyan"}
+    - slot{"minutes": "38"}
+    - slot{"time": "minutes"}
+    - action_tell_forecast_weather_conditions
+    - slot{"city": "kalyan"}
+
+## telling_direct_forecast_weather_for_asked_city_for_XX_hours_thank_you
+* asking_forecast_weather_conditions+telling_forecast_location{"city": "ape", "hours": "18", "time": "hours"}
+    - slot{"city": "ape"}
+    - slot{"hours": "18"}
+    - slot{"time": "hours"}
+    - action_tell_forecast_weather_conditions
+    - slot{"city": "ape"}
+* saying_thank_you
+    - utter_saying_welcome_to_action
+
+## telling_direct_forecast_weather_only_for_asked_city_for_XX_hours
+* asking_forecast_weather_conditions{"ai": "charlotte", "city": "houston", "hours": "6"}
+    - slot{"ai": "charlotte"}
+    - slot{"city": "houston"}
+    - slot{"hours": "6"}
+    - action_tell_forecast_weather_conditions
     - slot{"city": "houston"}
