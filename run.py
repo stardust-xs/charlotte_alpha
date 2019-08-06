@@ -16,12 +16,12 @@ from charlotte.utils.helpers.questions import answer, confirm
 from charlotte.utils.profiles.user import ai_lower, ai_title, lower, title
 from charlotte.utils.helpers.rasa import (render_model,
                                           run_nlu,
-                                          start_training)
+                                          start_ai_training)
 
 while True:
     option = select(message=f'Hello {lower}, what would you like me to do?',
                     choices=[Choice('Render model', 'render_model'),
-                             Choice('Start training', 'start_training'),
+                             Choice(f'Train {ai_title}', 'start_ai_training'),
                              Choice('Test NLU model', 'run_nlu'),
                              Choice('Run custom commands', 'custom_commands'),
                              Choice('Clear screen', 'clear_screen'),
@@ -29,8 +29,8 @@ while True:
 
     if option is 'render_model':
         render_model()
-    elif option is 'start_training':
-        start_training()
+    elif option is 'start_ai_training':
+        start_ai_training()
     elif option is 'run_nlu':
         run_nlu()
     elif option is 'custom_commands':
