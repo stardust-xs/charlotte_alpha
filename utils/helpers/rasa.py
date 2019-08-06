@@ -79,7 +79,7 @@ def run_nlu():
               f' {error}.')
 
 
-def start_training():
+def start_ai_training():
     try:
         if model_check(ai_lower):
             charlotte = model_check(ai_lower)
