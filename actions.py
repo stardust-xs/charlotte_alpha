@@ -49,8 +49,10 @@ class ActionTellForecaseWeatherConditions(Action):
 
     def run(self, dispatcher, tracker, domain) -> list:
         city = tracker.get_slot('city')
-        dispatcher.utter_message(forecast_weather(city))
-        return [SlotSet('city', city)]
+        hours = tracker.get_slot('hours')
+        mins = tracker.get_slot('minutes')
+        dispatcher.utter_message(forecast_weather(city, hours, mins))
+        return [SlotSet('city', city), SlotSet('hours', hours), SlotSet('minutes', mins)]
 
 
 class ActionTellCurrentForecastWeatherConditions(Action):
