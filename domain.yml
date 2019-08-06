@@ -1,5 +1,3 @@
-%YAML 1.1
----
 actions:
 - action_play_any_music
 - action_play_music_with_track_name
@@ -64,6 +62,7 @@ intents:
 - telling_my_name
 - asking_someones_name
 - asking_forecast_weather_conditions
+- asking_forecast_weather_conditions+telling_forecast_location
 - saying_hello+asking_current_weather_conditions+asking_forecast_weather_conditions+telling_current_location
 - asking_who_built_you
 - asking_do_you_need_anything_else
@@ -136,22 +135,21 @@ templates:
   - text: "{xa}, please may I request you to rephrase that one? I didn't quite get it."
   - text: I'm sorry {xa}, I didn't understand what you mean.
   utter_ask_use_home_location_for_weather:
-  - text: Shall I use our home location for fetching weather details, {xa}?
-  - text: Should I use home location for fetching weather details, {xa}?
-  - text: Shall I use our home location for fetching weather conditions, {xa}?
+  - text: Shall I use your home location for fetching weather details, {xa}?
+  - text: Shall I use your home location for fetching weather conditions?
+  - text: Should I use home location for fetching weather details?
   - text: Should I use home location for fetching weather conditions, {xa}?
-  - text: '{xa}, should I use our home location for narrowing weather search?'
-  - text: Am I to consider our home location, {xa}?
-  - text: '{xa}, shall I continue using our home location?'
+  - text: '{xa}, should I use your home location for narrowing weather search?'
+  - text: Am I suppose to fetch weather conditions for your home location, {xa}?
+  - text: '{xa}, shall I continue using your home location?'
   - text: Am I suppose to fetch weather details for our base location, {xa}?
   utter_asking_city_for_weather:
   - text: In which location, {xa}?
   - text: Where exactly, {xa}?
-  - text: '{xa} could you please tell me for which city you need the weather details for?'
-  - text: '{xa} can you please tell me for which city you need the weather conditions for?'
+  - text: '{xa} could you please tell me for which city should I search weather conditions for?'
   - text: '{xa}, perhaps you can help me with the city name.'
   - text: Perhaps you can help me with the city name, {xa}.
-  - text: And where exactly you need the weather details, {xa}?
+  - text: And where exactly you need the weather conditions for?
   - text: Which city are we looking for to, {xa}?
   - text: And which city's weather condition should I search for?
   - text: Perhaps you could tell me the city name, {xa}.
@@ -160,7 +158,6 @@ templates:
   - text: Any other request, {xa}?
   - text: Do you need anything else, {xa}?
   - text: Should I assist you with anything else?
-  - text: '{xa}, do you need any more assistance?'
   - text: Anything else, {xa}?
   - text: Will that be it, {xa}?
   utter_play_any_music_with_genre:
@@ -172,8 +169,7 @@ templates:
   - text: Sure {xa}, playing music.
   - text: Playing music {xa}.
   utter_saying_fetching_current_weather_details:
-  - text: Give me a minute, let me fetch the current weather details in {city}.
-  - text: As you wish {xa}, here you go.
+  - text: Just a moment...
   - text: Fetching current weather details for {city}...
   - text: Processing...
   - text: Search complete, {xa}.
@@ -188,7 +184,6 @@ templates:
   - text: Welcome back, {xa}.
   utter_saying_welcome_to_action:
   - text: No problem, {xa}.
-  - text: No issues, {xa}.
   - text: Happy to help you, {xa}.
   - text: My pleasure, {xa}.
   - text: No worries, {xa}.
@@ -196,34 +191,30 @@ templates:
   - text: No need to say thanks, {xa}. It's my job to aid you by all means.
   - text: The pleasure's all mine, {xa}.
   - text: Glad I could help you, {xa}.
-  - text: I'm happy to serve you, {xa}.
   - text: Glad I could be of your help, {xa}.
   - text: I'm glad I could be of your help.
   - text: The pleasure is all mine, {xa}.
   - text: No need to thank me, {xa}. I'm a people person.
   - text: As always {xa}, it's great helping you.
   utter_ask_current_weather_only:
-  - text: Just the current weather? Or do you need the forecast as well?
-  - text: "{xa}, should I include the forecast as well?"
+  - text: Just the current weather, {xa}? Or do you need the forecast as well?
+  - text: "{xa}, should I include the forecast details as well?"
   - text: Would you like to know the forecast as well, {xa}?
-  - text: Would you like to have the forecast as well, {xa}?
   - text: Should I include the forecast details as well?
   - text: Should I inlcude the forecasted report as well?
   - text: Am I suppose to include the forecast details as well, {xa}?
   - text: "{xa}, do you need the forecast as well?"
   - text: "{xa}, should I include the forecast details as well?"
   utter_ask_forecast_weather_only:
-  - text: Just the forecast? Or should I include weather details?
-  - text: "{xa}, would you like to know the current weather as well?"
+  - text: Just the forecast, {xa}? Or should I include weather details?
+  - text: "{xa}, would you like to know the current conditions as well?"
   - text: Should I include the current weather report as well?
-  - text: Would you like to have the current weather as well, {xa}?
   - text: Would you like to know the current weather as well?
   - text: "{xa}, should I include report on current weather?"
   - text: Am I suppose to include the current weather report as well, {xa}?
   utter_saying_okay:
   - text: Okay.
   - text: Ah okay.
-  - text: Uh-huh.
   - text: Alright.
   - text: Alright, {xa}.
   - text: Okay, {xa}.
