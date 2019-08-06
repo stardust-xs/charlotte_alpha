@@ -29,7 +29,9 @@ entities:
 - gender
 - genre
 - grammar
+- hours
 - landmark
+- minutes
 - music
 - name
 - people
@@ -94,7 +96,11 @@ slots:
     type: text
   genre:
     type: text
+  hours:
+    type: text
   landmark:
+    type: text
+  minutes:
     type: text
   music:
     type: text
@@ -135,14 +141,14 @@ templates:
   - text: "{xa}, please may I request you to rephrase that one? I didn't quite get it."
   - text: I'm sorry {xa}, I didn't understand what you mean.
   utter_ask_use_home_location_for_weather:
-  - text: Shall I use your home location for fetching weather details, {xa}?
-  - text: Shall I use your home location for fetching weather conditions?
+  - text: Shall I use the home location for fetching weather details, {xa}?
+  - text: Shall I use the home location for fetching weather conditions?
   - text: Should I use home location for fetching weather details?
   - text: Should I use home location for fetching weather conditions, {xa}?
-  - text: '{xa}, should I use your home location for narrowing weather search?'
-  - text: Am I suppose to fetch weather conditions for your home location, {xa}?
-  - text: '{xa}, shall I continue using your home location?'
-  - text: Am I suppose to fetch weather details for our base location, {xa}?
+  - text: '{xa}, should I use the home location for narrowing weather search?'
+  - text: Am I suppose to fetch weather conditions for the home location, {xa}?
+  - text: '{xa}, shall I continue to use the home location?'
+  - text: Am I suppose to fetch weather details for the home location, {xa}?
   utter_asking_city_for_weather:
   - text: In which location, {xa}?
   - text: Where exactly, {xa}?
@@ -172,7 +178,6 @@ templates:
   - text: Just a moment...
   - text: Fetching current weather details for {city}...
   - text: Processing...
-  - text: Search complete, {xa}.
   - text: Working on it, {xa}...
   - text: Accessing weather details from APIXU's database...
   - text: Let me quickly fetch current weather details for {city}...
