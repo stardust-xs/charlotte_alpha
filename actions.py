@@ -10,6 +10,7 @@ from rasa_sdk import Action
 from rasa_sdk.events import SlotSet
 
 from charlotte.utils.helpers.actions import (play_music,
+                                             locate,
                                              current_weather,
                                              forecast_weather,
                                              current_forecast_weather)
@@ -22,7 +23,7 @@ class ActionTellCurrentWeatherConditions(Action):
     def run(self, dispatcher, tracker, domain) -> list:
         city = tracker.get_slot('city')
         if city is None:
-            city = tracker.get_slot('xa_home_city')
+            city = locate('city')
         dispatcher.utter_message(current_weather(city))
         return [SlotSet('city', city)]
 
@@ -36,7 +37,7 @@ class ActionTellForecastWeatherConditions(Action):
         hours = tracker.get_slot('hours')
         mins = tracker.get_slot('minutes')
         if city is None:
-            city = tracker.get_slot('xa_home_city')
+            city = locate('city')
         dispatcher.utter_message(forecast_weather(city, hours, mins))
         return [SlotSet('city', city),
                 SlotSet('hours', hours),
@@ -50,6 +51,6 @@ class ActionTellCurrentForecastWeatherConditions(Action):
     def run(self, dispatcher, tracker, domain) -> list:
         city = tracker.get_slot('city')
         if city is None:
-            city = tracker.get_slot('xa_home_city')
+            city = locate('city')
         dispatcher.utter_message(current_forecast_weather(city))
         return [SlotSet('city', city)]
