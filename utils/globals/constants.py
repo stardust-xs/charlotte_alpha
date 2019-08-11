@@ -8,6 +8,7 @@ needed.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+ACTION_SERVER_PORT = 6969
 
 TIMESTAMP = {
     'date': '%d.%m.%Y',                              # '31.05.2019'
