@@ -43,7 +43,6 @@ user_type_man: {{ user_type_man }}
 user_type_woman: {{ user_type_woman }}
 user_birthdate: {{ user_birthdate }}
 user_age: {{ user_age }}
-user_blood_type: {{ user_blood_type }}
 user_phone_primary: {{ user_phone_primary }}
 user_phone_secondary: {{ user_phone_secondary }}
 emergency_contact_primary: {{ emergency_contact_primary }}
@@ -67,6 +66,7 @@ user_skype_password: {{ user_skype_password }}
 user_home_address: {{ user_home_address }}
 user_home_street: {{ user_home_street }}
 user_home_city: {{ user_home_city }}
+user_home_postal: {{ user_home_postal }}
 user_home_state: {{ user_home_state }}
 user_home_country: {{ user_home_country }}
 wake_phrase: {{ wake_phrase }}
@@ -106,9 +106,9 @@ if not exists(ai_file['master']):
                                             ' username?'), key)
 
         # Gender of the user
-        user_gender = cipher(select(message=f'Thank you! And you are ?',
-                                    choices=[Choice('Man', 'man'),
-                                             Choice('Woman', 'woman')]).ask(), key)
+        user_gender = cipher(select(message=f'Thank you! And you are a?',
+                                    choices=[Choice('Man', 'male'),
+                                             Choice('Woman', 'female')]).ask(), key)
 
         display('Perfect!')
 
@@ -151,22 +151,6 @@ if not exists(ai_file['master']):
 
         # Current age in years
         user_age = cipher(str(age(decipher(user_birthdate, key))), key)
-
-        # Blood type
-        user_blood_type = cipher(select(message='Your blood type,'
-                                                f' {name.lower()}?',
-                                        choices=[Choice('A +ve', 'a_pos'),
-                                                 Choice('A -ve', 'a_neg'),
-                                                 Choice('B +ve', 'b_pos'),
-                                                 Choice('B -ve', 'b_neg'),
-                                                 Choice('AB +ve', 'ab_pos'),
-                                                 Choice('AB -ve', 'ab_neg'),
-                                                 Choice('O +ve', 'o_pos'),
-                                                 Choice('O -ve', 'o_neg'),
-                                                 Choice('H +ve', 'h_pos'),
-                                                 Choice('H -ve', 'h_neg'),
-                                                 Choice('Skip this', 'null')
-                                                 ]).ask(), key)
 
         display('Tip #3: All Phone numbers should contain the country'
                 ' codes with \'+\' symbol. Eg: +9190XXXXXX52')
@@ -211,24 +195,32 @@ if not exists(ai_file['master']):
             f'And her secondary contact details, {name.lower()}?').replace('-', '').replace(' ', '')), key)
 
         # Primary email
-        user_email_primary = cipher(secure('Your email address?'), key)
+        user_email_primary = cipher(decide(
+            f'Would you like to save your primary email address, {name.lower()}?', 'Your email address?'), key)
 
         # Primary email password
-        user_email_password_primary = cipher(secure('It\'s password?'), key)
+        if decipher(user_email_primary, key) != 'null':
+            user_email_password_primary = cipher(
+                secure('It\'s password?'), key)
+        else:
+            user_email_password_primary = cipher('null', key)
 
         # Secondary email
-        user_email_secondary = cipher(secure('Secondary email address,'
-                                             f' {name.lower()}?'), key)
+        user_email_secondary = cipher(decide(
+            f'Do you have any secondary email address, {name.lower()}?', 'Okay... what it is?'), key)
 
         # Secondary email password
-        user_email_password_secondary = cipher(
-            secure('And it\'s password?'), key)
+        if decipher(user_email_secondary, key) != 'null':
+            user_email_password_secondary = cipher(
+                secure('And it\'s password?'), key)
+        else:
+            user_email_password_secondary = cipher('null', key)
 
         # Facebook handle
         user_facebook_handle = cipher(decide(
             f'Do you have a Facebook account, {name.lower()}?', 'What is it\'s username?'), key)
 
-        # Facebook  password
+        # Facebook password
         if decipher(user_facebook_handle, key) != 'null':
             user_facebook_password = cipher(
                 secure('Alright it\'s password?'), key)
@@ -250,7 +242,7 @@ if not exists(ai_file['master']):
         user_twitter_handle = cipher(
             decide('Are you on Twitter?', 'What is it\'s username?'), key)
 
-        # Twitter  password
+        # Twitter password
         if decipher(user_twitter_handle, key) != 'null':
             user_twitter_password = cipher(secure('It\'s password?'), key)
         else:
@@ -273,6 +265,7 @@ if not exists(ai_file['master']):
         user_home_address = cipher(locate(), key)
         user_home_street = cipher(locate('street'), key)
         user_home_city = cipher(locate('city'), key)
+        user_home_postal = cipher(locate('postal'), key)
         user_home_state = cipher(locate('state'), key)
         user_home_country = cipher(locate('country'), key)
         display('Got it!')
@@ -296,7 +289,6 @@ if not exists(ai_file['master']):
                                   user_type_woman=user_type_woman,
                                   user_birthdate=user_birthdate,
                                   user_age=user_age,
-                                  user_blood_type=user_blood_type,
                                   user_phone_primary=user_phone_primary,
                                   user_phone_secondary=user_phone_secondary,
                                   emergency_contact_primary=emergency_contact_primary,
@@ -320,6 +312,7 @@ if not exists(ai_file['master']):
                                   user_home_address=user_home_address,
                                   user_home_street=user_home_street,
                                   user_home_city=user_home_city,
+                                  user_home_postal=user_home_postal,
                                   user_home_state=user_home_state,
                                   user_home_country=user_home_country,
                                   wake_phrase=wake_phrase)
@@ -332,7 +325,7 @@ if not exists(ai_file['master']):
             to=f'{decipher(user_phone_primary, key)}',
             body=f'{name.title()}, your verification code is : {otp}')
 
-        match = secure(f'{name.title()}, I\'ve sent an SMS onto your'
+        match = secure(f'{name.title()}, I\'ve sent a code onto your'
                        ' phone. Please enter it to proceed.')
         if int(match) == otp:
             with open(ai_file['master'], 'w') as profile:
