@@ -4,7 +4,7 @@ Charlotte Common Functions
 
 This module provides references to most common functions that are used in the
 package.
-The module has 6 functions:
+The module has 9 functions:
     - make_dir          : Makes a directory
     - json_print        : Prints JSON data in readable fashion
     - model_check       : Checks if the model exists in that directory
