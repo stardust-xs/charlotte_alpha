@@ -165,7 +165,7 @@ if not exists(ai_file['master']):
                                                  Choice('O -ve', 'o_neg'),
                                                  Choice('H +ve', 'h_pos'),
                                                  Choice('H -ve', 'h_neg'),
-                                                 Choice('Skip this', 'NA')
+                                                 Choice('Skip this', 'null')
                                                  ]).ask(), key)
 
         display('Tip #3: All Phone numbers should contain the country'
@@ -229,42 +229,42 @@ if not exists(ai_file['master']):
             f'Do you have a Facebook account, {name.lower()}?', 'What is it\'s username?'), key)
 
         # Facebook  password
-        if decipher(user_facebook_handle, key) != 'NA':
+        if decipher(user_facebook_handle, key) != 'null':
             user_facebook_password = cipher(
                 secure('Alright it\'s password?'), key)
         else:
-            user_facebook_password = cipher('NA', key)
+            user_facebook_password = cipher('null', key)
 
         # Instagram handle
         user_instagram_handle = cipher(decide(
             f'Do you have an account on Instagram?', 'What\'s it\'s user id?'), key)
 
         # Instagram password
-        if decipher(user_instagram_handle, key) != 'NA':
+        if decipher(user_instagram_handle, key) != 'null':
             user_instagram_password = cipher(
                 secure('And it\'s password?'), key)
         else:
-            user_instagram_password = cipher('NA', key)
+            user_instagram_password = cipher('null', key)
 
         # Twitter handle
         user_twitter_handle = cipher(
             decide('Are you on Twitter?', 'What is it\'s username?'), key)
 
         # Twitter  password
-        if decipher(user_twitter_handle, key) != 'NA':
+        if decipher(user_twitter_handle, key) != 'null':
             user_twitter_password = cipher(secure('It\'s password?'), key)
         else:
-            user_twitter_password = cipher('NA', key)
+            user_twitter_password = cipher('null', key)
 
         # Skype handle
         user_skype_handle = cipher(decide(
             f'Do you have Skype account?', 'What\'s it\'s user id?'), key)
 
         # Skype password
-        if decipher(user_skype_handle, key) != 'NA':
+        if decipher(user_skype_handle, key) != 'null':
             user_skype_password = cipher(secure('And it\'s password?'), key)
         else:
-            user_skype_password = cipher('NA', key)
+            user_skype_password = cipher('null', key)
 
         display('Tip #5: Hold steady...')
 
