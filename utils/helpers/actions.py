@@ -88,12 +88,12 @@ def locate(area: str = None) -> str:
             try:
                 return location.json[area]
             except:
-                return 'NA'
+                return 'null'
         else:
             try:
                 return location.json['address']
             except:
-                return 'NA'
+                return 'null'
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
@@ -234,41 +234,37 @@ def current_weather(city: str) -> str:
         gust_kph = local_area['current']['gust_kph']
         gust_mph = local_area['current']['gust_mph']
 
-        day_weather = [f'Currently in {name} it\'s'
-                       f' {temperature_c}°C and {condition} with winds'
-                       f' running upto {wind_kph} km/h.',
-                       f'Right now in {name} it\'s {temperature_c}°C'
-                       f' and {condition} but because of the humidity'
-                       f' it feels like {feelslike_c}°C.',
-                       f'It is currently {condition} in {name} with '
-                       f' {temperature_c}°C and winds running upto {wind_kph}'
-                       ' km/h.',
-                       f'It is {temperature_c}°C and {condition} in {name}'
-                       f' with winds running upto {wind_kph} km/h but due to'
-                       f' the current humidity it feels like {feelslike_c}°C.',
-                       f'Weather in {name} is {temperature_c}°C'
-                       f' with {condition} conditions and winds blowing'
-                       f' in {wind_dir} direction.',
-                       f'The weather today in {name} is {condition}'
-                       f' with {temperature_c}°C.']
-        night_weather = [f'Tonight the weather is {condition} in {name}'
-                         f' with winds blowing in {wind_dir} direction at {wind_kph} km/h. Temperature is {temperature_c}°C.',
-                         f'Tonight the weather is {condition} in {name}'
-                         f' with {temperature_c}°C but due to {humidity}%'
-                         f' humidity it feels like {feelslike_c}°C.',
-                         f'The weather tonight in {name} is {condition}'
-                         f' with {temperature_c}°C.',
-                         f'Right now in {name} it\'s {temperature_c}°C'
-                         f' and {condition} but due to humidity'
-                         f' it feels like {feelslike_c}°C.',
-                         f'Currently in {name} it\'s {temperature_c}°C'
-                         f' and {condition} with winds running upto'
-                         f' {wind_kph} km/h.']
+        at_am = [f'Currently in {name} it\'s {temperature_c}°C and'
+                 f' {condition} with winds running upto {wind_kph} km/h.',
+                 f'Right now in {name} it\'s {temperature_c}°C and {condition}'
+                 f' but because of the humidity it feels like'
+                 f' {feelslike_c}°C.',
+                 f'It is currently {condition} in {name} with '
+                 f' {temperature_c}°C and winds running upto {wind_kph} km/h.',
+                 f'It is {temperature_c}°C and {condition} in {name}'
+                 f' with winds running upto {wind_kph} km/h but due to'
+                 f' the current humidity it feels like {feelslike_c}°C.',
+                 f'Weather in {name} is {temperature_c}°C with {condition}'
+                 f' conditions and winds blowing in {wind_dir} direction.',
+                 f'The weather today in {name} is {condition} with'
+                 f' {temperature_c}°C.']
+        at_pm = [f'Tonight the weather is {condition} in {name} with winds'
+                 f' blowing in {wind_dir} direction at {wind_kph} km/h.'
+                 f' Temperature is {temperature_c}°C.',
+                 f'Tonight the weather is {condition} in {name} with'
+                 f' {temperature_c}°C but due to {humidity}% humidity it feels'
+                 f' like {feelslike_c}°C.',
+                 f'The weather tonight in {name} is {condition} with'
+                 f' {temperature_c}°C.',
+                 f'Right now in {name} it\'s {temperature_c}°C and {condition}'
+                 f' but due to humidity it feels like {feelslike_c}°C.',
+                 f'Currently in {name} it\'s {temperature_c}°C and {condition}'
+                 f' with winds running upto {wind_kph} km/h.']
 
         if is_day == 0:
-            return choice(night_weather)
+            return choice(at_pm)
         else:
-            return choice(day_weather)
+            return choice(at_am)
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
@@ -359,27 +355,48 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
         forecast_condition = local_area['forecast']['forecastday'][0]['day']['condition']['text']
         forecast_uv = local_area['forecast']['forecastday'][0]['day']['uv']
 
-        day_forecast = [f'Today, it will be {forecast_condition} with maximum'
-                        f' temperature of {maxtemp_c}°C and minimum of'
-                        f' {mintemp_c}°C.',
-                        'The temperature is predicted to be'
-                        f' {avgtemp_c}°C and with {forecast_condition}.',
-                        f'There will be winds blowing upto {maxwind_kph} km/h'
-                        ' and temperature would be anywhere'
-                        f' between {maxtemp_c}°C and {mintemp_c}°C.',
-                        f'It is forecasted to be about {avgtemp_c}°C with'
-                        f' {forecast_condition}.']
-        night_forecast = [f'Tonight the weather is predicted to be '
-                          f'{forecast_condition} with with maximum'
-                          f' temperature of {maxtemp_c}°C and minimum of'
-                          f' {mintemp_c}°C.',
-                          f'Tonight it is forecasted to be {avgtemp_c}°C with'
-                          f' {forecast_condition}.']
+        at_am = [f'Today, it will be {forecast_condition} with maximum'
+                 f' temperature of {maxtemp_c}°C and minimum of'
+                 f' {mintemp_c}°C.',
+                 f'The temperature in {name} is predicted to be {avgtemp_c}°C'
+                 f' and with {forecast_condition}.',
+                 f'There will be winds blowing upto {maxwind_kph} km/h and'
+                 f' temperature would be anywhere between {maxtemp_c}°C and'
+                 f' {mintemp_c}°C.',
+                 f'It is forecasted to be about {avgtemp_c}°C with'
+                 f' {forecast_condition} in {name}.']
+        at_pm = [f'Tonight, the weather in {name} is predicted to be'
+                 f' {forecast_condition} with maximum temperature of'
+                 f' {maxtemp_c}°C and minimum of {mintemp_c}°C.',
+                 f'Well, tonight it is forecasted to be {avgtemp_c}°C with'
+                 f' {forecast_condition} in {name}.']
+        with_hrs = [f'Well, the weather for {name} in next {hours} hours is'
+                    f' forecasted to be {forecast_condition} with maximum'
+                    f' of {maxtemp_c}°C and minimum of {mintemp_c}°C.',
+                    f'The climate for {name} in next {hours} hours is'
+                    f' predicted to be {avgtemp_c}°C and with'
+                    f' {forecast_condition}.',
+                    f'In {name}, is forecasted to be about {avgtemp_c}°C with'
+                    f' {forecast_condition} in next {hours} hours.']
+        with_mins = [f'Well, the weather for {name} in next {mins} mins is'
+                     f' forecasted to be {forecast_condition} with maximum'
+                     f' of {maxtemp_c}°C and minimum of {mintemp_c}°C.',
+                     f'The climate for {name} in next {mins} mins is'
+                     f' predicted to be {avgtemp_c}°C and with'
+                     f' {forecast_condition}.',
+                     f'In {name}, is forecasted to be about {avgtemp_c}°C with'
+                     f' {forecast_condition} in next {mins} mins.']
 
-        if is_day == 0:
-            return choice(night_forecast)
+        if hours is None or hours is 'None' or hours is 'null':
+            if mins is None or mins is 'None' or mins is 'null':
+                if is_day == 0:
+                    return choice(at_pm)
+                else:
+                    return choice(at_am)
+            else:
+                return choice(with_mins)
         else:
-            return choice(day_forecast)
+            return choice(with_hrs)
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
@@ -389,7 +406,7 @@ def current_forecast_weather(city: str) -> str:
     """
     Definition
     ----------
-        Returns the weather report for provided city.This inlcudes both
+        Returns the weather report for provided city. This inlcudes both
         current weather and weather forecast for that city
 
     Parameter
