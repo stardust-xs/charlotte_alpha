@@ -183,6 +183,26 @@ def play_music(file: str = None, file_dir: str = local_dir['music']) -> None:
 
 
 def current_weather(city: str) -> str:
+    """
+    Definition
+    ----------
+        Returns the current weather for provided city.
+
+    Parameter
+    ---------
+        city : string, mandatory
+            Name of the city for which you need to find the weather.
+
+    Returns
+    -------
+        choice(weather_condition) : string, default
+            Current weather conditions for the asked city.
+
+    Notes
+    -----
+        An account on `https://www.apixu.com` is required to get the api key.
+        API calls are made to retreive the weather reports.
+    """
     import os
     from random import choice
     from apixu.client import ApixuClient
@@ -255,6 +275,34 @@ def current_weather(city: str) -> str:
 
 
 def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
+    """
+    Definition
+    ----------
+        Returns the weather forecast for provided city.
+
+    Parameter
+    ---------
+        city : string, mandatory
+            Name of the city for which you need to find the forecast.
+
+        hours : integer, optional
+            Projected number of hours for which you need weather forecast for.
+            Global default: 5 hours
+
+        mins : integer, optional
+            Projected number of minutes for which you need weather forecast.
+            Global default: 0 mins.
+
+    Returns
+    -------
+        choice(weather_forecast) : string, default
+            Forecasted weather conditions for the asked city.
+
+    Notes
+    -----
+        An account on `https://www.apixu.com` is required to get the api key.
+        API calls are made to retreive the weather reports.
+    """
     import os
     from random import choice
     from apixu.client import ApixuClient
@@ -262,14 +310,14 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
     try:
         client = ApixuClient(api_key=os.environ.get('CHARLOTTE_APIXU'))
 
-        if hours is None or hours is 'None':
-            if mins is None or mins is 'None':
+        if hours is None or hours is 'None' or hours is 'null':
+            if mins is None or mins is 'None' or mins is 'null':
                 local_area = client.forecast(q=city, hour=5)
             else:
                 min_to_hour = int(mins) // 60
                 local_area = client.forecast(q=city, hour=min_to_hour)
         else:
-            if hours >= 23:
+            if int(hours) >= 23:
                 local_area = client.forecast(q=city, days=1)
             else:
                 local_area = client.forecast(q=city, hour=hours)
@@ -338,4 +386,25 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
 
 
 def current_forecast_weather(city: str) -> str:
+    """
+    Definition
+    ----------
+        Returns the weather report for provided city.This inlcudes both
+        current weather and weather forecast for that city
+
+    Parameter
+    ---------
+        city : string, mandatory
+            Name of the city for which you need to find the weather.
+
+    Returns
+    -------
+        choice(weather_current_forecast) : string, default
+            Weather conditions and Forecast for the asked city.
+
+    Notes
+    -----
+        An account on `https://www.apixu.com` is required to get the api key.
+        API calls are made to retreive the weather reports.
+    """
     return current_weather(city) + ' ' + forecast_weather(city)
