@@ -3,7 +3,7 @@ Charlotte Action Functions
 ==========================
 
 This module represents set of actions the Assistant can perform.
-The module has 4 functions:
+The module has 6 functions:
     - age               : Calculates the age
     - locate            : Locates the position of the user
     - find              : Finds the approximate `file name` in a directory
