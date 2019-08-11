@@ -71,7 +71,7 @@ def answer(question: str) -> str:
                     'No inputs received. Would you like to try that again?')
                 while option is False:
                     if option is False:
-                        return 'NA'
+                        return 'null'
                     else:
                         revert = text(question + '\n»').ask()
                         return revert
@@ -112,7 +112,7 @@ def secure(question: str) -> str:
                     'No inputs received. Would you like to try that again?')
                 while option is False:
                     if option is False:
-                        return 'NA'
+                        return 'null'
                     else:
                         revert = password(question + '\n»').ask()
                         return revert
@@ -146,9 +146,9 @@ def decide(confirm_question: str, question: str) -> str:
                 revert = answer(question)
                 return revert
             else:
-                return 'NA'
+                return 'null'
         else:
-            return 'NA'
+            return 'null'
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
