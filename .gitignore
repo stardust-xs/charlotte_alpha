@@ -135,3 +135,6 @@ dmypy.json
 # Assistant Files
 /bin/action.json
 /bin/creds.data
+
+# Archive data
+/docs/archive_data.txt
