@@ -24,31 +24,7 @@ from charlotte.utils.helpers.common import display, make_dir, model_check
 from charlotte.utils.helpers.questions import answer, confirm
 from charlotte.utils.paths.directories import ai_dir
 from charlotte.utils.paths.files import ai_file
-from charlotte.utils.profiles.user import (age,
-                                           ai_title,
-                                           ai_lower,
-                                           lower,
-                                           title,
-                                           birthdate,
-                                           blood_type,
-                                           home_country,
-                                           email_primary,
-                                           email_secondary,
-                                           facebook_handle,
-                                           father_name,
-                                           first_name,
-                                           gender,
-                                           home_city,
-                                           instagram_handle,
-                                           last_name,
-                                           middle_name,
-                                           mother_name,
-                                           phone_primary,
-                                           phone_secondary,
-                                           skype_handle,
-                                           home_state,
-                                           home_street,
-                                           twitter_handle)
+from charlotte.utils.profiles.user import ai_lower, lower, title
 
 
 def domain_builder() -> None:
@@ -68,29 +44,9 @@ def domain_builder() -> None:
     except ImportError:
         from yaml import Loader
 
+    try:
         domain = load(open(ai_file['domain']), Loader=Loader)
         domain['slots']['xa']['initial_value'] = title
-        domain['slots']['xa_age']['initial_value'] = age
-        domain['slots']['xa_birthdate']['initial_value'] = birthdate
-        domain['slots']['xa_blood_type']['initial_value'] = blood_type
-        domain['slots']['xa_home_country']['initial_value'] = home_country
-        domain['slots']['xa_email_primary']['initial_value'] = email_primary
-        domain['slots']['xa_email_secondary']['initial_value'] = email_secondary
-        domain['slots']['xa_facebook_handle']['initial_value'] = facebook_handle
-        domain['slots']['xa_father_name']['initial_value'] = father_name
-        domain['slots']['xa_first_name']['initial_value'] = first_name
-        domain['slots']['xa_gender']['initial_value'] = gender
-        domain['slots']['xa_home_city']['initial_value'] = home_city
-        domain['slots']['xa_instagram_handle']['initial_value'] = instagram_handle
-        domain['slots']['xa_last_name']['initial_value'] = last_name
-        domain['slots']['xa_middle_name']['initial_value'] = middle_name
-        domain['slots']['xa_mother_name']['initial_value'] = mother_name
-        domain['slots']['xa_phone_primary']['initial_value'] = phone_primary
-        domain['slots']['xa_phone_secondary']['initial_value'] = phone_secondary
-        domain['slots']['xa_skype_handle']['initial_value'] = skype_handle
-        domain['slots']['xa_home_state']['initial_value'] = home_state
-        domain['slots']['xa_home_street']['initial_value'] = home_street
-        domain['slots']['xa_twitter_handle']['initial_value'] = twitter_handle
 
         with open(ai_file['domain'], 'w') as updated_domain:
             updated_domain.write(dump(domain, default_flow_style=False))
