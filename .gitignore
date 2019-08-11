@@ -138,3 +138,6 @@ dmypy.json
 
 # Archive data
 /docs/archive_data.txt
+
+# Charlotte Model
+/models/charlotte.tar.gz
