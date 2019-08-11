@@ -69,7 +69,7 @@ def domain_builder() -> None:
         from yaml import Loader
 
         domain = load(open(ai_file['domain']), Loader=Loader)
-        domain['slots']['xa']['initial_value'] = ai_title
+        domain['slots']['xa']['initial_value'] = title
         domain['slots']['xa_age']['initial_value'] = age
         domain['slots']['xa_birthdate']['initial_value'] = birthdate
         domain['slots']['xa_blood_type']['initial_value'] = blood_type
