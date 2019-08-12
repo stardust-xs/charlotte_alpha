@@ -4,7 +4,7 @@ pipeline: supervised_embeddings
 
 policies:
     - name: KerasPolicy
-      batch_size: 50
+      batch_size: 256
       epochs: 300
       max_training_samples: 300
       featurizer:
