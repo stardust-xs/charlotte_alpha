@@ -9,7 +9,7 @@ The module has 5 functions:
     - domain_builder    : Updates domain file with user details
     - render_model      : Create models
     - run_nlu           : Runs NLU shell
-    - start_training    : Starts Interactive Training process
+    - start_ai_training : Starts Interactive Training process
     - nlu_stats         : Provides NLU statistics
 
 See https://github.com/xames3/charlotte for complete documentation.
