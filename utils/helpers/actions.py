@@ -3,7 +3,7 @@ Charlotte Action Functions
 ==========================
 
 This module represents set of actions the Assistant can perform.
-The module has 6 functions:
+The module has 8 functions:
     - age               : Calculates the age
     - locate            : Locates the position of the user
     - find              : Finds the approximate `file name` in a directory
@@ -11,10 +11,12 @@ The module has 6 functions:
     - current_weather   : Returns current weather condition
     - forecast_weather  : Returns weather forecast for next 5 hours
     - current_forecast_weather: Returns current weather and forecast
+    - wish_user         : Wishes user based on time of the day
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
 from charlotte.utils.paths.directories import local_dir
+from charlotte.utils.profiles.user import title
 
 
 def age(birthdate: str) -> int:
@@ -425,3 +427,21 @@ def current_forecast_weather(city: str) -> str:
         API calls are made to retreive the weather reports.
     """
     return current_weather(city) + ' ' + forecast_weather(city)
+
+
+def wish_user() -> str:
+    """
+    Definition
+    ----------
+        Wishes the user Good Morning/Evening based on the time of the day.
+    """
+    from datetime import datetime
+    from random import choice
+
+    hour = datetime.now().hour
+    morning = choice([f'Good Morning, {title}.', 'Good Morning!'])
+    afternoon = choice([f'Good Afternoon, {title}.', 'Good Afternoon!'])
+    evening = choice([f'Good Evening, {title}.', 'Good Evening!'])
+    night = 'Night!'
+    greeting = morning if hour >= 5 and hour < 12 else afternoon if hour >= 12 and hour < 17 else evening if hour >= 17 and hour < 22 else night
+    return greeting
