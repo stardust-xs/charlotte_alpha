@@ -13,7 +13,8 @@ from charlotte.utils.helpers.actions import (play_music,
                                              locate,
                                              current_weather,
                                              forecast_weather,
-                                             current_forecast_weather)
+                                             current_forecast_weather,
+                                             wish_user)
 
 
 class ActionTellCurrentWeatherConditions(Action):
@@ -54,3 +55,11 @@ class ActionTellCurrentForecastWeatherConditions(Action):
             city = locate('city')
         dispatcher.utter_message(current_forecast_weather(city))
         return [SlotSet('city', city)]
+
+
+class ActionGreetUser(Action):
+    def name(self):
+        return 'action_greet_user'
+
+    def run(self, dispatcher, tracker, domain) -> list:
+        dispatcher.utter_message(wish_user())
