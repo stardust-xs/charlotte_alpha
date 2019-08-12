@@ -1,13 +1,16 @@
 actions:
+- action_greet_user
 - action_tell_current_forecast_weather_conditions
 - action_tell_current_weather_conditions
 - action_tell_forecast_weather_conditions
 - utter_do_you_need_anything_else
-- utter_saying_a_generic_okay
+- utter_how_can_i_help
 - utter_saying_fetching_weather_details
-- utter_saying_hello
+- utter_saying_okay
 - utter_saying_okay_for_weather_searches
+- utter_saying_okay_to_denial
 - utter_saying_welcome_to_action
+- utter_saying_what_would_that_be
 entities:
 - action
 - ai
@@ -38,18 +41,20 @@ entities:
 - train_station
 - weather
 intents:
-- asking_weather_conditions
+- saying_hello
+- saying_no
+- saying_thank_you
 - asking_forecast_weather_conditions
+- asking_weather_conditions
+- saying_okay
+- saying_yes
+- asking_current_weather_conditions
 - saying_hello+asking_someones_name
 - asking_goto_previous_step
-- asking_current_weather_conditions
 - saying_goodbye
-- saying_okay
 - saying_no_for_telling_name
 - asking_who_built_you
-- saying_no
 - telling_future_location
-- saying_yes
 - asking_do_you_need_anything_else
 - asking_someones_name
 - asking_play_any_music_with_genre
@@ -57,12 +62,10 @@ intents:
 - asking_play_any_music
 - saying_hello+asking_how_are_you
 - saying_hello+asking_weather_conditions
-- saying_hello
 - telling_location
 - saying_thank_you+saying_goodbye
 - asking_goto_next_step
 - asking_how_are_you
-- saying_thank_you
 slots:
   action:
     type: text
@@ -134,43 +137,55 @@ templates:
   - text: Any other request, {xa}?
   - text: Do you need anything else, {xa}?
   - text: Anything else, {xa}?
-  - text: Will that be it, {xa}?
-  - text: Will that be all, {xa}?
-  utter_saying_a_generic_okay:
-  - text: Okay.
-  - text: Alright.
-  - text: Alright, {xa}.
-  - text: Okay, {xa}.
-  - text: Sure, {xa}.
-  - text: Sure.
-  - text: Erm... okay.
-  - text: Umm... okay.
-  - text: Umm... okay, {xa}.
-  - text: Mm-hmm.
-  - text: Got it.
-  - text: As you wish.
-  - text: As you wish, {xa}.
+  utter_how_can_i_help:
+  - text: What can I do for you?
+  - text: How may I help you, {xa}?
+  - text: How can I help you, {xa}?
+  - text: What would you like me to do?
+  - text: '{xa}, what would you like me to do?'
+  - text: What can I help you with, {xa}?
   utter_saying_fetching_weather_details:
   - text: Just a moment...
   - text: Fetching weather details for {city}...
   - text: Processing...
-  - text: Working on it, {xa}...
+  - text: Working on it...
   - text: Accessing weather details from server...
   - text: Running weather check for {city}...
   - text: I'm working on it...
-  utter_saying_hello:
-  - text: Well, hello {xa}!
-  - text: Hello {xa}!
-  - text: At your service {xa}.
-  utter_saying_okay_for_weather_searches:
+  utter_saying_okay:
   - text: Okay.
-  - text: Mm-hmm.
-  - text: Okay, {xa}.
+  - text: Alright.
   - text: Sure.
   - text: Erm... okay.
   - text: Umm... okay.
+  - text: Mm-hmm.
+  - text: As you wish.
+  - text: Alright, {xa}.
+  - text: Okay, {xa}.
+  - text: Sure, {xa}.
+  - text: Erm... okay.
+  - text: Umm... okay.
+  - text: Umm... okay, {xa}.
+  - text: As you wish, {xa}.
+  utter_saying_okay_for_weather_searches:
+  - text: Okay.
+  - text: Okay, {xa}.
+  - text: Erm... okay.
+  - text: Umm... okay.
+  utter_saying_okay_to_denial:
+  - text: Alright.
+  - text: Alright, {xa}.
+  - text: Okay, {xa}.
+  - text: Okay.
+  - text: As you wish, {xa}.
   utter_saying_welcome_to_action:
-  - text: No problem, {xa}.
-  - text: Ah... No problem, {xa}.
-  - text: My pleasure, {xa}.
-  - text: No worries, {xa}.
+  - text: No problem.
+  - text: Ah... No problem.
+  - text: My pleasure.
+  - text: No worries.
+  utter_saying_what_would_that_be:
+  - text: And what would that be?
+  - text: And what would that be, {xa}?
+  - text: What would that be?
+  - text: Okay, what would that be?
+  - text: Okay, tell me what should I do next?
