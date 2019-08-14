@@ -290,98 +290,132 @@
 - how you have been?
 - what's new?
 
-## intent:asking_play_any_music
-- play music
-- Play some [musci](music:track)
-- thrill me.
-- Play music.
-- how quiet is here. music please
-- can you please play something?
-- make my mood.
-- I want to hear some music very badly
-- I [wud](grammar:would) like to [listen](action) to some music.
-- Play some [musik](music:track)
-- Drop the needle.
-- make me happy.
-- start the [beat](music:track)
-- [Charlotte](ai), could you please play something?
-- i want a live performance
-- i [wnna](grammar:want) dance to some music.
-- I want some music here.
-- i would like to calm myself by some soothing music
-- play that [tune](music:track).
-- play songs
-- [Daddy](people)'s home!
-- yes i would like some music to be playing [now](time).
-- play something
-- Cheer me up.
-- dance mode on!!!
-- i would like to dance to some music
-- show me your musical talent
-- play anything on music player.
-- music please
-- can you play some [music](music:track) to release the tension?
-- play the [tune](music:track) from your system
-- Drop basss!
-- i [wanna](grammar:want) [listen](action) some music
-- [cud](grammar:could) you please play something?
-- i'm feeling low. play something
-- make me feel comfortable
-- i wanna enjoy music
-- [babe](gender:female), play something for me, would you?
+## intent:asking_play_music
+- Play [dubstep](track_genre) songs.
 - can you play something that would make me happy?
-- shoot me with some [beats](music:track)
-- drop the beat
-- make some noise
-- turn on the [music](music:track)
-- calm me.
-- play me [songs](music:track) like this.
-- cheer me up.
-- wanna sing a song now!!
-- i want to hear some music
-- please me
-- Play something
-- playy music
-- help me relax.
-- play anything on music player.
-- i want to relax myself by music
-- play music to set my mood
-- put the music in action
-- Set the mood
-- turn the music on!!
-- drop my needle
 - I am feeling little low. cheer me [up](direction).
-- I'm feelin a low. Pep me up.
-- drop that bass
-- sure. play something.
+- what do u think of [dubstep](track_genre) Play it.
+- play the tune from your system
+- Play [Dubstep](track_genre).
+- can you please play something?
 - play something
-- [charlotte](ai), play something
+- [cud](grammar:could) u play [edm](track_genre)?
+- I wanna hear to artist called as [Ray Vega](track_artist).
+- play something by [Huma](track_artist).
+- Play [dubstep](track_genre). please.
+- [cud](grammar:could) you please play something?
+- play me songs like this.
+- I [wud](grammar:would) like to [listen](action) to some music.
+- can you please play something by [Alan Walker](track_artist)?
+- can you play some music to release the tension?
+- Play [edm](track_genre), would u?
+- [babe](gender:female), play something for me, would you?
+- playy music
+- [Daddy](people)'s home!
+- dance mode on!!!
+- Drop the needle.
+- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](track_genre) music.
+- cheer me up with [Ramin Djawadi](track_artist)'s music.
+- I wanna listen to [Ray J](track_artist) very badly.
+- could youu play some [dubstep](track_genre).
+- Cn you play [rap](track_genre) by [Eminem](track_artist)?
+- play music by [Adonis](track_artist).
+- i'm feeling low. play something
+- sing me song by [drake](track_artist).
 - play music
-
-## intent:asking_play_any_music_with_genre
-- [cud](grammar:could) u play [edm](genre)?
-- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](genre) [music](music:track).
-- Play [Dubstep](genre) songs
-- Play [edm](genre), would u?
-- Play [edm](genre) music.
-- Play [dubstep](genre) songs.
-- Cn you play [rap](genre)?
-- Play [Dubstep](genre) [music](music:track).
-- what do u think of [dubstep](genre) Play it.
-- [could](grammar) u play [rap](genre) for us?
-- play [rap](genre) for me dear
-- could youu play some [edm](genre).
-- will u play some [edm](genre)
-- could youu play some [dubstep](genre).
-- I wanna dance to some [edm](genre) music.
-- I wanna dance to some [rap](genre) music.
-- Play some [Dubstep](genre) music
-- please play [rap](genre) [song](music:track)
-- Play [dubstep](genre). please.
-- Some [edm](genre) here would be nice.
-- Play the [Dubstep](genre).
-- Play [Dubstep](genre).
-- play [dubstep](genre)
+- Play some musik
+- I want some music here.
+- Set the mood
+- I wanna dance to [Eminem](track_artist)'s songs.
+- I'm feelin a low. Pep me up.
+- make me happy.
+- drop my needle
+- babe, play something by [Dr. Dre](track_artist).
+- could youu play some [edm](track_genre).
+- show me your musical talent
+- i wanna enjoy music
+- will u play some [edm](track_genre).
+- I wanna dance to [Akon](track_artist)'s tracks.
+- Play some music from [Dr. Dre](track_artist)'s album.
+- [charlotte](ai), play something
+- Some [edm](track_genre) here would be nice.
+- help me relax.
+- play [dubstep](track_genre)
+- play music to set my mood
+- Play music.
+- play [rap](track_genre) for me dear
+- make my mood.
+- Play some musci
+- sure. play something.
+- show me how you sing a song.
+- I want to hear some music very badly
+- how quiet is here. music please
+- can you please play some music by [Afterhours](track_artist)?
+- i would like to calm myself by some soothing music
+- play some music by [Akon](track_artist), will ya?
+- Can we get something playing here to [Adele](track_artist)'s music?
+- sing me a song
+- turn on the music
+- play something by [Drake](track_artist).
+- please me
+- Play some [Dubstep](track_genre) music
+- make me feel comfortable.
+- play music
+- drop the beat
+- sing me a song by [Drake](track_artist)
+- I wanna dance to some [rap](track_genre) music.
+- yes i would like some music to be playing [now](time).
+- play songs
+- Play [edm](track_genre) music.
+- play that tune.
+- play songs by [Future](track_artist).
+- music please
+- i want to hear some music
+- play something by [Eminem](track_artist).
+- start the beat.
+- Oh gee.. I like [Adele](track_artist) a lot. Please play her [music]music.
+- play anything on music player.
+- Play [Dubstep](track_genre) songs
+- music by [Ramin Djawadi](track_artist).
+- Need to listen music from [Aegan](track_artist).
+- play something
+- [Eminem](track_artist)'s songs, please.
+- drop that bass
+- Music by [Alana Davis](track_artist).
+- put the music in action
+- Play the [Dubstep](track_genre).
+- cheer me up.
+- can you please play something by [Akon](track_artist)
+- Drop basss!
+- thrill me.
+- do we have something by [Shawn Mendes](track_artist).
+- play anything on music player.
+- i [wnna](grammar:want) dance to some music.
+- Cheer me up.
+- do we have something from [akon](track_artist) and [Eminem](track_artist)?
+- could you please something by [rihanna](track_artist)?
+- calm me.
+- play tunes by [Ramin Djawadi](track_artist)
+- i [wanna](grammar:want) [listen](action) some music
+- please play [rap](track_genre) song
+- I would like to listen to [Dr. Dre](track_artist).
+- shoot me with some beats
+- i would like to dance to some music
+- wanna sing a song now!!
+- play songs by [Adele](track_artist) and [Dr. Dre](track_artist)
+- [Charlotte](ai), could you please play something?
+- [could](grammar) u play [rap](track_genre) for us?
+- i want to relax myself by music
+- will you please play something by [Shakira](track_artist)
+- make some noise
+- I wanna dance to some [edm](track_genre) music.
+- Play something
+- play songs by [Adele](track_artist)
+- can you please something from [Slaves of the Shadow Realm](track_album)
+- Play [Dubstep](track_genre) music.
+- turn the music on!!
+- I'm not feeling good [now](time). Could u please play something by [Eminem](track_artist) to set my mood.
+- i want a live performance
 
 ## intent:asking_someones_name
 - what is your name?
@@ -1604,3 +1638,6 @@
 
 ## lookup:minutes
   data/lookup_tables/minutes.txt
+
+## lookup:track_artist
+data/lookup_tables/track_artist.txt
