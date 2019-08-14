@@ -181,11 +181,9 @@ def line_randomizer(from_file: str, to_file: str) -> None:
         with open(from_file, 'r') as source_file:
             source = [(random(), line) for line in source_file]
             source.sort()
-            source_file.close()
         with open(to_file, 'w') as target_file:
             for _, line in source:
                 target_file.write(line)
-                target_file.close()
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error}.')
@@ -277,11 +275,11 @@ def lookup_sorter(from_file: str, to_file: str) -> None:
             File name to which the sorted data needs to be written.
     """
     try:
-        with open(from_file) as source_file:
+        with open(from_file, encoding='utf-8') as source_file:
             lines = source_file.readlines()
             lines.sort()
             for line in range(len(lines)):
-                with open(to_file, 'a') as target_file:
+                with open(to_file, 'a', encoding='utf-8') as target_file:
                     target_file.write(lines[line])
     except Exception as error:
         print('An error occured while performing this operation because of'
