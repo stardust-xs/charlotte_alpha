@@ -11,13 +11,17 @@
 
 <p align="center">
     <!-- Python version -->
-    <a href="https://www.python.org/downloads/release/python-365/"><img src="https://img.shields.io/badge/python-v3.7.3-blue.svghttps://img.shields.io/static/v1.svg?color=e74c3c" alt="Python version"/></a>
+    <a href="https://www.python.org/downloads/release/python-365/"><img src="https://img.shields.io/pypi/pyversions/rasa" alt="Python version"/></a>
     <!-- Rasa version -->
     <a href="https://pypi.org/project/rasa/"><img src="https://img.shields.io/pypi/v/rasa.svg?label=rasa" alt="Rasa version"/></a>
     <!-- Last commit -->
     <a href="https://github.com/xames3/charlotte/commits/master"><imgM src="https://img.shields.io/github/last-commit/xames3/charlotte.svg" alt="Last commit"/></a>
+    <!-- Commit activity  -->
+    <a href="https://github.com/xames3/charlotte/"><img src="https://img.shields.io/github/last-commit/xames3/charlotte" alt="Commit activity"/></a>
+    <!-- Maintenance  -->
+    <a href="https://github.com/xames3/charlotte/"><img src="https://img.shields.io/maintenance/yes/2019" alt="Repo Maintenance"/></a>
     <!-- GitHub issues -->
-    <a href="https://github.com/xames3/charlotte/issues"><img src="https://img.shields.io/github/issues/xames3/charlotte.svg?color=9b59b6" alt="GitHub issues"/></a>
+    <a href="https://github.com/xames3/charlotte/issues"><img src="https://img.shields.io/github/issues/xames3/charlotte" alt="GitHub issues"/></a>
 </p>
 
 <p align="center">
