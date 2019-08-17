@@ -291,131 +291,9958 @@
 - what's new?
 
 ## intent:asking_play_music
-- Play [dubstep](track_genre) songs.
-- can you play something that would make me happy?
-- I am feeling little low. cheer me [up](direction).
-- what do u think of [dubstep](track_genre) Play it.
-- play the tune from your system
-- Play [Dubstep](track_genre).
-- can you please play something?
-- play something
-- [cud](grammar:could) u play [edm](track_genre)?
-- I wanna hear to artist called as [Ray Vega](track_artist).
-- play something by [Huma](track_artist).
-- Play [dubstep](track_genre). please.
-- [cud](grammar:could) you please play something?
-- play me songs like this.
-- I [wud](grammar:would) like to [listen](action) to some music.
-- can you please play something by [Alan Walker](track_artist)?
-- can you play some music to release the tension?
-- Play [edm](track_genre), would u?
-- [babe](gender:female), play something for me, would you?
-- playy music
-- [Daddy](people)'s home!
-- dance mode on!!!
-- Drop the needle.
-- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](track_genre) music.
-- cheer me up with [Ramin Djawadi](track_artist)'s music.
-- I wanna listen to [Ray J](track_artist) very badly.
-- could youu play some [dubstep](track_genre).
-- Cn you play [rap](track_genre) by [Eminem](track_artist)?
-- play music by [Adonis](track_artist).
-- i'm feeling low. play something
-- sing me song by [drake](track_artist).
-- play music
-- Play some musik
-- I want some music here.
-- Set the mood
-- I wanna dance to [Eminem](track_artist)'s songs.
-- I'm feelin a low. Pep me up.
-- make me happy.
-- drop my needle
-- babe, play something by [Dr. Dre](track_artist).
-- could youu play some [edm](track_genre).
-- show me your musical talent
-- i wanna enjoy music
-- will u play some [edm](track_genre).
-- I wanna dance to [Akon](track_artist)'s tracks.
-- Play some music from [Dr. Dre](track_artist)'s album.
-- [charlotte](ai), play something
-- Some [edm](track_genre) here would be nice.
-- help me relax.
-- play [dubstep](track_genre)
-- play music to set my mood
-- Play music.
-- play [rap](track_genre) for me dear
-- make my mood.
-- Play some musci
-- sure. play something.
-- show me how you sing a song.
-- I want to hear some music very badly
-- how quiet is here. music please
-- can you please play some music by [Afterhours](track_artist)?
-- i would like to calm myself by some soothing music
-- play some music by [Akon](track_artist), will ya?
-- Can we get something playing here to [Adele](track_artist)'s music?
-- sing me a song
-- turn on the music
-- play something by [Drake](track_artist).
-- please me
-- Play some [Dubstep](track_genre) music
-- make me feel comfortable.
-- play music
-- drop the beat
-- sing me a song by [Drake](track_artist)
-- I wanna dance to some [rap](track_genre) music.
-- yes i would like some music to be playing [now](time).
-- play songs
+- I would enjoy to dance to [Adele](track_artist)
+- I would like to listen something from album [Flamagra](track_album).
+- I would like to hear some [hip-hop](track_genre)
+- I would like to groove to the [hip-hop](track_genre) songs
+- will you please play some music from album [Let’s Talk About Love](track_album)?
+- will you please play something from [Young Enough](track_album) album.
+- I wanna listen to music from album called [Recovery](track_album).
+- can you please play songs from album [Thank U, Next](track_album)?
+- Would you please play a track from [Legend](track_album)?
+- please play some [punk](track_genre) music for us
+- can you play any track from album [Flamagra](track_album) by [Drake](track_artist)?
+- can you play any song from album [Tip of the Sphere](track_album)?
+- can you please play any track from [Oh My God](track_album) album
+- Would you please play something by [Rihanna](track_artist)?
+- Would you please play a track from the album [Beware of the Dogs](track_album) by [50 cents](track_artist)?
+- Could you please play some [rap](track_genre) songs for us?
+- can you play some music from [Lets Try the After](track_album)?
+- Would you please play any track from [Western Stars](track_album) by [Shakira](track_artist)?
+- can you please play music from album [Gold and Grey](track_album)?
+- I would like to groove to some [funk](track_genre) music
+- Play a [hip-hop](track_genre) music
+- Play songs from album [Heard It In A Past Life](track_album), will you?
+- I would like to listen to music from [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist).
+- will you please play any track from the album [Appetite for Destruction](track_album)?
+- will you please play songs from album [Supernatural](track_album)?
+- can you play any track from [EVEN IN THE TREMOR](track_album) album by [Charlotte Rose Ellis](track_artist)
+- Play any music from the album [Oh My God](track_album)
+- Would you please play some music from the album [What Chaos Is Imaginary](track_album)?
+- Play something from the album [Bad](track_album)
+- please play the [punk](track_genre) songs for us
+- Play a track from album [YOU CAN'T SIT WITH US](track_album), will you?
+- I wanna dance to any track from the album [Crushing](track_album)
+- I would like to groove to any [soundtrack](track_genre) beat
+- please play any [soundtrack](track_genre) musicc for me
+- can you play something from [Atlanta Millionaires Club](track_album) album by [Ludacris](track_artist).
+- I would like to groove to music from [In League With Dragons](track_album) by [Charlotte Rose Ellis](track_artist)
+- cheer me up by playing songs from album [Gallipoli](track_album), will you?
+- I would like to listen any track from album [On The Line](track_album)
+- can you play any track from album [This Is How You Smile](track_album) by [Justin Hurwitz](track_artist)?
+- will you please play tracks from [Norman Fucking Rockwell](track_album) album by [Drake](track_artist).
+- please play the [edm](track_genre) for me
+- I would like to listen any song from [when we all fall asleep where do we go](track_album)
+- Play some music from the album [Crushing](track_album) by [Drake](track_artist), will you?
+- will you please play tracks from [The Immaculate Collection](track_album)?
+- I wanna listen any song from [Marshal Mather LP II](track_album) album
+- Play any track from [Led Zeppelin IV](track_album) album by [The Chainsmokers](track_artist), will you?
+- I wanna dance to some music from album [Supernatural](track_album).
+- I wanna dance to something from [On The Line](track_album) album
+- I would like to listen any song from the album [The Immaculate Collection](track_album)
+- please play some [Orchestra](track_genre) music
+- please play any [hip-hop](track_genre) beat for us
+- Would you please play a track from [Appetite for Destruction](track_album) by [Mad Money](track_artist)?
+- Play any track from album [I Am Easy To Find](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play songs from [The Marshall Mathers LP 2 Disc 2](track_album) by [The Chainsmokers](track_artist)?
+- Would you please play some [metal](track_genre)?
+- Would you please play any song from [Supernatural](track_album)?
+- Play music from album [Marshal Mather LP II](track_album) by [Drake](track_artist), will you?
+- Please play some [hip-hop](track_genre) songs
+- cheer me up by playing songs from [Gallipoli](track_album), will you?
+- Would you please play songs from album [Young Enough](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play songs from album [The Craving for Absolute Serenity](track_album)?
 - Play [edm](track_genre) music.
-- play that tune.
-- play songs by [Future](track_artist).
-- music please
-- i want to hear some music
-- play something by [Eminem](track_artist).
-- start the beat.
-- Oh gee.. I like [Adele](track_artist) a lot. Please play her [music]music.
-- play anything on music player.
-- Play [Dubstep](track_genre) songs
+- I wanna listen any music from album [Thank U, Next](track_album).
+- I wanna dance to any song from [Legend](track_album) album
+- I will like to have the [soundtrack](track_genre) tracks
+- Would you please play some [grunge](track_genre) music?
+- I would like you to please play any [Dubstep](track_genre) music
+- I would like to listen any track from album [Metallica](track_album)
+- Play any music from [Good Ass Job](track_album)
+- Please play the [blues](track_genre) tracks
+- I would like to listen any music from [The Unseen In-Between](track_album).
+- I wanna listen a track from album [Bad](track_album)
+- I wanna listen any track from the album [Hotel California](track_album)
+- I would like to groove to music from [IGOR](track_album) by [Dr. Dre;Eminem](track_artist).
+- can you please play a track from [Marshal Mather LP II](track_album)?
+- Would you please play songs from [Designer](track_album) by [The Chainsmokers](track_artist)?
+- I would like to hear the [soundtrack](track_genre) musicc
+- can you play songs from [Mitsubishi Macchiato](track_album)?
+- will you please play any music from the album [The Night King](track_album) by [Mad Money](track_artist)?
+- cheer me up by playing songs from album [Bandana](track_album), will you?
+- I would like to groove to any [edm](track_genre) track
+- I wanna listen any track from the album [Supernatural](track_album)
+- Play some [funk](track_genre) songs
+- can you please play music from album [Recovery](track_album)?
+- Would you please play any track from [Led Zeppelin IV](track_album) album by [Dr. Dre;Eminem](track_artist).
+- please play the [dubstep](track_genre) for us
+- Play something from the album [Father of the Bride](track_album), will you?
+- will you please play tracks from [On The Line](track_album) album by [Cardi B](track_artist)
+- Play any track from [Angel's Pulse](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- will you please play something from album [On the Line](track_album)?
+- Could you please play some [hip-hop](track_genre)?
+- will you please play some music from [Gold and Grey](track_album) by [Kanye West](track_artist)?
+- will you please play any music from the album [Metallica](track_album)?
+- will you please play any song from [Harverd Dropout](track_album)?
+- I wanna listen some music from the album [Legend](track_album)
+- I will like to have some [dubstep](track_genre)
+- will you please play a track from [The Immaculate Collection](track_album)?
+- I would like to groove to the [soundtrack](track_genre) track
+- Would you please play the [Orchestra](track_genre) music?
+- cheer me up by playing tracks from [Yandhi](track_album) album, will you?
+- will you please play any song from [Illuminate](track_album) album
+- Play some music from [Mitsubishi Macchiato](track_album), will you?
+- can you play songs from [Metallica](track_album)?
+- Play music from [LP3](track_album) by [Nate Dogg](track_artist), will you?
+- I would like to listen to the [funk](track_genre) track
+- can you play a track from album [Marshal Mather LP II](track_album)?
+- will you please play songs from album [Legend](track_album)?
+- Play tracks from [Led Zeppelin IV](track_album) album.
+- please play some [grunge](track_genre) music for us
+- can you play a track from album [Sunshine Rock](track_album)?
+- Would you please play songs from album [Let’s Talk About Love](track_album)?
+- will you please play something from the album [Marshal Mather LP II](track_album)?
+- I will like to have any [pop](track_genre) track
+- Would you please play any track from the album [Quiet Signs](track_album)?
+- Would you please play something from album [Kamikaze](track_album) by [Jay-Z](track_artist)?
+- Would you please play any music from [Crushing](track_album) album.
+- Please play the [hip-hop](track_genre) tracks
+- can you please play any track from [Mitsubishi Macchiato](track_album)?
+- Would you please play some music from album [Recovery](track_album) by [Lil Wayne](track_artist)?
+- Play any [Rock](track_genre) beat
+- Could you please play the [Grunge](track_genre) music?
+- cheer me up by playing any song from album [EVEN IN THE TREMOR](track_album), will you?
+- I would like you to please play the [pop](track_genre)
+- Would you please play any music from [Led Zeppelin IV](track_album) album
+- will you please play something from [Supernatural](track_album) album by [Dr. Dre;Eminem](track_artist).
+- I wanna dance to some music from [Father of the Bride](track_album)
+- I would like to dance to music from [When I Get Home](track_album) by [Drake](track_artist)
+- can you play something from [Recovery](track_album)?
+- Play any song from [Requiem for a Dream](track_album), will you?
+- can you please play a track from [Good Ass Job](track_album)?
+- Play songs from album [Bandana](track_album), will you?
+- I wanna listen something from [Harverd Dropout](track_album)
+- I would like you to please play the [funk](track_genre) music
+- I wanna listen a track from album [EVEN IN THE TREMOR](track_album).
+- can you please play some music from the album [The Immaculate Collection](track_album)?
+- I would like to listen to [Celine Dion](track_artist)
+- can you play any music from album [On the Line](track_album)?
+- I would like to groove to some [metal](track_genre) songs
+- Would you please play any track from album [Bad](track_album) by [Mellen Gi](track_artist)?
+- can you please play songs from [TBA](track_album)?
+- Play songs from album [Bad](track_album) by [Drake](track_artist), will you?
+- can you please play songs from album [Heard It In A Past Life](track_album)?
+- I would like to listen some music from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would like you to please play the [soundtrack](track_genre) beat
+- will you please play any music from the album [Let’s Talk About Love](track_album)?
+- I would like to listen any track from the album [Father of the Bride](track_album)
+- I would like to listen any track from [Purple Reign](track_album)
+- Would you please play any track from album [Led Zeppelin IV](track_album)?
+- will you please play something from [Cuz I Love You](track_album)?
+- I wanna dance to tracks from [On The Line](track_album) album.
+- I would like to listen any song from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play songs from album [Titanic Rising](track_album) by [Future](track_artist), will you?
+- I would like you to please play any [Pop](track_genre) music
+- cheer me up by playing songs from album [Crushing](track_album), will you?
+- cheer me up by playing any song from album [Marshal Mather LP II](track_album), will you?
+- I wanna dance to something from [Legend](track_album) album
+- Play music from [Bad](track_album) by [Drake](track_artist), will you?
+- some [rap](track_genre) tracks
+- Play a track from album [Oliver Appropriate](track_album).
+- can you play some music from the album [Legend](track_album) by [Mellen Gi](track_artist)?
+- I would like to listen to the [pop](track_genre) music
+- I wanna listen something from [What Chaos Is Imaginary](track_album)
+- can you play something from album [Cuz I Love You](track_album) by [Warner & Chappell](track_artist)?
+- I wanna listen any track from [On the Line](track_album).
+- I wanna dance to any track from album [Revival](track_album)
+- I wanna dance to some music from album [YOU CAN'T SIT WITH US](track_album)
+- can you play a track from album [Hotel California](track_album) by [Justin Hurwitz](track_artist)?
+- will you please play any track from [Chapter VI](track_album) album
+- Play a track from album [Anima](track_album), will you?
+- Play some [metal](track_genre) track
+- Please play the [punk](track_genre) tracks
+- I would like to groove to any [rap](track_genre) track
+- please play some [Grunge](track_genre) songs
+- I would like you to please play the [dubstep](track_genre) songs
+- can you play music from [On The Line](track_album)?
+- please play some [grunge](track_genre) songs
 - music by [Ramin Djawadi](track_artist).
-- Need to listen music from [Aegan](track_artist).
-- play something
-- [Eminem](track_artist)'s songs, please.
-- drop that bass
-- Music by [Alana Davis](track_artist).
-- put the music in action
-- Play the [Dubstep](track_genre).
-- cheer me up.
-- can you please play something by [Akon](track_artist)
-- Drop basss!
-- thrill me.
-- do we have something by [Shawn Mendes](track_artist).
-- play anything on music player.
-- i [wnna](grammar:want) dance to some music.
-- Cheer me up.
-- do we have something from [akon](track_artist) and [Eminem](track_artist)?
-- could you please something by [rihanna](track_artist)?
-- calm me.
-- play tunes by [Ramin Djawadi](track_artist)
-- i [wanna](grammar:want) [listen](action) some music
-- please play [rap](track_genre) song
-- I would like to listen to [Dr. Dre](track_artist).
-- shoot me with some beats
-- i would like to dance to some music
-- wanna sing a song now!!
-- play songs by [Adele](track_artist) and [Dr. Dre](track_artist)
-- [Charlotte](ai), could you please play something?
-- [could](grammar) u play [rap](track_genre) for us?
-- i want to relax myself by music
-- will you please play something by [Shakira](track_artist)
-- make some noise
-- I wanna dance to some [edm](track_genre) music.
+- can you play any music from [Designer](track_album) album
+- can you play something from album [Led Zeppelin IV](track_album) by [Future](track_artist)?
+- can you play any music from [Back in Black](track_album)?
+- Play songs by [Ariana Grande](track_artist)
+- I would like to hear some [metal](track_genre)
+- please play the [blues](track_genre) songs for me
+- Could you please play the [hip-hop](track_genre) track ?
+- Could you please play any [edm](track_genre) track for us?
+- Would you please play a track from [Outer Peace](track_album) by [Coldplay](track_artist)?
+- Play any track from [The Immaculate Collection](track_album) album
+- can you play some music from the album [The Immaculate Collection](track_album) by [XAMES3](track_artist)?
+- I would like to listen to some [Metal](track_genre) track
+- Would you please play something from [TBA](track_album) album.
+- Would you please play something by [Imagine Dragons](track_artist)?
+- Would you please play any music from the album [Legend](track_album)?
+- Would you please play tracks from [What Chaos Is Imaginary](track_album) by [Sia](track_artist)?
+- Play something from album [Tip of the Sphere](track_album) by [Nate Dogg](track_artist), will you?
+- will you please play songs from [Western Stars](track_album) by [Madonna](track_artist)?
+- Play something from [Metallica](track_album), will you?
+- will you please play a track from [Father of the Bride](track_album) album.
+- Play any track from the album [SASAMI](track_album)
+- Would you please play any song from [Let’s Talk About Love](track_album) album by [50 cents](track_artist).
+- Play tracks from [IGOR](track_album) by [Eagles](track_artist), will you?
+- Play any song from the album [Let’s Talk About Love](track_album)
+- Play any track from album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I would like to dance to the [grunge](track_genre)
+- Play any track from album [Revival](track_album) by [Drake](track_artist), will you?
+- some [soundtrack](track_genre) tracks
+- will you please play a track from the album [Western Stars](track_album) by [Drake](track_artist)?
+- can you please play any track from [Metallica](track_album) album
+- I will like to have some [Hip-hop](track_genre) music
+- I would like to groove to the [punk](track_genre)
+- Play any [Blues](track_genre) music
+- Please play the [soundtrack](track_genre) tracks
+- yes i would like some music to be playing [now](time).
+- can you please play a track from [On The Line](track_album)?
+- can you please play a track from [Lets Try the After](track_album)?
+- Would you please play tracks from [Legend](track_album) by [Rick0 James](track_artist)?
+- will you please play any track from the album [Let’s Talk About Love](track_album) by [Drake](track_artist)?
+- Would you please play songs from [Bad](track_album) by [Mad Money](track_artist)?
+- Play a track from the album [New Breed](track_album), will you?
+- I wanna dance to any music from the album [Revival](track_album)
+- Play the [blues](track_genre) tune.
+- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [Eminem](track_artist)?
+- can you please play something by [Halsey](track_artist)?
+- I would like you to please play some [Rock](track_genre) music
+- Would you please play any music from [Revival](track_album) by [Cardi B](track_artist)?
+- Will you please play something by [Ludacris](track_artist)?
+- I want to listen to music from [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)
+- Would you please play songs from album [Legend](track_album) by [Dr. Dre](track_artist)?
+- can you please play songs from [Marshal Mather LP II](track_album)?
+- Would you please play any track from [Beware of the Dogs](track_album) album by [Kanye West](track_artist).
+- Play tracks from [Titanic Rising](track_album), will you?
+- I wanna listen songs from [SASAMI](track_album).
+- Could you please play something by [Selena Gomez](track_artist)?
+- I would like you to please play some [pop](track_genre) track
+- Play any music from [Assume Form](track_album)
+- can you please play a track from [Hotel California](track_album)?
+- I wanna dance to some music from the album [Make It Big](track_album)
+- will you please play some music from the album [SASAMI](track_album) by [Cardi B](track_artist)?
+- can you please play any track from [U.F.O.F](track_album) album
+- Play songs from album [What Chaos Is Imaginary](track_album)
+- Would you please play some [pop](track_genre) music?
+- I will like to have any [funk](track_genre) track
+- Would you please play any music from album [The Immaculate Collection](track_album)?
+- Could we get something by [Rihanna](track_artist)?
+- Play a track from [Oliver Appropriate](track_album)
+- drop my needle
+- Play music from album [Titanic Rising](track_album).
+- I would like to listen something from [Chapter VI](track_album)
+- can you play something from album [Quiet Signs](track_album)?
+- Play music from album [What Chaos Is Imaginary](track_album) by [XAMES3](track_artist), will you?
+- Play a track from the album [What Chaos Is Imaginary](track_album)
+- Play some music from [On The Line](track_album), will you?
+- Play something from the album [Sunshine Rock](track_album), will you?
+- Please play some [grunge](track_genre) songs
+- will you please play music from album [Led Zeppelin IV](track_album)?
+- Play a track from [Let’s Talk About Love](track_album) by [Cardi B](track_artist), will you?
+- can you play a track from album [Back in Black](track_album)?
+- I would like to dance to the [edm](track_genre) music
+- can you play any music from [Crushing](track_album) album by [Bonobo](track_artist)
+- I would like to listen to an [orchestra](track_genre) track
+- I would like to hear any [punk](track_genre) beat
+- I wanna listen a track from the album [Heard It in a Past Life](track_album)
+- Play any music from album [Back in Black](track_album)
+- I wanna dance to any song from album [Recovery](track_album)
+- Would you please play any music from [Bad](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Could you please play an [orchestra](track_genre) beat?
+- I wanna listen a track from the album [Sunshine Rock](track_album)
+- Play some music from album [The Wizrd](track_album) by [Drake](track_artist), will you?
+- Play any track from the album [TBA](track_album)
+- Will you play something by [Halsey](track_artist)?
+- can you please play songs from album [Make It Big](track_album)?
+- Play any song from the album [Rumours](track_album)
+- can you please play music from [Hijas del Tomate](track_album)?
+- will you please play some music from album [Titanic Rising](track_album) by [Twenty One Pilots](track_artist)?
+- I would like to hear some [rap](track_genre) music
+- can you please play a track from album [The Immaculate Collection](track_album)?
+- Would you please play any song from [Bad](track_album) album by [Cardi B](track_artist)
+- can you play a track from album [SASAMI](track_album)?
+- I would like to hear any [edm](track_genre) music
+- I would like to dance to some [grunge](track_genre) songs
+- Play tracks by [Rihanna](track_artist)
+- please play any [dubstep](track_genre) music for me
+- Would you please play any [blues](track_genre) music?
+- can you play some music from album [Oh My God](track_album) by [Akon](track_artist)?
+- will you please play some music from [Slaves of Fear](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any music from album [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like you to please play the [punk](track_genre)
+- Play any track from album [Supernatural](track_album).
+- Would you please play songs from [Designer](track_album) by [Mellen Gi](track_artist)?
+- Play any music from album [Thank U, Next](track_album) by [Eminem](track_artist), will you?
+- Would you please play any track from [Legend](track_album)?
+- Please play some [funk](track_genre) track
+- Could you please play some [punk](track_genre) music for us?
+- will you please play songs from [The Saint of Lost Causes](track_album) by [Nicki Minaj](track_artist)?
+- cheer me up by playing songs from [What Chaos Is Imaginary](track_album), will you?
+- can you play songs from album [Rumours](track_album)?
+- Could you please play some [rap](track_genre) track ?
+- Play songs from [Hotel California](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Play any song from [Metallica](track_album)
+- will you please play something from [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play songs from album [Marshal Mather LP II](track_album) by [Mellen Gi](track_artist), will you?
+- can you play any track from the album [Dedicated](track_album)?
+- cheer me up by playing any song from album [YOU CAN'T SIT WITH US](track_album), will you?
+- I would like to groove to the [rap](track_genre) songs
+- Would you please play any track from album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play songs from [Beware of the Dogs](track_album)
+- can you please play any track from the album [when we all fall asleep where do we go](track_album)?
+- I wanna listen any music from [Oh My God](track_album)
+- please play some [rap](track_genre) music for us
+- Would you please play any [punk](track_genre) track?
+- I would like to listen some music from [Rumours](track_album)
+- I would like to listen songs from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you play a track from [Recovery](track_album) album by [Linkin Park](track_artist).
+- Could we get something by [Shawn Mendes](track_artist)?
+- will you please play a track from album [Revival](track_album)?
+- Play any music from [In League With Dragons](track_album).
+- will you please play some music from album [Bandana](track_album) by [Diplo](track_artist)?
+- Please play some [funk](track_genre) songs
+- will you please play any track from [Legend](track_album) by [Post Malone](track_artist)?
+- I would like to listen to some [dubstep](track_genre)
+- Play music from album [Gallipoli](track_album) by [Ozuna](track_artist), will you?
+- Could you please play any [punk](track_genre) track?
+- Play any track from [Appetite for Destruction](track_album) album by [Future](track_artist), will you?
+- Would you please play a track from album [Father of the Bride](track_album) by [Post Malone](track_artist)?
+- I wanna dance to any track from [Legend](track_album)
+- can you play any song from [Western Stars](track_album)?
+- Play music from [Recovery](track_album) by [Mellen Gi](track_artist), will you?
+- Would you please play something from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Drake](track_artist)
+- I wanna dance to a track from [EVEN IN THE TREMOR](track_album) album.
+- Play any song from the album [Legend](track_album) by [Mad Money](track_artist), will you?
+- can you please play songs from album [The Saint of Lost Causes](track_album)?
+- cheer me up by playing any song from [This Is How You Smile](track_album), will you?
+- Play any track from [Tip of the Sphere](track_album) by [Ludacris](track_artist), will you?
+- please play some [soundtrack](track_genre) track  for us
+- can you play something from album [Harverd Dropout](track_album) by [Florida](track_artist)?
+- Would you please play any music from album [Metallica](track_album) by [Lil Wayne](track_artist)?
+- Would you please play music from album [The Immaculate Collection](track_album)?
+- I would like to listen to any [hip-hop](track_genre) track
+- I would love to hear to [Eagles](track_artist)
+- Would you please play music from [Supernatural](track_album)?
+- Play some music from the album [The Immaculate Collection](track_album), will you?
+- I would like to listen something from [Metallica](track_album) album
+- I would like to groove to music from [Bad](track_album) by [Lil Wayne](track_artist).
+- can you play any music from album [Metallica](track_album)?
+- Could you please play some [grunge](track_genre) music for us?
+- I would like to groove to the [EDM](track_genre) music
+- I would like to dance to an [orchestra](track_genre) song
+- Play tracks from album [Lets Try the After](track_album), will you?
+- Would you please play songs from album [Led Zeppelin IV](track_album) by [50 cents](track_artist)?
+- Will you play something by [Celine Dion](track_artist)?
+- Would you please play the [metal](track_genre) tracks?
+- Could you please play some [hip-hop](track_genre) music?
+- I would like to listen any track from the album [Revival](track_album)
+- I would like to listen any music from [Remind Me Tomorrow](track_album) album
+- I wanna dance to something from album [Beware of the Dogs](track_album)
+- I wanna dance to any track from [Heard It In A Past Life](track_album)
+- I wanna dance to music from [Good Ass Job](track_album).
+- Play some music from album [Dedicated](track_album) by [Ed Sheeran](track_artist), will you?
+- Would you please play any [grunge](track_genre) music?
+- I would like to dance to music from [Marshal Mather LP II](track_album) by [Drake](track_artist)
+- I wanna listen some music from album [Supernatural](track_album)
+- will you please play music from [Lets Try the After](track_album) by [Mellen Gi](track_artist)?
+- Play some music from the album [On the Line](track_album) by [Future](track_artist), will you?
+- Play any song from the album [Supernatural](track_album), will you?
+- can you play music from [Legend](track_album)?
+- Play any music from [Legend](track_album), will you?
+- I wanna listen some music from [On the Line](track_album)
+- Play some music from the album [Legend](track_album)
+- Would you please play something from [Heard It in a Past Life](track_album) album.
+- Please play some [funk](track_genre)
+- I wanna dance to any track from album [Marshal Mather LP II](track_album)
+- can you please play any song from the album [Flamagra](track_album)?
+- can you please play tracks from [Dedicated](track_album)?
+- Would you please play some [soundtrack](track_genre) tracks?
+- I would like to dance to the [metal](track_genre) songs
+- can you play any track from album [Led Zeppelin IV](track_album) by [Skrillex](track_artist)?
+- can you play some music from album [Norman Fucking Rockwell](track_album) by [Charlotte Rose Ellis](track_artist)?
+- can you please play songs from [Buoys](track_album)?
+- can you please play any song from [Titanic Rising](track_album)?
+- I wanna listen any music from [When I Get Home](track_album)
+- I would like to dance to the [EDM](track_genre) songs
+- Would you please play some [metal](track_genre) track ?
+- Play a track from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [XAMES3](track_artist), will you?
+- will you please play a track from the album [Outer Peace](track_album) by [Akon](track_artist)?
+- Play any track from [The Immaculate Collection](track_album) by [Shawn Mendes](track_artist), will you?
+- I would like to hear the [dubstep](track_genre)
+- can you please play songs from [Hijas del Tomate](track_album)?
+- I would love to listen to [Ariana Grande](track_artist)
+- Would you please play music from album [Father of the Bride](track_album) by [George Michael](track_artist)?
+- I wanna listen something from album [Oh My God](track_album)
+- can you please play any track from [Outer Peace](track_album)?
+- Please play some [blues](track_genre) songs
+- I would like to listen something from [Crushing](track_album).
+- can you play any song from album [Angel's Pulse](track_album)?
+- I wanna listen some music from the album [The Immaculate Collection](track_album)
+- I would like to dance to music from [Beware of the Dogs](track_album) by [Dr. Dre;Eminem](track_artist).
+- Would you please play tracks from album [Illuminate](track_album)?
+- will you please play any song from the album [Oh My God](track_album)?
+- can you play a track from [Notes on a Conditional Form](track_album)?
+- Play a track from album [The Immaculate Collection](track_album)
+- can you please play tracks from [Legend](track_album) album
+- Please play music by [Usher](track_artist).
+- I wanna listen any song from album [Supernatural](track_album).
+- Play music from album [when we all fall asleep where do we go](track_album)
+- I would like you to please play some [dubstep](track_genre) tracks
+- Would you please play some [Grunge](track_genre) songs?
+- Play tracks from album [YOU CAN'T SIT WITH US](track_album).
+- can you play any track from [Phoenix](track_album)?
+- Would you please play any song from the album [Slaves of Fear](track_album) by [Ozuna](track_artist)?
+- I wanna listen something from album [What Chaos Is Imaginary](track_album).
+- Would you please play a track from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Celine Dion](track_artist)?
+- Would you please play some [hip-hop](track_genre) music?
+- I wanna listen songs from album [Metallica](track_album)
+- can you please play music from album [Rumours](track_album)?
+- Play a track from [The Night King](track_album) by [Ozuna](track_artist), will you?
+- Would you please play any track from [The Immaculate Collection](track_album)?
+- can you play a track from album [The Immaculate Collection](track_album)?
+- Would you please play something from album [Supernatural](track_album)?
+- Would you please play any music from the album [when we all fall asleep where do we go](track_album) by [Eagles](track_artist)?
+- I would like to listen tracks from [Oliver Appropriate](track_album) album.
+- I would love to dance to [Eagles](track_artist)
+- Play music from album [When I Get Home](track_album) by [Drake](track_artist), will you?
+- Would you please play any music from [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from album [Illuminate](track_album)?
+- I would like to hear the [Funk](track_genre) music
+- Would you please play a track from [Bad](track_album) album by [50 cents](track_artist)
+- I wanna dance to something from [Led Zeppelin IV](track_album)
+- I would like to hear the [Metal](track_genre) songs
+- Play music from album [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Would you please play any track from the album [The Saint of Lost Causes](track_album) by [Eagles](track_artist)?
+- Would you please play something from [The Wizrd](track_album) by [Mellen Gi](track_artist)?
+- Could you please play the [dubstep](track_genre) for us?
+- I would like to listen any music from the album [Recovery](track_album)
+- can you please play any music from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- cheer me up by playing any track from [YOU CAN'T SIT WITH US](track_album) album, will you?
+- I wanna dance to a track from [On The Line](track_album) album.
+- will you please play some music from the album [IGOR](track_album)?
+- will you please play any track from [Young Enough](track_album) by [Maroon 5](track_artist)?
+- can you play any song from [Lets Try the After](track_album) album
+- Would you please play any track from album [Recovery](track_album)?
+- Play a track from [Supernatural](track_album) album, will you?
+- please play any [grunge](track_genre) track for us
+- Play any music from album [IGOR](track_album)
+- can you play any song from album [I Am Easy To Find](track_album)?
+- I wanna listen tracks from [Cuz I Love You](track_album)
+- please play the [edm](track_genre) songs for us
+- I would like to dance to any [edm](track_genre) music
+- Play any music from [Everything Not Saved Will Be Lost—Part 1](track_album)
+- will you please play some music from the album [On the Line](track_album) by [Drake](track_artist)?
+- I wanna dance to any song from [U.F.O.F](track_album) album.
+- Play songs from album [The Night King](track_album) by [Drake](track_artist), will you?
+- Could you please play some [punk](track_genre) tracks for us?
+- will you please play any song from album [Heard It In A Past Life](track_album) by [Bonobo](track_artist)?
+- Play songs from album [The Immaculate Collection](track_album) by [Bonobo](track_artist), will you?
+- Would you please play any track from [Father of the Bride](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Would you please play any [hip-hop](track_genre) beat?
+- Would you please play something from the album [IGOR](track_album)?
+- I would like to hear some [blues](track_genre) tracks
+- I wanna dance to any track from [Bad](track_album) album
+- I would love to hear to [Usher](track_artist)
+- I would like you to please play some [rap](track_genre) songs
+- please play some [blues](track_genre) songs
+- I would love to listen to [Akon](track_artist)
+- Would you please play any track from [The Saint of Lost Causes](track_album) album.
 - Play something
-- play songs by [Adele](track_artist)
-- can you please something from [Slaves of the Shadow Realm](track_album)
-- Play [Dubstep](track_genre) music.
+- I want to listen to music from [When I Get Home](track_album) by [Eminem](track_artist)
+- I would like you to please play some [funk](track_genre) track
+- I want to listen to music from [Legend](track_album) by [Ludacris](track_artist)
+- Play a track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- cheer me up by playing any song from album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- Could you please play some [rap](track_genre) tracks for us?
+- can you play tracks from [Everything Not Saved Will Be Lost—Part 1](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I wanna dance to any music from album [Norman Fucking Rockwell](track_album).
+- I wanna dance to something from [The Immaculate Collection](track_album)
+- Play a track from the album [Revival](track_album), will you?
+- Could you play something by [Billie Eilish](track_artist)?
+- I would like to hear the [pop](track_genre) music
+- I would like to groove to some [metal](track_genre) music
+- I would like to dance to any [Funk](track_genre) music
+- Could you please play some [hip-hop](track_genre) tracks for us?
+- Play a track from the album [Oasis](track_album), will you?
+- can you please play a track from [Revival](track_album) album.
+- can you play songs from [Bad](track_album)?
+- Play any music from album [Rumours](track_album)
+- will you please play a track from [LP3](track_album) by [Drake](track_artist)?
+- please play the [metal](track_genre) songs for us
+- Would you please play the [punk](track_genre) songs?
+- can you please play tracks from album [Quiet Signs](track_album)?
+- I wanna listen something from [The Wizrd](track_album) album.
+- can you play a track from the album [Western Stars](track_album) by [Queen](track_artist)?
+- Could you please play any [metal](track_genre) beat?
+- can you play something from album [Father of the Bride](track_album) by [Sia](track_artist)?
+- Would you please play any track from [The Immaculate Collection](track_album) album by [Dr. Dre;Eminem](track_artist)
+- some [dubstep](track_genre) music
+- I would like to groove to the [dubstep](track_genre)
+- Play songs from album [Legend](track_album), will you?
+- can you please play music from album [The Unseen In-Between](track_album)?
+- Play any song from the album [Sunshine Rock](track_album)
+- can you please play any track from [Thank U, Next](track_album)?
+- I wanna dance to any track from [Heard It In A Past Life](track_album) album
+- I would like to listen to some [rap](track_genre)
+- I would like to listen tracks from album [Titanic Rising](track_album).
+- Play any song from [Bad](track_album)
+- I wanna dance to any music from [Gallipoli](track_album)
+- can you please play tracks from album [Outer Peace](track_album)?
+- Could you please play some [dubstep](track_genre) music?
+- will you please play music from album [Supernatural](track_album)?
+- can you play any song from album [The Immaculate Collection](track_album)?
+- can you please play something from the album [IGOR](track_album)?
+- will you please play any track from [Kamikaze](track_album) by [Drake](track_artist)?
+- Play some [funk](track_genre) track
+- I would like to hear some [punk](track_genre) tracks
+- can you please play any track from album [U.F.O.F](track_album)?
+- will you please play music from [Legend](track_album)?
+- Play any track from [Rumours](track_album) album
+- Play any [metal](track_genre) track
+- I wanna dance to songs from [Kamikaze](track_album).
+- Play music by [Halsey](track_artist)
+- can you play any track from [Young Enough](track_album) by [Mad Money](track_artist)?
+- I would love to listen to something by [Khalid](track_artist)
+- Play tracks from [The Immaculate Collection](track_album)
+- Would you please play any music from the album [Cuz I Love You](track_album) by [Mad Money](track_artist)?
+- I would like to listen to the [grunge](track_genre) songs
+- can you please play tracks from album [Norman Fucking Rockwell](track_album)?
+- Play any music from the album [The Immaculate Collection](track_album)
+- I would like to listen any track from [The Night King](track_album)
+- I will like to have an [orchestra](track_genre) tunes
+- I wanna dance to some music from album [Hijas del Tomate](track_album)
+- Play any music from [Oasis](track_album) album by [Drake](track_artist), will you?
+- I would like to listen to the [edm](track_genre) track
+- can you please play any song from [Oliver Appropriate](track_album)?
+- Play music from album [Legend](track_album), will you?
+- Would you please play some [blues](track_genre) songs?
+- Play any track from [EVEN IN THE TREMOR](track_album) album, will you?
+- Play any song from [Supernatural](track_album) album by [Drake](track_artist), will you?
+- I would like to listen to the [punk](track_genre) tracks
+- I would like to dance to the [Electronic](track_genre) music
+- I would like to listen to an [orchestra](track_genre) beat
+- Play something from [Anima](track_album) by [Dr. Dre](track_artist), will you?
+- will you please play any music from album [Oh My God](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play some music from the album [Purple Reign](track_album)?
+- I would like to dance to the [hip-hop](track_genre)
+- can you please play songs from album [Revival](track_album)?
+- Play something from the album [when we all fall asleep where do we go](track_album)
+- Play songs from [Recovery](track_album) by [Drake](track_artist), will you?
+- I would like to hear the [punk](track_genre) music
+- Could you please play some [pop](track_genre) songs?
+- I would like to dance to some [funk](track_genre)
+- Would you please play a track from [SASAMI](track_album) by [Miley Cyrus](track_artist)?
+- will you please play some music from the album [Bad](track_album) by [Drake](track_artist)?
+- can you play any track from [Marshal Mather LP II](track_album) by [Drake](track_artist)?
+- can you play a track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- please play some [grunge](track_genre) music for me
+- Play tracks from [Recovery](track_album) by [Bonobo](track_artist), will you?
+- Would you please play some music from album [On the Line](track_album) by [Dr. Dre](track_artist)?
+- please play the [rap](track_genre) songs for us
+- cheer me up by playing something from [Mitsubishi Macchiato](track_album) album, will you?
+- I want to listen something by [Fifth Harmony](track_artist)
+- Would you please play any track from [Father of the Bride](track_album)?
+- Would you please play any track from album [Appetite for Destruction](track_album) by [Charlotte Rose Ellis](track_artist)?
+- will you please play songs from [Appetite for Destruction](track_album)?
+- Play some [hip-hop](track_genre) songs
+- can you play something from [The Saint of Lost Causes](track_album)?
+- will you please play any song from [Marshal Mather LP II](track_album)?
+- Please play music by [Selena Gomez](track_artist).
+- I would like to groove to any [punk](track_genre) music
+- I wanna dance to a track from [Flamagra](track_album) album.
+- Could you please play the [pop](track_genre) music for us?
+- I will like to have any [grunge](track_genre) track
+- I would love to hear to [Rihanna](track_artist)
+- I wanna dance to songs from [Angel's Pulse](track_album)
+- Would you please play any track from [This is Acting](track_album)?
+- I would like to dance to some [pop](track_genre) track
+- Play songs from album [Phoenix](track_album).
+- will you please play any track from [Let’s Talk About Love](track_album) album.
+- Would you please play a track from [Yandhi](track_album)?
+- I wanna listen any track from [This is Acting](track_album) album.
+- Play tracks from [EVEN IN THE TREMOR](track_album).
+- I will like to have some [soundtrack](track_genre) tracks
+- I will like to have the [edm](track_genre) tracks
+- Play any music from album [Yandhi](track_album), will you?
+- I would love to listen to something by [Selena Gomez](track_artist)
+- will you please play any song from the album [Let’s Talk About Love](track_album)?
+- Would you please play some music from [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Could you please play some [pop](track_genre) tracks for us?
+- I would like you to please play some [soundtrack](track_genre)
+- I wanna dance to a track from album [The Craving for Absolute Serenity](track_album).
+- can you please play something by [Rihanna](track_artist)?
+- can you play tracks from [Back in Black](track_album) album by [Drake](track_artist).
+- Play some [hip-hop](track_genre) music
+- will you please play any song from album [YOU CAN'T SIT WITH US](track_album)?
+- Would you please play any track from album [Appetite for Destruction](track_album) by [Sean Paul](track_artist)?
+- can you play some music from the album [Chapter VI](track_album) by [Sean Paul](track_artist)?
+- I would like to hear some [Hip-hop](track_genre) music
+- some [pop](track_genre) songs
+- cheer me up by playing something from the album [YOU CAN'T SIT WITH US](track_album), will you?
+- Would you please play something from the album [Thank U, Next](track_album)?
+- I would like to listen to the [Electronic](track_genre) songs
+- will you please play any track from album [Remind Me Tomorrow](track_album)?
+- I wanna dance to any track from the album [Heard It In A Past Life](track_album)
+- cheer me up by playing any track from album [The Immaculate Collection](track_album), will you?
+- will you please play something from album [Dedicated](track_album)?
+- cheer me up by playing songs from album [Marshal Mather LP II](track_album), will you?
+- Could you please play any [soundtrack](track_genre) music for us?
+- I wanna dance to any music from album [Young Enough](track_album)
+- I would like to listen a track from album [Oh My God](track_album)
+- I will like to have some [hip-hop](track_genre) tracks
+- I would like to dance to some [hip-hop](track_genre) track
+- I would like to listen a track from the album [EVEN IN THE TREMOR](track_album)
+- Please play some [soundtrack](track_genre) songs
+- can you please play any music from [Slaves of Fear](track_album)?
+- Play any song from album [LP3](track_album) by [Jay-Z](track_artist), will you?
+- can you play any track from album [In League With Dragons](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I would like to hear the [funk](track_genre) music
+- I will like to have some [Jazz](track_genre) music
+- Play any [blues](track_genre) music
+- can you please play any track from [Bandana](track_album) album
+- cheer me up by playing any track from album [Titanic Rising](track_album), will you?
+- I wanna dance to any song from [Legend](track_album)
+- Play any track from the album [Illuminate](track_album), will you?
+- can you please play any track from the album [Led Zeppelin IV](track_album)?
+- will you please play music from [Rumours](track_album)?
+- I would like to listen any track from album [When I Get Home](track_album)
+- Would you please play something from [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Could you please play any [dubstep](track_genre) music?
+- Play songs by [Skrillex](track_artist)
+- Play tracks from album [Epic Hip Hop](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Play some music from the album [Bad](track_album) by [Kanye West](track_artist), will you?
+- I would like to listen some music from the album [On the Line](track_album)
+- can you please play tracks from [Good Ass Job](track_album) album.
+- Play some music from [Beware of the Dogs](track_album), will you?
+- can you please play a track from album [Back in Black](track_album)?
+- Could you please play some [funk](track_genre) music for us?
+- can you please play any track from album [The Unseen In-Between](track_album)?
+- Could you please play the [pop](track_genre)?
+- will you please play any song from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I will like to have the [blues](track_genre) songs
+- Play any music from album [The Immaculate Collection](track_album) by [Cardi B](track_artist), will you?
+- will you please play tracks from album [Illuminate](track_album)?
+- some [pop](track_genre) music
+- will you please play any song from album [U.F.O.F](track_album) by [Warner & Chappell](track_artist)?
+- I would like you to please play some [funk](track_genre) music
+- I would like to listen a track from the album [Oh My God](track_album)
+- will you please play songs from [YOU CAN'T SIT WITH US](track_album) by [Drake](track_artist)?
+- I wanna dance to a track from album [Kamikaze](track_album).
+- Play any track from the album [Atlanta Millionaires Club](track_album), will you?
+- will you please play any track from the album [On the Line](track_album)?
+- Would you please play any song from the album [Let’s Talk About Love](track_album)?
+- please play any [funk](track_genre) music for us
+- Would you please play something from [LP3](track_album) album by [Future](track_artist).
+- Please play any [pop](track_genre) track
+- Would you please play something by [Usher](track_artist)?
+- Would you please play a track from [Bandana](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any [hip-hop](track_genre) music?
+- Would you please play any song from album [Beware of the Dogs](track_album) by [Eagles](track_artist)?
+- can you play any track from [EVEN IN THE TREMOR](track_album)?
+- can you play something from [New Breed](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Play any track from the album [The Wizrd](track_album), will you?
+- Would you please play songs from album [Let’s Talk About Love](track_album) by [Eagles](track_artist)?
+- I would like to dance to some [metal](track_genre) songs
+- will you please play songs from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you play tracks from [Assume Form](track_album)?
+- can you play a track from [Legend](track_album) album
+- Play music by [Billie Eilish](track_artist)
+- Play a [soundtrack](track_genre) music
+- Play any track from [Legend](track_album) album by [Madonna](track_artist), will you?
+- please play the [soundtrack](track_genre) tracks for us
+- Play any music from the album [On the Line](track_album) by [Shawn Mendes](track_artist), will you?
+- will you please play any track from [Western Stars](track_album) album by [Drake](track_artist)
+- Would you please play the [dubstep](track_genre) tracks?
+- I wanna dance to something from the album [Appetite for Destruction](track_album)
+- Will you please play something by [Camila Cabello](track_artist)?
+- Play some [pop](track_genre) songs
+- Play the [Electronic](track_genre) music
+- will you please play songs from album [In League With Dragons](track_album)?
+- I would like to groove to some [edm](track_genre) songs
+- I would like to groove to some [soundtrack](track_genre) tracks
+- I wanna dance to tracks from album [The Immaculate Collection](track_album)
+- Play some music from the album [Norman Fucking Rockwell](track_album)
+- will you please play any track from the album [Supernatural](track_album) by [Dr. Dre](track_artist)?
+- I would like to groove to some [soundtrack](track_genre) musicc
+- will you please play a track from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any music from [Supernatural](track_album) by [Drake](track_artist)?
+- I would like to listen something from [Epic Hip Hop](track_album) album
+- I would like you to please play some [edm](track_genre) music
+- Play any track from [LP3](track_album) album
+- I would like to listen to some [grunge](track_genre) music
+- Would you please play music from [Heard It In A Past Life](track_album) by [Kanye West](track_artist)?
+- Play any track from album [The Saint of Lost Causes](track_album).
+- Would you please play something from [Tip of the Sphere](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Could you please play some [punk](track_genre) track ?
+- I would like to listen something from [Legend](track_album) album
+- I would like to groove to any [Hiphop](track_genre) track
+- Play any song from the album [Quiet Signs](track_album), will you?
+- can you play any track from [Father of the Bride](track_album) by [Clint Mansell](track_artist)?
+- can you play any song from the album [Epic Hip Hop](track_album)?
+- Play a [Metal](track_genre) music
+- Would you please play some music from album [The Unseen In-Between](track_album) by [Sia](track_artist)?
+- can you play any track from [Titanic Rising](track_album) album by [Post Malone](track_artist)
+- I wanna listen music from [The Immaculate Collection](track_album)
+- can you play a track from [when we all fall asleep where do we go](track_album) album
+- will you please play any track from the album [Western Stars](track_album)?
+- I would like to dance to any [punk](track_genre) track
+- will you please play a track from album [When I Get Home](track_album)?
+- Play any song from [Recovery](track_album) by [Kanye West](track_artist), will you?
+- can you play tracks from album [Appetite for Destruction](track_album)?
+- Play any music from album [Revival](track_album), will you?
+- can you please play any track from [Heard It In A Past Life](track_album) album.
+- can you play some music from album [Hotel California](track_album) by [Future](track_artist)?
+- Play any track from [What Chaos Is Imaginary](track_album) album.
+- Would you please play any [edm](track_genre) track?
+- I wanna dance to some music from [Legend](track_album)
+- Would you please play any track from the album [Epic Hip Hop](track_album)?
+- Please play any [Grunge](track_genre) music
+- Would you please play tracks from [Led Zeppelin IV](track_album)?
+- I would like to groove to any [pop](track_genre) beat
+- will you please play any track from [Slaves of Fear](track_album)?
+- will you please play any song from the album [Supernatural](track_album)?
+- will you please play any song from the album [Oliver Appropriate](track_album) by [Snoop Dogg](track_artist)?
+- will you please play any song from [Anima](track_album) album by [Charlotte Rose Ellis](track_artist).
+- play [dubstep](track_genre)
+- I'm feelin a low. Pep me up.
+- I would like to listen to some [hip-hop](track_genre) tracks
+- cheer me up by playing any track from [The Unseen In-Between](track_album), will you?
+- Please play the [pop](track_genre)
+- can you play songs from [Legend](track_album)?
+- can you play songs from [When I Get Home](track_album)?
+- I wanna dance to tracks from [Cuz I Love You](track_album)
+- will you please play any track from [SASAMI](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to listen any track from [Rumours](track_album)
+- will you please play some music from [Tip of the Sphere](track_album) by [XAMES3](track_artist)?
+- I would like to listen songs from album [Outer Peace](track_album)
+- I wanna dance to any track from [Appetite for Destruction](track_album) album
+- I wanna dance to tracks from album [Father of the Bride](track_album).
+- Would you please play any track from [Marshal Mather LP II](track_album) album
+- I wanna listen any music from the album [On The Line](track_album)
+- can you play any song from the album [On The Line](track_album)?
+- I would like you to please play the [grunge](track_genre) music
+- I would like to hear some [soundtrack](track_genre) tracks
+- Play any track from the album [Revival](track_album) by [Rick0 James](track_artist), will you?
+- I would like to listen to the [soundtrack](track_genre) tracks
+- Please play some [hip-hop](track_genre)
+- will you please play any track from [when we all fall asleep where do we go](track_album) album.
+- can you please play something from [Good Ass Job](track_album) album.
+- I would like to dance to [Fifth Harmony](track_artist)
+- Play some music from the album [Legend](track_album), will you?
+- please play any [metal](track_genre) track for us
+- I want to listen to music from [Buoys](track_album) by [Charlotte Rose Ellis](track_artist).
+- I would like to listen tracks from [Beware of the Dogs](track_album)
+- I would like to listen a track from [Rumours](track_album)
+- cheer me up by playing something from album [Crushing](track_album), will you?
+- I would love to listen to something by [Adele](track_artist)
+- I would like to listen to some [dubstep](track_genre) tracks
+- I wanna listen any music from [Crushing](track_album) album
+- will you please play something from the album [Let’s Talk About Love](track_album) by [Dr. Dre](track_artist)?
+- I wanna listen songs from album [Led Zeppelin IV](track_album).
+- Would you please play any track from [Recovery](track_album) by [Justin Hurwitz](track_artist)?
+- Would you please play some music from album [Hijas del Tomate](track_album) by [Drake](track_artist)?
+- I wanna listen music from album [Heard It In A Past Life](track_album).
+- Please play any [edm](track_genre) beat
+- Play songs from [Kamikaze](track_album) by [Sean Paul](track_artist), will you?
+- Play some [rap](track_genre) tracks
+- can you please play any track from [Bad](track_album)?
+- will you please play any music from [Oasis](track_album) by [Nicki Minaj](track_artist)?
+- Play a track from [The Immaculate Collection](track_album) album
+- I would enjoy to hear to [Selena Gomez](track_artist)
+- Play any music from [The Immaculate Collection](track_album) by [Ludacris](track_artist), will you?
+- will you please play any song from the album [Rumours](track_album) by [Warner & Chappell](track_artist)?
+- I would like to listen any music from album [In League With Dragons](track_album)
+- can you please play any track from album [Buoys](track_album)?
+- I wanna listen any song from the album [Oasis](track_album)
+- Would you please play any track from album [Appetite for Destruction](track_album)?
+- I would like to listen to the [blues](track_genre) music
+- will you please play any track from the album [Anima](track_album)?
+- I would like to groove to any [pop](track_genre) music
+- can you play something from [Revival](track_album) album by [Dr. Dre;Eminem](track_artist).
+- I wanna listen any track from [Heard It In A Past Life](track_album) album.
+- Play something from the album [Heard It In A Past Life](track_album) by [Ludacris](track_artist), will you?
+- I would like to hear to [Adele](track_artist)
+- will you please play tracks from [The Wizrd](track_album) album.
+- Play a track from [Crushing](track_album) album
+- Would you please play the [hip-hop](track_genre) music?
+- Please play any [hip-hop](track_genre) music
+- Would you please play any track from the album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- will you please play any track from [Illuminate](track_album) album.
+- can you play any track from the album [Young Enough](track_album) by [Katy Perry](track_artist)?
+- can you play something from album [Supernatural](track_album) by [Sean Paul](track_artist)?
+- I would like to groove to the [punk](track_genre) music
 - turn the music on!!
+- I wanna dance to something from album [Recovery](track_album).
+- wanna sing a song now!!
+- can you please play any music from [Bad](track_album)?
+- Play any [pop](track_genre) music
+- please play any [grunge](track_genre) beat for us
+- Would you please play any [dubstep](track_genre) track?
+- Would you please play some [Hip-hop](track_genre) music?
+- I wanna listen some music from album [Yandhi](track_album).
+- please play some [metal](track_genre) tracks
+- Play something from album [Father of the Bride](track_album) by [Dr. Dre](track_artist), will you?
+- can you please play music from [when we all fall asleep where do we go](track_album)?
+- Play a track from [Metallica](track_album) album by [Dr. Dre](track_artist), will you?
+- please play the [grunge](track_genre) track  for us
+- Could you please play some [punk](track_genre) songs?
+- Play tracks from [Led Zeppelin IV](track_album) album, will you?
+- Could you please play some [punk](track_genre) for us?
+- I wanna dance to songs from album [Outer Peace](track_album).
+- I wanna dance to any song from album [The Immaculate Collection](track_album)
+- please play the [soundtrack](track_genre) musicc for me
+- I wanna listen any song from [Kamikaze](track_album) album
+- Could you play something by [Alan Walker](track_artist)?
+- Please play some [dubstep](track_genre) tracks
+- I wanna listen a track from album [Anima](track_album)
+- Would you please play songs from album [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any music from [Revival](track_album) album
+- I wanna dance to something from [Oliver Appropriate](track_album) album
+- I wanna listen any song from [YOU CAN'T SIT WITH US](track_album) album.
+- can you play any track from album [Legend](track_album) by [Rick0 James](track_artist)?
+- I wanna dance to something from album [Crushing](track_album)
+- I wanna listen any music from [Cuz I Love You](track_album)
+- I would like to hear the [Hip-hop](track_genre) track
+- i [wnna](grammar:want) dance to some music.
+- will you please play some music from the album [I Am Easy To Find](track_album) by [Mad Money](track_artist)?
+- will you please play a track from [Sunshine Rock](track_album) album by [Shawn Mendes](track_artist)
+- Play [soundtrack](track_genre) music
+- Play tracks from [Marshal Mather LP II](track_album), will you?
+- Would you please play any music from [This Is How You Smile](track_album)?
+- will you please play any song from the album [YOU CAN'T SIT WITH US](track_album)?
+- will you please play any song from [The Immaculate Collection](track_album) album
+- I would like you to please play an [orchestra](track_genre) tune
+- cheer me up by playing something from [Norman Fucking Rockwell](track_album), will you?
+- please play the [hip-hop](track_genre) for us
+- will you please play tracks from [Metallica](track_album) album
+- play songs by [Future](track_artist).
+- I would like to listen songs from album [Beware of the Dogs](track_album)
+- Play any song from [The Immaculate Collection](track_album) album by [Ozuna](track_artist), will you?
+- Please play the [soundtrack](track_genre) musicc
+- Could you please play some [blues](track_genre) tracks?
+- can you please play something from [YOU CAN'T SIT WITH US](track_album) album.
+- I would like to listen to some [soundtrack](track_genre) tracks
+- can you play songs from [Heard It In A Past Life](track_album)?
+- Play any music from album [Recovery](track_album) by [Akon](track_artist), will you?
+- Could you please play some [Electronic](track_genre) tracks?
+- will you please play something from [What Chaos Is Imaginary](track_album) by [Clint Mansell](track_artist)?
+- can you play any track from album [Notes on a Conditional Form](track_album)?
+- Would you please play some [blues](track_genre)?
+- I wanna dance to tracks from [Appetite for Destruction](track_album).
+- I wanna dance to any song from [TBA](track_album) album
+- please play some [edm](track_genre) tracks
+- I would like to listen tracks from [The Immaculate Collection](track_album)
+- Play any track from album [Good Ass Job](track_album), will you?
+- Play music from [Hotel California](track_album)
+- I would like to listen any music from album [New Breed](track_album)
+- Would you please play any track from album [Recovery](track_album) by [Ludacris](track_artist)?
+- I wanna dance to tracks from [This Is How You Smile](track_album)
+- can you play something from [Legend](track_album) album
+- can you please play any track from [Let’s Talk About Love](track_album)?
+- I wanna dance to a track from [Appetite for Destruction](track_album)
+- some [blues](track_genre) songs
+- Could you please play some [punk](track_genre) songs for us?
+- cheer me up by playing tracks from [Father of the Bride](track_album), will you?
+- please play any [rap](track_genre) track for us
+- Play tracks from [The Saint of Lost Causes](track_album)
+- please play some [pop](track_genre) music for us
+- will you please play any song from album [Appetite for Destruction](track_album) by [Mad Money](track_artist)?
+- can you please play a track from album [On the Line](track_album)?
+- Play any song from [Rumours](track_album) album, will you?
+- some [rap](track_genre) songs
+- can you play tracks from album [Legend](track_album) by [BTS](track_artist)?
+- can you play any track from album [Supernatural](track_album)?
+- please play the [grunge](track_genre) songs for us
+- can you please play any music from album [Bad](track_album)?
+- Would you please play songs from album [IGOR](track_album)?
+- I wanna listen a track from [I Am Easy To Find](track_album) album.
+- I would like to hear the [EDM](track_genre) music
+- I would like to hear any [hip-hop](track_genre) music
+- I would like you to please play the [punk](track_genre) track
+- will you please play any song from [Remind Me Tomorrow](track_album) album
+- I wanna dance to tracks from [IGOR](track_album).
+- Play songs from album [Led Zeppelin IV](track_album), will you?
+- I would like to listen to some [edm](track_genre) songs
+- can you play something from album [The Saint of Lost Causes](track_album) by [Clint Mansell](track_artist)?
+- I would like to hear any [Rock](track_genre) beat
+- cheer me up by playing any track from [Appetite for Destruction](track_album) album, will you?
+- play any song from [Recovery](track_album).
+- will you please play any track from [Hotel California](track_album) album
+- can you play any song from the album [The Immaculate Collection](track_album)?
+- will you please play any music from the album [I Am Easy To Find](track_album)?
+- can you play songs from album [Revival](track_album)?
+- can you play any track from the album [Anima](track_album)?
+- Would you please play some music from album [Outer Peace](track_album)?
+- can you play any track from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Skrillex](track_artist)?
+- Would you please play any track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play something from [Anima](track_album) album, will you?
+- please play the [hip-hop](track_genre) for me
+- can you please play a track from the album [Metallica](track_album)?
+- Play any track from [Remind Me Tomorrow](track_album) album, will you?
+- I wanna listen any music from the album [Quiet Signs](track_album)
+- I would like to listen any song from [The Immaculate Collection](track_album)
+- will you please play something from album [Legend](track_album)?
+- can you play something from [The Wizrd](track_album)?
+- I would like to listen songs from [Legend](track_album)
+- I would like to hear some [metal](track_genre) tracks
+- can you play any music from [Legend](track_album) album by [Eagles](track_artist)
+- can you play any music from album [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to a track from the album [Bad](track_album)
+- I wanna listen a track from album [Rumours](track_album).
+- I would like to hear the [Grunge](track_genre) music
+- will you please play a track from [Thank U, Next](track_album)?
+- Play some music from the album [YOU CAN'T SIT WITH US](track_album), will you?
+- can you play tracks from album [Titanic Rising](track_album) by [Dr. Dre;Eminem](track_artist)?
+- please play the [funk](track_genre) songs for me
+- will you please play a track from album [Father of the Bride](track_album)?
+- please play the [EDM](track_genre) music for us
+- Play any track from [The Unseen In-Between](track_album) by [Drake](track_artist), will you?
+- Play any song from [Oliver Appropriate](track_album) album by [Mellen Gi](track_artist), will you?
+- Please play the [metal](track_genre)
+- I wanna listen any music from [Oasis](track_album)
+- I would enjoy to dance to [Bruno Mars](track_artist)
+- I would like to listen to some [Orchestra](track_genre) music
+- Would you please play a track from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Drake](track_artist)
+- can you play some music from [Kamikaze](track_album) by [Ludacris](track_artist)?
+- can you play any track from album [Back in Black](track_album)?
+- will you please play something from [Hotel California](track_album)?
+- cheer me up by playing something from the album [EVEN IN THE TREMOR](track_album), will you?
+- I would like to listen music from [Bad](track_album)
+- Play any track from [Beware of the Dogs](track_album) by [Ozuna](track_artist), will you?
+- will you please play any track from [Rumours](track_album) by [Drake](track_artist)?
+- I would like to listen any track from the album [IGOR](track_album)
+- can you play something from album [Oliver Appropriate](track_album)?
+- Play music from album [Legend](track_album) by [Mad Money](track_artist), will you?
+- can you please play any song from [Legend](track_album) album
+- I will like to have any [blues](track_genre) music
+- I wanna dance to any song from the album [Norman Fucking Rockwell](track_album)
+- Play a track from the album [Bad](track_album)
+- can you please play songs from album [In League With Dragons](track_album)?
+- Play music from [Rumours](track_album), will you?
+- could you play something from [Recovery](track_album).
+- I would like to dance to some [metal](track_genre)
+- Play something from the album [The Immaculate Collection](track_album) by [Mad Money](track_artist), will you?
+- I wanna listen any song from [Western Stars](track_album) album
+- I wanna listen a track from the album [Lets Try the After](track_album)
+- will you please play some music from the album [Metallica](track_album) by [Shawn Mendes](track_artist)?
+- Play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album by [The Chainsmokers](track_artist), will you?
+- Play any music from [YOU CAN'T SIT WITH US](track_album), will you?
+- will you please play any music from album [Rumours](track_album)?
+- Would you please play a track from the album [Thank U, Next](track_album) by [Sean Paul](track_artist)?
+- can you play a track from [Outer Peace](track_album) album.
+- will you please play any track from [EVEN IN THE TREMOR](track_album) album by [Dr. Dre](track_artist).
+- Please play some [punk](track_genre) tracks
+- can you play some music from the album [Sunshine Rock](track_album) by [Ludacris](track_artist)?
+- I would like to listen any track from album [when we all fall asleep where do we go](track_album)
+- Please play the [blues](track_genre) music
+- will you please play some music from the album [Led Zeppelin IV](track_album)?
+- I will like to have some [punk](track_genre) music
+- Would you please play any [blues](track_genre) beat?
+- can you please play music from [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- I would like to listen some music from [U.F.O.F](track_album)
+- can you please play a track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Would you please play something from [Illuminate](track_album) by [Ozuna](track_artist)?
+- I wanna listen songs from album [Cuz I Love You](track_album).
+- I wanna listen music from album [Kamikaze](track_album)
+- I wanna listen tracks from [Legend](track_album) album
+- I will like to have any [Metal](track_genre) music
+- cheer me up by playing any song from album [Designer](track_album), will you?
+- cheer me up by playing tracks from [This is Acting](track_album) album, will you?
+- I wanna dance to any music from album [Rumours](track_album)
+- Will you please play something by [Usher](track_artist)?
+- Would you please play songs from album [Kamikaze](track_album) by [Ed Sheeran](track_artist)?
+- Would you please play music from [Make It Big](track_album)?
+- Would you please play songs from [YOU CAN'T SIT WITH US](track_album)?
+- can you play any music from album [Recovery](track_album)?
+- Play a track from album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- please play the [edm](track_genre) tracks for me
+- Would you please play any music from [Remind Me Tomorrow](track_album) album by [Future](track_artist).
+- Play some music from [Kamikaze](track_album) by [Ozuna](track_artist), will you?
+- I will like to have any [pop](track_genre) beat
+- can you play any track from [Supernatural](track_album) by [Justin Hurwitz](track_artist)?
+- please play some [metal](track_genre) music
+- I will like to have any [Jazz](track_genre) beat
+- Would you please play a track from [Marshal Mather LP II](track_album)?
+- Would you please play some [grunge](track_genre) tracks?
+- Would you please play any song from album [Led Zeppelin IV](track_album) by [Warner & Chappell](track_artist)?
+- Would you please play any track from [SASAMI](track_album) album by [Kanye West](track_artist).
+- will you please play any track from [Back in Black](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to listen tracks from [Crushing](track_album)
+- Would you please play any music from [Kamikaze](track_album) by [Ozuna](track_artist)?
+- Play the [grunge](track_genre) tune.
+- Would you please play songs from album [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any song from [The Wizrd](track_album) album by [Kanye West](track_artist)
+- Play some music from album [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen something from album [Remind Me Tomorrow](track_album)
+- Would you please play tracks from [Crushing](track_album)?
+- Would you please play something from the album [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any track from album [LP3](track_album) by [Rick0 James](track_artist)?
+- Please play the [grunge](track_genre) music
+- Could you please play some [pop](track_genre) track  for us?
+- I would like to listen any song from album [The Immaculate Collection](track_album)
+- please play any [punk](track_genre) music for us
+- Play any song from album [Buoys](track_album), will you?
+- I would like to listen to some [rap](track_genre) track
+- Play something from [Supernatural](track_album) album, will you?
+- can you play any song from [Legend](track_album) album
+- I would like to listen any music from [On the Line](track_album) album
+- Would you please play a track from the album [The Unseen In-Between](track_album)?
+- Would you please play a track from [Led Zeppelin IV](track_album)?
+- will you please play music from album [Kamikaze](track_album) by [Clint Mansell](track_artist)?
+- can you play any track from [Everything Not Saved Will Be Lost—Part 1](track_album) by [Madonna](track_artist)?
+- Would you please play any track from the album [The Wizrd](track_album) by [Eagles](track_artist)?
+- can you play any music from [Hotel California](track_album) by [The Chainsmokers](track_artist)?
+- will you please play any track from [Recovery](track_album)?
+- Would you please play any track from [La La Land](track_album)?
+- I would like to listen any track from [The Saint of Lost Causes](track_album)
+- Play any track from [New Breed](track_album) by [Cardi B](track_artist), will you?
+- I wanna dance to any song from the album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I wanna listen songs from album [The Night King](track_album)
+- I wanna listen songs from album [Outer Peace](track_album)
+- I would like to dance to the [punk](track_genre) tracks
+- I would like to dance to the [blues](track_genre) tracks
+- I wanna dance to any track from album [Legend](track_album)
+- Play music from album [Recovery](track_album).
+- Play something from [Back in Black](track_album)
+- Would you please play the [dubstep](track_genre) track ?
+- I would like to dance to the [hip-hop](track_genre) music
+- Please play the [edm](track_genre) music
+- Play any track from the album [Legend](track_album), will you?
+- Play tracks from album [Gallipoli](track_album), will you?
+- Play songs from album [Let’s Talk About Love](track_album)
+- Play tracks by [Alan Walker](track_artist)
+- I would like to hear some [rap](track_genre)
+- I would like to dance to any [soundtrack](track_genre) track
+- Play any track from album [Bad](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen a track from [Norman Fucking Rockwell](track_album)
+- Would you please play any track from the album [Anima](track_album) by [The Chainsmokers](track_artist)?
+- can you play a track from album [YOU CAN'T SIT WITH US](track_album)?
+- Would you please play any song from album [Sunshine Rock](track_album)?
+- I wanna dance to songs from [Illuminate](track_album).
+- I would like you to please play the [grunge](track_genre) songs
+- Would you please play any [Orchestra](track_genre) music?
+- will you please play something from [Mitsubishi Macchiato](track_album) by [Akon](track_artist)?
+- Play the [Hip-hop](track_genre) music
+- Play any music from [The Wizrd](track_album), will you?
+- Could we get something by [Bruno Mars](track_artist)?
+- I would like to listen any song from [Let’s Talk About Love](track_album) album.
+- Play any track from album [The Immaculate Collection](track_album) by [Kanye West](track_artist), will you?
+- Play any song from album [Recovery](track_album).
+- Play the [funk](track_genre) music
+- Would you please play any music from album [Dedicated](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from the album [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play music from album [Oliver Appropriate](track_album), will you?
+- can you please play any track from [The Wizrd](track_album) album.
+- Play something from [IGOR](track_album) album, will you?
+- Would you please play tracks from [Everything Not Saved Will Be Lost—Part 1](track_album) album by [Warner & Chappell](track_artist)
+- will you please play any music from album [U.F.O.F](track_album) by [Ludacris](track_artist)?
+- I wanna listen any music from [When I Get Home](track_album) album
+- please play any [Dubstep](track_genre) music for us
+- can you play something from the album [Requiem for a Dream](track_album)?
+- Please play any [Blues](track_genre) beat
+- could youu play some [edm](track_genre).
+- Play any track from the album [When I Get Home](track_album) by [Three Days Grace](track_artist), will you?
+- Play some music from the album [Illuminate](track_album)
+- I would like to hear the [blues](track_genre)
+- can you play music from album [Sunshine Rock](track_album) by [Drake](track_artist)?
+- Play some music from [The Marshall Mathers LP 2 Disc 2](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen some music from [Flamagra](track_album)
+- will you please play tracks from album [Father of the Bride](track_album) by [Drake](track_artist)?
+- Could we get something by [Linkin Park](track_artist)?
+- Play a track from album [Back in Black](track_album), will you?
+- can you play something from [SASAMI](track_album) by [Eagles](track_artist)?
+- will you please play any track from album [EVEN IN THE TREMOR](track_album)?
+- will you please play any track from album [Kamikaze](track_album)?
+- I would like to hear any [rap](track_genre) track
+- I would love to listen to [Adele](track_artist)
+- will you please play tracks from album [On the Line](track_album) by [Cardi B](track_artist)?
+- can you please play any song from [Led Zeppelin IV](track_album) album
+- I want to listen to music from [Young Enough](track_album) by [Madonna](track_artist).
+- Play something from [Phoenix](track_album).
+- will you please play tracks from album [Hotel California](track_album) by [Akon](track_artist)?
+- will you please play any song from album [On the Line](track_album)?
+- play songs
+- will you please play any music from album [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to songs from album [Bandana](track_album)
+- Play a track from album [Recovery](track_album), will you?
+- Play any track from the album [The Saint of Lost Causes](track_album) by [Katy Perry](track_artist), will you?
+- Please play any [metal](track_genre) music
+- Play any music from album [Legend](track_album) by [Akon](track_artist), will you?
+- I wanna listen songs from [Dedicated](track_album)
+- Would you please play any music from [Designer](track_album) album.
+- I would like to listen to any [pop](track_genre) music
+- can you play any music from [Good Ass Job](track_album)?
+- will you please play any music from [I Am Easy To Find](track_album)?
+- Could you please play the [soundtrack](track_genre) music?
+- please play some [hip-hop](track_genre) for us
+- I would like to listen to some [punk](track_genre) music
+- I want to listen to music from [The Immaculate Collection](track_album) by [Ozuna](track_artist).
+- Play some [edm](track_genre) music
+- Please play music by [Halsey](track_artist).
+- I would like to hear some [Rap](track_genre) music
+- will you please play something from [Harverd Dropout](track_album) album by [Diplo](track_artist)
+- Play some music from the album [Bad](track_album), will you?
+- Would you please play a track from [Bandana](track_album) album by [Jay-Z](track_artist).
+- [fuck](bleep_words), I'm just bored. play music from [Recovery](track_album).
+- Play some music from [Legend](track_album)
+- Play any track from the album [The Immaculate Collection](track_album) by [Bonobo](track_artist), will you?
+- Would you please play a track from [Legend](track_album) album
+- Would you please play any [pop](track_genre) music?
+- can you play any track from album [Notes on a Conditional Form](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play something from [Assume Form](track_album) album.
+- Play any track from the album [Led Zeppelin IV](track_album) by [Mad Money](track_artist), will you?
+- I would like to dance to music from [Flamagra](track_album) by [Selena Gomez](track_artist).
+- can you please play songs from album [Gold and Grey](track_album)?
+- I wanna dance to any track from [Tip of the Sphere](track_album).
+- please play the [Dubstep](track_genre) tracks for me
+- will you please play any track from the album [Tip of the Sphere](track_album)?
+- Play something from the album [Appetite for Destruction](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to hear the [hip-hop](track_genre)
+- will you please play any song from album [Legend](track_album) by [Sean Paul](track_artist)?
+- Play any track from [SASAMI](track_album) album, will you?
+- can you please play any music from album [Rumours](track_album)?
+- can you play tracks from [Dedicated](track_album) album by [Sia](track_artist)
+- Play a track from [Designer](track_album) album by [Future](track_artist), will you?
+- cheer me up by playing any track from album [Led Zeppelin IV](track_album), will you?
+- Play songs from [Let’s Talk About Love](track_album) by [Nate Dogg](track_artist), will you?
+- will you please play some music from [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play something from [Appetite for Destruction](track_album) album.
+- Would you please play any [grunge](track_genre) track?
+- Play tracks from [Hijas del Tomate](track_album) album by [Miley Cyrus](track_artist), will you?
+- I would like to hear the [soundtrack](track_genre) beat
+- Could you please play some [edm](track_genre) tracks?
+- Play any track from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- Play any song from album [Legend](track_album) by [Jay-Z](track_artist), will you?
+- I would like to groove to the [grunge](track_genre)
+- Play something by [Nicki Minaj](track_artist)
+- Would you please play the [soundtrack](track_genre) tracks?
+- can you please play any song from [Heard It In A Past Life](track_album)?
+- can you play something from [IGOR](track_album) by [Coldplay](track_artist)?
+- I wanna listen a track from the album [Thank U, Next](track_album)
+- will you please play something from [The Immaculate Collection](track_album) album
+- play songs by [Adele](track_artist)
+- please play some [funk](track_genre) music for us
+- Will you please play something by [Khalid](track_artist)?
+- Would you please play any song from the album [YOU CAN'T SIT WITH US](track_album) by [Ozuna](track_artist)?
+- I wanna dance to something from [Dedicated](track_album).
+- I would like to listen to any [EDM](track_genre) beat
+- please play any [soundtrack](track_genre) beat for me
+- I would like to hear to [Alan Walker](track_artist)
+- Would you please play some [soundtrack](track_genre) musicc?
+- Play any music from [The Marshall Mathers LP 2 Disc 2](track_album) album, will you?
+- Would you please play any track from album [when we all fall asleep where do we go](track_album)?
+- Could you please play an [orchestra](track_genre) track for us?
+- cheer me up by playing songs from [Sunshine Rock](track_album), will you?
+- I would like to hear some [metal](track_genre) music
+- I wanna dance to some music from [Marshal Mather LP II](track_album)
+- can you play any track from [Led Zeppelin IV](track_album) album
+- Could you please play any [blues](track_genre) music?
+- I would like to dance to some [hip-hop](track_genre) music
+- Would you please play music from [What Chaos Is Imaginary](track_album) by [Drake](track_artist)?
+- I would like to hear some [dubstep](track_genre) music
+- I wanna listen any song from [EVEN IN THE TREMOR](track_album) album
+- will you please play any song from the album [Back in Black](track_album) by [Alan Walker](track_artist)?
+- I would like to dance to the [metal](track_genre) track
+- can you play some music from the album [Anima](track_album) by [Shawn Mendes](track_artist)?
+- can you play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- Play songs from album [Kamikaze](track_album) by [Mad Money](track_artist), will you?
+- Would you please play tracks from album [In League With Dragons](track_album)?
+- will you please play songs from album [When I Get Home](track_album)?
+- I would like to listen a track from [Mitsubishi Macchiato](track_album)
+- Would you please play a track from [Harverd Dropout](track_album) album
+- can you please play any track from [Kamikaze](track_album) album
+- Would you please play a track from [Revival](track_album)?
+- I wanna dance to any track from [Let’s Talk About Love](track_album) album.
+- can you play some music from album [U.F.O.F](track_album)?
+- will you please play any track from the album [Mitsubishi Macchiato](track_album)?
+- I would like to dance to some [dubstep](track_genre) songs
+- Would you please play any [dubstep](track_genre) beat?
+- will you please play any track from [YOU CAN'T SIT WITH US](track_album) album.
+- Play a track from the album [Metallica](track_album) by [Dr. Dre](track_artist), will you?
+- I would like you to please play an [orchestra](track_genre) tunes
+- will you please play something from album [In League With Dragons](track_album) by [Mad Money](track_artist)?
+- will you please play songs from [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play any track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play some music from [Dr. Dre](track_artist)'s album.
+- will you please play a track from [Marshal Mather LP II](track_album) by [Madonna](track_artist)?
+- I wanna dance to some music from album [Led Zeppelin IV](track_album)
+- Play something from album [when we all fall asleep where do we go](track_album)
+- Would you please play a track from the album [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any song from [Marshal Mather LP II](track_album) album by [Ozuna](track_artist)
+- will you please play a track from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Bonobo](track_artist)?
+- Play any track from [Marshal Mather LP II](track_album) album
+- Play any track from [Supernatural](track_album) by [Drake](track_artist), will you?
+- Play songs from [The Immaculate Collection](track_album)
+- Play any song from [Young Enough](track_album)
+- Would you please play any track from [Dedicated](track_album) album.
+- cheer me up by playing something from album [On the Line](track_album), will you?
+- I would enjoy to dance to [Billie Eilish](track_artist)
+- Would you please play music from [Legend](track_album)?
+- will you please play songs from album [Metallica](track_album)?
+- Would you please play some [hip-hop](track_genre) songs?
+- I will like to have some [hip-hop](track_genre) music
+- can you play any music from [Bandana](track_album)?
+- I would like to dance to some [rap](track_genre) tracks
+- I would love to listen to something by [Billie Eilish](track_artist)
+- Play songs from [Angel's Pulse](track_album) by [Snoop Dogg](track_artist), will you?
+- can you please play some music from the album [Heard It In A Past Life](track_album)?
+- I would like to listen songs from album [Recovery](track_album).
+- Play something from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Sean Paul](track_artist), will you?
+- can you please play some music from the album [Led Zeppelin IV](track_album)?
+- I would like to listen to any [punk](track_genre) beat
+- Please play some [grunge](track_genre) music
+- will you please play a track from the album [The Saint of Lost Causes](track_album)?
+- can you please play any song from album [La La Land](track_album)?
+- can you play music from album [Flamagra](track_album)?
+- will you please play any music from [Buoys](track_album) album.
+- can you play any track from the album [In League With Dragons](track_album) by [Charlotte Rose Ellis](track_artist)?
+- will you please play any music from album [Outer Peace](track_album) by [Cardi B](track_artist)?
+- will you please play any track from the album [Anima](track_album) by [Drake](track_artist)?
+- I wanna dance to some music from the album [I Am Easy To Find](track_album)
+- I would like to groove to any [blues](track_genre) track
+- I would like to dance to the [dubstep](track_genre)
+- Would you please play the [grunge](track_genre) track ?
+- I wanna listen any track from [Cuz I Love You](track_album)
+- I wanna dance to something from [Legend](track_album)
+- Please play the [rap](track_genre) tracks
+- Play songs from [Revival](track_album) by [Three Days Grace](track_artist), will you?
+- [Daddy](people)'s home!
+- I would like you to please play the [grunge](track_genre)
+- Play something from album [Quiet Signs](track_album), will you?
+- I would like to listen a track from album [Thank U, Next](track_album).
+- Play music by [Usher](track_artist)
+- will you please play any song from the album [The Wizrd](track_album) by [Eagles](track_artist)?
+- I would like to listen something from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I will like to have the [soundtrack](track_genre) musicc
+- I wanna dance to any track from album [Let’s Talk About Love](track_album).
+- cheer me up by playing tracks from [Requiem for a Dream](track_album) album, will you?
+- I would like to groove to music from [Supernatural](track_album) by [Kanye West](track_artist)
+- Could you please play any [funk](track_genre) music for us?
+- Play tracks from [Lets Try the After](track_album) by [Warner & Chappell](track_artist), will you?
+- I would like to hear some [blues](track_genre) track
+- Play some [rap](track_genre)
+- can you please play any track from album [The Black Album](track_album)?
+- I wanna listen any track from [Illuminate](track_album)
+- will you please play any track from [This is Acting](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I'm not in the mood, right [now](time). Please play some music from [Recovery](track_album).
+- Play any music from the album [Oliver Appropriate](track_album), will you?
+- I would like to listen songs from album [SASAMI](track_album)
+- please play the [Blues](track_genre) for us
+- Play any track from [What Chaos Is Imaginary](track_album) by [Clint Mansell](track_artist), will you?
+- Play music from album [Western Stars](track_album)
+- I will like to have the [Pop](track_genre) track
+- Play a track from [Angel's Pulse](track_album) album, will you?
+- Would you please play any track from [Revival](track_album) album by [George Michael](track_artist).
+- can you play music from album [EVEN IN THE TREMOR](track_album) by [Jay-Z](track_artist)?
+- I would like to listen any track from the album [On The Line](track_album)
+- please play the [rap](track_genre) tracks for me
+- I wanna dance to any song from album [Appetite for Destruction](track_album)
+- Would you please play any track from [This Is How You Smile](track_album) album
+- I would like to dance to the [Orchestra](track_genre) music
+- Play songs from [In League With Dragons](track_album)
+- Would you please play any music from the album [Kamikaze](track_album)?
+- I wanna listen songs from album [In League With Dragons](track_album)
+- will you please play any song from the album [On the Line](track_album)?
+- I will like to have some [soundtrack](track_genre) songs
+- Would you please play any track from [Flamagra](track_album) album
+- will you please play songs from album [This is Acting](track_album)?
+- Play songs from album [Remind Me Tomorrow](track_album), will you?
+- I wanna dance to any music from album [The Wizrd](track_album).
+- Could you please play any [edm](track_genre) track?
+- I would like to listen to any [rap](track_genre) track
+- will you please play songs from [Let’s Talk About Love](track_album)?
+- I will like to have the [grunge](track_genre) songs
+- Play some music from album [Norman Fucking Rockwell](track_album)
+- Play a track from [Supernatural](track_album).
+- can you play some music from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna dance to any track from album [EVEN IN THE TREMOR](track_album)
+- Play some [rap](track_genre) track
+- please play the [punk](track_genre) track  for me
+- can you please play music from album [Legend](track_album)?
+- Play songs from album [Anima](track_album), will you?
+- I would like to listen any music from the album [Oasis](track_album)
+- Play something by [Rihanna](track_artist)
+- Please play the [edm](track_genre) songs
+- I will like to have some [edm](track_genre) tracks
+- Would you please play any song from album [In League With Dragons](track_album) by [Three Days Grace](track_artist)?
+- cheer me up by playing tracks from [The Immaculate Collection](track_album) album, will you?
+- I would like to hear some [blues](track_genre)
+- can you play any music from [Back in Black](track_album) album
+- cheer me up by playing something from album [Back in Black](track_album), will you?
+- can you play some music from album [Oasis](track_album) by [Ozuna](track_artist)?
+- please play any [punk](track_genre) beat for us
+- I would like to groove to music from [The Wizrd](track_album) by [Dr. Dre;Eminem](track_artist).
+- Play any song from [When I Get Home](track_album)
+- I would love to dance to [Bruno Mars](track_artist)
+- Would you please play something from [Titanic Rising](track_album)?
+- Could you play something by [Halsey](track_artist)?
+- Please play any [punk](track_genre) music
+- I would like to hear an [orchestra](track_genre) tune
+- Play any music from [Let’s Talk About Love](track_album) by [Post Malone](track_artist), will you?
+- I wanna listen any track from [Young Enough](track_album)
+- will you please play any track from album [Appetite for Destruction](track_album) by [Clint Mansell](track_artist)?
+- I wanna listen songs from album [Titanic Rising](track_album).
+- Play tracks from [Marshal Mather LP II](track_album) album.
+- will you please play music from album [Gold and Grey](track_album)?
+- will you please play something from album [U.F.O.F](track_album)?
+- some [edm](track_genre) tracks
+- I would like to listen to some [Rap](track_genre)
+- I wanna listen something from [The Night King](track_album)
+- Play something from [Recovery](track_album) album.
+- Could you please play the [metal](track_genre) for us?
+- I would like to groove to an [orchestra](track_genre) tunes
+- will you please play music from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any song from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Drake](track_artist), will you?
+- cheer me up by playing something from [New Breed](track_album) album, will you?
+- Play some music from [Recovery](track_album), will you?
+- Play tracks from album [Kamikaze](track_album)
+- some [blues](track_genre) music
+- I would like you to please play the [dubstep](track_genre) tracks
+- please play the [funk](track_genre) music for me
+- can you play any song from album [Supernatural](track_album)?
+- Would you please play some music from album [Kamikaze](track_album)?
+- can you please play something from album [Father of the Bride](track_album)?
+- I wanna listen any song from the album [Assume Form](track_album)
+- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album by [XAMES3](track_artist)
+- I would like to listen songs from album [Revival](track_album).
+- Play some music from album [Bad](track_album)
+- I would like to hear to [Bruno Mars](track_artist)
+- Play any track from album [Thank U, Next](track_album), will you?
+- Play songs from album [LP3](track_album), will you?
+- Could you please play the [edm](track_genre) music for us?
+- Please play some [edm](track_genre) tracks
+- can you play tracks from album [Oliver Appropriate](track_album) by [Lil Wayne](track_artist)?
+- Would you please play any music from the album [Bandana](track_album)?
+- Play some music from [YOU CAN'T SIT WITH US](track_album) by [Drake](track_artist), will you?
+- please play some [hip-hop](track_genre) songs
+- can you play any track from the album [On The Line](track_album) by [Madonna](track_artist)?
+- Would you please play any track from the album [Marshal Mather LP II](track_album) by [Lil Wayne](track_artist)?
+- I would like to listen something from album [Legend](track_album)
+- Play songs from album [Legend](track_album)
+- I wanna listen songs from [EVEN IN THE TREMOR](track_album).
+- I would like to groove to any [grunge](track_genre) track
+- I'm not feeling good, play something from [Recovery](track_album).
+- I wanna listen any track from [Let’s Talk About Love](track_album) album.
+- Play any track from [La La Land](track_album) by [Justin Hurwitz](track_artist), will you?
+- will you please play any track from [Legend](track_album) album by [Jay-Z](track_artist)
+- will you please play some music from [Remind Me Tomorrow](track_album) by [Mad Money](track_artist)?
+- will you please play songs from [Legend](track_album)?
+- I wanna listen any song from the album [Kamikaze](track_album)
+- Would you please play any song from album [Metallica](track_album)?
+- I would like to listen to [Bruno Mars](track_artist)
+- I would like to dance to the [soundtrack](track_genre) beat
+- Would you please play any track from album [Requiem for a Dream](track_album) by [DJ Snake](track_artist)?
+- will you please play any track from the album [Oliver Appropriate](track_album)?
+- Would you please play songs from album [Kamikaze](track_album)?
+- Would you please play any track from the album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- will you please play tracks from [Everything Not Saved Will Be Lost—Part 1](track_album) album by [The Chainsmokers](track_artist).
+- I would like to groove to some [metal](track_genre) track
+- can you play something from [Angel's Pulse](track_album) album by [XAMES3](track_artist).
+- I wanna listen any song from album [Back in Black](track_album)
+- Play something from [LP3](track_album) album by [Charlotte Rose Ellis](track_artist), will you?
+- can you play tracks from [Legend](track_album) album by [Coldplay](track_artist)
+- I would like to listen any song from album [Appetite for Destruction](track_album)
+- Would you please play some music from the album [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any song from album [Norman Fucking Rockwell](track_album) by [Drake](track_artist)?
+- I would like you to please play the [soundtrack](track_genre) tracks
+- Could you please play the [blues](track_genre) tracks?
+- I wanna listen a track from [Young Enough](track_album)
+- can you play some music from the album [Mitsubishi Macchiato](track_album) by [Florida](track_artist)?
+- Play some music from [SASAMI](track_album), will you?
+- will you please play any song from album [Crushing](track_album) by [Drake](track_artist)?
+- Would you please play music from album [Chapter VI](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play tracks from album [Back in Black](track_album), will you?
+- will you please play any track from album [Recovery](track_album)?
+- can you please play a track from [Oh My God](track_album) album
+- Could you please play any [hip-hop](track_genre) track?
+- I would like to groove to the [metal](track_genre) tracks
+- can you play any track from album [On the Line](track_album) by [Linkin Park](track_artist)?
+- I wanna dance to a track from [Gallipoli](track_album) album
+- I wanna listen any song from [Revival](track_album)
+- I would like to dance to music from [Titanic Rising](track_album) by [Mellen Gi](track_artist)
+- I would like you to please play any [funk](track_genre) beat
+- Would you please play the [punk](track_genre) tracks?
+- Play some music from album [Young Enough](track_album)
+- I wanna dance to any song from album [Hijas del Tomate](track_album)
+- please play some [hip-hop](track_genre) tracks
+- I wanna hear your voice.
+- I want you to listen music from [Recovery](track_album).
+- can you play something from the album [Rumours](track_album) by [Skrillex](track_artist)?
+- I would like to listen to the [Funk](track_genre) music
+- can you play any track from [On The Line](track_album) by [Drake](track_artist)?
+- Play any song from [Bad](track_album) album, will you?
+- can you please play something by [Twenty One Pilots](track_artist)?
+- can you play any track from the album [Angel's Pulse](track_album) by [Drake](track_artist)?
+- Would you please play some music from album [Bad](track_album) by [XAMES3](track_artist)?
+- Play songs from album [Heard It In A Past Life](track_album) by [Eminem](track_artist), will you?
+- I wanna dance to a track from [IGOR](track_album)
+- I would like to listen a track from [Outer Peace](track_album)
+- Play any music from the album [Recovery](track_album), will you?
+- I will like to have the [metal](track_genre) songs
+- I would like you to please play the [metal](track_genre)
+- Play a [blues](track_genre) music
+- can you please play music from [Bandana](track_album)?
+- Would you please play any track from the album [Appetite for Destruction](track_album)?
+- Play something from the album [Led Zeppelin IV](track_album)
+- Would you play something by [Selena Gomez](track_artist)?
+- Could you please play any [soundtrack](track_genre) musicc for us?
+- I wanna listen a track from the album [Rumours](track_album)
+- I wanna listen any music from [Bad](track_album) album
+- I would like to listen any track from album [Rumours](track_album)
+- can you please play any song from album [Led Zeppelin IV](track_album)?
+- some [blues](track_genre) tracks
+- Could you please play the [pop](track_genre) tracks?
+- I would like to listen something from album [The Immaculate Collection](track_album)
+- Play something from the album [Beware of the Dogs](track_album)
+- I would like to listen songs from [Kamikaze](track_album)
+- can you please play any music from [The Immaculate Collection](track_album) album
+- can you play songs from [Supernatural](track_album)?
+- Play some music from the album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen any music from album [Bad](track_album)
+- can you play any music from [Oh My God](track_album) album by [Florida](track_artist)
+- I would like to groove to music from [Metallica](track_album) by [Ludacris](track_artist)
+- will you please play any song from the album [Led Zeppelin IV](track_album)?
+- Please play some [punk](track_genre)
+- turn on the music
+- please play some [hip-hop](track_genre) track  for me
+- I wanna dance to music from album [The Black Album](track_album)
+- I wanna listen tracks from album [Back in Black](track_album).
+- Would you please play some music from the album [Illuminate](track_album) by [Bonobo](track_artist)?
+- Play some music from album [Gold and Grey](track_album), will you?
+- I would like to listen to any [edm](track_genre) music
+- I would like to listen any track from [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to dance to the [dubstep](track_genre) songs
+- Play a track from [Rumours](track_album)
+- Would you please play something from [Rumours](track_album) album by [Dr. Dre](track_artist)
+- will you please play any music from [Oasis](track_album) album
+- can you please play some music from [Cuz I Love You](track_album)?
+- Play some music from the album [The Immaculate Collection](track_album) by [Drake](track_artist), will you?
+- Play the [dubstep](track_genre) music.
+- can you play music from album [when we all fall asleep where do we go](track_album) by [Mad Money](track_artist)?
+- Play tracks from [The Immaculate Collection](track_album) by [Clint Mansell](track_artist), will you?
+- I will like to have any [blues](track_genre) track
+- will you please play any track from album [Father of the Bride](track_album) by [Clint Mansell](track_artist)?
+- Play any music from [Atlanta Millionaires Club](track_album)
+- can you play a track from [Norman Fucking Rockwell](track_album) album
+- I wanna dance to songs from [Supernatural](track_album).
+- I wanna listen tracks from [Assume Form](track_album) album.
+- Play songs from [Flamagra](track_album).
+- I would like you to please play the [Hiphop](track_genre) music
+- will you please play any track from album [U.F.O.F](track_album) by [Justin Timberlake](track_artist)?
+- Would you please play something from [Yandhi](track_album)?
+- can you play tracks from album [Recovery](track_album)?
+- Would you please play some [funk](track_genre)?
+- Would you please play songs from [Father of the Bride](track_album)?
+- Would you please play any [metal](track_genre) track?
+- Play tracks from album [Revival](track_album), will you?
+- I wanna dance to any track from album [Buoys](track_album)
+- will you please play songs from [Legend](track_album) by [Justin Hurwitz](track_artist)?
+- will you please play music from [Crushing](track_album) by [Drake](track_artist)?
+- Play something from [Recovery](track_album) album, will you?
+- Play a track from [Hotel California](track_album), will you?
+- can you play tracks from album [The Marshall Mathers LP 2 Disc 2](track_album) by [George Michael](track_artist)?
+- I would like to listen any track from the album [Legend](track_album)
+- I wanna dance to music from [Led Zeppelin IV](track_album).
+- I wanna listen any music from [Oasis](track_album) album
+- I wanna dance to something from album [Kamikaze](track_album)
+- Play any music from the album [Flamagra](track_album)
+- please play some [Metal](track_genre) tracks
+- Play a [Rock](track_genre) music
+- Play songs from [Chapter VI](track_album).
+- I will like to have the [funk](track_genre) songs
+- can you please play any track from [Back in Black](track_album)?
+- I will like to have any [soundtrack](track_genre) track
+- Play tracks from album [Sunshine Rock](track_album)
+- I wanna listen any music from the album [Chapter VI](track_album)
+- Could you please play some [pop](track_genre)?
+- can you play a track from [Back in Black](track_album) album.
+- please play some [funk](track_genre) music for me
+- Play the [grunge](track_genre) music
+- will you please play songs from [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to dance to some [blues](track_genre) track
+- Play any track from [Hijas del Tomate](track_album)
+- some [edm](track_genre) music
+- can you play a track from the album [Remind Me Tomorrow](track_album) by [Post Malone](track_artist)?
+- I would like you to please play any [punk](track_genre) music
+- I wanna listen any track from the album [Crushing](track_album)
+- I wanna dance to a track from [Led Zeppelin IV](track_album) album.
+- some [pop](track_genre) music.
+- can you please play tracks from [Dedicated](track_album) album
+- I wanna dance to any track from [Atlanta Millionaires Club](track_album) album.
+- I would like to listen something from [Led Zeppelin IV](track_album)
+- Could you please play any [punk](track_genre) music for us?
+- can you play any music from the album [Angel's Pulse](track_album)?
+- I would like to listen to the [pop](track_genre) track
+- Would you please play any song from album [I Am Easy To Find](track_album) by [Clint Mansell](track_artist)?
+- Play any song from album [On The Line](track_album)
+- I would like to listen a track from the album [Legend](track_album)
+- will you please play music from album [Lets Try the After](track_album)?
+- will you please play any music from [Let’s Talk About Love](track_album)?
+- Play a track from [Appetite for Destruction](track_album), will you?
+- will you please play a track from album [Legend](track_album)?
+- Could you please play the [soundtrack](track_genre) musicc for us?
+- I wanna dance to something from the album [Epic Hip Hop](track_album)
+- I wanna dance to any track from [Outer Peace](track_album) album
+- please play the [funk](track_genre) music for us
+- Could you please play any [Blues](track_genre) track for us?
+- Play any song from album [U.F.O.F](track_album), will you?
+- I would like to dance to any [Metal](track_genre) music
+- I would like to dance to an [orchestra](track_genre) tunes
+- Play any song from album [What Chaos Is Imaginary](track_album), will you?
+- will you please play tracks from [Legend](track_album) album by [Bonobo](track_artist)
+- I would like you to please play the [funk](track_genre) track
+- Play any music from [On The Line](track_album)
+- I would like to hear to [Shakira](track_artist)
+- please play the [soundtrack](track_genre) beat for me
+- Play songs from album [Recovery](track_album) by [Alan Walker](track_artist), will you?
+- Play any song from the album [Anima](track_album), will you?
+- I wanna listen a track from the album [Kamikaze](track_album)
+- I wanna listen songs from album [On The Line](track_album).
+- Play some music from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Mellen Gi](track_artist), will you?
+- will you please play some music from album [Flamagra](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [IGOR](track_album) album by [Lil Wayne](track_artist), will you?
+- Play any track from the album [Appetite for Destruction](track_album) by [Sean Paul](track_artist), will you?
+- Play some musik
+- will you please play any music from [Atlanta Millionaires Club](track_album)?
+- I would like to listen music from [Led Zeppelin IV](track_album).
+- I wanna listen a track from [Heard It in a Past Life](track_album) album.
+- will you please play tracks from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Future](track_artist)?
+- I would like you to please play any [blues](track_genre) beat
+- Please play music by [Linkin Park](track_artist).
+- Would you please play some [soundtrack](track_genre) music?
+- I would like to listen to the [funk](track_genre) tracks
+- please play any [hip-hop](track_genre) beat for me
+- I would love to hear to [The Chainsmokers](track_artist)
+- I will like to have any [metal](track_genre) track
+- can you play any song from [U.F.O.F](track_album)?
+- can you play any track from album [Metallica](track_album)?
+- I would like you to please play any [grunge](track_genre) beat
+- Play tracks from album [The Immaculate Collection](track_album) by [Mad Money](track_artist), will you?
+- I wanna dance to a track from [Quiet Signs](track_album)
+- I would like to listen to any [edm](track_genre) beat
+- Play any song from album [Supernatural](track_album), will you?
+- I would like to groove to some [pop](track_genre) tracks
+- Play any track from [On the Line](track_album).
+- Would you please play tracks from [Oasis](track_album) album.
+- can you play a track from [Legend](track_album) album by [Drake](track_artist)
+- I wanna dance to a track from [Back in Black](track_album) album.
+- can you please play a track from [Designer](track_album)?
+- Could you please play the [hip-hop](track_genre) track  for us?
+- Play something from the album [Harverd Dropout](track_album)
+- I wanna dance to any song from [Recovery](track_album) album.
+- I wanna listen any song from album [Marshal Mather LP II](track_album)
+- can you please play something from [Kamikaze](track_album)?
+- can you play any song from the album [Beware of the Dogs](track_album)?
+- will you please play something from [Sunshine Rock](track_album)?
+- Would you please play songs from album [Gold and Grey](track_album) by [Maroon 5](track_artist)?
+- will you please play tracks from [Led Zeppelin IV](track_album) album.
+- please play the [pop](track_genre) track  for us
+- can you play songs from [Let’s Talk About Love](track_album)?
+- will you please play some music from [Quiet Signs](track_album)?
+- I wanna listen any music from [I Am Easy To Find](track_album)
+- Play any song from the album [U.F.O.F](track_album) by [Miley Cyrus](track_artist), will you?
+- can you play any music from [On the Line](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play any song from [Flamagra](track_album) album
+- Play songs from [The Unseen In-Between](track_album)
+- I would like to dance to music from [SASAMI](track_album) by [Skrillex](track_artist).
+- Could you please play some [soundtrack](track_genre) tracks?
+- can you please play tracks from [New Breed](track_album) album.
+- I will like to have the [blues](track_genre) track
+- Play some music from album [Legend](track_album), will you?
+- will you please play any track from [This Is How You Smile](track_album)?
+- Play tracks from [Dedicated](track_album), will you?
+- Play something from album [Revival](track_album), will you?
+- Would you please play any track from [Oliver Appropriate](track_album)?
+- I wanna listen songs from album [Back in Black](track_album).
+- Play any song from [The Unseen In-Between](track_album), will you?
+- Could you please play the [grunge](track_genre)?
+- can you play songs from album [The Immaculate Collection](track_album)?
+- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [Clint Mansell](track_artist)?
+- Please play the [soundtrack](track_genre)
+- Play some music from album [Flamagra](track_album), will you?
+- Could you please play some [metal](track_genre) tracks for us?
+- can you play some music from album [On the Line](track_album) by [Queen](track_artist)?
+- Would you please play any track from [Marshal Mather LP II](track_album) album.
+- I wanna dance to something from [Young Enough](track_album)
+- will you please play something from [Legend](track_album)?
+- I want to listen to music from [Designer](track_album) by [Dr. Dre;Eminem](track_artist).
+- will you please play something from [Metallica](track_album) by [Drake](track_artist)?
+- Play any track from the album [Father of the Bride](track_album)
+- Would you please play some music from album [The Immaculate Collection](track_album) by [Clint Mansell](track_artist)?
+- I wanna listen songs from album [Marshal Mather LP II](track_album).
+- I wanna dance to something from [when we all fall asleep where do we go](track_album)
+- Would you please play a track from [Let’s Talk About Love](track_album)?
+- I wanna listen a track from [In League With Dragons](track_album) album
+- cheer me up by playing something from [Father of the Bride](track_album) album, will you?
+- can you play any track from the album [Thank U, Next](track_album)?
+- will you please play any track from [In League With Dragons](track_album) album
+- Play a track from album [Sunshine Rock](track_album) by [Miley Cyrus](track_artist), will you?
+- Play any song from [Illuminate](track_album), will you?
+- will you please play any track from album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- I would like to hear any [grunge](track_genre) beat
+- Play songs from [Flamagra](track_album), will you?
+- Would you please play any music from the album [Beware of the Dogs](track_album) by [Cardi B](track_artist)?
+- will you please play some music from album [Assume Form](track_album) by [Jay-Z](track_artist)?
+- will you please play a track from the album [Revival](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I wanna dance to any song from [Back in Black](track_album) album
+- can you play something from [Bad](track_album) by [Kanye West](track_artist)?
+- please play some [soundtrack](track_genre) beat
+- Would you please play any track from the album [The Immaculate Collection](track_album) by [Rick0 James](track_artist)?
+- can you play songs from [Led Zeppelin IV](track_album)?
+- Would you please play any track from [Slaves of Fear](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen some music from [TBA](track_album)
+- I would like to listen some music from [Let’s Talk About Love](track_album).
+- some [Dubstep](track_genre) tracks
+- Play any track from [Buoys](track_album) by [Cardi B](track_artist), will you?
+- will you please play music from album [What Chaos Is Imaginary](track_album) by [Cardi B](track_artist)?
+- Play any song from [Appetite for Destruction](track_album) album by [Fifth Harmony](track_artist), will you?
+- I wanna dance to tracks from [EVEN IN THE TREMOR](track_album).
+- Would you play something by [Imagine Dragons](track_artist)?
+- Play any song from [IGOR](track_album) album by [Sia](track_artist), will you?
+- Could you please play an [Hip-hop](track_genre) tunes?
+- Play songs by [Rihanna](track_artist)
+- Please play any [hip-hop](track_genre) beat
+- I wanna listen a track from album [Metallica](track_album)
+- Play any music from [EVEN IN THE TREMOR](track_album) album, will you?
+- can you play any track from [When I Get Home](track_album)?
+- I would like to dance to the [hip-hop](track_genre) tracks
+- I wanna listen music from [Back in Black](track_album).
+- Could you please play something by [Akon](track_artist)?
+- please play the [pop](track_genre) tracks for us
+- can you play any track from [The Black Album](track_album) album
+- Play some music from album [Appetite for Destruction](track_album)
+- Play a track from the album [Let’s Talk About Love](track_album) by [Justin Timberlake](track_artist), will you?
+- Could you please play some [hip-hop](track_genre) music for us?
+- Would you please play tracks from [Hijas del Tomate](track_album) album by [50 cents](track_artist).
+- I wanna groove to music by [Akon](track_artist)
+- can you play any track from the album [Harverd Dropout](track_album)?
+- Would you please play tracks from [Lets Try the After](track_album) album by [George Michael](track_artist).
+- can you play a track from [Legend](track_album) by [Ludacris](track_artist)?
+- Please play the [dubstep](track_genre) music
+- I would like to listen any music from the album [Outer Peace](track_album)
+- will you please play songs from [Slaves of Fear](track_album)?
+- cheer me up by playing songs from album [Recovery](track_album), will you?
+- Play a track from [When I Get Home](track_album), will you?
+- I would like to listen a track from [Everything Not Saved Will Be Lost—Part 1](track_album) album.
+- I'm bored, play something that I'll like, such as songs from [Recovery](track_album).
+- Could you please play the [funk](track_genre) songs for us?
+- can you play any track from album [Norman Fucking Rockwell](track_album)?
+- Would you please play songs from [Revival](track_album) by [The Chainsmokers](track_artist)?
+- will you please play any music from [The Immaculate Collection](track_album) album by [Ludacris](track_artist).
+- will you please play something from [Harverd Dropout](track_album) album by [Drake](track_artist)
+- can you play something from album [Legend](track_album) by [XAMES3](track_artist)?
+- Could you please play the [edm](track_genre) track  for us?
+- I would like to hear some [grunge](track_genre) track
+- cheer me up by playing any song from [Hotel California](track_album), will you?
+- will you please play a track from the album [Bad](track_album)?
+- Play any track from [Supernatural](track_album) album, will you?
+- can you play a track from album [The Night King](track_album)?
+- I would like to dance to any [soundtrack](track_genre) music
+- I wanna dance to songs from album [LP3](track_album)
+- can you play any track from album [when we all fall asleep where do we go](track_album)?
+- Would you please play something from the album [Purple Reign](track_album)?
+- Play a track from the album [Chapter VI](track_album)
+- Could you please play any [Rock](track_genre) music for us?
+- I would like you to please play any [dubstep](track_genre) beat
+- Would you please play tracks from [Crushing](track_album) album by [Charlotte Rose Ellis](track_artist)
+- can you play some music from the album [Harverd Dropout](track_album)?
+- I wanna dance to something from the album [Let’s Talk About Love](track_album)
+- Would you please play any music from [Appetite for Destruction](track_album) album
+- can you please play something from [Legend](track_album)?
+- Would you please play any track from the album [Bad](track_album) by [Drake](track_artist)?
+- will you please play music from [Back in Black](track_album) by [Charlotte Rose Ellis](track_artist)?
+- can you play a track from album [Revival](track_album)?
+- I would like to listen music from album [Harverd Dropout](track_album).
+- will you please play something from [Led Zeppelin IV](track_album)?
+- will you please play any track from [I Am Easy To Find](track_album) album by [Ludacris](track_artist)
+- I wanna listen tracks from [Oliver Appropriate](track_album) album.
+- can you play something from album [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Metallica](track_album)
+- Could you please play the [blues](track_genre)?
+- Play any track from [Led Zeppelin IV](track_album)
+- Play music by [Alan Walker](track_artist)
+- Would you please play any track from [Phoenix](track_album) album
+- I wanna dance to songs from [Western Stars](track_album)
+- can you play any music from [Led Zeppelin IV](track_album) album by [Akon](track_artist)
+- I would like to groove to any [punk](track_genre) beat
+- will you please play any track from [Led Zeppelin IV](track_album) album by [Florida](track_artist).
+- Play some music from [Legend](track_album) by [Madonna](track_artist), will you?
+- Play something from [The Wizrd](track_album) album, will you?
+- I will like to have some [blues](track_genre) tracks
+- Play the [hip-hop](track_genre) tracks.
+- I would like to dance to music from [The Immaculate Collection](track_album) by [Eminem](track_artist).
+- I would like to listen songs from album [Legend](track_album)
+- I wanna listen any song from the album [Bandana](track_album)
+- I would like to dance to some [rap](track_genre) track
+- Play songs by [Jay-Z](track_artist)
+- I would enjoy to hear to [Akon](track_artist)
+- Play the [blues](track_genre) tracks.
+- Would you please play any music from [Kamikaze](track_album) album
+- I wanna listen songs from album [SASAMI](track_album)
+- I would like to listen to the [dubstep](track_genre)
+- Would you please play a track from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play tracks from [Young Enough](track_album)?
+- can you please play any song from the album [Angel's Pulse](track_album)?
+- Would you please play any music from [Metallica](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I want to listen to music from [Led Zeppelin IV](track_album) by [Drake](track_artist).
+- Play a track from the album [Revival](track_album) by [Warner & Chappell](track_artist), will you?
+- can you play something from [Oliver Appropriate](track_album) by [Ludacris](track_artist)?
+- Play [Dubstep](track_genre).
+- Play tracks from [Gallipoli](track_album), will you?
+- Would you please play something from [Legend](track_album)?
+- I would like to groove to some [soundtrack](track_genre) music
+- will you please play any track from album [U.F.O.F](track_album) by [Mellen Gi](track_artist)?
+- Would you please play some music from [IGOR](track_album)?
+- Would you please play a track from the album [Oliver Appropriate](track_album)?
+- Could you please play some [soundtrack](track_genre) music?
+- Play something from the album [When I Get Home](track_album)
+- Play any song from album [Western Stars](track_album) by [Fifth Harmony](track_artist), will you?
+- Play tracks from [Led Zeppelin IV](track_album).
+- Could you please play an [orchestra](track_genre) song?
+- Play a track from [The Immaculate Collection](track_album) by [Drake](track_artist), will you?
+- will you please play any track from [Led Zeppelin IV](track_album) by [Eagles](track_artist)?
+- Would you please play something from [LP3](track_album)?
+- I would like to groove to the [funk](track_genre) track
+- can you please play any music from [The Black Album](track_album)?
+- I wanna listen some music from the album [Led Zeppelin IV](track_album)
+- play songs by [Adele](track_artist) and [Dr. Dre](track_artist)
+- please play the [Rock](track_genre) songs for us
+- I would like to dance to music from [Led Zeppelin IV](track_album) by [Camila Cabello](track_artist)
+- I would like to dance to any [dubstep](track_genre) beat
+- can you play music from [Gallipoli](track_album)?
+- I would like to listen a track from [YOU CAN'T SIT WITH US](track_album) album.
+- [Charlotte](ai), could you please play something?
+- Play something from [Legend](track_album) album, will you?
+- I would like to groove to the [pop](track_genre) track
+- Play tracks from [Bad](track_album), will you?
+- I would enjoy to hear to [Usher](track_artist)
+- Would you please play music from album [Rumours](track_album)?
+- Would you please play any track from album [Western Stars](track_album)?
+- Play any track from the album [Sunshine Rock](track_album)
+- I wanna listen any music from album [Western Stars](track_album).
+- Play any track from album [Titanic Rising](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- can you please something from [Slaves of the Shadow Realm](track_album)
+- Would you please play a track from album [Good Ass Job](track_album) by [Sean Paul](track_artist)?
+- I would like to dance to any [rap](track_genre) track
+- I wanna dance to any track from [Bandana](track_album)
+- I wanna dance to any track from the album [Rumours](track_album)
+- Play any music from the album [Legend](track_album)
+- I wanna listen any song from [Thank U, Next](track_album)
+- Play a track from [The Immaculate Collection](track_album) album by [Ludacris](track_artist), will you?
+- can you play music from album [Titanic Rising](track_album) by [Lil Wayne](track_artist)?
+- Play any song from [Rumours](track_album) by [Kanye West](track_artist), will you?
+- Would you please play the [edm](track_genre)?
+- can you please play any track from album [Let’s Talk About Love](track_album)?
+- can you play any song from album [Slaves of Fear](track_album)?
+- Play something from [Metallica](track_album) album by [Sia](track_artist), will you?
+- Would you please play a track from [What Chaos Is Imaginary](track_album) album
+- I would like to dance to some [punk](track_genre)
+- will you please play any track from album [Angel's Pulse](track_album)?
+- can you please play tracks from [U.F.O.F](track_album) album.
+- can you play any music from the album [Oasis](track_album) by [Cardi B](track_artist)?
+- I would like to listen to some [blues](track_genre) tracks
+- I wanna listen any track from the album [Slaves of Fear](track_album)
+- Would you please play something from [Yandhi](track_album) album by [Jay-Z](track_artist).
+- can you play any song from album [Recovery](track_album)?
+- will you please play any music from the album [Designer](track_album) by [Eagles](track_artist)?
+- I would like to hear some [dubstep](track_genre) tracks
+- Would you please play any song from [The Black Album](track_album) album by [Charlotte Rose Ellis](track_artist)
+- will you please play something from album [Titanic Rising](track_album)?
+- Would you please play any track from album [Back in Black](track_album)?
+- Play some music from album [Led Zeppelin IV](track_album), will you?
+- Play music from album [Titanic Rising](track_album) by [Mad Money](track_artist), will you?
+- please play the [edm](track_genre) for us
+- I wanna listen something from [Assume Form](track_album) album
+- can you play tracks from [Led Zeppelin IV](track_album) album by [Ludacris](track_artist).
+- Would you please play a track from [Oliver Appropriate](track_album) album.
+- can you please play some music from album [Titanic Rising](track_album)?
+- I would like you to please play the [pop](track_genre) music
+- I wanna listen any music from album [Harverd Dropout](track_album)
+- please play some [soundtrack](track_genre) music for me
+- Would you please play music from album [Let’s Talk About Love](track_album)?
+- Could you please play any [hip-hop](track_genre) beat?
+- I wanna dance to any music from [Requiem for a Dream](track_album) album.
+- Play music from [Atlanta Millionaires Club](track_album)
+- Please play the [funk](track_genre) track
+- I would like to hear some [edm](track_genre) music
+- I would like to groove to some [rap](track_genre) tracks
+- some [metal](track_genre) tracks
+- will you please play something from album [Rumours](track_album) by [Drake](track_artist)?
+- can you play any track from the album [New Breed](track_album) by [BTS](track_artist)?
+- Would you please play a track from [Bad](track_album)?
+- can you play any song from album [Designer](track_album)?
+- I wanna dance to any music from the album [Father of the Bride](track_album)
+- please play any [pop](track_genre) beat for me
+- I wanna listen songs from [Flamagra](track_album)
+- I wanna listen a track from [Back in Black](track_album)
+- play something by [Eminem](track_artist).
+- can you play any music from album [Crushing](track_album) by [Alan Walker](track_artist)?
+- I would like to listen songs from album [Slaves of Fear](track_album).
+- I would love to listen to something by [Rihanna](track_artist)
+- Would you please play any music from [Western Stars](track_album) album by [Warner & Chappell](track_artist)
+- Play music from [Recovery](track_album). I like its tune.
+- I would like to hear any [Grunge](track_genre) beat
+- can you please play a track from the album [Kamikaze](track_album)?
+- Please play the [pop](track_genre) music
+- please play the [punk](track_genre) tracks for me
+- Would you please play any song from [Oh My God](track_album) album by [Mad Money](track_artist)
+- I would like to listen tracks from album [Let’s Talk About Love](track_album).
+- can you please play a track from album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play songs from album [EVEN IN THE TREMOR](track_album) by [Fifth Harmony](track_artist), will you?
+- can you please play tracks from [Supernatural](track_album) album.
+- Play any track from the album [Good Ass Job](track_album), will you?
+- will you please play a track from the album [Kamikaze](track_album)?
+- Could you please play an [orchestra](track_genre) track?
+- can you please play songs from [Western Stars](track_album)?
+- will you please play any song from [The Saint of Lost Causes](track_album) album
+- I would like to listen some music from album [Recovery](track_album).
+- Play something from [This Is How You Smile](track_album) by [Nicki Minaj](track_artist), will you?
+- Would you please play tracks from [Outer Peace](track_album) album by [XAMES3](track_artist).
+- Could you please play an [orchestra](track_genre) song for us?
+- Would you please play tracks from [Oh My God](track_album) by [Camila Cabello](track_artist)?
+- Play some [pop](track_genre) tracks
+- cheer me up by playing something from [Legend](track_album) album, will you?
+- can you play any music from [Epic Hip Hop](track_album) by [PSY](track_artist)?
+- I wanna listen any track from [Oh My God](track_album) album
+- can you play something from the album [SASAMI](track_album)?
+- Play songs from album [Assume Form](track_album) by [Lil Wayne](track_artist), will you?
+- Play a track from album [In League With Dragons](track_album)
+- can you play any track from [Oliver Appropriate](track_album) album by [Drake](track_artist).
+- will you please play tracks from [Illuminate](track_album)?
+- can you play a track from album [The Immaculate Collection](track_album) by [Dr. Dre](track_artist)?
+- I wanna listen something from album [Norman Fucking Rockwell](track_album)
+- can you play any track from [Cuz I Love You](track_album) album by [Charlotte Rose Ellis](track_artist)
+- can you play a track from [Designer](track_album) album by [Drake](track_artist).
+- can you please play any track from [Father of the Bride](track_album) album
+- will you please play something from [This Is How You Smile](track_album)?
+- I would like to dance to the [pop](track_genre) track
+- Play any track from [Requiem for a Dream](track_album), will you?
+- Play [jazz](track_genre) music
+- I would like to groove to some [Blues](track_genre) songs
+- Play tracks from album [YOU CAN'T SIT WITH US](track_album), will you?
+- will you please play something from the album [Assume Form](track_album) by [Future](track_artist)?
+- I would like to groove to music from [Oasis](track_album) by [Clint Mansell](track_artist).
+- Play a track from [Father of the Bride](track_album) album by [Three Days Grace](track_artist), will you?
+- Would you please play any song from [Marshal Mather LP II](track_album) album
+- Play any track from [Appetite for Destruction](track_album)
+- I wanna dance to a track from [Back in Black](track_album)
+- can you play music from album [The Immaculate Collection](track_album) by [Mellen Gi](track_artist)?
+- play that tune.
+- Would you please play songs from [Thank U, Next](track_album)?
+- I would like you to please play some [dubstep](track_genre)
+- Would you please play tracks from [When I Get Home](track_album) album.
+- I wanna dance to a track from album [When I Get Home](track_album)
+- cheer me up by playing something from [Young Enough](track_album) album, will you?
+- I would like to listen any song from album [Designer](track_album)
+- I would like to listen to the [pop](track_genre) songs
+- Play an [orchestra](track_genre) track
+- can you play some music from [Sunshine Rock](track_album)?
+- I would love to listen to something by [Usher](track_artist)
+- Please play any [dubstep](track_genre) beat
+- will you please play any track from album [Hotel California](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any music from [Kamikaze](track_album) album by [Eagles](track_artist)
+- I would like you to please play any [edm](track_genre) music
+- I wanna listen a track from the album [Father of the Bride](track_album)
+- Play any [hip-hop](track_genre) track
+- will you please play any track from [Gold and Grey](track_album) by [Drake](track_artist)?
+- I will like to have the [dubstep](track_genre) track
+- please play some [rap](track_genre) for us
+- can you play any song from the album [Legend](track_album)?
+- will you please play tracks from [Chapter VI](track_album) album by [Post Malone](track_artist).
+- will you please play any track from [Supernatural](track_album) album by [Skrillex](track_artist).
+- will you please play any track from the album [SASAMI](track_album)?
+- I wanna listen something from [Revival](track_album) album.
+- can you play a track from [What Chaos Is Imaginary](track_album) by [PSY](track_artist)?
+- Play any track from [This Is How You Smile](track_album) album by [Drake](track_artist), will you?
+- I wanna listen any song from [The Immaculate Collection](track_album) album
+- drop that bass
+- I wanna dance to any song from [Outer Peace](track_album)
+- will you please play any music from [The Saint of Lost Causes](track_album)?
+- Play some music from the album [Led Zeppelin IV](track_album) by [Selena Gomez](track_artist), will you?
+- Would you please play any track from [Kamikaze](track_album) album by [Three Days Grace](track_artist)
+- I would like to listen any music from album [Legend](track_album)
+- I wanna listen something from the album [Led Zeppelin IV](track_album)
+- I would like to listen songs from album [Angel's Pulse](track_album).
+- I will like to have the [hip-hop](track_genre)
+- cheer me up by playing tracks from [The Night King](track_album) album, will you?
+- can you play any track from [Yandhi](track_album)?
+- can you play music from [Back in Black](track_album)?
+- will you please play any track from [Bandana](track_album) by [Dr. Dre](track_artist)?
+- I wanna listen any track from [EVEN IN THE TREMOR](track_album) album
+- will you please play a track from [Revival](track_album) album.
+- can you play some music from the album [On The Line](track_album) by [Cardi B](track_artist)?
+- Play any song from [Angel's Pulse](track_album) album, will you?
+- I wanna dance to some music from album [Designer](track_album)
+- Could you please play any [rap](track_genre) track?
+- Would you please play any song from album [The Immaculate Collection](track_album)?
+- Please play the [edm](track_genre)
+- Would you please play any track from the album [Oasis](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play a track from [Marshal Mather LP II](track_album), will you?
+- I wanna dance to something from [YOU CAN'T SIT WITH US](track_album) album
+- Would you please play tracks from album [Buoys](track_album)?
+- Play any track from [Led Zeppelin IV](track_album) by [Linkin Park](track_artist), will you?
+- Play any song from [Revival](track_album) album
+- Would you please play any track from [Recovery](track_album)?
+- can you play something from the album [The Immaculate Collection](track_album) by [Cardi B](track_artist)?
+- Play some music from [Rumours](track_album), will you?
+- can you play some music from [Metallica](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Would you please play music from [Atlanta Millionaires Club](track_album)?
+- Play any track from the album [The Wizrd](track_album)
+- Play any track from [Western Stars](track_album)
+- Play something from the album [Legend](track_album), will you?
+- Please play the [hip-hop](track_genre) songs
+- Would you play something by [Akon](track_artist)?
+- can you play any track from album [Crushing](track_album) by [Clint Mansell](track_artist)?
+- I would like to listen songs from album [This Is How You Smile](track_album).
+- cheer me up by playing tracks from album [On the Line](track_album), will you?
+- will you please play any track from [Rumours](track_album) album
+- will you please play any song from [Rumours](track_album) by [Bonobo](track_artist)?
+- Please play some [soundtrack](track_genre)
+- can you play songs from album [What Chaos Is Imaginary](track_album)?
+- cheer me up by playing songs from [Legend](track_album), will you?
+- I will like to have the [rap](track_genre) songs
+- will you please play music from album [In League With Dragons](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any song from the album [Appetite for Destruction](track_album)?
+- I would like to dance to any [Pop](track_genre) beat
+- Would you please play some [pop](track_genre) tracks?
+- Would you play something by [Billie Eilish](track_artist)?
+- Will you please play something by [Halsey](track_artist)?
+- I would like to dance to the [pop](track_genre) music
+- can you play any music from [Remind Me Tomorrow](track_album) album
+- will you please play any music from the album [La La Land](track_album)?
+- I would like to dance to [Dr. Dre;Eminem](track_artist)
+- can you play a track from [Bad](track_album) album
+- I would enjoy to hear to [Shawn Mendes](track_artist)
+- Would you please play a track from album [Thank U, Next](track_album) by [Dr. Dre](track_artist)?
+- will you please play any track from [Heard It in a Past Life](track_album) by [Eminem](track_artist)?
+- can you please play any song from [IGOR](track_album) album
+- I wanna listen any track from album [Angel's Pulse](track_album)
+- will you please play any music from album [Recovery](track_album) by [Drake](track_artist)?
+- can you please play something from the album [Atlanta Millionaires Club](track_album)?
+- Would you please play a track from the album [Hotel California](track_album)?
+- Play any music from album [IGOR](track_album), will you?
+- Play any song from [Gold and Grey](track_album) album, will you?
+- I wanna listen any track from [On the Line](track_album) album
+- Would you please play songs from album [On The Line](track_album) by [Drake](track_artist)?
+- I would like to listen something from the album [Revival](track_album)
+- I would like to listen any track from [SASAMI](track_album).
+- will you please play any track from [Back in Black](track_album) by [XAMES3](track_artist)?
+- will you please play any track from [Remind Me Tomorrow](track_album) album by [Lil Wayne](track_artist)
+- can you please play music from album [when we all fall asleep where do we go](track_album)?
+- can you play a track from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Cardi B](track_artist)?
+- Could you please play any [rap](track_genre) music for us?
+- Would you please play the [rap](track_genre) songs?
+- Play something from [Legend](track_album) by [Drake](track_artist), will you?
+- I would like to listen songs from [The Immaculate Collection](track_album)
+- Play a track from the album [Titanic Rising](track_album)
+- can you please play any music from the album [Titanic Rising](track_album)?
+- Play songs from [The Immaculate Collection](track_album) by [Drake](track_artist), will you?
+- I like music from his new album [Recovery](track_album).
+- Play a track from [Purple Reign](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- cheer me up by playing something from [Kamikaze](track_album) album, will you?
+- Would you play something by [Rihanna](track_artist)?
+- will you please play any song from the album [Dedicated](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen music from album [LP3](track_album)
+- will you please play tracks from album [Young Enough](track_album) by [Selena Gomez](track_artist)?
+- I would enjoy to hear to [Ariana Grande](track_artist)
+- I would like to listen any music from [What Chaos Is Imaginary](track_album).
+- Would you please play any music from album [Designer](track_album)?
+- can you play any song from [Chapter VI](track_album) album
+- I wanna dance to some music from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- will you please play any song from album [The Immaculate Collection](track_album) by [Future](track_artist)?
+- I wanna listen any song from album [Recovery](track_album).
+- Play any track from [Norman Fucking Rockwell](track_album) album
+- Play a track from album [Supernatural](track_album) by [Drake](track_artist), will you?
+- I would like to groove to some [punk](track_genre) songs
+- Please play any [Rock](track_genre) music
+- can you play some music from the album [Legend](track_album)?
+- I would like to listen any track from the album [Back in Black](track_album)
+- will you please play tracks from [Legend](track_album) by [Lil Wayne](track_artist)?
+- Play any song from album [The Immaculate Collection](track_album)
+- I wanna dance to any music from the album [EVEN IN THE TREMOR](track_album)
+- Please play any [grunge](track_genre) beat
+- can you play music from [Oliver Appropriate](track_album) by [Eagles](track_artist)?
+- will you please play any song from [Remind Me Tomorrow](track_album) album by [Charlotte Rose Ellis](track_artist)
+- Would you please play any song from album [Notes on a Conditional Form](track_album)?
+- Play tracks by [Kanye West](track_artist)
+- I would like to listen to some [Blues](track_genre)
+- will you please play any song from album [Hotel California](track_album) by [Mellen Gi](track_artist)?
+- Play some music from album [Marshal Mather LP II](track_album)
+- I will like to have the [pop](track_genre)
+- I wanna listen any track from album [Metallica](track_album)
+- Play some [grunge](track_genre)
+- can you play any music from [The Immaculate Collection](track_album) album
+- I want to hear some music very badly
+- Would you please play something by [Alan Walker](track_artist)?
+- Would you please play tracks from album [Revival](track_album) by [Linkin Park](track_artist)?
+- can you play any track from album [EVEN IN THE TREMOR](track_album) by [Eagles](track_artist)?
+- Play something from [The Immaculate Collection](track_album) album
+- Play something from album [Harverd Dropout](track_album)
+- can you please play music from [Thank U, Next](track_album)?
+- Would you please play songs from [Chapter VI](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Kamikaze](track_album) album
+- can you play any track from [Bad](track_album)?
+- I would like to hear the [rap](track_genre) tracks
+- Would you please play any track from [Bad](track_album) by [Skrillex](track_artist)?
+- cheer me up by playing tracks from [Oh My God](track_album), will you?
+- I would like to dance to the [Funk](track_genre) tracks
+- can you please play a track from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I would like you to please play some [funk](track_genre)
+- I would like to listen to some [funk](track_genre) music
+- Would you please play any music from album [Legend](track_album)?
+- play something by [Eminem](track_artist) from [Recovery](track_album).
+- Would you please play any music from [LP3](track_album) album
+- Would you please play any track from the album [YOU CAN'T SIT WITH US](track_album)?
+- will you please play any song from [Mitsubishi Macchiato](track_album) album by [Mad Money](track_artist)
+- I wanna listen any track from [Recovery](track_album).
+- I would like to listen any track from [Kamikaze](track_album)
+- can you play some music from [Led Zeppelin IV](track_album) by [Mellen Gi](track_artist)?
+- Would you please play any music from [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- will you please play a track from [YOU CAN'T SIT WITH US](track_album) by [Jay-Z](track_artist)?
+- Play any music from album [Crushing](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play something from [Flamagra](track_album) by [Ozuna](track_artist)?
+- I want to listen to music from [On the Line](track_album) by [Dr. Dre](track_artist).
+- will you please play something from [Supernatural](track_album) album.
+- can you play any track from album [LP3](track_album)?
+- Would you play something by [Eagles](track_artist)?
+- Play some music from album [The Immaculate Collection](track_album) by [Shakira](track_artist), will you?
+- I wanna listen any track from album [The Immaculate Collection](track_album)
+- can you play any track from the album [Legend](track_album) by [Dr. Dre](track_artist)?
+- I wanna dance to any track from [Buoys](track_album)
+- I would like to listen tracks from [The Immaculate Collection](track_album) album.
+- can you please play any song from [When I Get Home](track_album)?
+- will you please play a track from album [Kamikaze](track_album) by [Ozuna](track_artist)?
+- can you play tracks from [Angel's Pulse](track_album) album.
+- Play a [Dubstep](track_genre) music
+- Play music from album [Everything Not Saved Will Be Lost—Part 1](track_album).
+- Would you please play any track from [Angel's Pulse](track_album) album.
+- Could you please play some [funk](track_genre) track  for us?
+- Play some music from album [Back in Black](track_album)
+- Play something from album [Marshal Mather LP II](track_album), will you?
+- Could we get something by [Usher](track_artist)?
+- Play any [blues](track_genre) beat
+- Would you please play any track from [SASAMI](track_album)?
+- I wanna dance to songs from album [On the Line](track_album).
+- will you please play songs from [Bandana](track_album)?
+- Play a track from the album [Marshal Mather LP II](track_album), will you?
+- Would you please play any music from [This is Acting](track_album) by [Future](track_artist)?
+- Would you play something by [Ariana Grande](track_artist)?
+- can you please play any track from album [Oasis](track_album)?
+- I wanna dance to any track from [In League With Dragons](track_album)
+- will you please play any track from album [IGOR](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen to any [blues](track_genre) track
+- can you please play music from [What Chaos Is Imaginary](track_album)?
+- Would you please play something from the album [Atlanta Millionaires Club](track_album) by [Ed Sheeran](track_artist)?
+- can you play any music from the album [What Chaos Is Imaginary](track_album)?
+- Play something from album [The Immaculate Collection](track_album) by [Shakira](track_artist), will you?
+- Play any track from album [Supernatural](track_album), will you?
+- can you please play any track from the album [What Chaos Is Imaginary](track_album)?
+- will you please play something from the album [Norman Fucking Rockwell](track_album)?
+- Would you please play any song from [The Saint of Lost Causes](track_album) album by [Akon](track_artist)
+- please play any [punk](track_genre) beat for me
+- can you please play any track from album [Supernatural](track_album)?
+- can you play any music from album [IGOR](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play any track from the album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- will you please play a track from [The Night King](track_album) album by [Cardi B](track_artist).
+- Play any music from [Marshal Mather LP II](track_album) album
+- I would like to groove to some [blues](track_genre) track
+- Please play the [Hip-hop](track_genre)
+- Could you please play the [dubstep](track_genre) track?
+- will you please play something from the album [Kamikaze](track_album) by [Linkin Park](track_artist)?
+- Would you please play tracks from [Rumours](track_album) by [Future](track_artist)?
+- I wanna dance to songs from [SASAMI](track_album)
+- I wanna dance to any song from [When I Get Home](track_album).
+- will you please play something from the album [On The Line](track_album)?
+- Would you please play any track from the album [Buoys](track_album)?
+- I would like to listen any track from the album [In League With Dragons](track_album)
+- I wanna dance to something from [Oasis](track_album)
+- Could you please play some [edm](track_genre) track  for us?
+- Would you please play any song from the album [Legend](track_album) by [Drake](track_artist)?
+- Play any track from [Revival](track_album) album.
+- will you please play a track from [Led Zeppelin IV](track_album) album.
+- Would you please play any song from [Legend](track_album) album
+- can you please play any music from the album [Let’s Talk About Love](track_album)?
+- I will like to have any [soundtrack](track_genre) music
+- will you please play any track from album [Revival](track_album) by [Drake](track_artist)?
+- Will you please play something by [Miley Cyrus](track_artist)?
+- Play tracks by [Bruno Mars](track_artist)
+- Play tracks from [Legend](track_album) album
+- Play something by [Usher](track_artist)
+- please play the [funk](track_genre) track  for us
+- I would like to hear any [pop](track_genre) beat
+- Play any music from the album [Marshal Mather LP II](track_album), will you?
+- I would like to listen tracks from [The Saint of Lost Causes](track_album).
+- please play any [soundtrack](track_genre) beat for us
+- I wanna listen any track from the album [Young Enough](track_album)
+- Play a track from [Buoys](track_album) album by [Drake](track_artist), will you?
+- I would like to dance to some [rap](track_genre)
+- can you please play any track from album [Titanic Rising](track_album)?
+- I would like to listen a track from [Norman Fucking Rockwell](track_album)
+- I would like to listen songs from [Young Enough](track_album)
+- will you please play any music from the album [IGOR](track_album) by [Kanye West](track_artist)?
+- I would like you to please play some [blues](track_genre) tracks
+- Would you please play music from album [Metallica](track_album) by [Nicki Minaj](track_artist)?
+- cheer me up by playing something from the album [Oasis](track_album), will you?
+- can you play some music from [Oasis](track_album) by [Eagles](track_artist)?
+- Would you please play any music from album [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play a track from album [Requiem for a Dream](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Would you please play any music from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I would like to listen something from the album [On The Line](track_album)
+- can you play any track from the album [Led Zeppelin IV](track_album) by [Clint Mansell](track_artist)?
+- I wanna dance to some music from album [Yandhi](track_album)
+- Play some music from the album [Marshal Mather LP II](track_album) by [Linkin Park](track_artist), will you?
+- Would you please play any track from the album [Legend](track_album)?
+- I wanna listen any music from album [Metallica](track_album)
+- I would like to groove to music from [Legend](track_album) by [Dr. Dre;Eminem](track_artist).
+- Would you please play any music from [The Immaculate Collection](track_album) album
+- Play some music from [Shawn Mendes](track_album)
+- I would like you to please play the [dubstep](track_genre)
+- will you please play any track from the album [Legend](track_album)?
+- I would enjoy to hear to [Billie Eilish](track_artist)
+- Play any track from [Dedicated](track_album)
+- Play any music from [In League With Dragons](track_album) album, will you?
+- cheer me up by playing tracks from [Dedicated](track_album) album, will you?
+- Would you please play music from album [Rumours](track_album) by [Coldplay](track_artist)?
+- will you please play tracks from [Oh My God](track_album) album.
+- Play any track from the album [The Saint of Lost Causes](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen any music from [Revival](track_album) album
+- I would like to listen a track from [Dedicated](track_album) album.
+- Would you please play the [hip-hop](track_genre) songs?
+- can you play tracks from album [The Immaculate Collection](track_album) by [Clint Mansell](track_artist)?
+- I would like to dance to any [soundtrack](track_genre) musicc
+- can you play music from album [Anima](track_album) by [Drake](track_artist)?
+- I wanna listen some music from album [Appetite for Destruction](track_album)
+- Play a track from album [Appetite for Destruction](track_album), will you?
+- Play some [pop](track_genre) music
+- please play the [Orchestra](track_genre) music for me
+- Please play the [funk](track_genre) songs
+- will you please play some music from album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- will you please play music from [Led Zeppelin IV](track_album) by [Warner & Chappell](track_artist)?
+- I would like to groove to any [Electronic](track_genre) music
+- I would like to listen something from [Bad](track_album) album
+- can you please play any music from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play tracks from [Legend](track_album)?
+- Play any music from [Harverd Dropout](track_album) album by [Cardi B](track_artist), will you?
+- Play tracks from [Recovery](track_album) album, will you?
+- Play something from [Let’s Talk About Love](track_album).
+- I wanna dance to any track from the album [YOU CAN'T SIT WITH US](track_album)
+- Play any music from [The Saint of Lost Causes](track_album) album by [Post Malone](track_artist), will you?
+- Play any music from [On The Line](track_album) album, will you?
+- Would you please play songs from album [Bandana](track_album)?
+- can you please play any music from [Lets Try the After](track_album)?
+- I would like to listen something from the album [Angel's Pulse](track_album)
+- Play a track from album [Rumours](track_album), will you?
+- I would like to listen any track from [when we all fall asleep where do we go](track_album).
+- Play any song from [Supernatural](track_album) album.
+- Play any track from [The Black Album](track_album) album by [Selena Gomez](track_artist), will you?
+- Play any song from [Gold and Grey](track_album) by [Three Days Grace](track_artist), will you?
+- Play any music from album [Outer Peace](track_album) by [Linkin Park](track_artist), will you?
+- Play something from [Illuminate](track_album) by [Katy Perry](track_artist), will you?
+- I wanna listen any track from [YOU CAN'T SIT WITH US](track_album) album.
+- I wanna listen any track from the album [Oasis](track_album)
+- will you please play something from [Norman Fucking Rockwell](track_album) by [XAMES3](track_artist)?
+- I would like to listen any track from [Legend](track_album) album
+- Would you please play songs from album [SASAMI](track_album) by [Drake](track_artist)?
+- can you play something from album [Thank U, Next](track_album) by [Florida](track_artist)?
+- can you play any track from [Let’s Talk About Love](track_album) album.
+- Play any music from the album [The Immaculate Collection](track_album), will you?
+- please play an [orchestra](track_genre) tunes for me
+- Play a track from [when we all fall asleep where do we go](track_album) album by [50 cents](track_artist), will you?
+- can you play some music from the album [Hijas del Tomate](track_album)?
+- can you play any song from the album [Bad](track_album)?
+- Would you please play tracks from album [Anima](track_album) by [50 cents](track_artist)?
+- Will you play something by [Lil Wayne](track_artist)?
+- I wanna listen something from the album [Marshal Mather LP II](track_album)
+- I wanna listen songs from album [On the Line](track_album).
+- I would like to groove to some [hip-hop](track_genre)
+- I want to listen to music from [Crushing](track_album) by [Charlotte Rose Ellis](track_artist)
+- can you play something from the album [Recovery](track_album) by [Lil Wayne](track_artist)?
+- cheer me up by playing something from [Bad](track_album) album, will you?
+- cheer me up by playing tracks from [Anima](track_album), will you?
+- I wanna listen any song from the album [The Immaculate Collection](track_album)
+- will you please play songs from album [Led Zeppelin IV](track_album)?
+- Would you please play tracks from album [La La Land](track_album)?
+- I would like to listen any track from [Legend](track_album)
+- I would like to hear the [hip-hop](track_genre) tracks
+- will you please play music from album [What Chaos Is Imaginary](track_album)?
+- please play the [soundtrack](track_genre) musicc for us
+- Could you please play some [blues](track_genre) tracks for us?
+- I wanna dance to any song from the album [Illuminate](track_album)
+- Play some [funk](track_genre) tracks
+- Play a track from [Bandana](track_album) by [Nicki Minaj](track_artist), will you?
+- Play any music from the album [In League With Dragons](track_album) by [George Michael](track_artist), will you?
+- can you play any track from [Bad](track_album) album
+- Play songs from album [Gold and Grey](track_album), will you?
+- I wanna dance to any music from [What Chaos Is Imaginary](track_album) album
+- Play any music from [Led Zeppelin IV](track_album) album, will you?
+- I would like to dance to any [Blues](track_genre) track
+- Please play some [Jazz](track_genre) tracks
+- Would you please play some music from album [Revival](track_album)?
+- Play music from album [when we all fall asleep where do we go](track_album) by [Cardi B](track_artist), will you?
+- cheer me up by playing tracks from album [The Immaculate Collection](track_album), will you?
+- can you please play music from album [Kamikaze](track_album)?
+- Play songs from [On the Line](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Could you please play the [dubstep](track_genre) music for us?
+- start the beat.
+- Play songs by [Khalid](track_artist)
+- can you please play music from [Recovery](track_album)?
+- will you please play tracks from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you play any track from [Oasis](track_album) by [Jay-Z](track_artist)?
+- can you please play any track from [Metallica](track_album)?
+- I would like to listen some music from the album [Let’s Talk About Love](track_album)
+- please play some [dubstep](track_genre) track  for me
+- I would like to hear an [orchestra](track_genre) song
+- Would you please play some music from [Back in Black](track_album)?
+- I wanna listen music from album [Cuz I Love You](track_album)
+- Play something from [Assume Form](track_album) album.
+- I wanna listen some music from album [Legend](track_album)
+- I wanna dance to tracks from album [Crushing](track_album).
+- Play any music from the album [What Chaos Is Imaginary](track_album)
+- will you please play something from [Harverd Dropout](track_album) by [Akon](track_artist)?
+- I would like to listen to any [hip-hop](track_genre) music
+- I wanna dance to any music from [Rumours](track_album) album
+- I would like to listen a track from [The Immaculate Collection](track_album)
+- Would you please play music from [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any track from [Marshal Mather LP II](track_album)?
+- I would like you to please play some [grunge](track_genre)
+- I wanna dance to some music from the album [Norman Fucking Rockwell](track_album)
+- Would you please play tracks from [Gallipoli](track_album) album.
+- I would love to hear to [Halsey](track_artist)
+- cheer me up by playing any song from [Metallica](track_album) album, will you?
+- Would you please play any track from the album [Oliver Appropriate](track_album) by [Ozuna](track_artist)?
+- Would you please play songs from album [Rumours](track_album) by [Kanye West](track_artist)?
+- can you please play any track from [Heard It In A Past Life](track_album)?
+- I want to listen something by [Imagine Dragons](track_artist)
+- can you play any music from [The Immaculate Collection](track_album)?
+- can you please play any music from [Remind Me Tomorrow](track_album) album
+- Would you please play any music from [Flamagra](track_album) album by [Kanye West](track_artist).
+- Play a track from the album [Outer Peace](track_album)
+- Would you please play any track from [IGOR](track_album) by [Shawn Mendes](track_artist)?
+- I wanna dance to songs from album [Flamagra](track_album)
+- Play a track from album [The Immaculate Collection](track_album) by [50 cents](track_artist), will you?
+- Would you please play songs from album [Oasis](track_album)?
+- I wanna dance to something from album [In League With Dragons](track_album)
+- Would you please play music from album [Oh My God](track_album) by [Ozuna](track_artist)?
+- Play songs by [Bruno Mars](track_artist)
+- can you please play tracks from album [Notes on a Conditional Form](track_album)?
+- Play any song from [This Is How You Smile](track_album) album
+- Play any track from the album [LP3](track_album), will you?
+- I would like to listen any song from [LP3](track_album)
+- Play some music from album [Young Enough](track_album), will you?
+- will you please play any song from album [Designer](track_album)?
+- can you play a track from [Appetite for Destruction](track_album) album.
+- I would love to hear to [Ariana Grande](track_artist)
+- Play any track from album [The Immaculate Collection](track_album)
+- can you play tracks from [when we all fall asleep where do we go](track_album)?
+- I wanna dance to any song from [Hotel California](track_album)
+- cheer me up by playing tracks from [Gold and Grey](track_album) album, will you?
+- Play something from the album [Buoys](track_album) by [50 cents](track_artist), will you?
+- I would like you to please play the [blues](track_genre) tracks
+- please play some [pop](track_genre) track  for us
+- I wanna listen any track from album [Kamikaze](track_album)
+- will you please play any track from the album [LP3](track_album) by [Nate Dogg](track_artist)?
+- can you play any music from the album [Kamikaze](track_album)?
+- I wanna dance to tracks from [Designer](track_album).
+- can you play something from [Requiem for a Dream](track_album) album.
+- Play any music from album [Illuminate](track_album) by [Mellen Gi](track_artist), will you?
+- will you please play something from album [YOU CAN'T SIT WITH US](track_album)?
+- will you please play songs from album [Hotel California](track_album)?
+- can you please play any music from [Remind Me Tomorrow](track_album)?
+- can you play any music from album [In League With Dragons](track_album)?
+- please play any [dubstep](track_genre) beat for us
+- I wanna listen tracks from [Gallipoli](track_album).
+- will you please play any music from [Back in Black](track_album) album by [Ed Sheeran](track_artist)
+- Play any music from the album [The Immaculate Collection](track_album) by [Lil Wayne](track_artist), will you?
+- can you play a track from [Beware of the Dogs](track_album) album by [Dr. Dre;Eminem](track_artist).
+- I wanna dance to tracks from [Led Zeppelin IV](track_album).
+- can you please play some music from album [Young Enough](track_album)?
+- I would like to hear the [Blues](track_genre) music
+- I would like to listen songs from [Bad](track_album)
+- will you please play a track from the album [The Wizrd](track_album) by [Clint Mansell](track_artist)?
+- can you play some music from [Heard It In A Past Life](track_album) by [Jay-Z](track_artist)?
+- I will like to have the [punk](track_genre) tracks
+- I would like to dance to [Selena Gomez](track_artist)
+- cheer me up by playing any song from [IGOR](track_album) album, will you?
+- Play a track from [Marshal Mather LP II](track_album) album.
+- can you play something from [IGOR](track_album) album by [Future](track_artist).
+- can you please play any track from [Kamikaze](track_album)?
+- will you please play something from [Kamikaze](track_album)?
+- I would like to hear some [soundtrack](track_genre) track
+- Play some music from album [Rumours](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Could you play something by [Bruno Mars](track_artist)?
+- will you please play tracks from [Young Enough](track_album) album
+- Would you please play any music from [Norman Fucking Rockwell](track_album) by [Future](track_artist)?
+- Would you please play any track from [The Black Album](track_album)?
+- will you please play some music from [Titanic Rising](track_album) by [Ozuna](track_artist)?
+- Would you please play some music from [Norman Fucking Rockwell](track_album)?
+- Play a track from the album [Angel's Pulse](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Would you please play any track from [Legend](track_album) album
+- I would like to hear any [metal](track_genre) track
+- will you please play songs from [Flamagra](track_album)?
+- Would you please play something from [Dedicated](track_album) album.
+- Would you please play some music from album [Kamikaze](track_album) by [Eagles](track_artist)?
+- will you please play a track from album [Tip of the Sphere](track_album) by [Drake](track_artist)?
+- will you please play tracks from album [Cuz I Love You](track_album)?
+- will you please play tracks from album [Marshal Mather LP II](track_album) by [Drake](track_artist)?
+- Play any song from [On the Line](track_album)
+- will you please play any music from [Marshal Mather LP II](track_album) album by [Sean Paul](track_artist)
+- will you please play songs from [Back in Black](track_album)?
+- Could you please play something by [Dr. Dre;Eminem](track_artist)?
+- I want to listen to music from [Bad](track_album) by [Dr. Dre;Eminem](track_artist).
+- I want to listen to music from [The Immaculate Collection](track_album) by [Clint Mansell](track_artist)
+- I would like to listen to any [punk](track_genre) track
+- will you please play something from [Angel's Pulse](track_album) album by [Nate Dogg](track_artist).
+- Play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I wanna dance to songs from album [Lets Try the After](track_album)
+- Play songs by [Selena Gomez](track_artist)
+- Play any song from album [Notes on a Conditional Form](track_album) by [Kanye West](track_artist), will you?
+- Would you please play some music from the album [Crushing](track_album) by [Bonobo](track_artist)?
+- cheer me up by playing any song from album [Legend](track_album), will you?
+- Would you please play music from album [Titanic Rising](track_album)?
+- I would like to groove to music from [Thank U, Next](track_album) by [Florida](track_artist)
+- Would you please play a track from the album [The Immaculate Collection](track_album)?
+- will you please play any track from the album [U.F.O.F](track_album) by [Three Days Grace](track_artist)?
+- I wanna dance to any track from the album [The Craving for Absolute Serenity](track_album)
+- I wanna dance to something from [Hijas del Tomate](track_album)
+- I will like to have the [hip-hop](track_genre) songs
+- Please play the [soundtrack](track_genre) track
+- can you please play any track from [Rumours](track_album)?
+- can you please play any track from the album [I Am Easy To Find](track_album)?
+- can you please play some music from the album [Supernatural](track_album)?
+- can you play music from [Supernatural](track_album)?
+- I would like to listen to some [metal](track_genre) tracks
+- Play any track from [Atlanta Millionaires Club](track_album) album, will you?
+- will you please play some music from [Bad](track_album) by [Three Days Grace](track_artist)?
+- I would like to listen some music from album [Bandana](track_album)
+- I wanna listen any music from the album [Gallipoli](track_album)
+- I would like to listen a track from the album [Appetite for Destruction](track_album)
+- I would like you to please play any [metal](track_genre) beat
+- Play any track from album [IGOR](track_album), will you?
+- can you play any track from [Quiet Signs](track_album) album by [George Michael](track_artist)
+- Could you please play some [edm](track_genre) music?
+- please play the [punk](track_genre) music for me
+- will you please play songs from [Kamikaze](track_album)?
+- Would you please play a track from [Recovery](track_album)?
+- can you play something from [Recovery](track_album) by [Eagles](track_artist)?
+- cheer me up by playing tracks from [On the Line](track_album) album, will you?
+- Would you please play any music from the album [Supernatural](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I will like to have some [rap](track_genre) tracks
+- I would like to listen a track from [Cuz I Love You](track_album) album.
+- Play some [edm](track_genre)
+- please play the [pop](track_genre) tracks for me
+- I wanna dance to something from [Titanic Rising](track_album)
+- I would like to hear any [blues](track_genre) music
+- can you play music from [Outer Peace](track_album) by [Mad Money](track_artist)?
+- Would you please play music from [Oliver Appropriate](track_album)?
+- Play songs from [New Breed](track_album), will you?
+- I would like to listen something from the album [The Immaculate Collection](track_album)
+- can you play music from [Harverd Dropout](track_album)?
+- I would like to hear the [rap](track_genre) track
+- can you please play tracks from [The Immaculate Collection](track_album) album
+- Would you please play any track from the album [Marshal Mather LP II](track_album)?
+- Would you please play some [blues](track_genre) tracks?
+- can you please play something from [Supernatural](track_album) album.
+- Play any music from album [Legend](track_album)
+- I would like to hear the [blues](track_genre) music
+- Could we get something by [Akon](track_artist)?
+- please play some [soundtrack](track_genre) for me
+- Play any track from [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to groove to some [punk](track_genre)
+- I wanna dance to tracks from album [Titanic Rising](track_album)
+- Please play some [metal](track_genre) songs
+- I would like to listen to some [EDM](track_genre) music
+- I would like to dance to the [soundtrack](track_genre) track
+- can you play something from [Hotel California](track_album) by [BTS](track_artist)?
+- I wanna dance to any music from [EVEN IN THE TREMOR](track_album) album
+- can you please play any track from [Oasis](track_album) album.
+- Would you please play something from album [Crushing](track_album) by [Drake](track_artist)?
+- Would you please play tracks from [Angel's Pulse](track_album) by [Three Days Grace](track_artist)?
+- I wanna listen songs from album [Revival](track_album).
+- I wanna dance to something from [Oasis](track_album) album.
+- Could you please play some [edm](track_genre) tracks for us?
+- Play something from album [Appetite for Destruction](track_album)
+- can you please play any track from album [On the Line](track_album)?
+- I would like to listen to some [funk](track_genre)
+- I would like to hear some [pop](track_genre) tracks
+- I wanna listen any music from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- Would you please play any song from [Sunshine Rock](track_album) album
+- can you play any track from album [Oasis](track_album) by [Drake](track_artist)?
+- I wanna dance to songs from [Marshal Mather LP II](track_album).
+- I wanna listen any song from [Requiem for a Dream](track_album) album
+- Play something from album [Metallica](track_album)
+- Play any track from [Crushing](track_album) album by [Dr. Dre](track_artist), will you?
+- Would you please play a track from album [Legend](track_album)?
+- I would like you to please play some [blues](track_genre)
+- Would you please play any song from [Slaves of Fear](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play a track from [Western Stars](track_album) by [Lady Gaga](track_artist), will you?
+- Would you please play a track from [Supernatural](track_album)?
+- will you please play any song from the album [Recovery](track_album) by [Lil Wayne](track_artist)?
+- Play the [edm](track_genre) songs
+- can you play any track from album [Metallica](track_album) by [50 cents](track_artist)?
+- Play some music from [The Saint of Lost Causes](track_album)
+- Play songs from [SASAMI](track_album) by [Rick0 James](track_artist), will you?
+- I would like to listen any song from [Kamikaze](track_album) album
+- can you play a track from [Heard It In A Past Life](track_album) album
+- Could you please play some [soundtrack](track_genre) musicc?
+- Please play the [dubstep](track_genre) track
+- Play something from [Good Ass Job](track_album) album by [Kanye West](track_artist), will you?
+- can you please play any track from [Designer](track_album)?
+- I would like to listen music from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would like to listen to some [soundtrack](track_genre) beat
+- I wanna dance to any music from [Bandana](track_album) album
+- I would like to listen any music from [Legend](track_album) album
+- I wanna dance to any music from [Marshal Mather LP II](track_album) album
+- will you please play any track from [The Immaculate Collection](track_album) album by [Queen](track_artist)
+- I would like to hear some [dubstep](track_genre) songs
+- Play any [rap](track_genre) beat
+- I would like to groove to the [edm](track_genre) music
+- can you play any track from the album [Led Zeppelin IV](track_album)?
+- Play any music from [Heard It In A Past Life](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play tracks from [Atlanta Millionaires Club](track_album) album by [Sean Paul](track_artist), will you?
+- Play the [grunge](track_genre) track
+- Would you please play the [grunge](track_genre)?
+- will you please play any track from album [Legend](track_album)?
+- can you please play any song from [The Wizrd](track_album)?
+- I would like to hear to music from [Legend](track_album) by [Mad Money](track_artist)
+- can you play any track from [Appetite for Destruction](track_album)?
+- Play a track from album [YOU CAN'T SIT WITH US](track_album).
+- I wanna dance to any track from [Thank U, Next](track_album) album
+- Play any [dubstep](track_genre) music
+- Would you please play something from the album [Back in Black](track_album)?
+- I would like to listen to some [blues](track_genre) track
+- Could you please play the [grunge](track_genre) track ?
+- cheer me up by playing any song from album [Quiet Signs](track_album), will you?
+- can you play something from [On the Line](track_album) album.
+- Would you please play any song from the album [Recovery](track_album)?
+- I would like to listen any track from album [Notes on a Conditional Form](track_album)
+- I would like to listen to an [orchestra](track_genre) song
+- I wanna listen some music from the album [Supernatural](track_album)
+- I would like to groove to some [hip-hop](track_genre) track
+- i wanna enjoy music
+- Play a track from album [Bad](track_album), will you?
+- I wanna listen music from album [TBA](track_album).
+- I wanna listen any song from album [Legend](track_album)
+- can you play some music from [The Immaculate Collection](track_album) by [Mad Money](track_artist)?
+- I would like to dance to [Imagine Dragons](track_artist)
+- Play a track from the album [Phoenix](track_album)
+- Play any music from album [Flamagra](track_album)
+- Play any track from album [Remind Me Tomorrow](track_album), will you?
+- will you please play any music from album [Oasis](track_album)?
+- will you please play tracks from [Dedicated](track_album) album by [Eminem](track_artist)
+- I wanna dance to any song from [What Chaos Is Imaginary](track_album) album
+- Play any track from the album [In League With Dragons](track_album)
+- can you please play songs from [Led Zeppelin IV](track_album)?
+- Would you please play a track from the album [Illuminate](track_album) by [Kanye West](track_artist)?
+- please play the [soundtrack](track_genre) track  for us
+- will you please play some music from album [Young Enough](track_album)?
+- Would you please play songs from album [Phoenix](track_album)?
+- Play tracks from [Legend](track_album), will you?
+- Please play the [Grunge](track_genre) music
+- can you play something from [SASAMI](track_album) album.
+- Would you please play a track from [Recovery](track_album) album by [Sean Paul](track_artist).
+- Please play the [pop](track_genre) track
+- I wanna dance to any track from [The Wizrd](track_album)
+- can you play some music from album [The Immaculate Collection](track_album) by [Queen](track_artist)?
+- Would you please play the [Hip-hop](track_genre) tracks?
+- can you play any track from the album [EVEN IN THE TREMOR](track_album) by [Nicki Minaj](track_artist)?
+- I would like to listen something from the album [Oasis](track_album)
+- please play some [Funk](track_genre) songs
+- can you please play some music from album [Marshal Mather LP II](track_album)?
+- Play any track from album [Titanic Rising](track_album), will you?
+- cheer me up by playing something from album [The Night King](track_album), will you?
+- Would you please play something from album [The Immaculate Collection](track_album) by [Ozuna](track_artist)?
+- cheer me up by playing something from album [Oliver Appropriate](track_album), will you?
+- Would you please play songs from [Revival](track_album) by [Drake](track_artist)?
+- I would like to listen any track from the album [Angel's Pulse](track_album)
+- I wanna dance to something from album [Marshal Mather LP II](track_album)
+- I would like to listen something from the album [Led Zeppelin IV](track_album)
+- Would you please play tracks from album [Beware of the Dogs](track_album) by [Kanye West](track_artist)?
+- I wanna dance to any track from album [Purple Reign](track_album).
+- will you please play some music from [Kamikaze](track_album)?
+- Would you please play tracks from [Tip of the Sphere](track_album)?
+- I wanna listen something from [The Wizrd](track_album)
+- can you please play something from [Back in Black](track_album)?
+- will you please play any music from [Bandana](track_album) album
+- I would like to hear any [rap](track_genre) music
+- Would you please play some music from [Heard It in a Past Life](track_album) by [Dr. Dre](track_artist)?
+- will you please play tracks from [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Quiet Signs](track_album) album, will you?
+- Play tracks by [Akon](track_artist)
+- Play any music from [Norman Fucking Rockwell](track_album) album by [Bonobo](track_artist), will you?
+- can you play some music from album [Legend](track_album)?
+- Play any music from the album [Marshal Mather LP II](track_album)
+- I would like to dance to some [grunge](track_genre) music
+- can you play any track from [Metallica](track_album) by [Sia](track_artist)?
+- I would like to listen any music from album [The Saint of Lost Causes](track_album)
+- Play some [punk](track_genre)
+- can you please play tracks from album [Oasis](track_album)?
+- Would you please play any music from [Oasis](track_album) album
+- I wanna dance to any song from [Kamikaze](track_album)
+- please play any [dubstep](track_genre) music for us
+- can you play any track from album [Gold and Grey](track_album) by [Ludacris](track_artist)?
+- can you play something from album [Remind Me Tomorrow](track_album)?
+- please play the [soundtrack](track_genre) track  for me
+- I wanna dance to songs from [Appetite for Destruction](track_album).
+- I wanna listen music from [IGOR](track_album).
+- Play songs from [Assume Form](track_album).
+- I wanna dance to any song from the album [The Immaculate Collection](track_album)
+- please play the [punk](track_genre) music for us
+- I would like to listen any song from the album [Hotel California](track_album)
+- will you please play any track from album [YOU CAN'T SIT WITH US](track_album)?
+- can you play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Dr. Dre](track_artist)?
+- Play any track from [Gold and Grey](track_album) album by [Eminem](track_artist), will you?
+- I wanna dance to any track from [Oasis](track_album)
+- I will like to have the [pop](track_genre) songs
+- please play the [pop](track_genre) for me
+- I would like to listen to some [hip-hop](track_genre)
+- Would you please play tracks from album [Sunshine Rock](track_album) by [Sia](track_artist)?
+- Play some [blues](track_genre)
+- Would you please play something from [Remind Me Tomorrow](track_album) by [Lil Wayne](track_artist)?
+- Could you please play an [orchestra](track_genre) tune?
+- can you play music from album [Titanic Rising](track_album) by [50 cents](track_artist)?
+- Play any track from [What Chaos Is Imaginary](track_album) album by [The Chainsmokers](track_artist), will you?
+- cheer me up by playing tracks from album [On The Line](track_album), will you?
+- can you play any song from album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Could we get something by [Khalid](track_artist)?
+- please play an [orchestra](track_genre) tune for me
+- will you please play something from the album [Marshal Mather LP II](track_album) by [Kanye West](track_artist)?
+- Play the [edm](track_genre) music
+- I would love to listen to something by [Akon](track_artist)
+- Play any song from the album [Make It Big](track_album) by [Lil Wayne](track_artist), will you?
+- will you please play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Drake](track_artist)?
+- Play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Dr. Dre](track_artist), will you?
+- can you please play a track from album [Gold and Grey](track_album)?
+- can you play a track from [This Is How You Smile](track_album) by [Ozuna](track_artist)?
+- Play tracks from [Bad](track_album) album
+- please play some [pop](track_genre) track  for me
+- I wanna dance to some music from the album [Legend](track_album)
+- Play something from the album [Legend](track_album)
+- can you play a track from album [Father of the Bride](track_album)?
+- I would like to listen tracks from [Back in Black](track_album) album.
+- Would you please play some music from the album [Hijas del Tomate](track_album)?
+- I would like to listen any song from [SASAMI](track_album)
+- Play any song from album [The Immaculate Collection](track_album) by [Camila Cabello](track_artist), will you?
+- Play some music from [Father of the Bride](track_album)
+- I wanna listen any music from [The Immaculate Collection](track_album)
+- Play something from the album [In League With Dragons](track_album), will you?
+- will you please play music from [when we all fall asleep where do we go](track_album) by [Dr. Dre](track_artist)?
+- will you please play any track from [Designer](track_album)?
+- I would like to listen something from album [Recovery](track_album).
+- Play any track from the album [Back in Black](track_album)
+- can you please play any song from [Good Ass Job](track_album) album
+- I would love to listen to [Billie Eilish](track_artist)
+- I wanna dance to any track from album [Gold and Grey](track_album)
+- I would like to listen to music from [This Is How You Smile](track_album) by [Akon](track_artist).
+- can you please play any song from [YOU CAN'T SIT WITH US](track_album) album
+- can you play something from [Kamikaze](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I will like to have any [rap](track_genre) music
+- Play something from [Legend](track_album) album.
+- will you please play songs from [Bad](track_album) by [Drake](track_artist)?
+- I would like you to please play some [punk](track_genre) track
+- can you please play songs from [YOU CAN'T SIT WITH US](track_album)?
+- will you please play some music from album [The Immaculate Collection](track_album)?
+- I wanna dance to any track from [Legend](track_album) album
+- can you please play some music from [The Saint of Lost Causes](track_album)?
+- Could you please play some [grunge](track_genre) songs?
+- Play music from album [Rumours](track_album) by [Shawn Mendes](track_artist), will you?
+- Play any music from the album [Tip of the Sphere](track_album), will you?
+- will you please play some music from [Led Zeppelin IV](track_album)?
+- I would like to listen to some [dubstep](track_genre) music
+- I would like to listen any song from album [when we all fall asleep where do we go](track_album)
+- Please play some [grunge](track_genre) tracks
+- I would like to listen to the [blues](track_genre) tracks
+- will you please play songs from album [In League With Dragons](track_album) by [Drake](track_artist)?
+- can you play songs from album [Recovery](track_album)?
+- can you play a track from the album [Let’s Talk About Love](track_album) by [Sean Paul](track_artist)?
+- Play some music from album [Requiem for a Dream](track_album).
+- Play something from album [Legend](track_album), will you?
+- can you play any track from album [The Saint of Lost Causes](track_album) by [Drake](track_artist)?
+- I want to listen to music from [The Immaculate Collection](track_album) by [Future](track_artist).
+- will you please play any song from the album [Lets Try the After](track_album) by [Jay-Z](track_artist)?
+- Could we get something by [Ariana Grande](track_artist)?
+- I would like to dance to the [soundtrack](track_genre) tracks
+- can you please play a track from [Buoys](track_album)?
+- can you play a track from [The Night King](track_album) album
+- can you please play any music from [Heard It in a Past Life](track_album)?
+- Play a track from [Designer](track_album) album
+- I would enjoy to hear to [Eagles](track_artist)
+- Play a track from [Notes on a Conditional Form](track_album) album.
+- Would you please play songs from album [Thank U, Next](track_album)?
+- I would enjoy to dance to [Eagles](track_artist)
+- can you please play something from [Assume Form](track_album) album.
+- can you please play any song from [Father of the Bride](track_album)?
+- Could you please play any [edm](track_genre) music for us?
+- Play tracks from album [Let’s Talk About Love](track_album), will you?
+- I wanna listen something from [The Immaculate Collection](track_album)
+- I would like to dance to music from [Tip of the Sphere](track_album) by [Eagles](track_artist).
+- I would like to listen songs from [Gallipoli](track_album).
+- will you please play any music from the album [The Immaculate Collection](track_album) by [Bonobo](track_artist)?
+- can you play any music from album [Bad](track_album)?
+- Play songs from album [when we all fall asleep where do we go](track_album)
+- I wanna dance to a track from [This is Acting](track_album) album.
+- I would like to groove to some [blues](track_genre) music
+- Play any track from the album [Appetite for Destruction](track_album)
+- Play something from album [Heard It In A Past Life](track_album).
+- can you play any track from the album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen some music from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you please play any music from [U.F.O.F](track_album) album
+- Play something from the album [In League With Dragons](track_album) by [Rick0 James](track_artist), will you?
+- Play [pop](track_genre) music
+- Would you please play tracks from [Rumours](track_album) album
+- I would like to listen any track from [Back in Black](track_album)
+- I would like to listen a track from album [Appetite for Destruction](track_album)
+- can you play any track from [Supernatural](track_album)?
+- will you please play any music from [Metallica](track_album) by [Cardi B](track_artist)?
+- I wanna dance to some music from [Everything Not Saved Will Be Lost—Part 1](track_album).
+- I wanna listen music from album [The Immaculate Collection](track_album)
+- can you play any music from [Atlanta Millionaires Club](track_album) by [Akon](track_artist)?
+- Would you please play tracks from [The Saint of Lost Causes](track_album) album
+- Play any track from album [Yandhi](track_album), will you?
+- Play any track from [Phoenix](track_album) album
+- will you please play music from album [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to any track from the album [Hijas del Tomate](track_album)
+- Play some music from [Requiem for a Dream](track_album)
+- Play songs from album [YOU CAN'T SIT WITH US](track_album)
+- will you please play tracks from [Cuz I Love You](track_album) album.
+- Play tracks from [This Is How You Smile](track_album) album.
+- I wanna listen songs from album [TBA](track_album)
+- Play [hip-hop](track_genre) music
+- could youu play some [dubstep](track_genre).
+- Would you please play something from album [Phoenix](track_album)?
+- can you play any track from [Norman Fucking Rockwell](track_album) album by [Lil Wayne](track_artist)
+- Would you please play something from [Metallica](track_album) album by [Justin Hurwitz](track_artist)
+- cheer me up by playing tracks from album [Designer](track_album), will you?
+- Play any [soundtrack](track_genre) track
+- I would like to listen to the [edm](track_genre) songs
+- can you play any music from [Marshal Mather LP II](track_album) album
+- I would like to hear to [Cardi B](track_artist)
+- will you please play any music from [Back in Black](track_album) by [Future](track_artist)?
+- I wanna listen tracks from [The Wizrd](track_album).
+- Would you please play something from album [Bandana](track_album)?
+- I will like to have some [edm](track_genre) songs
+- Would you please play any track from [Revival](track_album) by [Eagles](track_artist)?
+- will you please play any song from [SASAMI](track_album) album.
+- I would like to listen music from album [YOU CAN'T SIT WITH US](track_album)
+- Please play some [grunge](track_genre)
+- I wanna dance to any track from the album [Designer](track_album)
+- will you please play tracks from [Thank U, Next](track_album) album by [Charlotte Rose Ellis](track_artist).
+- Play something from [Lets Try the After](track_album) by [Eagles](track_artist), will you?
+- can you play a track from [Flamagra](track_album)?
+- Could you please play some [soundtrack](track_genre) songs for us?
+- will you please play some music from the album [Tip of the Sphere](track_album)?
+- I would like to listen any track from album [Revival](track_album)
+- will you please play music from [Bandana](track_album) by [Drake](track_artist)?
+- I would enjoy to dance to [Selena Gomez](track_artist)
+- can you play a track from [LP3](track_album) album.
+- I wanna dance to music from [Appetite for Destruction](track_album).
+- I would like to listen any track from the album [Phoenix](track_album)
+- Would you please play music from [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Please play music from [Huma](track_artist)'s new album [Recovery](track_album).
+- I wanna dance to some music from the album [Father of the Bride](track_album)
+- Play something from [Rumours](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- I would like to listen songs from album [IGOR](track_album)
+- will you please play some music from album [On The Line](track_album) by [Charlotte Rose Ellis](track_artist)?
+- please play the [blues](track_genre) track  for me
+- will you please play any track from the album [Quiet Signs](track_album) by [Sia](track_artist)?
+- I would like you to please play some [hip-hop](track_genre) tracks
+- Play any track from the album [when we all fall asleep where do we go](track_album)
+- Would you please play songs from [La La Land](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album, will you?
+- can you play any track from the album [Legend](track_album)?
+- cheer me up by playing tracks from [Thank U, Next](track_album) album, will you?
+- can you play a track from album [Metallica](track_album) by [Cardi B](track_artist)?
+- I would like to groove to an [EDM](track_genre) track
+- I wanna dance to any song from album [Led Zeppelin IV](track_album)
+- I would like to listen songs from [Marshal Mather LP II](track_album).
+- I wanna dance to songs from [Led Zeppelin IV](track_album).
+- I would like to hear the [dubstep](track_genre) songs
+- I would like to listen any song from [In League With Dragons](track_album).
+- will you please play any song from album [Kamikaze](track_album) by [Ozuna](track_artist)?
+- please play any [soundtrack](track_genre) musicc for us
+- Play something from the album [Marshal Mather LP II](track_album), will you?
+- Play any [edm](track_genre) music
+- I would like to listen to the [punk](track_genre) songs
+- I would like to listen songs from album [Norman Fucking Rockwell](track_album).
+- I would like to dance to the [funk](track_genre) songs
+- I wanna listen tracks from album [Legend](track_album)
+- can you play any track from album [Young Enough](track_album)?
+- cheer me up by playing songs from [Designer](track_album), will you?
+- Play something from the album [Atlanta Millionaires Club](track_album), will you?
+- will you please play any track from [Notes on a Conditional Form](track_album)?
+- I would like to listen tracks from [EVEN IN THE TREMOR](track_album).
+- will you please play something from the album [Bandana](track_album) by [Ozuna](track_artist)?
+- I would like to listen some music from [Appetite for Destruction](track_album)
+- Play any track from [Cuz I Love You](track_album) album.
+- can you play a track from the album [Appetite for Destruction](track_album)?
+- Play something from album [The Immaculate Collection](track_album), will you?
+- I wanna dance to tracks from [Bad](track_album)
+- Would you please play any track from album [Harverd Dropout](track_album)?
+- I would like to listen any music from [Father of the Bride](track_album) album
+- Would you please play tracks from album [YOU CAN'T SIT WITH US](track_album)?
+- Would you please play tracks from [Bandana](track_album)?
+- I would like to dance to some [punk](track_genre) music
+- Please play any [grunge](track_genre) music
+- will you please play tracks from album [Marshal Mather LP II](track_album)?
+- can you play a track from [Back in Black](track_album) album by [PSY](track_artist).
+- Would you please play some [rap](track_genre)?
+- will you please play any song from the album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- I wanna listen music from [Appetite for Destruction](track_album).
+- can you please play something from the album [Hotel California](track_album)?
+- Would you please play tracks from [Legend](track_album)?
+- Could you please play the [punk](track_genre) track  for us?
+- can you play any track from album [Marshal Mather LP II](track_album)?
+- Play some [blues](track_genre) track
+- will you please play a track from [Revival](track_album) album by [Lady Gaga](track_artist).
+- will you please play any track from the album [The Immaculate Collection](track_album) by [Cardi B](track_artist)?
+- Play something from the album [Anima](track_album) by [Alan Walker](track_artist), will you?
+- I would like to groove to some [funk](track_genre) tracks
+- Play any song from [On The Line](track_album) album, will you?
+- I will like to have an [orchestra](track_genre) tune
+- I would like you to please play any [funk](track_genre) track
+- Could you please play any [metal](track_genre) music for us?
+- I wanna listen any music from the album [Revival](track_album)
+- I would like to dance to some [blues](track_genre) music
+- Would you please play something from the album [On the Line](track_album)?
+- will you please play any music from album [Let’s Talk About Love](track_album)?
+- Play some music from [Rumours](track_album) by [Drake](track_artist), will you?
+- I want to listen to music from [Norman Fucking Rockwell](track_album) by [Mad Money](track_artist)
+- I wanna dance to a track from [Father of the Bride](track_album) album.
+- I wanna dance to tracks from album [I Am Easy To Find](track_album).
+- will you please play any music from album [Revival](track_album) by [The Chainsmokers](track_artist)?
+- can you play any music from the album [Good Ass Job](track_album) by [Eagles](track_artist)?
+- Play any track from [Flamagra](track_album) by [Ludacris](track_artist), will you?
+- will you please play something from [What Chaos Is Imaginary](track_album)?
+- I wanna dance to any track from [Crushing](track_album).
+- Play something from album [Legend](track_album) by [Nicki Minaj](track_artist), will you?
+- Play songs from album [Angel's Pulse](track_album)
+- will you please play music from [Back in Black](track_album)?
+- will you please play any music from album [The Black Album](track_album)?
+- Please play some [rap](track_genre) music
+- please play some [hip-hop](track_genre) tracks for us
+- Would you please play songs from album [Bad](track_album)?
+- will you please play any track from the album [Oh My God](track_album)?
+- I would like to listen a track from [Legend](track_album)
+- will you please play any song from [The Unseen In-Between](track_album)?
+- cheer me up by playing any song from the album [Heard It in a Past Life](track_album), will you?
+- I would like to listen to music from [The Saint of Lost Causes](track_album) by [Kanye West](track_artist).
+- Play any track from [On the Line](track_album) album, will you?
+- I wanna listen some music from [Legend](track_album)
+- please play the [rap](track_genre) track  for me
+- please play any [funk](track_genre) beat for us
+- Please play an [orchestra](track_genre) beat
+- will you please play tracks from [Yandhi](track_album) by [Dr. Dre](track_artist)?
+- I wanna dance to a track from [I Am Easy To Find](track_album) album
+- Would you please play songs from [The Immaculate Collection](track_album)?
+- Would you please play some [pop](track_genre) songs?
+- Would you please play music from [Cuz I Love You](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen something from [Cuz I Love You](track_album) album.
+- I wanna listen any song from [Bandana](track_album)
+- can you play something from album [Appetite for Destruction](track_album) by [Drake](track_artist)?
+- I would like to listen to the [grunge](track_genre) track
+- Play songs from album [Kamikaze](track_album)
+- Would you please play songs from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from [SASAMI](track_album) album
+- can you play tracks from [Angel's Pulse](track_album)?
+- can you play any track from [Angel's Pulse](track_album) album by [Mad Money](track_artist)
+- I would like to listen tracks from [Anima](track_album) album
+- please play the [Hip-hop](track_genre) tracks for me
+- Play songs from [Appetite for Destruction](track_album), will you?
+- I would like to listen a track from the album [Quiet Signs](track_album)
+- please play some [grunge](track_genre) tracks
+- I wanna dance to any track from [This Is How You Smile](track_album) album
+- Play a track from album [Recovery](track_album) by [Alan Walker](track_artist), will you?
+- I wanna dance to tracks from album [When I Get Home](track_album).
+- can you play a track from [Recovery](track_album) by [Kanye West](track_artist)?
+- Could you please play something by [Billie Eilish](track_artist)?
+- I wanna dance to any music from album [Marshal Mather LP II](track_album)
+- Play any track from [Hotel California](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen any track from the album [The Wizrd](track_album)
+- Play a track from [The Immaculate Collection](track_album) album, will you?
+- will you please play any song from [Kamikaze](track_album) by [Drake](track_artist)?
+- can you play any music from the album [Supernatural](track_album)?
+- Would you please play a track from album [Gold and Grey](track_album)?
+- I would like to listen any music from [Marshal Mather LP II](track_album) album
+- Would you please play a track from [Phoenix](track_album) album by [Ozuna](track_artist)
+- can you play any track from the album [The Saint of Lost Causes](track_album)?
+- Play music from [Lets Try the After](track_album) by [Celine Dion](track_artist), will you?
+- I wanna listen any music from album [Back in Black](track_album)
+- cheer me up by playing any song from [I Am Easy To Find](track_album), will you?
+- can you please play tracks from album [The Black Album](track_album)?
+- Would you please play tracks from [Mitsubishi Macchiato](track_album) album by [Nicki Minaj](track_artist).
+- I would like to listen songs from [The Saint of Lost Causes](track_album)
+- can you play any song from [Quiet Signs](track_album) album
+- will you please play any music from [This is Acting](track_album) album by [Jay-Z](track_artist).
+- I would like you to please play the [funk](track_genre) songs
+- will you please play any track from [Legend](track_album) album by [George Michael](track_artist).
+- Play any song from the album [Purple Reign](track_album)
+- will you please play some music from album [Marshal Mather LP II](track_album)?
+- I wanna listen a track from [Recovery](track_album) album.
+- Play any song from the album [IGOR](track_album)
+- I will like to have any [funk](track_genre) beat
+- Could you please play the [punk](track_genre) music?
+- can you please play something by [Cardi B](track_artist)?
+- I would like to listen some music from [SASAMI](track_album)
+- I wanna dance to any track from the album [Oliver Appropriate](track_album)
+- Would you please play any track from album [The Immaculate Collection](track_album)?
+- I would like to listen any track from the album [Oasis](track_album)
+- can you play something from album [The Wizrd](track_album)?
+- I would like to listen any track from [Recovery](track_album).
+- Play any track from [Bad](track_album) album, will you?
+- Play tracks from [The Immaculate Collection](track_album) album
+- I would like to listen to music from [Appetite for Destruction](track_album) by [Drake](track_artist).
+- I wanna dance to songs from [Dedicated](track_album)
+- I would like to hear the [grunge](track_genre) songs
+- can you please play any music from [Let’s Talk About Love](track_album) album.
+- I would like to listen songs from [This is Acting](track_album)
+- will you please play any track from [Beware of the Dogs](track_album) album by [Drake](track_artist).
+- Would you please play any track from album [Father of the Bride](track_album) by [Lil Wayne](track_artist)?
+- Would you please play a track from the album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- Play a track from the album [IGOR](track_album), will you?
+- will you please play any music from album [TBA](track_album)?
+- Would you please play some music from [The Immaculate Collection](track_album)?
+- Would you please play something from [Father of the Bride](track_album) album by [Mad Money](track_artist).
+- I would like to listen any track from [Thank U, Next](track_album) album.
+- will you please play any track from the album [Designer](track_album)?
+- will you please play tracks from [Recovery](track_album) by [XAMES3](track_artist)?
+- can you please play something from album [Sunshine Rock](track_album)?
+- Play some music from album [On The Line](track_album), will you?
+- I would like to listen songs from [Recovery](track_album).
+- I would like to dance to some [blues](track_genre) songs
+- I would like to listen a track from the album [The Saint of Lost Causes](track_album)
+- can you play any track from [Rumours](track_album) album by [Warner & Chappell](track_artist)
+- cheer me up by playing songs from album [Illuminate](track_album), will you?
+- Would you please play songs from album [EVEN IN THE TREMOR](track_album) by [Nicki Minaj](track_artist)?
+- I wanna listen any track from [Kamikaze](track_album) album.
+- will you please play something from [Marshal Mather LP II](track_album) album by [Drake](track_artist).
+- Would you please play any track from the album [Young Enough](track_album)?
+- can you play a track from the album [Legend](track_album)?
+- Play the [edm](track_genre) tracks.
+- I wanna listen any track from [What Chaos Is Imaginary](track_album)
+- I would like to groove to an [Blues](track_genre) track
+- Would you please play any song from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- can you play tracks from [Rumours](track_album) album
+- Play any [soundtrack](track_genre) musicc
+- Play some music from the album [Metallica](track_album), will you?
+- Would you please play something from [On the Line](track_album) album by [Sean Paul](track_artist).
+- can you play any song from [Crushing](track_album)?
+- I wanna listen some music from album [Rumours](track_album)
+- I wanna dance to songs from [Bad](track_album)
+- Play any song from album [Appetite for Destruction](track_album), will you?
+- will you please play something from the album [Beware of the Dogs](track_album) by [Kanye West](track_artist)?
+- I would like to groove to some [pop](track_genre) track
+- Would you please play a track from the album [Western Stars](track_album) by [XAMES3](track_artist)?
+- can you please play something by [Usher](track_artist)?
+- some [funk](track_genre) tracks
+- can you play something from the album [Angel's Pulse](track_album) by [Ozuna](track_artist)?
+- please play some [dubstep](track_genre) for us
+- Would you please play tracks from album [Rumours](track_album) by [Shakira](track_artist)?
+- can you play music from album [Kamikaze](track_album) by [Justin Hurwitz](track_artist)?
+- Would you please play tracks from album [The Immaculate Collection](track_album) by [Mad Money](track_artist)?
+- please play some [punk](track_genre) track  for us
+- I would like you to please play the [soundtrack](track_genre) musicc
+- will you please play music from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna listen music from [Revival](track_album)
+- I wanna listen tracks from [Yandhi](track_album) album.
+- cheer me up by playing something from album [Bad](track_album), will you?
+- Play any track from [Oliver Appropriate](track_album), will you?
+- will you please play a track from [Mitsubishi Macchiato](track_album) album by [Rick0 James](track_artist).
+- I would like to listen to some [grunge](track_genre) track
+- will you please play something from [The Wizrd](track_album) album by [Linkin Park](track_artist)
+- will you please play some music from the album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play songs from album [When I Get Home](track_album).
+- Play something from [This is Acting](track_album)
+- Could you please play some [rap](track_genre) songs?
+- I would like to hear the [rap](track_genre) songs
+- I wanna dance to something from the album [Thank U, Next](track_album)
+- Could you please play the [punk](track_genre) track ?
+- can you please play songs from [Legend](track_album)?
+- will you please play a track from album [Notes on a Conditional Form](track_album) by [Ozuna](track_artist)?
+- I wanna dance to any song from [The Immaculate Collection](track_album) album
+- I would like to dance to some [grunge](track_genre) track
+- I wanna listen any track from [New Breed](track_album) album.
+- I will like to have some [metal](track_genre) songs
+- Play the [dubstep](track_genre) track
+- can you please play any music from the album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- I would like to dance to the [blues](track_genre) track
+- Would you please play tracks from album [Flamagra](track_album) by [Eagles](track_artist)?
+- Would you please play any music from [Legend](track_album) by [Snoop Dogg](track_artist)?
+- Play something from album [when we all fall asleep where do we go](track_album) by [Three Days Grace](track_artist), will you?
+- I would like to listen songs from album [Metallica](track_album)
+- can you play music from album [Revival](track_album) by [Cardi B](track_artist)?
+- I wanna listen any track from the album [Chapter VI](track_album)
+- can you please play any music from the album [Bad](track_album)?
+- can you please play music from [Oliver Appropriate](track_album)?
+- Play any song from the album [Legend](track_album), will you?
+- can you play any track from [The Immaculate Collection](track_album) by [Dr. Dre](track_artist)?
+- I wanna dance to any track from [Remind Me Tomorrow](track_album) album.
+- will you please play any song from album [Anima](track_album) by [Dr. Dre](track_artist)?
+- will you please play any music from [Everything Not Saved Will Be Lost—Part 1](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to hear the [hip-hop](track_genre) music
+- can you play some music from album [Angel's Pulse](track_album)?
+- I wanna dance to tracks from [Legend](track_album)
+- I wanna listen a track from [Angel's Pulse](track_album)
+- Play something from [Dedicated](track_album)
+- can you play something from the album [Marshal Mather LP II](track_album)?
+- I would like to listen something from [The Immaculate Collection](track_album)
+- Play something from the album [I Am Easy To Find](track_album), will you?
+- Would you please play tracks from album [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play a track from album [The Immaculate Collection](track_album) by [Three Days Grace](track_artist)?
+- Play any track from the album [On the Line](track_album), will you?
+- cheer me up by playing any track from [The Wizrd](track_album) album, will you?
+- Play any track from the album [Father of the Bride](track_album) by [Lil Wayne](track_artist), will you?
+- can you play tracks from [Bandana](track_album) album
+- I wanna listen any music from album [The Immaculate Collection](track_album)
+- I will like to have the [Electronic](track_genre) music
+- play some music from album [Transformers](track_album)
+- Play any music from [LP3](track_album), will you?
+- I wanna listen any music from [Supernatural](track_album) album.
+- I would like to dance to any [pop](track_genre) beat
+- can you play some music from [Phoenix](track_album)?
+- can you play any track from the album [Quiet Signs](track_album)?
+- will you please play a track from [Let’s Talk About Love](track_album) album by [Kanye West](track_artist).
+- Play a track from [Supernatural](track_album) by [Justin Hurwitz](track_artist), will you?
+- I would like you to please play the [blues](track_genre) songs
+- Could you please play the [blues](track_genre) for us?
+- Play any song from the album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I wanna listen any track from [Dedicated](track_album).
+- Play any track from album [Kamikaze](track_album)
+- I would like to hear the [rap](track_genre)
+- will you please play any music from album [Metallica](track_album)?
+- will you please play a track from [What Chaos Is Imaginary](track_album) by [Justin Hurwitz](track_artist)?
+- I would like to listen tracks from [Rumours](track_album) album
+- will you please play songs from album [This Is How You Smile](track_album) by [Eagles](track_artist)?
+- I wanna dance to songs from [Titanic Rising](track_album).
+- will you please play any track from [Father of the Bride](track_album) album by [Dr. Dre;Eminem](track_artist)
+- cheer me up by playing any song from [Led Zeppelin IV](track_album), will you?
+- Play any [punk](track_genre) beat
+- Would you please play songs from album [Supernatural](track_album) by [Nicki Minaj](track_artist)?
+- Play any track from album [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
+- Play any track from [In League With Dragons](track_album) by [The Chainsmokers](track_artist), will you?
+- Would you please play any music from [Metallica](track_album) album by [Mad Money](track_artist)
+- cheer me up by playing any song from the album [Oasis](track_album), will you?
+- Could you play something by [Selena Gomez](track_artist)?
+- I wanna listen music from album [Let’s Talk About Love](track_album).
+- I would like to hear the [Blues](track_genre)
+- Play some [pop](track_genre)
+- I wanna dance to any track from the album [Angel's Pulse](track_album)
+- can you play a track from [The Black Album](track_album) album by [Cardi B](track_artist).
+- Would you please play any song from [Appetite for Destruction](track_album) album
+- I wanna dance to something from the album [Assume Form](track_album)
+- Play any music from the album [On The Line](track_album)
+- I would like to hear some [dubstep](track_genre) track
+- cheer me up by playing songs from [Appetite for Destruction](track_album), will you?
+- Play songs from album [The Immaculate Collection](track_album).
+- Will you play something by [Ariana Grande](track_artist)?
+- I would like you to please play some [punk](track_genre)
+- can you please play any music from the album [On the Line](track_album)?
+- can you play something from [Assume Form](track_album) by [Three Days Grace](track_artist)?
+- I wanna dance to songs from album [Revival](track_album).
+- I wanna listen any track from the album [Heard It In A Past Life](track_album)
+- Play songs from [What Chaos Is Imaginary](track_album), will you?
+- will you please play any music from [Anima](track_album) album
+- Play tracks from [Crushing](track_album) album, will you?
+- cheer me up by playing something from [Beware of the Dogs](track_album), will you?
+- Would you please play something from [Cuz I Love You](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen tracks from album [When I Get Home](track_album).
+- will you please play songs from album [The Unseen In-Between](track_album)?
+- can you play a track from [Marshal Mather LP II](track_album)?
+- will you please play any track from [Kamikaze](track_album)?
+- Play tracks from album [Beware of the Dogs](track_album) by [Jay-Z](track_artist), will you?
+- will you please play a track from album [Marshal Mather LP II](track_album) by [Ed Sheeran](track_artist)?
+- Play some music from album [Father of the Bride](track_album)
+- will you please play something from [Recovery](track_album) album by [Warner & Chappell](track_artist).
+- I would love to hear to [Mad Money](track_artist)
+- I want to listen to music from [In League With Dragons](track_album) by [Sean Paul](track_artist).
+- I would like to listen a track from album [The Wizrd](track_album)
+- cheer me up by playing tracks from album [New Breed](track_album), will you?
+- Would you please play songs from [Back in Black](track_album) by [Mellen Gi](track_artist)?
+- can you play a track from the album [U.F.O.F](track_album)?
+- please play any [hip-hop](track_genre) music for me
+- Would you please play the [blues](track_genre) track ?
+- Play tracks from album [Appetite for Destruction](track_album).
+- can you play any track from [Harverd Dropout](track_album) by [Coldplay](track_artist)?
+- will you please play songs from [What Chaos Is Imaginary](track_album) by [Drake](track_artist)?
+- I would like to listen music from [Recovery](track_album).
+- Play songs from album [Epic Hip Hop](track_album) by [Warner & Chappell](track_artist), will you?
+- Play some [pop](track_genre) track
+- can you play any track from [Legend](track_album) by [Kanye West](track_artist)?
+- I would like to listen any track from the album [Metallica](track_album)
+- Play any music from [Led Zeppelin IV](track_album) album by [Dr. Dre](track_artist), will you?
+- Would you please play any track from album [The Immaculate Collection](track_album) by [Nicki Minaj](track_artist)?
+- I wanna listen any track from [The Immaculate Collection](track_album) album
+- I would like to listen any song from [Rumours](track_album) album
+- Play any song from album [Mitsubishi Macchiato](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Would you please play songs from [Remind Me Tomorrow](track_album) by [Jay-Z](track_artist)?
+- I wanna dance to tracks from [I Am Easy To Find](track_album) album.
+- Could you please play some [hip-hop](track_genre) track  for us?
+- can you please play any music from album [Supernatural](track_album)?
+- Play a track from [Oasis](track_album) by [Three Days Grace](track_artist), will you?
+- I would like to listen to the [soundtrack](track_genre) musicc
+- can you play any track from [SASAMI](track_album) by [Drake](track_artist)?
+- Play any track from album [When I Get Home](track_album), will you?
+- can you play any song from the album [La La Land](track_album)?
+- cheer me up by playing any song from the album [Bad](track_album), will you?
+- I would like to dance to some [EDM](track_genre) music
+- can you play songs from album [Western Stars](track_album)?
+- can you play songs from [Marshal Mather LP II](track_album)?
+- can you please play any track from the album [Bandana](track_album)?
+- can you play any track from [The Immaculate Collection](track_album) by [Jay-Z](track_artist)?
+- I would like to dance to the [soundtrack](track_genre) music
+- I would like to listen a track from [Anima](track_album) album.
+- Would you please play music from album [when we all fall asleep where do we go](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play a track from [Legend](track_album)?
+- please play any [funk](track_genre) beat for me
+- Play music from album [Dedicated](track_album)
+- can you please play some music from [Metallica](track_album)?
+- I wanna dance to songs from album [Purple Reign](track_album)
+- Play any track from [Rumours](track_album) by [PSY](track_artist), will you?
+- I would like to dance to some [funk](track_genre) songs
+- cheer me up by playing something from album [Appetite for Destruction](track_album), will you?
+- Play a track from [The Wizrd](track_album)
+- I would like to dance to any [funk](track_genre) beat
+- Would you please play the [Blues](track_genre) songs?
+- Would you please play some music from [Flamagra](track_album)?
+- can you play a track from album [Legend](track_album) by [Dr. Dre](track_artist)?
+- I wanna dance to any track from the album [Remind Me Tomorrow](track_album)
+- Would you please play any track from [Marshal Mather LP II](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Would you please play any music from [Sunshine Rock](track_album)?
+- Could you please play some [Metal](track_genre) track ?
+- I would like to listen something from the album [Gallipoli](track_album)
+- I would like to dance to some [soundtrack](track_genre) tracks
+- I would like to listen something from [Appetite for Destruction](track_album)
+- Could you please play the [edm](track_genre) tracks?
+- can you play any music from album [The Saint of Lost Causes](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any song from [Beware of the Dogs](track_album)?
+- please play an [orchestra](track_genre) track for me
+- I would like to dance to music from [Legend](track_album) by [Dr. Dre;Eminem](track_artist).
+- Would you please play any track from [Remind Me Tomorrow](track_album) by [Lil Wayne](track_artist)?
+- Please play the [pop](track_genre) songs
+- please play the [pop](track_genre) music for me
+- I wanna listen a track from [Gallipoli](track_album) album
+- I would like to listen tracks from [Appetite for Destruction](track_album) album
+- Would you please play something from album [The Immaculate Collection](track_album)?
+- Play something from [Western Stars](track_album) album.
+- Would you please play any song from the album [Legend](track_album)?
+- can you play tracks from album [Legend](track_album)?
+- can you play any track from the album [Father of the Bride](track_album)?
+- Play any track from the album [Oh My God](track_album), will you?
+- Would you please play any song from album [Legend](track_album)?
+- Would you please play any track from [Make It Big](track_album) album by [Three Days Grace](track_artist).
+- can you please play any song from the album [Bad](track_album)?
+- I wanna dance to tracks from [Marshal Mather LP II](track_album) album
+- Would you please play any track from the album [On The Line](track_album) by [Cardi B](track_artist)?
+- Play something from the album [TBA](track_album)
+- I would like to listen any track from the album [Beware of the Dogs](track_album)
+- I would like to hear some [punk](track_genre) music
+- Play any song from [The Immaculate Collection](track_album) album, will you?
+- cheer me up by playing something from [Back in Black](track_album), will you?
+- can you play music from album [Let’s Talk About Love](track_album) by [Drake](track_artist)?
+- Play any track from [Let’s Talk About Love](track_album) album.
+- will you please play any music from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [DJ Snake](track_artist)?
+- Would you please play a track from [Gold and Grey](track_album) by [Drake](track_artist)?
+- Play songs from album [Hijas del Tomate](track_album)
+- can you play music from album [Flamagra](track_album) by [Nicki Minaj](track_artist)?
+- Would you please play tracks from [Legend](track_album) album
+- Play any music from [Tip of the Sphere](track_album) album by [Rick0 James](track_artist), will you?
+- please play some [funk](track_genre) track  for us
+- Could you please play the [punk](track_genre) for us?
+- please play some [hip-hop](track_genre) track  for us
+- Would you please play any track from the album [Metallica](track_album)?
+- Play the [rap](track_genre) tracks.
+- Would you please play any song from the album [Heard It in a Past Life](track_album)?
+- Would you please play any song from [What Chaos Is Imaginary](track_album) by [Lil Wayne](track_artist)?
+- I wanna listen some music from album [Flamagra](track_album)
+- Would you please play music from album [On The Line](track_album)?
+- can you please play any music from [Revival](track_album) album
+- Would you please play any music from the album [On the Line](track_album)?
+- can you please play some music from album [Kamikaze](track_album)?
+- Would you please play any track from the album [Thank U, Next](track_album) by [Justin Hurwitz](track_artist)?
+- Would you please play something by [Sia](track_artist)?
+- I will like to have the [punk](track_genre) track
+- Would you please play tracks from [Recovery](track_album)?
+- Could you please play some [hip-hop](track_genre) songs for us?
+- Would you please play any track from album [On the Line](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I wanna listen music from [Phoenix](track_album).
+- Would you please play any track from [The Immaculate Collection](track_album) album
+- will you please play any track from the album [Recovery](track_album) by [Dr. Dre](track_artist)?
+- Would you please play something from [Legend](track_album) album by [Sia](track_artist)
+- will you please play music from album [Outer Peace](track_album)?
+- can you play tracks from album [Slaves of Fear](track_album)?
+- Play a track from [La La Land](track_album) album.
+- I wanna dance to something from the album [Heard It In A Past Life](track_album)
+- Play any song from the album [Rumours](track_album), will you?
+- I wanna dance to tracks from [Anima](track_album).
+- will you please play any song from [Rumours](track_album) album
+- I wanna listen any track from the album [Back in Black](track_album)
+- cheer me up by playing songs from album [The Immaculate Collection](track_album), will you?
+- I wanna listen something from [What Chaos Is Imaginary](track_album).
+- can you play something from [Led Zeppelin IV](track_album) album.
+- can you play something from the album [Led Zeppelin IV](track_album)?
+- Could you please play some [blues](track_genre) track ?
+- will you please play any track from album [Slaves of Fear](track_album)?
+- can you play any music from [Rumours](track_album) by [Drake](track_artist)?
+- Could you please play the [rap](track_genre) tracks for us?
+- I would like you to please play the [metal](track_genre) music
+- I wanna dance to any track from [The Immaculate Collection](track_album) album
+- I would like to listen music from album [The Immaculate Collection](track_album)
+- can you please play any track from [TBA](track_album) album.
+- please play an [orchestra](track_genre) beat for me
+- Would you please play any track from album [Rumours](track_album)?
+- I like music from [Recovery](track_album), please play it for me.
+- can you play any song from [On the Line](track_album)?
+- I wanna dance to tracks from album [Western Stars](track_album)
+- Would you please play any music from album [Revival](track_album)?
+- some [grunge](track_genre) tracks
+- Play some music from [Hijas del Tomate](track_album) by [Coldplay](track_artist), will you?
+- Play songs from album [Bad](track_album), will you?
+- Play any music from album [Beware of the Dogs](track_album), will you?
+- Play some [edm](track_genre) songs
+- I wanna listen any song from album [The Immaculate Collection](track_album)
+- Play any music from the album [Phoenix](track_album) by [Ludacris](track_artist), will you?
+- Play a [jazz](track_genre) music
+- Would you please play any track from [Illuminate](track_album) album by [Eagles](track_artist)
+- I would like to listen any track from [The Immaculate Collection](track_album)
+- I wanna dance to any music from album [What Chaos Is Imaginary](track_album)
+- Please play some [punk](track_genre) track
+- I wanna dance to any track from [Designer](track_album)
+- Would you please play a track from [Led Zeppelin IV](track_album) album by [Cardi B](track_artist).
+- I would like you to please play some [pop](track_genre) music
+- Play some music from album [IGOR](track_album) by [Snoop Dogg](track_artist), will you?
+- please play some [Hiphop](track_genre) track  for us
+- can you please play any song from the album [This is Acting](track_album)?
+- I would like to listen a track from album [Legend](track_album)
+- can you play something from [I Am Easy To Find](track_album) by [Cardi B](track_artist)?
+- Would you please play some music from [What Chaos Is Imaginary](track_album)?
+- will you please play a track from [Remind Me Tomorrow](track_album) by [Lil Wayne](track_artist)?
+- I would like to listen to some [Blues](track_genre) tracks
+- I would like to listen songs from album [Angel's Pulse](track_album)
+- I wanna dance to music from [Father of the Bride](track_album).
+- can you play any track from [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play a track from album [Recovery](track_album) by [Dr. Dre](track_artist)?
+- please play some [hip-hop](track_genre) music
+- please play some [Orchestra](track_genre) music for me
+- Play a track from album [Metallica](track_album), will you?
+- Would you please play any song from [The Saint of Lost Causes](track_album) album by [Celine Dion](track_artist).
+- will you please play any song from [Remind Me Tomorrow](track_album) by [Cardi B](track_artist)?
+- cheer me up by playing something from [Legend](track_album), will you?
+- Play the [Dubstep](track_genre).
+- I would like to listen any track from album [Atlanta Millionaires Club](track_album).
+- Play any music from album [Marshal Mather LP II](track_album), will you?
+- Could you please play the [Hip-hop](track_genre) track  for us?
+- can you play some music from [The Black Album](track_album)?
+- can you play any music from [IGOR](track_album) album by [Eagles](track_artist).
+- Could you please play some [soundtrack](track_genre) for us?
+- I would like to hear some [metal](track_genre) songs
+- Play something from [Kamikaze](track_album) album
+- will you please play any song from the album [In League With Dragons](track_album)?
+- will you please play any track from the album [when we all fall asleep where do we go](track_album) by [Jay-Z](track_artist)?
+- I wanna listen something from the album [What Chaos Is Imaginary](track_album)
+- can you play something from album [Gallipoli](track_album)?
+- will you please play a track from album [Back in Black](track_album)?
+- can you play music from [The Black Album](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any song from album [Sunshine Rock](track_album) by [Dr. Dre](track_artist), will you?
+- I wanna dance to any music from [Dedicated](track_album) album
+- will you please play any song from [Everything Not Saved Will Be Lost—Part 1](track_album) album
+- I would like to groove to some [Rock](track_genre) songs
+- I wanna dance to any music from the album [On The Line](track_album)
+- Play any music from album [Anima](track_album) by [Drake](track_artist), will you?
+- Play any track from [Legend](track_album) album.
+- can you please play a track from [Cuz I Love You](track_album)?
+- Play a track from album [Legend](track_album)
+- I wanna dance to a track from the album [Kamikaze](track_album)
+- I wanna dance to any track from the album [Requiem for a Dream](track_album)
+- Would you please play the [rap](track_genre) tracks?
+- can you play any music from the album [Flamagra](track_album) by [Drake](track_artist)?
+- Would you please play any music from album [The Unseen In-Between](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- Play any song from the album [Supernatural](track_album)
+- Play any track from [Legend](track_album) album, will you?
+- Play some [hip-hop](track_genre) track
+- Play any track from [Oh My God](track_album) album by [Kanye West](track_artist), will you?
+- can you please play tracks from [The Saint of Lost Causes](track_album) album
+- please play the [metal](track_genre) tracks for me
+- I wanna dance to tracks from [Recovery](track_album) album.
+- can you please play any track from [Anima](track_album)?
+- will you please play any song from [Revival](track_album) album
+- I would like you to please play the [dubstep](track_genre) track
+- can you play something from the album [IGOR](track_album) by [Eagles](track_artist)?
+- Please play any [Hip-hop](track_genre) track
+- Play some music from album [Slaves of Fear](track_album)
+- Play something from [The Saint of Lost Causes](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- Play any track from the album [Crushing](track_album), will you?
+- cheer me up by playing any track from [Hijas del Tomate](track_album), will you?
+- I would like to hear to music from [when we all fall asleep where do we go](track_album) by [Post Malone](track_artist)
+- I would like to listen to any [soundtrack](track_genre) track
+- Would you please play an [Rock](track_genre) beat?
+- I would like to listen something from album [Let’s Talk About Love](track_album).
+- I wanna listen any track from [Remind Me Tomorrow](track_album).
+- will you please play any song from the album [What Chaos Is Imaginary](track_album) by [Mad Money](track_artist)?
+- Play songs from [YOU CAN'T SIT WITH US](track_album), will you?
+- I would like to listen a track from album [The Night King](track_album)
+- Play the [blues](track_genre) songs
+- I would like to dance to some [pop](track_genre) songs
+- I wanna dance to any track from [Illuminate](track_album) album.
+- Could you play something by [Usher](track_artist)?
+- can you play any track from [Rumours](track_album) by [Drake](track_artist)?
+- Would you please play songs from [Legend](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I would like to dance to the [edm](track_genre) track
+- Play tracks from album [Illuminate](track_album) by [Rick0 James](track_artist), will you?
+- I would like to listen songs from [Tip of the Sphere](track_album).
+- Play any track from [Gold and Grey](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play songs from [I Am Easy To Find](track_album)?
+- Play tracks from [Appetite for Destruction](track_album) album.
+- cheer me up by playing any track from [Rumours](track_album) album, will you?
+- will you please play songs from [Metallica](track_album)?
+- I will like to have the [Rock](track_genre)
+- Play the [soundtrack](track_genre) songs
+- I wanna listen songs from album [Let’s Talk About Love](track_album).
+- can you please play any music from album [Revival](track_album)?
+- Play any track from [Bandana](track_album) by [Eagles](track_artist), will you?
+- Would you please play any track from [Legend](track_album) album by [Cardi B](track_artist)
+- I wanna dance to something from the album [Gold and Grey](track_album)
+- Please play some [Hip-hop](track_genre) songs
+- Play any song from [Metallica](track_album) album by [Ed Sheeran](track_artist), will you?
+- can you play any track from the album [Good Ass Job](track_album) by [Drake](track_artist)?
+- Would you please play songs from album [Western Stars](track_album) by [50 cents](track_artist)?
+- can you please play any song from the album [Anima](track_album)?
+- Would you please play tracks from [Appetite for Destruction](track_album) album.
+- Would you please play something from the album [This Is How You Smile](track_album)?
+- I wanna dance to tracks from [Legend](track_album) album
+- I wanna listen any track from [Led Zeppelin IV](track_album)
+- please play some [rap](track_genre) music
+- I would like to groove to the [funk](track_genre)
+- will you please play something from [Legend](track_album) by [Mad Money](track_artist)?
+- Please play some [dubstep](track_genre) music
+- can you play a track from the album [Led Zeppelin IV](track_album)?
+- will you please play a track from [The Unseen In-Between](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Could you please play some [metal](track_genre) music for us?
+- I would like to listen any music from the album [Bandana](track_album)
+- I would like to groove to some [edm](track_genre) track
+- Could you play something by [Eagles](track_artist)?
+- I wanna listen a track from [Kamikaze](track_album) album
+- Would you please play any song from [Flamagra](track_album) album
+- please play some [Hip-hop](track_genre) track  for me
+- will you please play any music from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna listen something from [The Saint of Lost Causes](track_album) album.
+- I wanna dance to tracks from [Bad](track_album) album
+- I would like to listen something from the album [Rumours](track_album)
+- I would like to listen to any [Hip-hop](track_genre) music
+- I would like to listen some music from album [Assume Form](track_album)
+- can you play any music from [What Chaos Is Imaginary](track_album)?
+- I would like to hear some [pop](track_genre) songs
+- can you play a track from album [Legend](track_album)?
+- cheer me up by playing songs from album [Gold and Grey](track_album), will you?
+- Would you please play some music from [Rumours](track_album)?
+- Would you please play a track from album [Anima](track_album)?
+- Could you please play any [soundtrack](track_genre) track for us?
+- Would you please play any track from [Oh My God](track_album) by [Coldplay](track_artist)?
+- Could you please play the [Hiphop](track_genre) music for us?
+- Please play the [grunge](track_genre)
+- can you please play any music from [Marshal Mather LP II](track_album) album
+- I wanna listen tracks from [Bad](track_album)
+- I wanna dance to songs from [This Is How You Smile](track_album)
+- Would you please play any [rap](track_genre) beat?
+- I would like to listen to the [hip-hop](track_genre) tracks
+- will you please play some music from album [Metallica](track_album)?
+- can you please play any track from [Everything Not Saved Will Be Lost—Part 1](track_album) album.
+- Could you please play some [grunge](track_genre) music?
+- I would like to dance to [Bruno Mars](track_artist)
+- can you play any track from [Marshal Mather LP II](track_album) album.
+- will you please play a track from the album [New Breed](track_album)?
+- will you please play any music from [Angel's Pulse](track_album) album
+- will you please play any track from the album [Flamagra](track_album) by [Lil Wayne](track_artist)?
+- Would you please play some [edm](track_genre)?
+- will you please play something from [IGOR](track_album) album by [David Guetta](track_artist).
+- will you please play songs from album [Dedicated](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I would like to groove to the [rap](track_genre) music
+- can you please play tracks from [Father of the Bride](track_album) album
+- Would you please play some music from album [Oliver Appropriate](track_album) by [Eminem](track_artist)?
+- Would you please play a track from [The Immaculate Collection](track_album) by [Ludacris](track_artist)?
+- cheer me up by playing tracks from [Bad](track_album), will you?
+- I would like to listen something from album [Led Zeppelin IV](track_album)
+- will you please play any track from the album [Oasis](track_album)?
+- I wanna dance to some music from the album [Appetite for Destruction](track_album)
+- can you play any song from [Angel's Pulse](track_album)?
+- I want to listen something by [Billie Eilish](track_artist)
+- can you please play any song from album [The Immaculate Collection](track_album)?
+- I wanna dance to any track from the album [Back in Black](track_album)
+- I would like to groove to any [dubstep](track_genre) beat
+- I wanna listen something from the album [Young Enough](track_album)
+- can you play any song from the album [Norman Fucking Rockwell](track_album)?
+- I wanna dance to any track from [The Marshall Mathers LP 2 Disc 2](track_album)
+- will you please play a track from album [Oliver Appropriate](track_album)?
+- Play something from [The Immaculate Collection](track_album) album, will you?
+- I would like to listen any music from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would like you to please play some [soundtrack](track_genre) track
+- I would like to dance to some [pop](track_genre) tracks
+- please play some [blues](track_genre) for me
+- I would like to hear to music from [Epic Hip Hop](track_album) by [Mad Money](track_artist)
+- I wanna dance to songs from [Lets Try the After](track_album).
+- I would love to dance to [Halsey](track_artist)
+- I would like to groove to the [blues](track_genre) track
+- Could you please play any [pop](track_genre) track?
+- I would love to hear to [Khalid](track_artist)
+- Would you please play the [edm](track_genre) songs?
+- I would like to listen to any [soundtrack](track_genre) music
+- I would like to listen any track from [Gold and Grey](track_album) album.
+- I wanna dance to a track from the album [Father of the Bride](track_album)
+- Please play any [pop](track_genre) beat
+- I would like to listen any music from [Recovery](track_album) album.
+- I would like to listen tracks from [Led Zeppelin IV](track_album).
+- Could you please play the [metal](track_genre) tracks?
+- Would you please play some [grunge](track_genre) track ?
+- I wanna listen music from album [Make It Big](track_album).
+- will you please play any music from the album [Gold and Grey](track_album)?
+- Play any track from [Hotel California](track_album), will you?
+- I would like to listen to some [rap](track_genre) music
+- I would like to listen tracks from [Outer Peace](track_album) album.
+- Play some music from the album [Recovery](track_album), will you?
+- Play songs from album [Heard It In A Past Life](track_album) by [Akon](track_artist), will you?
+- can you please play something from album [Chapter VI](track_album)?
+- I wanna dance to a track from [Remind Me Tomorrow](track_album)
+- I would like to groove to the [edm](track_genre)
+- I would like to listen some music from album [Hijas del Tomate](track_album)
+- can you play any song from [Let’s Talk About Love](track_album) album.
+- cheer me up by playing something from [Cuz I Love You](track_album), will you?
+- will you please play any track from album [Marshal Mather LP II](track_album)?
+- I would like to listen any song from the album [Titanic Rising](track_album)
+- please play any [punk](track_genre) track for us
+- can you play any track from the album [Back in Black](track_album)?
+- I would like to groove to music from [Oliver Appropriate](track_album) by [Dr. Dre;Eminem](track_artist).
+- will you please play music from album [I Am Easy To Find](track_album)?
+- Would you please play something from album [Remind Me Tomorrow](track_album) by [Cardi B](track_artist)?
+- Play any music from the album [Recovery](track_album)
+- can you play any track from [The Wizrd](track_album) album.
+- I would like to listen any music from album [Led Zeppelin IV](track_album)
+- I wanna dance to music from album [Rumours](track_album)
+- I wanna listen any song from [IGOR](track_album).
+- Please play some [hip-hop](track_genre) track
+- I wanna dance to any song from the album [Outer Peace](track_album)
+- I would like to groove to some [rap](track_genre)
+- I would like to listen any song from [Bad](track_album) album
+- play [rap](track_genre) for me dear
+- Would you please play tracks from album [Back in Black](track_album)?
+- Play music from album [Titanic Rising](track_album), will you?
+- can you play any music from [Purple Reign](track_album) album by [Dr. Dre](track_artist)
+- Play tracks from [Kamikaze](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play some music from the album [Titanic Rising](track_album) by [Drake](track_artist), will you?
+- I would like to listen to some [punk](track_genre) songs
+- can you please play tracks from [Atlanta Millionaires Club](track_album)?
+- will you please play something from [Legend](track_album) album
+- I would like to hear the [pop](track_genre) track
+- cheer me up by playing something from album [Led Zeppelin IV](track_album), will you?
+- I would like to hear the [dubstep](track_genre) track
+- Would you please play any track from [Oliver Appropriate](track_album) by [Eagles](track_artist)?
+- I would like to listen something from [Marshal Mather LP II](track_album) album.
+- Play tracks from [Metallica](track_album) album
+- Play something from [Quiet Signs](track_album) album.
+- can you play music from [Led Zeppelin IV](track_album) by [Dr. Dre](track_artist)?
+- will you please play any track from the album [Designer](track_album) by [Mad Money](track_artist)?
+- I would love to listen to [Rihanna](track_artist)
+- I wanna listen songs from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- Play something by [Bruno Mars](track_artist)
+- could you please play songs from [Recovery](track_album)?
+- can you play any music from [Beware of the Dogs](track_album) album.
+- I wanna listen any song from the album [when we all fall asleep where do we go](track_album)
+- will you please play any song from [Thank U, Next](track_album) album by [Nicki Minaj](track_artist)
+- I would love to hear to [Akon](track_artist)
+- I wanna dance to any track from the album [Atlanta Millionaires Club](track_album)
+- Would you please play songs from [Thank U, Next](track_album) by [Drake](track_artist)?
+- I would like to listen a track from [Atlanta Millionaires Club](track_album).
+- I would like to listen to music from [LP3](track_album) by [Drake](track_artist).
+- I would like to dance to [Khalid](track_artist)
+- I want to listen to music from [Oliver Appropriate](track_album) by [Post Malone](track_artist)
+- cheer me up by playing songs from album [Tip of the Sphere](track_album), will you?
+- I would like to listen to some [punk](track_genre) track
+- will you please play any track from album [Bad](track_album)?
+- I would like to listen tracks from [Slaves of Fear](track_album).
+- I will like to have any [grunge](track_genre) beat
+- Play a track from [Legend](track_album)
+- can you play music from album [Outer Peace](track_album) by [Lil Wayne](track_artist)?
+- I would like you to please play the [punk](track_genre) music
+- Play any track from the album [The Immaculate Collection](track_album), will you?
+- Play a track from the album [Let’s Talk About Love](track_album)
+- Could you please play any [grunge](track_genre) music?
+- Would you please play something from [Phoenix](track_album)?
+- Would you please play the [Hiphop](track_genre)?
+- can you please play any music from [Metallica](track_album) album
+- will you please play tracks from [Appetite for Destruction](track_album) album by [Drake](track_artist).
+- Play any song from [Oliver Appropriate](track_album) album, will you?
+- Please play any [blues](track_genre) track
+- Play any track from [Marshal Mather LP II](track_album) album by [Warner & Chappell](track_artist), will you?
+- Could you please play the [edm](track_genre)?
+- I would like to listen any track from [Father of the Bride](track_album)
+- please play any [punk](track_genre) music for me
+- I would like to groove to the [hip-hop](track_genre) tracks
+- Would you please play tracks from [Marshal Mather LP II](track_album) by [Eagles](track_artist)?
+- I wanna dance to any track from [Good Ass Job](track_album) album
+- Play a track from album [Legend](track_album), will you?
+- can you please play some music from [Gold and Grey](track_album)?
+- can you play a track from [Revival](track_album)?
+- cheer me up by playing something from the album [Atlanta Millionaires Club](track_album), will you?
+- I would like you to please play some [soundtrack](track_genre) tracks
+- Would you please play music from album [Oasis](track_album) by [Cardi B](track_artist)?
+- Would you please play any track from the album [YOU CAN'T SIT WITH US](track_album) by [Drake](track_artist)?
+- I would like to listen any track from the album [This Is How You Smile](track_album)
+- will you please play songs from [Designer](track_album) by [Future](track_artist)?
+- Play a track from the album [On the Line](track_album), will you?
+- Will you play something by [Selena Gomez](track_artist)?
+- will you please play something from the album [Legend](track_album)?
+- Could we get something by [Selena Gomez](track_artist)?
+- Play any music from [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- can you please play any track from [Bad](track_album) album
+- Play any song from [Remind Me Tomorrow](track_album).
+- I would like to listen songs from [Requiem for a Dream](track_album)
+- I would like to groove to any [pop](track_genre) track
+- Would you please play a track from [Illuminate](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I would like to listen some music from [Marshal Mather LP II](track_album)
+- I would like to hear some [dubstep](track_genre)
+- can you play any music from the album [Legend](track_album)?
+- I wanna listen something from album [Crushing](track_album)
+- please play the [soundtrack](track_genre) for us
+- can you play any music from [LP3](track_album) album by [Drake](track_artist).
+- will you please play a track from [I Am Easy To Find](track_album) album
+- I would like to listen some music from the album [Marshal Mather LP II](track_album)
+- I wanna listen any track from [Oasis](track_album) album
+- will you please play songs from [Cuz I Love You](track_album) by [Nicki Minaj](track_artist)?
+- can you please play some music from [Legend](track_album)?
+- I wanna dance to any song from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- will you please play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Clint Mansell](track_artist)
+- Would you please play tracks from [Revival](track_album) album by [Dr. Dre;Eminem](track_artist).
+- I will like to have some [dubstep](track_genre) music
+- can you play songs from [Appetite for Destruction](track_album)?
+- can you play any track from album [Marshal Mather LP II](track_album) by [Jay-Z](track_artist)?
+- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna listen any music from [Let’s Talk About Love](track_album) album.
+- Play the [blues](track_genre) music
+- Play any track from the album [Recovery](track_album), will you?
+- Play the [pop](track_genre) tune.
+- I would like to listen any song from [EVEN IN THE TREMOR](track_album).
+- Would you please play an [orchestra](track_genre) tunes?
+- cheer me up by playing something from [YOU CAN'T SIT WITH US](track_album).
+- I would like to listen to the [soundtrack](track_genre) music
+- Please play the [Hiphop](track_genre) songs
+- will you please play any song from [Metallica](track_album) album by [Ed Sheeran](track_artist)
+- Would you please play a track from the album [Let’s Talk About Love](track_album)?
+- can you play a track from album [Kamikaze](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I wanna listen songs from [Thank U, Next](track_album).
+- will you please play any music from [Titanic Rising](track_album) album by [Dr. Dre;Eminem](track_artist)
+- will you please play tracks from [Remind Me Tomorrow](track_album) by [Akon](track_artist)?
+- can you please play some music from the album [Beware of the Dogs](track_album)?
+- can you please play any song from [Revival](track_album) album
+- I wanna listen songs from [What Chaos Is Imaginary](track_album)
+- will you please play any music from the album [Notes on a Conditional Form](track_album) by [George Michael](track_artist)?
+- can you play tracks from [Heard It in a Past Life](track_album) album by [Charlotte Rose Ellis](track_artist).
+- I wanna dance to any track from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would like to listen a track from the album [Oliver Appropriate](track_album)
+- I would love to dance to [Alan Walker](track_artist)
+- can you play tracks from [YOU CAN'T SIT WITH US](track_album)?
+- Play a track from [Dedicated](track_album)
+- I will like to have the [hip-hop](track_genre) track
+- will you please play any track from album [Sunshine Rock](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any music from [EVEN IN THE TREMOR](track_album)?
+- I would like to listen some music from album [Legend](track_album)
+- Would you play something by [Adele](track_artist)?
+- Please play any [soundtrack](track_genre) musicc
+- Play music from [I Am Easy To Find](track_album) by [George Michael](track_artist), will you?
+- I would love to listen to [Bruno Mars](track_artist)
+- Would you please play songs from [Marshal Mather LP II](track_album) by [Future](track_artist)?
+- I would like you to please play some [edm](track_genre) tracks
+- Would you please play any song from album [Western Stars](track_album)?
+- Play something from the album [Legend](track_album) by [Future](track_artist), will you?
+- Play music from [YOU CAN'T SIT WITH US](track_album).
+- I would like to hear the [grunge](track_genre)
+- Play some music from the album [In League With Dragons](track_album)
+- will you please play something from [Notes on a Conditional Form](track_album) by [Mellen Gi](track_artist)?
+- will you please play any music from [The Immaculate Collection](track_album) album
+- Play any track from the album [Western Stars](track_album) by [Eminem](track_artist), will you?
+- yup, play music by [Eminem](track_artist).
+- Could you please play the [soundtrack](track_genre) musicc?
+- Play tracks from album [Designer](track_album) by [Drake](track_artist), will you?
+- will you please play something from album [Supernatural](track_album) by [Lil Wayne](track_artist)?
+- I wanna dance to any music from [Flamagra](track_album) album
+- I would like you to please play some [Pop](track_genre) music
+- I am feeling little low. cheer me [up](direction).
+- I would like you to please play some [pop](track_genre) tracks
+- Would you please play music from [The Immaculate Collection](track_album)?
+- Would you please play the [blues](track_genre) songs?
+- Play something from [SASAMI](track_album) album
+- can you please play any track from [I Am Easy To Find](track_album)?
+- I wanna dance to any song from [Yandhi](track_album)
+- will you please play a track from [Legend](track_album)?
+- will you please play any music from the album [Supernatural](track_album)?
+- will you please play something from album [In League With Dragons](track_album)?
+- I wanna dance to songs from album [Thank U, Next](track_album)
+- can you play tracks from [Kamikaze](track_album) album by [Future](track_artist)
+- I wanna dance to a track from the album [TBA](track_album)
+- can you please play any music from album [Let’s Talk About Love](track_album)?
+- I would like to dance to the [Metal](track_genre) music
+- Please play some [pop](track_genre)
+- will you please play music from [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Titanic Rising](track_album) album, will you?
+- I will like to have some [Grunge](track_genre) songs
+- can you please play any music from the album [Thank U, Next](track_album)?
+- Could you please play any [punk](track_genre) beat for us?
+- Would you please play any music from album [Kamikaze](track_album)?
+- will you please play some music from [Metallica](track_album)?
+- Play music from album [Illuminate](track_album) by [Jay-Z](track_artist), will you?
+- I would like you to please play some [edm](track_genre) track
+- can you please play a track from [Let’s Talk About Love](track_album) album.
+- will you please play a track from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Queen](track_artist)?
+- will you please play any song from the album [Bad](track_album) by [Warner & Chappell](track_artist)?
+- I wanna listen any track from the album [The Immaculate Collection](track_album)
+- I would like to hear some [hip-hop](track_genre) track
+- I would like to groove to music from [Bad](track_album) by [The Chainsmokers](track_artist)
+- I wanna listen any track from [Bad](track_album) album
+- I wanna listen some music from [Back in Black](track_album)
+- Play any track from the album [Kamikaze](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- I would like to listen any song from [Flamagra](track_album).
+- I would like to groove to the [soundtrack](track_genre) songs
+- I wanna dance to music from album [Metallica](track_album)
+- I wanna dance to any track from album [Angel's Pulse](track_album)
+- I wanna listen a track from [Lets Try the After](track_album) album
+- Play some music from album [In League With Dragons](track_album) by [Kanye West](track_artist), will you?
+- Would you please play tracks from [Remind Me Tomorrow](track_album)?
+- Play something from album [Angel's Pulse](track_album), will you?
+- Would you please play any song from the album [Marshal Mather LP II](track_album) by [XAMES3](track_artist)?
+- I would like to hear to [Imagine Dragons](track_artist)
+- Play tracks from [Bandana](track_album) album by [Ludacris](track_artist), will you?
+- I would like to dance to any [hip-hop](track_genre) beat
+- Play any music from [Legend](track_album) album, will you?
+- I will like to have the [funk](track_genre) tracks
+- Would you please play the [rap](track_genre) track ?
+- Play any track from the album [Led Zeppelin IV](track_album), will you?
+- will you please play a track from [Good Ass Job](track_album)?
+- can you play tracks from album [Bad](track_album) by [Sean Paul](track_artist)?
+- Play something from [Buoys](track_album)
+- Play some [Dubstep](track_genre) music
+- will you please play something from the album [EVEN IN THE TREMOR](track_album)?
+- will you please play any music from album [Legend](track_album)?
+- I would like to groove to any [soundtrack](track_genre) musicc
+- I wanna dance to any music from [Tip of the Sphere](track_album) album
+- Play any track from [SASAMI](track_album), will you?
+- can you play a track from the album [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen some music from album [The Immaculate Collection](track_album)
+- I wanna dance to any track from the album [Bad](track_album)
+- please play some [grunge](track_genre) track  for us
+- I would like to listen any track from the album [Led Zeppelin IV](track_album)
+- Would you please play something from album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play something from album [Supernatural](track_album)?
+- Play any track from the album [Bad](track_album) by [Bonobo](track_artist), will you?
+- Would you please play music from album [Recovery](track_album) by [George Michael](track_artist)?
+- Play music from album [Legend](track_album)
+- Play tracks from [Recovery](track_album) album.
+- I would like to listen tracks from [Legend](track_album)
+- I wanna listen any music from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- please play some [blues](track_genre) track  for me
+- I will like to have the [Rap](track_genre) songs
+- will you please play something from [Atlanta Millionaires Club](track_album) by [Kanye West](track_artist)?
+- Would you please play tracks from [The Immaculate Collection](track_album)?
+- Play something from the album [IGOR](track_album) by [Cardi B](track_artist), will you?
+- can you please play any song from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- cheer me up by playing any song from the album [The Immaculate Collection](track_album), will you?
+- Would you please play any track from [The Immaculate Collection](track_album) by [Coldplay](track_artist)?
+- Could you please play some [edm](track_genre) songs for us?
+- I would like to dance to the [grunge](track_genre) track
+- will you please play tracks from album [Appetite for Destruction](track_album)?
+- please play any [blues](track_genre) beat for me
+- will you please play any song from album [The Immaculate Collection](track_album)?
+- will you please play tracks from [Recovery](track_album)?
+- Would you please play any track from [The Black Album](track_album) album.
+- Play any music from album [Dedicated](track_album).
+- can you play any track from the album [The Night King](track_album) by [Kanye West](track_artist)?
+- I would like to hear some [edm](track_genre) track
+- can you please play something from the album [Legend](track_album)?
+- can you please play a track from [Father of the Bride](track_album) album.
+- I would like to groove to any [hip-hop](track_genre) beat
+- I would like to groove to the [soundtrack](track_genre) musicc
+- Would you please play something from album [Legend](track_album)?
+- I would like to listen any song from [Appetite for Destruction](track_album)
+- Would you please play any music from [Bandana](track_album) by [Alan Walker](track_artist)?
+- I will like to have any [rap](track_genre) track
+- can you please play some music from album [Good Ass Job](track_album)?
+- will you please play something from the album [Metallica](track_album) by [Eagles](track_artist)?
+- will you please play any track from [Rumours](track_album) album by [Kanye West](track_artist)
+- Would you please play tracks from album [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any music from [Gold and Grey](track_album) album
+- I would like to listen any music from the album [Illuminate](track_album)
+- I wanna listen any music from the album [Marshal Mather LP II](track_album)
+- Would you please play songs from [Recovery](track_album)?
+- Could you please play the [Electronic](track_genre) music?
+- I would like to listen to any [Grunge](track_genre) track
+- can you play any music from album [Legend](track_album)?
+- I wanna listen any music from the album [Lets Try the After](track_album)
+- Play any music from album [Slaves of Fear](track_album)
+- I wanna listen a track from album [Father of the Bride](track_album)
+- can you please play any track from album [Epic Hip Hop](track_album)?
+- I would like to listen to the [EDM](track_genre) music
+- I would like to groove to any [metal](track_genre) track
+- cheer me up by playing tracks from [Atlanta Millionaires Club](track_album) album, will you?
+- can you please play any song from the album [The Immaculate Collection](track_album)?
+- can you please play some music from the album [Legend](track_album)?
+- will you please play any song from the album [Heard It In A Past Life](track_album)?
+- I wanna listen a track from the album [The Immaculate Collection](track_album)
+- Would you please play something from the album [Designer](track_album) by [XAMES3](track_artist)?
+- will you please play music from album [Legend](track_album)?
+- I would like to listen to some [blues](track_genre) songs
+- can you play some music from album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play tracks from [Oliver Appropriate](track_album) album by [Sean Paul](track_artist), will you?
+- will you please play any song from [U.F.O.F](track_album) album
+- I wanna listen tracks from album [Bad](track_album)
+- Would you please play songs from [Back in Black](track_album)?
+- Play any track from album [I Am Easy To Find](track_album) by [Clint Mansell](track_artist), will you?
+- Would you please play some music from the album [Thank U, Next](track_album) by [Cardi B](track_artist)?
+- I would like to listen tracks from [Sunshine Rock](track_album) album
+- will you please play music from album [Thank U, Next](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen some music from the album [Bad](track_album)
+- can you please play songs from [Metallica](track_album)?
+- I would like you to please play the [Blues](track_genre) tracks
+- Would you please play a track from [Legend](track_album) album by [Drake](track_artist)
+- will you please play any track from [Remind Me Tomorrow](track_album) album by [Sean Paul](track_artist)
+- I wanna listen a track from album [The Saint of Lost Causes](track_album)
+- please play an [orchestra](track_genre) song for me
+- I will like to have the [pop](track_genre) tracks
+- can you play tracks from [Phoenix](track_album)?
+- will you please play songs from album [U.F.O.F](track_album) by [Ludacris](track_artist)?
+- can you please play something from [Oh My God](track_album) album
+- Please play any [soundtrack](track_genre) track
+- can you play any track from album [Legend](track_album) by [Eminem](track_artist)?
+- Play any track from the album [Notes on a Conditional Form](track_album) by [The Chainsmokers](track_artist), will you?
+- Play a track from [Angel's Pulse](track_album)
+- Play any music from album [Designer](track_album), will you?
+- Play [metal](track_genre) music
+- can you please play any track from [Western Stars](track_album) album
+- Would you please play something from [Supernatural](track_album)?
+- I would like to listen something from album [On the Line](track_album)
+- Would you please play songs from album [Anima](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I wanna listen any song from [When I Get Home](track_album).
+- can you play something from [Flamagra](track_album) by [Rick0 James](track_artist)?
+- I would like to listen to the [funk](track_genre) songs
+- Play any track from [Harverd Dropout](track_album)
+- Play something from [Phoenix](track_album)
+- I wanna listen any song from [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you play tracks from [The Immaculate Collection](track_album)?
+- Would you please play songs from [Let’s Talk About Love](track_album)?
+- I wanna dance to any song from [Designer](track_album)
+- can you please play some music from album [I Am Easy To Find](track_album)?
+- I would like to dance to some [soundtrack](track_genre) music
+- can you please play something from [The Immaculate Collection](track_album) album
+- play music from [Recovery](track_album).
+- I wanna dance to a track from [When I Get Home](track_album) album
+- I would like you to please play any [metal](track_genre) track
+- please play any [grunge](track_genre) music for us
+- I would like to listen any track from album [What Chaos Is Imaginary](track_album).
+- can you play music from album [Legend](track_album) by [Linkin Park](track_artist)?
+- Play any track from the album [Led Zeppelin IV](track_album)
+- I would like to groove to any [punk](track_genre) track
+- will you please play any track from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Rick0 James](track_artist)?
+- Play songs from [IGOR](track_album), will you?
+- can you please play something by [Selena Gomez](track_artist)?
+- Play any track from album [Remind Me Tomorrow](track_album) by [Jay-Z](track_artist), will you?
+- Please play some [punk](track_genre) songs
+- Please play some [rap](track_genre)
+- Play something from the album [Rumours](track_album) by [XAMES3](track_artist), will you?
+- I would like to groove to any [blues](track_genre) beat
+- I would like to listen to some [punk](track_genre)
+- can you play any track from album [EVEN IN THE TREMOR](track_album)?
+- can you play something from the album [Cuz I Love You](track_album) by [Bonobo](track_artist)?
+- Play any song from album [Crushing](track_album), will you?
+- can you play tracks from [Outer Peace](track_album) album by [Kanye West](track_artist).
+- I would like to listen a track from [On the Line](track_album) album
+- Play tracks from [Kamikaze](track_album) album
+- Would you please play any song from [Designer](track_album) album by [Lil Wayne](track_artist)
+- I would like to hear some [funk](track_genre) track
+- can you play any track from [Oh My God](track_album) album by [George Michael](track_artist)
+- can you play any track from the album [Tip of the Sphere](track_album) by [Drake](track_artist)?
+- cheer me up by playing any song from [Bad](track_album), will you?
+- I wanna dance to music from album [Supernatural](track_album).
+- Play something from [Legend](track_album) album
+- Play any track from [Notes on a Conditional Form](track_album) album, will you?
+- I wanna listen any song from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you play any track from [Marshal Mather LP II](track_album)?
+- Play any track from [Angel's Pulse](track_album)
+- Please play some [metal](track_genre) music
+- Play something by [Akon](track_artist)
+- will you please play any song from album [Appetite for Destruction](track_album)?
+- can you please play any song from [I Am Easy To Find](track_album)?
+- can you play tracks from [Lets Try the After](track_album)?
+- Would you please play some music from album [Legend](track_album) by [Kanye West](track_artist)?
+- Would you please play songs from album [Angel's Pulse](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play something from the album [In League With Dragons](track_album)?
+- Would you please play tracks from [The Night King](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play a track from [Epic Hip Hop](track_album) album
+- can you play a track from [Legend](track_album)?
+- I wanna listen tracks from [Rumours](track_album) album
+- can you play a track from the album [Bad](track_album)?
+- Play tracks from [IGOR](track_album) by [George Michael](track_artist), will you?
+- Play some music from album [Mitsubishi Macchiato](track_album)
+- will you please play any music from [On the Line](track_album)?
+- Could you please play some [Electronic](track_genre) music for us?
+- I would like to groove to an [Funk](track_genre) song
+- Play any music from [Flamagra](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- please play the [soundtrack](track_genre) tracks for me
+- will you please play something from the album [Appetite for Destruction](track_album)?
+- Play a track from the album [Western Stars](track_album)
+- Play any track from [Back in Black](track_album), will you?
+- Play some music from [Recovery](track_album).
+- Play any track from the album [Let’s Talk About Love](track_album) by [Ozuna](track_artist), will you?
+- I would like to listen any music from the album [Assume Form](track_album)
+- can you play any music from album [Assume Form](track_album) by [Snoop Dogg](track_artist)?
+- will you please play a track from the album [Metallica](track_album)?
+- will you please play music from [This Is How You Smile](track_album)?
+- I would like to listen songs from [Oh My God](track_album).
+- I would like you to please play any [rap](track_genre) music
+- I would like to listen any song from the album [Western Stars](track_album)
+- Play some [grunge](track_genre) songs
+- I will like to have the [blues](track_genre) tracks
+- will you please play any music from the album [Young Enough](track_album)?
+- Could you please play some [dubstep](track_genre) songs for us?
+- can you please play any song from the album [Metallica](track_album)?
+- Play something from album [Led Zeppelin IV](track_album) by [Ed Sheeran](track_artist), will you?
+- Play something by [Khalid](track_artist)
+- cheer me up by playing any song from [Mitsubishi Macchiato](track_album), will you?
+- I would like to groove to music from [Illuminate](track_album) by [Jay-Z](track_artist).
+- Play any music from [Phoenix](track_album) album, will you?
+- Would you please play any song from album [Hijas del Tomate](track_album)?
+- will you please play any music from [Make It Big](track_album)?
+- will you please play some music from [The Marshall Mathers LP 2 Disc 2](track_album) by [Ozuna](track_artist)?
+- Would you please play the [soundtrack](track_genre) beat?
+- Play tracks by [Adele](track_artist)
+- can you please play any music from album [Hijas del Tomate](track_album)?
+- I would like to listen to some [funk](track_genre) songs
+- Play any track from [Father of the Bride](track_album)
+- I wanna dance to any song from album [Thank U, Next](track_album).
+- I wanna dance to a track from the album [Oasis](track_album)
+- I wanna dance to some music from album [Legend](track_album)
+- Play some [grunge](track_genre) music
+- please play any [dubstep](track_genre) track for us
+- Would you please play some music from the album [Flamagra](track_album) by [50 cents](track_artist)?
+- Could you please play some [Rock](track_genre) music?
+- Play a track from the album [Gold and Grey](track_album) by [Diplo](track_artist), will you?
+- Would you please play a track from [Outer Peace](track_album) album
+- will you please play music from album [The Wizrd](track_album) by [Kanye West](track_artist)?
+- I want to listen to music from [Designer](track_album) by [Eminem](track_artist)
+- will you please play a track from the album [The Unseen In-Between](track_album) by [Drake](track_artist)?
+- Could you please play the [soundtrack](track_genre)?
+- can you please play any music from [The Saint of Lost Causes](track_album) album
+- Play something by [Halsey](track_artist)
+- will you please play any music from album [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to dance to the [punk](track_genre) track
+- Could you please play some [edm](track_genre) for us?
+- can you play some music from [Angel's Pulse](track_album)?
+- Would you please play any track from album [Legend](track_album) by [Alan Walker](track_artist)?
+- I would like to dance to the [grunge](track_genre) music
+- can you play a track from [The Immaculate Collection](track_album) by [Bonobo](track_artist)?
+- I want to listen to music from [Crushing](track_album) by [Future](track_artist).
+- will you please play any track from album [The Immaculate Collection](track_album)?
+- I would love to listen to [Halsey](track_artist)
+- Play songs from album [Led Zeppelin IV](track_album).
+- cheer me up by playing songs from [Crushing](track_album), will you?
+- Please play any [funk](track_genre) track
+- can you please play tracks from [Revival](track_album)?
+- can you play any music from album [Titanic Rising](track_album) by [Post Malone](track_artist)?
+- I wanna dance to a track from [The Immaculate Collection](track_album)
+- Would you please play any [grunge](track_genre) beat?
+- can you play any track from [Beware of the Dogs](track_album)?
+- please play the [blues](track_genre) songs for us
+- I would like to listen to some [pop](track_genre) track
+- Would you please play any song from [Oasis](track_album)?
+- can you play tracks from album [The Saint of Lost Causes](track_album)?
+- I would like to listen songs from [The Unseen In-Between](track_album).
+- Would you please play any track from [Hotel California](track_album) album by [Cardi B](track_artist)
+- Play something from [Rumours](track_album), will you?
+- cheer me up by playing any song from the album [Appetite for Destruction](track_album), will you?
+- will you please play something from album [Oasis](track_album)?
+- will you please play any music from [Legend](track_album) by [Bonobo](track_artist)?
+- will you please play something from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Ludacris](track_artist)?
+- Please play any [Jazz](track_genre) music
+- can you play something from [Revival](track_album) album.
+- I would like to dance to any [blues](track_genre) beat
+- will you please play a track from album [YOU CAN'T SIT WITH US](track_album) by [Future](track_artist)?
+- Play some [soundtrack](track_genre) songs
+- Play any track from [Western Stars](track_album) album, will you?
+- I wanna listen music from [Legend](track_album)
+- Play some music from [Recovery](track_album) by [Ludacris](track_artist), will you?
+- I would like to dance to music from [Crushing](track_album) by [Justin Timberlake](track_artist)
+- Play any track from [Bad](track_album) album by [Jay-Z](track_artist), will you?
+- Would you please play songs from [Metallica](track_album) by [Mellen Gi](track_artist)?
+- Would you please play the [funk](track_genre) track ?
+- Would you please play some [grunge](track_genre)?
+- I would like to listen any music from [LP3](track_album)
+- cheer me up by playing any track from [Hotel California](track_album) album, will you?
+- Play any track from [On The Line](track_album)
+- will you please play something from the album [Revival](track_album)?
+- Would you please play songs from album [Western Stars](track_album) by [Drake](track_artist)?
+- can you play something from [Let’s Talk About Love](track_album) by [Dr. Dre](track_artist)?
+- will you please play any song from [Oh My God](track_album) by [Drake](track_artist)?
+- Would you please play any song from [Harverd Dropout](track_album)?
+- will you please play a track from [Oliver Appropriate](track_album) album
+- Could you please play some [blues](track_genre) music?
+- I would like to listen some music from the album [When I Get Home](track_album)
+- can you please play songs from album [Bandana](track_album)?
+- Play a track from [When I Get Home](track_album) album.
+- will you please play any song from album [New Breed](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen any track from the album [Legend](track_album)
+- I would like to dance to the [grunge](track_genre) tracks
+- can you play any track from album [On The Line](track_album)?
+- Would you please play some [dubstep](track_genre) songs?
+- I wanna hear to artist called as [Ray Vega](track_artist).
+- I wanna listen any track from [Supernatural](track_album).
+- I wanna dance to some music from [Remind Me Tomorrow](track_album)
+- Play something from the album [Gallipoli](track_album)
+- Play any song from the album [New Breed](track_album) by [Mad Money](track_artist), will you?
+- Please play the [dubstep](track_genre)
+- will you please play a track from [Oliver Appropriate](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen any song from album [Atlanta Millionaires Club](track_album)
+- Play a track from the album [Supernatural](track_album), will you?
+- will you please play any track from [Cuz I Love You](track_album) by [Nate Dogg](track_artist)?
+- I would like you to please play any [soundtrack](track_genre) track
+- will you please play a track from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you please play any track from [When I Get Home](track_album)?
+- can you please play any track from album [Revival](track_album)?
+- can you play any song from the album [Let’s Talk About Love](track_album)?
+- will you please play something from album [EVEN IN THE TREMOR](track_album) by [Drake](track_artist)?
+- Play any song from [The Immaculate Collection](track_album), will you?
+- will you please play any track from the album [The Immaculate Collection](track_album) by [Eagles](track_artist)?
+- I wanna dance to a track from [Young Enough](track_album)
+- Could you please play some [soundtrack](track_genre) musicc for us?
+- Would you please play some music from the album [The Immaculate Collection](track_album) by [Kanye West](track_artist)?
+- Would you please play a track from [Lets Try the After](track_album) by [Justin Hurwitz](track_artist)?
+- Would you please play any track from the album [Revival](track_album) by [Eminem](track_artist)?
+- can you play some music from the album [The Marshall Mathers LP 2 Disc 2]can you ptrack_album)?
+- I wanna dance to some music from album [Hotel California](track_album)
+- can you play something from album [Legend](track_album)?
+- Play any music from [Oh My God](track_album), will you?
+- will you please play any music from [Led Zeppelin IV](track_album) album
+- Would you please play any track from [Phoenix](track_album)?
+- Play any song from album [Revival](track_album), will you?
+- Play some music from [The Unseen In-Between](track_album) by [Ozuna](track_artist), will you?
+- Could you please play some [punk](track_genre) music?
+- Please play the [punk](track_genre) track
+- will you please play songs from album [Legend](track_album) by [Jay-Z](track_artist)?
+- I wanna listen some music from album [Harverd Dropout](track_album).
+- I would like to dance to music from [Angel's Pulse](track_album) by [Kanye West](track_artist).
+- Play something from album [Supernatural](track_album).
+- Could you please play the [rap](track_genre) music?
+- Would you please play any music from the album [The Wizrd](track_album)?
+- Play [Dubstep](track_genre) songs
+- will you please play any music from album [The Saint of Lost Causes](track_album) by [Mad Money](track_artist)?
+- Play music from album [Kamikaze](track_album)
+- Play any music from the album [Supernatural](track_album) by [Celine Dion](track_artist), will you?
+- please play the [soundtrack](track_genre) songs for me
+- can you play some music from album [IGOR](track_album) by [Sia](track_artist)?
+- will you please play songs from album [On the Line](track_album) by [Celine Dion](track_artist)?
+- I would like to listen to the [soundtrack](track_genre) track
+- I would like to groove to some [punk](track_genre) track
+- I would like to listen a track from [Rumours](track_album) album.
+- can you play some music from album [This Is How You Smile](track_album) by [Linkin Park](track_artist)?
+- I would like to listen tracks from album [Hotel California](track_album)
+- can you play some music from album [Rumours](track_album)?
+- Would you please play any track from album [Titanic Rising](track_album) by [Drake](track_artist)?
+- I would like to listen a track from the album [The Craving for Absolute Serenity](track_album)
+- please play some [pop](track_genre) music for me
+- I wanna dance to any music from album [Bad](track_album)
+- Would you please play the [punk](track_genre) track ?
+- cheer me up by playing tracks from album [LP3](track_album), will you?
+- Play a track from [Legend](track_album), will you?
+- Play a track from the album [Supernatural](track_album) by [Mad Money](track_artist), will you?
+- I wanna listen music from [Heard It in a Past Life](track_album)
+- Play any song from [Rumours](track_album) album
+- I wanna dance to songs from [Recovery](track_album).
+- can you please play any music from album [Beware of the Dogs](track_album)?
+- can you play any music from the album [Marshal Mather LP II](track_album) by [Kanye West](track_artist)?
+- Play music from [Oasis](track_album) by [Nate Dogg](track_artist), will you?
+- I would like to listen something from album [Angel's Pulse](track_album)
+- I wanna listen any song from the album [Led Zeppelin IV](track_album)
+- Play songs from [Legend](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Would you please play songs from [Recovery](track_album) by [PSY](track_artist)?
+- I would like to hear the [pop](track_genre)
+- Would you please play any song from the album [Beware of the Dogs](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play tracks from album [Oasis](track_album)?
+- I wanna listen any track from [Quiet Signs](track_album)
+- will you please play any song from [Legend](track_album)?
+- will you please play songs from album [Oliver Appropriate](track_album) by [Fifth Harmony](track_artist)?
+- cheer me up by playing songs from album [Led Zeppelin IV](track_album), will you?
+- can you play a track from [Rumours](track_album) album by [Ludacris](track_artist).
+- Could you please play some [dubstep](track_genre)?
+- Play music from album [Supernatural](track_album).
+- can you play any track from [TBA](track_album) by [XAMES3](track_artist)?
+- please play any [hip-hop](track_genre) track for us
+- I would like to dance to some [metal](track_genre) tracks
+- please play any [soundtrack](track_genre) track for me
+- will you please play some music from the album [Angel's Pulse](track_album)?
+- Would you please play songs from album [The Immaculate Collection](track_album)?
+- will you please play songs from [The Wizrd](track_album)?
+- please play the [dubstep](track_genre) songs for us
+- can you please play some music from the album [Recovery](track_album)?
+- can you please play any music from [When I Get Home](track_album) album
+- Play tracks from [Appetite for Destruction](track_album).
+- Play songs from [Heard It In A Past Life](track_album), will you?
+- can you play something from the album [Legend](track_album)?
+- please play the [pop](track_genre) music for us
+- will you please play songs from [The Unseen In-Between](track_album)?
+- I wanna listen something from album [The Saint of Lost Causes](track_album).
+- Play any track from album [What Chaos Is Imaginary](track_album)
+- can you play any song from [Revival](track_album) album
+- Would you please play music from album [Recovery](track_album)?
+- I would like to listen to some [hip-hop](track_genre) music
+- Play songs from [Oliver Appropriate](track_album).
+- I would like to listen any music from album [Led Zeppelin IV](track_album).
+- I would like you to please play some [edm](track_genre)
+- can you play any track from album [The Immaculate Collection](track_album) by [Lil Wayne](track_artist)?
+- I would like to listen music from album [Hijas del Tomate](track_album).
+- please play any [dubstep](track_genre) beat for me
+- I want to listen something by [Eagles](track_artist)
+- I would like to listen songs from album [Mitsubishi Macchiato](track_album)
+- i want to relax myself by music
+- I would like to dance to the [soundtrack](track_genre)
+- I would like to listen any song from the album [On the Line](track_album)
+- Play some music from the album [Appetite for Destruction](track_album), will you?
+- can you play any track from album [On the Line](track_album)?
+- I would like to listen to the [rap](track_genre)
+- Play something from [Atlanta Millionaires Club](track_album) album.
+- Play any track from [Hijas del Tomate](track_album), will you?
+- Would you please play any track from [Recovery](track_album) album.
+- can you play music from [Norman Fucking Rockwell](track_album)?
+- Would you please play any song from album [Oh My God](track_album) by [Drake](track_artist)?
+- please play some [soundtrack](track_genre) for us
+- can you please play something from the album [U.F.O.F](track_album)?
+- will you please play any music from album [The Craving for Absolute Serenity](track_album)?
+- Play any song from [Flamagra](track_album) album by [Ludacris](track_artist), will you?
+- Would you please play any music from the album [The Immaculate Collection](track_album)?
+- please play any [Pop](track_genre) music for us
+- I wanna listen something from [What Chaos Is Imaginary](track_album) album
+- can you play music from [Requiem for a Dream](track_album) by [Jay-Z](track_artist)?
+- I will like to have the [edm](track_genre) music
+- can you play some music from album [The Immaculate Collection](track_album)?
+- Play music from album [The Immaculate Collection](track_album), will you?
+- can you play some music from the album [Led Zeppelin IV](track_album)?
+- I wanna dance to something from [Revival](track_album)
+- cheer me up by playing songs from [Father of the Bride](track_album), will you?
+- I would like to hear to [Akon](track_artist)
+- can you play any music from the album [Young Enough](track_album) by [Future](track_artist)?
+- will you please play something from album [Legend](track_album) by [Selena Gomez](track_artist)?
+- will you please play any track from album [Lets Try the After](track_album)?
+- Play a track from [What Chaos Is Imaginary](track_album), will you?
+- Would you please play any song from album [When I Get Home](track_album) by [Lil Wayne](track_artist)?
+- I would like to listen to any [rap](track_genre) beat
+- I would like to dance to music from [Bad](track_album) by [Florida](track_artist).
+- Play any track from [Titanic Rising](track_album), will you?
+- Play songs from album [The Immaculate Collection](track_album) by [Diplo](track_artist), will you?
+- Would you please play any track from [EVEN IN THE TREMOR](track_album) album.
+- Play any song from the album [The Immaculate Collection](track_album)
+- Play any track from the album [Revival](track_album) by [Skrillex](track_artist), will you?
+- I wanna listen tracks from [The Immaculate Collection](track_album) album
+- Play music by [Ariana Grande](track_artist)
+- I wanna listen something from the album [Metallica](track_album)
+- Play music from album [Notes on a Conditional Form](track_album), will you?
+- please play the [dubstep](track_genre) tracks for me
+- Play any song from [Rumours](track_album), will you?
+- will you please play a track from [Bandana](track_album)?
+- Would you please play songs from album [Purple Reign](track_album) by [Maroon 5](track_artist)?
+- Would you please play any track from album [Gold and Grey](track_album)?
+- can you please play music from [Remind Me Tomorrow](track_album)?
+- Could you please play some [grunge](track_genre) tracks for us?
+- Play something from [Supernatural](track_album) album.
+- will you please play something from [Titanic Rising](track_album) by [Kanye West](track_artist)?
+- will you please play songs from album [The Unseen In-Between](track_album) by [Cardi B](track_artist)?
+- will you please play any track from [Legend](track_album) by [Mad Money](track_artist)?
+- can you please play any track from [Let’s Talk About Love](track_album) album.
+- I wanna dance to music from [Western Stars](track_album)
+- Would you please play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play a track from [The Immaculate Collection](track_album) album by [George Michael](track_artist)
+- I would love to listen to something by [Madonna](track_artist)
+- Please play the [metal](track_genre) tracks
+- can you please play some music from album [Legend](track_album)?
+- can you please play any song from [Flamagra](track_album)?
+- will you please play any song from [Recovery](track_album) album by [Kanye West](track_artist).
+- I wanna listen some music from album [Recovery](track_album).
+- Play any song from [Revival](track_album), will you?
+- Could you please play some [grunge](track_genre) for us?
+- Play some [Grunge](track_genre) tracks
+- will you please play songs from [EVEN IN THE TREMOR](track_album) by [Drake](track_artist)?
+- Play music from album [Let’s Talk About Love](track_album), will you?
+- Play any song from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- Please play any [blues](track_genre) beat
+- Will you please play something by [Akon](track_artist)?
+- can you play any track from [Harverd Dropout](track_album)?
+- I would like to hear any [soundtrack](track_genre) beat
+- Play songs from album [Kamikaze](track_album), will you?
+- Play some [punk](track_genre) track
+- Please play music by [Billie Eilish](track_artist).
+- Would you please play something from [Hotel California](track_album) album
+- Could you please play some [grunge](track_genre) track  for us?
+- Play something from [Recovery](track_album) album by [Diplo](track_artist), will you?
+- Play a track from [SASAMI](track_album) album, will you?
+- Could you please play some [grunge](track_genre)?
+- will you please play any music from [Legend](track_album) album
+- [cud](grammar:could) you please play something?
+- I would like to listen songs from album [Gallipoli](track_album).
+- will you please play any music from [Crushing](track_album) album
+- I would like to listen songs from album [What Chaos Is Imaginary](track_album).
+- Play some [dubstep](track_genre) songs
+- I would like to listen a track from the album [Thank U, Next](track_album)
+- Would you please play music from album [Hijas del Tomate](track_album) by [Clint Mansell](track_artist)?
+- I would like to listen any track from the album [Anima](track_album)
+- please play the [soundtrack](track_genre) for me
+- Play tracks from [Back in Black](track_album), will you?
+- Play any track from the album [Titanic Rising](track_album), will you?
+- I would love to listen to something by [Halsey](track_artist)
+- I wanna listen songs from [Western Stars](track_album).
+- I would like to dance to some [edm](track_genre) tracks
+- can you play any music from [Appetite for Destruction](track_album) by [Warner & Chappell](track_artist)?
+- I would like to listen any music from [Cuz I Love You](track_album)
+- I wanna dance to music from [Legend](track_album)
+- Would you please play any music from [Legend](track_album) album
+- can you play any music from [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- I wanna dance to songs from [YOU CAN'T SIT WITH US](track_album)
+- Would you please play something from [Let’s Talk About Love](track_album) album.
+- Play any [metal](track_genre) music
+- Play any track from the album [Recovery](track_album) by [Dr. Dre](track_artist), will you?
+- Play any song from [Recovery](track_album) album, will you?
+- I would like you to please play some [punk](track_genre) music
+- Would you please play any song from [Let’s Talk About Love](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play tracks from [Legend](track_album) by [Warner & Chappell](track_artist), will you?
+- Play music by [Jay-Z](track_artist)
+- Play songs from [Slaves of Fear](track_album).
+- Would you please play some music from album [Oliver Appropriate](track_album) by [Skrillex](track_artist)?
+- Play a track from album [Heard It in a Past Life](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- cheer me up by playing something from the album [On The Line](track_album), will you?
+- can you please play any track from album [Led Zeppelin IV](track_album)?
+- I would like to listen any music from album [What Chaos Is Imaginary](track_album).
+- will you please play any track from album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any track from [Rumours](track_album) album by [Dr. Dre](track_artist).
+- Would you please play some music from the album [Led Zeppelin IV](track_album)?
+- I wanna listen a track from [Metallica](track_album)
+- Would you please play any track from [Heard It In A Past Life](track_album) by [Nate Dogg](track_artist)?
+- will you please play songs from [Oh My God](track_album) by [50 cents](track_artist)?
+- Would you please play the [blues](track_genre)?
+- make my mood.
+- I would like to listen to the [punk](track_genre)
+- Play a track from album [Appetite for Destruction](track_album)
+- some [funk](track_genre) music
+- Play any track from [Legend](track_album) by [Mellen Gi](track_artist), will you?
+- can you please play any song from [Father of the Bride](track_album) album
+- I would like to hear the [punk](track_genre) songs
+- I would like to listen to the [edm](track_genre)
+- I wanna listen a track from the album [Outer Peace](track_album)
+- I would like to listen a track from the album [In League With Dragons](track_album)
+- I would like to groove to the [dubstep](track_genre) songs
+- Play some music from [Bad](track_album), will you?
+- I would like to dance to music from [Heard It In A Past Life](track_album) by [Rick0 James](track_artist)
+- I will like to have some [rap](track_genre) track
+- can you play tracks from [Flamagra](track_album) album
+- Would you please play songs from [The Marshall Mathers LP 2 Disc 2](track_album) by [Eagles](track_artist)?
+- cheer me up by playing tracks from [The Immaculate Collection](track_album), will you?
+- can you play songs from [Anima](track_album)?
+- will you please play something from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Eminem](track_artist)
+- will you please play music from [Lets Try the After](track_album)?
+- I would like to listen any track from [Supernatural](track_album).
+- Play any track from [Anima](track_album) album, will you?
+- I would like to listen to [Eagles](track_artist)
+- can you play a track from the album [This Is How You Smile](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I want to hear music from [Recovery](track_album).
+- make some noise
+- I would like to hear some [funk](track_genre) tracks
+- Play some [punk](track_genre) songs
+- I wanna listen songs from album [The Unseen In-Between](track_album)
+- will you please play a track from [Appetite for Destruction](track_album) album by [Clint Mansell](track_artist).
+- will you please play music from [Bad](track_album)?
+- I would like to listen any music from [The Immaculate Collection](track_album) album
+- I wanna dance to any music from [Rumours](track_album)
+- Play some music from album [Appetite for Destruction](track_album) by [Mad Money](track_artist), will you?
+- Play any track from [Dedicated](track_album) album
+- can you play a track from [Dedicated](track_album)?
+- I would like to listen any music from [LP3](track_album) album
+- I wanna dance to any track from [Designer](track_album) album
+- I'm bored.
+- can you please play songs from album [Hotel California](track_album)?
+- Some [edm](track_genre) here would be nice.
+- I would like to listen to the [funk](track_genre)
+- Would you please play any song from [What Chaos Is Imaginary](track_album) by [Dr. Dre](track_artist)?
+- cheer me up by playing something from the album [Outer Peace](track_album), will you?
+- I would like to listen any song from the album [Thank U, Next](track_album)
+- Would you please play some music from [Western Stars](track_album) by [Bonobo](track_artist)?
+- Would you please play any track from [EVEN IN THE TREMOR](track_album)?
+- Would you please play any song from [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any song from the album [Rumours](track_album) by [Coldplay](track_artist)?
+- will you please play any track from album [Bandana](track_album)?
+- I would like to groove to music from [The Wizrd](track_album) by [Ludacris](track_artist).
+- I would like to listen songs from [U.F.O.F](track_album).
+- I would like to dance to any [funk](track_genre) track
+- can you play any music from album [Flamagra](track_album)?
+- will you please play something from album [Thank U, Next](track_album)?
+- Would you please play songs from [Kamikaze](track_album) by [Ludacris](track_artist)?
+- Play any music from [Revival](track_album) by [Drake](track_artist), will you?
+- can you play songs from [Requiem for a Dream](track_album)?
+- I wanna dance to any song from [Remind Me Tomorrow](track_album)
+- will you please play songs from album [The Immaculate Collection](track_album)?
+- Would you please play music from [What Chaos Is Imaginary](track_album)?
+- Could you please play something by [Ariana Grande](track_artist)?
+- Play any track from the album [The Black Album](track_album) by [Future](track_artist), will you?
+- Play any track from album [Rumours](track_album)
+- please play the [dubstep](track_genre) music for us
+- Would you please play a track from [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play tracks from [Heard It In A Past Life](track_album)?
+- Would you please play any music from [Bad](track_album)?
+- I wanna dance to any music from the album [Crushing](track_album)
+- I wanna dance to a track from [Father of the Bride](track_album)
+- will you please play something from [Rumours](track_album) by [Warner & Chappell](track_artist)?
+- I would like to listen songs from album [Back in Black](track_album).
+- will you please play songs from [YOU CAN'T SIT WITH US](track_album) by [Alan Walker](track_artist)?
+- will you please play songs from [Requiem for a Dream](track_album)?
+- cheer me up by playing something from [Oliver Appropriate](track_album), will you?
+- I would like to listen to any [metal](track_genre) music
+- Could you please play the [Dubstep](track_genre) for us?
+- will you please play any music from album [Thank U, Next](track_album)?
+- cheer me up by playing something from the album [Back in Black](track_album), will you?
+- Play the [pop](track_genre) music
+- will you please play any song from album [The Saint of Lost Causes](track_album) by [Cardi B](track_artist)?
+- can you please play any music from the album [Legend](track_album)?
+- Would you play something by [Khalid](track_artist)?
+- will you please play tracks from album [SASAMI](track_album) by [Sia](track_artist)?
+- I wanna dance to any music from [Cuz I Love You](track_album)
+- I would like to groove to the [pop](track_genre)
+- Play any track from album [Legend](track_album) by [Justin Timberlake](track_artist), will you?
+- Play music from album [When I Get Home](track_album), will you?
+- I would like to listen any track from [TBA](track_album) album
+- can you please play any song from [Revival](track_album)?
+- can you play any music from album [Revival](track_album)?
+- I wanna see you sing.
+- I would like to listen any music from [The Craving for Absolute Serenity](track_album) album
+- I would like to hear some [hip-hop](track_genre) tracks
+- Would you please play songs from album [Appetite for Destruction](track_album) by [Charlotte Rose Ellis](track_artist)?
+- will you please play a track from [Young Enough](track_album)?
+- I wanna listen any song from [Oh My God](track_album) album
+- I would like you to please play some [blues](track_genre) songs
+- Play any music from [The Saint of Lost Causes](track_album) by [Rick0 James](track_artist), will you?
+- can you play songs from [Remind Me Tomorrow](track_album)?
+- Play songs from [On The Line](track_album), will you?
+- can you play a track from the album [Marshal Mather LP II](track_album)?
+- Would you please play some [Metal](track_genre) tracks?
+- please play some [dubstep](track_genre) music for me
+- will you please play a track from the album [Notes on a Conditional Form](track_album)?
+- will you please play some music from [Revival](track_album)?
+- I would like to listen any song from album [Marshal Mather LP II](track_album)
+- Would you please play the [soundtrack](track_genre) track ?
+- Play any [rap](track_genre) track
+- will you please play any music from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Lil Wayne](track_artist)
+- I want to listen to music from [Bad](track_album) by [Eminem](track_artist).
+- can you please play any track from [Designer](track_album) album.
+- cheer me up by playing any song from album [U.F.O.F](track_album), will you?
+- Would you please play any track from [Titanic Rising](track_album) by [Drake](track_artist)?
+- I wanna dance to a track from [Legend](track_album) album
+- Play any song from album [Young Enough](track_album), will you?
+- Play the [soundtrack](track_genre) music
+- Play any music from the album [Heard It In A Past Life](track_album) by [Dr. Dre](track_artist), will you?
+- Play tracks by [Selena Gomez](track_artist)
+- Play tracks from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would love to dance to [Clint Mansell](track_artist)
+- Play any music from the album [Led Zeppelin IV](track_album) by [Jay-Z](track_artist), will you?
+- Play songs from album [Rumours](track_album), will you?
+- Would you please play any track from album [Kamikaze](track_album)?
+- Would you please play the [soundtrack](track_genre) songs?
+- I will like to have the [punk](track_genre) music
+- will you please play something from the album [On the Line](track_album)?
+- Play any song from album [Let’s Talk About Love](track_album).
+- I would like to listen songs from [Atlanta Millionaires Club](track_album)
+- I would like to hear an [Rock](track_genre) tunes
+- Could you please play the [funk](track_genre) tracks for us?
+- Would you please play some music from album [Marshal Mather LP II](track_album)?
+- I wanna listen music from album [Harverd Dropout](track_album)
+- Would you please play any song from [The Marshall Mathers LP 2 Disc 2](track_album) by [George Michael](track_artist)?
+- can you please play any music from the album [Metallica](track_album)?
+- I wanna listen some music from [Led Zeppelin IV](track_album)
+- I would enjoy to dance to [Rihanna](track_artist)
+- can you play any track from album [Atlanta Millionaires Club](track_album)?
+- I would like to listen any music from album [Designer](track_album).
+- will you please play any track from [Oh My God](track_album) album
+- can you play some music from the album [Sunshine Rock](track_album)?
+- I will like to have an [orchestra](track_genre) beat
+- I wanna listen any music from [Make It Big](track_album)
+- I would love to listen to something by [Eagles](track_artist)
+- can you play songs from album [Legend](track_album)?
+- Will you play something by [Usher](track_artist)?
+- Would you please play any track from [Make It Big](track_album) album
+- I wanna dance to any music from [Hotel California](track_album) album
+- can you play a track from [The Immaculate Collection](track_album)?
+- will you please play some music from [Cuz I Love You](track_album)?
+- Play any song from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I wanna listen a track from album [The Wizrd](track_album)
+- Would you please play any song from [Back in Black](track_album) album by [Nicki Minaj](track_artist)
+- Play songs from album [Angel's Pulse](track_album), will you?
+- Play any song from [What Chaos Is Imaginary](track_album) by [Kanye West](track_artist), will you?
+- can you play any track from [Good Ass Job](track_album) by [Drake](track_artist)?
+- I would like to hear some [rap](track_genre) songs
+- Play music from [This is Acting](track_album) by [Florida](track_artist), will you?
+- will you please play any song from album [The Craving for Absolute Serenity](track_album) by [The Chainsmokers](track_artist)?
+- I would like to listen something from [In League With Dragons](track_album) album
+- Would you please play the [grunge](track_genre) music?
+- Play songs from album [Father of the Bride](track_album).
+- Would you please play something from [Heard It In A Past Life](track_album) album
+- can you play any track from [Dedicated](track_album) by [Post Malone](track_artist)?
+- Could you please play the [Rock](track_genre) music?
+- I would like to listen any track from [Back in Black](track_album) album.
+- Play tracks from album [The Immaculate Collection](track_album)
+- I would like you to please play some [Hip-hop](track_genre)
+- I would like to listen tracks from [Marshal Mather LP II](track_album).
+- Play any music from the album [On The Line](track_album) by [Lil Wayne](track_artist), will you?
+- I would like to dance to some [dubstep](track_genre) tracks
+- I wanna dance to any music from the album [U.F.O.F](track_album)
+- can you please play any track from the album [Heard It In A Past Life](track_album)?
+- Please play the [blues](track_genre) songs
+- Would you please play songs from [LP3](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play songs from album [Buoys](track_album) by [Dr. Dre](track_artist), will you?
+- I would like to groove to the [punk](track_genre) songs
+- can you please play songs from [Bad](track_album)?
+- can you please play any song from the album [when we all fall asleep where do we go](track_album)?
+- can you play any song from album [Father of the Bride](track_album)?
+- can you please play a track from album [Metallica](track_album)?
+- Play a [rap](track_genre) music
+- I would like to listen any music from album [Appetite for Destruction](track_album)
+- Play something from [Back in Black](track_album) album by [Rick0 James](track_artist), will you?
+- Would you please play tracks from album [Dedicated](track_album) by [Camila Cabello](track_artist)?
+- Play songs from album [The Wizrd](track_album) by [Mad Money](track_artist), will you?
+- I wanna listen any track from album [The Black Album](track_album)
+- can you please play any song from [Young Enough](track_album) album
+- will you please play any song from the album [EVEN IN THE TREMOR](track_album) by [Rick0 James](track_artist)?
+- please play the [hip-hop](track_genre) track  for us
+- Would you please play a track from [Back in Black](track_album) album.
+- I would enjoy to hear to [Drake](track_artist)
+- Would you please play any track from album [Metallica](track_album)?
+- Would you please play something from album [Atlanta Millionaires Club](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play songs from album [Rumours](track_album) by [Warner & Chappell](track_artist), will you?
+- Play the [metal](track_genre) track
+- can you please play music from [SASAMI](track_album)?
+- I wanna listen any music from [The Immaculate Collection](track_album) album
+- Would you please play an [orchestra](track_genre) beat?
+- can you play something from the album [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would love to dance to [Billie Eilish](track_artist)
+- will you please play some music from album [Bandana](track_album) by [Sia](track_artist)?
+- will you please play any music from [What Chaos Is Imaginary](track_album) album by [DJ Snake](track_artist)
+- Would you please play some music from the album [Bad](track_album)?
+- Could you please play some [soundtrack](track_genre) beat for us?
+- I would like to listen some music from the album [I Am Easy To Find](track_album)
+- I want to listen something by [Warner & Chappell](track_artist)
+- will you please play any track from [The Immaculate Collection](track_album) album by [Eagles](track_artist)
+- Play any [Hip-hop](track_genre) beat
+- can you play tracks from [Hotel California](track_album) album by [50 cents](track_artist)
+- Play something from [What Chaos Is Imaginary](track_album) album by [George Michael](track_artist), will you?
+- can you please play some music from album [Purple Reign](track_album)?
+- cheer me up by playing any song from the album [Kamikaze](track_album), will you?
+- I would enjoy to hear to [Rihanna](track_artist)
+- will you please play some music from album [Appetite for Destruction](track_album) by [Linkin Park](track_artist)?
+- I would like you to please play the [dubstep](track_genre) music
+- I wanna dance to a track from the album [Chapter VI](track_album)
+- Play some [edm](track_genre) track
+- I would like to listen any music from [Dedicated](track_album)
+- I would like to groove to the [edm](track_genre) songs
+- some [Hip-hop](track_genre) songs
+- I would like to listen to some [rap](track_genre) tracks
+- can you play any music from [U.F.O.F](track_album) album
+- will you please play songs from [Dedicated](track_album) by [Clint Mansell](track_artist)?
+- I would like to listen any song from the album [Remind Me Tomorrow](track_album)
+- Would you please play something from [IGOR](track_album) by [Eminem](track_artist)?
+- can you play a track from [Mitsubishi Macchiato](track_album) by [Bonobo](track_artist)?
+- can you play something from [Anima](track_album)?
+- I would like to groove to the [blues](track_genre)
+- I wanna dance to something from the album [Marshal Mather LP II](track_album)
+- Would you please play any track from [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play any track from the album [Heard It In A Past Life](track_album) by [Drake](track_artist), will you?
+- I wanna listen something from album [The Immaculate Collection](track_album)
+- I wanna listen some music from the album [EVEN IN THE TREMOR](track_album)
+- Play any song from [Revival](track_album) album by [Drake](track_artist), will you?
+- I wanna listen music from [Oliver Appropriate](track_album)
+- Would you please play any song from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Ludacris](track_artist)?
+- Play tracks from [Oasis](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Would you please play the [soundtrack](track_genre) musicc?
+- I would love to listen to [Imagine Dragons](track_artist)
+- Play any song from the album [Requiem for a Dream](track_album) by [Maroon 5](track_artist), will you?
+- can you please play any track from the album [Atlanta Millionaires Club](track_album)?
+- I wanna listen tracks from [Recovery](track_album).
+- Play tracks by [Billie Eilish](track_artist)
+- Play any track from album [The Craving for Absolute Serenity](track_album).
+- Would you please play a track from [The Immaculate Collection](track_album) album by [Jay-Z](track_artist)
+- can you play any track from [Back in Black](track_album) album
+- please play some [rap](track_genre) for me
+- can you play any track from [Heard It In A Past Life](track_album) album
+- I wanna listen some music from the album [Sunshine Rock](track_album)
+- I would like to listen to some [soundtrack](track_genre) songs
+- I would like to listen any track from [Led Zeppelin IV](track_album)
+- I would like to listen songs from album [Marshal Mather LP II](track_album).
+- Would you please play any track from [Oh My God](track_album) by [Ludacris](track_artist)?
+- will you please play any song from [Epic Hip Hop](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any song from the album [Revival](track_album) by [Ozuna](track_artist)?
+- Would you please play something from [Revival](track_album) by [Drake](track_artist)?
+- Could you please play the [funk](track_genre) track ?
+- I would like to listen any song from [Marshal Mather LP II](track_album) album
+- please play the [grunge](track_genre) songs for me
+- I wanna listen any music from [Angel's Pulse](track_album)
+- Play a track from [Back in Black](track_album) album, will you?
+- will you please play any song from [Kamikaze](track_album) album
+- Please play some [soundtrack](track_genre) beat
+- I want to listen to music from [Cuz I Love You](track_album) by [Dr. Dre;Eminem](track_artist).
+- I would like to listen something from the album [EVEN IN THE TREMOR](track_album)
+- will you please play any music from [Slaves of Fear](track_album) album
+- I would like to listen a track from the album [Bad](track_album)
+- Could you please play some [metal](track_genre) tracks?
+- Play something from album [Supernatural](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- can you play any music from album [when we all fall asleep where do we go](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play a track from [Metallica](track_album)?
+- will you please play a track from album [Good Ass Job](track_album)?
+- can you play some music from the album [Appetite for Destruction](track_album)?
+- cheer me up by playing songs from album [EVEN IN THE TREMOR](track_album), will you?
+- will you please play any music from the album [Angel's Pulse](track_album)?
+- I wanna listen something from the album [In League With Dragons](track_album)
+- I will like to have the [punk](track_genre)
+- I would like to listen music from album [On The Line](track_album).
+- Play [edm](track_genre), would u?
+- Play any song from [Everything Not Saved Will Be Lost—Part 1](track_album) album, will you?
+- I wanna dance to tracks from [Supernatural](track_album) album.
+- can you please play tracks from [The Immaculate Collection](track_album)?
+- Play a track from [The Wizrd](track_album) album, will you?
+- will you please play a track from album [Appetite for Destruction](track_album)?
+- cheer me up by playing something from album [Flamagra](track_album), will you?
+- I would like to listen any music from [Hijas del Tomate](track_album)
+- I will like to have the [dubstep](track_genre) songs
+- will you please play something from the album [Beware of the Dogs](track_album) by [Nicki Minaj](track_artist)?
+- Could you please play some [punk](track_genre) tracks?
+- can you play any music from the album [Beware of the Dogs](track_album) by [Drake](track_artist)?
+- cheer me up by playing something from [Supernatural](track_album), will you?
+- can you please play any music from [Legend](track_album)?
+- Would you please play any music from [I Am Easy To Find](track_album)?
+- will you please play tracks from [Led Zeppelin IV](track_album) by [XAMES3](track_artist)?
+- Would you please play a track from the album [On The Line](track_album) by [Nicki Minaj](track_artist)?
+- I would like to listen any song from [Led Zeppelin IV](track_album)
+- Play music from album [Back in Black](track_album).
+- Play something from album [When I Get Home](track_album), will you?
+- Play any song from album [Marshal Mather LP II](track_album), will you?
+- can you please play something from [Back in Black](track_album) album.
+- I wanna dance to songs from [Remind Me Tomorrow](track_album).
+- I wanna listen any song from [Led Zeppelin IV](track_album) album
+- Would you please play the [pop](track_genre)?
+- I would like to listen to any [dubstep](track_genre) beat
+- Would you please play any track from [Titanic Rising](track_album) album
+- I would like to dance to any [pop](track_genre) track
+- I would like to dance to the [punk](track_genre) songs
+- will you please play songs from [When I Get Home](track_album) by [Bonobo](track_artist)?
+- I wanna listen something from the album [Legend](track_album)
+- I wanna dance to any track from [YOU CAN'T SIT WITH US](track_album)
+- I would like to listen tracks from [Father of the Bride](track_album).
+- Play the [Funk](track_genre) songs
+- Would you please play some [pop](track_genre)?
+- I would like to listen to any [blues](track_genre) music
+- I would like to groove to some [grunge](track_genre) songs
+- can you play any track from the album [Revival](track_album)?
+- can you play any track from album [The Saint of Lost Causes](track_album)?
+- will you please play songs from [YOU CAN'T SIT WITH US](track_album)?
+- Would you please play any music from album [What Chaos Is Imaginary](track_album) by [Drake](track_artist)?
+- Play tracks from [The Immaculate Collection](track_album), will you?
+- Play songs from album [The Unseen In-Between](track_album) by [Linkin Park](track_artist), will you?
+- Play music from album [Revival](track_album) by [Camila Cabello](track_artist), will you?
+- Will you play something by [Akon](track_artist)?
+- Play a [rock](track_genre) music
+- I would like to listen to some [edm](track_genre) tracks
+- I wanna listen any track from the album [Harverd Dropout](track_album)
+- Play any song from the album [Sunshine Rock](track_album) by [Camila Cabello](track_artist), will you?
+- cheer me up by playing any track from album [Legend](track_album), will you?
+- can you play any track from [Crushing](track_album) album by [Cardi B](track_artist).
+- Would you please play any track from album [On the Line](track_album) by [Akon](track_artist)?
+- can you play any music from [Heard It In A Past Life](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen any track from the album [Heard It in a Past Life](track_album)
+- Play some [funk](track_genre) music
+- Would you please play any song from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna dance to something from [What Chaos Is Imaginary](track_album)
+- please play some [edm](track_genre) songs
+- will you please play any track from [Sunshine Rock](track_album) album
+- Play tracks from album [Young Enough](track_album).
+- I would like to listen to the [soundtrack](track_genre)
+- Play a track from album [I Am Easy To Find](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- I would like to dance to any [hip-hop](track_genre) music
+- play me songs like this.
+- Would you please play a track from album [Chapter VI](track_album)?
+- Could you please play some [grunge](track_genre) tracks?
+- I would like to listen tracks from [Let’s Talk About Love](track_album).
+- can you play songs from album [Led Zeppelin IV](track_album)?
+- Play some music from the album [Epic Hip Hop](track_album)
+- Play music from [Recovery](track_album).
+- I wanna listen tracks from [Metallica](track_album)
+- I would like to listen any track from [The Immaculate Collection](track_album) album
+- cheer me up by playing something from [Revival](track_album), will you?
+- please play the [soundtrack](track_genre) beat for us
+- Play something from [YOU CAN'T SIT WITH US](track_album), will you?
+- will you please play songs from [Legend](track_album) by [Drake](track_artist)?
+- I will like to have the [grunge](track_genre)
+- I would like to dance to some [soundtrack](track_genre) track
+- I would like to hear any [soundtrack](track_genre) musicc
+- Play some music from [Let’s Talk About Love](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play any music from album [Dedicated](track_album)?
+- Play any track from [Young Enough](track_album), will you?
+- Would you please play some [pop](track_genre) track ?
+- will you please play any song from [Young Enough](track_album)?
+- Play tracks from album [Legend](track_album) by [Sia](track_artist), will you?
+- will you please play music from album [Metallica](track_album) by [Three Days Grace](track_artist)?
+- Play any track from [Good Ass Job](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- can you play music from [Legend](track_album) by [Warner & Chappell](track_artist)?
+- Play any song from album [The Immaculate Collection](track_album), will you?
+- Would you please play any track from the album [The Immaculate Collection](track_album)?
+- Play songs from album [Hijas del Tomate](track_album), will you?
+- Would you please play any song from [Father of the Bride](track_album) album.
+- I wanna dance to any song from [Revival](track_album) album
+- Would you please play any music from [Recovery](track_album) by [Ludacris](track_artist)?
+- can you play any song from album [Thank U, Next](track_album)?
+- Would you please play music from [Anima](track_album)?
+- can you play any track from [Legend](track_album) album
+- I would like you to please play the [rap](track_genre) music
+- I would like to listen to some [pop](track_genre) music
+- I wanna listen a track from [Gold and Grey](track_album) album.
+- will you please play tracks from album [Remind Me Tomorrow](track_album)?
+- I would like to listen some music from [Led Zeppelin IV](track_album)
+- Play any track from the album [New Breed](track_album), will you?
+- Play any track from the album [The Saint of Lost Causes](track_album) by [Cardi B](track_artist), will you?
+- can you play a track from [Atlanta Millionaires Club](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from album [Let’s Talk About Love](track_album)?
+- I wanna dance to songs from album [Harverd Dropout](track_album)
+- can you please play some music from album [SASAMI](track_album)?
+- I would like to listen any music from [YOU CAN'T SIT WITH US](track_album)
+- I would like to groove to the [blues](track_genre) tracks
+- Would you please play tracks from [Oasis](track_album)?
+- cheer me up by playing something from album [Revival](track_album), will you?
+- can you play any track from the album [Assume Form](track_album) by [Eagles](track_artist)?
+- Would you please play some [rap](track_genre) track ?
+- I wanna listen any track from [Supernatural](track_album) album.
+- will you please play some music from [Legend](track_album) by [Ozuna](track_artist)?
+- Would you please play a track from the album [Led Zeppelin IV](track_album) by [Mellen Gi](track_artist)?
+- can you play any music from album [The Immaculate Collection](track_album)?
+- will you please play songs from [Thank U, Next](track_album) by [Kanye West](track_artist)?
+- Play [Dubstep](track_genre) music.
+- I would like to listen to music from [Led Zeppelin IV](track_album) by [David Guetta](track_artist).
+- I wanna listen some music from album [When I Get Home](track_album)
+- can you play some music from album [Led Zeppelin IV](track_album) by [Jay-Z](track_artist)?
+- I would like to listen any music from the album [Dedicated](track_album)
+- can you please play tracks from [YOU CAN'T SIT WITH US](track_album)?
+- I would like to hear some [soundtrack](track_genre) songs
+- Play a track from the album [Mitsubishi Macchiato](track_album)
+- Play songs by [Usher](track_artist)
+- please play the [rap](track_genre) music for me
+- Would you please play any track from album [Quiet Signs](track_album) by [Ozuna](track_artist)?
+- can you play songs from album [Thank U, Next](track_album)?
+- I would like to listen something from album [Oliver Appropriate](track_album)
+- Would you please play a track from the album [Back in Black](track_album)?
+- I wanna listen any track from the album [Bad](track_album)
+- Would you please play a track from album [On The Line](track_album) by [Lil Wayne](track_artist)?
+- I wanna listen to [Ray J](track_artist) very badly.
+- I would like to listen any track from [Chapter VI](track_album) album.
+- can you please play songs from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- please play some [edm](track_genre) music
+- I would like to dance to the [hip-hop](track_genre) songs
+- Play any [dubstep](track_genre) beat
+- I would like to groove to some [soundtrack](track_genre)
+- Play a track from album [Hotel California](track_album) by [The Chainsmokers](track_artist), will you?
+- will you please play any music from album [On The Line](track_album) by [Coldplay](track_artist)?
+- I would like to groove to an [orchestra](track_genre) beat
+- Would you please play music from album [The Wizrd](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen to the [metal](track_genre) track
+- please play the [Hiphop](track_genre) music for me
+- Would you please play any music from [Let’s Talk About Love](track_album)?
+- can you please play something from [Metallica](track_album) album
+- Would you please play something from [Legend](track_album) album
+- Play music by [Bruno Mars](track_artist)
+- Would you please play any track from album [Mitsubishi Macchiato](track_album)?
+- Play some music from the album [Legend](track_album) by [Jay-Z](track_artist), will you?
+- I would like to dance to some [funk](track_genre) tracks
+- Play some [soundtrack](track_genre)
+- Play the [hip-hop](track_genre) tune.
+- will you please play some music from [On the Line](track_album) by [Clint Mansell](track_artist)?
+- Play a [edm](track_genre) music
+- I would enjoy to hear to [Imagine Dragons](track_artist)
+- Play any song from [Let’s Talk About Love](track_album) album, will you?
+- can you please play tracks from album [Sunshine Rock](track_album)?
+- will you please play tracks from [On the Line](track_album) album.
+- will you please play music from album [The Unseen In-Between](track_album) by [Linkin Park](track_artist)?
+- Could you please play the [grunge](track_genre) music?
+- please play some [punk](track_genre) music
+- I would like to dance to some [rap](track_genre) music
+- Could you please play some [blues](track_genre) songs?
+- Would you please play the [soundtrack](track_genre)?
+- Would you please play tracks from [Metallica](track_album) album
+- please play some [pop](track_genre) for me
+- Would you please play the [rap](track_genre)?
+- I would like to dance to some [hip-hop](track_genre)
+- please play any [soundtrack](track_genre) music for me
+- Play any track from album [Heard It in a Past Life](track_album)
+- I would like you to please play the [hip-hop](track_genre)
+- Play some music from album [The Immaculate Collection](track_album), will you?
+- I would like to hear any [funk](track_genre) music
+- will you please play music from [Harverd Dropout](track_album) by [George Michael](track_artist)?
+- please play the [punk](track_genre) for me
+- I would like to hear the [soundtrack](track_genre)
+- Play music from [The Immaculate Collection](track_album), will you?
+- I wanna dance to any music from [Phoenix](track_album)
+- Would you please play something from the album [This is Acting](track_album) by [Post Malone](track_artist)?
+- Play tracks from album [SASAMI](track_album).
+- Would you please play a track from [Hijas del Tomate](track_album) album.
+- Please play the [punk](track_genre)
+- show me how you sing a song.
+- I will like to have some [funk](track_genre) track
+- please play some [punk](track_genre) music for me
+- will you please play any track from [The Immaculate Collection](track_album)?
+- Play something from the album [This Is How You Smile](track_album), will you?
+- I would like to listen to music from [Legend](track_album) by [Linkin Park](track_artist).
+- can you play any track from the album [Recovery](track_album)?
+- Play any song from the album [The Wizrd](track_album), will you?
+- Play music from album [This is Acting](track_album), will you?
+- Play any music from [Back in Black](track_album) album, will you?
+- I want to hear music from album called [Recovery](track_album).
+- Could you please play the [rap](track_genre) songs for us?
+- Would you please play songs from album [Oh My God](track_album)?
+- please play some [punk](track_genre) for us
+- Play music by [Khalid](track_artist)
+- I wanna dance to any music from album [The Immaculate Collection](track_album)
+- I would like to groove to some [funk](track_genre) track
+- Could you please play some [metal](track_genre) music?
+- can you please play any music from the album [Father of the Bride](track_album)?
+- Could you please play any [soundtrack](track_genre) beat?
+- I wanna listen any track from [When I Get Home](track_album) album
+- Play any music from [Hijas del Tomate](track_album) album
+- can you please play a track from [Angel's Pulse](track_album)?
+- Would you please play a track from [Metallica](track_album)?
+- Play any song from album [This Is How You Smile](track_album), will you?
+- Please play some [hip-hop](track_genre) music
+- can you play any song from album [Legend](track_album)?
+- Would you please play songs from [The Craving for Absolute Serenity](track_album)?
+- I would like to listen music from [The Immaculate Collection](track_album)
+- I wanna dance to any track from [Hotel California](track_album) album
+- I wanna listen songs from [What Chaos Is Imaginary](track_album).
+- I would like to listen something from [Legend](track_album)
+- can you please play any track from the album [Sunshine Rock](track_album)?
+- I would like to listen any music from [Kamikaze](track_album)
+- Play a track from album [Bad](track_album)
+- I would like to listen any track from the album [Kamikaze](track_album)
+- Play some [dubstep](track_genre) track
+- Play any track from the album [Western Stars](track_album)
+- Would you please play tracks from album [Hijas del Tomate](track_album)?
+- I wanna dance to any track from [Rumours](track_album) album
+- Play any music from [The Immaculate Collection](track_album)
+- I would like to groove to the [soundtrack](track_genre)
+- can you please play something from album [U.F.O.F](track_album)?
+- Please play some [blues](track_genre) music
+- I would like to dance to music from [Recovery](track_album) by [Ludacris](track_artist)
+- Play a track from the album [Sunshine Rock](track_album) by [Cardi B](track_artist), will you?
+- will you please play tracks from [The Unseen In-Between](track_album) album.
+- will you please play tracks from [YOU CAN'T SIT WITH US](track_album) by [Sia](track_artist)?
+- I wanna listen any music from [The Wizrd](track_album)
+- Could you please play some [Hiphop](track_genre) music?
+- I would like to listen to [Imagine Dragons](track_artist)
+- I wanna dance to any song from [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you please play a track from [When I Get Home](track_album)?
+- Play tracks from [The Saint of Lost Causes](track_album) album, will you?
+- I would like to listen songs from album [The Immaculate Collection](track_album)
+- Play any music from the album [Legend](track_album), will you?
+- Would you please play any music from the album [Young Enough](track_album) by [Drake](track_artist)?
+- I will like to have some [metal](track_genre) track
+- I wanna dance to music from album [The Immaculate Collection](track_album)
+- Play any track from album [Rumours](track_album), will you?
+- Play any song from [Back in Black](track_album) by [Camila Cabello](track_artist), will you?
+- I would like to groove to some [hip-hop](track_genre) songs
+- will you please play any track from [Flamagra](track_album)?
+- Would you please play songs from album [Requiem for a Dream](track_album)?
+- please play any [funk](track_genre) track for us
+- I would like you to please play the [funk](track_genre)
+- I wanna dance to music from [Bad](track_album)
+- Could you please play something by [Alan Walker](track_artist)?
+- can you play any music from [Western Stars](track_album) by [Miley Cyrus](track_artist)?
+- Play any track from album [In League With Dragons](track_album) by [Kanye West](track_artist), will you?
+- Play songs from album [The Wizrd](track_album).
+- Would you please play music from album [Designer](track_album)?
+- will you please play songs from [The Marshall Mathers LP 2 Disc 2](track_album) by [DJ Snake](track_artist)?
+- Play songs from [Norman Fucking Rockwell](track_album)
+- can you play any track from album [The Immaculate Collection](track_album) by [XAMES3](track_artist)?
+- Play songs by [Adele](track_artist)
+- I would like to listen some music from [Supernatural](track_album).
+- Play something from the album [EVEN IN THE TREMOR](track_album)
+- Play any track from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- Play some music from the album [Appetite for Destruction](track_album) by [Kanye West](track_artist), will you?
+- can you please play any music from the album [On The Line](track_album)?
+- please play some [rap](track_genre) songs
+- Play any track from album [Bandana](track_album)
+- Play songs from album [U.F.O.F](track_album), will you?
+- Please play some [dubstep](track_genre) track
+- Play songs from album [Let’s Talk About Love](track_album).
+- I wanna dance to any song from the album [Western Stars](track_album)
+- I wanna listen some music from [Thank U, Next](track_album)
+- Play any track from album [Rumours](track_album) by [Ozuna](track_artist), will you?
+- Would you please play a track from album [SASAMI](track_album)?
+- Will you play something by [Bruno Mars](track_artist)?
+- can you play any track from [The Immaculate Collection](track_album) album by [Clint Mansell](track_artist)
+- I wanna dance to some music from [LP3](track_album).
+- can you play a track from the album [Thank U, Next](track_album)?
+- can you play tracks from [The Unseen In-Between](track_album)?
+- I would like to listen tracks from [Rumours](track_album)
+- Would you please play any track from the album [Tip of the Sphere](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play a track from album [when we all fall asleep where do we go](track_album)
+- can you play a track from album [Purple Reign](track_album)?
+- Play any song from [Led Zeppelin IV](track_album) album by [Eagles](track_artist), will you?
+- Would you please play songs from album [Illuminate](track_album)?
+- I will like to have any [hip-hop](track_genre) track
+- please play the [dubstep](track_genre) music for me
+- Would you please play some music from the album [Hotel California](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I will like to have the [blues](track_genre) music
+- I wanna dance to any music from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any track from [In League With Dragons](track_album), will you?
+- I wanna listen tracks from album [Oasis](track_album)
+- can you play a track from [Rumours](track_album)?
+- Would you please play any music from [What Chaos Is Imaginary](track_album) album
+- Could you please play some [blues](track_genre) music for us?
+- will you please play something from the album [Supernatural](track_album)?
+- I would like to hear the [pop](track_genre) songs
+- can you please play songs from [Make It Big](track_album)?
+- Would you please play something from the album [Metallica](track_album) by [Cardi B](track_artist)?
+- can you play music from album [Father of the Bride](track_album)?
+- Play any track from album [Harverd Dropout](track_album) by [The Chainsmokers](track_artist), will you?
+- Could you please play any [soundtrack](track_genre) beat for us?
+- will you please play any track from the album [The Immaculate Collection](track_album)?
+- can you play a track from album [In League With Dragons](track_album) by [Cardi B](track_artist)?
+- can you play tracks from [Appetite for Destruction](track_album) album.
+- Could you please play some [metal](track_genre) track  for us?
+- can you play any music from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Ludacris](track_artist)?
+- Play any song from album [Heard It In A Past Life](track_album) by [Clint Mansell](track_artist), will you?
+- will you please play tracks from album [The Immaculate Collection](track_album)?
+- I wanna dance to a track from album [Legend](track_album)
+- I wanna dance to something from [Remind Me Tomorrow](track_album) album.
+- I would like to listen any song from album [Legend](track_album)
+- I would like to listen music from album [Rumours](track_album)
+- I wanna dance to any track from album [Bad](track_album)
+- I will like to have the [metal](track_genre) tracks
+- Play songs from [Good Ass Job](track_album).
+- Would you please play any track from [Back in Black](track_album)?
+- please play any [blues](track_genre) track for me
+- Play any song from the album [Flamagra](track_album) by [Eminem](track_artist), will you?
+- I want to listen something by [Usher](track_artist)
+- will you please play any track from album [Let’s Talk About Love](track_album) by [Miley Cyrus](track_artist)?
+- please play some [dubstep](track_genre) for me
+- play some tune from [Recovery](track_album).
+- Would you please play music from album [What Chaos Is Imaginary](track_album) by [Mellen Gi](track_artist)?
+- I wanna listen any track from album [Outer Peace](track_album).
+- will you please play something from the album [The Saint of Lost Causes](track_album)?
+- will you please play something from album [EVEN IN THE TREMOR](track_album)?
+- can you please play songs from album [Supernatural](track_album)?
+- I would like to groove to the [grunge](track_genre) music
+- please play any [blues](track_genre) beat for us
+- I would like to dance to some [edm](track_genre) music
+- can you play any music from [Harverd Dropout](track_album)?
+- Would you please play some music from [Remind Me Tomorrow](track_album)?
+- Would you please play tracks from [Requiem for a Dream](track_album) album.
+- will you please play any track from the album [Metallica](track_album) by [Bonobo](track_artist)?
+- I would like to listen songs from [The Wizrd](track_album)
+- I would like to listen music from album [Recovery](track_album).
+- can you play any music from [EVEN IN THE TREMOR](track_album) by [Nicki Minaj](track_artist)?
+- I would like to groove to the [metal](track_genre) track
+- Play any music from [Remind Me Tomorrow](track_album), will you?
+- will you please play any music from [Kamikaze](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play some music from album [Recovery](track_album).
+- Play tracks from [Legend](track_album) album, will you?
+- Would you please play some [dubstep](track_genre) track ?
+- will you please play any track from album [The Craving for Absolute Serenity](track_album) by [PSY](track_artist)?
+- I would like to groove to the [soundtrack](track_genre) beat
+- I would like to listen songs from album [Lets Try the After](track_album).
+- I wanna listen some music from album [Oliver Appropriate](track_album)
+- I would like to dance to the [Dubstep](track_genre) music
+- I would like to hear any [Hip-hop](track_genre) music
+- Play a track from album [This Is How You Smile](track_album) by [Rick0 James](track_artist), will you?
+- I would like you to please play some [rap](track_genre) track
+- will you please play any music from album [Rumours](track_album) by [Post Malone](track_artist)?
+- can you play music from [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- Would you please play tracks from [Appetite for Destruction](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from [The Saint of Lost Causes](track_album) album
+- can you please play any track from album [TBA](track_album)?
+- can you play something from album [Western Stars](track_album) by [Camila Cabello](track_artist)?
+- Would you please play songs from [Dedicated](track_album)?
+- I will like to have some [metal](track_genre)
+- I wanna listen any track from album [EVEN IN THE TREMOR](track_album)
+- Play any music from [Western Stars](track_album)
+- I will like to have some [pop](track_genre) songs
+- can you play any song from [Oh My God](track_album) album
+- can you play any music from the album [Rumours](track_album) by [Cardi B](track_artist)?
+- Play [Dubstep](track_genre) music
+- Play music by [Selena Gomez](track_artist)
+- I would like to listen a track from album [LP3](track_album)
+- I will like to have some [Metal](track_genre) music
+- I would like to listen any track from [Quiet Signs](track_album) album
+- can you please play any track from album [Requiem for a Dream](track_album)?
+- Would you please play something from [In League With Dragons](track_album) by [Cardi B](track_artist)?
+- Play something from [The Immaculate Collection](track_album)
+- Play something from album [Oh My God](track_album) by [Jay-Z](track_artist), will you?
+- Would you please play something from the album [This Is How You Smile](track_album) by [Eminem](track_artist)?
+- I would like you to please play some [pop](track_genre)
+- Play tracks from [U.F.O.F](track_album) by [Miley Cyrus](track_artist), will you?
+- will you please play songs from [The Immaculate Collection](track_album)?
+- Would you please play any song from [Hijas del Tomate](track_album) by [Nicki Minaj](track_artist)?
+- I wanna dance to something from the album [Rumours](track_album)
+- I will like to have any [metal](track_genre) music
+- Please play the [hip-hop](track_genre)
+- I wanna dance to any music from [The Immaculate Collection](track_album)
+- will you please play any track from album [This Is How You Smile](track_album) by [Kanye West](track_artist)?
+- can you please play a track from the album [Atlanta Millionaires Club](track_album)?
+- play music to set my mood
+- Would you please play any music from album [EVEN IN THE TREMOR](track_album)?
+- Play something from [Rumours](track_album) album, will you?
+- can you play something from the album [Gallipoli](track_album) by [George Michael](track_artist)?
+- cheer me up by playing tracks from [Father of the Bride](track_album) album, will you?
+- I wanna listen a track from album [Back in Black](track_album)
+- I would like you to please play an [orchestra](track_genre) beat
+- Would you please play some music from the album [Legend](track_album)?
+- Would you please play any track from [Supernatural](track_album) album.
+- Cn you play [rap](track_genre) by [Eminem](track_artist)?
+- I would like to listen something from [When I Get Home](track_album) album.
+- Play any track from [Bandana](track_album) album, will you?
+- Play some music from album [Lets Try the After](track_album), will you?
+- Would you please play a track from album [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play some music from [Slaves of Fear](track_album), will you?
+- Would you please play something from album [LP3](track_album) by [Warner & Chappell](track_artist)?
+- Play any track from [Let’s Talk About Love](track_album), will you?
+- Play a track from [Notes on a Conditional Form](track_album).
+- I wanna listen tracks from album [This Is How You Smile](track_album)
+- Would you please play something from [Let’s Talk About Love](track_album) album by [Lil Wayne](track_artist).
+- Play a track from the album [The Immaculate Collection](track_album) by [Mad Money](track_artist), will you?
+- Play any music from [Led Zeppelin IV](track_album) by [Drake](track_artist), will you?
+- I wanna dance to some music from [Gold and Grey](track_album)
+- can you please play any music from the album [Anima](track_album)?
+- Play any music from album [The Wizrd](track_album)
+- can you please play some music from the album [Father of the Bride](track_album)?
+- I would like to hear the [Dubstep](track_genre)
+- I will like to have an [orchestra](track_genre) track
+- Will you please play something by [Selena Gomez](track_artist)?
+- Play the [soundtrack](track_genre) beat
+- Play tracks from [On the Line](track_album) album, will you?
+- Could you please play any [blues](track_genre) track?
+- I will like to have the [metal](track_genre) music
+- Please play any [Hip-hop](track_genre) music
+- I will like to have the [punk](track_genre) songs
+- cheer me up by playing songs from album [Appetite for Destruction](track_album), will you?
+- Could you please play the [edm](track_genre) songs for us?
+- I would like to listen to any [funk](track_genre) music
+- can you play any track from [Notes on a Conditional Form](track_album) by [Ludacris](track_artist)?
+- I would like to listen to some [blues](track_genre)
+- I would like to listen some music from the album [Supernatural](track_album)
+- Play any song from album [Legend](track_album), will you?
+- can you please play songs from album [Remind Me Tomorrow](track_album)?
+- Could you please play the [hip-hop](track_genre)?
+- I wanna listen music from album [Titanic Rising](track_album).
+- I wanna dance to something from [when we all fall asleep where do we go](track_album) album.
+- Would you please play the [Hip-hop](track_genre) music?
+- cheer me up by playing something from [Oasis](track_album) album, will you?
+- Would you please play any track from [Norman Fucking Rockwell](track_album) by [Ozuna](track_artist)?
+- will you please play any song from the album [The Immaculate Collection](track_album)?
+- I would like to listen songs from album [Yandhi](track_album)
+- Play any music from [In League With Dragons](track_album) album
+- can you please play some music from [Lets Try the After](track_album)?
+- Would you please play any [funk](track_genre) music?
+- cheer me up by playing any track from album [What Chaos Is Imaginary](track_album), will you?
+- can you play a track from the album [Oh My God](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Titanic Rising](track_album) album
+- Play tracks from [Thank U, Next](track_album)
+- I would like to listen any track from [Outer Peace](track_album)
+- I would like to listen tracks from album [Beware of the Dogs](track_album).
+- Play any track from album [Metallica](track_album), will you?
+- I will like to have some [metal](track_genre) tracks
+- will you please play any song from album [This is Acting](track_album) by [Kanye West](track_artist)?
+- will you please play tracks from album [Quiet Signs](track_album) by [Drake](track_artist)?
+- will you please play any song from [IGOR](track_album)?
+- I would like to listen any track from [Atlanta Millionaires Club](track_album)
+- Can you please play [Rap God](music_file) by [Eminem](track_artist).
+- can you play something from [The Immaculate Collection](track_album) album
+- please play some [blues](track_genre) tracks
+- Please play the [grunge](track_genre) track
+- I wanna dance to any track from album [LP3](track_album)
+- Would you please play some [rap](track_genre) music?
+- please play any [metal](track_genre) track for me
+- Play tracks from album [Legend](track_album)
+- can you please play something from album [This Is How You Smile](track_album)?
+- cheer me up by playing songs from album [Western Stars](track_album), will you?
+- will you please play any song from [The Immaculate Collection](track_album) album by [Charlotte Rose Ellis](track_artist)
+- will you please play any track from [Outer Peace](track_album) album.
+- cheer me up by playing something from album [Legend](track_album), will you?
+- I would like to listen something from album [when we all fall asleep where do we go](track_album)
+- Play music from [What Chaos Is Imaginary](track_album) by [Clint Mansell](track_artist), will you?
+- Could you please play the [dubstep](track_genre) track  for us?
+- Play any music from the album [Let’s Talk About Love](track_album)
+- cheer me up by playing any song from the album [Lets Try the After](track_album), will you?
+- I would like to listen to the [dubstep](track_genre) tracks
+- I would like to groove to the [punk](track_genre) track
+- will you please play some music from the album [Sunshine Rock](track_album) by [Drake](track_artist)?
+- cheer me up by playing songs from [Oliver Appropriate](track_album), will you?
+- Would you please play tracks from [EVEN IN THE TREMOR](track_album)?
+- will you please play any track from album [Chapter VI](track_album) by [Ozuna](track_artist)?
+- will you please play songs from album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play tracks from [The Saint of Lost Causes](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen any track from [This Is How You Smile](track_album)
+- I wanna dance to a track from the album [The Immaculate Collection](track_album)
+- Would you please play the [pop](track_genre) track ?
+- can you play something from album [Kamikaze](track_album)?
+- Would you please play the [funk](track_genre)?
+- can you play a track from [Recovery](track_album)?
+- can you please play any track from [Mitsubishi Macchiato](track_album) album
+- Would you please play songs from album [Legend](track_album) by [Eagles](track_artist)?
+- I will like to have some [funk](track_genre) songs
+- I would like to groove to the [pop](track_genre) songs
+- can you please play some music from [Led Zeppelin IV](track_album)?
+- please play some [dubstep](track_genre) music for us
+- Play the [soundtrack](track_genre) musicc
+- Play any track from album [Bad](track_album), will you?
+- can you play a track from [EVEN IN THE TREMOR](track_album)?
+- Play something from album [On the Line](track_album)
+- I wanna dance to tracks from [Kamikaze](track_album)
+- Play a track from album [Recovery](track_album) by [Lil Wayne](track_artist), will you?
+- can you please play any track from [Oasis](track_album) album
+- Would you please play any music from album [The Unseen In-Between](track_album)?
+- Play something from album [On The Line](track_album), will you?
+- Would you please play any track from album [Legend](track_album)?
+- will you please play some music from the album [Appetite for Destruction](track_album) by [Drake](track_artist)?
+- I would like to hear to music from [Thank U, Next](track_album) by [Mad Money](track_artist)
+- I would like to listen some music from the album [The Immaculate Collection](track_album)
+- cheer me up by playing something from the album [U.F.O.F](track_album), will you?
+- I would like to groove to music from [The Immaculate Collection](track_album) by [XAMES3](track_artist)
+- I would like to listen something from [Recovery](track_album).
+- play music
+- Play any song from [Sunshine Rock](track_album) album by [Justin Timberlake](track_artist), will you?
+- Would you please play a track from the album [Father of the Bride](track_album) by [XAMES3](track_artist)?
+- can you play any track from the album [EVEN IN THE TREMOR](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I would like to hear to music from [Father of the Bride](track_album) by [Eagles](track_artist)
+- please play the [soundtrack](track_genre) music for me
+- will you please play any music from [Oh My God](track_album) album.
+- will you please play a track from the album [Bandana](track_album)?
+- Play [edm](track_genre) music
+- Would you please play any music from [Appetite for Destruction](track_album) by [Eminem](track_artist)?
+- cheer me up with [Ramin Djawadi](track_artist)'s music.
+- will you please play any track from [Beware of the Dogs](track_album) album by [Mellen Gi](track_artist)
+- will you please play tracks from [La La Land](track_album) album
+- I would like to groove to music from [Let’s Talk About Love](track_album) by [Eagles](track_artist)
+- can you play a track from album [Heard It In A Past Life](track_album) by [Nicki Minaj](track_artist)?
+- can you play any track from the album [Gold and Grey](track_album)?
+- Play something from [YOU CAN'T SIT WITH US](track_album) album
+- I would like you to please play any [pop](track_genre) beat
+- can you please play any music from the album [The Immaculate Collection](track_album)?
+- can you please play any track from [The Immaculate Collection](track_album)?
+- will you please play any track from album [Revival](track_album)?
+- I will like to have some [grunge](track_genre) track
+- Would you please play some music from [On the Line](track_album) by [Mellen Gi](track_artist)?
+- Play some music from [Sunshine Rock](track_album)
+- I would like to groove to some [dubstep](track_genre) track
+- will you please play any track from [Cuz I Love You](track_album) by [Drake](track_artist)?
+- Would you please play any music from album [Western Stars](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play a track from [Revival](track_album) album.
+- Play songs from [On The Line](track_album)
+- Would you please play a track from [U.F.O.F](track_album) by [Ludacris](track_artist)?
+- Would you please play something from the album [The Immaculate Collection](track_album)?
+- will you please play music from [Gallipoli](track_album) by [XAMES3](track_artist)?
+- I wanna listen music from album [Recovery](track_album).
+- I would like to listen any track from album [This Is How You Smile](track_album)
+- I wanna listen music from album [Atlanta Millionaires Club](track_album)
+- Play tracks from [Tip of the Sphere](track_album), will you?
+- Could you please play any [grunge](track_genre) music for us?
+- Would you please play any music from the album [Legend](track_album) by [George Michael](track_artist)?
+- Play songs from [Assume Form](track_album) by [Warner & Chappell](track_artist), will you?
+- Could you please play the [metal](track_genre) track  for us?
+- cheer me up by playing any track from [New Breed](track_album), will you?
+- Would you please play music from album [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen to any [pop](track_genre) track
+- Would you please play some [edm](track_genre) track ?
+- I wanna dance to any track from album [When I Get Home](track_album)
+- Would you please play any track from the album [Supernatural](track_album) by [Ludacris](track_artist)?
+- Would you please play any track from [Oasis](track_album) album
+- will you please play some music from album [The Night King](track_album) by [Eagles](track_artist)?
+- I would like to listen any track from album [The Night King](track_album).
+- I would like to dance to music from [Back in Black](track_album) by [Ed Sheeran](track_artist)
+- Would you please play any track from [Kamikaze](track_album) album
+- Would you please play songs from album [In League With Dragons](track_album) by [Bonobo](track_artist)?
+- Play music from [Legend](track_album) by [Clint Mansell](track_artist), will you?
+- I wanna listen tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- can you please play any song from [Requiem for a Dream](track_album) album.
+- Play a track from [The Night King](track_album)
+- Would you please play any [rap](track_genre) music?
+- will you please play something from album [The Immaculate Collection](track_album)?
+- Play the [Rock](track_genre) tune.
+- I would like to hear the [Jazz](track_genre) track
+- Play some [funk](track_genre)
+- Would you please play tracks from [Supernatural](track_album)?
+- Would you please play some music from album [Heard It In A Past Life](track_album)?
+- Would you please play something from [Western Stars](track_album) album by [Drake](track_artist).
+- Play tracks from [When I Get Home](track_album) album, will you?
+- please play the [Rock](track_genre) music for us
+- will you please play any song from [Supernatural](track_album) album.
+- I want to listen to music from [when we all fall asleep where do we go](track_album) by [PSY](track_artist)
+- I would like to listen songs from album [Bandana](track_album).
+- I would like to hear the [metal](track_genre) music
+- Play an [orchestra](track_genre) music
+- I wanna dance to some music from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to listen some music from the album [What Chaos Is Imaginary](track_album)
+- shoot me with some beats
+- I would like to listen a track from album [When I Get Home](track_album)
+- I would like you to please play some [soundtrack](track_genre) music
+- I would like you to please play the [grunge](track_genre) tracks
+- will you please play any track from album [Crushing](track_album) by [Drake](track_artist)?
+- cheer me up by playing any song from [Titanic Rising](track_album) album, will you?
+- can you please play something from [Illuminate](track_album)?
+- Could you please play any [funk](track_genre) music?
+- Would you please play the [hip-hop](track_genre) tracks?
+- I would like to hear some [pop](track_genre)
+- Would you please play songs from album [Purple Reign](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I wanna dance to any music from [The Black Album](track_album)
+- I would like to listen any track from album [EVEN IN THE TREMOR](track_album)
+- can you play music from [The Immaculate Collection](track_album)?
+- will you please play something from [Angel's Pulse](track_album) album
+- Play a track from album [Father of the Bride](track_album)
+- I would like to dance to any [pop](track_genre) music
+- will you please play something from album [When I Get Home](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any track from album [Oliver Appropriate](track_album) by [Eagles](track_artist)?
+- Would you please play a track from [The Marshall Mathers LP 2 Disc 2](track_album) by [Drake](track_artist)?
+- can you please play songs from album [Phoenix](track_album)?
+- Could you please play some [rap](track_genre) tracks?
+- Play songs from [Phoenix](track_album) by [Bonobo](track_artist), will you?
+- Play some [punk](track_genre) tracks
+- can you play any track from the album [Supernatural](track_album)?
+- Play any music from [LP3](track_album) album, will you?
+- I wanna dance to songs from [On the Line](track_album).
+- I would like to listen tracks from album [Assume Form](track_album)
+- I would like to dance to music from [Atlanta Millionaires Club](track_album) by [Ludacris](track_artist)
+- cheer me up by playing songs from album [Bad](track_album), will you?
+- Would you please play a track from [Hijas del Tomate](track_album)?
+- will you please play a track from [Remind Me Tomorrow](track_album)?
+- Play songs from album [IGOR](track_album) by [Eagles](track_artist), will you?
+- I would like to hear the [punk](track_genre)
+- can you play any track from [Titanic Rising](track_album)?
+- I would like to dance to any [grunge](track_genre) track
+- Play any track from album [Anima](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna dance to any song from the album [Led Zeppelin IV](track_album)
+- I would like you to please play any [punk](track_genre) beat
+- will you please play any music from [Appetite for Destruction](track_album) album
+- I would like to listen to music from [Quiet Signs](track_album) by [Nate Dogg](track_artist).
+- I would like to groove to music from [Legend](track_album) by [Dr. Dre](track_artist)
+- Would you please play any song from [Yandhi](track_album) album by [Clint Mansell](track_artist)
+- can you please play something by [Khalid](track_artist)?
+- Could you please play the [soundtrack](track_genre) tracks for us?
+- I wanna dance to a track from the album [Appetite for Destruction](track_album)
+- Play some music from album [Legend](track_album) by [Eagles](track_artist), will you?
+- Play any track from the album [Rumours](track_album), will you?
+- Would you please play music from album [Appetite for Destruction](track_album) by [Skrillex](track_artist)?
+- Play any track from [Young Enough](track_album) album
+- please play the [hip-hop](track_genre) songs for me
+- Play any track from the album [Outer Peace](track_album) by [Nicki Minaj](track_artist), will you?
+- play something
+- will you please play tracks from [Heard It In A Past Life](track_album)?
+- Play any track from the album [Metallica](track_album), will you?
+- Play something from album [Oasis](track_album)
+- Music by [Alana Davis](track_artist).
+- can you please play any track from album [Marshal Mather LP II](track_album)?
+- Play music by [Rihanna](track_artist)
+- I would like to listen to the [grunge](track_genre)
+- I would like to listen to some [Pop](track_genre) music
+- will you please play something from album [Kamikaze](track_album) by [Nicki Minaj](track_artist)?
+- Play songs from [Rumours](track_album), will you?
+- Play an [orchestra](track_genre) song
+- will you please play any music from the album [Revival](track_album) by [Dr. Dre](track_artist)?
+- will you please play something from [Cuz I Love You](track_album) album
+- I wanna dance to any track from album [Recovery](track_album).
+- I would like to listen any track from album [Kamikaze](track_album)
+- Would you please play music from [Father of the Bride](track_album) by [Alan Walker](track_artist)?
+- Would you please play any music from album [The Immaculate Collection](track_album) by [Nicki Minaj](track_artist)?
+- Play any track from the album [Lets Try the After](track_album)
+- can you play tracks from album [Lets Try the After](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I would like to listen any music from album [The Wizrd](track_album)
+- will you please play a track from album [LP3](track_album)?
+- Would you please play any track from the album [Marshal Mather LP II](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play any track from album [Atlanta Millionaires Club](track_album), will you?
+- Would you please play any track from [Supernatural](track_album) by [Sean Paul](track_artist)?
+- I would like to listen to the [hip-hop](track_genre) music
+- I would like to dance to [Rihanna](track_artist)
+- will you please play any song from [when we all fall asleep where do we go](track_album) by [Future](track_artist)?
+- Could you please play some [metal](track_genre) songs for us?
+- Would you please play something from [Outer Peace](track_album) album.
+- I wanna listen any track from [Angel's Pulse](track_album)
+- Would you please play songs from album [Revival](track_album)?
+- I would like to listen a track from album [Bad](track_album)
+- can you play something from [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to music from album [Outer Peace](track_album).
+- will you please play any track from [Titanic Rising](track_album)?
+- Would you please play a track from album [EVEN IN THE TREMOR](track_album) by [Kanye West](track_artist)?
+- cheer me up by playing tracks from [Outer Peace](track_album) album, will you?
+- Would you please play some music from the album [Marshal Mather LP II](track_album)?
+- Please play some [rap](track_genre) tracks
+- will you please play some music from album [La La Land](track_album)?
+- Would you please play any track from [Rumours](track_album) by [Drake](track_artist)?
+- can you play any track from [TBA](track_album) album
+- Play a track from [LP3](track_album)
+- please play the [hip-hop](track_genre) track  for me
+- Would you please play any music from [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Will you please play something by [Billie Eilish](track_artist)?
+- Play music from [What Chaos Is Imaginary](track_album) by [Drake](track_artist), will you?
+- Would you please play songs from [Legend](track_album) by [Drake](track_artist)?
+- will you please play any track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play any music from album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I will like to have some [pop](track_genre)
+- Play the [punk](track_genre) tune.
+- Would you please play tracks from album [Led Zeppelin IV](track_album)?
+- cheer me up by playing something from [Thank U, Next](track_album) album, will you?
+- please play the [punk](track_genre) tracks for us
+- will you please play any song from the album [Recovery](track_album)?
+- Would you please play the [Funk](track_genre) songs?
+- Would you please play the [soundtrack](track_genre) music?
+- please play the [metal](track_genre) music for us
+- I would like to dance to some [grunge](track_genre)
+- cheer me up by playing songs from [Anima](track_album), will you?
+- Please play the [hip-hop](track_genre) track
+- can you play any music from album [Metallica](track_album) by [Dr. Dre](track_artist)?
+- Play a track from [Bandana](track_album)
+- Play any track from [The Immaculate Collection](track_album), will you?
+- Would you please play a track from album [What Chaos Is Imaginary](track_album) by [Rick0 James](track_artist)?
+- will you please play something from [This Is How You Smile](track_album) by [Dr. Dre](track_artist)?
+- will you please play any track from [Father of the Bride](track_album) album by [Bonobo](track_artist)
+- Play tracks from album [Good Ass Job](track_album).
+- can you please play any track from the album [Buoys](track_album)?
+- I would like to listen to some [edm](track_genre)
+- can you play a track from [U.F.O.F](track_album)?
+- I would love to listen to [Coldplay](track_artist)
+- I wanna listen some music from the album [Appetite for Destruction](track_album)
+- I would like you to please play some [soundtrack](track_genre) songs
+- I would like to listen songs from album [LP3](track_album).
+- will you please play something from album [Back in Black](track_album)?
+- Play tracks from album [Cuz I Love You](track_album) by [XAMES3](track_artist), will you?
+- Would you please play any track from album [Back in Black](track_album) by [George Michael](track_artist)?
+- will you please play any track from the album [Outer Peace](track_album)?
+- I would like to groove to some [soundtrack](track_genre) beat
+- I will like to have some [Electronic](track_genre) track
+- will you please play something from album [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any music from [What Chaos Is Imaginary](track_album) album by [Drake](track_artist).
+- will you please play something from [Rumours](track_album) album by [Drake](track_artist)
+- Play any track from [Let’s Talk About Love](track_album).
+- I wanna dance to any track from the album [Hotel California](track_album)
+- I wanna dance to any song from the album [Quiet Signs](track_album)
+- Play any music from [Back in Black](track_album), will you?
+- drop the beat
+- please play some [funk](track_genre) for us
+- I wanna listen any song from [Oliver Appropriate](track_album) album
+- please play any [grunge](track_genre) music for me
+- will you please play a track from [The Craving for Absolute Serenity](track_album) album
+- I would like to listen any track from [YOU CAN'T SIT WITH US](track_album) album.
+- Could you please play some [punk](track_genre)?
+- Would you please play something from album [Hotel California](track_album)?
+- Would you please play any song from [Recovery](track_album) by [Lil Wayne](track_artist)?
+- Would you please play songs from [Oh My God](track_album)?
+- Would you please play music from [Appetite for Destruction](track_album) by [Skrillex](track_artist)?
+- Would you please play any song from [Dedicated](track_album) by [Nate Dogg](track_artist)?
+- Would you please play a track from [Father of the Bride](track_album) by [Clint Mansell](track_artist)?
+- I wanna listen any track from [Young Enough](track_album) album
+- babe, play something by [Dr. Dre](track_artist).
+- Play any song from the album [Father of the Bride](track_album)
+- will you please play a track from [Let’s Talk About Love](track_album) album.
+- can you please play any song from album [Father of the Bride](track_album)?
+- Could you please play the [rap](track_genre) music for us?
+- Would you please play something from [Anima](track_album)?
+- will you please play any track from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Drake](track_artist)?
+- Play any music from [U.F.O.F](track_album), will you?
+- can you play any music from the album [Beware of the Dogs](track_album)?
+- I would like you to please play an [orchestra](track_genre) song
+- I wanna listen a track from [Legend](track_album) album
+- can you please play music from album [Bad](track_album)?
+- cheer me up by playing tracks from [Legend](track_album), will you?
+- Play any track from [The Craving for Absolute Serenity](track_album) album, will you?
+- Play a track from [Marshal Mather LP II](track_album) album by [Ludacris](track_artist), will you?
+- can you please play any song from album [Remind Me Tomorrow](track_album)?
+- I would like to listen to some [blues](track_genre) music
+- I would like to listen any music from [Rumours](track_album)
+- please play the [grunge](track_genre) tracks for us
+- I would like to listen to the [punk](track_genre) track
+- Would you please play something from [The Immaculate Collection](track_album) album by [Cardi B](track_artist)
+- Could you please play some [funk](track_genre)?
+- please play the [Orchestra](track_genre) for us
+- I would like to hear to [Halsey](track_artist)
+- Play music from album [When I Get Home](track_album)
+- can you play something from album [Buoys](track_album) by [Selena Gomez](track_artist)?
+- I would like to dance to [Clint Mansell](track_artist)
+- I wanna dance to a track from [What Chaos Is Imaginary](track_album) album
+- will you please play any track from [Oliver Appropriate](track_album)?
+- Would you please play any track from [Heard It In A Past Life](track_album) album by [The Chainsmokers](track_artist)
+- I wanna dance to any track from album [Appetite for Destruction](track_album)
+- can you play a track from [Crushing](track_album) by [Drake](track_artist)?
+- will you please play a track from [Recovery](track_album) album by [Kanye West](track_artist).
+- I would like to listen to some [funk](track_genre) tracks
+- I will like to have the [soundtrack](track_genre) songs
+- Play any [punk](track_genre) music
+- I would like to listen any track from [When I Get Home](track_album) album
+- Would you please play any track from the album [Kamikaze](track_album) by [Mellen Gi](track_artist)?
+- can you please play any music from album [Angel's Pulse](track_album)?
+- I would like to listen any song from [Father of the Bride](track_album)
+- I will like to have the [funk](track_genre) track
+- Would you please play songs from [Gold and Grey](track_album)?
+- will you please play a track from [EVEN IN THE TREMOR](track_album) by [Katy Perry](track_artist)?
+- Play any track from [On the Line](track_album) album by [Rick0 James](track_artist), will you?
+- I would love to dance to [Usher](track_artist)
+- I wanna dance to any track from [Back in Black](track_album) album
+- can you play any track from the album [when we all fall asleep where do we go](track_album) by [Sean Paul](track_artist)?
+- some [soundtrack](track_genre) songs
+- Play songs from [Notes on a Conditional Form](track_album)
+- can you play any track from [Revival](track_album) by [Warner & Chappell](track_artist)?
+- Play music from [Dedicated](track_album), will you?
+- Play music from [Harverd Dropout](track_album) by [Eagles](track_artist), will you?
+- I wanna dance to any music from the album [Legend](track_album)
+- can you please play something from [Flamagra](track_album) album.
+- will you please play any song from [Oliver Appropriate](track_album) album by [Ozuna](track_artist)
+- please play some [rap](track_genre) track  for us
+- cheer me up by playing something from [Bandana](track_album) album, will you?
+- Play tracks from album [What Chaos Is Imaginary](track_album), will you?
+- Would you please play any music from [Metallica](track_album)?
+- I will like to have any [blues](track_genre) beat
+- I would like to groove to any [metal](track_genre) beat
+- Would you please play songs from [Atlanta Millionaires Club](track_album)?
+- Play some [metal](track_genre) tracks
+- cheer me up by playing songs from album [Phoenix](track_album), will you?
+- Play tracks from [Slaves of Fear](track_album), will you?
+- will you please play a track from album [Revival](track_album) by [Drake](track_artist)?
+- Would you please play something from [The Black Album](track_album) album.
+- please play some [soundtrack](track_genre) music for us
+- Play any song from [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to listen tracks from [Sunshine Rock](track_album) album.
+- will you please play some music from the album [Led Zeppelin IV](track_album) by [Lil Wayne](track_artist)?
+- Play any track from the album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play songs from [Harverd Dropout](track_album), will you?
+- Play any song from [Rumours](track_album) album by [Lil Wayne](track_artist), will you?
+- I wanna listen some music from album [Angel's Pulse](track_album)
+- I wanna dance to any music from [Legend](track_album) album
+- I would like to hear any [punk](track_genre) track
+- I would love to listen to [Usher](track_artist)
+- I wanna groove to music from [Recovery](track_album).
+- please play some [metal](track_genre) track  for us
+- Play any track from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen songs from [Buoys](track_album).
+- I wanna dance to a track from album [Designer](track_album)
+- can you please play any song from [Western Stars](track_album)?
+- will you please play music from album [On the Line](track_album)?
+- Play a track from [Metallica](track_album)
+- Play the [rap](track_genre) music
+- I wanna dance to music from album [The Saint of Lost Causes](track_album)
+- can you please play some music from album [Norman Fucking Rockwell](track_album)?
+- I wanna listen any track from [Hotel California](track_album)
+- I wanna listen tracks from album [Sunshine Rock](track_album)
+- can you play any track from the album [Atlanta Millionaires Club](track_album)?
+- Play any song from [New Breed](track_album) album
+- Would you please play any [soundtrack](track_genre) music?
+- will you please play any track from [Oliver Appropriate](track_album) by [Mellen Gi](track_artist)?
+- I wanna dance to something from the album [Designer](track_album)
+- Play any track from the album [Bad](track_album), will you?
+- I would like to listen to any [funk](track_genre) beat
+- Play a track from [Back in Black](track_album) by [Ludacris](track_artist), will you?
+- Play any [soundtrack](track_genre) beat
+- I would like to dance to any [grunge](track_genre) music
+- I will like to have any [dubstep](track_genre) track
+- I wanna dance to any track from album [Western Stars](track_album)
+- I would love to dance to [Rihanna](track_artist)
+- Play something from the album [Titanic Rising](track_album) by [Drake](track_artist), will you?
+- can you please play something from the album [Metallica](track_album)?
+- can you please play any song from album [Appetite for Destruction](track_album)?
+- I would like to dance to the [rap](track_genre) music
+- Would you please play some music from the album [The Marshall Mathers LP 2 Disc 2]Would you ptrack_album)?
+- Please play some [edm](track_genre)
+- can you play something from the album [Supernatural](track_album)?
+- Play a track from album [Outer Peace](track_album)
+- Could you please play something by [Rihanna](track_artist)?
+- Play any song from [Legend](track_album) album
+- please play the [blues](track_genre) music for me
+- will you please play songs from album [Hijas del Tomate](track_album)?
+- will you please play music from [Requiem for a Dream](track_album)?
+- will you please play any track from the album [Young Enough](track_album) by [Drake](track_artist)?
+- please play the [blues](track_genre) for us
+- please play any [rap](track_genre) music for me
+- I wanna listen some music from album [Atlanta Millionaires Club](track_album)
+- can you play some music from the album [YOU CAN'T SIT WITH US](track_album)?
+- I wanna listen any music from album [Let’s Talk About Love](track_album).
+- Could you please play some [Rap](track_genre)?
+- I wanna dance to songs from album [The Immaculate Collection](track_album)
+- will you please play any music from the album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Could you play something by [Ariana Grande](track_artist)?
+- will you please play any track from the album [LP3](track_album) by [Mellen Gi](track_artist)?
+- please play any [pop](track_genre) track for me
+- please play the [Blues](track_genre) songs for us
+- can you play something from [Chapter VI](track_album) album.
+- I wanna listen any music from [On the Line](track_album)
+- I would like to listen any music from the album [On the Line](track_album)
+- Play something from [Let’s Talk About Love](track_album) album, will you?
+- Play any track from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play songs from [Bad](track_album)
+- Would you please play tracks from [Led Zeppelin IV](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Play some music from album [when we all fall asleep where do we go](track_album) by [Drake](track_artist), will you?
+- can you play some music from [Cuz I Love You](track_album) by [Justin Hurwitz](track_artist)?
+- I wanna listen songs from [The Immaculate Collection](track_album)
+- Play some music from [Revival](track_album), will you?
+- Would you please play any track from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Nicki Minaj](track_artist)?
+- Play any track from [The Immaculate Collection](track_album) album, will you?
+- I wanna listen songs from [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would like you to please play the [blues](track_genre)
+- I would like to listen any track from the album [Recovery](track_album)
+- will you please play any track from [Bad](track_album)?
+- Would you please play any track from [Cuz I Love You](track_album) by [Ludacris](track_artist)?
+- I would like to listen to any [Rock](track_genre) music
+- can you play any track from album [Tip of the Sphere](track_album) by [Justin Timberlake](track_artist)?
+- Would you please play something from album [when we all fall asleep where do we go](track_album) by [Shawn Mendes](track_artist)?
+- Play music from [U.F.O.F](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play any track from the album [Rumours](track_album)?
+- please play some [rap](track_genre) track  for me
+- Would you please play some music from the album [The Immaculate Collection](track_album)?
+- I would like to hear any [dubstep](track_genre) track
+- Play songs by [Halsey](track_artist)
+- Play songs from album [Angel's Pulse](track_album).
+- I will like to have the [pop](track_genre) music
+- can you play a track from [Let’s Talk About Love](track_album)?
+- Play something from the album [TBA](track_album), will you?
+- can you please play something from [Hotel California](track_album) album
+- please play the [grunge](track_genre) for me
+- can you play songs from album [Heard It in a Past Life](track_album)?
+- Could you please play some [dubstep](track_genre) track ?
+- I would like to dance to an [orchestra](track_genre) beat
+- Play any music from album [Legend](track_album), will you?
+- can you play any song from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- Play something from [Requiem for a Dream](track_album) album.
+- Could you please play the [hip-hop](track_genre) music?
+- Would you please play some [punk](track_genre) music?
+- please play some [grunge](track_genre) for us
+- I wanna listen tracks from [In League With Dragons](track_album).
+- Play any track from album [Norman Fucking Rockwell](track_album)
+- will you please play any song from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play a track from the album [Chapter VI](track_album)?
+- can you play any music from [Oliver Appropriate](track_album) album by [50 cents](track_artist)
+- I wanna listen a track from [The Marshall Mathers LP 2 Disc 2](track_album)
+- will you please play any music from the album [Buoys](track_album) by [Justin Hurwitz](track_artist)?
+- cheer me up by playing any song from the album [Legend](track_album), will you?
+- Would you please play tracks from album [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Could we get something by [Billie Eilish](track_artist)?
+- I would like to dance to the [metal](track_genre) tracks
+- cheer me up by playing any track from album [TBA](track_album), will you?
+- I wanna listen a track from [The Immaculate Collection](track_album) album
+- Play songs from [The Night King](track_album).
+- will you please play a track from [Led Zeppelin IV](track_album)?
+- can you please play music from [Legend](track_album)?
+- Would you please play any music from the album [Oh My God](track_album)?
+- cheer me up by playing something from the album [Lets Try the After](track_album), will you?
+- can you please play any music from [SASAMI](track_album)?
+- I would like to listen any song from album [LP3](track_album)
+- Would you please play any song from album [Heard It in a Past Life](track_album) by [Drake](track_artist)?
+- will you please play any track from [The Wizrd](track_album) album by [Dr. Dre;Eminem](track_artist)
+- cheer me up by playing any song from the album [Sunshine Rock](track_album), will you?
+- will you please play songs from album [Thank U, Next](track_album) by [Ludacris](track_artist)?
+- some [punk](track_genre) songs
+- I would like to listen any track from [On The Line](track_album)
+- Could you please play some [pop](track_genre) music for us?
+- I wanna listen tracks from [Norman Fucking Rockwell](track_album)
+- can you please play something from [Purple Reign](track_album)?
+- Play something from the album [The Immaculate Collection](track_album), will you?
+- Play the [metal](track_genre) tracks.
+- Would you please play any track from [Supernatural](track_album)?
+- Play any track from [Mitsubishi Macchiato](track_album) album.
+- can you please play any song from [Let’s Talk About Love](track_album) album.
+- I wanna dance to any track from [Angel's Pulse](track_album)
+- Play a track from album [Sunshine Rock](track_album), will you?
+- Would you please play any song from the album [This Is How You Smile](track_album)?
+- Play any track from the album [Metallica](track_album) by [Kanye West](track_artist), will you?
+- Would you please play some music from album [Remind Me Tomorrow](track_album)?
+- can you play something from [Supernatural](track_album) album by [Shawn Mendes](track_artist).
+- I would like to listen a track from [Metallica](track_album)
+- will you please play something from [The Immaculate Collection](track_album) by [Dr. Dre](track_artist)?
+- I would like to listen something from the album [Sunshine Rock](track_album)
+- Play the [hip-hop](track_genre) music.
+- Please play an [orchestra](track_genre) tunes
+- Could you please play some [pop](track_genre) songs for us?
+- Please play some [Rap](track_genre) music
+- Please play any [soundtrack](track_genre) music
+- please play any [rap](track_genre) beat for us
+- Could you please play an [orchestra](track_genre) beat for us?
+- Would you please play some music from the album [The Saint of Lost Causes](track_album) by [Drake](track_artist)?
+- I wanna dance to some music from [Tip of the Sphere](track_album)
+- Please play some [blues](track_genre) track
+- will you please play a track from [I Am Easy To Find](track_album)?
+- will you please play any track from [YOU CAN'T SIT WITH US](track_album) album by [Drake](track_artist).
+- I would like to groove to any [grunge](track_genre) music
+- I wanna listen any song from album [Gallipoli](track_album)
+- can you play a track from [Appetite for Destruction](track_album) by [Mellen Gi](track_artist)?
+- Could you please play the [funk](track_genre) music for us?
+- can you play a track from the album [Back in Black](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Would you please play a track from album [Bad](track_album)?
+- will you please play any track from the album [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play a track from [SASAMI](track_album) album by [Akon](track_artist)
+- can you play something from [Notes on a Conditional Form](track_album) by [Rick0 James](track_artist)?
+- can you play any music from [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play music from [Anima](track_album), will you?
+- Play any music from [Recovery](track_album).
+- I wanna listen songs from album [U.F.O.F](track_album)
+- Play songs from [Supernatural](track_album) by [Drake](track_artist), will you?
+- Play any track from album [Remind Me Tomorrow](track_album) by [Eminem](track_artist), will you?
+- Play something from [Remind Me Tomorrow](track_album), will you?
+- Could you please play any [pop](track_genre) beat?
+- cheer me up by playing tracks from [What Chaos Is Imaginary](track_album), will you?
+- I would like to listen something from [Western Stars](track_album)
+- I would like to listen some music from the album [Rumours](track_album)
+- will you please play any song from the album [Legend](track_album) by [Bonobo](track_artist)?
+- I would like to groove to the [pop](track_genre) music
+- Would you please play some music from album [Hotel California](track_album) by [Dr. Dre](track_artist)?
+- Play something from [Legend](track_album), will you?
+- I would like you to please play the [pop](track_genre) tracks
+- Play any track from [Appetite for Destruction](track_album), will you?
+- Play any track from album [Oliver Appropriate](track_album) by [Mad Money](track_artist), will you?
+- Could you please play some [edm](track_genre) songs?
+- please play the [edm](track_genre) songs for me
+- cheer me up by playing something from [SASAMI](track_album) album, will you?
+- can you play any track from album [Phoenix](track_album)?
+- will you please play any track from [YOU CAN'T SIT WITH US](track_album) by [Nicki Minaj](track_artist)?
+- Please play the [edm](track_genre) track
+- Play any track from album [The Saint of Lost Causes](track_album) by [Cardi B](track_artist), will you?
+- Would you please play music from [Lets Try the After](track_album) by [Ludacris](track_artist)?
+- I would like to hear the [punk](track_genre) track
+- Would you please play any song from album [Heard It In A Past Life](track_album)?
+- I wanna listen a track from [Sunshine Rock](track_album)
+- Would you please play any track from [Legend](track_album) by [Linkin Park](track_artist)?
+- cheer me up by playing something from the album [On the Line](track_album), will you?
+- Would you please play tracks from [Recovery](track_album) album.
+- I would like to groove to the [grunge](track_genre) track
+- will you please play music from album [Legend](track_album) by [Madonna](track_artist)?
+- I would like you to please play the [metal](track_genre) tracks
+- Play any track from [Tip of the Sphere](track_album) by [Drake](track_artist), will you?
+- I wanna dance to some music from album [Rumours](track_album)
+- I would like to listen any music from [What Chaos Is Imaginary](track_album) album
+- make me happy.
+- Play music from album [Father of the Bride](track_album), will you?
+- I wanna dance to any song from album [New Breed](track_album)
+- Play music from [Oh My God](track_album), will you?
+- Would you please play songs from album [Metallica](track_album) by [50 cents](track_artist)?
+- can you please play any track from the album [On The Line](track_album)?
+- I wanna listen some music from album [The Immaculate Collection](track_album)
+- can you play any music from [The Black Album](track_album) album by [Mad Money](track_artist)
+- I would enjoy to dance to [Khalid](track_artist)
+- will you please play some music from the album [Let’s Talk About Love](track_album) by [Ed Sheeran](track_artist)?
+- Would you please play something by [Ariana Grande](track_artist)?
+- I would like to dance to any [dubstep](track_genre) music
+- will you please play something from the album [Rumours](track_album)?
+- Would you please play the [edm](track_genre) tracks?
+- will you please play any music from [This Is How You Smile](track_album) by [Madonna](track_artist)?
+- can you play music from album [Lets Try the After](track_album) by [Drake](track_artist)?
+- Play tracks from [The Immaculate Collection](track_album) album, will you?
+- can you please play songs from album [Quiet Signs](track_album)?
+- can you play any track from [Recovery](track_album) album by [Bonobo](track_artist).
+- sing me song by [drake](track_artist).
+- I would like to listen any track from [Appetite for Destruction](track_album)
+- I wanna dance to any song from album [The Black Album](track_album)
+- Play any music from [Thank U, Next](track_album) by [Eagles](track_artist), will you?
+- I would like to listen any song from album [Oasis](track_album)
+- cheer me up by playing songs from [IGOR](track_album), will you?
+- will you please play some music from album [Beware of the Dogs](track_album) by [XAMES3](track_artist)?
+- cheer me up by playing any track from [Marshal Mather LP II](track_album), will you?
+- I wanna dance to tracks from [YOU CAN'T SIT WITH US](track_album) album.
+- I will like to have an [orchestra](track_genre) song
+- can you please play any track from [Remind Me Tomorrow](track_album) album
+- Play any music from album [Hotel California](track_album), will you?
+- can you play music from [I Am Easy To Find](track_album)?
+- I would like to listen any song from the album [Flamagra](track_album)
+- Play a track from [Supernatural](track_album) album.
+- can you play any track from the album [This is Acting](track_album)?
+- I would like to hear the [EDM](track_genre) tracks
+- I wanna listen any track from [Illuminate](track_album) album
+- can you please play any music from [On the Line](track_album)?
+- Play any track from [U.F.O.F](track_album) album.
+- Play a track from [Back in Black](track_album) album.
+- I would like to listen some music from album [Mitsubishi Macchiato](track_album)
+- I wanna dance to something from the album [U.F.O.F](track_album)
+- I will like to have the [soundtrack](track_genre) beat
+- will you please play any track from album [The Saint of Lost Causes](track_album)?
+- I would like to dance to any [Rap](track_genre) beat
+- I would like to groove to some [funk](track_genre) songs
+- Play music from album [Supernatural](track_album), will you?
+- Play music from [Legend](track_album)
+- will you please play any track from album [Flamagra](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Could you please play any [dubstep](track_genre) beat for us?
+- Play any track from the album [On the Line](track_album) by [Drake](track_artist), will you?
+- will you please play something from the album [Led Zeppelin IV](track_album)?
+- I would like to groove to the [metal](track_genre) songs
+- Would you please play something by [Adele](track_artist)?
+- will you please play any song from [The Immaculate Collection](track_album)?
+- Play any track from [Bandana](track_album), will you?
+- can you please play music from album [New Breed](track_album)?
+- Please play the [soundtrack](track_genre) music
+- I wanna dance to any track from [The Wizrd](track_album) album.
+- Please play the [Hip-hop](track_genre) tracks
+- Play some [Blues](track_genre) music
+- I wanna dance to songs from [The Saint of Lost Causes](track_album)
+- Would you please play any track from [U.F.O.F](track_album) by [Sean Paul](track_artist)?
+- I would like to listen some music from [Purple Reign](track_album).
+- can you please play any music from [When I Get Home](track_album)?
+- I would like to groove to the [pop](track_genre) tracks
+- Play something from [Recovery](track_album).
+- I wanna dance to a track from the album [Legend](track_album)
+- Play something from album [Recovery](track_album).
+- will you please play songs from album [Designer](track_album) by [Mad Money](track_artist)?
+- can you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- please play [rap](track_genre) song
+- Play something from album [The Immaculate Collection](track_album) by [Mad Money](track_artist), will you?
+- I would like to hear an [orchestra](track_genre) track
+- Would you please play any song from [Recovery](track_album)?
+- I will like to have any [funk](track_genre) music
+- Would you play something by [Alan Walker](track_artist)?
+- Would you please play any song from album [Recovery](track_album) by [Clint Mansell](track_artist)?
+- Would you please play any track from album [On the Line](track_album) by [Lil Wayne](track_artist)?
+- can you please play songs from album [Rumours](track_album)?
+- can you please play any track from [Appetite for Destruction](track_album)?
+- Play any track from the album [Gold and Grey](track_album)
+- I would like to hear some [edm](track_genre) songs
+- I would like you to please play the [edm](track_genre) tracks
+- will you please play tracks from [The Immaculate Collection](track_album) album by [Cardi B](track_artist)
+- Play songs from album [Young Enough](track_album).
+- I would like to listen to the [dubstep](track_genre) track
+- Play something from [Father of the Bride](track_album) by [Cardi B](track_artist), will you?
+- Please play music by [Dr. Dre;Eminem](track_artist).
+- will you please play any music from the album [Heard It In A Past Life](track_album) by [Kanye West](track_artist)?
+- I would like to listen something from the album [Kamikaze](track_album)
+- I would like to listen a track from the album [Back in Black](track_album)
+- Would you please play something from album [Notes on a Conditional Form](track_album)?
+- I want to listen to music from [Cuz I Love You](track_album) by [Mad Money](track_artist)
+- can you please play a track from the album [Legend](track_album)?
+- can you play something from [The Immaculate Collection](track_album) by [Queen](track_artist)?
+- Play any music from album [This Is How You Smile](track_album) by [Eagles](track_artist), will you?
+- Play tracks from album [Marshal Mather LP II](track_album).
+- Would you please play any song from [When I Get Home](track_album) album
+- can you play some music from [On the Line](track_album) by [Kanye West](track_artist)?
+- will you please play any song from [The Wizrd](track_album) album by [XAMES3](track_artist)
+- can you please play tracks from album [Metallica](track_album)?
+- Please play an [orchestra](track_genre) track
+- will you please play music from album [Revival](track_album)?
+- play the tune from your system
+- I would like you to please play any [pop](track_genre) music
+- can you play something from [Bandana](track_album) album
+- I would enjoy to hear to [Adele](track_artist)
+- I would like to listen to some [dubstep](track_genre) track
+- can you play music from album [Angel's Pulse](track_album)?
+- cheer me up by playing something from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I would love to hear to [Selena Gomez](track_artist)
+- I want to listen to music from [Notes on a Conditional Form](track_album) by [XAMES3](track_artist)
+- I would like to listen to some [metal](track_genre) music
+- I would like you to please play any [Grunge](track_genre) beat
+- Play any track from [Rumours](track_album) album by [Skrillex](track_artist), will you?
+- will you please play any music from album [Led Zeppelin IV](track_album) by [Cardi B](track_artist)?
+- will you please play music from album [The Immaculate Collection](track_album)?
+- Play the [Rock](track_genre) music
+- Play any track from album [IGOR](track_album) by [Future](track_artist), will you?
+- I wanna dance to a track from [Flamagra](track_album).
+- I would like to listen music from [Atlanta Millionaires Club](track_album).
+- Play any track from album [YOU CAN'T SIT WITH US](track_album)
+- will you please play any music from [when we all fall asleep where do we go](track_album) album by [Lil Wayne](track_artist)
+- I would like to groove to the [rap](track_genre) tracks
+- Please play music by [Adele](track_artist).
+- Play any track from [Rumours](track_album), will you?
+- I wanna listen any track from album [Thank U, Next](track_album)
+- Play some music from the album [In League With Dragons](track_album), will you?
+- can you play music from album [Dedicated](track_album)?
+- Play the [punk](track_genre) songs
+- Would you please play songs from album [Designer](track_album) by [Ludacris](track_artist)?
+- Would you please play any track from album [Sunshine Rock](track_album)?
+- Could you please play some [metal](track_genre)?
+- I wanna dance to a track from the album [LP3](track_album)
+- cheer me up by playing songs from [Purple Reign](track_album), will you?
+- I wanna listen a track from [Marshal Mather LP II](track_album) album.
+- please play some [funk](track_genre) music
+- Play some music from the album [Good Ass Job](track_album), will you?
+- I would like you to please play some [pop](track_genre) songs
+- Could you please play the [grunge](track_genre) track  for us?
+- I wanna dance to a track from album [Harverd Dropout](track_album).
+- Please play the [soundtrack](track_genre) songs
+- I wanna dance to something from [The Saint of Lost Causes](track_album) album.
+- I would like you to please play the [hip-hop](track_genre) music
+- Play tracks from [U.F.O.F](track_album)
+- can you please play songs from album [Father of the Bride](track_album)?
+- I would like to dance to [Akon](track_artist)
+- will you please play music from album [Recovery](track_album)?
+- I would like to listen some music from [Metallica](track_album)
+- can you play a track from the album [Make It Big](track_album)?
+- Please play the [punk](track_genre) music
+- will you please play any track from [The Wizrd](track_album) by [Lil Wayne](track_artist)?
+- I wanna listen something from the album [Illuminate](track_album)
+- I wanna listen something from [Marshal Mather LP II](track_album)
+- I wanna listen any track from [LP3](track_album) album
+- can you play any track from [The Immaculate Collection](track_album) album
+- Play the [hip-hop](track_genre) music
+- can you play something from [Quiet Signs](track_album) album by [Future](track_artist).
+- I wanna dance to any music from [Revival](track_album) album
+- can you play something from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Nicki Minaj](track_artist)?
+- Would you please play any music from [The Immaculate Collection](track_album) album by [XAMES3](track_artist)
+- Would you please play a track from the album [In League With Dragons](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Would you please play any song from the album [EVEN IN THE TREMOR](track_album)?
+- will you please play any track from [Chapter VI](track_album) album by [Dr. Dre](track_artist)
+- will you please play a track from the album [Rumours](track_album)?
+- I wanna listen any track from the album [Outer Peace](track_album)
+- Would you please play music from album [Yandhi](track_album)?
+- Would you please play a track from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play tracks from album [Oh My God](track_album)?
+- Would you please play any music from the album [Thank U, Next](track_album) by [Sean Paul](track_artist)?
+- I wanna listen any music from the album [Metallica](track_album)
+- will you please play tracks from album [Legend](track_album) by [The Chainsmokers](track_artist)?
+- I would like to listen any track from the album [Lets Try the After](track_album)
+- I wanna dance to a track from album [This Is How You Smile](track_album)
+- I wanna dance to a track from album [Led Zeppelin IV](track_album)
+- Play some music from the album [The Immaculate Collection](track_album)
+- Play tracks from [The Immaculate Collection](track_album) album by [Camila Cabello](track_artist), will you?
+- cheer me up by playing something from the album [Legend](track_album), will you?
+- I would like to listen to some [grunge](track_genre) songs
+- Play songs from album [What Chaos Is Imaginary](track_album).
+- Play any song from album [Anima](track_album)
+- I wanna listen any music from [Young Enough](track_album) album.
+- I would like to listen any song from the album [Norman Fucking Rockwell](track_album)
+- Could you please play some [funk](track_genre) for us?
+- Would you please play a track from album [The Immaculate Collection](track_album)?
+- Play the [rap](track_genre) music.
+- Play some music from [YOU CAN'T SIT WITH US](track_album), will you?
+- I would like to listen to any [dubstep](track_genre) music
+- can you play something from [Heard It In A Past Life](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Would you please play something by [Billie Eilish](track_artist)?
+- please play some [funk](track_genre) track  for me
+- Would you please play a track from the album [Sunshine Rock](track_album) by [Drake](track_artist)?
+- Play tracks by [Sia](track_artist)
+- will you please play any music from album [The Immaculate Collection](track_album)?
+- Play some music from the album [Anima](track_album)
+- can you play something from the album [Legend](track_album) by [Drake](track_artist)?
+- Please play the [Metal](track_genre) tracks
+- cheer me up by playing tracks from [Outer Peace](track_album), will you?
+- Could you please play the [hip-hop](track_genre) tracks for us?
+- I would like to listen music from album [Gold and Grey](track_album)
+- can you play something from [Designer](track_album) album by [Cardi B](track_artist).
+- can you please play something from [When I Get Home](track_album)?
+- Would you please play something from the album [Revival](track_album) by [Drake](track_artist)?
+- Please play any [soundtrack](track_genre) beat
+- I would like you to please play the [metal](track_genre) songs
+- Play some music from album [Flamagra](track_album) by [Ozuna](track_artist), will you?
+- Would you please play any track from [LP3](track_album) album.
+- can you play something from the album [Metallica](track_album) by [Mad Money](track_artist)?
+- I would like to groove to music from [On the Line](track_album) by [Drake](track_artist)
+- I would like to listen to some [hip-hop](track_genre) songs
+- can you please play something from [Beware of the Dogs](track_album)?
+- will you please play some music from the album [Marshal Mather LP II](track_album)?
+- I wanna listen any track from the album [Rumours](track_album)
+- Play any track from [Father of the Bride](track_album) album, will you?
+- will you please play a track from the album [New Breed](track_album) by [Jay-Z](track_artist)?
+- Would you please play something from [Oliver Appropriate](track_album) by [Lil Wayne](track_artist)?
+- can you play a track from [Oh My God](track_album) album by [50 cents](track_artist)
+- I would love to listen to something by [Future](track_artist)
+- Play any track from [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any song from the album [Crushing](track_album) by [Mad Money](track_artist), will you?
+- I wanna listen any track from [New Breed](track_album)
+- I would like to dance to [Billie Eilish](track_artist)
+- I want to listen to music from [IGOR](track_album) by [Dr. Dre](track_artist)
+- Would you please play any music from the album [Marshal Mather LP II](track_album)?
+- I wanna listen a track from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to listen any track from the album [Notes on a Conditional Form](track_album)
+- can you please play something by [Imagine Dragons](track_artist)?
+- play something from [The Marshall Mathers LP 2 Disc 2](track_album).
+- Play a track from [Crushing](track_album) by [Shawn Mendes](track_artist), will you?
+- play music by [Adonis](track_artist).
+- I would like to dance to any [blues](track_genre) music
+- can you play any track from [Supernatural](track_album) album by [Alan Walker](track_artist).
+- Could you please play the [edm](track_genre) tracks for us?
+- Play any music from the album [Revival](track_album), will you?
+- I wanna dance to any track from album [Kamikaze](track_album)
+- Would you please play a track from the album [U.F.O.F](track_album) by [Mad Money](track_artist)?
+- I wanna listen any track from [Rumours](track_album) album
+- can you please play something from [Led Zeppelin IV](track_album) album.
+- can you please play any track from the album [Kamikaze](track_album)?
+- I would like to listen something from [The Immaculate Collection](track_album) album
+- I would like to dance to any [blues](track_genre) track
+- can you please play any music from [Gold and Grey](track_album)?
+- Play the [hip-hop](track_genre) track
+- I would like you to please play any [Funk](track_genre) track
+- will you please play music from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Coldplay](track_artist)?
+- I will like to have the [metal](track_genre)
+- will you please play a track from album [Mitsubishi Macchiato](track_album) by [Post Malone](track_artist)?
+- I would like to listen a track from album [U.F.O.F](track_album)
+- will you please play a track from [Atlanta Millionaires Club](track_album) by [Cardi B](track_artist)?
+- can you play some music from album [Appetite for Destruction](track_album)?
+- can you please play some music from album [Requiem for a Dream](track_album)?
+- I would like to listen to an [Jazz](track_genre) tunes
+- Play something by [Imagine Dragons](track_artist)
+- Play music from [Revival](track_album), will you?
+- Would you please play songs from album [The Immaculate Collection](track_album) by [Future](track_artist)?
+- can you play music from [What Chaos Is Imaginary](track_album)?
+- Play tracks from [The Saint of Lost Causes](track_album) album
+- I would like you to please play some [Rap](track_genre) music
+- I would like to listen a track from [Bad](track_album)
+- can you play some music from [Illuminate](track_album)?
+- will you please play songs from album [Back in Black](track_album) by [Jay-Z](track_artist)?
+- Would you please play songs from [The Immaculate Collection](track_album) by [Queen](track_artist)?
+- I would like to listen a track from the album [Sunshine Rock](track_album)
+- can you play any track from the album [The Immaculate Collection](track_album)?
+- Would you please play something from [In League With Dragons](track_album) album
+- I would like to hear an [orchestra](track_genre) beat
+- Play any track from album [Led Zeppelin IV](track_album)
+- Would you please play a track from [Angel's Pulse](track_album)?
+- I wanna listen any track from [IGOR](track_album).
+- I will like to have the [edm](track_genre)
+- I would like to groove to some [dubstep](track_genre) tracks
+- I wanna listen songs from [Back in Black](track_album).
+- I would like to listen tracks from [Metallica](track_album) album
+- I wanna listen something from [SASAMI](track_album).
+- can you play music from album [The Immaculate Collection](track_album)?
+- can you play tracks from album [Metallica](track_album)?
+- Could you please play an [orchestra](track_genre) tunes for us?
+- can you please play some music from album [The Immaculate Collection](track_album)?
+- Play some [hip-hop](track_genre) tracks
+- Play music from [Metallica](track_album), will you?
+- Would you please play some music from the album [Rumours](track_album)?
+- will you please play songs from [Metallica](track_album) by [Future](track_artist)?
+- I will like to have some [punk](track_genre) track
+- Please play some [funk](track_genre) tracks
+- Would you please play the [pop](track_genre) music?
+- please play some [Blues](track_genre) music
+- can you play any music from [Kamikaze](track_album) album
+- will u play some [edm](track_genre).
+- Play tracks from [Oh My God](track_album), will you?
+- Would you please play something from album [Young Enough](track_album)?
+- can you please play something from album [Legend](track_album)?
+- I wanna listen any song from [Back in Black](track_album) album.
+- I would like to hear some [punk](track_genre) songs
+- I would like to groove to the [hip-hop](track_genre) music
+- will you please play music from [Supernatural](track_album) by [The Chainsmokers](track_artist)?
+- will you please play any track from the album [Let’s Talk About Love](track_album)?
+- can you please play any track from the album [Let’s Talk About Love](track_album)?
+- I wanna dance to any music from [The Wizrd](track_album).
+- will you please play any track from the album [YOU CAN'T SIT WITH US](track_album)?
+- can you play tracks from [Marshal Mather LP II](track_album) album.
+- I would like to groove to some [punk](track_genre) music
+- I would like to listen to the [blues](track_genre) songs
+- can you play a track from album [Notes on a Conditional Form](track_album) by [Cardi B](track_artist)?
+- Play any song from the album [Outer Peace](track_album), will you?
+- I would like to dance to an [orchestra](track_genre) track
+- Play the [EDM](track_genre) music
+- I wanna dance to tracks from album [Lets Try the After](track_album)
+- Play a track from [Legend](track_album) album, will you?
+- please play any [edm](track_genre) beat for me
+- I would like to dance to any [rap](track_genre) music
+- will you please play any music from the album [Led Zeppelin IV](track_album) by [Jay-Z](track_artist)?
+- I wanna listen any track from the album [Sunshine Rock](track_album)
+- can you please play some music from [The Wizrd](track_album)?
+- Could you please play the [edm](track_genre) songs?
+- Would you please play any music from album [Cuz I Love You](track_album) by [Clint Mansell](track_artist)?
+- I would like to groove to any [edm](track_genre) beat
+- can you please play something from the album [Led Zeppelin IV](track_album)?
+- Would you please play any music from album [Metallica](track_album)?
+- I wanna listen tracks from [On The Line](track_album).
+- can you please play any track from [What Chaos Is Imaginary](track_album)?
+- Play some music from [Remind Me Tomorrow](track_album)
+- Play tracks from [Rumours](track_album) album by [Mellen Gi](track_artist), will you?
+- Play some [Rap](track_genre) music
+- please play some [soundtrack](track_genre) music
+- Play a track from [Revival](track_album) album, will you?
+- I wanna listen any music from [Bad](track_album)
+- Play any music from album [YOU CAN'T SIT WITH US](track_album), will you?
+- I would like to listen to any [Jazz](track_genre) music
+- Play tracks by [Ariana Grande](track_artist)
+- Play some music from [Harverd Dropout](track_album).
+- Would you please play any [metal](track_genre) music?
+- please play the [grunge](track_genre) track  for me
+- Play tracks from album [Anima](track_album), will you?
+- Play songs from album [YOU CAN'T SIT WITH US](track_album) by [Lady Gaga](track_artist), will you?
+- Play any [funk](track_genre) track
+- Could you please play an [Orchestra](track_genre) tune?
+- can you please play any track from album [Legend](track_album)?
+- Play any track from the album [Cuz I Love You](track_album)
+- Would you please play a track from [IGOR](track_album) album.
+- Would you please play music from [Remind Me Tomorrow](track_album) by [Nate Dogg](track_artist)?
+- Would you please play any music from the album [Father of the Bride](track_album)?
+- will you please play some music from [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play [grunge](track_genre) music
+- I would love to listen to [Khalid](track_artist)
+- some [grunge](track_genre) music
+- Would you please play any track from [Marshal Mather LP II](track_album) by [Bonobo](track_artist)?
+- Play any music from album [I Am Easy To Find](track_album).
+- I would like to dance to some [dubstep](track_genre) music
+- I would like to groove to any [grunge](track_genre) beat
+- Play any track from [Chapter VI](track_album) album, will you?
+- Play a track from the album [Father of the Bride](track_album), will you?
+- I wanna dance to some music from album [In League With Dragons](track_album)
+- I would like to dance to the [funk](track_genre)
+- I will like to have some [rap](track_genre) music
+- Play songs by [Alan Walker](track_artist)
+- can you play something from album [In League With Dragons](track_album)?
+- can you play something from [Remind Me Tomorrow](track_album)?
+- please play some [punk](track_genre) tracks
+- I would enjoy to hear to [Bruno Mars](track_artist)
+- can you play any song from [Supernatural](track_album) album.
+- I wanna listen any music from album [LP3](track_album)
+- can you please play any song from album [Metallica](track_album)?
+- can you please play something from [Tip of the Sphere](track_album) album
+- I wanna listen music from [Young Enough](track_album).
+- will you please play any track from album [Purple Reign](track_album)?
+- Would you please play some music from album [YOU CAN'T SIT WITH US](track_album)?
+- will you please play any track from [Quiet Signs](track_album)?
+- will you please play tracks from [Supernatural](track_album) album.
+- I wanna dance to tracks from [Lets Try the After](track_album) album
+- Play something from the album [What Chaos Is Imaginary](track_album) by [Cardi B](track_artist), will you?
+- I would like you to please play any [punk](track_genre) track
+- Would you please play some [metal](track_genre) tracks?
+- will you please play any track from [SASAMI](track_album)?
+- I would like to listen to any [edm](track_genre) track
+- Play music from [The Immaculate Collection](track_album)
+- I would like to listen songs from album [Titanic Rising](track_album).
+- I would like you to please play some [metal](track_genre) songs
+- can you play any music from the album [Let’s Talk About Love](track_album)?
+- Play any track from [Angel's Pulse](track_album) album by [Skrillex](track_artist), will you?
+- will you please play any song from album [Legend](track_album)?
+- will you please play songs from [Notes on a Conditional Form](track_album)?
+- I would like to hear the [funk](track_genre) songs
+- will you please play any track from the album [Notes on a Conditional Form](track_album)?
+- Play any track from [Requiem for a Dream](track_album) album, will you?
+- I would like to listen any track from [LP3](track_album) album
+- I would like you to please play some [grunge](track_genre) songs
+- Please play any [hip-hop](track_genre) track
+- Would you please play any track from [On the Line](track_album) by [Selena Gomez](track_artist)?
+- Play songs from [Appetite for Destruction](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Would you please play any track from the album [Assume Form](track_album)?
+- can you play songs from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album, will you?
+- I wanna dance to any track from the album [Kamikaze](track_album)
+- Play some music from the album [IGOR](track_album), will you?
+- can you play any track from [Crushing](track_album) album
+- Would you please play songs from [Everything Not Saved Will Be Lost—Part 1](track_album) by [Selena Gomez](track_artist)?
+- cheer me up by playing any track from [Titanic Rising](track_album) album, will you?
+- will you please play tracks from album [IGOR](track_album) by [Drake](track_artist)?
+- I wanna dance to any track from [Gold and Grey](track_album) album.
+- Would you please play something from album [Supernatural](track_album) by [Cardi B](track_artist)?
+- will you please play tracks from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna dance to some music from the album [Epic Hip Hop](track_album)
+- Play any music from [Kamikaze](track_album) album, will you?
+- I would like to listen any music from album [The Unseen In-Between](track_album)
+- Play any song from the album [Let’s Talk About Love](track_album) by [Sia](track_artist), will you?
+- I wanna listen tracks from [Titanic Rising](track_album).
+- Play something from album [Metallica](track_album), will you?
+- I would like to hear the [edm](track_genre) track
+- Would you please play something from album [SASAMI](track_album)?
+- I would like to hear some [funk](track_genre)
+- I will like to have some [rap](track_genre)
+- Play any track from [Mitsubishi Macchiato](track_album) album by [Drake](track_artist), will you?
+- I would like you to please play the [pop](track_genre) songs
+- I wanna dance to a track from the album [Heard It In A Past Life](track_album)
+- I would like to listen music from album [Thank U, Next](track_album).
+- Play tracks from [Oliver Appropriate](track_album) album, will you?
+- Play any track from album [Gold and Grey](track_album), will you?
+- cheer me up by playing songs from [Kamikaze](track_album), will you?
+- Play something from [Thank U, Next](track_album) album, will you?
+- Play a track from album [Supernatural](track_album).
+- I wanna listen something from album [Revival](track_album)
+- Would you please play any track from [Metallica](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Would you please play any music from [Supernatural](track_album) by [Jay-Z](track_artist)?
+- Would you please play music from album [Thank U, Next](track_album)?
+- Play tracks from [When I Get Home](track_album) album by [Mellen Gi](track_artist), will you?
+- can you play some music from [Bandana](track_album)?
+- can you play tracks from [Chapter VI](track_album) album by [Charlotte Rose Ellis](track_artist).
+- will you please play songs from album [Back in Black](track_album) by [Ludacris](track_artist)?
+- I wanna listen any song from the album [Oliver Appropriate](track_album)
+- Could you please play some [edm](track_genre) track ?
+- I wanna dance to something from album [Thank U, Next](track_album).
+- Would you please play songs from album [Quiet Signs](track_album) by [Drake](track_artist)?
+- I wanna listen a track from the album [Recovery](track_album)
+- I will like to have the [soundtrack](track_genre) track
+- Play any song from [What Chaos Is Imaginary](track_album) by [Shakira](track_artist), will you?
+- will you please play some music from [I Am Easy To Find](track_album)?
+- Play some [dubstep](track_genre)
+- Play the [soundtrack](track_genre) tracks.
+- please play an [orchestra](track_genre) tune for us
+- can you please play something from the album [The Immaculate Collection](track_album)?
+- please play the [metal](track_genre) track  for me
+- Would you please play any track from album [The Unseen In-Between](track_album)?
+- Would you please play tracks from album [This Is How You Smile](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play something from album [Heard It In A Past Life](track_album) by [Mad Money](track_artist)?
+- I would like to listen any track from [Bad](track_album)
+- I would like to listen any track from album [Designer](track_album).
+- I wanna listen songs from album [Sunshine Rock](track_album)
+- I wanna listen any music from album [IGOR](track_album)
+- will you please play any track from album [Harverd Dropout](track_album)?
+- Play any song from [The Immaculate Collection](track_album) by [Drake](track_artist), will you?
+- can you please play a track from album [New Breed](track_album)?
+- Play songs from [Marshal Mather LP II](track_album), will you?
+- I would like to hear to music from [Gold and Grey](track_album) by [Future](track_artist)
+- Play something from [The Immaculate Collection](track_album) album by [Mad Money](track_artist), will you?
+- can you play some music from the album [The Immaculate Collection](track_album)?
+- Play songs from album [Back in Black](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Play any music from the album [Recovery](track_album) by [Sia](track_artist), will you?
+- I wanna dance to a track from [Rumours](track_album) album
+- I would like to listen something from album [EVEN IN THE TREMOR](track_album)
+- I would like you to please play some [soundtrack](track_genre) musicc
+- I wanna dance to any music from the album [Remind Me Tomorrow](track_album)
+- I would like to hear the [dubstep](track_genre) tracks
+- will you please play some music from [Tip of the Sphere](track_album)?
+- Would you please play any track from the album [Led Zeppelin IV](track_album)?
+- I want to listen to music from [Tip of the Sphere](track_album) by [Dr. Dre;Eminem](track_artist).
+- Would you please play any track from [Angel's Pulse](track_album) album
+- Play any track from [Legend](track_album) album by [Ozuna](track_artist), will you?
+- Play any music from album [LP3](track_album) by [Drake](track_artist), will you?
+- I would like to hear any [grunge](track_genre) music
+- can you play any track from [The Wizrd](track_album)?
+- Would you please play any song from [On The Line](track_album)?
+- Play any song from the album [Atlanta Millionaires Club](track_album)
+- Could you please play the [grunge](track_genre) music for us?
+- please play the [edm](track_genre) music for us
+- Would you please play tracks from [Let’s Talk About Love](track_album) album by [Lil Wayne](track_artist).
+- Would you please play any song from the album [Assume Form](track_album) by [Eagles](track_artist)?
+- Would you please play any track from album [Legend](track_album) by [Justin Hurwitz](track_artist)?
+- can you play any track from album [Bad](track_album) by [Madonna](track_artist)?
+- cheer me up by playing tracks from album [Atlanta Millionaires Club](track_album), will you?
+- can you play any music from [Appetite for Destruction](track_album) album by [Ludacris](track_artist)
+- Please play any [rap](track_genre) music
+- Could you please play some [rap](track_genre)?
+- I wanna dance to some [edm](track_genre) music.
+- Play tracks from album [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Please play some [dubstep](track_genre)
+- cheer me up by playing tracks from [Appetite for Destruction](track_album) album, will you?
+- cheer me up by playing any song from [What Chaos Is Imaginary](track_album), will you?
+- Could you please play the [edm](track_genre) music?
+- I would like to listen to [Khalid](track_artist)
+- Would you please play any music from [Dedicated](track_album) by [Cardi B](track_artist)?
+- Play any music from [U.F.O.F](track_album) album
+- Play something from album [Remind Me Tomorrow](track_album), will you?
+- I would like to listen tracks from [Yandhi](track_album) album.
+- Play songs by [Billie Eilish](track_artist)
+- Would you please play something from [Oasis](track_album) album
+- Play songs from [LP3](track_album) by [Mellen Gi](track_artist), will you?
+- can you please play something from album [Marshal Mather LP II](track_album)?
+- I would like to hear any [metal](track_genre) music
+- I wanna listen songs from [Revival](track_album).
+- Play a track from [Cuz I Love You](track_album), will you?
+- will you please play tracks from album [Revival](track_album) by [Clint Mansell](track_artist)?
+- Play any song from the album [Lets Try the After](track_album), will you?
+- can you play any track from [Illuminate](track_album)?
+- Play tracks from album [Epic Hip Hop](track_album), will you?
+- can you please play something by [Ludacris](track_artist)?
+- can you play any track from [The Immaculate Collection](track_album)?
+- can you please play songs from [U.F.O.F](track_album)?
+- will you please play any song from the album [Rumours](track_album)?
+- I would like to groove to some [punk](track_genre) tracks
+- Play songs from album [Father of the Bride](track_album), will you?
+- I wanna listen tracks from [The Immaculate Collection](track_album)
+- I would like to hear to [Florida](track_artist)
+- I will like to have the [grunge](track_genre) tracks
+- Play songs from [Western Stars](track_album) by [Kanye West](track_artist), will you?
+- Play the [metal](track_genre) songs
+- can you play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Would you please play some music from album [The Immaculate Collection](track_album)?
+- I would like you to please play an [orchestra](track_genre) track
+- Would you please play music from album [Heard It In A Past Life](track_album)?
+- Play something from album [On The Line](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- can you play any track from [Metallica](track_album)?
+- I wanna listen something from [The Immaculate Collection](track_album) album
+- Could you please play the [punk](track_genre)?
+- Have you heard new songs from [This is Eminem](track_album)?
+- Play the [dubstep](track_genre) tracks.
+- I would like to listen to some [dubstep](track_genre) songs
+- cheer me up by playing tracks from [Remind Me Tomorrow](track_album), will you?
+- I wanna dance to any song from [Gallipoli](track_album) album
+- some [Rap](track_genre) songs
+- Play a track from the album [Crushing](track_album)
+- can you play something from [Back in Black](track_album) album.
+- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](track_genre) music.
+- will you please play a track from [Revival](track_album)?
+- can you play some music from [The Wizrd](track_album) by [Ludacris](track_artist)?
+- please play any [soundtrack](track_genre) music for us
+- will you please play any song from album [when we all fall asleep where do we go](track_album)?
+- Play tracks from [Bad](track_album) album, will you?
+- will you please play any music from [Bad](track_album) by [Maroon 5](track_artist)?
+- I will like to have the [funk](track_genre) music
+- cheer me up by playing tracks from album [Anima](track_album), will you?
+- will you please play songs from album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- will you please play any song from [Oh My God](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play tracks from album [Crushing](track_album)
+- will you please play any music from the album [This Is How You Smile](track_album)?
+- can you play something from the album [TBA](track_album)?
+- will you please play any song from album [On the Line](track_album) by [Drake](track_artist)?
+- I wanna dance to songs from [IGOR](track_album).
+- Play songs from album [Recovery](track_album), will you?
+- music please
+- Would you please play tracks from [YOU CAN'T SIT WITH US](track_album) by [Drake](track_artist)?
+- Would you please play some music from the album [Metallica](track_album)?
+- Play songs from [SASAMI](track_album)
+- Play any track from album [Bad](track_album)
+- can you please play something from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna listen something from [Back in Black](track_album).
+- can you play any music from [On The Line](track_album)?
+- will you please play songs from album [The Saint of Lost Causes](track_album)?
+- Play the [funk](track_genre) track
+- I would like to dance to the [edm](track_genre) tracks
+- I would like to hear some [Hiphop](track_genre) music
+- I would like you to please play any [rap](track_genre) track
+- Could you please play the [pop](track_genre) tracks for us?
+- I would like to listen any track from album [Titanic Rising](track_album)
+- can you play something from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- will you please play a track from album [Gallipoli](track_album) by [Justin Hurwitz](track_artist)?
+- can you please play any track from album [Sunshine Rock](track_album)?
+- Play tracks from [Kamikaze](track_album), will you?
+- I would like to hear to [Billie Eilish](track_artist)
+- will you please play any song from [Marshal Mather LP II](track_album) album by [Clint Mansell](track_artist)
+- will you please play music from [Father of the Bride](track_album) by [Drake](track_artist)?
+- can you please play any track from [YOU CAN'T SIT WITH US](track_album)?
+- I wanna listen tracks from album [Father of the Bride](track_album)
+- can you play any track from [U.F.O.F](track_album) album by [The Chainsmokers](track_artist)
+- I would like you to please play any [edm](track_genre) track
+- can you please play some music from the album [Appetite for Destruction](track_album)?
+- i would like to calm myself by some soothing music
+- Would you please play any song from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Drake](track_artist)?
+- cheer me up by playing any song from [The Immaculate Collection](track_album), will you?
+- can you play music from album [Outer Peace](track_album)?
+- I would like you to please play some [blues](track_genre) track
+- will you please play some music from [Mitsubishi Macchiato](track_album)?
+- please play any [rap](track_genre) music for us
+- will you please play any track from [Notes on a Conditional Form](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Would you please play the [blues](track_genre) tracks?
+- I wanna listen something from [Legend](track_album)
+- put the music in action
+- I wanna dance to any track from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any music from [The Wizrd](track_album)
+- I would like to listen to the [Hip-hop](track_genre) songs
+- will you please play any track from [U.F.O.F](track_album) album by [Charlotte Rose Ellis](track_artist).
+- I would like to listen to the [edm](track_genre) tracks
+- Play any music from album [Tip of the Sphere](track_album)
+- I wanna dance to something from [Led Zeppelin IV](track_album) album.
+- I will like to have some [soundtrack](track_genre) track
+- can you play songs from [Rumours](track_album)?
+- Play tracks by [Khalid](track_artist)
+- Play something from the album [Supernatural](track_album), will you?
+- Play a [pop](track_genre) music
+- I wanna listen any track from album [On The Line](track_album).
+- Please play an [orchestra](track_genre) song
+- I wanna dance to any track from the album [Marshal Mather LP II](track_album)
+- I wanna dance to any track from [Mitsubishi Macchiato](track_album) album.
+- can you play music from [Father of the Bride](track_album) by [Ozuna](track_artist)?
+- Play any track from album [Outer Peace](track_album) by [Eagles](track_artist), will you?
+- I would like you to please play some [metal](track_genre)
+- can you play some music from [Revival](track_album) by [Drake](track_artist)?
+- Would you please play any music from [TBA](track_album)?
+- I would like to dance to any [grunge](track_genre) beat
+- Would you please play any music from album [Tip of the Sphere](track_album)?
+- I wanna listen something from [On The Line](track_album) album
+- Play any song from [Back in Black](track_album), will you?
+- Would you please play any song from [TBA](track_album) by [Drake](track_artist)?
+- I would like to listen to the [hip-hop](track_genre)
+- Would you please play something from [Make It Big](track_album) album.
+- I wanna dance to songs from [Back in Black](track_album).
+- some [punk](track_genre) tracks
+- I wanna listen a track from [Phoenix](track_album) album
+- will you please play any song from [The Immaculate Collection](track_album) album by [Coldplay](track_artist)
+- I will like to have some [soundtrack](track_genre) music
+- I would like to dance to any [metal](track_genre) music
+- cheer me up by playing something from the album [Thank U, Next](track_album), will you?
+- I would like to listen something from album [Father of the Bride](track_album)
+- Play something from album [Rumours](track_album)
+- Play any track from the album [Make It Big](track_album)
+- I wanna dance to something from album [Western Stars](track_album)
+- I wanna listen tracks from [Legend](track_album)
+- can you please play something from [Atlanta Millionaires Club](track_album)?
+- can you play any song from the album [Revival](track_album)?
+- Play any song from album [Gold and Grey](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- can you play a track from [Revival](track_album) by [Warner & Chappell](track_artist)?
+- Play any song from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- please play some [Funk](track_genre) music
+- I would like to dance to some [punk](track_genre) track
+- cheer me up by playing any song from [Kamikaze](track_album), will you?
+- Would you please play something from the album [Hijas del Tomate](track_album) by [Lil Wayne](track_artist)?
+- Play tracks from album [LP3](track_album) by [Dr. Dre](track_artist), will you?
+- will you please play something from [Yandhi](track_album)?
+- Please play some [metal](track_genre) track
+- I wanna listen any music from [Recovery](track_album).
+- Could you please play the [funk](track_genre) for us?
+- Play any song from the album [TBA](track_album), will you?
+- I would like to hear some [pop](track_genre) track
+- Would you please play any song from [Assume Form](track_album)?
+- Please play some [grunge](track_genre) track
+- I wanna dance to any song from [Lets Try the After](track_album) album
+- can you please play something from the album [On the Line](track_album)?
+- can you please play any track from [Recovery](track_album)?
+- can you play any song from the album [Purple Reign](track_album)?
+- I would like to listen any song from [Angel's Pulse](track_album) album
+- please play some [pop](track_genre) tracks for us
+- Play the [Orchestra](track_genre) music
+- can you play any track from [Oliver Appropriate](track_album) album
+- can you please play any track from [The Black Album](track_album) album.
+- Play any song from album [Illuminate](track_album) by [Dr. Dre](track_artist), will you?
+- I would like to dance to some [blues](track_genre)
+- Play any track from the album [when we all fall asleep where do we go](track_album), will you?
+- can you play songs from album [EVEN IN THE TREMOR](track_album)?
+- Would you please play any music from [This is Acting](track_album) album by [Rick0 James](track_artist)
+- can you please play a track from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play a track from album [Appetite for Destruction](track_album) by [Eagles](track_artist), will you?
+- Would you please play the [grunge](track_genre) songs?
+- Would you please play a track from [Father of the Bride](track_album) album by [Justin Hurwitz](track_artist)
+- I will like to have any [punk](track_genre) beat
+- I would like to listen to the [blues](track_genre)
+- will you please play tracks from album [Flamagra](track_album) by [Mad Money](track_artist)?
+- can you please play a track from [LP3](track_album)?
+- can you please play any music from album [Purple Reign](track_album)?
+- I would like to hear some [soundtrack](track_genre) beat
+- can you play any track from [Marshal Mather LP II](track_album) album
+- I would like you to please play any [grunge](track_genre) track
+- please play an [orchestra](track_genre) beat for us
+- can you please play something from [LP3](track_album) album
+- I would like to listen to any [punk](track_genre) music
+- can you play some music from album [Dedicated](track_album) by [Drake](track_artist)?
+- will you please play a track from [Legend](track_album) by [Dr. Dre](track_artist)?
+- Play some music from [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any track from [Cuz I Love You](track_album).
+- I wanna dance to any track from album [Young Enough](track_album)
+- I would like to groove to some [edm](track_genre) tracks
+- Would you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- I wanna dance to some music from album [Marshal Mather LP II](track_album)
+- can you please play some music from [Beware of the Dogs](track_album)?
+- Would you please play a track from album [Let’s Talk About Love](track_album)?
+- I wanna listen any track from [The Immaculate Collection](track_album)
+- I would like to groove to some [grunge](track_genre)
+- I wanna dance to any music from album [Father of the Bride](track_album)
+- please play an [orchestra](track_genre) tunes for us
+- Play any song from [Anima](track_album) by [Drake](track_artist), will you?
+- I wanna listen some music from [Let’s Talk About Love](track_album).
+- please play the [rap](track_genre) tracks for us
+- will you please play something from [Revival](track_album)?
+- I would like to hear the [punk](track_genre) tracks
+- I would like you to please play an [Metal](track_genre) song
+- will you please play a track from [Legend](track_album) album by [Skrillex](track_artist)
+- Play some music from the album [Legend](track_album) by [Ozuna](track_artist), will you?
+- will you please play any track from [Appetite for Destruction](track_album)?
+- cheer me up by playing tracks from album [Legend](track_album), will you?
+- Play something by [Shawn Mendes](track_artist)
+- cheer me up by playing any song from [Legend](track_album) album, will you?
+- I wanna dance to any track from [Marshal Mather LP II](track_album)
+- Could you please play the [rap](track_genre) track ?
+- Would you please play any track from [Assume Form](track_album) album by [Warner & Chappell](track_artist)
+- I will like to have the [funk](track_genre)
+- Play any music from the album [Legend](track_album) by [XAMES3](track_artist), will you?
+- I would like to hear some [soundtrack](track_genre)
+- can you play any music from album [Supernatural](track_album)?
+- will you please play any track from the album [The Saint of Lost Causes](track_album) by [Snoop Dogg](track_artist)?
+- can you play any song from [The Immaculate Collection](track_album) album
+- I would like to listen any song from the album [Heard It in a Past Life](track_album)
+- cheer me up by playing any song from the album [Supernatural](track_album), will you?
+- Play a track from album [The Immaculate Collection](track_album), will you?
+- Play any song from [Bad](track_album) by [Cardi B](track_artist), will you?
+- i'm feeling low. play something
+- Would you please play a track from [Mitsubishi Macchiato](track_album)?
+- I wanna listen any track from [Harverd Dropout](track_album) album
+- Play any track from the album [The Unseen In-Between](track_album)
+- I wanna dance to any song from album [Kamikaze](track_album)
+- help me relax.
+- cheer me up by playing songs from album [Let’s Talk About Love](track_album), will you?
+- I would like to listen any song from album [Anima](track_album).
+- I would like to groove to some [pop](track_genre) songs
+- Play some [soundtrack](track_genre) beat
+- I would like to groove to music from [Beware of the Dogs](track_album) by [Mad Money](track_artist)
+- will you please play songs from [Crushing](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to listen any track from album [The Wizrd](track_album).
+- I would like to groove to some [grunge](track_genre) tracks
+- cheer me up by playing tracks from album [Recovery](track_album), will you?
+- can you please play any track from [Gold and Grey](track_album)?
+- can you play any track from the album [Kamikaze](track_album)?
+- can you please play any track from [SASAMI](track_album) album
+- I would like to hear any [blues](track_genre) track
+- I wanna listen any track from [Notes on a Conditional Form](track_album) album
+- will you please play any music from album [Legend](track_album) by [XAMES3](track_artist)?
+- I would like to listen any song from the album [Revival](track_album)
+- Play some [rap](track_genre) music
+- can you play any music from the album [Led Zeppelin IV](track_album) by [Ludacris](track_artist)?
+- can you play any track from [Cuz I Love You](track_album) by [Mad Money](track_artist)?
+- can you please play some music from [Kamikaze](track_album)?
+- Could you please play the [Blues](track_genre) track ?
+- Could you please play something by [Eagles](track_artist)?
+- Would you please play any song from the album [Father of the Bride](track_album) by [Shawn Mendes](track_artist)?
+- Could you play something by [Adele](track_artist)?
+- I would like to dance to some [punk](track_genre) tracks
+- Would you please play any music from album [Supernatural](track_album) by [Sean Paul](track_artist)?
+- I would like to listen any track from the album [Let’s Talk About Love](track_album)
+- Would you please play something from album [Revival](track_album)?
+- will you please play a track from [Dedicated](track_album)?
+- can you play some music from album [Metallica](track_album) by [Akon](track_artist)?
+- Please play any [dubstep](track_genre) music
+- I would like to listen to the [metal](track_genre) tracks
+- can you play tracks from album [Appetite for Destruction](track_album) by [Madonna](track_artist)?
+- Play any track from the album [On the Line](track_album) by [Diplo](track_artist), will you?
+- I wanna listen tracks from [Supernatural](track_album) album.
+- Play songs from album [Marshal Mather LP II](track_album), will you?
+- I wanna dance to any track from [Anima](track_album) album
+- Would you please play a track from album [Remind Me Tomorrow](track_album) by [Dr. Dre](track_artist)?
+- Please play any [edm](track_genre) track
+- Would you please play any [soundtrack](track_genre) musicc?
+- yes, i wanna listen to music from [Recovery](track_album).
+- Would you please play music from album [The Saint of Lost Causes](track_album)?
+- can you play a track from [New Breed](track_album) by [Rick0 James](track_artist)?
+- I wanna listen any music from the album [The Immaculate Collection](track_album)
+- Play any track from album [Dedicated](track_album) by [Dr. Dre](track_artist), will you?
+- I wanna dance to songs from album [TBA](track_album).
+- Play songs from album [Angel's Pulse](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Would you please play something from [Heard It In A Past Life](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Would you please play any song from [Tip of the Sphere](track_album) album
+- will you please play something from [Everything Not Saved Will Be Lost—Part 1](track_album) album
+- I wanna dance to any track from [Recovery](track_album).
+- Play tracks from [The Marshall Mathers LP 2 Disc 2](track_album)
+- I wanna listen any track from [I Am Easy To Find](track_album) album.
+- I wanna dance to any track from [Yandhi](track_album) album
+- I would like to dance to some [soundtrack](track_genre) songs
+- can you play songs from album [LP3](track_album)?
+- I would like to listen songs from [Back in Black](track_album).
+- Could you please play the [blues](track_genre) songs for us?
+- I would like to listen a track from [Marshal Mather LP II](track_album)
+- can you play any song from [Bad](track_album) album
+- I wanna listen any track from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any song from album [Legend](track_album)
+- Play tracks from [Back in Black](track_album) by [Mad Money](track_artist), will you?
+- Please play the [hip-hop](track_genre) music
+- can you please play some music from album [Let’s Talk About Love](track_album)?
+- Play tracks from [The Craving for Absolute Serenity](track_album)
+- Play a track from [Assume Form](track_album) album, will you?
+- Could we get something by [Imagine Dragons](track_artist)?
+- Play tracks from [What Chaos Is Imaginary](track_album) album
+- can you please play something from album [Let’s Talk About Love](track_album)?
+- I would enjoy to dance to [Madonna](track_artist)
+- I would like to listen any track from [Heard It In A Past Life](track_album)
+- I would like to hear any [hip-hop](track_genre) beat
+- will you please play any track from album [When I Get Home](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play some music from the album [The Marshall Mathers LP 2 Disc 2]can you ptrack_album)?
+- can you please play tracks from [Angel's Pulse](track_album) album.
+- Play any song from [Thank U, Next](track_album)
+- will you please play some music from [Father of the Bride](track_album) by [Eagles](track_artist)?
+- Please play the [soundtrack](track_genre) beat
+- can you play some music from [Marshal Mather LP II](track_album)?
+- can you play tracks from [Recovery](track_album)?
+- can you play tracks from album [The Immaculate Collection](track_album) by [Lil Wayne](track_artist)?
+- Would you please play any track from album [Revival](track_album)?
+- Would you please play any song from [Heard It In A Past Life](track_album) by [Kanye West](track_artist)?
+- Play a track from [when we all fall asleep where do we go](track_album) album, will you?
+- can you please play any song from [Beware of the Dogs](track_album) album
+- can you play something from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna listen any track from album [The Unseen In-Between](track_album)
+- will you please play any song from album [Anima](track_album)?
+- cheer me up by playing any song from album [Purple Reign](track_album), will you?
+- Play any [funk](track_genre) music
+- will you please play any track from [The Immaculate Collection](track_album) by [George Michael](track_artist)?
+- can you please play any song from [Bad](track_album) album
+- will you please play tracks from [Back in Black](track_album)?
+- I wanna listen something from [Bad](track_album)
+- will you please play a track from album [Metallica](track_album)?
+- Play any song from the album [Beware of the Dogs](track_album) by [XAMES3](track_artist), will you?
+- I wanna dance to any track from [Illuminate](track_album)
+- I would like to listen a track from [Requiem for a Dream](track_album) album
+- Play a [grunge](track_genre) music
+- Play tracks from [Led Zeppelin IV](track_album) album by [Florida](track_artist), will you?
+- will you please play songs from [Remind Me Tomorrow](track_album)?
+- Play tracks from [On the Line](track_album) album by [Charlotte Rose Ellis](track_artist), will you?
+- can you please play a track from the album [Marshal Mather LP II](track_album)?
+- I will like to have the [blues](track_genre)
+- can you please play a track from album [Hotel California](track_album)?
+- can you play any song from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play any song from [Legend](track_album)
+- Play some [dubstep](track_genre) music
+- can you play some music from album [Metallica](track_album)?
+- will you please play any music from album [What Chaos Is Imaginary](track_album) by [Jay-Z](track_artist)?
+- I would enjoy to dance to [Ariana Grande](track_artist)
+- cheer me up by playing songs from [This Is How You Smile](track_album), will you?
+- I would like to listen to some [soundtrack](track_genre) music
+- Would you please play any track from the album [Oh My God](track_album)?
+- Play any song from [Oliver Appropriate](track_album) album by [Linkin Park](track_artist), will you?
+- please play some [soundtrack](track_genre) songs
+- Play something from the album [Appetite for Destruction](track_album), will you?
+- Play songs from album [Metallica](track_album), will you?
+- cheer me up by playing any track from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- Play tracks from album [Buoys](track_album), will you?
+- Play some music from [SASAMI](track_album)
+- Play something from [Designer](track_album) album, will you?
+- I would enjoy to dance to [Halsey](track_artist)
+- Could you please play the [Pop](track_genre) for us?
+- will you please play any music from [The Night King](track_album)?
+- Play something from album [When I Get Home](track_album)
+- I wanna dance to some music from album [Everything Not Saved Will Be Lost—Part 1](track_album).
+- can you please play any song from [Legend](track_album)?
+- please play some [Metal](track_genre) songs
+- I wanna dance to music from album [Led Zeppelin IV](track_album).
+- Could you please play the [dubstep](track_genre) tracks?
+- Could you please play the [grunge](track_genre) songs for us?
+- will you please play any track from album [On the Line](track_album) by [Post Malone](track_artist)?
+- I will like to have some [hip-hop](track_genre)
+- please play some [edm](track_genre) music for us
+- Please play music by [Mellen Gi](track_artist).
+- I wanna listen any track from album [Phoenix](track_album)
+- can you play songs from [On the Line](track_album)?
+- I wanna dance to any track from album [Illuminate](track_album)
+- I wanna listen a track from [Dedicated](track_album).
+- Play any [edm](track_genre) track
+- I wanna listen any music from the album [Assume Form](track_album)
+- can you play any music from [Epic Hip Hop](track_album)?
+- I wanna dance to a track from album [The Immaculate Collection](track_album)
+- Play any track from [Hotel California](track_album)
+- Play tracks from [LP3](track_album) album, will you?
+- can you play something from [Led Zeppelin IV](track_album) album by [Drake](track_artist).
+- Play a track from the album [The Wizrd](track_album) by [Warner & Chappell](track_artist), will you?
+- I would like to hear some [grunge](track_genre) music
+- will you please play any track from the album [Bad](track_album) by [The Chainsmokers](track_artist)?
+- I would like to listen to any [rap](track_genre) music
+- will you please play any music from album [Oasis](track_album) by [Sia](track_artist)?
+- Play something from [Bad](track_album) album
+- can you play tracks from [Atlanta Millionaires Club](track_album) album.
+- I would like to groove to any [Hip-hop](track_genre) music
+- Could you please play any [pop](track_genre) track for us?
+- cheer me up by playing something from album [Titanic Rising](track_album), will you?
+- Would you please play some music from [In League With Dragons](track_album) by [Ozuna](track_artist)?
+- I wanna dance to any track from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- will you please play songs from [EVEN IN THE TREMOR](track_album) by [Jay-Z](track_artist)?
+- Could you please play the [Dubstep](track_genre) music for us?
+- I would love to listen to [Drake](track_artist)
+- Play tracks from [Outer Peace](track_album) album by [Ludacris](track_artist), will you?
+- I would like to dance to the [rap](track_genre) track
+- [cud](grammar:could) u play [edm](track_genre)?
+- will you please play any music from [The Immaculate Collection](track_album) album by [Charlotte Rose Ellis](track_artist)
+- Would you please play the [metal](track_genre) track ?
+- Would you please play something from the album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- I wanna dance to something from [Designer](track_album).
+- can you play any track from album [Kamikaze](track_album)?
+- will you please play songs from [Appetite for Destruction](track_album) by [Drake](track_artist)?
+- cheer me up by playing songs from [Remind Me Tomorrow](track_album), will you?
+- I would like you to please play any [funk](track_genre) music
+- I will like to have some [grunge](track_genre) music
+- I would like to listen any music from [Led Zeppelin IV](track_album) album
+- Play tracks from [Good Ass Job](track_album) album.
+- Would you please play any [dubstep](track_genre) music?
+- Play something from [Metallica](track_album)
+- Play songs from [The Immaculate Collection](track_album) by [Rick0 James](track_artist), will you?
+- I wanna dance to a track from album [Bad](track_album)
+- I wanna listen something from the album [Rumours](track_album)
+- Play any track from [Legend](track_album) by [Jay-Z](track_artist), will you?
+- will you please play a track from [The Marshall Mathers LP 2 Disc 2](track_album) by [Sean Paul](track_artist)?
+- I wanna listen a track from the album [Designer](track_album)
+- Could you please play the [hip-hop](track_genre) music for us?
+- Would you please play tracks from [Let’s Talk About Love](track_album) album.
+- can you play something from [Bad](track_album) album
+- Play a track from [Led Zeppelin IV](track_album) album, will you?
+- Play tracks by [Diplo](track_artist)
+- will you please play any track from [Back in Black](track_album)?
+- can you play a track from [In League With Dragons](track_album)?
+- Would you please play a track from [The Immaculate Collection](track_album)?
+- can you play music from album [Notes on a Conditional Form](track_album)?
+- I wanna listen a track from [Buoys](track_album) album.
+- please play the [blues](track_genre) for me
+- Play any track from album [The Unseen In-Between](track_album) by [Katy Perry](track_artist), will you?
+- I would like to listen any song from [Legend](track_album) album
+- Oh gee.. I like [Adele](track_artist) a lot. Please play her [music]music.
+- will you please play tracks from [Lets Try the After](track_album)?
+- I wanna dance to any music from album [The Saint of Lost Causes](track_album)
+- Would you please play something from the album [In League With Dragons](track_album) by [Lil Wayne](track_artist)?
+- Play tracks from [The Night King](track_album) album by [George Michael](track_artist), will you?
+- Would you please play any track from album [Titanic Rising](track_album) by [Dr. Dre](track_artist)?
+- will you please play songs from album [The Immaculate Collection](track_album) by [Nate Dogg](track_artist)?
+- Could you please play the [metal](track_genre) music for us?
+- can you please play some music by [Afterhours](track_artist)?
+- I would like to listen to any [Dubstep](track_genre) beat
+- can you please play something?
+- can you play a track from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play a track from [Bad](track_album)?
+- Play any music from [Remind Me Tomorrow](track_album) album
+- I wanna listen tracks from album [Tip of the Sphere](track_album).
+- Play any song from the album [Dedicated](track_album), will you?
+- I wanna dance to tracks from [Metallica](track_album)
+- Would you please play a track from [Western Stars](track_album) album.
+- will you please play any track from [Heard It In A Past Life](track_album) album
+- will you please play any song from [Revival](track_album)?
+- Play any song from album [The Saint of Lost Causes](track_album) by [Ludacris](track_artist), will you?
+- Play music from album [Led Zeppelin IV](track_album).
+- can you play any music from [Outer Peace](track_album)?
+- I wanna dance to songs from album [Oliver Appropriate](track_album).
+- [could](grammar) u play [rap](track_genre) for us?
+- can you play any track from [Led Zeppelin IV](track_album)?
+- Would you please play the [pop](track_genre) tracks?
+- please play some [pop](track_genre) music
+- I wanna dance to a track from [Kamikaze](track_album)
+- I would like to groove to the [funk](track_genre) music
+- can you please play any music from the album [New Breed](track_album)?
+- I would like to listen to music from [Recovery](track_album) by [Drake](track_artist).
+- Please play some [edm](track_genre) songs
+- sing me a song
+- can you play something from the album [Illuminate](track_album)?
+- can you please play any track from [Supernatural](track_album) album.
+- I wanna dance to any music from [Legend](track_album)
+- I would like to dance to the [punk](track_genre) music
+- I'm feeling little low, cheer me up by playing something from [Recovery](track_album).
+- will you please play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Mad Money](track_artist)?
+- I wanna dance to music from [when we all fall asleep where do we go](track_album)
+- Play songs from album [Supernatural](track_album), will you?
+- can you please play any track from the album [Titanic Rising](track_album)?
+- can you please play any track from [Father of the Bride](track_album)?
+- Play the [grunge](track_genre) tracks.
+- Play some [blues](track_genre) songs
+- I would like to dance to some [metal](track_genre) music
+- Would you please play any song from [Back in Black](track_album)?
+- will you please play tracks from album [Revival](track_album)?
+- I would like to dance to any [rap](track_genre) beat
+- Will you please play something by [Adele](track_artist)?
+- I wanna dance to any track from album [Requiem for a Dream](track_album)
+- Would you please play an [orchestra](track_genre) track?
+- I would like to listen to any [Pop](track_genre) music
+- can you play something from [The Craving for Absolute Serenity](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play some music from album [Recovery](track_album)?
+- I wanna dance to songs from album [Led Zeppelin IV](track_album).
+- Would you please play any track from [SASAMI](track_album) album by [Drake](track_artist).
+- I wanna listen you sing a song.
+- I wanna listen songs from [Let’s Talk About Love](track_album).
+- I would like to listen any track from [Quiet Signs](track_album)
+- please play the [rap](track_genre) songs for me
+- cheer me up by playing any song from [What Chaos Is Imaginary](track_album) album, will you?
+- I wanna listen any song from album [When I Get Home](track_album)
+- will you please play any music from [Gold and Grey](track_album)?
+- Would you please play any track from album [Hotel California](track_album) by [Akon](track_artist)?
+- can you please play a track from [The Saint of Lost Causes](track_album) album
+- Could you please play the [soundtrack](track_genre) songs?
+- Please play some [edm](track_genre) track
+- Please play the [funk](track_genre) tracks
+- Please play the [Pop](track_genre) music
+- will you please play a track from [When I Get Home](track_album) album by [Ozuna](track_artist)
+- I wanna listen some music from [Supernatural](track_album).
+- Play tracks from [Western Stars](track_album) album by [Mad Money](track_artist), will you?
+- Would you please play some music from album [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Could you please play any [grunge](track_genre) beat?
+- Play any song from [LP3](track_album) album
+- Play the [punk](track_genre) tracks.
+- Would you please play something by [Halsey](track_artist)?
+- can you play any track from [The Saint of Lost Causes](track_album) album.
+- will you please play some music from [Kamikaze](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play a track from album [This Is How You Smile](track_album)
+- can you play any track from album [Gold and Grey](track_album) by [Ozuna](track_artist)?
+- can you please play any track from album [Bad](track_album)?
+- cheer me up by playing tracks from [Designer](track_album), will you?
+- can you play something from the album [Back in Black](track_album)?
+- I would like to listen tracks from album [U.F.O.F](track_album)
+- Play tracks from [In League With Dragons](track_album) by [Drake](track_artist), will you?
+- I would like to hear any [edm](track_genre) beat
+- some [punk](track_genre) music
+- can you please play some music from [Father of the Bride](track_album)?
+- can you please play something from album [when we all fall asleep where do we go](track_album)?
+- I wanna listen any song from [U.F.O.F](track_album) album
+- Play any [punk](track_genre) track
+- Play any song from [Supernatural](track_album).
+- please play any [edm](track_genre) beat for us
+- Would you please play songs from [Hotel California](track_album) by [Ozuna](track_artist)?
+- Would you please play the [dubstep](track_genre)?
+- I would like to listen something from the album [Gold and Grey](track_album)
+- I wanna listen songs from album [The Immaculate Collection](track_album)
+- can you play some music from album [Flamagra](track_album) by [Selena Gomez](track_artist)?
+- please play some [Dubstep](track_genre) music for me
+- Play any song from [The Immaculate Collection](track_album)
+- Would you please play any track from the album [Cuz I Love You](track_album) by [Jay-Z](track_artist)?
+- can you play tracks from [Quiet Signs](track_album)?
+- I would like to dance to any [hip-hop](track_genre) track
+- can you please play any track from [Remind Me Tomorrow](track_album)?
+- can you play any track from the album [The Craving for Absolute Serenity](track_album) by [Jay-Z](track_artist)?
+- I would like to dance to some [edm](track_genre)
+- Play any track from [LP3](track_album) by [George Michael](track_artist), will you?
+- Could you please play the [blues](track_genre) songs?
+- Could you please play the [metal](track_genre) track ?
 - I'm not feeling good [now](time). Could u please play something by [Eminem](track_artist) to set my mood.
-- i want a live performance
+- can you play something from [Father of the Bride](track_album)?
+- I would like to listen to any [grunge](track_genre) beat
+- can you play a track from the album [Father of the Bride](track_album)?
+- can you play any song from the album [IGOR](track_album)?
+- can you play tracks from album [Heard It In A Past Life](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would love to hear to [Adele](track_artist)
+- I wanna dance to something from [Crushing](track_album)
+- can you please play tracks from album [Kamikaze](track_album)?
+- Play any track from [Oh My God](track_album) album by [Bonobo](track_artist), will you?
+- I would like to listen any track from [when we all fall asleep where do we go](track_album) album
+- I would like to hear the [blues](track_genre) track
+- Would you please play any song from the album [Marshal Mather LP II](track_album)?
+- I wanna dance to some music from [Sunshine Rock](track_album)
+- Would you please play something from the album [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Beware of the Dogs](track_album), will you?
+- I would like to listen a track from the album [On The Line](track_album)
+- I would like to groove to any [blues](track_genre) music
+- I would like to dance to the [dubstep](track_genre) music
+- cheer me up by playing something from [LP3](track_album) album, will you?
+- I would like to listen something from [Heard It In A Past Life](track_album) album.
+- Could you please play some [funk](track_genre) songs?
+- I would like to listen to the [soundtrack](track_genre) songs
+- can you play some music from album [Appetite for Destruction](track_album) by [Kanye West](track_artist)?
+- can you play any track from [Titanic Rising](track_album) album by [Drake](track_artist).
+- can you play something from [Legend](track_album) album by [Dr. Dre;Eminem](track_artist)
+- can you play something from the album [Bad](track_album) by [Dr. Dre](track_artist)?
+- Play any track from the album [Legend](track_album)
+- I would like to groove to the [edm](track_genre) tracks
+- can you play any track from [Led Zeppelin IV](track_album) album by [Drake](track_artist)
+- Could you please play the [blues](track_genre) track ?
+- can you play any song from album [Kamikaze](track_album)?
+- will you please play any track from the album [U.F.O.F](track_album)?
+- Please play any [Hiphop](track_genre) beat
+- I would like to hear some [soundtrack](track_genre) musicc
+- can you play any track from album [Recovery](track_album) by [XAMES3](track_artist)?
+- Would you please play songs from [Epic Hip Hop](track_album)?
+- will you please play a track from album [Crushing](track_album)?
+- Would you please play music from album [The Night King](track_album)?
+- please play any [pop](track_genre) music for us
+- Could you play something by [Rihanna](track_artist)?
+- can you please play any track from the album [Back in Black](track_album)?
+- can you play any track from album [IGOR](track_album)?
+- can you play something from [On the Line](track_album)?
+- I wanna listen any song from the album [When I Get Home](track_album)
+- Play any track from [Slaves of Fear](track_album), will you?
+- Play any track from [Oasis](track_album), will you?
+- will you please play any track from [Beware of the Dogs](track_album)?
+- Would you please play any music from album [Legend](track_album) by [Drake](track_artist)?
+- I wanna listen any song from [Father of the Bride](track_album)
+- Would you please play music from [Legend](track_album) by [Skrillex](track_artist)?
+- will you please play something from the album [The Immaculate Collection](track_album) by [Sean Paul](track_artist)?
+- Would you please play something from the album [Legend](track_album) by [Dr. Dre](track_artist)?
+- will you please play any track from [When I Get Home](track_album) album.
+- Could you please play the [soundtrack](track_genre) track ?
+- Would you please play some music from [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from album [Back in Black](track_album)
+- can you play music from [Heard It in a Past Life](track_album)?
+- Could you please play some [soundtrack](track_genre) track ?
+- will you please play any music from [Anima](track_album) album by [Rick0 James](track_artist)
+- can you please play any track from the album [Marshal Mather LP II](track_album)?
+- can you please play a track from the album [Thank U, Next](track_album)?
+- cheer me up by playing songs from [Slaves of Fear](track_album), will you?
+- will you please play music from album [Marshal Mather LP II](track_album)?
+- cheer me up by playing something from [The Immaculate Collection](track_album), will you?
+- I wanna dance to music from album [Marshal Mather LP II](track_album).
+- Would you please play the [blues](track_genre) music?
+- Play any track from [when we all fall asleep where do we go](track_album) album by [Sia](track_artist), will you?
+- I wanna dance to a track from [Father of the Bride](track_album) album
+- can you play any music from the album [SASAMI](track_album) by [Cardi B](track_artist)?
+- can you play some music from the album [Bad](track_album)?
+- can you play any music from album [Bandana](track_album)?
+- I wanna dance to something from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I wanna listen something from [Led Zeppelin IV](track_album) album.
+- I will like to have some [soundtrack](track_genre) beat
+- can you play tracks from [Angel's Pulse](track_album) album
+- Play any track from [The Unseen In-Between](track_album) by [Lil Wayne](track_artist), will you?
+- Play a track from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Cardi B](track_artist), will you?
+- can you please play songs from album [Marshal Mather LP II](track_album)?
+- can you play any song from [Legend](track_album)?
+- [charlotte](ai), play something
+- Would you play something by [Halsey](track_artist)?
+- I will like to have some [blues](track_genre) songs
+- cheer me up by playing tracks from album [Illuminate](track_album), will you?
+- Play something from the album [On the Line](track_album) by [Bonobo](track_artist), will you?
+- I wanna dance to any song from album [Rumours](track_album)
+- can you play any music from the album [Father of the Bride](track_album) by [Eagles](track_artist)?
+- can you play a track from album [Chapter VI](track_album)?
+- Would you please play any track from [Dedicated](track_album) by [Linkin Park](track_artist)?
+- can you play any music from [Appetite for Destruction](track_album) album
+- Play any track from [Kamikaze](track_album)
+- Would you please play any music from [Everything Not Saved Will Be Lost—Part 1](track_album) album by [Nate Dogg](track_artist)
+- can you play tracks from [The Immaculate Collection](track_album) album by [Skrillex](track_artist)
+- Would you please play songs from [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Would you please play any music from the album [Father of the Bride](track_album) by [Charlotte Rose Ellis](track_artist)?
+- will you please play tracks from [Recovery](track_album) album by [Linkin Park](track_artist).
+- I wanna dance to songs from [Legend](track_album)
+- will you please play any track from [YOU CAN'T SIT WITH US](track_album) album
+- Play any music from the album [Father of the Bride](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- I wanna listen some music from the album [LP3](track_album)
+- Play songs from [What Chaos Is Imaginary](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Could you please play any [grunge](track_genre) track for us?
+- can you please play any track from [Assume Form](track_album) album
+- Play tracks from album [Led Zeppelin IV](track_album).
+- can you play something from [The Immaculate Collection](track_album) album by [Ozuna](track_artist)
+- will you please play a track from [Oliver Appropriate](track_album) by [Ludacris](track_artist)?
+- can you play a track from [The Saint of Lost Causes](track_album) by [Twenty One Pilots](track_artist)?
+- Play songs from album [Legend](track_album) by [Rick0 James](track_artist), will you?
+- Play any track from [Appetite for Destruction](track_album) by [Drake](track_artist), will you?
+- What do you think of the songs from [Recovery](track_album)? I like them.
+- will you please play a track from the album [Led Zeppelin IV](track_album)?
+- I wanna listen any song from [The Immaculate Collection](track_album)
+- cheer me up by playing any track from [Supernatural](track_album) album, will you?
+- please play any [rap](track_genre) track for me
+- Would you please play any track from [Yandhi](track_album) album by [Nate Dogg](track_artist).
+- can you please play songs from [Let’s Talk About Love](track_album)?
+- can you play any song from [Heard It In A Past Life](track_album)?
+- Would you please play any track from album [Buoys](track_album) by [Linkin Park](track_artist)?
+- Play any track from [Legend](track_album)
+- can you play any track from [Dedicated](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play some music from album [Oliver Appropriate](track_album)?
+- Could you please play the [punk](track_genre) tracks?
+- will you please play songs from [Led Zeppelin IV](track_album) by [Dr. Dre](track_artist)?
+- Play a track from [Metallica](track_album) album
+- will you please play some music from the album [Legend](track_album) by [Drake](track_artist)?
+- will you please play tracks from [Revival](track_album)?
+- Set the mood
+- will you please play any music from [Legend](track_album) album by [Rick0 James](track_artist)
+- can you please play any music from [Legend](track_album) album
+- I wanna listen any music from [Rumours](track_album) album
+- Could you please play some [dubstep](track_genre) music for us?
+- can you please play something from the album [Supernatural](track_album)?
+- Please play the [metal](track_genre) music
+- Would you please play any track from the album [Assume Form](track_album) by [Dr. Dre](track_artist)?
+- can you play a track from the album [The Immaculate Collection](track_album)?
+- please play some [rap](track_genre) tracks
+- Play music by [Akon](track_artist)
+- Would you please play any track from the album [Harverd Dropout](track_album)?
+- can you play a track from [Designer](track_album)?
+- Play any music from [Father of the Bride](track_album)
+- I wanna dance to a track from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you please play songs from album [Recovery](track_album)?
+- I wanna dance to music from album [Let’s Talk About Love](track_album).
+- I wanna listen songs from album [Legend](track_album)
+- I wanna listen something from [In League With Dragons](track_album) album
+- please play the [metal](track_genre) tracks for us
+- Would you please play any song from [Back in Black](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play something from album [The Immaculate Collection](track_album)?
+- can you play tracks from [This Is How You Smile](track_album) album by [Sean Paul](track_artist).
+- I wanna listen any song from [Dedicated](track_album)
+- Would you please play any music from [Led Zeppelin IV](track_album) by [Eagles](track_artist)?
+- Would you please play any track from [Led Zeppelin IV](track_album) album by [Sean Paul](track_artist).
+- I wanna listen any song from album [IGOR](track_album)
+- I would like to listen to the [edm](track_genre) music
+- I would like to hear the [metal](track_genre) songs
+- please play an [orchestra](track_genre) song for us
+- Play songs from album [The Immaculate Collection](track_album)
+- please play any [punk](track_genre) track for me
+- Play any song from album [Dedicated](track_album)
+- can you play something from [Legend](track_album) by [Ed Sheeran](track_artist)?
+- Play a track from the album [Legend](track_album) by [Eagles](track_artist), will you?
+- I wanna dance to a track from album [Gold and Grey](track_album)
+- will you please play tracks from [Metallica](track_album) by [Three Days Grace](track_artist)?
+- I will like to have some [hip-hop](track_genre) songs
+- Play any music from album [when we all fall asleep where do we go](track_album) by [Sean Paul](track_artist), will you?
+- I wanna listen tracks from album [Father of the Bride](track_album).
+- will you please play any track from [When I Get Home](track_album) by [Post Malone](track_artist)?
+- Would you please play any music from [Legend](track_album)?
+- will you please play some music from the album [Illuminate](track_album)?
+- Would you please play any music from the album [SASAMI](track_album) by [Dr. Dre](track_artist)?
+- Could you play something by [Akon](track_artist)?
+- I would like you to please play the [punk](track_genre) songs
+- cheer me up by playing any song from [Young Enough](track_album) album, will you?
+- Would you please play songs from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play songs from album [Bandana](track_album)?
+- I wanna listen any music from album [On the Line](track_album)
+- Play any track from [Gallipoli](track_album) album.
+- I wanna listen any music from the album [Hijas del Tomate](track_album)
+- Would you please play any music from [Kamikaze](track_album) album by [Nicki Minaj](track_artist)
+- Could you please play some [pop](track_genre) for us?
+- cheer me up by playing songs from album [Kamikaze](track_album), will you?
+- I wanna listen any track from album [Appetite for Destruction](track_album)
+- Play any song from album [The Wizrd](track_album) by [Drake](track_artist), will you?
+- Would you please play any track from the album [The Wizrd](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play a track from [In League With Dragons](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Would you please play something from album [Gold and Grey](track_album) by [Mad Money](track_artist)?
+- Play any song from the album [Hotel California](track_album)
+- Could you please play any [metal](track_genre) music?
+- please play some [Hiphop](track_genre) tracks for me
+- can you play something from [Supernatural](track_album)?
+- I would like to listen music from [Metallica](track_album)
+- can you play tracks from [Marshal Mather LP II](track_album) album by [George Michael](track_artist).
+- I would like to listen to any [funk](track_genre) track
+- I wanna dance to songs from [The Unseen In-Between](track_album).
+- Would you please play tracks from [Let’s Talk About Love](track_album) by [Jay-Z](track_artist)?
+- Play any track from [Recovery](track_album), will you?
+- Play something from [Oliver Appropriate](track_album) album, will you?
+- will you please play some music from album [Recovery](track_album)?
+- I would like to dance to an [orchestra](track_genre) tune
+- I wanna dance to music from album [Appetite for Destruction](track_album).
+- Play some music from [Bandana](track_album)
+- I would like to listen any music from album [The Immaculate Collection](track_album)
+- I wanna listen any track from [Revival](track_album)
+- I will like to have some [Metal](track_genre) songs
+- can you please play any track from the album [Bad](track_album)?
+- I [wud](grammar:would) like to listen to music from [Recovery](track_album) by [Eminem](track_artist).
+- can you please play something by [Akon](track_artist)
+- I would like to groove to the [Grunge](track_genre) music
+- cheer me up by playing any track from [Let’s Talk About Love](track_album), will you?
+- Would you please play songs from [Legend](track_album)?
+- can you play any song from the album [Oliver Appropriate](track_album)?
+- I would like to hear the [dubstep](track_genre) music
+- can you play something from the album [This is Acting](track_album) by [Kanye West](track_artist)?
+- will you please play any song from [Led Zeppelin IV](track_album) album by [George Michael](track_artist)
+- will you please play tracks from [Bandana](track_album) album by [Jay-Z](track_artist).
+- Please play the [rap](track_genre) music
+- Would you please play some music from [The Immaculate Collection](track_album) by [Mad Money](track_artist)?
+- Play a track from album [This Is How You Smile](track_album) by [Drake](track_artist), will you?
+- I wanna listen some music from [Rumours](track_album)
+- Play something from the album [This Is How You Smile](track_album)
+- I wanna listen something from album [Bandana](track_album).
+- Would you please play any music from [YOU CAN'T SIT WITH US](track_album) album by [Rick0 James](track_artist)
+- Would you please play some [dubstep](track_genre)?
+- I would like to groove to the [dubstep](track_genre) music
+- I wanna listen something from the album [Thank U, Next](track_album)
+- I would like to listen any music from [Let’s Talk About Love](track_album) album.
+- Could we get something by [Adele](track_artist)?
+- I would like to listen a track from [Bad](track_album) album
+- Could you please play some [soundtrack](track_genre)?
+- I would like to dance to the [soundtrack](track_genre) musicc
+- Would you please play songs from [Young Enough](track_album) by [Post Malone](track_artist)?
+- Would you please play something from [The Black Album](track_album) by [Ed Sheeran](track_artist)?
+- will you please play any track from album [Led Zeppelin IV](track_album) by [Mad Money](track_artist)?
+- can you please play some music from the album [Oliver Appropriate](track_album)?
+- I would like to groove to an [orchestra](track_genre) tune
+- I wanna listen tracks from [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you please play any music from album [IGOR](track_album)?
+- will you please play any track from album [Oliver Appropriate](track_album) by [The Chainsmokers](track_artist)?
+- can you play a track from [Father of the Bride](track_album) album by [Justin Hurwitz](track_artist)
+- will you please play tracks from album [Harverd Dropout](track_album) by [Cardi B](track_artist)?
+- I would like to listen to music from [Oasis](track_album) by [Rick0 James](track_artist).
+- Could you please play some [funk](track_genre) music?
+- can you please play something from the album [The Wizrd](track_album)?
+- Would you please play any track from [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play some music from [The Immaculate Collection](track_album)?
+- please play some [punk](track_genre) for me
+- I wanna dance to tracks from album [Kamikaze](track_album)
+- Drop the needle.
+- Play songs from album [The Unseen In-Between](track_album) by [Shawn Mendes](track_artist), will you?
+- Would you please play a track from the album [This is Acting](track_album)?
+- please play some [rap](track_genre) music for me
+- I would like to groove to some [hip-hop](track_genre) tracks
+- I wanna dance to any track from [The Immaculate Collection](track_album)
+- Would you please play any song from [The Immaculate Collection](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Play any track from [Legend](track_album) album
+- Would you please play some [punk](track_genre)?
+- can you play tracks from [Marshal Mather LP II](track_album)?
+- I wanna listen some music from album [Good Ass Job](track_album)
+- I will like to have some [punk](track_genre)
+- can you play tracks from [Legend](track_album) album by [Camila Cabello](track_artist)
+- Would you please play something from the album [Flamagra](track_album)?
+- Would you please play any music from [Legend](track_album) album by [Eagles](track_artist)
+- Could you please play any [punk](track_genre) music?
+- I wanna listen any music from [Lets Try the After](track_album) album
+- can you play tracks from album [Western Stars](track_album) by [Kanye West](track_artist)?
+- Could you please play any [soundtrack](track_genre) musicc?
+- Play tracks from [Back in Black](track_album).
+- can you play music from album [Lets Try the After](track_album)?
+- Play some music from album [Crushing](track_album)
+- Would you please play any music from the album [Let’s Talk About Love](track_album)?
+- I would like to listen any track from the album [The Immaculate Collection](track_album)
+- please play the [Rap](track_genre) tracks for me
+- I wanna dance to any song from the album [Bad](track_album)
+- can you please play something from [The Immaculate Collection](track_album)?
+- will you please play any track from [SASAMI](track_album) album by [Charlotte Rose Ellis](track_artist)
+- will you please play any track from [Appetite for Destruction](track_album) album by [Kanye West](track_artist)
+- Would you please play a track from [Rumours](track_album) album by [Sean Paul](track_artist)
+- can you play tracks from [Appetite for Destruction](track_album) album by [Sean Paul](track_artist).
+- can you play something from [This Is How You Smile](track_album) album by [Dr. Dre;Eminem](track_artist)
+- please play some [metal](track_genre) music for me
+- Would you please play songs from album [The Night King](track_album)?
+- will you please play some music from [Let’s Talk About Love](track_album)?
+- Could you please play the [soundtrack](track_genre) beat for us?
+- please play any [soundtrack](track_genre) track for us
+- Play any track from album [Legend](track_album)
+- I wanna listen music from album [Legend](track_album)
+- I would like to dance to the [funk](track_genre) music
+- please play some [punk](track_genre) track  for me
+- I would like to listen any song from [Marshal Mather LP II](track_album)
+- can you play a track from the album [When I Get Home](track_album) by [50 cents](track_artist)?
+- Would you please play any music from the album [IGOR](track_album)?
+- cheer me up by playing something from the album [I Am Easy To Find](track_album), will you?
+- I would like to listen something from [The Saint of Lost Causes](track_album)
+- I would like to listen to music from [Rumours](track_album) by [Post Malone](track_artist).
+- Please play the [funk](track_genre)
+- I would like to hear the [edm](track_genre) music
+- Would you please play a track from album [Angel's Pulse](track_album) by [Sia](track_artist)?
+- will you please play something from [The Black Album](track_album)?
+- I would like to groove to the [punk](track_genre) tracks
+- I would like you to please play the [edm](track_genre)
+- I wanna dance to any music from [Atlanta Millionaires Club](track_album)
+- I would like to listen something from [Tip of the Sphere](track_album) album
+- I would like to hear any [soundtrack](track_genre) music
+- will you please play some music from [Appetite for Destruction](track_album)?
+- Could you please play the [dubstep](track_genre) songs for us?
+- Play the [soundtrack](track_genre) tune.
+- Would you please play songs from [This Is How You Smile](track_album)?
+- Would you please play something from the album [Let’s Talk About Love](track_album)?
+- Would you please play the [edm](track_genre) track ?
+- I would like to dance to the [pop](track_genre) tracks
+- can you please play something from album [Hotel California](track_album)?
+- will you please play any track from [Marshal Mather LP II](track_album) by [Ludacris](track_artist)?
+- Play songs from album [Thank U, Next](track_album).
+- Could you please play any [dubstep](track_genre) music for us?
+- Play the [dubstep](track_genre) songs
+- please play the [punk](track_genre) songs for me
+- I would like to hear some [grunge](track_genre) tracks
+- Would you please play music from album [What Chaos Is Imaginary](track_album)?
+- Play some music from album [Let’s Talk About Love](track_album) by [Drake](track_artist), will you?
+- Would you please play music from [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- Would you please play some music from the album [Rumours](track_album) by [Madonna](track_artist)?
+- Play any song from album [Appetite for Destruction](track_album) by [Clint Mansell](track_artist), will you?
+- I wanna listen any track from album [Gold and Grey](track_album)
+- Play tracks from [YOU CAN'T SIT WITH US](track_album), will you?
+- Would you please play some music from [This is Acting](track_album) by [Mellen Gi](track_artist)?
+- I would like to hear any [dubstep](track_genre) music
+- Play any track from [Beware of the Dogs](track_album) by [Shawn Mendes](track_artist), will you?
+- I would like to listen music from [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I would love to listen to [Selena Gomez](track_artist)
+- Play any track from the album [The Night King](track_album) by [Drake](track_artist), will you?
+- Would you please play something from [Recovery](track_album)?
+- Play any track from the album [Harverd Dropout](track_album), will you?
+- I wanna listen any track from the album [Marshal Mather LP II](track_album)
+- I would like you to please play the [rap](track_genre) track
+- I would like to hear any [punk](track_genre) music
+- Would you please play any song from album [Back in Black](track_album) by [Linkin Park](track_artist)?
+- I would like to listen to any [Orchestra](track_genre) music
+- I wanna listen tracks from [The Unseen In-Between](track_album) album
+- can you play any song from [Sunshine Rock](track_album) album
+- will you please play a track from the album [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any music from the album [Legend](track_album) by [Shakira](track_artist)?
+- I wanna dance to something from [The Immaculate Collection](track_album) album
+- I would like to groove to the [hip-hop](track_genre)
+- Will you please play something by [Rihanna](track_artist)?
+- Play tracks by [Usher](track_artist)
+- can you play some music from [Requiem for a Dream](track_album) by [Future](track_artist)?
+- Play something from album [Heard It in a Past Life](track_album)
+- Play a track from the album [Kamikaze](track_album) by [Dr. Dre](track_artist), will you?
+- Play songs from [Father of the Bride](track_album), will you?
+- Would you please play something from [Atlanta Millionaires Club](track_album) album by [Post Malone](track_artist)
+- will you please play any song from the album [Revival](track_album)?
+- can you play tracks from [Legend](track_album) album
+- Could you please play the [punk](track_genre) songs?
+- Would you please play some [punk](track_genre) tracks?
+- cheer me up by playing songs from [EVEN IN THE TREMOR](track_album), will you?
+- Play something from [Led Zeppelin IV](track_album), will you?
+- Play any track from the album [Remind Me Tomorrow](track_album), will you?
+- please play some [grunge](track_genre) for me
+- I wanna listen any track from [Beware of the Dogs](track_album) album.
+- Could you please play any [hip-hop](track_genre) beat for us?
+- Play any track from [Quiet Signs](track_album), will you?
+- Would you play something by [Mad Money](track_artist)?
+- can you please play songs from [New Breed](track_album)?
+- I wanna dance to any song from album [The Immaculate Collection](track_album).
+- I wanna dance to any song from album [LP3](track_album)
+- I would like to listen to some [metal](track_genre) track
+- can you please play tracks from [LP3](track_album)?
+- I would like to hear some [metal](track_genre) track
+- can you please play something from the album [Recovery](track_album)?
+- can you please play something from album [Revival](track_album)?
+- Play any music from album [Recovery](track_album), will you?
+- Would you please play something by [Selena Gomez](track_artist)?
+- can you play any song from album [When I Get Home](track_album)?
+- I would like to listen any track from album [On the Line](track_album)
+- I wanna dance to a track from [Make It Big](track_album)
+- cheer me up by playing songs from album [Titanic Rising](track_album), will you?
+- I would like to groove to the [soundtrack](track_genre) music
+- can you play something from the album [Appetite for Destruction](track_album)?
+- I would like to listen music from album [Back in Black](track_album).
+- Play tracks from album [Legend](track_album), will you?
+- I would like to listen songs from [Thank U, Next](track_album).
+- will you please play songs from album [This Is How You Smile](track_album)?
+- I would like to listen tracks from album [U.F.O.F](track_album).
+- can you play any music from [Buoys](track_album)?
+- will you please play music from album [Bandana](track_album) by [Mad Money](track_artist)?
+- Play music from [Flamagra](track_album), will you?
+- Play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- Would you please play any music from the album [Good Ass Job](track_album)?
+- Would you please play any song from [The Immaculate Collection](track_album) by [Ludacris](track_artist)?
+- Would you please play some music from [SASAMI](track_album)?
+- Could you please play some [Jazz](track_genre) music?
+- will you please play any track from album [Western Stars](track_album)?
+- Could you please play some [dubstep](track_genre) songs?
+- I would like you to please play the [edm](track_genre) track
+- Would you please play music from [Young Enough](track_album)?
+- I would like to listen something from album [La La Land](track_album)
+- Would you please play music from [Beware of the Dogs](track_album) by [Snoop Dogg](track_artist)?
+- Would you please play songs from album [Father of the Bride](track_album)?
+- Play any track from [I Am Easy To Find](track_album) by [Akon](track_artist), will you?
+- I wanna listen songs from album [Quiet Signs](track_album)
+- can you play any track from [Appetite for Destruction](track_album) album
+- will you please play something from the album [Rumours](track_album) by [George Michael](track_artist)?
+- please play any [pop](track_genre) beat for us
+- I would enjoy to dance to [Ed Sheeran](track_artist)
+- Play some music from [On the Line](track_album)
+- I wanna dance to any music from the album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- will you please play any music from [The Black Album](track_album) by [The Chainsmokers](track_artist)?
+- can you please play tracks from album [Revival](track_album)?
+- Play tracks from album [Hijas del Tomate](track_album), will you?
+- cheer me up by playing songs from album [Back in Black](track_album), will you?
+- I wanna listen any music from the album [Gold and Grey](track_album)
+- can you play songs from album [Marshal Mather LP II](track_album)?
+- I would like you to please play the [rap](track_genre) tracks
+- I would like to listen songs from album [Father of the Bride](track_album)
+- can you play a track from the album [Heard It in a Past Life](track_album)?
+- I wanna dance to any song from the album [YOU CAN'T SIT WITH US](track_album)
+- will you please play any track from the album [Father of the Bride](track_album)?
+- Play a track from the album [Flamagra](track_album) by [Rick0 James](track_artist), will you?
+- Would you please play any music from the album [Marshal Mather LP II](track_album) by [Warner & Chappell](track_artist)?
+- I would like to listen songs from [Heard It In A Past Life](track_album)
+- I want to listen something by [Selena Gomez](track_artist)
+- I would like to listen tracks from album [EVEN IN THE TREMOR](track_album).
+- Would you please play any song from the album [Kamikaze](track_album) by [Kanye West](track_artist)?
+- can you please play any track from album [Heard It In A Past Life](track_album)?
+- can you play any track from [Lets Try the After](track_album) album by [Mellen Gi](track_artist).
+- I will like to have some [metal](track_genre) music
+- I would like to dance to music from [Legend](track_album) by [Future](track_artist)
+- I wanna listen something from [The Immaculate Collection](track_album) album.
+- will you please play some music from [Legend](track_album)?
+- can you play any song from the album [Appetite for Destruction](track_album)?
+- Play music from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Drake](track_artist), will you?
+- Play a track from [In League With Dragons](track_album) album by [DJ Snake](track_artist), will you?
+- cheer me up by playing something from [Dedicated](track_album) album, will you?
+- can you please play something from [SASAMI](track_album)?
+- will you please play songs from album [New Breed](track_album)?
+- Would you please play songs from album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any track from the album [Atlanta Millionaires Club](track_album) by [Post Malone](track_artist)?
+- Play any track from album [Anima](track_album), will you?
+- Play songs from album [The Immaculate Collection](track_album), will you?
+- will you please play songs from [Marshal Mather LP II](track_album) by [Bonobo](track_artist)?
+- Play any song from the album [The Immaculate Collection](track_album) by [Sia](track_artist), will you?
+- I wanna listen any track from [What Chaos Is Imaginary](track_album) album.
+- I wanna dance to music from [The Immaculate Collection](track_album)
+- I wanna dance to something from album [Designer](track_album).
+- I will like to have any [punk](track_genre) music
+- can you play some music from [Legend](track_album)?
+- Play something from [Bad](track_album), will you?
+- can you play any song from [Requiem for a Dream](track_album) album
+- I wanna dance to any song from [Appetite for Destruction](track_album)
+- I would like to listen any song from [Oasis](track_album) album
+- Play some music from [Illuminate](track_album), will you?
+- Could we get something by [Mad Money](track_artist)?
+- I wanna listen any music from the album [Remind Me Tomorrow](track_album)
+- Play a track from album [Metallica](track_album)
+- Would you please play any song from [Mitsubishi Macchiato](track_album) album
+- will you please play something from [The Immaculate Collection](track_album) album by [Mellen Gi](track_artist)
+- can you play any track from album [Kamikaze](track_album) by [Drake](track_artist)?
+- Play any track from [Everything Not Saved Will Be Lost—Part 1](track_album) album
+- Would you please play any track from album [Bandana](track_album)?
+- Would you please play some [metal](track_genre) songs?
+- Would you please play a track from album [EVEN IN THE TREMOR](track_album)?
+- I wanna listen any music from [When I Get Home](track_album).
+- Play a [funk](track_genre) music
+- will you please play any music from the album [What Chaos Is Imaginary](track_album) by [Bonobo](track_artist)?
+- will you please play songs from album [Buoys](track_album) by [Queen](track_artist)?
+- I would like to dance to some [soundtrack](track_genre)
+- can you play any track from [The Unseen In-Between](track_album) album
+- will you please play songs from [Led Zeppelin IV](track_album)?
+- Play any track from album [Recovery](track_album).
+- Would you please play any song from the album [Buoys](track_album)?
+- Could you please play the [dubstep](track_genre) music?
+- can you please play a track from album [Slaves of Fear](track_album)?
+- I wanna listen any track from album [Marshal Mather LP II](track_album)
+- please play the [dubstep](track_genre) track  for us
+- cheer me up by playing any track from [The Immaculate Collection](track_album) album, will you?
+- Could you please play the [hip-hop](track_genre) songs for us?
+- Could you please play any [funk](track_genre) beat for us?
+- can you play some music from [Western Stars](track_album) by [Rick0 James](track_artist)?
+- Would you please play any music from [Bad](track_album) album
+- I wanna dance to any music from [Revival](track_album)
+- can you play any track from [Rumours](track_album)?
+- I wanna dance to something from [IGOR](track_album) album.
+- Play songs from album [when we all fall asleep where do we go](track_album), will you?
+- can you play something from [Illuminate](track_album)?
+- Play songs from album [Supernatural](track_album).
+- will you please play any track from album [I Am Easy To Find](track_album) by [50 cents](track_artist)?
+- can you play a track from [U.F.O.F](track_album) album by [Charlotte Rose Ellis](track_artist)
+- Play a [punk](track_genre) music
+- will you please play tracks from [Purple Reign](track_album) by [Drake](track_artist)?
+- I wanna dance to something from [Recovery](track_album).
+- I would like to groove to the [funk](track_genre) tracks
+- Would you please play any song from the album [Young Enough](track_album)?
+- Play any track from album [The Immaculate Collection](track_album), will you?
+- I would like to listen music from [Hotel California](track_album)
+- Play the [edm](track_genre) track
+- can you please play tracks from [SASAMI](track_album)?
+- I wanna listen any track from the album [Buoys](track_album)
+- I would like to listen songs from [In League With Dragons](track_album)
+- can you play music from [On the Line](track_album) by [George Michael](track_artist)?
+- will you please play a track from the album [IGOR](track_album)?
+- will you please play music from album [The Immaculate Collection](track_album) by [Snoop Dogg](track_artist)?
+- Could you please play the [pop](track_genre) songs for us?
+- will you please play any track from [On the Line](track_album) album by [Dr. Dre](track_artist).
+- Play something from [Revival](track_album) album by [Ludacris](track_artist), will you?
+- I wanna listen something from album [Bad](track_album)
+- please play the [funk](track_genre) for me
+- will you please play any track from [The Immaculate Collection](track_album) by [Ozuna](track_artist)?
+- Would you please play tracks from [SASAMI](track_album) album
+- I would like to hear to music from [Let’s Talk About Love](track_album) by [XAMES3](track_artist)
+- Could you please play some [punk](track_genre) track  for us?
+- Play a track from [Metallica](track_album) by [Kanye West](track_artist), will you?
+- Would you please play any track from [Hijas del Tomate](track_album) album.
+- Play a track from album [Revival](track_album), will you?
+- Would you please play tracks from [Gold and Grey](track_album) album
+- I wanna listen something from [Hotel California](track_album) album
+- please play an [orchestra](track_genre) track for us
+- can you play any track from the album [Western Stars](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Would you please play something from album [Metallica](track_album)?
+- I would love to listen to something by [Diplo](track_artist)
+- cheer me up by playing any song from the album [Thank U, Next](track_album), will you?
+- can you play any track from [Bandana](track_album)?
+- Would you please play some [soundtrack](track_genre) track ?
+- I wanna dance to songs from album [YOU CAN'T SIT WITH US](track_album)
+- I wanna listen a track from album [Supernatural](track_album).
+- [cud](grammar:could) u please turn music on from [Recovery](track_album).
+- I wanna listen any track from the album [Bandana](track_album)
+- I would like you to please play any [hip-hop](track_genre) music
+- Please play some [metal](track_genre) tracks
+- I wanna listen tracks from [Bad](track_album) album
+- I wanna dance to tracks from [Bandana](track_album) album
+- Please play the [rap](track_genre)
+- I wanna listen tracks from [Dedicated](track_album).
+- Would you please play any track from album [Requiem for a Dream](track_album) by [Eagles](track_artist)?
+- will you please play something from [Chapter VI](track_album) by [Clint Mansell](track_artist)?
+- will you please play any song from [Flamagra](track_album) album
+- will you please play any music from [On The Line](track_album) by [Charlotte Rose Ellis](track_artist)?
+- can you play music from album [Marshal Mather LP II](track_album)?
+- can you play music from album [Led Zeppelin IV](track_album)?
+- Would you please play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) by [Fifth Harmony](track_artist)?
+- I would like to dance to any [metal](track_genre) track
+- please play the [grunge](track_genre) music for us
+- Please play some [rap](track_genre) track
+- I would like you to please play some [metal](track_genre) track
+- I would like to listen to any [metal](track_genre) beat
+- will you please play any track from [Beware of the Dogs](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play tracks from [Supernatural](track_album) album by [Bonobo](track_artist).
+- I would like you to please play some [dubstep](track_genre) songs
+- I would like to listen a track from [Recovery](track_album) album.
+- can you please play any track from [Slaves of Fear](track_album) album
+- Would you please play something from the album [Titanic Rising](track_album)?
+- I wanna listen a track from album [Purple Reign](track_album)
+- I would like to hear any [metal](track_genre) beat
+- I would like to groove to some [dubstep](track_genre)
+- will you please play tracks from album [Metallica](track_album)?
+- will you please play music from [Let’s Talk About Love](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play something from album [Assume Form](track_album) by [Justin Hurwitz](track_artist)?
+- Play something from album [Gold and Grey](track_album), will you?
+- can you play any song from [Young Enough](track_album)?
+- please play any [edm](track_genre) track for us
+- Would you please play any track from [Legend](track_album) album by [Future](track_artist)
+- Would you play something by [Miley Cyrus](track_artist)?
+- can you please play a track from the album [Oh My God](track_album)?
+- will you please play songs from album [On the Line](track_album) by [Eagles](track_artist)?
+- will you please play any music from [Legend](track_album)?
+- Would you please play an [orchestra](track_genre) tune?
+- will you please play something from album [Revival](track_album) by [Camila Cabello](track_artist)?
+- Play songs from [Quiet Signs](track_album) by [Mellen Gi](track_artist), will you?
+- Would you please play songs from [What Chaos Is Imaginary](track_album) by [Drake](track_artist)?
+- I would like to listen any music from [Bandana](track_album).
+- can you play tracks from album [Let’s Talk About Love](track_album) by [Cardi B](track_artist)?
+- Play the [Hip-hop](track_genre) track
+- Would you please play a track from the album [Bad](track_album)?
+- I would like to groove to some [edm](track_genre) music
+- I want to listen something by [Rihanna](track_artist)
+- Play any music from [LP3](track_album) album
+- can you please play tracks from [Supernatural](track_album)?
+- I would like to hear to music from [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)
+- Play something from [Marshal Mather LP II](track_album) album by [Mad Money](track_artist), will you?
+- can you play music from [Remind Me Tomorrow](track_album) by [Drake](track_artist)?
+- I wanna dance to a track from album [Flamagra](track_album)
+- will you please play something from [Back in Black](track_album)?
+- can you please play any song from album [Heard It in a Past Life](track_album)?
+- I would like to listen any music from [New Breed](track_album)
+- please play the [grunge](track_genre) music for me
+- can you play tracks from album [Remind Me Tomorrow](track_album) by [Dr. Dre](track_artist)?
+- can you please play music from album [Let’s Talk About Love](track_album)?
+- Will you play something by [Drake](track_artist)?
+- Play any music from [Chapter VI](track_album).
+- I want to listen something by [Akon](track_artist)
+- Could you please play some [dubstep](track_genre) track  for us?
+- I would like you to please play any [soundtrack](track_genre) music
+- can you play a track from the album [When I Get Home](track_album) by [Lil Wayne](track_artist)?
+- I would like to listen to some [soundtrack](track_genre)
+- I wanna dance to something from [When I Get Home](track_album) album
+- I would like to listen music from [Legend](track_album)
+- Would you please play some [funk](track_genre) music?
+- I wanna dance to something from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to listen any music from album [Outer Peace](track_album)
+- I would like to listen something from [Titanic Rising](track_album).
+- I would like to groove to the [rap](track_genre)
+- Please play any [Electronic](track_genre) music
+- will you please play music from [when we all fall asleep where do we go](track_album)?
+- Would you please play some [metal](track_genre) music?
+- Play any track from [Back in Black](track_album) album, will you?
+- Would you please play tracks from [YOU CAN'T SIT WITH US](track_album) album by [Drake](track_artist)
+- I would like to groove to any [edm](track_genre) music
+- can you play any track from the album [Marshal Mather LP II](track_album) by [Drake](track_artist)?
+- will you please play songs from album [In League With Dragons](track_album) by [Mad Money](track_artist)?
+- will you please play any track from [LP3](track_album) album by [Nate Dogg](track_artist).
+- can you play something from album [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any music from album [Oasis](track_album), will you?
+- can you play songs from album [Appetite for Destruction](track_album)?
+- can you please play tracks from [On the Line](track_album)?
+- Play any track from the album [Oasis](track_album) by [Mad Money](track_artist), will you?
+- I wanna listen any song from album [Angel's Pulse](track_album).
+- I wanna dance to any track from the album [Dedicated](track_album)
+- I would like to listen any song from album [Titanic Rising](track_album).
+- Play some music from [Appetite for Destruction](track_album), will you?
+- will you please play any track from the album [Legend](track_album) by [Drake](track_artist)?
+- can you please play a track from [Harverd Dropout](track_album) album.
+- Could you please play some [Hip-hop](track_genre) music?
+- I would like to listen any track from [I Am Easy To Find](track_album) album
+- can you please play any track from [Dedicated](track_album)?
+- will you please play any music from [The Black Album](track_album) album by [Dr. Dre;Eminem](track_artist)
+- thrill me.
+- will you please play any song from album [Revival](track_album)?
+- Play something from the album [Led Zeppelin IV](track_album) by [George Michael](track_artist), will you?
+- I will like to have any [soundtrack](track_genre) musicc
+- I wanna listen any track from album [Mitsubishi Macchiato](track_album)
+- will you please play tracks from [IGOR](track_album) by [Shawn Mendes](track_artist)?
+- I wanna dance to any song from the album [Kamikaze](track_album)
+- can you play any track from album [In League With Dragons](track_album)?
+- I wanna dance to something from album [The Immaculate Collection](track_album)
+- will you please play some music from [EVEN IN THE TREMOR](track_album)?
+- Please play music by [Alan Walker](track_artist).
+- Would you please play the [Grunge](track_genre) music?
+- can you play any track from [Father of the Bride](track_album) album
+- cheer me up by playing something from album [Kamikaze](track_album), will you?
+- Would you please play any track from the album [Chapter VI](track_album) by [Linkin Park](track_artist)?
+- I wanna dance to songs from album [Appetite for Destruction](track_album).
+- Would you please play any track from the album [Recovery](track_album) by [Kanye West](track_artist)?
+- I would like to listen some music from album [Led Zeppelin IV](track_album)
+- Play any music from [Rumours](track_album) by [Justin Hurwitz](track_artist), will you?
+- can you play any music from album [Thank U, Next](track_album) by [Kanye West](track_artist)?
+- Play something from album [Oh My God](track_album), will you?
+- Would you please play any music from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- can you play music from album [Legend](track_album)?
+- will you please play songs from album [Let’s Talk About Love](track_album) by [George Michael](track_artist)?
+- I would like to listen to the [grunge](track_genre) music
+- Could you play something by [Khalid](track_artist)?
+- Would you please play any music from album [La La Land](track_album)?
+- Play any music from the album [Sunshine Rock](track_album)
+- can you play songs from [What Chaos Is Imaginary](track_album)?
+- Play any music from [Thank U, Next](track_album) album by [Clint Mansell](track_artist), will you?
+- I would like to listen to the [pop](track_genre) tracks
+- can you play tracks from [Thank U, Next](track_album)?
+- I will like to have the [hip-hop](track_genre) tracks
+- Would you please play music from [SASAMI](track_album) by [Celine Dion](track_artist)?
+- Play music from [Oh My God](track_album)
+- Would you please play any music from album [Appetite for Destruction](track_album)?
+- I would like to listen music from [Assume Form](track_album).
+- can you please play any song from [Appetite for Destruction](track_album) album
+- Could you please play any [soundtrack](track_genre) music?
+- will you please play some music from album [On The Line](track_album)?
+- I would like to groove to music from [Young Enough](track_album) by [Cardi B](track_artist).
+- Play any track from album [I Am Easy To Find](track_album)
+- I would like to listen tracks from [Phoenix](track_album)
+- can you play any music from [Angel's Pulse](track_album)?
+- I want to dance to music from [Recovery](track_album).
+- can you please play a track from [Kamikaze](track_album) album
+- I would like you to please play some [funk](track_genre) songs
+- I wanna listen any track from album [Supernatural](track_album).
+- Please play the [dubstep](track_genre) tracks
+- Would you please play any song from [The Craving for Absolute Serenity](track_album) album.
+- Play songs from [Everything Not Saved Will Be Lost—Part 1](track_album) by [Coldplay](track_artist), will you?
+- I would like to listen tracks from album [Angel's Pulse](track_album)
+- can you please play a track from [The Immaculate Collection](track_album)?
+- Would you please play a track from album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play something from album [Angel's Pulse](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Could you please play any [edm](track_genre) beat?
+- can you please play songs from [The Immaculate Collection](track_album)?
+- Would you please play something from [On the Line](track_album)?
+- Play something from [On the Line](track_album), will you?
+- sing me a song by [Drake](track_artist)
+- Play any song from the album [Quiet Signs](track_album) by [Future](track_artist), will you?
+- I would like to groove to some [dubstep](track_genre) music
+- Play some [metal](track_genre)
+- I wanna dance to any song from [Recovery](track_album).
+- Play any music from [Recovery](track_album) album by [Jay-Z](track_artist), will you?
+- can you please play something from the album [What Chaos Is Imaginary](track_album)?
+- I wanna dance to any song from album [Marshal Mather LP II](track_album)
+- Would you please play something from [U.F.O.F](track_album) album
+- Play a track from album [Titanic Rising](track_album), will you?
+- Play any song from [Assume Form](track_album), will you?
+- can you play any track from album [Let’s Talk About Love](track_album)?
+- Play something from [when we all fall asleep where do we go](track_album)
+- Please play music by [Akon](track_artist).
+- I wanna dance to any track from the album [Legend](track_album)
+- I would like to listen some music from album [Oasis](track_album).
+- Would you please play something from [The Saint of Lost Causes](track_album)?
+- Play tracks from [Western Stars](track_album) album, will you?
+- I would like to listen a track from [Kamikaze](track_album) album
+- Play any music from [Legend](track_album) album
+- I wanna dance to songs from [Harverd Dropout](track_album).
+- Could you please play the [soundtrack](track_genre) tracks?
+- Play tracks from album [The Night King](track_album), will you?
+- I would like to listen tracks from album [Legend](track_album)
+- Play any track from [In League With Dragons](track_album) album.
+- can you play any track from [Kamikaze](track_album) album by [Akon](track_artist)
+- Could you please play any [pop](track_genre) music for us?
+- Please play music by [Ariana Grande](track_artist).
+- I will like to have the [edm](track_genre) songs
+- can you play any song from album [Young Enough](track_album)?
+- will you please play any music from the album [Bad](track_album) by [Warner & Chappell](track_artist)?
+- can you play any track from [Led Zeppelin IV](track_album) by [Drake](track_artist)?
+- Would you please play songs from [Flamagra](track_album)?
+- can you please play any song from the album [Led Zeppelin IV](track_album)?
+- Play a track from album [Legend](track_album) by [Snoop Dogg](track_artist), will you?
+- Would you please play any track from album [Oasis](track_album)?
+- Play something from [Anima](track_album) album
+- will you please play any music from album [SASAMI](track_album)?
+- Would you please play something from [Hotel California](track_album) album by [BTS](track_artist)
+- Would you please play something from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Three Days Grace](track_artist)?
+- Would you please play any music from the album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from [Recovery](track_album) by [Drake](track_artist), will you?
+- I would like to dance to the [rap](track_genre)
+- can you please play songs from album [Hijas del Tomate](track_album)?
+- Play the [metal](track_genre) tune.
+- I would like to hear any [hip-hop](track_genre) track
+- I would like to listen something from [Hijas del Tomate](track_album)
+- I wanna dance to a track from album [Oh My God](track_album)
+- I wanna dance to a track from [Beware of the Dogs](track_album) album.
+- Play any song from the album [Remind Me Tomorrow](track_album), will you?
+- I wanna listen a track from [Hijas del Tomate](track_album)
+- Play some music from the album [Let’s Talk About Love](track_album) by [Ozuna](track_artist), will you?
+- Play any track from [EVEN IN THE TREMOR](track_album)
+- I would like to listen to [Dr. Dre](track_artist).
+- please play any [funk](track_genre) music for me
+- I wanna listen tracks from [Let’s Talk About Love](track_album) album.
+- Would you please play any song from album [Appetite for Destruction](track_album)?
+- play tunes by [Ramin Djawadi](track_artist)
+- Would you please play any song from album [Beware of the Dogs](track_album)?
+- I would like to hear the [funk](track_genre) tracks
+- Would you please play songs from album [Metallica](track_album) by [Warner & Chappell](track_artist)?
+- I would like to hear the [funk](track_genre)
+- cheer me up by playing songs from [Requiem for a Dream](track_album), will you?
+- will you please play something from [Requiem for a Dream](track_album) album by [Ludacris](track_artist).
+- please play the [blues](track_genre) track  for us
+- Could you please play some [grunge](track_genre) track ?
+- will you please play something from the album [Legend](track_album) by [Drake](track_artist)?
+- will you please play any song from [Anima](track_album) by [Charlotte Rose Ellis](track_artist)?
+- will you please play songs from album [Anima](track_album) by [Cardi B](track_artist)?
+- Play something from [Slaves of Fear](track_album)
+- I wanna listen tracks from album [Lets Try the After](track_album)
+- I would like to listen any song from the album [Appetite for Destruction](track_album)
+- Would you please play something from album [Recovery](track_album) by [Drake](track_artist)?
+- will you please play any track from the album [Lets Try the After](track_album)?
+- Play any [blues](track_genre) track
+- can you play any track from the album [Oasis](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen any song from [On The Line](track_album) album
+- I would like you to please play some [grunge](track_genre) track
+- will you please play any track from the album [When I Get Home](track_album) by [Justin Timberlake](track_artist)?
+- can you play songs from album [La La Land](track_album)?
+- will you please play any song from [Legend](track_album) album
+- I wanna listen any track from [The Wizrd](track_album)
+- can you please play any music from [Dedicated](track_album) album
+- Play a [Hiphop](track_genre) music
+- Would you please play a track from [Tip of the Sphere](track_album) album.
+- Play music from [Father of the Bride](track_album) by [Ozuna](track_artist), will you?
+- can you please play a track from [Legend](track_album) album
+- I would like to dance to the [rap](track_genre) songs
+- can you please play songs from [The Black Album](track_album)?
+- Play some music from [Chapter VI](track_album) by [Future](track_artist), will you?
+- Play any song from [Remind Me Tomorrow](track_album) album by [Drake](track_artist), will you?
+- can you play a track from [Tip of the Sphere](track_album) by [Shawn Mendes](track_artist)?
+- please play the [hip-hop](track_genre) music for us
+- can you please play songs from album [Cuz I Love You](track_album)?
+- Play some music from the album [What Chaos Is Imaginary](track_album), will you?
+- Play any song from album [Make It Big](track_album).
+- I wanna dance to any song from [Oliver Appropriate](track_album)
+- I wanna listen music from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I wanna listen tracks from album [IGOR](track_album).
+- Would you please play any music from [Titanic Rising](track_album) album
+- Play some music from [Assume Form](track_album) by [Drake](track_artist), will you?
+- Please play some [Pop](track_genre) music
+- Play any track from the album [Let’s Talk About Love](track_album), will you?
+- I would like to groove to the [blues](track_genre) music
+- I would like to groove to any [hip-hop](track_genre) track
+- Play any track from [The Immaculate Collection](track_album) album by [Mad Money](track_artist), will you?
+- Play a track from [This Is How You Smile](track_album) album
+- I wanna listen any track from the album [Metallica](track_album)
+- will you please play songs from album [Crushing](track_album) by [Justin Hurwitz](track_artist)?
+- please play the [edm](track_genre) music for me
+- I would like to hear the [soundtrack](track_genre) track
+- I would love to dance to [Adele](track_artist)
+- can you play something that would make me happy?
+- cheer me up by playing any song from [The Immaculate Collection](track_album) album, will you?
+- will you please play some music from [Led Zeppelin IV](track_album) by [Ozuna](track_artist)?
+- I would like to listen any track from the album [Bad](track_album)
+- Would you please play any track from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Lady Gaga](track_artist)?
+- Play songs by [Akon](track_artist)
+- I would like to listen any track from album [Supernatural](track_album).
+- I wanna listen songs from [Hotel California](track_album)
+- Play some musci
+- will you please play any track from [Angel's Pulse](track_album) album
+- Would you please play any track from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any song from [Revival](track_album) album, will you?
+- can you play music from album [Outer Peace](track_album) by [George Michael](track_artist)?
+- Please play some [pop](track_genre) track
+- Could you please play the [punk](track_genre) tracks for us?
+- could you please some music from [Kamikaze](track_album)
+- I would like to groove to the [grunge](track_genre) tracks
+- Play any music from [Chapter VI](track_album) by [Dr. Dre](track_artist), will you?
+- can you play any music from album [Legend](track_album) by [Sia](track_artist)?
+- Play any [dubstep](track_genre) track
+- I wanna listen any music from the album [Atlanta Millionaires Club](track_album)
+- Would you please play any [hip-hop](track_genre) track?
+- will you please play something from album [Appetite for Destruction](track_album) by [Drake](track_artist)?
+- I wanna dance to any track from [On the Line](track_album).
+- can you play a track from the album [Bad](track_album) by [Drake](track_artist)?
+- Play any music from [Western Stars](track_album) album by [Kanye West](track_artist), will you?
+- Please play some [blues](track_genre) tracks
+- will you please play any song from the album [Requiem for a Dream](track_album) by [BTS](track_artist)?
+- please play some [edm](track_genre) track  for us
+- I would like to listen to the [pop](track_genre)
+- can you please play any track from album [Back in Black](track_album)?
+- Play any track from album [YOU CAN'T SIT WITH US](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- Play tracks from album [LP3](track_album), will you?
+- I wanna listen something from [Oasis](track_album)
+- Play a track from [Led Zeppelin IV](track_album) album.
+- can you play some music from [Back in Black](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Could you please play the [rap](track_genre) for us?
+- Please play music by [Imagine Dragons](track_artist).
+- I would like to groove to the [edm](track_genre) track
+- will you please play music from album [TBA](track_album) by [Kanye West](track_artist)?
+- I would like to dance to the [dubstep](track_genre) tracks
+- I would like to listen to any [soundtrack](track_genre) beat
+- cheer me up by playing songs from album [Legend](track_album), will you?
+- I will like to have any [grunge](track_genre) music
+- I would like to hear the [rap](track_genre) music
+- Would you please play any track from [When I Get Home](track_album) album by [Drake](track_artist)
+- will you please play any track from [Supernatural](track_album) by [Eagles](track_artist)?
+- can you play any music from the album [Atlanta Millionaires Club](track_album)?
+- Would you please play any music from [The Immaculate Collection](track_album)?
+- I would like to listen any song from album [U.F.O.F](track_album)
+- can you play any music from album [Marshal Mather LP II](track_album)?
+- I wanna listen any track from the album [Quiet Signs](track_album)
+- Play something from album [Harverd Dropout](track_album) by [50 cents](track_artist), will you?
+- Play any song from album [Revival](track_album)
+- please play some [edm](track_genre) for us
+- Please play some [edm](track_genre) music
+- Would you please play some [rap](track_genre) songs?
+- I will like to have some [funk](track_genre) music
+- Play tracks from [La La Land](track_album)
+- Would you please play some [soundtrack](track_genre) beat?
+- cheer me up by playing tracks from [Oasis](track_album) album, will you?
+- I wanna dance to music from [The Marshall Mathers LP 2 Disc 2](track_album)
+- I wanna dance to tracks from [Anima](track_album) album.
+- I would like to listen tracks from album [Led Zeppelin IV](track_album).
+- I would like to hear the [edm](track_genre) tracks
+- Play any music from the album [when we all fall asleep where do we go](track_album) by [Ozuna](track_artist), will you?
+- I would like to listen a track from album [Let’s Talk About Love](track_album).
+- Play any track from album [Angel's Pulse](track_album), will you?
+- Would you please play any track from album [Oh My God](track_album)?
+- I would like to listen any song from album [Led Zeppelin IV](track_album)
+- I wanna dance to a track from [Marshal Mather LP II](track_album)
+- I would like to listen something from the album [Let’s Talk About Love](track_album)
+- can you play some music from the album [Rumours](track_album)?
+- I will like to have some [grunge](track_genre) songs
+- I would like to hear the [pop](track_genre) tracks
+- Play music from [What Chaos Is Imaginary](track_album), will you?
+- I would like to groove to the [dubstep](track_genre) tracks
+- Play songs from album [Appetite for Destruction](track_album).
+- Play a track from [Gold and Grey](track_album) by [Shakira](track_artist), will you?
+- can you please play tracks from [Bad](track_album) album
+- Will you please play something by [Alan Walker](track_artist)?
+- please play the [dubstep](track_genre) track  for me
+- will you please play any track from album [Father of the Bride](track_album)?
+- will you please play something from [Metallica](track_album) album
+- can you play songs from [The Immaculate Collection](track_album)?
+- will you please play songs from album [Rumours](track_album) by [Mad Money](track_artist)?
+- Please play some [soundtrack](track_genre) musicc
+- will you please play something from album [Norman Fucking Rockwell](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Please play some [blues](track_genre)
+- Play any music from [Slaves of Fear](track_album)
+- I would like to listen any track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- [Fuck](bleep_words), I'm so bored.
+- can you play something from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you play some music from album [Kamikaze](track_album)?
+- cheer me up by playing something from [Let’s Talk About Love](track_album), will you?
+- I wanna listen any song from album [Appetite for Destruction](track_album)
+- will you please play any track from album [Legend](track_album) by [Bonobo](track_artist)?
+- Play some [soundtrack](track_genre) tracks
+- cheer me up by playing songs from [Chapter VI](track_album), will you?
+- Play something from [Atlanta Millionaires Club](track_album) by [Jay-Z](track_artist), will you?
+- Would you please play any track from the album [Let’s Talk About Love](track_album) by [Ozuna](track_artist)?
+- I wanna dance to songs from album [Marshal Mather LP II](track_album).
+- I wanna dance to any track from [In League With Dragons](track_album) album
+- Would you please play the [rap](track_genre) music?
+- I would like to listen any music from album [U.F.O.F](track_album)
+- please play the [metal](track_genre) songs for me
+- can you please play songs from [Thank U, Next](track_album)?
+- I will like to have some [Blues](track_genre) music
+- cheer me up by playing songs from [Supernatural](track_album), will you?
+- Play music from album [Buoys](track_album) by [Mad Money](track_artist), will you?
+- Play any song from [SASAMI](track_album) album, will you?
+- Would you please play any music from [IGOR](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to listen any track from the album [Appetite for Destruction](track_album)
+- Would you please play any song from album [Rumours](track_album)?
+- Play the [soundtrack](track_genre) track
+- will you please play any song from [Kamikaze](track_album)?
+- Would you please play a track from the album [Requiem for a Dream](track_album) by [Skrillex](track_artist)?
+- I would like you to please play the [pop](track_genre) track
+- will you please play songs from album [Kamikaze](track_album)?
+- can you play music from [The Wizrd](track_album)?
+- Could you please play any [metal](track_genre) beat for us?
+- Would you please play some [blues](track_genre) music?
+- Could you please play the [soundtrack](track_genre) for us?
+- will you please play some music from album [Harverd Dropout](track_album) by [Nate Dogg](track_artist)?
+- will you please play any song from the album [Kamikaze](track_album)?
+- Play [electronic](track_genre) music
+- I wanna dance to any track from the album [The Night King](track_album)
+- will you please play any music from the album [This Is How You Smile](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any song from [Recovery](track_album)?
+- will you please play some music from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you please play tracks from [TBA](track_album)?
+- I wanna dance to a track from [Led Zeppelin IV](track_album)
+- can you play a track from [Bad](track_album) album by [Justin Hurwitz](track_artist)
+- I wanna listen any track from [Beware of the Dogs](track_album)
+- I would like to listen to an [Pop](track_genre) song
+- Play any track from [Bandana](track_album) album
+- will you please play tracks from album [Legend](track_album)?
+- Would you please play tracks from [Father of the Bride](track_album)?
+- can you please play any music from [Let’s Talk About Love](track_album)?
+- will you please play any track from [Norman Fucking Rockwell](track_album) album by [Charlotte Rose Ellis](track_artist)
+- Play any song from [Back in Black](track_album)
+- please play the [pop](track_genre) songs for us
+- can you play some music from album [This Is How You Smile](track_album)?
+- Would you please play something from [The Immaculate Collection](track_album) album
+- Would you please play tracks from album [Make It Big](track_album)?
+- will you please play songs from [The Immaculate Collection](track_album) by [Three Days Grace](track_artist)?
+- will you please play any song from [Sunshine Rock](track_album)?
+- Play something from [SASAMI](track_album) album by [David Guetta](track_artist), will you?
+- Would you please play something from album [On The Line](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to any song from the album [Thank U, Next](track_album)
+- can you play a track from the album [This Is How You Smile](track_album)?
+- will you please play any song from [Young Enough](track_album) by [Future](track_artist)?
+- I would like to hear the [soundtrack](track_genre) songs
+- Play any [grunge](track_genre) track
+- Would you please play a track from album [Back in Black](track_album)?
+- I wanna listen any track from album [The Saint of Lost Causes](track_album)
+- I wanna dance to some music from [Let’s Talk About Love](track_album).
+- Play music from [Legend](track_album), will you?
+- can you please play music from album [Bandana](track_album)?
+- Could you please play the [pop](track_genre) music?
+- will you please play any music from [Dedicated](track_album)?
+- Play tracks from [Kamikaze](track_album)
+- I would like to groove to some [funk](track_genre)
+- I wanna dance to music from [Marshal Mather LP II](track_album).
+- I wanna listen a track from [Kamikaze](track_album)
+- can you please play any track from [Marshal Mather LP II](track_album) album
+- can you play something from album [Let’s Talk About Love](track_album)?
+- I would like to listen any track from the album [Oh My God](track_album)
+- Play any track from album [EVEN IN THE TREMOR](track_album)
+- Play something from album [Father of the Bride](track_album)
+- Could you please play the [punk](track_genre) songs for us?
+- I would like to dance to the [blues](track_genre)
+- can you please play a track from album [Legend](track_album)?
+- I wanna listen tracks from album [Crushing](track_album).
+- Play any track from the album [Kamikaze](track_album), will you?
+- I would like to groove to an [orchestra](track_genre) song
+- I would like to dance to some [Rap](track_genre)
+- Could you please play some [Metal](track_genre) for us?
+- will you please play a track from [Marshal Mather LP II](track_album) album.
+- Could you please play some [metal](track_genre) songs?
+- I would like to listen any song from [Everything Not Saved Will Be Lost—Part 1](track_album) album
+- Play some [metal](track_genre) songs
+- can you please play a track from [I Am Easy To Find](track_album) album.
+- can you play any music from the album [The Immaculate Collection](track_album) by [Mellen Gi](track_artist)?
+- Would you please play songs from album [Oliver Appropriate](track_album)?
+- will you please play tracks from [Let’s Talk About Love](track_album)?
+- will you please play any track from [What Chaos Is Imaginary](track_album) by [Kanye West](track_artist)?
+- I wanna dance to tracks from [when we all fall asleep where do we go](track_album) album.
+- i want to hear some music
+- I wanna dance to music from album [Bandana](track_album)
+- I wanna dance to any track from the album [Oasis](track_album)
+- can you play any track from [Rumours](track_album) by [Alan Walker](track_artist)?
+- I would like to hear the [soundtrack](track_genre) tracks
+- Play any song from album [Kamikaze](track_album), will you?
+- Play any song from [Let’s Talk About Love](track_album) album.
+- Play any [funk](track_genre) beat
+- Play a track from [Oliver Appropriate](track_album).
+- can you please play songs from [Assume Form](track_album)?
+- I wanna dance to something from the album [The Immaculate Collection](track_album)
+- will you please play music from [Requiem for a Dream](track_album) by [Warner & Chappell](track_artist)?
+- can you please play any song from [U.F.O.F](track_album)?
+- Play any music from [The Saint of Lost Causes](track_album), will you?
+- I would like to listen to the [dubstep](track_genre) songs
+- can you please play tracks from [Gallipoli](track_album) album
+- Play any music from [Western Stars](track_album) by [Mad Money](track_artist), will you?
+- i would like to dance to some music
+- will you please play any track from [I Am Easy To Find](track_album) album
+- I wanna listen a track from the album [Marshal Mather LP II](track_album)
+- cheer me up by playing tracks from album [Let’s Talk About Love](track_album), will you?
+- Play any [hip-hop](track_genre) beat
+- I would love to hear to [Imagine Dragons](track_artist)
+- Would you please play any track from [U.F.O.F](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play the [pop](track_genre) track
+- I wanna dance to something from [The Marshall Mathers LP 2 Disc 2](track_album)
+- Would you please play any track from album [Chapter VI](track_album) by [Eagles](track_artist)?
+- cheer me up by playing any song from album [Led Zeppelin IV](track_album), will you?
+- can you please play some music from the album [Gold and Grey](track_album)?
+- Could you please play something by [Khalid](track_artist)?
+- Would you please play tracks from [Titanic Rising](track_album)?
+- Play music from [Bandana](track_album).
+- please play any [edm](track_genre) track for me
+- I would like to listen any song from [Legend](track_album)
+- Play [rap](track_genre) music
+- Could you please play any [edm](track_genre) beat for us?
+- I would like to dance to the [funk](track_genre) track
+- Would you please play songs from [when we all fall asleep where do we go](track_album)?
+- Would you please play a track from [U.F.O.F](track_album) album by [Drake](track_artist).
+- Would you please play some music from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play something from album [Chapter VI](track_album) by [Jay-Z](track_artist)?
+- Play some music from album [Rumours](track_album), will you?
+- I wanna dance to something from album [Back in Black](track_album)
+- I would like to dance to any [metal](track_genre) beat
+- I would like to listen a track from [Legend](track_album) album.
+- how quiet is here. music please
+- can you please play a track from [Anima](track_album) album.
+- cheer me up by playing any track from [The Immaculate Collection](track_album), will you?
+- will you please play songs from album [Oh My God](track_album)?
+- Would you please play a track from the album [Anima](track_album) by [Kanye West](track_artist)?
+- can you play some music from the album [Cuz I Love You](track_album) by [Jay-Z](track_artist)?
+- Play songs by [Shawn Mendes](track_artist)
+- Would you please play a track from album [Beware of the Dogs](track_album)?
+- Please play an [orchestra](track_genre) tune
+- Could you please play some [soundtrack](track_genre) beat?
+- I would like to listen to some [pop](track_genre)
+- Play songs from [Dedicated](track_album), will you?
+- can you please play something from album [Rumours](track_album)?
+- I will like to have the [dubstep](track_genre)
+- can you play any music from the album [Assume Form](track_album)?
+- Play something from the album [Gallipoli](track_album), will you?
+- cheer me up by playing songs from [Beware of the Dogs](track_album), will you?
+- I would like to dance to some [soundtrack](track_genre) beat
+- Would you please play tracks from album [Slaves of Fear](track_album) by [Justin Hurwitz](track_artist)?
+- Could you please play the [soundtrack](track_genre) songs for us?
+- can you please play a track from [Epic Hip Hop](track_album)?
+- Will you play something by [Billie Eilish](track_artist)?
+- I would like to hear to music from [The Wizrd](track_album) by [Fifth Harmony](track_artist)
+- can you play a track from the album [The Immaculate Collection](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Please play some [pop](track_genre) tracks
+- I wanna dance to any track from [Harverd Dropout](track_album) album.
+- will you please play any track from the album [Let’s Talk About Love](track_album) by [Dr. Dre](track_artist)?
+- please play the [soundtrack](track_genre) music for us
+- Play the [punk](track_genre) music
+- cheer me up by playing any song from [Bandana](track_album) album, will you?
+- Play tracks from album [Marshal Mather LP II](track_album) by [Cardi B](track_artist), will you?
+- Play some music from album [Angel's Pulse](track_album) by [Kanye West](track_artist), will you?
+- Play songs by [Imagine Dragons](track_artist)
+- Play songs from [The Immaculate Collection](track_album) by [Kanye West](track_artist), will you?
+- will you please play a track from the album [Crushing](track_album) by [Dr. Dre](track_artist)?
+- I would like to listen some music from the album [The Unseen In-Between](track_album)
+- please play some [soundtrack](track_genre) tracks
+- I wanna dance to songs from album [EVEN IN THE TREMOR](track_album)
+- I would love to listen to something by [Ariana Grande](track_artist)
+- I wanna dance to some music from [The Immaculate Collection](track_album)
+- Play music from album [Recovery](track_album) by [Cardi B](track_artist), will you?
+- will you please play tracks from [Oh My God](track_album) by [Three Days Grace](track_artist)?
+- will you please play songs from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Jay-Z](track_artist)?
+- can you please play any track from album [Rumours](track_album)?
+- I would like to listen to the [rap](track_genre) music
+- I will like to have the [pop](track_genre) track
+- please play some [metal](track_genre) music for us
+- can you play any track from the album [Gold and Grey](track_album) by [Queen](track_artist)?
+- Could you please play the [edm](track_genre) for us?
+- Would you please play any song from album [SASAMI](track_album) by [Eagles](track_artist)?
+- can you please play any track from the album [Revival](track_album)?
+- Would you please play any song from [Appetite for Destruction](track_album)?
+- can you play any music from [The Immaculate Collection](track_album) album by [Warner & Chappell](track_artist)
+- can you play any music from [Let’s Talk About Love](track_album)?
+- Play a track from [Legend](track_album) album by [Future](track_artist), will you?
+- Could you please play something by [Halsey](track_artist)?
+- I wanna dance to songs from album [The Night King](track_album)
+- will you please play a track from [U.F.O.F](track_album) album
+- Play songs from [Oh My God](track_album), will you?
+- I would like to dance to any [punk](track_genre) beat
+- some [metal](track_genre) music
+- Would you please play any track from [The Night King](track_album) album by [Rick0 James](track_artist)
+- Play any music from the album [LP3](track_album), will you?
+- I would like you to please play the [blues](track_genre) music
+- Play any music from [Legend](track_album) album by [Drake](track_artist), will you?
+- I wanna dance to any song from [Titanic Rising](track_album) album
+- I wanna listen a track from the album [Legend](track_album)
+- I wanna listen songs from [The Wizrd](track_album)
+- I wanna dance to a track from the album [Led Zeppelin IV](track_album)
+- I wanna listen some music from [Appetite for Destruction](track_album)
+- please play the [pop](track_genre) track  for me
+- Play something from [Outer Peace](track_album) by [Jay-Z](track_artist), will you?
+- can you play any music from the album [Mitsubishi Macchiato](track_album)?
+- Would you please play songs from [Led Zeppelin IV](track_album)?
+- I wanna dance to songs from album [What Chaos Is Imaginary](track_album).
+- please play the [dubstep](track_genre) tracks for us
+- can you play something from album [Heard It In A Past Life](track_album)?
+- can you play any track from [Appetite for Destruction](track_album) album.
+- Play any track from [U.F.O.F](track_album) by [Clint Mansell](track_artist), will you?
+- Would you please play any song from [Supernatural](track_album) by [Jay-Z](track_artist)?
+- will you please play any song from [TBA](track_album) album by [Alan Walker](track_artist)
+- can you please play some music from the album [Back in Black](track_album)?
+- I wanna dance to some [rap](track_genre) music.
+- will you please play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) by [Post Malone](track_artist)?
+- I would like to hear any [Orchestra](track_genre) track
+- Play something from [Dedicated](track_album) album
+- Would you please play music from [Heard It In A Past Life](track_album) by [Mellen Gi](track_artist)?
+- Would you please play something from the album [Requiem for a Dream](track_album) by [Warner & Chappell](track_artist)?
+- Play any music from [Marshal Mather LP II](track_album) album by [Jay-Z](track_artist), will you?
+- I will like to have some [dubstep](track_genre) track
+- Play something by [Billie Eilish](track_artist)
+- Play a track from [IGOR](track_album) by [XAMES3](track_artist), will you?
+- Would you please play tracks from [Make It Big](track_album)?
+- can you please play music from album [Buoys](track_album)?
+- Play any track from the album [Revival](track_album)
+- Would you please play music from [Requiem for a Dream](track_album)?
+- will you please play something from the album [Crushing](track_album)?
+- please play the [Funk](track_genre) music for me
+- cheer me up by playing any song from [Led Zeppelin IV](track_album) album, will you?
+- Could we get something by [Halsey](track_artist)?
+- I would like you to please play the [rap](track_genre)
+- Would you please play a track from [LP3](track_album) album by [Jay-Z](track_artist).
+- Would you please play any [soundtrack](track_genre) track?
+- I would like to listen to the [funk](track_genre) music
+- cheer me up by playing any song from [Appetite for Destruction](track_album) album, will you?
+- I wanna listen something from album [Legend](track_album)
+- I want some music here.
+- will you please play songs from [Bad](track_album) by [Akon](track_artist)?
+- I wanna listen any track from [Marshal Mather LP II](track_album)
+- Could you please play the [blues](track_genre) music?
+- will you please play any song from [Metallica](track_album) album
+- I would like to listen something from the album [Legend](track_album)
+- can you please play any track from [On the Line](track_album) album.
+- Could you please play any [pop](track_genre) music?
+- will you please play any track from [Back in Black](track_album) album by [George Michael](track_artist)
+- Play [blues](track_genre) music
+- Would you please play any [Blues](track_genre) track?
+- I wanna dance to any track from [When I Get Home](track_album) album.
+- please play the [punk](track_genre) for us
+- I wanna listen any music from [New Breed](track_album)
+- Play any song from [Thank U, Next](track_album) album
+- Would you please play a track from [Marshal Mather LP II](track_album) album by [Future](track_artist).
+- will you please play something from the album [Appetite for Destruction](track_album) by [Jay-Z](track_artist)?
+- I would love to dance to [Imagine Dragons](track_artist)
+- I would like to dance to music from [Metallica](track_album) by [Coldplay](track_artist)
+- Would you please play any track from [The Immaculate Collection](track_album) album by [Rick0 James](track_artist)
+- Play something from album [Legend](track_album)
+- Play some music from [Beware of the Dogs](track_album) by [XAMES3](track_artist), will you?
+- will you please play any track from [The Black Album](track_album) album by [Drake](track_artist).
+- I would like you to please play some [rap](track_genre)
+- can you please play a track from album [Bad](track_album)?
+- Would you please play any track from the album [Father of the Bride](track_album) by [George Michael](track_artist)?
+- will you please play songs from album [Revival](track_album)?
+- can you please play tracks from [Back in Black](track_album) album.
+- I wanna dance to any track from [Metallica](track_album)
+- will you please play any song from [In League With Dragons](track_album) by [Dr. Dre](track_artist)?
+- Would you please play the [funk](track_genre) music?
+- can you play any music from album [Father of the Bride](track_album)?
+- Play songs from [Let’s Talk About Love](track_album).
+- Would you please play any song from album [Legend](track_album) by [Clint Mansell](track_artist)?
+- I would like to listen a track from [Hotel California](track_album)
+- Would you please play something from album [Lets Try the After](track_album)?
+- Need to listen music from [Aegan](track_artist).
+- Play tracks from [IGOR](track_album) album, will you?
+- I would like to hear to music from [Metallica](track_album) by [Cardi B](track_artist)
+- I would like to listen to some [pop](track_genre) songs
+- Play any track from [Oh My God](track_album), will you?
+- I would like to listen something from [Rumours](track_album)
+- Play an [Metal](track_genre) music
+- I wanna listen any track from album [when we all fall asleep where do we go](track_album).
+- Play music from [The Marshall Mathers LP 2 Disc 2](track_album)
+- Could you please play the [Metal](track_genre) music for us?
+- I would like you to please play the [soundtrack](track_genre) track
+- Play any song from [Appetite for Destruction](track_album) by [XAMES3](track_artist), will you?
+- I would like to groove to any [dubstep](track_genre) music
+- Would you please play something from [I Am Easy To Find](track_album)?
+- Would you please play any [punk](track_genre) music?
+- I would like to listen tracks from album [La La Land](track_album)
+- will you please play any song from [Legend](track_album) by [Ozuna](track_artist)?
+- Would you please play any song from the album [On The Line](track_album)?
+- I would like to dance to the [grunge](track_genre) songs
+- play songs by [Eminem](track_artist) from [Recovery](track_album).
+- I would like to dance to some [Funk](track_genre) music
+- Would you please play any song from album [Anima](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play music from [In League With Dragons](track_album)
+- I wanna listen some music from the album [Metallica](track_album)
+- I would like to listen any music from the album [Legend](track_album)
+- I would like to hear some [funk](track_genre) songs
+- will you please play tracks from [Hotel California](track_album) by [Kanye West](track_artist)?
+- will you please play something from the album [The Immaculate Collection](track_album)?
+- Would you please play any music from album [Gold and Grey](track_album) by [Ludacris](track_artist)?
+- Could you please play some [Jazz](track_genre)?
+- can you play a track from [Led Zeppelin IV](track_album) album.
+- Could you please play some [edm](track_genre)?
+- can you play any track from [LP3](track_album) album.
+- I would like to groove to music from [The Immaculate Collection](track_album) by [Nate Dogg](track_artist).
+- can you please play songs from [Oasis](track_album)?
+- Would you please play the [metal](track_genre) music?
+- I wanna dance to any track from [Lets Try the After](track_album)
+- can you play any track from [Oasis](track_album) album by [Clint Mansell](track_artist)
+- please play the [pop](track_genre) songs for me
+- I would like to listen to the [metal](track_genre) music
+- will you please play any track from the album [Cuz I Love You](track_album) by [50 cents](track_artist)?
+- I wanna dance to songs from album [Notes on a Conditional Form](track_album).
+- I will like to have some [pop](track_genre) music
+- Play a track from album [New Breed](track_album) by [Lil Wayne](track_artist), will you?
+- Would you please play a track from [Back in Black](track_album) album by [Eagles](track_artist).
+- Would you please play some music from [Supernatural](track_album)?
+- cheer me up by playing songs from [Titanic Rising](track_album), will you?
+- I wanna listen any music from [Legend](track_album) album
+- Would you please play any track from [Revival](track_album)?
+- Could you please play some [soundtrack](track_genre) music for us?
+- Would you please play any song from [IGOR](track_album) album by [Dr. Dre;Eminem](track_artist)
+- can you please play a track from album [Recovery](track_album)?
+- Play any music from the album [Bad](track_album), will you?
+- I will like to have some [blues](track_genre)
+- I would like you to please play any [rap](track_genre) beat
+- please play some [hip-hop](track_genre) music for us
+- I wanna listen any song from the album [The Wizrd](track_album)
+- Would you please play any track from [Legend](track_album) by [Camila Cabello](track_artist)?
+- I would like to listen tracks from [Metallica](track_album)
+- can you play tracks from [On the Line](track_album) album
+- Play any song from album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- Will you please play something by [Bruno Mars](track_artist)?
+- cheer me up by playing something from [Anima](track_album), will you?
+- I wanna dance to any song from [Legend](track_album).
+- can you play any music from the album [Gold and Grey](track_album) by [George Michael](track_artist)?
+- will you please play a track from album [Legend](track_album) by [Akon](track_artist)?
+- Would you please play something from [Outer Peace](track_album)?
+- I wanna listen any song from album [Revival](track_album)
+- Play songs from [The Immaculate Collection](track_album), will you?
+- Play an [orchestra](track_genre) tunes
+- please play some [pop](track_genre) songs
+- I would like to hear to [Ariana Grande](track_artist)
+- Play music from [Appetite for Destruction](track_album).
+- Play any [rap](track_genre) music
+- Would you play something by [Usher](track_artist)?
+- Play something from album [Metallica](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play any song from [The Immaculate Collection](track_album) album
+- Play tracks from album [When I Get Home](track_album)
+- can you please play a track from album [Let’s Talk About Love](track_album)?
+- cheer me up by playing something from the album [The Immaculate Collection](track_album), will you?
+- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Charlotte Rose Ellis](track_artist)
+- I would like to groove to some [pop](track_genre)
+- I wanna listen songs from album [Oasis](track_album).
+- I would like to dance to some [edm](track_genre) track
+- Would you please play tracks from [Tip of the Sphere](track_album) album by [Drake](track_artist)
+- I would like to listen any music from the album [The Immaculate Collection](track_album)
+- I wanna listen a track from album [Legend](track_album)
+- can you play songs from album [The Black Album](track_album)?
+- Would you please play songs from [Buoys](track_album) by [Drake](track_artist)?
+- Play tracks from album [Recovery](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- can you play music from album [Heard It In A Past Life](track_album)?
+- can you please play something by [Bruno Mars](track_artist)?
+- I wanna dance to something from [Western Stars](track_album) album
+- I would like to listen any song from [Everything Not Saved Will Be Lost—Part 1](track_album) album.
+- I will like to have some [punk](track_genre) tracks
+- Play songs from album [Led Zeppelin IV](track_album) by [Kanye West](track_artist), will you?
+- will you please play music from [The Saint of Lost Causes](track_album)?
+- I would like to hear any [grunge](track_genre) track
+- I would like to listen a track from album [YOU CAN'T SIT WITH US](track_album)
+- I would like to groove to some [grunge](track_genre) track
+- Would you please play something from album [Thank U, Next](track_album)?
+- I wanna listen any music from album [Oasis](track_album)
+- I would like to listen any song from [The Immaculate Collection](track_album) album
+- I would like to hear to [Selena Gomez](track_artist)
+- I would like to listen some music from [Mitsubishi Macchiato](track_album)
+- Play songs from album [Bad](track_album)
+- can you play any track from [Legend](track_album) album by [PSY](track_artist)
+- I wanna listen something from [Legend](track_album) album
+- Play any music from [Western Stars](track_album) album.
+- can you play a track from [Marshal Mather LP II](track_album) by [Clint Mansell](track_artist)?
+- I want to listen something by [Adele](track_artist)
+- I wanna listen something from the album [Outer Peace](track_album)
+- will you please play a track from [The Wizrd](track_album) by [DJ Snake](track_artist)?
+- I wanna listen any track from [Kamikaze](track_album)
+- Play a track from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- cheer me up by playing songs from album [On the Line](track_album), will you?
+- Would you please play any [punk](track_genre) beat?
+- will you please play any song from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Would you please play music from [SASAMI](track_album)?
+- will you please play tracks from album [Hotel California](track_album)?
+- cheer me up by playing songs from [Quiet Signs](track_album), will you?
+- Play any track from [The Immaculate Collection](track_album) album by [The Chainsmokers](track_artist), will you?
+- Would you please play songs from album [What Chaos Is Imaginary](track_album)?
+- Play any track from [Outer Peace](track_album), will you?
+- Could you please play the [metal](track_genre)?
+- I would like to hear the [hip-hop](track_genre) track
+- can you play tracks from album [LP3](track_album)?
+- Play something by [Ariana Grande](track_artist)
+- Would you please play some music from [Led Zeppelin IV](track_album)?
+- I would like to dance to some [punk](track_genre) songs
+- I wanna listen any track from the album [The Saint of Lost Causes](track_album)
+- can you play songs from album [Chapter VI](track_album)?
+- will you please play a track from [Make It Big](track_album)?
+- Would you please play any song from the album [YOU CAN'T SIT WITH US](track_album) by [Alan Walker](track_artist)?
+- Would you please play a track from [Western Stars](track_album) by [Future](track_artist)?
+- I would like to dance to some [rap](track_genre) songs
+- Play some music from album [Bandana](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- cheer me up by playing any track from [Recovery](track_album), will you?
+- Would you please play the [dubstep](track_genre) track?
+- I would like to listen any song from album [Beware of the Dogs](track_album)
+- can you play something from [The Saint of Lost Causes](track_album) album by [Clint Mansell](track_artist)
+- Play songs from [Revival](track_album).
+- Play some [grunge](track_genre) tracks
+- Would you please play any track from [Kamikaze](track_album) by [Kanye West](track_artist)?
+- will you please play any track from album [EVEN IN THE TREMOR](track_album) by [Mad Money](track_artist)?
+- I would like to listen any song from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- I would like you to please play some [punk](track_genre) tracks
+- please play the [funk](track_genre) for us
+- please play some [funk](track_genre) for me
+- some [hip-hop](track_genre) music
+- Play any song from [Angel's Pulse](track_album) by [Twenty One Pilots](track_artist), will you?
+- Would you please play a track from the album [What Chaos Is Imaginary](track_album)?
+- Would you please play any song from the album [When I Get Home](track_album)?
+- will you please play something from [Titanic Rising](track_album) album by [Selena Gomez](track_artist).
+- will you please play tracks from album [TBA](track_album) by [Future](track_artist)?
+- Play any song from [Oliver Appropriate](track_album) album
+- Would you please play any track from the album [Metallica](track_album) by [Madonna](track_artist)?
+- I would like to listen something from [Marshal Mather LP II](track_album)
+- I would like to dance to the [blues](track_genre) songs
+- I would like you to please play some [hip-hop](track_genre) track
+- will you please play something from album [Young Enough](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to dance to some [pop](track_genre) music
+- Play some [punk](track_genre) music
+- Play some [blues](track_genre) tracks
+- I wanna dance to any track from [On the Line](track_album) album
+- Would you please play some [punk](track_genre) track ?
+- Play the [dubstep](track_genre) music
+- please play the [Blues](track_genre) track  for us
+- I would like to dance to music from [Young Enough](track_album) by [Post Malone](track_artist).
+- I wanna dance to something from [Back in Black](track_album) album.
+- can you please play something from [Rumours](track_album) album
+- can you play any track from the album [Angel's Pulse](track_album) by [Bonobo](track_artist)?
+- Play a track from the album [Supernatural](track_album)
+- Please play any [dubstep](track_genre) track
+- Could you please play some [metal](track_genre) track ?
+- Play any track from [Recovery](track_album).
+- cheer me up by playing any song from the album [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
+- I wanna dance to any song from the album [Recovery](track_album)
+- can you please play any track from [The Immaculate Collection](track_album) album
+- I wanna dance to any track from [The Unseen In-Between](track_album)
+- Could you please play any [grunge](track_genre) beat for us?
+- I would like to groove to the [metal](track_genre) music
+- Play the [funk](track_genre) tracks.
+- Play any music from [Metallica](track_album) album
+- Play something from the album [Revival](track_album) by [Eagles](track_artist), will you?
+- can you please play any music from album [Requiem for a Dream](track_album)?
+- will you please play songs from [Rumours](track_album)?
+- Play tracks from [Revival](track_album) by [Drake](track_artist), will you?
+- Play a track from [LP3](track_album), will you?
+- Please play any [edm](track_genre) music
+- will you please play something from album [Revival](track_album)?
+- cheer me up by playing songs from album [The Night King](track_album), will you?
+- Play something from album [Marshal Mather LP II](track_album) by [Three Days Grace](track_artist), will you?
+- Play a track from the album [Metallica](track_album)
+- will you please play any track from [Metallica](track_album)?
+- will you please play music from [Outer Peace](track_album)?
+- Would you please play some music from [when we all fall asleep where do we go](track_album) by [Eagles](track_artist)?
+- will you please play any track from [Revival](track_album) album.
+- cheer me up by playing tracks from [Metallica](track_album), will you?
+- can you please play any song from [Yandhi](track_album) album
+- Would you please play something from album [Assume Form](track_album)?
+- I would love to dance to [Akon](track_artist)
+- I would like to hear to [Rihanna](track_artist)
+- Would you please play something from [The Immaculate Collection](track_album)?
+- can you play a track from album [Recovery](track_album) by [Three Days Grace](track_artist)?
+- please play any [rap](track_genre) beat for me
+- can you play any track from [Let’s Talk About Love](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Would you please play a track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Would you please play music from album [The Wizrd](track_album) by [Cardi B](track_artist)?
+- cheer me up by playing something from [The Immaculate Collection](track_album) album, will you?
+- Play any track from [The Immaculate Collection](track_album)
+- will you please play any song from [Back in Black](track_album)?
+- Play some [dubstep](track_genre) tracks
+- I would like to groove to some [rap](track_genre) track
+- Would you please play songs from [On the Line](track_album)?
+- Play something from album [Marshal Mather LP II](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- can you play a track from album [Father of the Bride](track_album) by [Warner & Chappell](track_artist)?
+- can you play music from [Appetite for Destruction](track_album) by [Ludacris](track_artist)?
+- I would like to listen to the [Hip-hop](track_genre) music
+- Play any track from the album [The Immaculate Collection](track_album) by [Mad Money](track_artist), will you?
+- will you please play something from [Metallica](track_album) album by [Drake](track_artist)
+- will you please play any music from [The Saint of Lost Causes](track_album) by [Kanye West](track_artist)?
+- I would like to listen tracks from [Bad](track_album)
+- Would you please play any music from the album [Thank U, Next](track_album)?
+- I wanna listen songs from album [Western Stars](track_album).
+- Play any track from the album [Heard It in a Past Life](track_album), will you?
+- I wanna listen any music from album [Marshal Mather LP II](track_album)
+- Play any song from the album [When I Get Home](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to listen music from album [Marshal Mather LP II](track_album).
+- Play any track from [In League With Dragons](track_album) album by [Drake](track_artist), will you?
+- can you play a track from [Revival](track_album) album.
+- can you play music from album [Requiem for a Dream](track_album)?
+- Play something from [The Immaculate Collection](track_album), will you?
+- I would like to hear some [funk](track_genre) music
+- Would you please play some [funk](track_genre) track ?
+- Would you please play some [edm](track_genre) tracks?
+- Please play any [punk](track_genre) track
+- can you please play songs from [Kamikaze](track_album)?
+- Would you please play songs from [The Immaculate Collection](track_album) by [Cardi B](track_artist)?
+- can you play something from the album [Bad](track_album)?
+- can you play a track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play some music from album [Bad](track_album), will you?
+- I would like to dance to the [pop](track_genre) songs
+- will you please play any track from the album [Sunshine Rock](track_album)?
+- I would like you to please play some [dubstep](track_genre) music
+- Would you please play any song from [Remind Me Tomorrow](track_album) by [Camila Cabello](track_artist)?
+- Play any track from the album [Recovery](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play any track from album [EVEN IN THE TREMOR](track_album) by [Clint Mansell](track_artist)?
+- can you play any track from [Oasis](track_album) by [Drake](track_artist)?
+- I would like to dance to music from [Oasis](track_album) by [Selena Gomez](track_artist).
+- Play some [grunge](track_genre) track
+- I wanna listen a track from album [The Immaculate Collection](track_album)
+- I would like to groove to some [blues](track_genre) songs
+- Play any music from the album [Atlanta Millionaires Club](track_album), will you?
+- I wanna listen a track from [U.F.O.F](track_album).
+- I would like to listen to [Three Days Grace](track_artist)
+- Would you please play any song from [Revival](track_album) album
+- I will like to have some [pop](track_genre) track
+- Could you please play some [pop](track_genre) track ?
+- I would like to listen any music from [The Immaculate Collection](track_album)
+- Could you please play the [Pop](track_genre)?
+- I would like to listen to some [rap](track_genre) songs
+- can you play a track from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Dr. Dre;Eminem](track_artist)?
+- cheer me up by playing any track from [Bad](track_album), will you?
+- Could you please play some [Rap](track_genre) songs?
+- I would like to listen songs from [Father of the Bride](track_album).
+- Play any song from [Lets Try the After](track_album) album, will you?
+- will you please play something from the album [Remind Me Tomorrow](track_album) by [Charlotte Rose Ellis](track_artist)?
+- can you play any track from [Father of the Bride](track_album) album by [Dr. Dre](track_artist).
+- Would you please play some [dubstep](track_genre) music?
+- Play any track from [Let’s Talk About Love](track_album) album by [Rick0 James](track_artist), will you?
+- I wanna listen a track from album [Revival](track_album)
+- I would like to listen to some [soundtrack](track_genre) musicc
+- some [soundtrack](track_genre) musicc
+- Play any track from [Heard It In A Past Life](track_album) album
+- can you please play any song from album [What Chaos Is Imaginary](track_album)?
+- cheer me up by playing songs from [Heard It In A Past Life](track_album), will you?
+- I would like you to please play the [soundtrack](track_genre) songs
+- Play a track from [Young Enough](track_album), will you?
+- I would like to listen any track from album [Marshal Mather LP II](track_album)
+- Play a track from the album [Legend](track_album)
+- I would like to listen a track from album [Outer Peace](track_album)
+- Could you please play the [funk](track_genre) tracks?
+- Play any track from [Rumours](track_album)
+- Could you please play any [dubstep](track_genre) track?
+- Would you please play songs from album [Anima](track_album)?
+- please play any [dubstep](track_genre) track for me
+- please play some [pop](track_genre) tracks for me
+- Will you play something by [Adele](track_artist)?
+- I want to listen something by [Halsey](track_artist)
+- Play any [soundtrack](track_genre) music
+- I would like to listen some music from album [Metallica](track_album)
+- Play any song from album [In League With Dragons](track_album)
+- can you play any track from [Flamagra](track_album) album by [Mad Money](track_artist).
+- will you please play some music from the album [Back in Black](track_album)?
+- Would you please play something from the album [La La Land](track_album)?
+- I wanna listen any track from [Oh My God](track_album)
+- Play any music from album [Led Zeppelin IV](track_album), will you?
+- Would you please play some music from album [Chapter VI](track_album)?
+- I would like to listen a track from album [Flamagra](track_album)
+- can you play a track from album [Notes on a Conditional Form](track_album) by [Kanye West](track_artist)?
+- I would like to dance to [Eagles](track_artist)
+- Could you please play the [blues](track_genre) tracks for us?
+- cheer me up by playing tracks from [Bandana](track_album), will you?
+- Would you please play tracks from album [Good Ass Job](track_album) by [Ozuna](track_artist)?
+- I would like to groove to any [metal](track_genre) music
+- will you please play any track from [Designer](track_album) by [Mellen Gi](track_artist)?
+- Would you please play tracks from album [The Immaculate Collection](track_album)?
+- I would like to listen any track from the album [Dedicated](track_album)
+- can you play something from [IGOR](track_album) by [Eminem](track_artist)?
+- Would you please play something from [Kamikaze](track_album) by [Alan Walker](track_artist)?
+- I would like to listen to any [dubstep](track_genre) track
+- Would you please play the [pop](track_genre) songs?
+- will you please play some music from album [Atlanta Millionaires Club](track_album) by [Sia](track_artist)?
+- can you play music from album [Cuz I Love You](track_album)?
+- will you please play songs from album [On the Line](track_album)?
+- I would like to hear to [Usher](track_artist)
+- Play something from [What Chaos Is Imaginary](track_album) album, will you?
+- Drop basss!
+- Could you please play the [grunge](track_genre) tracks for us?
+- will you please play songs from [Appetite for Destruction](track_album) by [Rick0 James](track_artist)?
+- Play something from the album [New Breed](track_album), will you?
+- I wanna dance to any music from [Supernatural](track_album).
+- will you please play tracks from [Designer](track_album) album by [Eagles](track_artist)
+- Play a track from the album [Oh My God](track_album), will you?
+- Would you please play any track from [Heard It in a Past Life](track_album) album
+- can you please play tracks from album [The Immaculate Collection](track_album)?
+- Play some music from the album [Recovery](track_album)
+- I will like to have some [funk](track_genre) tracks
+- Play any music from album [SASAMI](track_album) by [Post Malone](track_artist), will you?
+- Play some music from the album [On The Line](track_album)
+- please play the [rap](track_genre) for us
+- please play the [rap](track_genre) music for us
+- Will you play something by [Shawn Mendes](track_artist)?
+- will you please play tracks from album [What Chaos Is Imaginary](track_album)?
+- can you play some music from the album [Metallica](track_album)?
+- I would like to listen any song from [Oliver Appropriate](track_album)
+- cheer me up by playing something from [Illuminate](track_album), will you?
+- play music from [Recovery](track_album), will you?
+- I wanna listen any music from the album [Legend](track_album)
+- Play any track from [Rumours](track_album).
+- can you please play music from [Rumours](track_album)?
+- will you please play some music from the album [The Marshall Mathers LP 2 Disc 2]will you ptrack_album)?
+- Would you please play some music from [Designer](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play some [hip-hop](track_genre) tracks?
+- Would you please play some music from [Thank U, Next](track_album) by [Nate Dogg](track_artist)?
+- I will like to have any [pop](track_genre) music
+- Play a track from [In League With Dragons](track_album) album by [Justin Hurwitz](track_artist), will you?
+- Would you please play any track from the album [Led Zeppelin IV](track_album) by [Ozuna](track_artist)?
+- will you please play something from [The Unseen In-Between](track_album) album by [Clint Mansell](track_artist).
+- Play songs from [Metallica](track_album)
+- can you play tracks from album [Back in Black](track_album)?
+- can you please play any music from the album [Slaves of Fear](track_album)?
+- I will like to have any [edm](track_genre) track
+- can you please play any track from the album [Designer](track_album)?
+- I would like to dance to the [rap](track_genre) tracks
+- please play any [grunge](track_genre) track for me
+- I wanna listen a track from [Dedicated](track_album) album.
+- will you please play any music from the album [The Immaculate Collection](track_album)?
+- Play some music from album [On the Line](track_album), will you?
+- I wanna listen songs from [The Black Album](track_album)
+- I wanna dance to some music from the album [The Immaculate Collection](track_album)
+- Would you please play something from the album [Bad](track_album) by [Eagles](track_artist)?
+- can you play tracks from [Kamikaze](track_album)?
+- I would like you to please play some [funk](track_genre) tracks
+- will you please play some music from [Father of the Bride](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to tracks from album [Back in Black](track_album).
+- I would like to groove to any [soundtrack](track_genre) music
+- Play tracks by [Halsey](track_artist)
+- can you play any track from the album [Gallipoli](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play tracks from [Legend](track_album) album by [Lil Wayne](track_artist)
+- Play any song from [Let’s Talk About Love](track_album).
+- Would you please play any song from the album [The Immaculate Collection](track_album)?
+- will you please play a track from the album [IGOR](track_album) by [Drake](track_artist)?
+- Would you please play any track from album [Father of the Bride](track_album)?
+- I would like to listen to the [Hiphop](track_genre) music
+- I would like to listen songs from [Flamagra](track_album).
+- Would you please play tracks from [Outer Peace](track_album) album by [Future](track_artist)
+- I wanna dance to any track from the album [Epic Hip Hop](track_album)
+- can you please play tracks from [Thank U, Next](track_album)?
+- Play any track from album [Recovery](track_album), will you?
+- will you please play songs from album [Sunshine Rock](track_album) by [Dr. Dre;Eminem](track_artist)?
+- play something from [Huma](track_artist)'s album [Recovery](track_album).
+- I would like to dance to [Halsey](track_artist)
+- Please play some [Funk](track_genre) music
+- Would you please play music from [Young Enough](track_album) by [Ed Sheeran](track_artist)?
+- I wanna listen any song from [Kamikaze](track_album)
+- will you please play any music from the album [Legend](track_album)?
+- I would like to hear some [blues](track_genre) songs
+- Would you please play the [Metal](track_genre) music?
+- will you please play something from [Oh My God](track_album) album.
+- can you play any track from album [Epic Hip Hop](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play songs from [Sunshine Rock](track_album)?
+- I would like you to please play the [edm](track_genre) songs
+- Would you please play tracks from album [Rumours](track_album)?
+- will you please play any music from [when we all fall asleep where do we go](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play the [punk](track_genre) track
+- cheer me up by playing any track from album [Western Stars](track_album), will you?
+- Play any track from [Back in Black](track_album)
+- please play any [grunge](track_genre) beat for me
+- cheer me up by playing songs from album [Rumours](track_album), will you?
+- I would like you to please play some [hip-hop](track_genre) songs
+- I wanna dance to music from album [TBA](track_album).
+- please play some [blues](track_genre) music
+- will you please play any music from [The Immaculate Collection](track_album)?
+- will you please play any music from [when we all fall asleep where do we go](track_album) by [50 cents](track_artist)?
+- I would like to listen any music from [Hotel California](track_album)
+- Play a track from the album [The Saint of Lost Causes](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- can you play some music from album [Oasis](track_album) by [Clint Mansell](track_artist)?
+- I wanna listen any track from album [Young Enough](track_album)
+- I would like to listen something from [Thank U, Next](track_album) album.
+- will you please play any music from [Back in Black](track_album) album
+- I wanna dance to songs from album [New Breed](track_album).
+- can you please play some music from [The Immaculate Collection](track_album)?
+- cheer me up by playing something from [Thank U, Next](track_album), will you?
+- Would you please play tracks from [Thank U, Next](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play some music from album [Kamikaze](track_album)?
+- some [hip-hop](track_genre) tracks
+- Play any song from [On The Line](track_album), will you?
+- I wanna listen any track from the album [Let’s Talk About Love](track_album)
+- Could you please play any [hip-hop](track_genre) music for us?
+- I wanna listen some music from album [Hotel California](track_album)
+- Play any music from [Bad](track_album), will you?
+- can you play any track from the album [The Immaculate Collection](track_album) by [Cardi B](track_artist)?
+- can you play any track from the album [This Is How You Smile](track_album)?
+- please play any [edm](track_genre) music for me
+- can you please play tracks from [Hijas del Tomate](track_album)?
+- Play some music from [The Immaculate Collection](track_album), will you?
+- I would like to dance to some [hip-hop](track_genre) tracks
+- will you please play songs from album [Kamikaze](track_album) by [George Michael](track_artist)?
+- can you play tracks from album [The Immaculate Collection](track_album)?
+- Could you please play some [Blues](track_genre) music for us?
+- Would you please play any song from album [Let’s Talk About Love](track_album)?
+- Would you please play any track from the album [Legend](track_album) by [Jay-Z](track_artist)?
+- I wanna dance to any song from the album [Back in Black](track_album)
+- will you please play any music from [Thank U, Next](track_album) album by [Justin Hurwitz](track_artist)
+- I wanna dance to some music from the album [Bandana](track_album)
+- I wanna dance to songs from album [Rumours](track_album)
+- I would like to hear to music from [When I Get Home](track_album) by [Drake](track_artist)
+- Play something from [In League With Dragons](track_album) by [Mad Money](track_artist), will you?
+- I wanna dance to some music from [In League With Dragons](track_album)
+- I will like to have any [dubstep](track_genre) music
+- Would you please play any song from [Angel's Pulse](track_album)?
+- Would you please play something from [Marshal Mather LP II](track_album) by [Eagles](track_artist)?
+- I wanna listen songs from [The Immaculate Collection](track_album).
+- Play any song from [Legend](track_album) album by [Drake](track_artist), will you?
+- cheer me up by playing songs from [On the Line](track_album), will you?
+- I would like to listen to [Usher](track_artist)
+- I wanna dance to tracks from [Father of the Bride](track_album).
+- I wanna dance to [Eminem](track_artist)'s songs.
+- can you play songs from [Kamikaze](track_album)?
+- Play something from album [The Immaculate Collection](track_album)
+- cheer me up by playing any song from [Let’s Talk About Love](track_album) album, will you?
+- will you please play a track from [Legend](track_album) album
+- will you please play tracks from [Designer](track_album) album
+- can you play a track from album [Revival](track_album) by [Dr. Dre](track_artist)?
+- can you play any track from album [YOU CAN'T SIT WITH US](track_album) by [Bonobo](track_artist)?
+- Play songs from [Led Zeppelin IV](track_album).
+- Could you please play any [hip-hop](track_genre) track for us?
+- Play songs from [Oasis](track_album), will you?
+- I will like to have any [edm](track_genre) music
+- I will like to have some [funk](track_genre)
+- playy music
+- will you please play a track from the album [Legend](track_album)?
+- please play the [hip-hop](track_genre) tracks for us
+- Could you please play the [edm](track_genre) track ?
+- I wanna dance to something from [What Chaos Is Imaginary](track_album) album
+- Play any song from [Supernatural](track_album) album, will you?
+- I would like to listen any track from album [U.F.O.F](track_album)
+- I would like to hear some [grunge](track_genre)
+- Would you please play something from the album [Gallipoli](track_album)?
+- Play songs from [Beware of the Dogs](track_album) by [The Chainsmokers](track_artist), will you?
+- Play something from [Kamikaze](track_album) album by [Linkin Park](track_artist), will you?
+- will you please play a track from [Kamikaze](track_album) album
+- I would like to dance to music from [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist)
+- will you please play any track from album [Quiet Signs](track_album) by [Drake](track_artist)?
+- I would like to dance to music from [Angel's Pulse](track_album) by [Warner & Chappell](track_artist).
+- Would you please play songs from [LP3](track_album) by [Lil Wayne](track_artist)?
+- cheer me up by playing any track from [Legend](track_album), will you?
+- I would like to listen any track from [IGOR](track_album) album
+- Would you please play any [pop](track_genre) track?
+- I wanna listen something from [Kamikaze](track_album)
+- will you please play something from [Revival](track_album) album.
+- can you play a track from [Appetite for Destruction](track_album) album by [Celine Dion](track_artist).
+- Play any song from [Father of the Bride](track_album) album
+- I would like to listen any song from the album [Rumours](track_album)
+- Would you please play a track from [What Chaos Is Imaginary](track_album) by [XAMES3](track_artist)?
+- Play something from album [IGOR](track_album), will you?
+- Would you please play any song from the album [Oliver Appropriate](track_album) by [Drake](track_artist)?
+- Play music from album [The Immaculate Collection](track_album)
+- Could you please play some [soundtrack](track_genre) track  for us?
+- I wanna dance to any track from the album [Bandana](track_album)
+- can you play tracks from [The Immaculate Collection](track_album) album
+- please play some [metal](track_genre) for me
+- play that tune from [Recovery](track_album).
+- Could you please play some [rap](track_genre) music for us?
+- I would like to listen to [Selena Gomez](track_artist)
+- I wanna listen any song from [Everything Not Saved Will Be Lost—Part 1](track_album)
+- Could you please play any [funk](track_genre) track for us?
+- please play some [metal](track_genre) for us
+- Play music from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I wanna listen some music from [Recovery](track_album).
+- will you please play music from album [Heard It In A Past Life](track_album) by [Future](track_artist)?
+- will you please play any music from [The Wizrd](track_album) album by [Kanye West](track_artist).
+- can you play something from the album [On the Line](track_album) by [Drake](track_artist)?
+- Would you please play some music from the album [Legend](track_album) by [Eminem](track_artist)?
+- Could you please play the [punk](track_genre) music for us?
+- can you play any music from album [Bad](track_album) by [50 cents](track_artist)?
+- will you please play any track from [Requiem for a Dream](track_album) by [Ludacris](track_artist)?
+- Play the [rap](track_genre) tune.
+- will you please play any song from [I Am Easy To Find](track_album) by [Ludacris](track_artist)?
+- Would you please play any music from the album [Rumours](track_album) by [Sean Paul](track_artist)?
+- I will like to have the [Hip-hop](track_genre) tracks
+- cheer me up by playing any track from the album [Kamikaze](track_album), will you?
+- will you please play a track from album [Beware of the Dogs](track_album) by [Camila Cabello](track_artist)?
+- can you please play something by [Ariana Grande](track_artist)?
+- Play any track from [Revival](track_album) by [Ludacris](track_artist), will you?
+- can you play a track from the album [YOU CAN'T SIT WITH US](track_album) by [Justin Hurwitz](track_artist)?
+- I would like to listen any song from album [The Wizrd](track_album).
+- I wanna dance to a track from album [Heard It In A Past Life](track_album)
+- Would you please play the [hip-hop](track_genre) track ?
+- I want to listen something by [Bruno Mars](track_artist)
+- Play a track from the album [Illuminate](track_album) by [Clint Mansell](track_artist), will you?
+- I would like to listen something from [Appetite for Destruction](track_album) album.
+- Would you please play any track from the album [Back in Black](track_album) by [Sia](track_artist)?
+- I wanna listen some music from the album [Recovery](track_album)
+- I wanna listen something from [Let’s Talk About Love](track_album) album.
+- I would like to listen something from [The Unseen In-Between](track_album)
+- Play a track from [Harverd Dropout](track_album), will you?
+- can you play any track from the album [Appetite for Destruction](track_album)?
+- can you play any track from [Buoys](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play any track from album [Recovery](track_album) by [Akon](track_artist)?
+- Would you please play songs from [Titanic Rising](track_album)?
+- can you play any track from [Supernatural](track_album) album by [Charlotte Rose Ellis](track_artist).
+- I wanna listen any song from album [Rumours](track_album)
+- I would like to groove to the [grunge](track_genre) songs
+- Could you please play any [funk](track_genre) track?
+- I wanna dance to some music from album [Recovery](track_album).
+- can you play any track from [Recovery](track_album) by [Katy Perry](track_artist)?
+- I wanna listen any track from the album [Beware of the Dogs](track_album)
+- Play some music from [Gallipoli](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play any song from [Remind Me Tomorrow](track_album) album by [Mellen Gi](track_artist)
+- Play some music from [Let’s Talk About Love](track_album).
+- will you please play any song from [Anima](track_album) by [Mad Money](track_artist)?
+- please play some [soundtrack](track_genre) track  for me
+- Play any song from the album [The Immaculate Collection](track_album), will you?
+- I wanna listen any track from album [U.F.O.F](track_album)
+- can you play some music from the album [In League With Dragons](track_album) by [Rick0 James](track_artist)?
+- Play something from [Gallipoli](track_album), will you?
+- I wanna dance to any music from album [Appetite for Destruction](track_album)
+- I wanna dance to songs from [Rumours](track_album)
+- cheer me up by playing any song from the album [Let’s Talk About Love](track_album), will you?
+- I would like to listen to the [rap](track_genre) tracks
+- Would you please play tracks from [Outer Peace](track_album) album
+- Please play some [dubstep](track_genre) songs
+- I wanna dance to any music from [Led Zeppelin IV](track_album)
+- I would like to groove to music from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist).
+- I wanna listen music from [Supernatural](track_album).
+- cheer me up by playing any track from [Father of the Bride](track_album), will you?
+- will you please play music from [Angel's Pulse](track_album)?
+- I will like to have any [rap](track_genre) beat
+- I would like to listen to some [edm](track_genre) track
+- I would like you to please play the [soundtrack](track_genre) music
+- Play something from [when we all fall asleep where do we go](track_album), will you?
+- I want to listen to music from [Rumours](track_album) by [George Michael](track_artist)
+- can you play any music from the album [Legend](track_album) by [Jay-Z](track_artist)?
+- I wanna listen any track from album [The Wizrd](track_album)
+- Would you please play some [edm](track_genre) music?
+- Play the [blues](track_genre) music.
+- will you please play music from [Anima](track_album)?
+- Play some [blues](track_genre) music
+- Play some music from album [Legend](track_album)
+- Would you please play any music from [Revival](track_album)?
+- I would like to hear the [grunge](track_genre) tracks
+- Play songs from [Legend](track_album)
+- can you play any track from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you please play tracks from album [Marshal Mather LP II](track_album)?
+- Please play some [punk](track_genre) music
+- will you please play songs from album [Yandhi](track_album) by [Bonobo](track_artist)?
+- Would you please play tracks from [The Immaculate Collection](track_album) by [Cardi B](track_artist)?
+- Play [dubstep](track_genre) songs.
+- Play songs from [Legend](track_album) by [Three Days Grace](track_artist), will you?
+- can you please play tracks from album [Hotel California](track_album)?
+- I would like to listen any music from the album [In League With Dragons](track_album)
+- will you please play any music from [EVEN IN THE TREMOR](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I wanna listen songs from [The Night King](track_album).
+- Will you play something by [Imagine Dragons](track_artist)?
+- will you please play songs from [Good Ass Job](track_album) by [Justin Hurwitz](track_artist)?
+- Would you please play something by [Khalid](track_artist)?
+- please play any [metal](track_genre) beat for me
+- I wanna listen music from [Thank U, Next](track_album).
+- I would like to listen something from [Father of the Bride](track_album) album
+- I will like to have the [dubstep](track_genre) tracks
+- I wanna listen any music from [Let’s Talk About Love](track_album).
+- please play some [blues](track_genre) for us
+- I wanna dance to a track from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- will you please play a track from album [Western Stars](track_album)?
+- Play something from [On The Line](track_album) album by [Mellen Gi](track_artist), will you?
+- will you please play a track from [Lets Try the After](track_album)?
+- Play tracks from album [What Chaos Is Imaginary](track_album)
+- will you please play any track from [Cuz I Love You](track_album) album.
+- I would like to listen any track from album [Led Zeppelin IV](track_album)
+- I wanna dance to any track from album [Epic Hip Hop](track_album).
+- Could you please play some [rap](track_genre) for us?
+- I would like to groove to the [Rock](track_genre) music
+- Would you please play any music from [Titanic Rising](track_album)?
+- Play any song from [Phoenix](track_album), will you?
+- I would like you to please play the [hip-hop](track_genre) tracks
+- I wanna listen something from the album [Heard It In A Past Life](track_album)
+- Play any song from album [Led Zeppelin IV](track_album) by [Dr. Dre](track_artist), will you?
+- Play any music from [Bad](track_album) album
+- I would like to dance to the [edm](track_genre) songs
+- I wanna dance to some music from [Appetite for Destruction](track_album)
+- can you please play any track from the album [Metallica](track_album)?
+- I wanna listen any track from album [Titanic Rising](track_album)
+- will you please play some music from the album [The Immaculate Collection](track_album) by [Ed Sheeran](track_artist)?
+- can you please play something from album [Recovery](track_album)?
+- I wanna dance to some music from album [Metallica](track_album)
+- Play any track from album [Metallica](track_album)
+- will you please play a track from album [Appetite for Destruction](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play a track from album [Led Zeppelin IV](track_album)?
+- I wanna dance to something from the album [Legend](track_album)
+- I would like to groove to any [funk](track_genre) music
+- Would you please play any music from [U.F.O.F](track_album)?
+- Play songs from [Back in Black](track_album), will you?
+- cheer me up by playing any song from the album [In League With Dragons](track_album), will you?
+- cheer me up by playing any song from [Legend](track_album), will you?
+- Play any music from the album [when we all fall asleep where do we go](track_album)
+- Would you please play music from [Oh My God](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play songs from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play any track from album [Bandana](track_album) by [Linkin Park](track_artist), will you?
+- some [dubstep](track_genre) tracks
+- I would like to hear any [soundtrack](track_genre) track
+- Play any track from album [Legend](track_album), will you?
+- will you please play any track from [Father of the Bride](track_album)?
+- Please play the [rap](track_genre) songs
+- will you please play music from album [Cuz I Love You](track_album) by [XAMES3](track_artist)?
+- will you please play any track from the album [Hijas del Tomate](track_album)?
+- Could you please play an [Electronic](track_genre) beat?
+- please play some [pop](track_genre) tracks
+- Play music from [Beware of the Dogs](track_album), will you?
+- Play any music from the album [U.F.O.F](track_album) by [Justin Timberlake](track_artist), will you?
+- will you please play any track from [Epic Hip Hop](track_album)?
+- Could you please play any [dubstep](track_genre) beat?
+- Could you please play some [soundtrack](track_genre) songs?
+- I would like to listen to the [hip-hop](track_genre) songs
+- can you play any track from [Kamikaze](track_album) album
+- I would like to groove to any [rap](track_genre) beat
+- Play from [Recovery](track_album), please.
+- Please play some [Grunge](track_genre) songs
+- will you please play tracks from [Bandana](track_album)?
+- Could you please play the [hip-hop](track_genre) for us?
+- will you please play some music from [The Wizrd](track_album) by [Akon](track_artist)?
+- can you play music from [Bandana](track_album) by [Bonobo](track_artist)?
+- Would you please play any song from the album [Metallica](track_album)?
+- I would like to listen tracks from [Hijas del Tomate](track_album) album
+- I wanna dance to any music from album [Let’s Talk About Love](track_album).
+- Would you please play some music from the album [Oh My God](track_album)?
+- Play music from [On the Line](track_album).
+- Play any song from the album [Legend](track_album)
+- Play any [pop](track_genre) track
+- I will like to have any [soundtrack](track_genre) beat
+- I would like you to please play some [punk](track_genre) songs
+- I wanna listen something from album [Marshal Mather LP II](track_album)
+- I wanna listen any song from the album [Remind Me Tomorrow](track_album)
+- Would you please play any song from [Legend](track_album)?
+- can you play any music from the album [Revival](track_album) by [Coldplay](track_artist)?
+- Play something from [Buoys](track_album) by [Drake](track_artist), will you?
+- I wanna dance to music from [Oh My God](track_album).
+- I wanna listen any track from album [Revival](track_album)
+- can you please play songs from [when we all fall asleep where do we go](track_album)?
+- can you please play a track from the album [The Night King](track_album)?
+- I wanna dance to any track from album [Oh My God](track_album)
+- please play some [dubstep](track_genre) track  for us
+- Would you please play any song from [Hotel California](track_album) album
+- will you please play any music from the album [Marshal Mather LP II](track_album) by [Warner & Chappell](track_artist)?
+- Play songs from [On the Line](track_album).
+- will you please play any music from the album [Hotel California](track_album)?
+- I wanna dance to tracks from [U.F.O.F](track_album) album
+- Would you please play any music from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Future](track_artist)?
+- I wanna dance to music from album [Legend](track_album)
+- Would you please play music from album [Revival](track_album)?
+- [babe](gender:female), play something for me, would you?
+- Could you please play any [rap](track_genre) track for us?
+- can you play some music from album [Revival](track_album) by [Drake](track_artist)?
+- I will like to have some [edm](track_genre) music
+- will you please play any track from [Legend](track_album) album
+- can you please play a track from [The Immaculate Collection](track_album) album
+- Play music from [Metallica](track_album) by [Justin Hurwitz](track_artist), will you?
+- I wanna listen songs from [Sunshine Rock](track_album)
+- Play a track from [Oasis](track_album) album by [Drake](track_artist), will you?
+- I would like to listen any music from [Legend](track_album)
+- I would like to hear some [hip-hop](track_genre) songs
+- Play any music from [Angel's Pulse](track_album) album
+- I would like to dance to the [blues](track_genre) music
+- can you play songs from [Flamagra](track_album)?
+- I wanna dance to any song from [In League With Dragons](track_album) album
+- cheer me up by playing any song from [Appetite for Destruction](track_album), will you?
+- Play music.
+- Play tracks from [LP3](track_album) album.
+- Play any music from album [The Immaculate Collection](track_album), will you?
+- can you play any track from the album [Bad](track_album) by [Ozuna](track_artist)?
+- can you play a track from album [Tip of the Sphere](track_album)?
+- I would like to listen any song from [Crushing](track_album) album.
+- Please play the [pop](track_genre) tracks
+- I would like to listen songs from [The Night King](track_album).
+- Would you please play music from [Father of the Bride](track_album)?
+- I wanna listen a track from the album [Epic Hip Hop](track_album)
+- Could you please play some [EDM](track_genre) songs for us?
+- can you play any music from the album [Back in Black](track_album)?
+- Would you please play any song from [The Immaculate Collection](track_album) album
+- Play something from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Drake](track_artist), will you?
+- can you play any track from [Metallica](track_album) album by [Dr. Dre;Eminem](track_artist)
+- Would you please play something by [Bruno Mars](track_artist)?
+- Please play any [metal](track_genre) track
+- Would you please play some music from [The Wizrd](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any track from album [Assume Form](track_album) by [Katy Perry](track_artist), will you?
+- I would like to dance to the [metal](track_genre)
+- I wanna listen something from [The Black Album](track_album)
+- Could you please play some [pop](track_genre) music?
+- will you please play any music from [Designer](track_album) album
+- I would like to listen any track from [SASAMI](track_album) album.
+- can you please play any song from [The Immaculate Collection](track_album)?
+- Would you please play something from [Father of the Bride](track_album) album by [Justin Hurwitz](track_artist)
+- Play something from the album [Bad](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to listen tracks from [Heard It in a Past Life](track_album) album.
+- Would you please play any track from the album [The Saint of Lost Causes](track_album)?
+- Play any music from [Beware of the Dogs](track_album) album, will you?
+- I wanna listen songs from album [Phoenix](track_album).
+- Could you please play any [edm](track_genre) music?
+- Would you please play a track from [Gallipoli](track_album) album by [Alan Walker](track_artist)
+- can you please play music from [Slaves of Fear](track_album)?
+- can you play any track from album [Phoenix](track_album) by [Cardi B](track_artist)?
+- Would you please play any [Rock](track_genre) beat?
+- will you please play any music from the album [EVEN IN THE TREMOR](track_album)?
+- can you play any track from [Revival](track_album) album.
+- I wanna dance to songs from [The Immaculate Collection](track_album)
+- I would like to listen any music from the album [Metallica](track_album)
+- can you play any track from album [TBA](track_album)?
+- I would love to listen to something by [Bruno Mars](track_artist)
+- I wanna dance to any track from the album [Metallica](track_album)
+- Play some music from [Revival](track_album)
+- cheer me up by playing something from album [The Immaculate Collection](track_album), will you?
+- Would you please play some [hip-hop](track_genre) track ?
+- I wanna dance to tracks from [The Immaculate Collection](track_album)
+- will you please play something from the album [Purple Reign](track_album) by [Alan Walker](track_artist)?
+- Play any song from [Legend](track_album) album, will you?
+- will you please play any song from [Titanic Rising](track_album) album.
+- I wanna listen music from [Kamikaze](track_album)
+- Play any track from album [Back in Black](track_album) by [Mad Money](track_artist), will you?
+- Could you please play the [dubstep](track_genre) track for us?
+- Play any music from [Revival](track_album) album
+- I would love to dance to [Ariana Grande](track_artist)
+- some [funk](track_genre) songs
+- I would like to hear any [funk](track_genre) track
+- Could you please play any [hip-hop](track_genre) music?
+- I wanna dance to music from [Outer Peace](track_album)
+- I wanna listen any song from [Legend](track_album)
+- please play the [hip-hop](track_genre) tracks for me
+- I will like to have some [blues](track_genre) music
+- I would like to listen some music from album [IGOR](track_album)
+- I would like you to please play some [rap](track_genre) tracks
+- I would like you to please play some [hip-hop](track_genre)
+- I would like to listen to some [hip-hop](track_genre) track
+- I would like to listen a track from [Legend](track_album) album
+- Could you please play something by [Bruno Mars](track_artist)?
+- Play music from [Yandhi](track_album).
+- will you please play any music from [Father of the Bride](track_album) by [Drake](track_artist)?
+- I wanna dance to some music from the album [The Night King](track_album)
+- Play songs from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Mellen Gi](track_artist), will you?
+- I would like to listen to some [punk](track_genre) tracks
+- Play any track from album [Buoys](track_album), will you?
+- Play any track from the album [The Craving for Absolute Serenity](track_album), will you?
+- I wanna dance to any music from the album [SASAMI](track_album)
+- cheer me up by playing any song from [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
+- Would you please play a track from the album [SASAMI](track_album)?
+- Play something from the album [SASAMI](track_album)
+- Play tracks from [IGOR](track_album).
+- Could you please play the [metal](track_genre) music?
+- I would like to listen any track from [Hotel California](track_album)
+- Play some music from the album [The Night King](track_album)
+- Play any music from [Oasis](track_album) album by [Jay-Z](track_artist), will you?
+- I would like you to please play the [soundtrack](track_genre)
+- Play any song from album [SASAMI](track_album), will you?
+- will you please play tracks from [What Chaos Is Imaginary](track_album) album by [Madonna](track_artist).
+- can you please play any song from album [Legend](track_album)?
+- I wanna dance to music from album [Beware of the Dogs](track_album)
+- I wanna listen any track from [Legend](track_album)
+- Would you please play the [grunge](track_genre) tracks?
+- Play [dubstep](track_genre). please.
+- cheer me up by playing any track from [Legend](track_album) album, will you?
+- I would love to dance to [Selena Gomez](track_artist)
+- can you play any music from [Bad](track_album) album
+- please play any [metal](track_genre) music for us
+- I will like to have some [blues](track_genre) track
+- Play some music from the album [Back in Black](track_album), will you?
+- cheer me up by playing songs from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- will you please play tracks from [Bandana](track_album) album by [Three Days Grace](track_artist)
+- Could you please play some [dubstep](track_genre) tracks for us?
+- Play any track from [Led Zeppelin IV](track_album) album, will you?
+- cheer me up by playing any song from album [Gold and Grey](track_album), will you?
+- please play any [pop](track_genre) music for me
+- I would like to listen any track from [Flamagra](track_album) album
+- Would you please play songs from album [Back in Black](track_album)?
+- Please play music by [Bruno Mars](track_artist).
+- Play a track from the album [The Immaculate Collection](track_album), will you?
+- Please play the [blues](track_genre) track
+- will you please play a track from the album [The Saint of Lost Causes](track_album) by [Dr. Dre](track_artist)?
+- Play any track from [YOU CAN'T SIT WITH US](track_album) album, will you?
+- I wanna dance to any track from the album [The Immaculate Collection](track_album)
+- Would you please play some [hip-hop](track_genre)?
+- Would you please play tracks from [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any music from [When I Get Home](track_album) album
+- I would like to listen a track from [Rumours](track_album) album
+- Play any [pop](track_genre) beat
+- Play any song from album [I Am Easy To Find](track_album) by [Eminem](track_artist), will you?
+- I wanna dance to songs from [The Wizrd](track_album)
+- I would like to listen any track from [Everything Not Saved Will Be Lost—Part 1](track_album) album
+- I will like to have the [Electronic](track_genre)
+- can you play any track from [Oliver Appropriate](track_album) album.
+- will you please play songs from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play some music from album [Hotel California](track_album), will you?
+- can you play something from [Metallica](track_album) album
+- I wanna listen tracks from album [Requiem for a Dream](track_album)
+- I would like to listen to some [edm](track_genre) music
+- can you please play something from [Gallipoli](track_album)?
+- Play music from album [Heard It In A Past Life](track_album).
+- can you please play a track from [Recovery](track_album) album.
+- I wanna listen tracks from [Cuz I Love You](track_album) album
+- I wanna dance to any track from album [The Immaculate Collection](track_album)
+- I wanna dance to songs from album [Cuz I Love You](track_album)
+- can you play songs from album [Crushing](track_album)?
+- Play songs from [Hijas del Tomate](track_album)
+- can you please play something from [Oasis](track_album)?
+- Play any music from the album [Outer Peace](track_album)
+- will you please play tracks from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Nicki Minaj](track_artist)?
+- Would you please play any track from [Buoys](track_album) album by [Ludacris](track_artist)
+- Would you please play some music from album [IGOR](track_album)?
+- Play any song from album [Phoenix](track_album)
+- Play any music from [On the Line](track_album)
+- will you please play something from album [Rumours](track_album)?
+- can you please play songs from [This is Acting](track_album)?
+- Would you please play any track from the album [Back in Black](track_album) by [Mellen Gi](track_artist)?
+- Could you please play the [dubstep](track_genre)?
+- Play something from [The Immaculate Collection](track_album) by [Kanye West](track_artist), will you?
+- Would you please play something from [Legend](track_album) by [Nicki Minaj](track_artist)?
+- Would you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you please play songs from album [Let’s Talk About Love](track_album)?
+- Would you please play music from [Sunshine Rock](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play something from the album [The Saint of Lost Causes](track_album), will you?
+- I will like to have some [grunge](track_genre) tracks
+- can you play any music from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Mad Money](track_artist)
+- I wanna dance to any music from [IGOR](track_album) album
+- I would like to groove to some [soundtrack](track_genre) track
+- can you please play any track from the album [Dedicated](track_album)?
+- can you please play any music from the album [Led Zeppelin IV](track_album)?
+- I would like to listen songs from [Anima](track_album)
+- can you please play something from [Hotel California](track_album)?
+- Would you please play music from album [Led Zeppelin IV](track_album) by [Akon](track_artist)?
+- can you play some music from album [Outer Peace](track_album)?
+- Play some music from album [On the Line](track_album)
+- I wanna dance to songs from album [Bad](track_album)
+- please play some [grunge](track_genre) track  for me
+- Play songs from album [Back in Black](track_album).
+- Play something from [Legend](track_album) by [Queen](track_artist), will you?
+- I would like to dance to some [dubstep](track_genre)
+- Play songs from [Oliver Appropriate](track_album), will you?
+- Would you please play tracks from [Remind Me Tomorrow](track_album) by [George Michael](track_artist)?
+- Play a track from [Gold and Grey](track_album) album, will you?
+- I wanna dance to tracks from album [Recovery](track_album).
+- I would like to listen tracks from [On the Line](track_album) album
+- Would you please play any track from [Rumours](track_album) album by [George Michael](track_artist)
+- can you please play any track from [Legend](track_album)?
+- will you please play any song from album [Supernatural](track_album) by [Kanye West](track_artist)?
+- will you please play any track from [Rumours](track_album) by [Three Days Grace](track_artist)?
+- Would you please play any track from [The Craving for Absolute Serenity](track_album)?
+- will you please play any song from the album [Notes on a Conditional Form](track_album)?
+- please play some [funk](track_genre) songs
+- I wanna listen songs from album [Lets Try the After](track_album)
+- I would like to listen some music from [Kamikaze](track_album)
+- Would you please play something from the album [Cuz I Love You](track_album) by [Drake](track_artist)?
+- Would you please play any music from album [The Night King](track_album)?
+- please play some [Rock](track_genre) music
+- Would you please play some [soundtrack](track_genre)?
+- will you please play some music from album [Legend](track_album)?
+- Could you please play some [rap](track_genre) track  for us?
+- Would you please play some [funk](track_genre) tracks?
+- Would you please play a track from album [Kamikaze](track_album) by [Kanye West](track_artist)?
+- I would like you to please play some [hip-hop](track_genre) music
+- can you play a track from [Outer Peace](track_album) album by [Mad Money](track_artist).
+- can you play some music to release the tension?
+- I would like to hear some [punk](track_genre)
+- Play the [rap](track_genre) songs
+- can you play tracks from album [Lets Try the After](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play some music from [Gallipoli](track_album)?
+- Could you play something by [Warner & Chappell](track_artist)?
+- can you play any track from album [Oliver Appropriate](track_album)?
+- I would like to listen any track from album [Flamagra](track_album)
+- I wanna dance to songs from [YOU CAN'T SIT WITH US](track_album).
+- play something by [Drake](track_artist).
+- can you please play any song from [Metallica](track_album)?
+- please play any [hip-hop](track_genre) track for me
+- Play any song from album [The Wizrd](track_album)
+- Play any track from album [Let’s Talk About Love](track_album).
+- I would like to groove to the [rap](track_genre) track
+- I would like to groove to music from [Bandana](track_album) by [Nicki Minaj](track_artist).
+- Will you please play something by [Ariana Grande](track_artist)?
+- can you please play any track from album [Western Stars](track_album)?
+- can you play a track from [Metallica](track_album)?
+- will you please play any music from the album [Supernatural](track_album) by [Rick0 James](track_artist)?
+- Would you please play music from [The Wizrd](track_album)?
+- cheer me up by playing something from album [Rumours](track_album), will you?
+- I wanna listen any song from [Supernatural](track_album).
+- Will you play something by [Khalid](track_artist)?
+- Would you please play any track from [Purple Reign](track_album) album by [Cardi B](track_artist)
+- I would like to listen music from album [Legend](track_album)
+- can you please play any music from [Angel's Pulse](track_album) album
+- will you please play a track from [Flamagra](track_album) album by [Kanye West](track_artist)
+- Could you please play any [blues](track_genre) beat for us?
+- I would like to dance to any [soundtrack](track_genre) beat
+- Would you please play some music from the album [Supernatural](track_album)?
+- I will like to have some [edm](track_genre)
+- Play tracks from album [Chapter VI](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen any track from [Appetite for Destruction](track_album) album
+- can you please play a track from album [Titanic Rising](track_album)?
+- Play tracks from [Heard It in a Past Life](track_album), will you?
+- can you play any track from album [In League With Dragons](track_album) by [Future](track_artist)?
+- I would like to listen to any [pop](track_genre) beat
+- Play songs from [Led Zeppelin IV](track_album) by [Jay-Z](track_artist), will you?
+- Could you please play some [dubstep](track_genre) for us?
+- Would you please play a track from the album [Gold and Grey](track_album)?
+- will you please play a track from [Beware of the Dogs](track_album) by [The Chainsmokers](track_artist)?
+- Could you please play the [rap](track_genre) tracks?
+- Would you please play any track from [When I Get Home](track_album)?
+- Would you please play any music from the album [Chapter VI](track_album)?
+- Would you please play the [Blues](track_genre) music?
+- Play any music from the album [Supernatural](track_album), will you?
+- please play the [pop](track_genre) for us
+- Play any [hip-hop](track_genre) music
+- Could you please play some [metal](track_genre) for us?
+- will you please play songs from album [The Immaculate Collection](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play any music from [Anima](track_album), will you?
+- I wanna dance to any track from [Father of the Bride](track_album)
+- I would like to listen to the [rap](track_genre) track
+- I would like to listen a track from album [Atlanta Millionaires Club](track_album).
+- will you please play some music from the album [The Immaculate Collection](track_album)?
+- do we have something by [Shawn Mendes](track_artist).
+- can you please play something by [Adele](track_artist)?
+- I wanna listen tracks from album [YOU CAN'T SIT WITH US](track_album).
+- I wanna listen any music from [LP3](track_album)
+- I will like to have some [punk](track_genre) songs
+- Could you please play some [Blues](track_genre) music?
+- I would like to groove to some [grunge](track_genre) music
+- I would like you to please play some [rap](track_genre) music
+- I would like to dance to the [edm](track_genre)
+- Play any track from album [Crushing](track_album)
+- Would you please play any track from album [Hotel California](track_album)?
+- I wanna listen any track from [Beware of the Dogs](track_album) album
+- I wanna dance to a track from the album [Purple Reign](track_album)
+- can you play something from the album [Angel's Pulse](track_album)?
+- Would you please play any song from [Supernatural](track_album) album by [Dr. Dre;Eminem](track_artist).
+- Would you please play something from the album [The Marshall Mathers LP 2 Disc 2](track_album) by [Ludacris](track_artist)?
+- cheer me up by playing songs from [U.F.O.F](track_album), will you?
+- can you play something from album [Dedicated](track_album)?
+- can you play songs from album [Metallica](track_album)?
+- Play something by [Adele](track_artist)
+- I wanna listen any track from the album [Thank U, Next](track_album)
+- I wanna dance to any music from [Metallica](track_album)
+- please play the [punk](track_genre) track  for us
+- Could you please play any [funk](track_genre) beat?
+- cheer me up by playing tracks from album [IGOR](track_album), will you?
+- Would you please play some [dubstep](track_genre) tracks?
+- Play any track from [Legend](track_album), will you?
+- Please play any [punk](track_genre) beat
+- Would you please play any track from [Legend](track_album) album by [DJ Snake](track_artist)
+- I would like you to please play some [Hiphop](track_genre) tracks
+- I wanna dance to any song from album [Bad](track_album)
+- can you play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Drake](track_artist)
+- Would you please play any song from [Legend](track_album) album by [Ozuna](track_artist)
+- can you play any track from [Appetite for Destruction](track_album) album by [Kanye West](track_artist)
+- please play the [blues](track_genre) tracks for us
+- Play an [orchestra](track_genre) tune
+- I must tell you to listen music from [Recovery](track_album).
+- I would like to listen to some [soundtrack](track_genre) track
+- Play any music from the album [What Chaos Is Imaginary](track_album), will you?
+- can you play any track from the album [On the Line](track_album)?
+- can you play any song from the album [This Is How You Smile](track_album)?
+- I would like to listen any track from [Revival](track_album) album.
+- can you please play songs from album [YOU CAN'T SIT WITH US](track_album)?
+- Please play some [soundtrack](track_genre) track
+- I wanna listen something from [Hotel California](track_album)
+- I would like to groove to some [metal](track_genre)
+- Play something from [SASAMI](track_album)
+- Play any music from [Designer](track_album) album.
+- Would you please play the [edm](track_genre) music?
+- Would you please play some music from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- will you please play something from [Bad](track_album) album
+- Play a track from album [Kamikaze](track_album), will you?
+- I wanna listen a track from [Oasis](track_album).
+- Could you please play any [blues](track_genre) music for us?
+- can you please play a track from album [The Black Album](track_album)?
+- Please play the [Electronic](track_genre) music
+- can you please play songs from album [The Immaculate Collection](track_album)?
+- I would like to listen something from [Metallica](track_album)
+- Play songs from [Western Stars](track_album), will you?
+- I wanna listen any song from [Rumours](track_album) album
+- Play any track from [On The Line](track_album) album.
+- I would like to groove to the [hip-hop](track_genre) track
+- can you play some music from the album [What Chaos Is Imaginary](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to something from the album [Recovery](track_album)
+- I wanna dance to tracks from album [Legend](track_album)
+- can you play any track from [Bad](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play something from [Angel's Pulse](track_album)?
+- will you please play any song from album [Supernatural](track_album)?
+- can you play something from [YOU CAN'T SIT WITH US](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I wanna listen tracks from album [Sunshine Rock](track_album).
+- Would you please play something from album [Legend](track_album) by [Kanye West](track_artist)?
+- I would like to dance to any [edm](track_genre) track
+- will you please play tracks from [When I Get Home](track_album)?
+- can you play a track from album [I Am Easy To Find](track_album)?
+- will you please play songs from album [Marshal Mather LP II](track_album)?
+- Play any track from album [Hotel California](track_album), will you?
+- cheer me up by playing any song from [Sunshine Rock](track_album), will you?
+- can you please play any track from [Legend](track_album) album
+- I would like to dance to some [Jazz](track_genre) tracks
+- can you play any track from [Back in Black](track_album) by [PSY](track_artist)?
+- I would like you to please play some [edm](track_genre) songs
+- cheer me up by playing something from [Gallipoli](track_album), will you?
+- can you please play any track from the album [Oliver Appropriate](track_album)?
+- I wanna listen something from the album [Hijas del Tomate](track_album)
+- Will you please play something by [Imagine Dragons](track_artist)?
+- Could you please play the [rap](track_genre)?
+- will you please play any song from [Recovery](track_album)?
+- I would like you to please play some [Blues](track_genre) tracks
+- I would like to listen to the [dubstep](track_genre) music
+- I would like you to please play any [dubstep](track_genre) music
+- will you please play any song from [The Immaculate Collection](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play any track from the album [Atlanta Millionaires Club](track_album) by [Mad Money](track_artist), will you?
+- cheer me up by playing any song from [Rumours](track_album), will you?
+- can you please play music from album [Led Zeppelin IV](track_album)?
+- I would like to groove to the [soundtrack](track_genre) tracks
+- Would you please play any track from [Dedicated](track_album)?
+- Play [dubstep](track_genre) music
+- Play tracks from [Let’s Talk About Love](track_album) album.
+- can you play a track from [Revival](track_album) by [Nicki Minaj](track_artist)?
+- can you play something from album [Back in Black](track_album)?
+- please play any [metal](track_genre) beat for us
+- can you play a track from [Father of the Bride](track_album) album
+- Would you please play any music from album [Hijas del Tomate](track_album) by [Mad Money](track_artist)?
+- can you please play a track from the album [The Immaculate Collection](track_album)?
+- will you please play tracks from [Crushing](track_album) album
+- can you please play songs from album [Oliver Appropriate](track_album)?
+- I will like to have the [rap](track_genre) tracks
+- Play songs from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Would you please play any track from album [Bandana](track_album) by [Drake](track_artist)?
+- Play music from album [Metallica](track_album), will you?
+- I would like to listen to [Rihanna](track_artist)
+- Play any song from [The Night King](track_album)
+- Would you please play any [Funk](track_genre) beat?
+- I would like to dance to [Ariana Grande](track_artist)
+- Play any music from the album [YOU CAN'T SIT WITH US](track_album)
+- can you play any music from [Mitsubishi Macchiato](track_album)?
+- Play any track from album [Designer](track_album), will you?
+- I would like to listen any song from [Metallica](track_album) album
+- Play tracks from [Let’s Talk About Love](track_album) album by [Charlotte Rose Ellis](track_artist), will you?
+- Play any track from [Good Ass Job](track_album) album
+- Play songs from [Harverd Dropout](track_album).
+- can you play some music from [The Immaculate Collection](track_album)?
+- Play any music from album [Kamikaze](track_album) by [Future](track_artist), will you?
+- Would you please play any song from [The Immaculate Collection](track_album)?
+- can you play some music from [I Am Easy To Find](track_album) by [Justin Hurwitz](track_artist)?
+- Play any track from album [Legend](track_album) by [Jay-Z](track_artist), will you?
+- I would like to listen any track from [Revival](track_album)
+- I would like to groove to any [soundtrack](track_genre) track
+- Would you please play something from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- please play the [grunge](track_genre) tracks for me
+- can you play some music from [Kamikaze](track_album) by [Mad Money](track_artist)?
+- Would you please play tracks from album [Designer](track_album)?
+- Play a track from [Bad](track_album)
+- Could you please play the [funk](track_genre) songs?
+- Please play music by [Rihanna](track_artist).
+- will you please play songs from [Thank U, Next](track_album)?
+- I wanna dance to a track from the album [Rumours](track_album)
+- I would like to dance to some [Dubstep](track_genre) music
+- I wanna dance to any song from [The Immaculate Collection](track_album)
+- can you play any music from [Kamikaze](track_album) album.
+- Would you please play something from the album [Designer](track_album)?
+- cheer me up by playing any song from [Lets Try the After](track_album) album, will you?
+- Would you please play a track from the album [Crushing](track_album) by [Drake](track_artist)?
+- I will like to have the [grunge](track_genre) music
+- please play some [pop](track_genre) for us
+- can you play any song from the album [Back in Black](track_album)?
+- I would like to groove to some [hip-hop](track_genre) music
+- Would you please play any [blues](track_genre) track?
+- Play a track from [Supernatural](track_album), will you?
+- Would you please play any track from [Led Zeppelin IV](track_album) album
+- I would like you to please play any [pop](track_genre) track
+- I wanna dance to any song from [Tip of the Sphere](track_album) album
+- will you please play any track from [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play a track from the album [The Immaculate Collection](track_album)
+- Would you please play songs from [Anima](track_album)?
+- I wanna listen any music from [Led Zeppelin IV](track_album) album
+- please play the [dubstep](track_genre) songs for me
+- Play any song from the album [Oasis](track_album)
+- Play music from [when we all fall asleep where do we go](track_album).
+- Play any track from [Sunshine Rock](track_album) album.
+- Play any track from the album [Oliver Appropriate](track_album), will you?
+- Could you please play any [punk](track_genre) track for us?
+- please play any [blues](track_genre) music for us
+- Play something from album [Young Enough](track_album), will you?
+- Play songs from [Recovery](track_album).
+- I wanna listen a track from album [Quiet Signs](track_album)
+- I wanna listen songs from [Led Zeppelin IV](track_album).
+- Play any music from [Supernatural](track_album) album by [Sia](track_artist), will you?
+- play some music by [Akon](track_artist), will ya?
+- I would like to dance to some [funk](track_genre) music
+- I want to listen to music from [Recovery](track_album).
+- Play any track from album [Legend](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- cheer me up by playing any track from [What Chaos Is Imaginary](track_album), will you?
+- Play any song from the album [Sunshine Rock](track_album), will you?
+- I would like to groove to the [dubstep](track_genre) track
+- Could you please play the [soundtrack](track_genre) track  for us?
+- [Eminem](track_artist)'s songs, please.
+- I would like you to please play the [metal](track_genre) track
+- I wanna dance to songs from [Designer](track_album).
+- I wanna dance to something from album [Anima](track_album)
+- I wanna dance to [Akon](track_artist)'s tracks.
+- Could you please play any [rap](track_genre) music?
+- Play something from [Appetite for Destruction](track_album) album by [Linkin Park](track_artist), will you?
+- I wanna dance to songs from album [Supernatural](track_album).
+- I wanna listen tracks from [What Chaos Is Imaginary](track_album)
+- I wanna listen any song from the album [Legend](track_album)
+- Could you please play the [grunge](track_genre) songs?
+- please play the [metal](track_genre) for me
+- Would you please play some [soundtrack](track_genre) songs?
+- I wanna listen any track from [Marshal Mather LP II](track_album) album
+- please play some [blues](track_genre) music for us
+- Play a [dubstep](track_genre) music
+- I would like to hear any [pop](track_genre) music
+- I would like to listen any song from [Revival](track_album)
+- Would you please play any song from album [Recovery](track_album)?
+- Would you please play some music from album [Remind Me Tomorrow](track_album) by [Future](track_artist)?
+- Play some music from [Outer Peace](track_album), will you?
+- can you play a track from album [Let’s Talk About Love](track_album) by [Drake](track_artist)?
+- will you please play any song from album [In League With Dragons](track_album) by [Katy Perry](track_artist)?
+- will you please play any music from album [Back in Black](track_album) by [XAMES3](track_artist)?
+- I wanna listen any track from [Kamikaze](track_album) album
+- Play any song from the album [The Unseen In-Between](track_album) by [Kanye West](track_artist), will you?
+- i want a live musical performance from you.
+- I will like to have the [dubstep](track_genre) music
+- Play some music from the album [SASAMI](track_album)
+- will you please play songs from album [Outer Peace](track_album)?
+- Play the [rap](track_genre) track
+- can you please play any track from album [The Immaculate Collection](track_album)?
+- Play a track from [Outer Peace](track_album) by [Jay-Z](track_artist), will you?
+- Play any music from [Supernatural](track_album) album.
+- I wanna listen songs from [Legend](track_album)
+- Play any track from album [Kamikaze](track_album), will you?
+- Would you please play tracks from [Led Zeppelin IV](track_album) by [Drake](track_artist)?
+- Would you please play any [pop](track_genre) beat?
+- I would like to hear some [rap](track_genre) track
+- Play some music from the album [The Night King](track_album) by [Lil Wayne](track_artist), will you?
+- Would you please play any music from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play a track from the album [Chapter VI](track_album), will you?
+- I would like to listen any track from [Supernatural](track_album) album.
+- I would like to listen any music from [Sunshine Rock](track_album) album
+- can you play music from [Heard It In A Past Life](track_album)?
+- Play a track from the album [New Breed](track_album)
+- Play any song from [Marshal Mather LP II](track_album) album
+- Play tracks from [Rumours](track_album), will you?
+- can you play songs from album [Cuz I Love You](track_album)?
+- I wanna listen any song from [LP3](track_album) album.
+- I would like to listen any track from album [SASAMI](track_album)
+- can you play any music from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you play any track from album [Let’s Talk About Love](track_album) by [Sia](track_artist)?
+- Play any music from [The Immaculate Collection](track_album) album, will you?
+- I would like to listen music from [Legend](track_album).
+- will you please play any track from [Young Enough](track_album)?
+- I would like you to please play any [Jazz](track_genre) music
+- I would like to listen to the [Rock](track_genre) songs
+- I wanna listen songs from album [Young Enough](track_album).
+- Play songs from [Back in Black](track_album) by [Kanye West](track_artist), will you?
+- Could you please play some [pop](track_genre) tracks?
+- can you please play some music from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Would you please play songs from album [Recovery](track_album)?
+- will you please play any track from [Slaves of Fear](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen tracks from [Led Zeppelin IV](track_album).
+- Play any music from the album [When I Get Home](track_album), will you?
+- I would like to hear the [edm](track_genre) songs
+- Would you please play any song from the album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I would like to dance to the [hip-hop](track_genre) track
+- can you please play songs from [Revival](track_album)?
+- can you please play any music from [Metallica](track_album)?
+- can you play any track from album [Rumours](track_album)?
+- Would you please play some music from the album [Gold and Grey](track_album) by [Eminem](track_artist)?
+- I would like you to please play some [blues](track_genre) music
+- can you play any track from [Beware of the Dogs](track_album) album.
+- please play any [hip-hop](track_genre) music for us
+- Play songs from album [Oh My God](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play songs from album [Lets Try the After](track_album), will you?
+- Could you please play some [grunge](track_genre) songs for us?
+- will you please play a track from the album [Rumours](track_album) by [Coldplay](track_artist)?
+- I would like to listen any music from [Appetite for Destruction](track_album)
+- will you please play any music from [Beware of the Dogs](track_album) album.
+- can you play any music from [Led Zeppelin IV](track_album) by [Warner & Chappell](track_artist)?
+- Would you please play songs from [Requiem for a Dream](track_album) by [Clint Mansell](track_artist)?
+- will you please play some music from [Oasis](track_album)?
+- Would you please play any music from [Revival](track_album) album
+- cheer me up by playing something from [The Saint of Lost Causes](track_album), will you?
+- will you please play tracks from album [Requiem for a Dream](track_album)?
+- I would like to groove to any [funk](track_genre) track
+- Play songs from album [Oliver Appropriate](track_album).
+- I would like to hear the [grunge](track_genre) track
+- I will like to have the [soundtrack](track_genre) music
+- can you play songs from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- Play something from [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- will you please play songs from album [Dedicated](track_album) by [Eagles](track_artist)?
+- I would like you to please play the [Rock](track_genre) music
+- I wanna dance to some music from the album [Marshal Mather LP II](track_album)
+- I would like to listen any song from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to hear any [pop](track_genre) track
+- Play any music from the album [I Am Easy To Find](track_album), will you?
+- please play the [metal](track_genre) music for me
+- I wanna listen something from album [Heard It In A Past Life](track_album)
+- Would you please play something from [Back in Black](track_album)?
+- will you please play any music from [Metallica](track_album)?
+- I would like to listen music from album [Oliver Appropriate](track_album).
+- will you please play tracks from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- can you play any track from [Rumours](track_album) album
+- can you play something from album [On the Line](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna listen songs from [Anima](track_album)
+- I wanna listen any song from album [Led Zeppelin IV](track_album)
+- I wanna dance to a track from the album [Phoenix](track_album)
+- can you play any song from [TBA](track_album)?
+- will you please play something from album [What Chaos Is Imaginary](track_album) by [Dr. Dre](track_artist)?
+- can you play any track from [Legend](track_album) album by [Ed Sheeran](track_artist)
+- I would like to listen to [Halsey](track_artist)
+- Play any song from album [YOU CAN'T SIT WITH US](track_album), will you?
+- Play some [metal](track_genre) music
+- will you please play any track from the album [The Black Album](track_album)?
+- I would like to groove to some [rap](track_genre) music
+- Would you please play any music from [Let’s Talk About Love](track_album) by [Dr. Dre](track_artist)?
+- cheer me up by playing something from the album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I would like to hear some [blues](track_genre) music
+- I wanna listen music from album [Young Enough](track_album).
+- can you please play any song from [Requiem for a Dream](track_album)?
+- can you play any track from [Oh My God](track_album)?
+- I would like you to please play the [rap](track_genre) songs
+- I wanna dance to any track from album [Metallica](track_album)
+- Play something from [Let’s Talk About Love](track_album) by [Drake](track_artist), will you?
+- Play any music from album [Supernatural](track_album), will you?
+- I wanna dance to some music from album [The Immaculate Collection](track_album)
+- I would like to listen any music from album [Bad](track_album)
+- will you please play tracks from [Metallica](track_album) album by [Drake](track_artist)
+- Would you please play tracks from [when we all fall asleep where do we go](track_album) album
+- Play any track from the album [Metallica](track_album) by [Ozuna](track_artist), will you?
+- Would you please play any music from album [Let’s Talk About Love](track_album) by [Mellen Gi](track_artist)?
+- I would like to hear any [rap](track_genre) beat
+- will you please play any song from the album [Legend](track_album)?
+- Play music from album [Bad](track_album)
+- will you please play music from album [Rumours](track_album)?
+- Would you please play any song from [Let’s Talk About Love](track_album)?
+- i [wanna](grammar:want) [listen](action) some music
+- I would like to listen a track from [Phoenix](track_album).
+- Could you please play any [blues](track_genre) track for us?
+- Would you please play a track from [Appetite for Destruction](track_album)?
+- I wanna listen some music from [In League With Dragons](track_album)
+- I would enjoy to dance to [Imagine Dragons](track_artist)
+- Could you please play any [pop](track_genre) beat for us?
+- will you please play any music from album [Slaves of Fear](track_album)?
+- please play some [edm](track_genre) for me
+- can you play something from the album [Dedicated](track_album)?
+- can you play tracks from [Back in Black](track_album)?
+- can you play tracks from [Legend](track_album)?
+- can you play a track from [Led Zeppelin IV](track_album) by [Kanye West](track_artist)?
+- I wanna dance to a track from [Norman Fucking Rockwell](track_album).
+- Would you please play any music from album [YOU CAN'T SIT WITH US](track_album) by [Bonobo](track_artist)?
+- Play something from the album [The Immaculate Collection](track_album)
+- Could you please play any [dubstep](track_genre) track for us?
+- Would you please play any [funk](track_genre) track?
+- Play tracks from album [On the Line](track_album), will you?
+- Play music by [Shawn Mendes](track_artist)
+- cheer me up by playing any track from [Recovery](track_album) album, will you?
+- cheer me up by playing any track from [Revival](track_album) album, will you?
+- Play songs from album [Hotel California](track_album)
+- Would you please play any track from [Titanic Rising](track_album) album by [Queen](track_artist).
+- cheer me up by playing any song from album [Hotel California](track_album), will you?
+- Please play some [soundtrack](track_genre) music
+- calm me.
+- will you please play something from the album [U.F.O.F](track_album) by [Kanye West](track_artist)?
+- Would you please play something from [when we all fall asleep where do we go](track_album)?
+- I want to listen something by [Ariana Grande](track_artist)
+- Play any music from [Bad](track_album) album by [Drake](track_artist), will you?
+- can you play any track from [Rumours](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to listen to some [Grunge](track_genre) music
+- I would like to listen any music from [Cuz I Love You](track_album) album.
+- I would like to hear the [grunge](track_genre) music
+- Please play the [rap](track_genre) track
+- Play any track from [Back in Black](track_album) by [Mad Money](track_artist), will you?
+- Would you please play any music from [Good Ass Job](track_album)?
+- Could you please play some [Electronic](track_genre)?
+- can you play any song from [Outer Peace](track_album)?
+- can you play music from album [Supernatural](track_album)?
+- Play any song from [Legend](track_album), will you?
+- Play any music from [The Immaculate Collection](track_album) album
+- I would like to groove to any [rap](track_genre) music
+- I wanna listen songs from [Young Enough](track_album).
+- Play any song from [Young Enough](track_album) by [Justin Hurwitz](track_artist), will you?
+- cheer me up by playing any track from [IGOR](track_album) album, will you?
+- Play any music from [Legend](track_album)
+- I would like to dance to any [Rock](track_genre) music
+- Play tracks from [Appetite for Destruction](track_album) by [The Chainsmokers](track_artist), will you?
+- I would like to dance to some [edm](track_genre) songs
+- Play any music from the album [Gold and Grey](track_album) by [Eagles](track_artist), will you?
+- can you play any music from album [The Immaculate Collection](track_album) by [Rick0 James](track_artist)?
+- I would like to listen to the [Funk](track_genre)
+- Play songs from album [Crushing](track_album), will you?
+- will you please play any track from album [Rumours](track_album)?
+- Play songs from [Marshal Mather LP II](track_album).
+- please play the [funk](track_genre) tracks for us
+- will you please play music from [Recovery](track_album) by [Kanye West](track_artist)?
+- can you play any music from album [Kamikaze](track_album)?
+- Play some music from [Rumours](track_album) by [Dr. Dre](track_artist), will you?
+- Play a track from [Gallipoli](track_album) album, will you?
+- Play music by [Eagles](track_artist)
+- Play any song from [Young Enough](track_album), will you?
+- Would you please play the [dubstep](track_genre) music?
+- Play any music from [Remind Me Tomorrow](track_album) by [Clint Mansell](track_artist), will you?
+- will you please play songs from album [Father of the Bride](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Would you please play some music from [Marshal Mather LP II](track_album) by [Mad Money](track_artist)?
+- Play songs from [I Am Easy To Find](track_album), will you?
+- Would you please play any song from [Appetite for Destruction](track_album) by [Sia](track_artist)?
+- I would like to listen some music from album [Let’s Talk About Love](track_album).
+- I wanna listen any track from [Good Ass Job](track_album)
+- I would like to listen tracks from album [Supernatural](track_album).
+- can you play any music from the album [Sunshine Rock](track_album)?
+- Would you please play a track from the album [Legend](track_album)?
+- Play any track from [Marshal Mather LP II](track_album)
+- I wanna dance to a track from [Revival](track_album)
+- Would you please play something from album [The Unseen In-Between](track_album) by [Dr. Dre](track_artist)?
+- I would like you to please play any [soundtrack](track_genre) beat
+- Play songs from [Oliver Appropriate](track_album) by [Clint Mansell](track_artist), will you?
+- I would like to hear some [edm](track_genre)
+- I would like to listen music from [Gold and Grey](track_album).
+- I wanna dance to songs from album [Oasis](track_album)
+- Would you please play songs from album [Outer Peace](track_album)?
+- I wanna listen to music by [Akon](track_artist).
+- will you please play something from the album [This Is How You Smile](track_album)?
+- I would like to dance to the [dubstep](track_genre) track
+- I would like to listen to music from [Revival](track_album) by [Charlotte Rose Ellis](track_artist).
+- will you please play some music from the album [Young Enough](track_album) by [Ludacris](track_artist)?
+- Please play any [pop](track_genre) music
+- Will you play something by [Rihanna](track_artist)?
+- Play any track from the album [Slaves of Fear](track_album), will you?
+- I wanna listen tracks from [Appetite for Destruction](track_album) album.
+- Play music from album [The Marshall Mathers LP 2 Disc 2](track_album), will you?
+- I would like to listen music from [Revival](track_album).
+- can you please play any song from [Titanic Rising](track_album) album
+- I would like to listen any track from album [I Am Easy To Find](track_album)
+- can you play something from the album [Recovery](track_album)?
+- Would you please play any music from the album [Bad](track_album) by [Charlotte Rose Ellis](track_artist)?
+- Play any track from album [Marshal Mather LP II](track_album), will you?
+- Would you please play any track from album [Revival](track_album) by [Mad Money](track_artist)?
+- Play any song from [In League With Dragons](track_album) by [Mellen Gi](track_artist), will you?
+- will you please play music from [On the Line](track_album)?
+- Play any music from the album [LP3](track_album) by [Drake](track_artist), will you?
+- Play music from [The Immaculate Collection](track_album) by [Justin Hurwitz](track_artist), will you?
+- some [edm](track_genre) songs
+- I would love to dance to [Shawn Mendes](track_artist)
+- can you play any music from the album [Designer](track_album) by [Sean Paul](track_artist)?
+- Play any music from [Legend](track_album) by [Drake](track_artist), will you?
+- can you play something from [U.F.O.F](track_album)?
+- Play music from album [Father of the Bride](track_album) by [Cardi B](track_artist), will you?
+- Could you please play the [metal](track_genre) songs?
+- Play any track from album [Notes on a Conditional Form](track_album)
+- I wanna listen songs from album [What Chaos Is Imaginary](track_album).
+- I would like to hear the [Hip-hop](track_genre) music
+- I would like to listen to the [punk](track_genre) music
+- I would like you to please play any [blues](track_genre) music
+- I will like to have any [dubstep](track_genre) beat
+- Please play some [funk](track_genre) music
+- I would like to listen a track from [What Chaos Is Imaginary](track_album).
+- cheer me up by playing any track from [Heard It In A Past Life](track_album), will you?
+- Please play some [rap](track_genre) songs
+- can you play a track from album [Supernatural](track_album) by [Mad Money](track_artist)?
+- Play a track from [Let’s Talk About Love](track_album) album by [Kanye West](track_artist), will you?
+- will you please play songs from [Hotel California](track_album)?
+- can you please play any track from album [Yandhi](track_album)?
+- I will like to have any [edm](track_genre) beat
+- Play any track from album [Metallica](track_album) by [Linkin Park](track_artist), will you?
+- I will like to have the [soundtrack](track_genre)
+- can you play a track from the album [Norman Fucking Rockwell](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play any song from [Appetite for Destruction](track_album)?
+- can you play some music from album [Remind Me Tomorrow](track_album) by [Nicki Minaj](track_artist)?
+- Play some [soundtrack](track_genre) musicc
+- will you please play a track from [Hijas del Tomate](track_album) album by [Dr. Dre](track_artist)
+- Play any song from [Metallica](track_album) album
+- will you please play a track from [Hijas del Tomate](track_album) album.
+- Could you please play some [hip-hop](track_genre) songs?
+- I wanna dance to tracks from album [Everything Not Saved Will Be Lost—Part 1](track_album)
+- I wanna listen some music from [The Immaculate Collection](track_album)
+- Would you please play any song from album [Outer Peace](track_album)?
+- can you play any music from [Legend](track_album) album
+- can you please play some music from [Quiet Signs](track_album)?
+- cheer me up by playing tracks from [Everything Not Saved Will Be Lost—Part 1](track_album) album, will you?
+- Would you please play a track from the album [When I Get Home](track_album)?
+- Play something from [EVEN IN THE TREMOR](track_album)
+- Play a track from [Legend](track_album) by [Dr. Dre](track_artist), will you?
+- I want to listen something by [Khalid](track_artist)
+- will you please play something from [Legend](track_album) album by [Nicki Minaj](track_artist)
+- can you please play any song from the album [Legend](track_album)?
+- can you please play songs from [The Saint of Lost Causes](track_album)?
+- Please play some [hip-hop](track_genre) tracks
+- can you play tracks from album [Revival](track_album)?
+- Could you please play the [rap](track_genre) track  for us?
+- I wanna listen a track from [Back in Black](track_album) album.
+- can you please play a track from the album [U.F.O.F](track_album)?
+- I wanna dance to some music from [LP3](track_album)
+- Would you please play some music from [Oh My God](track_album) by [Mad Money](track_artist)?
+- I would like to listen a track from [What Chaos Is Imaginary](track_album)
+- will you please play something by [Shakira](track_artist)
+- can you play any music from [Legend](track_album) by [Drake](track_artist)?
+- I wanna dance to a track from [Father of the Bride](track_album).
+- can you play tracks from album [Oliver Appropriate](track_album)?
+- Play music from album [Metallica](track_album) by [Rick0 James](track_artist), will you?
+- Would you please play songs from [Kamikaze](track_album)?
+- I wanna dance to any music from the album [The Immaculate Collection](track_album)
+- can you please play something by [Akon](track_artist)?
+- Play music from album [Marshal Mather LP II](track_album), will you?
+- please play the [edm](track_genre) tracks for us
+- I would enjoy to dance to [Akon](track_artist)
+- I wanna listen any music from the album [IGOR](track_album)
+- I wanna listen any music from [Western Stars](track_album) album
+- I would like to listen music from [Western Stars](track_album)
+- Would you please play some music from [Legend](track_album)?
+- Please play from [Recovery](track_album).
+- Play a track from [YOU CAN'T SIT WITH US](track_album) by [Nicki Minaj](track_artist), will you?
+- I wanna listen any track from album [Titanic Rising](track_album).
+- Play songs from [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
+- Would you please play tracks from album [Kamikaze](track_album) by [The Chainsmokers](track_artist)?
+- can you play any music from [Marshal Mather LP II](track_album) album by [Jay-Z](track_artist)
+- Play something from [Anima](track_album) album by [Sia](track_artist), will you?
+- please play the [Pop](track_genre) music for me
+- I would like to listen to an [orchestra](track_genre) tune
+- I wanna dance to any music from [SASAMI](track_album) album.
+- I wanna dance to any music from [The Marshall Mathers LP 2 Disc 2](track_album)
+- Would you please play something from the album [What Chaos Is Imaginary](track_album)?
+- can you play some music from album [Marshal Mather LP II](track_album)?
+- dance mode on!!!
+- I wanna listen tracks from [Back in Black](track_album) album.
+- can you play tracks from album [Cuz I Love You](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play songs from [Kamikaze](track_album) by [Three Days Grace](track_artist)?
+- I would like to listen some music from the album [Designer](track_album)
+- I wanna dance to any track from [When I Get Home](track_album).
+- can you play music from [when we all fall asleep where do we go](track_album) by [Jay-Z](track_artist)?
+- cheer me up by playing tracks from [Requiem for a Dream](track_album), will you?
+- Could you please play any [blues](track_genre) beat?
+- I wanna listen something from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I wanna listen tracks from [Heard It In A Past Life](track_album) album
+- Would you please play tracks from [When I Get Home](track_album) album by [Cardi B](track_artist)
+- Play tracks from [Anima](track_album) album by [Drake](track_artist), will you?
+- I would like you to please play the [punk](track_genre) tracks
+- Play songs from [Supernatural](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like you to please play any [hip-hop](track_genre) beat
+- Would you please play any [edm](track_genre) music?
+- Play some music from [Notes on a Conditional Form](track_album), will you?
+- Play any music from [Anima](track_album) album, will you?
+- Would you please play any music from the album [Let’s Talk About Love](track_album) by [Ludacris](track_artist)?
+- I wanna dance to tracks from [The Saint of Lost Causes](track_album) album
+- Would you please play any song from album [The Immaculate Collection](track_album) by [Skrillex](track_artist)?
+- I wanna dance to any music from [Let’s Talk About Love](track_album).
+- Play tracks from [Legend](track_album).
+- Would you please play the [metal](track_genre) songs?
+- I would like you to please play some [grunge](track_genre) music
+- can you play some music from [Oliver Appropriate](track_album)?
+- Play any track from the album [Purple Reign](track_album), will you?
+- Could you please play some [blues](track_genre) track  for us?
+- I wanna listen something from album [Atlanta Millionaires Club](track_album)
+- Play any track from album [Crushing](track_album), will you?
+- please play some [edm](track_genre) track  for me
+- Play some music from [Gallipoli](track_album)
+- can you play any track from the album [Dedicated](track_album) by [Drake](track_artist)?
+- I would like to dance to [Adele](track_artist)
+- I would like to listen tracks from album [Sunshine Rock](track_album)
+- Would you please play any [soundtrack](track_genre) beat?
+- can you play music from [Chapter VI](track_album) by [Mad Money](track_artist)?
+- Would you please play any music from album [Flamagra](track_album)?
+- will you please play a track from [Flamagra](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to dance to some [hip-hop](track_genre) songs
+- Could you please play an [orchestra](track_genre) tune for us?
+- can you play music from [Remind Me Tomorrow](track_album) by [Cardi B](track_artist)?
+- will you please play music from album [Good Ass Job](track_album) by [Alan Walker](track_artist)?
+- Play a track from [Hotel California](track_album) album by [The Chainsmokers](track_artist), will you?
+- Would you please play any track from [Rumours](track_album) by [Bonobo](track_artist)?
+- will you please play any track from [Hijas del Tomate](track_album)?
+- I wanna listen songs from [The Unseen In-Between](track_album)
+- will you please play any track from [Bad](track_album) album.
+- Play the [edm](track_genre) tune.
+- will you please play a track from album [Designer](track_album) by [Charlotte Rose Ellis](track_artist)?
+- I wanna listen any track from [Requiem for a Dream](track_album)
+- I wanna listen music from [Angel's Pulse](track_album).
+- I wanna listen some music from the album [Crushing](track_album)
+- Would you please play a track from the album [Bad](track_album) by [Selena Gomez](track_artist)?
+- I wanna listen any song from the album [Bad](track_album)
+- can you play something from the album [The Saint of Lost Causes](track_album) by [Lil Wayne](track_artist)?
+- I would like to listen to any [soundtrack](track_genre) musicc
+- Would you please play some music from [Outer Peace](track_album)?
+- I wanna listen any track from the album [Appetite for Destruction](track_album)
+- I would like to listen to the [soundtrack](track_genre) beat
+- Play something from [Designer](track_album), will you?
+- Play any track from the album [The Immaculate Collection](track_album)
+- I would like to listen any song from [Norman Fucking Rockwell](track_album) album
+- will you please play a track from album [The Immaculate Collection](track_album)?
+- Would you please play any song from album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play the [hip-hop](track_genre)?
+- I wanna listen any track from [Thank U, Next](track_album)
+- I would like to listen to some [pop](track_genre) tracks
+- Would you please play a track from [This Is How You Smile](track_album) by [Drake](track_artist)?
+- Would you please play songs from [The Saint of Lost Causes](track_album) by [Warner & Chappell](track_artist)?
+- Play something from [Appetite for Destruction](track_album), will you?
+- I wanna dance to something from [Oh My God](track_album) album.
+- Play any track from album [Metallica](track_album) by [Eagles](track_artist), will you?
+- Would you please play any [metal](track_genre) beat?
+- I would like to groove to any [dubstep](track_genre) track
+- Play the [hip-hop](track_genre) songs
+- will you please play some music from [Oh My God](track_album) by [Future](track_artist)?
+- will you please play any track from album [Let’s Talk About Love](track_album) by [Sia](track_artist)?
+- I wanna listen some music from album [Bad](track_album)
+- Would you please play some music from album [Rumours](track_album)?
+- Would you please play the [punk](track_genre)?
+- I would like to listen something from [Mitsubishi Macchiato](track_album) album.
+- please play the [grunge](track_genre) for us
+- can you play something from album [Designer](track_album)?
+- I would like to listen songs from [Angel's Pulse](track_album)
+- I will like to have some [rap](track_genre) songs
+- I would like to groove to some [edm](track_genre)
+- I would like to listen any track from [The Unseen In-Between](track_album) album.
+- I would like to hear the [metal](track_genre) track
+- I would like to groove to the [blues](track_genre) songs
+- cheer me up by playing something from the album [Revival](track_album), will you?
+- can you play any track from [Requiem for a Dream](track_album)?
+- I would like to hear some [grunge](track_genre) songs
+- I will like to have some [hip-hop](track_genre) track
+- Play any track from [Led Zeppelin IV](track_album) album by [Future](track_artist), will you?
+- will you please play some music from album [Legend](track_album) by [Drake](track_artist)?
+- Play a track from [Yandhi](track_album) album by [Ozuna](track_artist), will you?
+- Play some music from [Harverd Dropout](track_album)
+- I would like to dance to any [Jazz](track_genre) music
+- I would like to listen to the [rap](track_genre) songs
+- I would like to listen to any [hip-hop](track_genre) beat
+- can you play a track from album [SASAMI](track_album) by [Drake](track_artist)?
+- Play any music from album [Crushing](track_album)
+- can you play any track from album [Titanic Rising](track_album) by [Future](track_artist)?
+- will you please play tracks from [Legend](track_album) album
+- please play the [rap](track_genre) for me
+- Would you please play songs from [Marshal Mather LP II](track_album) by [Drake](track_artist)?
+- will you please play any music from [SASAMI](track_album) by [Lil Wayne](track_artist)?
+- Would you please play music from [Outer Peace](track_album)?
+- will you please play any music from [Western Stars](track_album)?
+- I would like to listen to the [blues](track_genre) track
+- can you play any song from album [Crushing](track_album)?
+- Would you please play any song from the album [Quiet Signs](track_album) by [Lil Wayne](track_artist)?
+- will you please play tracks from [Requiem for a Dream](track_album)?
+- I would like to listen a track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- will you please play songs from album [Let’s Talk About Love](track_album) by [Drake](track_artist)?
+- Play the [pop](track_genre) music.
+- Would you please play music from album [IGOR](track_album)?
+- please play the [funk](track_genre) track  for me
+- Play songs from album [IGOR](track_album) by [Cardi B](track_artist), will you?
+- Could you please play the [soundtrack](track_genre) music for us?
+- I wanna dance to tracks from album [Appetite for Destruction](track_album).
+- can you play a track from [Marshal Mather LP II](track_album) album.
+- Play any track from album [This Is How You Smile](track_album) by [Ludacris](track_artist), will you?
+- Play any track from [Young Enough](track_album)
+- Would you please play any track from the album [Sunshine Rock](track_album) by [XAMES3](track_artist)?
+- please play some [dubstep](track_genre) tracks
+- I would like to hear some [rap](track_genre) tracks
+- can you play any music from album [Beware of the Dogs](track_album) by [Shawn Mendes](track_artist)?
+- Play a track from [Revival](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play songs from album [Rumours](track_album)?
+- Play some music from album [Dedicated](track_album) by [Warner & Chappell](track_artist), will you?
+- Would you please play any track from [Let’s Talk About Love](track_album) album.
+- I would like to listen some music from the album [Oh My God](track_album)
+- Would you please play any song from the album [Norman Fucking Rockwell](track_album) by [Sean Paul](track_artist)?
+- Would you please play tracks from album [This Is How You Smile](track_album)?
+- cheer me up by playing any song from album [In League With Dragons](track_album), will you?
+- Would you please play music from album [Supernatural](track_album) by [Eminem](track_artist)?
+- Would you please play some music from album [Oh My God](track_album)?
+- I would like to hear to music from [Bad](track_album) by [XAMES3](track_artist)
+- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I would enjoy to hear to [Halsey](track_artist)
+- Play tracks from album [U.F.O.F](track_album) by [Akon](track_artist), will you?
+- I would like you to please play the [hip-hop](track_genre) track
+- Play any music from album [The Immaculate Collection](track_album) by [Kanye West](track_artist), will you?
+- Play any track from album [Marshal Mather LP II](track_album)
+- will you please play a track from the album [Appetite for Destruction](track_album) by [Rick0 James](track_artist)?
+- cheer me up by playing any song from the album [The Wizrd](track_album), will you?
+- I would like to listen any track from album [Legend](track_album)
+- I wanna listen any track from the album [Dedicated](track_album)
+- please play the [blues](track_genre) music for us
+- please play some [dubstep](track_genre) music
+- Play some music from [Revival](track_album) by [Drake](track_artist), will you?
+- I would like to listen any song from the album [Recovery](track_album)
+- will you please play any track from the album [Legend](track_album) by [Maroon 5](track_artist)?
+- Play [rock](track_genre) music
+- I would like to listen to music from [The Immaculate Collection](track_album) by [Fifth Harmony](track_artist).
+- Play something from [Anima](track_album), will you?
+- can you play something from the album [Yandhi](track_album)?
+- I would like to listen any track from [Yandhi](track_album)
+- I would like to dance to music from [The Immaculate Collection](track_album) by [Ludacris](track_artist)
+- Play any [grunge](track_genre) music
+- cheer me up by playing songs from [Back in Black](track_album), will you?
+- Play music from [Rumours](track_album)
+- Would you please play any music from album [Crushing](track_album)?
+- I would like to listen tracks from [Let’s Talk About Love](track_album) album.
+- I will like to have some [Metal](track_genre)
+- I would like to dance to any [funk](track_genre) music
+- Would you please play something from [Appetite for Destruction](track_album) album.
+- cheer me up by playing tracks from album [Marshal Mather LP II](track_album), will you?
+- I wanna dance to any track from the album [U.F.O.F](track_album)
+- I would like you to please play the [edm](track_genre) music
+- can you play something from album [Dedicated](track_album) by [Drake](track_artist)?
+- please play the [Hip-hop](track_genre) music for me
+- can you play any music from album [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
+- please play some [soundtrack](track_genre) musicc for me
+- please play any [edm](track_genre) music for us
+- I would like to listen songs from album [Purple Reign](track_album)
+- some [soundtrack](track_genre) beat
+- can you play any track from album [Legend](track_album)?
+- Play any song from the album [What Chaos Is Imaginary](track_album)
+- can you please play some music from the album [Remind Me Tomorrow](track_album)?
+- Play any song from [EVEN IN THE TREMOR](track_album), will you?
+- I would like to listen a track from [The Immaculate Collection](track_album) album
+- I would like you to please play any [soundtrack](track_genre) musicc
+- can you please play any music from [Led Zeppelin IV](track_album) album
+- show me your musical talent
+- Play any music from [The Immaculate Collection](track_album), will you?
+- can you play any track from the album [Legend](track_album) by [Mellen Gi](track_artist)?
+- Play any song from album [The Night King](track_album)
+- Would you please play tracks from [Bad](track_album) album by [Eminem](track_artist)
+- I wanna dance to any track from [Dedicated](track_album)
+- Play some music from [Legend](track_album), will you?
+- Play some music from album [Let’s Talk About Love](track_album), will you?
+- I would like to listen any track from album [The Immaculate Collection](track_album)
+- Would you please play a track from [Titanic Rising](track_album) album
+- I wanna listen any music from album [Legend](track_album)
+- I would like to dance to some [Funk](track_genre) track
+- I will like to have some [edm](track_genre) track
+- Would you please play tracks from [On the Line](track_album)?
+- Play tracks from album [Western Stars](track_album) by [Drake](track_artist), will you?
+- can you play any music from the album [Recovery](track_album) by [50 cents](track_artist)?
+- will you please play music from [The Immaculate Collection](track_album) by [Sean Paul](track_artist)?
+- Play songs from album [Titanic Rising](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play any track from [Slaves of Fear](track_album) album by [Mellen Gi](track_artist), will you?
+- Play a track from [Phoenix](track_album)
+- will you please play any song from [Bad](track_album)?
+- I would enjoy to dance to [Usher](track_artist)
+- I will like to have some [soundtrack](track_genre) musicc
+- Play any track from [Marshal Mather LP II](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna dance to music from [Let’s Talk About Love](track_album).
+- Play music from [LP3](track_album), will you?
+- will you please play any track from album [Bad](track_album) by [Eagles](track_artist)?
+- cheer me up by playing any song from [Rumours](track_album) album, will you?
+- I would enjoy to hear to [Camila Cabello](track_artist)
+- I would like to listen any track from [Quiet Signs](track_album) album.
+- Please play the [punk](track_genre) songs
+- Play something from the album [On The Line](track_album)
+- I would like to listen some music from the album [Bad](track_album)
+- Would you please play any music from album [Bad](track_album)?
+- I wanna listen a track from [Legend](track_album)
+- Would you please play some music from the album [Led Zeppelin IV](track_album) by [The Chainsmokers](track_artist)?
+- Would you please play some [edm](track_genre) songs?
+- Play something by [Linkin Park](track_artist)
+- will you please play songs from [La La Land](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play any song from album [YOU CAN'T SIT WITH US](track_album)?
+- will you please play something from [Led Zeppelin IV](track_album) album.
+- can you please play any track from album [Angel's Pulse](track_album)?
+- I would like to hear to [Khalid](track_artist)
+- Could you please play any [punk](track_genre) beat?
+- Could you please play some [soundtrack](track_genre) tracks for us?
+- can you play any track from album [Outer Peace](track_album) by [Bonobo](track_artist)?
+- Play a track from the album [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
+- I would like to dance to some [pop](track_genre)
+- please play any [blues](track_genre) track for us
+- can you play any track from album [Oliver Appropriate](track_album) by [Eagles](track_artist)?
+- Would you play something by [Bruno Mars](track_artist)?
+- Would you please play any track from the album [Supernatural](track_album)?
+- I wanna dance to music from album [Bad](track_album).
+- Would you please play songs from album [Back in Black](track_album) by [Future](track_artist)?
+- I wanna dance to tracks from [Rumours](track_album) album
+- Play any song from the album [When I Get Home](track_album)
+- Cheer me up.
+- I wanna listen any track from [Norman Fucking Rockwell](track_album) album
+- I would like to listen to some [metal](track_genre) songs
+- Play any track from the album [Led Zeppelin IV](track_album) by [Cardi B](track_artist), will you?
+- Play a track from album [When I Get Home](track_album)
+- Play a track from album [Kamikaze](track_album)
+- Play songs from album [The Saint of Lost Causes](track_album) by [Drake](track_artist), will you?
+- can you please play music from [Metallica](track_album)?
+- please play some [hip-hop](track_genre) music for me
+- Would you please play any track from the album [Hotel California](track_album) by [Bonobo](track_artist)?
+- will you please play any music from album [Dedicated](track_album) by [Dr. Dre;Eminem](track_artist)?
+- I wanna dance to some music from the album [Beware of the Dogs](track_album)
+- will you please play some music from album [Sunshine Rock](track_album)?
+- Please play the [metal](track_genre) track
+- I wanna dance to any track from [Supernatural](track_album).
+- Would you please play songs from album [Legend](track_album)?
+- Please play music by [Khalid](track_artist).
+- can you please play something from [Legend](track_album) album
+- Would you please play any track from [Dedicated](track_album) by [Eagles](track_artist)?
+- I wanna dance to any song from the album [Legend](track_album)
+- Could you please play the [metal](track_genre) songs for us?
+- Would you please play a track from album [Rumours](track_album) by [Eminem](track_artist)?
+- Play the [dubstep](track_genre) track.
+- Play any music from album [Thank U, Next](track_album)
+- Play the [pop](track_genre) songs
+- Would you please play any [Hiphop](track_genre) music?
+- can you please play songs from [On the Line](track_album)?
+- can you please play any music from [Anima](track_album) album.
+- Play any song from [Recovery](track_album) album.
+- I would like to groove to any [funk](track_genre) beat
+- Play any music from [Kamikaze](track_album), will you?
+- I would like to hear some [hip-hop](track_genre) music
+- Would you please play any track from [Kamikaze](track_album)?
+- can you please play any song from the album [Oliver Appropriate](track_album)?
+- will you please play tracks from album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- Would you please play a track from album [Led Zeppelin IV](track_album) by [The Chainsmokers](track_artist)?
+- I wanna dance to any track from album [Supernatural](track_album).
+- I would like to hear some [punk](track_genre) track
+- Would you please play something by [Florida](track_artist)?
+- I will like to have any [hip-hop](track_genre) beat
+- I would like to listen any track from [YOU CAN'T SIT WITH US](track_album) album
+- Would you please play any track from [Rumours](track_album) album by [Eminem](track_artist)
+- can you play something from [Oliver Appropriate](track_album) album
+- I would love to listen to something by [Imagine Dragons](track_artist)
+- I wanna dance to any music from the album [Notes on a Conditional Form](track_album)
+- I would like to listen to any [grunge](track_genre) music
+- Would you please play some music from album [Led Zeppelin IV](track_album) by [Three Days Grace](track_artist)?
+- can you please play any music from [On The Line](track_album) album.
+- cheer me up by playing any track from [The Black Album](track_album), will you?
+- Please play the [grunge](track_genre) tracks
+- I would like to listen something from [Illuminate](track_album) album.
+- will you please play any track from the album [The Craving for Absolute Serenity](track_album)?
+- will you please play a track from album [Everything Not Saved Will Be Lost—Part 1](track_album)?
+- Play any song from [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
+- will you please play any track from album [Heard It In A Past Life](track_album)?
+- Could you please play something by [Imagine Dragons](track_artist)?
+- Play any music from the album [U.F.O.F](track_album) by [Celine Dion](track_artist), will you?
+- can you play music from [Bandana](track_album) by [Cardi B](track_artist)?
+- Play something by [Dr. Dre;Eminem](track_artist)
+- will you please play tracks from [Father of the Bride](track_album) by [Eagles](track_artist)?
+- Would you please play any song from [Let’s Talk About Love](track_album) album.
+- Play any music from album [Let’s Talk About Love](track_album), will you?
+- will you please play any track from album [EVEN IN THE TREMOR](track_album) by [Drake](track_artist)?
+- will you please play some music from the album [Cuz I Love You](track_album)?
+- I would love to listen to [Nicki Minaj](track_artist)
+- Play some music from [Appetite for Destruction](track_album) by [Bonobo](track_artist), will you?
+- can you please play music from album [The Immaculate Collection](track_album)?
+- will you please play any music from album [Heard It In A Past Life](track_album)?
+- will you please play songs from album [Marshal Mather LP II](track_album) by [Rick0 James](track_artist)?
+- Please play any [blues](track_genre) music
+- Could you play something by [Imagine Dragons](track_artist)?
+- Play the [grunge](track_genre) songs
+- Would you please play tracks from album [Oliver Appropriate](track_album)?
+- will you please play tracks from [Oh My God](track_album)?
+- I wanna listen any song from [LP3](track_album)
+- can you play any track from [Back in Black](track_album) album.
+- Would you please play any song from the album [On the Line](track_album)?
+- I would like you to please play some [soundtrack](track_genre) beat
+- I would like to listen any track from [Kamikaze](track_album) album
+- will you please play any track from the album [Flamagra](track_album) by [Mad Money](track_artist)?
+- I would like to hear any [Electronic](track_genre) beat
+- Would you please play any music from the album [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- Play any music from [SASAMI](track_album) album, will you?
+- can you please play songs from album [New Breed](track_album)?
+- Would you please play music from album [Western Stars](track_album)?
+- will you please play any track from album [Flamagra](track_album) by [Sean Paul](track_artist)?
+- Play tracks from [Supernatural](track_album).
+- will you please play a track from album [On The Line](track_album) by [Fifth Harmony](track_artist)?
+- Please play some [pop](track_genre) music
+- Play any song from [Angel's Pulse](track_album), will you?
+- Could you please play some [blues](track_genre) songs for us?
+- can you play something from [On The Line](track_album)?
+- can you please play something from album [The Immaculate Collection](track_album)?
+- Could you please play some [dubstep](track_genre) tracks?
+- can you please play any music from album [Crushing](track_album)?
+- Play any music from [IGOR](track_album) by [Clint Mansell](track_artist), will you?
+- will you please play any song from album [Father of the Bride](track_album)?
+- I wanna dance to something from album [Legend](track_album)
+- can you play any music from the album [Hijas del Tomate](track_album)?
+- Could you please play the [Rap](track_genre) songs?
+- can you play some music from the album [Oliver Appropriate](track_album) by [Queen](track_artist)?
+- I would like to listen any track from [Designer](track_album).
+- I wanna listen any music from [IGOR](track_album) album
+- Would you please play any track from [Bad](track_album) album
+- Could you please play something by [Usher](track_artist)?
+- can you please play some music from [Bad](track_album)?
+- Would you please play any track from album [when we all fall asleep where do we go](track_album) by [Fifth Harmony](track_artist)?
+- will you please play songs from album [Appetite for Destruction](track_album) by [Camila Cabello](track_artist)?
+- will you please play a track from [Back in Black](track_album) by [Ludacris](track_artist)?
+- cheer me up by playing any song from [Father of the Bride](track_album), will you?
+- Play a track from [Led Zeppelin IV](track_album)
+- can you play tracks from [Buoys](track_album) album.
+- cheer me up by playing any song from [The Saint of Lost Causes](track_album) album, will you?
+- Would you please play some [punk](track_genre) songs?
+- Play any track from album [Hotel California](track_album) by [Ozuna](track_artist), will you?
+- I would like to groove to some [blues](track_genre)
+- can you please play something from [Remind Me Tomorrow](track_album)?
+- can you please play music from [Anima](track_album)?
+- Play a track from album [La La Land](track_album), will you?
+- will you please play something from the album [Father of the Bride](track_album) by [Warner & Chappell](track_artist)?
+- will you please play something from [Mitsubishi Macchiato](track_album) by [Ludacris](track_artist)?
+- can you please play songs from album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- I wanna listen some music from [The Marshall Mathers LP 2 Disc 2](track_album)
+- can you please play a track from the album [Bad](track_album)?
+- can you please play any song from album [Angel's Pulse](track_album)?
+- can you please play something by [Alan Walker](track_artist)?
+- can you play a track from the album [Assume Form](track_album) by [PSY](track_artist)?
+- some [dubstep](track_genre) songs
+- Play a track from the album [Rumours](track_album) by [David Guetta](track_artist), will you?
+- will you please play any music from [The Immaculate Collection](track_album) by [Warner & Chappell](track_artist)?
+- Please play the [grunge](track_genre) songs
+- some [grunge](track_genre) songs
+- sure. play something.
+- Play songs from [Legend](track_album), will you?
+- can you please play something from [Mitsubishi Macchiato](track_album)?
+- I would like to groove to some [pop](track_genre) music
+- Would you please play any track from the album [Bad](track_album)?
+- I wanna listen some music from the album [I Am Easy To Find](track_album)
+- I would like to hear any [Electronic](track_genre) music
+- can you play any music from the album [The Immaculate Collection](track_album)?
+- I wanna dance to any music from [Father of the Bride](track_album)
+- I will like to have the [rap](track_genre) music
+- I wanna listen any track from album [Legend](track_album)
+- Would you please play any [Rock](track_genre) music?
+- can you play any song from [Recovery](track_album) album.
+- will you please play any music from album [Angel's Pulse](track_album)?
+- Would you please play music from [Beware of the Dogs](track_album)?
+- Play any track from the album [The Night King](track_album)
+- I wanna dance to any track from [The Craving for Absolute Serenity](track_album)
+- Would you please play any music from [What Chaos Is Imaginary](track_album)?
+- I would like to groove to the [Metal](track_genre) music
+- Would you please play any track from album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Play tracks from [Thank U, Next](track_album) album by [Akon](track_artist), will you?
+- I will like to have any [punk](track_genre) track
+- can you play any track from [Cuz I Love You](track_album) by [Drake](track_artist)?
+- can you play any track from the album [Young Enough](track_album)?
+- I would like to listen some music from album [Oasis](track_album)
+- I wanna dance to any track from the album [Appetite for Destruction](track_album)
+- Would you please play some music from [Chapter VI](track_album)?
+- some [soundtrack](track_genre) music
+- can you please play something by [Billie Eilish](track_artist)?
+- can you please play songs from album [Legend](track_album)?
+- will you please play some music from the album [This Is How You Smile](track_album) by [Akon](track_artist)?
+- Would you please play any music from [Gallipoli](track_album) album.
+- I wanna dance to any music from [The Immaculate Collection](track_album) album
+- please play the [hip-hop](track_genre) music for me
+- can you please play any song from [Crushing](track_album) album.
+- I would like to listen to [Billie Eilish](track_artist)
+- Could you please play the [grunge](track_genre) for us?
+- will you please play any track from the album [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play tracks from [TBA](track_album) album.
+- Play tracks from album [Titanic Rising](track_album) by [Jay-Z](track_artist), will you?
+- I would like to listen a track from the album [Led Zeppelin IV](track_album)
+- Please play some [metal](track_genre)
+- Play any song from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Drake](track_artist), will you?
+- I wanna listen any track from the album [Flamagra](track_album)
+- can you please play any track from the album [Legend](track_album)?
+- I would like to groove to music from [Appetite for Destruction](track_album) by [XAMES3](track_artist)
+- please play some [edm](track_genre) music for me
+- Would you please play any song from [Anima](track_album)?
+- Play something from the album [Metallica](track_album), will you?
+- Play some music from album [What Chaos Is Imaginary](track_album), will you?
+- can you play something from [Hijas del Tomate](track_album) album
+- will you please play any track from [Legend](track_album)?
+- can you play any music from [U.F.O.F](track_album) by [Ozuna](track_artist)?
+- Play any song from [Chapter VI](track_album) album by [Ludacris](track_artist), will you?
+- I wanna listen a track from [The Immaculate Collection](track_album)
+- will you please play a track from album [Thank U, Next](track_album)?
+- Could you please play any [rap](track_genre) beat for us?
+- can you play any music from album [Angel's Pulse](track_album) by [Florida](track_artist)?
+- Play the [pop](track_genre) tracks.
+- Could you please play some [funk](track_genre) tracks for us?
+- I would love to hear to [Billie Eilish](track_artist)
+- will you please play songs from album [Back in Black](track_album)?
+- Play the [soundtrack](track_genre) music.
+- Would you please play any track from album [Heard It in a Past Life](track_album) by [Drake](track_artist)?
+- can you please play a track from the album [Revival](track_album)?
+- Play any music from [IGOR](track_album) album, will you?
+- I would like you to please play any [Metal](track_genre) track
+- I wanna listen a track from [Gold and Grey](track_album)
+- Play any music from album [Oasis](track_album)
+- I would like to listen to [Akon](track_artist)
+- I wanna listen songs from [Thank U, Next](track_album)
+- I will like to have any [metal](track_genre) beat
+- Could you please play any [grunge](track_genre) track?
+- Could you please play some [hip-hop](track_genre) tracks?
+- Would you please play songs from album [Recovery](track_album) by [Nate Dogg](track_artist)?
+- cheer me up by playing any song from [Revival](track_album) album, will you?
+- can you play any track from [Back in Black](track_album) by [Mad Money](track_artist)?
+- I wanna listen songs from [Father of the Bride](track_album)
+- will you please play any track from [Metallica](track_album) by [Mellen Gi](track_artist)?
+- Please play any [funk](track_genre) music
+- will you please play a track from the album [Legend](track_album) by [Cardi B](track_artist)?
+- I want to listen something by [Dr. Dre;Eminem](track_artist)
+- can you play any track from album [Illuminate](track_album) by [DJ Snake](track_artist)?
+- I will like to have some [soundtrack](track_genre)
+- I would like to listen something from the album [Back in Black](track_album)
+- Play a track from [The Immaculate Collection](track_album), will you?
+- I wanna listen any track from [Legend](track_album) album
+- will you please play something from album [The Marshall Mathers LP 2 Disc 2](track_album) by [Cardi B](track_artist)?
+- Would you please play any song from the album [The Marshall Mathers LP 2 Disc 2](track_album)?
+- can you play a track from [LP3](track_album)?
+- Play a track from [Rumours](track_album) album, will you?
+- I would like to dance to music from [YOU CAN'T SIT WITH US](track_album) by [XAMES3](track_artist).
+- Play any track from [Supernatural](track_album), will you?
+- will you please play a track from [EVEN IN THE TREMOR](track_album) album
+- I will like to have any [hip-hop](track_genre) music
+- [cud](grammar:could) you please play something from [Recovery](track_album)?
+- can you please play something from [Appetite for Destruction](track_album) album.
+- will you please play some music from album [Young Enough](track_album) by [Rick0 James](track_artist)?
+- Could you please play the [pop](track_genre) track ?
+- I would like to hear the [soundtrack](track_genre) music
+- Would you please play the [punk](track_genre) music?
+- can you please play songs from [Appetite for Destruction](track_album)?
+- Would you please play any track from [Marshal Mather LP II](track_album) by [Katy Perry](track_artist)?
+- Would you please play any track from [The Immaculate Collection](track_album) by [Drake](track_artist)?
+- I would like you to please play any [metal](track_genre) music
+- I wanna listen music from album [Back in Black](track_album).
+- I would like to dance to some [blues](track_genre) tracks
+- I would love to listen to [Eagles](track_artist)
+- Play any track from the album [LP3](track_album) by [Eagles](track_artist), will you?
+- Could you please play something by [Kanye West](track_artist)?
+- Would you please play any track from [Father of the Bride](track_album) album
+- Play a track from [Legend](track_album) album
+- can you please play a track from [Mitsubishi Macchiato](track_album) album
+- will you please play something from [Let’s Talk About Love](track_album) by [Drake](track_artist)?
+- Please play the [blues](track_genre)
+- Would you please play some music from [Father of the Bride](track_album) by [Cardi B](track_artist)?
+- I would like to listen any track from the album [SASAMI](track_album)
+- please play the [dubstep](track_genre) for me
+- Play tracks from [Angel's Pulse](track_album) by [Kanye West](track_artist), will you?
+- Please play the [funk](track_genre) music
+- please play some [dubstep](track_genre) songs
+- Play songs from [Thank U, Next](track_album), will you?
+- Play any track from [Oasis](track_album) album by [Nate Dogg](track_artist), will you?
+- can you please play any track from the album [New Breed](track_album)?
+- please play any [pop](track_genre) track for us
+- play something by [Huma](track_artist).
+- Play songs from [Chapter VI](track_album) by [Ludacris](track_artist), will you?
+- I would like to listen tracks from [The Immaculate Collection](track_album) album
+- Would you please play some [blues](track_genre) track ?
+- can you play tracks from album [Requiem for a Dream](track_album) by [Drake](track_artist)?
+- Play something from [Buoys](track_album), will you?
+- could you please something by [rihanna](track_artist)?
+- I would like to listen some music from [The Immaculate Collection](track_album)
+- can you play songs from [Recovery](track_album)?
+- I [wud](grammar:would) like to [listen](action) to some music.
+- I will like to have the [Hiphop](track_genre) track
+- Would you please play any track from album [Led Zeppelin IV](track_album) by [Ludacris](track_artist)?
+- cheer me up by playing something from [Good Ass Job](track_album) album, will you?
+- Play any song from [Legend](track_album) by [Eagles](track_artist), will you?
+- Could you please play the [metal](track_genre) tracks for us?
+- can you play music from album [EVEN IN THE TREMOR](track_album)?
+- can you play any track from album [The Immaculate Collection](track_album)?
+- can you play a track from the album [Marshal Mather LP II](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play any music from album [Legend](track_album)?
+- Could you please play any [Dubstep](track_genre) music?
+- can you play any music from [Legend](track_album)?
+- I wanna dance to songs from [The Marshall Mathers LP 2 Disc 2](track_album)
+- Could you please play some [funk](track_genre) tracks?
+- I wanna listen any track from [Rumours](track_album)
+- please play the [metal](track_genre) track  for us
+- I would like to listen to any [Hiphop](track_genre) music
+- will you please play any song from [On The Line](track_album) by [Eagles](track_artist)?
+- I will like to have some [pop](track_genre) tracks
+- will you please play a track from [Back in Black](track_album) album by [Kanye West](track_artist).
+- will you please play something from album [Supernatural](track_album)?
+- please play the [edm](track_genre) track  for me
+- I would like you to please play some [dubstep](track_genre) track
+- Would you please play some music from album [Recovery](track_album)?
+- Would you please play a track from the album [Revival](track_album)?
+- I would like to listen any track from [Marshal Mather LP II](track_album)
+- I would like to listen to the [grunge](track_genre) tracks
+- can you play any music from [Rumours](track_album) album by [Shawn Mendes](track_artist)
+- Play any track from the album [Father of the Bride](track_album), will you?
+- Play any [grunge](track_genre) beat
+- Would you please play any music from [La La Land](track_album) album by [Bonobo](track_artist)
+- please play the [rap](track_genre) track  for us
+- please play the [Pop](track_genre) for us
+- will you please play any music from [On the Line](track_album) by [Ludacris](track_artist)?
+- Would you please play tracks from album [Let’s Talk About Love](track_album) by [Jay-Z](track_artist)?
+- I would like to listen a track from [Led Zeppelin IV](track_album)
+- I would like to listen something from album [The Wizrd](track_album)
+- cheer me up by playing any track from album [Recovery](track_album), will you?
+- can you play a track from [Rumours](track_album) album by [Rick0 James](track_artist)
+- I would like to dance to the [pop](track_genre)
+- Play something from [Lets Try the After](track_album) by [Jay-Z](track_artist), will you?
+- I would like to groove to the [metal](track_genre)
+- Would you please play any track from [Western Stars](track_album) album by [Shawn Mendes](track_artist).
+- Play any track from [In League With Dragons](track_album) album
+- cheer me up by playing tracks from [Back in Black](track_album) album, will you?
+- Play songs from [SASAMI](track_album) by [Drake](track_artist), will you?
+- cheer me up by playing tracks from [Led Zeppelin IV](track_album), will you?
+- Play any song from album [Sunshine Rock](track_album)
+- will you please play a track from the album [The Immaculate Collection](track_album)?
+- I would like you to please play the [blues](track_genre) track
+- can you play some music from the album [U.F.O.F](track_album) by [Sia](track_artist)?
+- cheer me up by playing songs from album [YOU CAN'T SIT WITH US](track_album), will you?
+- will you please play any track from [Kamikaze](track_album) album
+- Would you please play tracks from album [U.F.O.F](track_album)?
+- I wanna listen songs from [Appetite for Destruction](track_album).
+- will you please play a track from [Gold and Grey](track_album) album by [Clint Mansell](track_artist).
+- Play some music from the album [Young Enough](track_album) by [Justin Hurwitz](track_artist), will you?
+- please play some [funk](track_genre) tracks
+- I wanna dance to some music from the album [Led Zeppelin IV](track_album)
+- Play some [soundtrack](track_genre) music
+- Would you please play something by [Ludacris](track_artist)?
+- can you please play a track from [Titanic Rising](track_album) album
+- will you please play any track from [Revival](track_album) by [Drake](track_artist)?
+- cheer me up by playing any track from [On the Line](track_album) album, will you?
+- I would like to listen any music from [YOU CAN'T SIT WITH US](track_album) album
+- Could you please play the [soundtrack](track_genre) beat?
+- can you please play a track from [IGOR](track_album) album.
+- Would you please play any music from [Purple Reign](track_album) album by [Drake](track_artist)
+- can you play any track from the album [Norman Fucking Rockwell](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play songs from [Notes on a Conditional Form](track_album)?
+- Play songs from album [Make It Big](track_album) by [Drake](track_artist), will you?
+- Play a track from [The Night King](track_album) album.
+- I would like to listen any track from [Assume Form](track_album) album.
+- I wanna listen tracks from [Led Zeppelin IV](track_album) album.
+- will you please play something from [What Chaos Is Imaginary](track_album) album.
+- Would you please play any music from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Dr. Dre;Eminem](track_artist)
+- can you play some music from the album [Supernatural](track_album)?
+- please me
+- cheer me up by playing songs from [The Immaculate Collection](track_album), will you?
+- I wanna dance to any track from [Western Stars](track_album)
+- Play any music from album [Recovery](track_album).
+- Play music from album [Back in Black](track_album), will you?
+- I wanna listen any track from [Metallica](track_album)
+- will you please play any song from [Lets Try the After](track_album) album by [Drake](track_artist).
+- please play the [Funk](track_genre) music for us
+- I would like to listen any music from the album [Back in Black](track_album)
+- Play something from [Legend](track_album) album by [Mellen Gi](track_artist), will you?
+- will you please play some music from album [Dedicated](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Please play some [soundtrack](track_genre) tracks
+- Would you please play songs from [Oh My God](track_album) by [Cardi B](track_artist)?
+- I wanna dance to any track from the album [The Wizrd](track_album)
+- can you play any song from [Hotel California](track_album) album
+- Play any track from album [Quiet Signs](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I wanna listen any track from album [On the Line](track_album)
+- please play any [blues](track_genre) music for me
+- Could you please play the [hip-hop](track_genre) songs?
+- cheer me up by playing any track from [Heard It In A Past Life](track_album) album, will you?
+- can you play any track from [Dedicated](track_album)?
+- Would you please play any song from [This is Acting](track_album) album by [XAMES3](track_artist)
+- can you please play tracks from album [Appetite for Destruction](track_album)?
+- I would like to dance to some [soundtrack](track_genre) musicc
+- Would you please play any song from the album [Oasis](track_album) by [Mad Money](track_artist)?
+- can you play any track from [Legend](track_album)?
+- Play some music from album [Metallica](track_album), will you?
+- Play tracks from [Atlanta Millionaires Club](track_album), will you?
+- I wanna dance to something from album [U.F.O.F](track_album)
+- I would like to listen any track from [Gold and Grey](track_album) album
+- Play any track from [This Is How You Smile](track_album), will you?
+- will you please play a track from [Metallica](track_album) album
+- Could you please play any [soundtrack](track_genre) track?
+- Play any song from [I Am Easy To Find](track_album)
+- some [hip-hop](track_genre) songs
+- Play any music from the album [YOU CAN'T SIT WITH US](track_album), will you?
+- I wanna dance to tracks from [Norman Fucking Rockwell](track_album).
+- Play a track from the album [Legend](track_album), will you?
+- will you please play a track from the album [Back in Black](track_album)?
+- will you please play tracks from album [Crushing](track_album)?
+- please play the [metal](track_genre) for us
+- I would like to listen tracks from album [Lets Try the After](track_album)
+- I wanna dance to any track from [Led Zeppelin IV](track_album)
+- I would like to listen a track from [Appetite for Destruction](track_album)
+- Would you please play something from [SASAMI](track_album) by [Linkin Park](track_artist)?
+- I would like you to please play the [hip-hop](track_genre) songs
+- Would you please play any track from the album [Oliver Appropriate](track_album)?
+- can you play tracks from [Let’s Talk About Love](track_album) album.
+- I would like to dance to the [metal](track_genre) music
+- Play any track from album [Sunshine Rock](track_album)
+- can you play tracks from [Cuz I Love You](track_album) album.
+- can you please play any track from album [This is Acting](track_album)?
+- Play a [Blues](track_genre) music
+- please play some [grunge](track_genre) music
+- will you please play any track from [TBA](track_album) album.
+- I wanna dance to any song from album [Recovery](track_album).
+- I would love to hear to [Bruno Mars](track_artist)
+- I wanna dance to any music from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any track from [What Chaos Is Imaginary](track_album) by [50 cents](track_artist), will you?
+- Play something from the album [Quiet Signs](track_album)
+- can you please play any track from the album [The Immaculate Collection](track_album)?
+- I would like to listen something from [Back in Black](track_album) album.
+- can you play some music from album [Lets Try the After](track_album)?
+- Play some [soundtrack](track_genre) track
+- Play a track from [Metallica](track_album), will you?
+- Play any music from album [EVEN IN THE TREMOR](track_album) by [Cardi B](track_artist), will you?
+- I would like to listen to [Adele](track_artist)
+- I wanna listen any song from the album [Titanic Rising](track_album)
+- can you play any track from album [Revival](track_album)?
+- I would like to groove to some [blues](track_genre) tracks
+- Play some [rap](track_genre) songs
+- will you please play any song from [Anima](track_album)?
+- Play some [hip-hop](track_genre)
+- Play songs from [When I Get Home](track_album), will you?
+- I wanna dance to any song from [Dedicated](track_album) album.
+- Play tracks from album [Harverd Dropout](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to dance to any [punk](track_genre) music
+- can you play any music from the album [Oasis](track_album)?
+- I would like to listen songs from [What Chaos Is Imaginary](track_album).
+- will you please play any music from the album [Led Zeppelin IV](track_album)?
+- will you please play any track from [On the Line](track_album)?
+- will you please play some music from the album [Bad](track_album)?
+- can you play some music from the album [What Chaos Is Imaginary](track_album) by [Diplo](track_artist)?
+- will you please play any track from the album [I Am Easy To Find](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play something from album [Heard It In A Past Life](track_album)?
+- Could you please play some [hip-hop](track_genre) for us?
+- cheer me up by playing any song from the album [Remind Me Tomorrow](track_album), will you?
+- play anything on music player.
+- please play the [soundtrack](track_genre) songs for us
+- Play any track from [Oh My God](track_album) album by [Cardi B](track_artist), will you?
+- Play some music from the album [Rumours](track_album), will you?
+- will you please play a track from the album [Requiem for a Dream](track_album) by [Drake](track_artist)?
+- Would you please play any song from [Metallica](track_album)?
+- cheer me up by playing something from [Metallica](track_album) album, will you?
+- I would like you to please play some [metal](track_genre) music
+- Would you please play songs from [Metallica](track_album)?
+- can you play any song from [The Night King](track_album)?
+- I would like to listen music from [LP3](track_album).
+- I would like to listen to any [grunge](track_genre) track
+- please play the [blues](track_genre) tracks for me
+- I would like to hear some [edm](track_genre) tracks
+- some [pop](track_genre) tracks
+- I would like to dance to [Usher](track_artist)
+- will you please play any song from [Back in Black](track_album) by [50 cents](track_artist)?
+- I wanna dance to something from album [SASAMI](track_album)
+- Would you please play any music from [Recovery](track_album) album by [Nicki Minaj](track_artist).
+- can you play any track from [Flamagra](track_album) album
+- Could you please play the [funk](track_genre) track  for us?
+- I wanna listen any song from album [The Marshall Mathers LP 2 Disc 2](track_album)
+- I would like to listen to the [Jazz](track_genre)
+- will you please play any track from [Crushing](track_album) by [Charlotte Rose Ellis](track_artist)?
+- please play some [metal](track_genre) songs
+- do we have something from [akon](track_artist) and [Eminem](track_artist)?
+- can you play something from [The Immaculate Collection](track_album)?
+- I would like to hear to music from [Angel's Pulse](track_album) by [Linkin Park](track_artist)
+- I wanna listen some music from [Atlanta Millionaires Club](track_album)
+- please play the [hip-hop](track_genre) songs for us
+- can you please play any music from [What Chaos Is Imaginary](track_album)?
+- can you play any music from [Crushing](track_album) album
+- will you please play any track from album [Yandhi](track_album)?
+- I wanna dance to something from the album [Phoenix](track_album)
+- Play any song from [Metallica](track_album) by [Fifth Harmony](track_artist), will you?
+- Play songs from album [Legend](track_album) by [Shawn Mendes](track_artist), will you?
+- please play some [soundtrack](track_genre) musicc for us
+- cheer me up by playing any track from [Kamikaze](track_album), will you?
+- Play a track from the album [Rumours](track_album), will you?
+- Play music from [Beware of the Dogs](track_album).
+- can you play something from [Lets Try the After](track_album) album.
+- Would you please play any track from [The Immaculate Collection](track_album) album by [Three Days Grace](track_artist).
+- Play tracks from [Lets Try the After](track_album).
+- Play tracks from album [Oliver Appropriate](track_album), will you?
+- Could you please play some [hip-hop](track_genre) track ?
+- can you play any track from album [Heard It In A Past Life](track_album) by [Eagles](track_artist)?
+- Play any track from the album [Gold and Grey](track_album), will you?
+- Would you please play any track from [EVEN IN THE TREMOR](track_album) by [Ozuna](track_artist)?
+- I would like to dance to some [metal](track_genre) track
+- I would like to listen a track from album [The Immaculate Collection](track_album)
+- Would you please play any music from the album [Flamagra](track_album)?
+- cheer me up by playing any track from [EVEN IN THE TREMOR](track_album) album, will you?
+- can you please play a track from the album [Crushing](track_album)?
+- Would you please play tracks from album [Recovery](track_album)?
+- play music from [Anima](track_album), will you?
+- will you please play music from [On The Line](track_album)?
+- I would like to groove to some [metal](track_genre) tracks
+- Play any track from album [The Immaculate Collection](track_album) by [Linkin Park](track_artist), will you?
+- can you play something from the album [Everything Not Saved Will Be Lost—Part 1](track_album) by [Cardi B](track_artist)?
+- I would like to listen to [Ariana Grande](track_artist)
+- Play any music from [The Immaculate Collection](track_album) album by [Ozuna](track_artist), will you?
+- Could you please play the [hip-hop](track_genre) tracks?
+- Would you please play a track from [The Immaculate Collection](track_album) album
+- I wanna listen some music from [LP3](track_album)
+- will you please play any song from [The Black Album](track_album) album
+- will you please play a track from [Recovery](track_album) album.
+- I wanna dance to any track from [Marshal Mather LP II](track_album) album.
+- I would like to listen songs from [Cuz I Love You](track_album).
+- Could you please play the [blues](track_genre) track  for us?
+- cheer me up by playing any track from album [Bad](track_album), will you?
+- Play songs from album [Metallica](track_album) by [Drake](track_artist), will you?
+- can you please play any song from the album [The Craving for Absolute Serenity](track_album)?
+- can you play any track from the album [Flamagra](track_album)?
+- Play any music from [Gold and Grey](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to hear the [hip-hop](track_genre) songs
+- I wanna listen a track from [Bad](track_album)
+- can you please play any track from [Sunshine Rock](track_album) album
+- I wanna dance to any music from album [Quiet Signs](track_album)
+- can you please play music from [The Saint of Lost Causes](track_album)?
+- Play any song from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play something from [Heard It in a Past Life](track_album)?
+- Would you please play any track from [Sunshine Rock](track_album) album
+- Play any track from the album [Phoenix](track_album)
+- I would like to listen music from [Rumours](track_album)
+- I would like to groove to music from [Cuz I Love You](track_album) by [Madonna](track_artist)
+- Would you please play a track from album [Metallica](track_album)?
+- Play songs from [Metallica](track_album) by [Ludacris](track_artist), will you?
+- I will like to have some [dubstep](track_genre) tracks
+- will you please play a track from [The Immaculate Collection](track_album) by [Shakira](track_artist)?
+- Would you please play any track from the album [Metallica](track_album) by [Cardi B](track_artist)?
+- Play any music from [Revival](track_album), will you?
+- Play any song from [SASAMI](track_album) by [Ed Sheeran](track_artist), will you?
+- I wanna listen songs from album [Hotel California](track_album)
+- Play music from album [Appetite for Destruction](track_album), will you?
+- Can you plz play something from [Recovery](track_album)?
+- I wanna listen something from album [Rumours](track_album)
+- cheer me up.
+- I would like to listen any track from album [Gold and Grey](track_album)
+- Play an [orchestra](track_genre) beat
+- I will like to have the [rap](track_genre) track
+- I would like to hear the [blues](track_genre) tracks
+- I would love to hear to [Snoop Dogg](track_artist)
+- Play the [metal](track_genre) music
+- Would you please play a track from [Titanic Rising](track_album) album.
+- I wanna dance to a track from [The Immaculate Collection](track_album) album
+- Could you please play the [funk](track_genre) music?
+- I would like you to please play any [grunge](track_genre) music
+- Play any track from [Oh My God](track_album) album, will you?
+- some [rap](track_genre) music
+- Play some music from the album [Thank U, Next](track_album)
+- will you please play something from [Rumours](track_album) album
+- will you please play any track from [The Immaculate Collection](track_album) album
+- I would like to hear some [pop](track_genre) music
+- will you please play any track from album [Legend](track_album) by [Dr. Dre;Eminem](track_artist)?
+- will you please play songs from album [Legend](track_album) by [Snoop Dogg](track_artist)?
+- I wanna listen something from the album [Revival](track_album)
+- Could you please play any [rap](track_genre) beat?
+- I wanna dance to any music from [Let’s Talk About Love](track_album) album.
+- Would you please play any song from [Led Zeppelin IV](track_album) album
+- I would like you to please play any [Orchestra](track_genre) track
+- Would you please play any track from [Rumours](track_album) album
+- can you please play songs from album [Oasis](track_album)?
+- please play some [hip-hop](track_genre) for me
+- I would love to dance to [Khalid](track_artist)
+- Could we get something by [Cardi B](track_artist)?
+- can you play music from album [Legend](track_album) by [Ozuna](track_artist)?
+- can you play some music from [The Marshall Mathers LP 2 Disc 2](track_album) by [Cardi B](track_artist)?
+- Would you please play a track from album [Notes on a Conditional Form](track_album)?
+- I would like to groove to music from [Epic Hip Hop](track_album) by [Mad Money](track_artist)
+- can you play any track from [What Chaos Is Imaginary](track_album)?
+- can you play something from [Outer Peace](track_album)?
+- Play any music from album [The Wizrd](track_album) by [Fifth Harmony](track_artist), will you?
+- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album) album
+- will you please play something from [The Immaculate Collection](track_album)?
+- Would you please play a track from [Revival](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you play any music from [When I Get Home](track_album) album.
+- will you please play tracks from [Lets Try the After](track_album) by [Ozuna](track_artist)?
+- Could you please play some [edm](track_genre) music for us?
+- can you please play any song from album [Quiet Signs](track_album)?
+- can you play any track from album [Bad](track_album)?
+- I wanna listen any song from the album [Dedicated](track_album)
+- can you play any track from the album [Gallipoli](track_album)?
+- can you please play tracks from [Bad](track_album)?
+- cheer me up by playing any track from album [Back in Black](track_album), will you?
+- can you play any music from [Oasis](track_album) by [Cardi B](track_artist)?
+- can you please play tracks from [Rumours](track_album) album
+- will you please play some music from album [Back in Black](track_album) by [Sia](track_artist)?
+- I would like to listen any music from the album [Anima](track_album)
+- I wanna dance to songs from album [Cuz I Love You](track_album).
+- will you please play music from album [Oliver Appropriate](track_album)?
+- cheer me up by playing any track from [On The Line](track_album) album, will you?
+- I wanna listen something from [Marshal Mather LP II](track_album) album.
+- Play any track from album [What Chaos Is Imaginary](track_album), will you?
+- can you please play music from album [On The Line](track_album)?
+- can you play a track from album [When I Get Home](track_album)?
+- Play something from [Rumours](track_album)
+- Play songs from [YOU CAN'T SIT WITH US](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- will you please play a track from album [Father of the Bride](track_album) by [Bonobo](track_artist)?
+- can you play a track from [Bandana](track_album) album by [Camila Cabello](track_artist)
+- will you please play songs from [when we all fall asleep where do we go](track_album) by [Dr. Dre;Eminem](track_artist)?
+- Would you please play some music from [Let’s Talk About Love](track_album) by [Mad Money](track_artist)?
+- I will like to have the [metal](track_genre) track
+- Play any track from [Led Zeppelin IV](track_album) album
+- Would you please play some [grunge](track_genre) songs?
+- I wanna listen any music from album [Led Zeppelin IV](track_album)
+- I would like to groove to the [funk](track_genre) songs
+- I would like to dance to the [soundtrack](track_genre) songs
+- can you please play tracks from album [Bad](track_album)?
+- I wanna dance to any music from album [Legend](track_album)
+- Play music from [Western Stars](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- Play a track from [Slaves of Fear](track_album) album, will you?
+- Play any music from album [Anima](track_album)
+- Would you please play any track from [TBA](track_album) album by [Eagles](track_artist)
+- Would you please play songs from album [Legend](track_album) by [Drake](track_artist)?
+- I would like to groove to an [orchestra](track_genre) track
+- I wanna dance to something from [Purple Reign](track_album)
+- Play music by [Imagine Dragons](track_artist)
+- I would like to listen something from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play any track from the album [Requiem for a Dream](track_album)
+- Would you please play some music from album [Appetite for Destruction](track_album) by [Three Days Grace](track_artist)?
+- can you play any music from the album [Anima](track_album)?
+- Would you please play any track from the album [Father of the Bride](track_album)?
+- Please play some [Rock](track_genre) music
+- Play tracks from [Tip of the Sphere](track_album) by [Dr. Dre;Eminem](track_artist), will you?
+- I would like to dance to some [dubstep](track_genre) track
+- can you please play tracks from [Legend](track_album)?
+- Would you please play any track from the album [Let’s Talk About Love](track_album)?
+- I would like you to please play the [Hiphop](track_genre) track
+- Would you please play something by [Akon](track_artist)?
+- can you play a track from the album [Requiem for a Dream](track_album)?
+- I would like to hear the [Orchestra](track_genre) music
+- will you please play any track from the album [Kamikaze](track_album) by [Nicki Minaj](track_artist)?
+- I wanna listen music from album [Metallica](track_album)
+- Would you please play any track from [Designer](track_album) album by [Drake](track_artist)
+- yep, I just want to listen to music by [Eminem](track_artist).
+- I would like to groove to any [hip-hop](track_genre) music
+- what do u think of [dubstep](track_genre) Play it.
+- Play a track from [Kamikaze](track_album) album by [Eagles](track_artist), will you?
+- can you play any track from the album [Quiet Signs](track_album) by [Ozuna](track_artist)?
+- Play songs from [Supernatural](track_album).
+- play music from [This is Eminem](track_album)
+- make me feel comfortable.
+- can you please play any song from the album [Supernatural](track_album)?
+- I would like to listen something from [EVEN IN THE TREMOR](track_album)
+- Could you please play the [grunge](track_genre) tracks?
+- will you please play tracks from [The Immaculate Collection](track_album) album
+- Would you please play tracks from [Led Zeppelin IV](track_album) album.
+- I wanna dance to some music from [U.F.O.F](track_album)
+- I wanna listen any song from [Revival](track_album) album
+- I would like to listen any track from album [Back in Black](track_album)
+- Please play any [metal](track_genre) beat
+- Play something from album [Requiem for a Dream](track_album)
+- I would like to listen a track from the album [Mitsubishi Macchiato](track_album)
+- Play songs from [La La Land](track_album)
+- can you please play any song from the album [Designer](track_album)?
+- can you please play tracks from [Heard It In A Past Life](track_album)?
+- Play songs from album [IGOR](track_album), will you?
+- Please play any [Hiphop](track_genre) track
+- Would you please play a track from the album [Gallipoli](track_album)?
+- Play any track from [Good Ass Job](track_album), will you?
+- please play any [Electronic](track_genre) track for me
+- Play the [dubstep](track_genre) tune.
+- can you please play any music from [Back in Black](track_album) album
+- Play songs from album [Revival](track_album), will you?
+- can you play a track from [The Immaculate Collection](track_album) album by [Dr. Dre;Eminem](track_artist)
+- I would like to groove to some [soundtrack](track_genre) songs
+- will you please play songs from album [Let’s Talk About Love](track_album)?
+- I wanna dance to tracks from album [Supernatural](track_album).
+- can you play tracks from [YOU CAN'T SIT WITH US](track_album) album.
+- Could you please play the [dubstep](track_genre) tracks for us?
+- Play something from [Bad](track_album)
+- will you please play some music from album [Thank U, Next](track_album)?
+- Could you please play the [dubstep](track_genre) songs?
+- Can we get something playing here to [Adele](track_artist)'s music?
+- can you please play something from [Led Zeppelin IV](track_album)?
+- Play music by [Adele](track_artist)
+- can you play some music from album [Bad](track_album)?
+- cheer me up by playing any song from [SASAMI](track_album), will you?
+- Play a track from album [SASAMI](track_album) by [XAMES3](track_artist), will you?
+- can you play any track from [Father of the Bride](track_album) album by [Warner & Chappell](track_artist)
+- I would like to dance to the [Rap](track_genre) music
+- I wanna dance to music from [Notes on a Conditional Form](track_album)
+- will you please play tracks from [Heard It In A Past Life](track_album) album.
+- will you please play any song from the album [Led Zeppelin IV](track_album) by [Twenty One Pilots](track_artist)?
+- can you play any song from [The Immaculate Collection](track_album)?
+- Play music from album [SASAMI](track_album).
+- Could you please play the [blues](track_genre) music for us?
+- Play something from [Epic Hip Hop](track_album) by [Clint Mansell](track_artist), will you?
+- cheer me up by playing any song from album [The Saint of Lost Causes](track_album), will you?
+- Would you please play any track from [Outer Peace](track_album)?
+- Play any track from the album [The Marshall Mathers LP 2 Disc 2](track_album)
+- Play songs from [The Marshall Mathers LP 2 Disc 2](track_album) by [Rick0 James](track_artist), will you?
+- Play some music from album [IGOR](track_album).
+- I would like to hear some [soundtrack](track_genre) music
+- Play any track from the album [Mitsubishi Macchiato](track_album)
+- Would you please play any track from [Gold and Grey](track_album) album
+- Could you please play any [Grunge](track_genre) music for us?
+- Play some music from the album [Marshal Mather LP II](track_album)
+- will you please play any song from album [I Am Easy To Find](track_album)?
+- I wanna listen music from [This Is How You Smile](track_album)
+- Could you please play any [metal](track_genre) track?
+- Play something by [Selena Gomez](track_artist)
+- Play any song from the album [U.F.O.F](track_album) by [Nate Dogg](track_artist), will you?
+- I would like to groove to the [Orchestra](track_genre) tracks
+- I would like to listen any track from album [Make It Big](track_album)
+- please play some [punk](track_genre) songs
+- will you please play any track from the album [Buoys](track_album)?
+- Would you please play any music from the album [In League With Dragons](track_album)?
+- I would like to listen some music from [This Is How You Smile](track_album)
+- Would you please play songs from [Quiet Signs](track_album) by [Dr. Dre;Eminem](track_artist)?
+- can you please play any music from album [The Immaculate Collection](track_album)?
+- I would like to listen to the [hip-hop](track_genre) track
+- Play the [funk](track_genre) songs
+- Play some music from the album [Western Stars](track_album)
+- Would you please play some music from the album [EVEN IN THE TREMOR](track_album)?
+- cheer me up by playing any song from album [The Immaculate Collection](track_album), will you?
+- Play any track from [The Immaculate Collection](track_album) by [Charlotte Rose Ellis](track_artist), will you?
+- I wanna dance to tracks from [Titanic Rising](track_album) album.
+- I would like to dance to the [punk](track_genre)
+- I would like to listen any song from [Buoys](track_album)
+- will you please play any music from [Recovery](track_album)?
+- Would you please play any music from the album [IGOR](track_album) by [Bonobo](track_artist)?
+- Could you please play some [rap](track_genre) music?
+- I wanna dance to any song from [Rumours](track_album)
+- will you please play any track from [Heard It In A Past Life](track_album) by [Drake](track_artist)?
+- Would you please play something from [Flamagra](track_album) by [Camila Cabello](track_artist)?
+- please play any [metal](track_genre) music for me
+- I would like to listen some music from the album [Metallica](track_album)
+- Play any music from the album [Illuminate](track_album)
+- can you play any track from the album [Oasis](track_album) by [Cardi B](track_artist)?
+- Could you please play the [pop](track_genre) songs?
+- will you please play any music from album [LP3](track_album)?
+- Would you please play any track from album [Assume Form](track_album) by [The Chainsmokers](track_artist)?
+- I will like to have the [hip-hop](track_genre) music
+- Would you please play an [orchestra](track_genre) song?
+- will you please play tracks from [IGOR](track_album) by [XAMES3](track_artist)?
+- can you please play any song from album [On The Line](track_album)?
+- I wanna dance to any music from the album [Metallica](track_album)
+- I would like to dance to music from [Metallica](track_album) by [Rick0 James](track_artist).
+- Would you please play a track from album [Legend](track_album) by [50 cents](track_artist)?
+- Play tracks by [Imagine Dragons](track_artist)
+- I would like to groove to music from [Appetite for Destruction](track_album) by [Drake](track_artist).
+- Could you please play something by [Adele](track_artist)?
+- Could you please play some [Jazz](track_genre) music for us?
+- Would you please play some music from [Let’s Talk About Love](track_album)?
+- will you please play some music from the album [Legend](track_album)?
+- I would enjoy to hear to [Khalid](track_artist)
+- Please play the [dubstep](track_genre) songs
 
 ## intent:asking_someones_name
 - what is your name?
