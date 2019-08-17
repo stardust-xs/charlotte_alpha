@@ -17,6 +17,8 @@ The module has 9 functions:
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+from sys import exc_info
+
 from charlotte.utils.helpers.questions import confirm
 from charlotte.utils.paths.directories import ai_dir
 from charlotte.utils.paths.files import ai_file
@@ -90,7 +92,7 @@ def json_print(json_data: str, indentation: int = None) -> None:
             print(dumps(json_data, indent=indentation))
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
@@ -123,7 +125,7 @@ def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
                     return join(root, file)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def display(message: str) -> None:
@@ -157,43 +159,42 @@ def quit() -> None:
         exit()
 
 
-def line_randomizer(from_file: str, to_file: str) -> None:
+def line_randomizer(from_file: str) -> None:
     """
     Definition
     ----------
-        Randomizes the lines in the file and saves it in another file.
+        Randomizes the lines in the file and saves it.
 
     Parameters
     ----------
         from_file : string, mandatory
             File name from which the data needs to be read.
 
-        to_file : string, mandatory
-            File name to which the randomized data needs to be written.
-
     Notes
     -----
-        The function can be used for creating random dataset.
+        The function can be used for creating dataset little random.
     """
-    from random import random
+    from random import choice, shuffle
 
     try:
-        with open(from_file, 'r') as source_file:
-            source = [(random(), line) for line in source_file]
-            source.sort()
-        with open(to_file, 'w') as target_file:
-            for _, line in source:
-                target_file.write(line)
+        with open(from_file, 'r', encoding='utf-8') as source_file:
+            new_list = list(set(source_file.readlines()))
+            shuffle(new_list)
+            source_file.close()
+
+        with open(from_file, 'w', encoding='utf-8') as source_file:
+            for line in new_list:
+                source_file.write(line)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def csv_writer(file: str, *args) -> None:
     """
     Definition
     ----------
-        Creates and writes CSV files.
+        Creates and writes to CSV files.
 
     Parameters
     ----------
@@ -211,7 +212,7 @@ def csv_writer(file: str, *args) -> None:
             csv_writer.writerow([*args])
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def csv_extractor(from_file: str, to_file: str, column: str) -> None:
@@ -256,31 +257,69 @@ def csv_extractor(from_file: str, to_file: str, column: str) -> None:
             csv_writer(to_file, line)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
-def lookup_sorter(from_file: str, to_file: str) -> None:
+def lookup_sorter(from_file: str) -> None:
     """
     Definition
     ----------
-        Sorts the lines alphabetically in the file and saves it in another
-        file.
+        Sorts the lines alphabetically in the file and saves it.
+
+    Parameters
+    ----------
+        from_file : string, mandatory
+            File name from which the data needs to be read.
+    """
+    try:
+        with open(from_file, encoding='utf-8') as source_file:
+            new_list = list(set(source_file.readlines()))
+            new_list.sort()
+            source_file.close()
+
+        with open(from_file, 'w', encoding='utf-8') as source_file:
+            for line in new_list:
+                source_file.write(line)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
+
+
+def data_randomizer(from_file: str,
+                    find_words: list,
+                    replace_words: list) -> None:
+    """
+    Definition
+    ----------
+        Randomly replaces the given words in the file with other word and
+        saves it.
 
     Parameters
     ----------
         from_file : string, mandatory
             File name from which the data needs to be read.
 
-        to_file : string, mandatory
-            File name to which the sorted data needs to be written.
+        find_words : list, mandatory
+            List of words to be replaced from the opened file.
+
+        replace_words : list, mandatory
+            List of the words to be replaced with in the opened file.
     """
+    from random import choice
+
     try:
-        with open(from_file, encoding='utf-8') as source_file:
+        with open(from_file, 'r', encoding='utf-8') as source_file:
             lines = source_file.readlines()
-            lines.sort()
+            source_file.close()
+
+        with open(from_file, 'w', encoding='utf-8') as source_file:
             for line in range(len(lines)):
-                with open(to_file, 'a', encoding='utf-8') as target_file:
-                    target_file.write(lines[line])
+                if any(word in lines[line] for word in find_words):
+                    replaced_line = lines[line].replace(
+                        choice(find_words), choice(replace_words))
+                    source_file.write(replaced_line)
+                else:
+                    source_file.write(lines[line])
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
