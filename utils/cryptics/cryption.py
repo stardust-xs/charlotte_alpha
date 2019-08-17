@@ -10,6 +10,8 @@ The module has 3 functions:
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+from sys import exc_info
+
 from charlotte.utils.paths.files import ai_file
 
 
@@ -63,7 +65,7 @@ def keygen(passcode: str, save_to_file: bool = True) -> bytes:
             key_file.close()
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def cipher(message: str, key: bytes) -> str:
@@ -100,7 +102,7 @@ def cipher(message: str, key: bytes) -> str:
         return super_encode.decode()
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def decipher(ciper_text: str, key: bytes) -> str:
@@ -136,4 +138,4 @@ def decipher(ciper_text: str, key: bytes) -> str:
         return super_decode.decode()
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')

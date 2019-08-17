@@ -7,6 +7,8 @@ All the logs are stored in `./logs/` directory with the timestamp.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+from sys import exc_info
+
 from charlotte.utils.globals.constants import TIMESTAMP
 from charlotte.utils.helpers.common import make_dir
 from charlotte.utils.paths.directories import ai_dir
@@ -34,7 +36,7 @@ def timestamp(timestamp_format: str) -> str:
         return str(datetime.now().strftime(timestamp_format))
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def plain(text: str) -> str:
@@ -60,7 +62,7 @@ def plain(text: str) -> str:
         return ansi_escape.sub('', text)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def make_log(file: str, show_tf_warnings: bool = None) -> classmethod:
@@ -129,4 +131,4 @@ def make_log(file: str, show_tf_warnings: bool = None) -> classmethod:
 
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')

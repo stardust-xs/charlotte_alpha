@@ -12,6 +12,8 @@ The module has 4 functions:
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+from sys import exc_info
+
 from questionary import Choice, select, text, password
 
 
@@ -79,7 +81,7 @@ def answer(question: str) -> str:
                 return revert
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def secure(question: str) -> str:
@@ -120,7 +122,7 @@ def secure(question: str) -> str:
                 return revert
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
 
 
 def decide(confirm_question: str, question: str) -> str:
@@ -151,4 +153,4 @@ def decide(confirm_question: str, question: str) -> str:
             return 'null'
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error}.')
+              f' {error} on line {exc_info()[-1].tb_lineno}.')
