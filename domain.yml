@@ -1,10 +1,12 @@
 actions:
 - action_greet_user
+- action_play_music
 - action_tell_current_forecast_weather_conditions
 - action_tell_current_weather_conditions
 - action_tell_forecast_weather_conditions
 - utter_do_you_need_anything_else
 - utter_how_can_i_help
+- utter_playing_music
 - utter_saying_fetching_weather_details
 - utter_saying_okay
 - utter_saying_okay_for_weather_searches
@@ -24,12 +26,11 @@ entities:
 - forecast
 - full_name
 - gender
-- genre
 - grammar
 - hours
 - landmark
 - minutes
-- music
+- music_file
 - name
 - people
 - planet
@@ -38,9 +39,19 @@ entities:
 - street
 - temperature
 - time
+- track_album
+- track_albumartist
+- track_artist
+- track_composer
+- track_duration
+- track_filesize
+- track_genre
+- track_name
+- track_year
 - train_station
 - weather
 intents:
+- asking_play_music
 - saying_hello
 - saying_no
 - saying_thank_you
@@ -49,7 +60,6 @@ intents:
 - saying_okay
 - saying_yes
 - asking_current_weather_conditions
-- saying_hello+asking_someones_name
 - asking_goto_previous_step
 - saying_goodbye
 - saying_no_for_telling_name
@@ -57,13 +67,8 @@ intents:
 - telling_future_location
 - asking_do_you_need_anything_else
 - asking_someones_name
-- asking_play_any_music_with_genre
 - telling_my_name
-- asking_play_any_music
-- saying_hello+asking_how_are_you
-- saying_hello+asking_weather_conditions
 - telling_location
-- saying_thank_you+saying_goodbye
 - asking_goto_next_step
 - asking_how_are_you
 slots:
@@ -97,6 +102,8 @@ slots:
     type: text
   music:
     type: text
+  music_file:
+    type: text
   name:
     type: text
   people:
@@ -112,6 +119,24 @@ slots:
   temperature:
     type: text
   time:
+    type: text
+  track_album:
+    type: text
+  track_albumartist:
+    type: text
+  track_artist:
+    type: text
+  track_composer:
+    type: text
+  track_duration:
+    type: text
+  track_filesize:
+    type: text
+  track_genre:
+    type: text
+  track_name:
+    type: text
+  track_year:
     type: text
   train_station:
     type: text
@@ -144,6 +169,8 @@ templates:
   - text: What would you like me to do?
   - text: '{xa}, what would you like me to do?'
   - text: What can I help you with, {xa}?
+  utter_playing_music:
+  - text: Playing music, {xa}.
   utter_saying_fetching_weather_details:
   - text: Just a moment...
   - text: Fetching weather details for {city}...
