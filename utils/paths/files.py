@@ -9,7 +9,6 @@ ai_file = {
     'init': '__init__.py',
     'nlu': ai_dir['data']/'nlu.md',
     'core': ai_dir['data']/'stories.md',
-    'master': ai_dir['users']/'master.yml',
     'actions': PARENT/'actions.py',
     'config': PARENT/'config.yml',
     'domain': PARENT/'domain.yml',
