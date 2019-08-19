@@ -24,7 +24,7 @@ CODENAME = 'lazuli'
 
 NUMBER = os.environ.get('CHARLOTTE_NUMBER')
 
-VERSION = '1.1.0'
+VERSION = '1.1.1'
 
 AUTHOR = MAINTAINER = 'XAMES3'
 
