@@ -5,10 +5,10 @@ See https://github.com/xames3/charlotte for cloning the repository.
 """
 from sys import exc_info
 
+from charlotte.utils.actions.music import music_metadata_extractor
+from charlotte.utils.assists.generic import csv_writer
 from charlotte.utils.paths.directories import local_dir
 from charlotte.utils.paths.files import ai_file
-from charlotte.utils.assists.generic import csv_writer
-from charlotte.utils.actions.music import music_metadata_extractor
 
 
 def migrate_music(file_dir: str = local_dir['music']) -> None:
