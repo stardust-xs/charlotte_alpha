@@ -6,7 +6,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 """
 from sys import exc_info
 
-from charlotte.utils.profiles.user import title
+from charlotte.utils.profiles.default import title
 
 
 def wish_user() -> str:

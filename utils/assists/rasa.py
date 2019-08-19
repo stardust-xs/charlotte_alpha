@@ -22,7 +22,7 @@ from charlotte.utils.assists.generic import display, make_dir
 from charlotte.utils.assists.inquiry import answer, confirm
 from charlotte.utils.paths.directories import ai_dir
 from charlotte.utils.paths.files import ai_file
-from charlotte.utils.profiles.user import ai_lower, lower, title
+from charlotte.utils.profiles.default import ai_lower, lower, title
 
 
 def model_check(model: str, model_dir: str = ai_dir['models']) -> None:

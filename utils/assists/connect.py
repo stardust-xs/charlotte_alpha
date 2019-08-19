@@ -13,7 +13,7 @@ from rasa.core.channels.channel import UserMessage, OutputChannel
 from rasa.core.channels.channel import InputChannel
 from rasa.core.channels.channel import CollectingOutputChannel
 
-from charlotte.utils.profiles.user import lower
+from charlotte.utils.profiles.default import lower
 
 
 class Assistant(InputChannel):
