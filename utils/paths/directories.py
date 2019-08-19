@@ -1,8 +1,5 @@
 """
-Charlotte Directories
-=====================
-
-This module provides references to all directories.
+This module provides references to all directories used in the package.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -28,15 +25,14 @@ def drives(drive_letter: str) -> str:
 PARENT = Path.cwd()
 
 ai_dir = {
+    'bin': PARENT/'bin/',
     'data': PARENT/'data/',
     'docs': PARENT/'docs',
     'logs': PARENT/'logs',
     'models': PARENT/'models',
     'users': PARENT/'users',
     'utils': PARENT/'utils',
-    'cryptics': PARENT/'utils/cryptics',
-    'globals': PARENT/'utils/globals',
-    'helpers': PARENT/'utils/helpers',
+    'actions': PARENT/'utils/actions',
     'profiles': PARENT/'utils/profiles',
     'knowledge': PARENT/'data/knowledge',
     'csv': PARENT/'data/knowledge/csv'
