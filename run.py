@@ -1,7 +1,4 @@
 """
-Charlotte Console
-=================
-
 This module runs Charlotte on terminal.
 
 See https://github.com/xames3/charlotte for cloning the repository.
@@ -11,13 +8,13 @@ from subprocess import call
 
 from questionary import Choice, select
 
-from charlotte.utils.actions.constants import ACTION_SERVER_PORT
-from charlotte.utils.actions.generic import display
-from charlotte.utils.actions.inquiry import answer, confirm
-from charlotte.utils.profiles.user import ai_lower, ai_title, lower, title
-from charlotte.utils.rasa.cli import (render_model,
-                                      run_nlu,
-                                      start_ai_training)
+from charlotte.utils.constants import ACTION_SERVER_PORT
+from charlotte.utils.assists.generic import display
+from charlotte.utils.assists.inquiry import answer, confirm
+from charlotte.utils.assists.rasa import (render_model,
+                                          run_nlu,
+                                          start_ai_training)
+from charlotte.utils.profiles.default import ai_title, lower, title
 
 while True:
     option = select(message=f'Hello {lower}, what would you like me to do?',
@@ -36,7 +33,7 @@ while True:
     elif option is 'run_nlu':
         run_nlu()
     elif option is 'run_action_server':
-        call(f'rasa run actions -p {ACTION_SERVER_PORT}', shell=True)
+        call(f'rasa run assists -p {ACTION_SERVER_PORT}', shell=True)
     elif option is 'custom_commands':
         option = confirm(f'{title}, would you like to try your own commands?')
         if option is True:
