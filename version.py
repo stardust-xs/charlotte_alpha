@@ -1,7 +1,4 @@
 """
-Charlotte Version Module
-========================
-
 This module returns the current version of Charlotte.
 Version data is retrieved from `setup.py` file.
 
