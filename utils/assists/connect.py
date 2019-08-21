@@ -5,7 +5,6 @@ This module enables Charlotte to run via an external connector.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
-from random import choice
 from sanic import Blueprint
 from sanic.response import json
 
@@ -43,8 +42,7 @@ class Assistant(InputChannel):
             text = payload['inputs'][0]['rawInputs'][0]['query']
 
             if intent == 'actions.intent.MAIN':
-                message = choice(f'At your service, {lower}.',
-                                 f'Welcome, {lower}.')
+                message = 'Hello, I\'m Charlotte. Your personal assistant!'
             else:
                 out = CollectingOutputChannel()
                 await on_new_message(UserMessage(text, out))
