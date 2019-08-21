@@ -33,7 +33,7 @@ while True:
     elif option is 'run_nlu':
         run_nlu()
     elif option is 'run_action_server':
-        call(f'rasa run assists -p {ACTION_SERVER_PORT}', shell=True)
+        call(f'rasa run actions -p {ACTION_SERVER_PORT}', shell=True)
     elif option is 'custom_commands':
         option = confirm(f'{title}, would you like to try your own commands?')
         if option is True:
