@@ -27,7 +27,8 @@ def wish_user() -> str:
     morning = choice([f'Good Morning, {title}.', 'Good Morning!'])
     afternoon = choice([f'Good Afternoon, {title}.', 'Good Afternoon!'])
     evening = choice([f'Good Evening, {title}.', 'Good Evening!'])
-    night = f'Hello, {title}!'
+    night = choice(
+        [f'Hello, {title}!', f'Oh hello, {title}!', f'Welcome back, {title}.'])
     greeting = morning if hour >= 5 and hour < 12 else afternoon if hour >= 12 and hour < 17 else evening if hour >= 17 and hour < 22 else night
     return greeting
 
