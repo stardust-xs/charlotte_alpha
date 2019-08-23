@@ -21,7 +21,8 @@ while True:
                     choices=[Choice('Render model', 'render_model'),
                              Choice(f'Train {ai_title}', 'start_ai_training'),
                              Choice('Test NLU model', 'run_nlu'),
-                             Choice('Run action server', 'run_action_server'),
+                             Choice('Start action server',
+                                    'start_action_server'),
                              Choice('Run custom commands', 'custom_commands'),
                              Choice('Clear screen', 'clear_screen'),
                              Choice('Exit', 'exit')]).ask()
@@ -32,7 +33,7 @@ while True:
         start_ai_training()
     elif option is 'run_nlu':
         run_nlu()
-    elif option is 'run_action_server':
+    elif option is 'start_action_server':
         call(f'rasa run actions -p {ACTION_SERVER_PORT}', shell=True)
     elif option is 'custom_commands':
         option = confirm(f'{title}, would you like to try your own commands?')
