@@ -274,3 +274,66 @@
     - utter_how_can_i_help
 * saying_no
     - utter_saying_okay_to_denial
+
+## 22_playing_music_with_track_name_and_artist
+* asking_play_music{"track_name": "berserk", "track_artist": "eminem"}
+    - slot{"track_artist": "eminem"}
+    - slot{"track_name": "berserk"}
+    - action_play_music
+    - slot{"music_file": "15 - Berzerk.mp3"}
+    - slot{"track_name": "Berzerk"}
+    - slot{"track_artist": "Eminem"}
+    - slot{"track_albumartist": "Eminem"}
+    - slot{"track_composer": null}
+    - slot{"track_album": "Greatest Songs"}
+    - slot{"track_genre": "Rap"}
+    - slot{"track_duration": "0:03:49"}
+    - slot{"track_year": "2017"}
+    - slot{"track_filesize": "8 MB"}
+
+## 23_playing_music_with_track_name_and_saying_no_when_asked_anything_else
+* asking_play_music{"track_name": "Superman"}
+    - slot{"track_name": "Superman"}
+    - action_play_music
+    - slot{"music_file": "04 - Superman (Ft. Dina Rae).mp3"}
+    - slot{"track_name": "Superman (Ft. Dina Rae)"}
+    - slot{"track_artist": "Eminem"}
+    - slot{"track_albumartist": "Eminem"}
+    - slot{"track_composer": null}
+    - slot{"track_album": "Greatest Songs"}
+    - slot{"track_genre": "Rap"}
+    - slot{"track_duration": "0:05:51"}
+    - slot{"track_year": "2017"}
+    - slot{"track_filesize": "13 MB"}
+    - utter_do_you_need_anything_else
+* saying_no
+    - utter_saying_okay_to_denial
+
+## 24_playing_music_with_track_name_and_asking_weather_for_mentioned_city
+* saying_hello
+    - action_greet_user
+    - utter_how_can_i_help
+* asking_play_music{"track_name": "Superman"}
+    - slot{"track_name": "Superman"}
+    - action_play_music
+    - slot{"music_file": "04 - Superman (Ft. Dina Rae).mp3"}
+    - slot{"track_name": "Superman (Ft. Dina Rae)"}
+    - slot{"track_artist": "Eminem"}
+    - slot{"track_albumartist": "Eminem"}
+    - slot{"track_composer": null}
+    - slot{"track_album": "Greatest Songs"}
+    - slot{"track_genre": "Rap"}
+    - slot{"track_duration": "0:05:51"}
+    - slot{"track_year": "2017"}
+    - slot{"track_filesize": "13 MB"}
+    - utter_do_you_need_anything_else
+* asking_weather_conditions{"city": "London"}
+    - slot{"city": "London"}
+    - utter_saying_fetching_weather_details
+    - action_tell_current_forecast_weather_conditions
+* saying_thank_you{"ai": "charlotte"}
+    - slot{"ai": "charlotte"}
+    - utter_saying_welcome_to_action
+    - utter_do_you_need_anything_else
+* saying_no
+    - utter_saying_okay_to_denial
