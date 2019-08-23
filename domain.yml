@@ -1,3 +1,5 @@
+%YAML 1.1
+---
 actions:
 - action_greet_user
 - action_play_music
@@ -6,7 +8,6 @@ actions:
 - action_tell_forecast_weather_conditions
 - utter_do_you_need_anything_else
 - utter_how_can_i_help
-- utter_playing_music
 - utter_saying_fetching_weather_details
 - utter_saying_okay
 - utter_saying_okay_for_weather_searches
@@ -51,12 +52,12 @@ entities:
 - train_station
 - weather
 intents:
-- asking_play_music
 - saying_hello
+- asking_weather_conditions
+- asking_play_music
 - saying_no
 - saying_thank_you
 - asking_forecast_weather_conditions
-- asking_weather_conditions
 - saying_okay
 - saying_yes
 - asking_current_weather_conditions
@@ -147,17 +148,17 @@ slots:
     type: text
 templates:
   action_default_fallback:
-  - text: I am sorry, {xa}. I didn't get what you mean.
+  - text: Sorry, I am not sure how to help you with that yet.
   - text: Sorry, {xa} I didn't quite get that part.
   - text: I would need your help, {xa}.
-  - text: Sorry, {xa}. I didn't get that part.
+  - text: Sorry, I am not sure how to help you with that yet. But I am still learning.
   - text: Sorry, {xa}. Perhaps could you rephrase that one more time, please?
   - text: I am afraid I didn't quite understand what you just said.
   - text: Pardon me, could you rephrase that please?
   - text: Pardon me, could you please rephrase that?
   - text: Pardon me could you please rephrase that again?
   - text: Please may I request you to rephrase what you just said?
-  - text: I am sorry {xa}, I didn't understand what you mean.
+  - text: My apologies, I didn't understand what you mean.
   utter_do_you_need_anything_else:
   - text: Any other request, {xa}?
   - text: Do you need anything else, {xa}?
@@ -169,8 +170,6 @@ templates:
   - text: What would you like me to do?
   - text: '{xa}, what would you like me to do?'
   - text: What can I help you with, {xa}?
-  utter_playing_music:
-  - text: Playing music, {xa}.
   utter_saying_fetching_weather_details:
   - text: Just a moment...
   - text: Fetching weather details for {city}...
