@@ -13,5 +13,6 @@ ai_file = {
     'config': PARENT/'config.yml',
     'domain': PARENT/'domain.yml',
     'endpoints': PARENT/'endpoints.yml',
+    'chrome': ai_dir['bin']/'chromedriver.exe',
     'music': ai_dir['csv']/'music.csv'
 }
