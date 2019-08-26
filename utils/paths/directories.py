@@ -30,7 +30,7 @@ ai_dir = {
     'docs': PARENT/'docs',
     'logs': PARENT/'logs',
     'models': PARENT/'models',
-    'users': PARENT/'users',
+    'temp': PARENT/'temp',
     'utils': PARENT/'utils',
     'actions': PARENT/'utils/actions',
     'assists': PARENT/'utils/assists',
