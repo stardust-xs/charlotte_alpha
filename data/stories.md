@@ -337,3 +337,54 @@
     - utter_do_you_need_anything_else
 * saying_no
     - utter_saying_okay_to_denial
+
+## 25_playing_music_with_track_name_and_asking_forecast_and_playing_music_again
+* saying_hello{"ai": "charlotte"}
+    - slot{"ai": "charlotte"}
+    - action_greet_user
+    - utter_how_can_i_help
+* asking_play_music{"track_name": "Okami"}
+    - slot{"track_name": "Okami"}
+    - action_play_music
+    - slot{"music_file": null}
+    - slot{"track_name": null}
+    - slot{"track_artist": null}
+    - slot{"track_albumartist": null}
+    - slot{"track_composer": null}
+    - slot{"track_album": null}
+    - slot{"track_genre": null}
+    - slot{"track_duration": null}
+    - slot{"track_year": null}
+    - slot{"track_filesize": null}
+    - utter_do_you_need_anything_else
+* asking_forecast_weather_conditions{"city": "Mumbai", "hours": "18"}
+    - slot{"city": "Mumbai"}
+    - slot{"hours": "18"}
+    - utter_saying_fetching_weather_details
+    - action_tell_forecast_weather_conditions
+    - slot{"city": "Mumbai"}
+    - slot{"hours": "18"}
+    - slot{"minutes": null}
+* saying_thank_you
+    - utter_saying_welcome_to_action
+    - utter_do_you_need_anything_else
+* asking_play_music{"track_artist": "Chainsmokers"}
+    - slot{"track_artist": "Chainsmokers"}
+    - action_play_music
+    - slot{"music_file": null}
+    - slot{"track_name": null}
+    - slot{"track_artist": null}
+    - slot{"track_albumartist": null}
+    - slot{"track_composer": null}
+    - slot{"track_album": null}
+    - slot{"track_genre": null}
+    - slot{"track_duration": null}
+    - slot{"track_year": null}
+    - slot{"track_filesize": null}
+* saying_thank_you{"ai": "charlotte"}
+    - slot{"ai": "charlotte"}
+    - utter_saying_welcome_to_action
+    - utter_do_you_need_anything_else
+* saying_no{"time": "now"}
+    - slot{"time": "now"}
+    - utter_saying_okay_to_denial
