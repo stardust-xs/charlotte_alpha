@@ -50,7 +50,8 @@ def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
                     return join(root, file)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def domain_builder() -> None:
@@ -87,7 +88,8 @@ def domain_builder() -> None:
                 file_without_quoted_null.write(line)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def render_model(model: str = None) -> None:
@@ -134,7 +136,8 @@ def render_model(model: str = None) -> None:
                     f'rasa train {model} --fixed-model-name "{model}" --force', shell=True)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def run_nlu() -> None:
@@ -161,7 +164,8 @@ def run_nlu() -> None:
                 display('Model not created.')
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def start_ai_training() -> None:
@@ -189,7 +193,8 @@ def start_ai_training() -> None:
                 display('Model not created.')
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def nlu_stats() -> list:
@@ -221,4 +226,5 @@ def nlu_stats() -> list:
         return intents, entities
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')

@@ -51,7 +51,8 @@ def keygen(passcode: str, return_key: bool = None) -> None:
             return key
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def encrypt(message: str, key: str) -> str:
@@ -88,7 +89,8 @@ def encrypt(message: str, key: str) -> str:
         return super_encode.decode()
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def decrypt(encrypted_text: str, key: str) -> str:
@@ -124,4 +126,5 @@ def decrypt(encrypted_text: str, key: str) -> str:
         return super_decode.decode()
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')

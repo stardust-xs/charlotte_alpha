@@ -91,7 +91,8 @@ def current_weather(city: str) -> str:
             return choice(at_am)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
@@ -223,7 +224,8 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
             return choice(with_hrs)
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def current_forecast_weather(city: str) -> str:
@@ -248,4 +250,9 @@ def current_forecast_weather(city: str) -> str:
         An account on `https://www.apixu.com` is required to get the api key.
         API calls are made to retreive the weather reports.
     """
-    return current_weather(city) + ' ' + forecast_weather(city)
+    try:
+        return current_weather(city) + ' ' + forecast_weather(city)
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')

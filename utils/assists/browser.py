@@ -35,7 +35,8 @@ try:
                     options=options)
 except Exception as error:
     print('An error occured while performing this operation because of'
-          f' {error} on line {exc_info()[-1].tb_lineno}.')
+          f' {error} in function "{stack()[0][3]}" on line'
+          f' {exc_info()[-1].tb_lineno}.')
     chrome.quit()
 
 
@@ -59,7 +60,8 @@ def wait_visible_frame(frame: str, time: int = 10) -> None:
         wait.until(EC.frame_to_be_available_and_switch_to_it(frame))
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
         chrome.quit()
 
 
@@ -69,5 +71,6 @@ def find_class(class_name: str, time: int = 10) -> None:
         wait.until(EC.presence_of_element_located((By.CLASS_NAME, class_name)))
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
         chrome.quit()

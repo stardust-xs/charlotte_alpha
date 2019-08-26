@@ -110,4 +110,5 @@ try:
         exit()
 except Exception as error:
     print('An error occured while performing this operation because of'
-          f' {error} on line {exc_info()[-1].tb_lineno}.')
+          f' {error} in function "{stack()[0][3]}" on line'
+          f' {exc_info()[-1].tb_lineno}.')

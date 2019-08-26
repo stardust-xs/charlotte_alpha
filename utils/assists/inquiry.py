@@ -78,7 +78,8 @@ def answer(question: str) -> str:
                 return revert
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def secure(question: str) -> str:
@@ -119,7 +120,8 @@ def secure(question: str) -> str:
                 return revert
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
 
 
 def decide(confirm_question: str, question: str) -> str:
@@ -150,4 +152,5 @@ def decide(confirm_question: str, question: str) -> str:
             return 'null'
     except Exception as error:
         print('An error occured while performing this operation because of'
-              f' {error} on line {exc_info()[-1].tb_lineno}.')
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
