@@ -123,17 +123,21 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Scratchpad Directory
-/scratchpad/
-/scratchpad/sandbox.py
-/scratchpad/archive_data.txt
+# Sandbox Directory
+/sandbox/
 
-# CSV Folder
+# CSV Directory
 /data/knowledge/csv/
 
 # Assistant Files
 /bin/action.json
 /bin/creds.data
 
-# Charlotte Model
-/models/charlotte.tar.gz
+# Charlotte Models
+/models/
+
+# Test Directory
+/tests/
+
+# Temp Directory
+/temp/

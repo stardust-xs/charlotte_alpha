@@ -290,6 +290,8 @@
     - slot{"track_duration": "0:03:49"}
     - slot{"track_year": "2017"}
     - slot{"track_filesize": "8 MB"}
+    - slot{"previous_track": null}
+    - slot{"next_track": null}
 
 ## 23_playing_music_with_track_name_and_saying_no_when_asked_anything_else
 * asking_play_music{"track_name": "Superman"}
@@ -305,6 +307,8 @@
     - slot{"track_duration": "0:05:51"}
     - slot{"track_year": "2017"}
     - slot{"track_filesize": "13 MB"}
+    - slot{"previous_track": null}
+    - slot{"next_track": null}
     - utter_do_you_need_anything_else
 * saying_no
     - utter_saying_okay_to_denial
@@ -326,6 +330,8 @@
     - slot{"track_duration": "0:05:51"}
     - slot{"track_year": "2017"}
     - slot{"track_filesize": "13 MB"}
+    - slot{"previous_track": null}
+    - slot{"next_track": null}
     - utter_do_you_need_anything_else
 * asking_weather_conditions{"city": "London"}
     - slot{"city": "London"}
@@ -356,6 +362,8 @@
     - slot{"track_duration": null}
     - slot{"track_year": null}
     - slot{"track_filesize": null}
+    - slot{"previous_track": null}
+    - slot{"next_track": null}
     - utter_do_you_need_anything_else
 * asking_forecast_weather_conditions{"city": "Mumbai", "hours": "18"}
     - slot{"city": "Mumbai"}
@@ -381,6 +389,8 @@
     - slot{"track_duration": null}
     - slot{"track_year": null}
     - slot{"track_filesize": null}
+    - slot{"previous_track": null}
+    - slot{"next_track": null}
 * saying_thank_you{"ai": "charlotte"}
     - slot{"ai": "charlotte"}
     - utter_saying_welcome_to_action

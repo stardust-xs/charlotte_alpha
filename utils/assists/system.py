@@ -1,73 +1,83 @@
 """
-This module hosts functions which requires intervening with the system.
+The system module: Provides functions which deals with Windows platform.
+
+These functions help you deal with handling of system related events.
+
+At a glance, the structure of the module is following:
+- list_windows():       Lists all currently active windows. It is recommended
+                        to use this function in conjunction with
+                        `minimize_window`.
+- minimize_window():    Minimizes the window frame. It is recommended to use
+                        when the process starts and needs to be minimized.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+#   History:
+#
+#   < Checkout my github repo for history and latest stable build >
+#
+#   1.0.0 - First code.
+
 from sys import exc_info
 
-from charlotte.utils.assists.generic import string_match
+from charlotte.utils.assists.generic import str_match
 
 
 def list_windows() -> list:
-    """
-    Definition
-    ----------
-        Lists all the currently open windows.
+    """Returns list of active windows.
 
-    Returns
-    -------
-        list(filter(None, titles)) : list, default
-            List of all currently open windows.
+    Lists all currently active windows.
 
-    Notes
-    -----
-        This function should be use in conjunction with `window_minimizer`.
+    Note: It is recommended to use this function in conjunction with
+    `minimize_window`.
     """
+    # You can find the reference code here:
     # https://sjohannes.wordpress.com/2012/03/23/win32-python-getting-all-window-titles/
     import ctypes
 
     EnumWindowsProc = ctypes.WINFUNCTYPE(ctypes.c_bool,
                                          ctypes.POINTER(ctypes.c_int), ctypes.POINTER(ctypes.c_int))
     titles = []
-    def each_window(hwnd, lParam):
 
+    def _each_window(hwnd, lParam):
         if ctypes.windll.user32.IsWindowVisible(hwnd):
             length = ctypes.windll.user32.GetWindowTextLengthW(hwnd)
             buff = ctypes.create_unicode_buffer(length + 1)
             ctypes.windll.user32.GetWindowTextW(hwnd, buff, length + 1)
+            # Creating list of windows.
             titles.append(buff.value)
             titles
         return True
-
-    ctypes.windll.user32.EnumWindows(EnumWindowsProc(each_window), 0)
-
+    # Listing all the active windows, includes windows which has no name too.
+    ctypes.windll.user32.EnumWindows(EnumWindowsProc(_each_window), 0)
+    # Returns list of only active windows with title names.
     return list(filter(None, titles))
 
 
-def window_minimizer(window_name: str, delay: float = 1.0) -> None:
-    """
-    Definition
-    ----------
-        Minimizes the required window.
+def minimize_window(window_name: str, delay: float = 1.0) -> None:
+    """Minimizes window.
 
-    Parameters
-    ----------
-        window_name : string, mandatory
-            Name of the window that needs to be minimize. The name can be
-            fuzzy.
+    window_name: Name of the window that needs to be minimize.
+                 The name can be fuzzy.
+    delay:       Delay with which the window should be minimized.
+                 Default: 1 sec.
 
-        delay : float, optional
-            Delay with which the window should be minimized.
-            Global default: 1 sec.
+    Minimizes the window frame.
+
+    Note: It is recommended to use when the process starts and needs to be
+    minimized.
     """
+    # You can find the reference code here:
     # https://stackoverflow.com/questions/25466795/how-to-minimize-a-specific-window-in-python?noredirect=1&lq=1
     from time import sleep
     from win32con import SW_MINIMIZE
     from win32gui import FindWindow, ShowWindow
 
+    # Delaying the window minimizing by 1 sec by default.
     if delay is None:
         sleep(1.0)
     else:
         sleep(delay)
-    ShowWindow(FindWindow(None, string_match(window_name, list_windows())),
+    # Minimizes window using the `str_match` function (fuzzy string match).
+    ShowWindow(FindWindow(None, str_match(window_name, list_windows())),
                SW_MINIMIZE)

@@ -1,76 +1,82 @@
 """
-This module packs functions that are used while inquiring user on CLI.
+The inquiry module: Provides functions while inquiring on command line.
 
-    Functions list:
-        - confirm       : Asks for confirmation
-        - answer        : Answers a question
-        - secure        : Answers question as a password
-        - decide        : Confirms the condition and asks question
+These functions are based of `questionary` module but provides more custom
+use of the same. This module should be used on command line only otherwise, it
+will raise an Exception.
+
+At a glance, the structure of the module is following:
+ - confirm():           Asks for confirmation. Provides `Yes` or `No` options
+                        to confirm. It is recommended to use this function by
+                        assigning it to a variable and then the variable
+                        should be used in an `if-else` condition to invoke the
+                        action.
+ - answer():            Answers the asked question. It is recommended to use
+                        this function while taking inputs.
+ - secure():            This function is similar to the `answer` function but
+                        instead of showing the value of the input, it masks it
+                        with `*` just like the password field in HTML/CSS.
+ - decide():            Provides choice and then asks answer based on the
+                        choosed option.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
+#   History:
+#
+#   < Checkout my github repo for history and latest stable build >
+#
+#   1.0.0 - First code.
+
+from inspect import stack
 from sys import exc_info
 
 from questionary import Choice, select, text, password
 
+# Constant used by `answer` and `decide` to return if no response is given.
+_NO_RESPONSE = 'null'
+
 
 def confirm(question: str) -> bool:
+    """Provides `Yes` or `No` options.
+
+    question: Question for yes-no options.
+
+    Asks for confirmation. Provides `Yes` or `No` options to confirm.
+
+    Note: It is recommended to use this function by assigning it to a variable
+    and then the variable should be used in an `if-else` condition to invoke
+    the action.
     """
-    Definition
-    ----------
-        Provides `Yes` or `No` options for the user to confirm.
+    from questionary import Choice, select
 
-    Parameter
-    ---------
-        question : string, mandatory
-            String that needs to be displayed as message OR a question for the
-            below choices.
-
-    Returns
-    -------
-        option : string, default
-            Returns `yes` or `no`.
-
-    Notes
-    -----
-        This function needs to be assigned to a variable and then the variable
-        should be used in an `if-else` condition to invoke the action.
-    """
-    return select(message=question,
-                  choices=[Choice('Yes', True),
-                           Choice('No', False)]).ask()
+    return select(question, [Choice('Yes', True), Choice('No', False)]).ask()
 
 
 def answer(question: str) -> str:
+    """Takes input for question.
+
+    question: Question that needs to be asked for expecting answer.
+
+    Answers the asked question.
+
+    Note: It is recommended to use this function while taking inputs.
     """
-    Definition
-    ----------
-        Answers to the asked question.
+    from questionary import text
 
-    Parameter
-    ---------
-        question : string, mandatory
-            Question that needs to be asked for expecting answer.
-
-    Returns
-    -------
-        revert : string, default
-            Returns one-word* answer to the question.
-
-    Notes
-    -----
-        This function needs to be assigned to a variable and then the variable
-        should be used in an `if-else` condition to invoke the action.
-    """
     try:
+        # Asks question until it is responded with something.
         while True:
             revert = text(question + '\n»').ask()
             if revert is '':
                 option = confirm(
                     'No inputs received. Would you like to try that again?')
+                # Asks the same question again if a blank response is given.
                 while option is False:
+                    # If no reply is to be given, it will return `null` as
+                    # output of the `answer` function, else it will revert
+                    # with given answer.
                     if option is False:
-                        return 'null'
+                        return _NO_RESPONSE
                     else:
                         revert = text(question + '\n»').ask()
                         return revert
@@ -83,36 +89,31 @@ def answer(question: str) -> str:
 
 
 def secure(question: str) -> str:
+    """Takes input like password for question.
+
+    question: Question that needs to be asked for expecting a secure answer.
+
+    This function is similar to the `answer` function but instead of showing
+    the value of the input, it masks it with `*` just like the password field
+    in HTML/CSS.
     """
-    Definition
-    ----------
-        Answers securely to the asked question.
+    from questionary import password
 
-    Parameter
-    ---------
-        question : string, mandatory
-            Question that needs to be asked for expecting answer. The function
-            will treat answer like password, concealing the output using `*`.
-
-    Returns
-    -------
-        revert : string, default
-            Returns one-word* answer to the question with `*`.
-
-    Notes
-    -----
-        This function displays output in terms of `*` while returning it in
-        it`s true form.
-    """
     try:
+        # Similar to `answer` function, it asks question until it is responded
+        # with something. Except here the input would be masked with `*`.
         while True:
             revert = password(question + '\n»').ask()
             if revert is '':
                 option = confirm(
                     'No inputs received. Would you like to try that again?')
+                # Asks the same question again if a blank response is given.
                 while option is False:
+                    # If no reply is to be given, it will return `null` as
+                    # output of the `answer` function, else it will revert
+                    # with given answer.
                     if option is False:
-                        return 'null'
+                        return _NO_RESPONSE
                     else:
                         revert = password(question + '\n»').ask()
                         return revert
@@ -125,31 +126,25 @@ def secure(question: str) -> str:
 
 
 def decide(confirm_question: str, question: str) -> str:
-    """
-    Definition
-    ----------
-        Provides choice and asks answer based on the choosed option.
+    """Ask question if confirmed.
 
-    Parameters
-    ----------
-        Question that needs to be asked for expecting answer if the user has
-        opinions.
+    confirm_question: Question that needs confirmation.
+    question:         Question to be asked if confirmed.
 
-    Returns
-    -------
-        revert : string, default
-            Answers the question based on chosed option.
+    Provides choice and then asks answer based on the choosed option.
     """
     try:
+        # Executes code if initial confirmation is asked.
         if confirm_question is not None:
             option = confirm(confirm_question)
+            # If confirmed (said Yes) then ask next question.
             if option is True:
                 revert = answer(question)
                 return revert
             else:
-                return 'null'
+                return _NO_RESPONSE
         else:
-            return 'null'
+            return _NO_RESPONSE
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'

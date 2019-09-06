@@ -1,33 +1,53 @@
 ## intent:asking_current_weather_conditions
-- Can you please tell me the [current](time:now) weather?
-- could you possibly tell me the current weather.
-- current weather details please.
-- hey could you please tell me [current](time:now) weather, could you?
-- how [cold](temperature) it would be in [Dublin](city), now?
-- how [cold](temperature) it would be in [london](city) [right now](time)?
-- may I know the current weather condition please?
-- please show me the [current](time:now) weather condition.
-- please tell [current](time:now) weather
-- please tell me the current weater
 - tell me [current](time:now) weather in [malibu](city)
-- tell me the [climatic](weather:weather) conditions of [norway](country) now.
 - tell me the [current](time:now) weather
-- tell me the [current](time:now) weather in [alesund](city)
-- tell me the weather at [vienna](city) [right now](time).
-- the [latest](time:now) weather conditions.
-- what could the weather be like in [paris](city) [now](time)?
-- what is the [climate](weather) in [Washington](state) now?
-- what is the [current](time:now) weather in [allen](city)?
-- what is the [current](time:now) weather.
-- what is the [current](time:now) weather?
-- what is the [current](time:now) wetaher?
-- what is the current weather?
+- [current](time:now) weather condition
+- could you possibly tell me the current weather.
 - what is the weather [now](time)?
-- what must be the [climate](weather) in [Sudan](country) right now?
-- what should I assume the current weather conditions are?
-- what would you say about the current weather condition?
-- what's the [latest](time:now) weather report?
+- I would like to know the [cureent](time:now) weather details.
+- please show me the [current](time:now) weather condition.
+- [latest](time:now) weather please.
+- what could the weather be like in [paris](city) [now](time)?
+- could you please tell me how's the weather looking [now](time)?
 - what's the weather out there [now](time)?
+- [Current](time:now) weather
+- how [cold](temperature) it would be in [Dublin](city), now?
+- I want to know how [cold](temperature) is the temperature in [Mumbai](city) is?
+- [Latest](time:now) weather report, please
+- how [cold](temperature) it would be in [london](city) [right now](time)?
+- what is the current weather?
+- tell me the [climatic](weather:weather) conditions of [norway](country) now.
+- [Please](action:please) tell the [currnt](time:now) weather.
+- what must be the [climate](weather) in [Sudan](country) right now?
+- I need to know what is the [current](time:now) weather outside.
+- I would like to know the [current](time:now) weather.
+- what is the [current](time:now) wetaher?
+- I need to know the [current](time:now) weather.
+- what would you say about the current [weather](weather) condition?
+- current weather details please.
+- what's the [latest](time:now) weather report?
+- What are the [curent](time:now) weather conditions.
+- what is the [current](time:now) weather?
+- Can you please tell me the [current](time:now) weather?
+- the [latest](time:now) weather conditions.
+- can you please report the current [weather](weather) report?
+- what is the [current](time:now) weather.
+- [plz](action:please) tell the current weather.
+- tell me the [current](time:now) weather in [alesund](city)
+- may I know the current weather condition please?
+- what should I assume the current weather conditions are?
+- I want to understand the current weather conditions.
+- please tell [current](time:now) weather
+- what is the [climate](weather) in [Washington](state) now?
+- please tell me the current weater
+- I wonder what is the weather in [Vilnius](city) [right now](time)?
+- tell me the [current](time:now) weather
+- I wanna know the [current](time:now) weather conditions
+- what is the [current](time:now) weather?
+- what is the [current](time:now) weather in [allen](city)?
+- hey could you please tell me [current](time:now) weather, could you?
+- also, tell me hows the weather looking like in [moscow](city) [right now](time)?
+- tell me the weather at [vienna](city) [right now](time).
 
 ## intent:asking_do_you_need_anything_else
 - do you need anything else?
@@ -45,6 +65,8 @@
 - is there anything else that I can help you with?
 - were you expecting something else?
 - is there anything else other than this?
+- will that be it?
+- [sir](gender:male) anything?
 - is something else bothering you?
 - anything else?
 - [wat](grammar:what) r u expecting?
@@ -160,6 +182,7 @@
 - actually I wanted to know weather forecast in [mumbai](city) in next [25](minutes) mins. could you do that for me?
 - tell me the forecast for [mumbai](city) as well.
 - could you please tell me the weather in [london](city) for next [56](minutes) [mins](time:minutes)?
+- yes can you please tell me the forecast for [Mumbai](city) for next [18](hours) hours?
 
 ## intent:asking_goto_next_step
 - Take me to the next step
@@ -293,12 +316,137 @@
 - what's new?
 
 ## intent:asking_play_music
+- Play [dubstep](track_genre) songs.
+- can you play something that would make me happy?
+- I am feeling little low. cheer me [up](direction).
+- what do u think of [dubstep](track_genre) Play it.
+- play the tune from your system
+- Play [Dubstep](track_genre).
+- can you please play something?
+- play something
+- [cud](grammar:could) u play [edm](track_genre)?
+- I wanna hear to artist called as [Ray Vega](track_artist).
+- play something by [Huma](track_artist).
+- Play [dubstep](track_genre). please.
+- [cud](grammar:could) you please play something?
+- play me songs like this.
+- I [wud](grammar:would) like to [listen](action) to some music.
+- can you please play something by [Alan Walker](track_artist)?
+- can you play some music to release the tension?
+- Play [edm](track_genre), would u?
+- [babe](gender:female), play something for me, would you?
+- playy music
+- [Daddy](people)'s home!
+- dance mode on!!!
+- Drop the needle.
+- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](track_genre) music.
+- cheer me up with [Ramin Djawadi](track_artist)'s music.
+- I wanna listen to [Ray J](track_artist) very badly.
+- could youu play some [dubstep](track_genre).
+- Cn you play [rap](track_genre) by [Eminem](track_artist)?
+- play music by [Adonis](track_artist).
+- i'm feeling low. play something
+- sing me song by [drake](track_artist).
+- play music
+- Play some musik
+- I want some music here.
+- Set the mood
+- I wanna dance to [Eminem](track_artist)'s songs.
+- I'm feelin a low. Pep me up.
+- make me happy.
+- drop my needle
+- babe, play something by [Dr. Dre](track_artist).
+- could youu play some [edm](track_genre).
+- show me your musical talent
+- i wanna enjoy music
+- will u play some [edm](track_genre).
+- I wanna dance to [Akon](track_artist)'s tracks.
+- Play some music from [Dr. Dre](track_artist)'s album.
+- [charlotte](ai), play something
+- Some [edm](track_genre) here would be nice.
+- help me relax.
+- play [dubstep](track_genre)
+- play music to set my mood
+- Play music.
+- play [rap](track_genre) for me dear
+- make my mood.
+- Play some musci
+- sure. play something.
+- show me how you sing a song.
+- I want to hear some music very badly
+- how quiet is here. music please
+- can you please play some music by [Afterhours](track_artist)?
+- i would like to calm myself by some soothing music
+- play some music by [Akon](track_artist), will ya?
+- Can we get something playing here to [Adele](track_artist)'s music?
+- sing me a song
+- turn on the music
+- play something by [Drake](track_artist).
+- please me
+- Play some [Dubstep](track_genre) music
+- make me feel comfortable.
+- play music
+- drop the beat
+- sing me a song by [Drake](track_artist)
+- I wanna dance to some [rap](track_genre) music.
+- yes i would like some music to be playing [now](time).
+- play songs
+- Play [edm](track_genre) music.
+- play that tune.
+- play songs by [Future](track_artist).
+- music please
+- i want to hear some music
+- play something by [Eminem](track_artist).
+- start the beat.
+- Oh gee.. I like [Adele](track_artist) a lot. Please play her [music]music.
+- play anything on music player.
+- Play [Dubstep](track_genre) songs
+- music by [Ramin Djawadi](track_artist).
+- Need to listen music from [Aegan](track_artist).
+- play something
+- [Eminem](track_artist)'s songs, please.
+- drop that bass
+- Music by [Alana Davis](track_artist).
+- put the music in action
+- Play the [Dubstep](track_genre).
+- cheer me up.
+- can you please play something by [Akon](track_artist)
+- Drop basss!
+- thrill me.
+- do we have something by [Shawn Mendes](track_artist).
+- play anything on music player.
+- i [wnna](grammar:want) dance to some music.
+- Cheer me up.
+- do we have something from [akon](track_artist) and [Eminem](track_artist)?
+- could you please something by [rihanna](track_artist)?
+- calm me.
+- play tunes by [Ramin Djawadi](track_artist)
+- i [wanna](grammar:want) [listen](action) some music
+- please play [rap](track_genre) song
+- I would like to listen to [Dr. Dre](track_artist).
+- shoot me with some beats
+- i would like to dance to some music
+- wanna sing a song now!!
+- play songs by [Adele](track_artist) and [Dr. Dre](track_artist)
+- [Charlotte](ai), could you please play something?
+- [could](grammar) u play [rap](track_genre) for us?
+- i want to relax myself by music
+- will you please play something by [Shakira](track_artist)
+- make some noise
+- I wanna dance to some [edm](track_genre) music.
+- Play something
+- play songs by [Adele](track_artist)
+- can you please something from [Slaves of the Shadow Realm](track_album)
+- Play [Dubstep](track_genre) music.
+- turn the music on!!
+- I'm not feeling good [now](time). Could u please play something by [Eminem](track_artist) to set my mood.
+- i want a live performance
 - can you play something from [Abbey Road](track_album) by artist [Queen](track_artist)?
 - can you play a track by [Linkin Park](track_artist) from [Recovery](track_album) album.
 - Would you please play something from movie [Requiem for a Dream](track_album) by [Warner & Chappell](track_artist)?
 - I wanna listen something from the album [Rumours](track_album)
 - Would you please play the [soundtrack](track_genre) beat?
-- will you please play tracks from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [singer](artist:singer) [Nicki Minaj](track_artist)?
+- will you please play tracks from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [singer](artist) [Nicki Minaj](track_artist)?
 - can you play any [song](music:track) from album [Marshal Mather LP II](track_album)?
 - Play any song from [Requiem for a Dream](track_album), will you?
 - Play songs from [Hijas del Tomate](track_album)
@@ -311,9 +459,9 @@
 - I wanna listen tracks from [Bad](track_album)
 - I wanna listen any track from [New Breed](track_album)
 - will you please play any song from the movie [On the Line](track_album)?
-- Play any track by [composer](artist:composer) [Mellen Gi](track_artist) from [Legend](track_album), will you?
+- Play any track by [composer](artist) [Mellen Gi](track_artist) from [Legend](track_album), will you?
 - will you please play any track from album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
-- can you play something by [singer](artist:singer) [Shawn Mendes](track_artist) from [Supernatural](track_album) album.
+- can you play something by [singer](artist) [Shawn Mendes](track_artist) from [Supernatural](track_album) album.
 - I would like you to please play some [punk](track_genre) songs
 - I wanna listen any track from [Vertigo](track_album) album
 - Play something from [Supernatural](track_album) album.
@@ -323,15 +471,15 @@
 - I wanna listen any track from [Rumours](track_album)
 - I will like to have some [blues](track_genre) tracks
 - Could you please play some [grunge](track_genre) track  for us?
-- will you please play some [cover](music:track) from the movie [On The Line](track_album) by [singer](artist:singer) [Charlotte Rose Ellis](track_artist)?
+- will you please play some [cover](music:track) from the movie [On The Line](track_album) by [singer](artist) [Charlotte Rose Ellis](track_artist)?
 - Would you please play any song from movie [When I Get Home](track_album)?
 - I wanna listen a track from the album [Sunshine Rock](track_album)
-- Play tracks by [singer](artist:singer) [Usher](track_artist)
+- Play tracks by [singer](artist) [Usher](track_artist)
 - can you play something from the movie [The Marshall Mathers LP 2 Disc 2](track_album)?
 - play [In My Blood](track_name) by [Martin Garrix](track_artist)
 - Would you please play any track from [Revival](track_album) by [Eagles](track_artist)?
 - Could you please play the [soundtrack](track_genre) track ?
-- can you play any track from album [In League With Dragons](track_album) by [singer](artist:singer) [Charlotte Rose Ellis](track_artist)?
+- can you play any track from album [In League With Dragons](track_album) by [singer](artist) [Charlotte Rose Ellis](track_artist)?
 - Play cover from [LP3](track_album) by [Nate Dogg](track_artist), will you?
 - will you please play any track from [LP3](track_album) album by singer [Nate Dogg](track_artist).
 - I would like to listen any msuci from the album [Bandana](track_album)
@@ -350,8 +498,8 @@
 - Would you please play something by singer [Khalid](track_artist)?
 - will you please play any track from [I Am Easy To Find](track_album) album
 - I would like to listen any track from album [Atlanta Millionaires Club](track_album).
-- Would you please play any cover from [Remind Me Tomorrow](track_album) album by [composer](artist:composer) [Future](track_artist).
-- Play any track from album [This Is How You Smile](track_album) by [singer](artist:singer) [Ludacris](track_artist), will you?
+- Would you please play any cover from [Remind Me Tomorrow](track_album) album by [composer](artist) [Future](track_artist).
+- Play any track from album [This Is How You Smile](track_album) by [singer](artist) [Ludacris](track_artist), will you?
 - Would you please play a track from album [Back in Black](track_album)?
 - will you please play something from [Titanic Rising](track_album) album by artist [Selena Gomez](track_artist).
 - cheer me up by playing something from [YOU CAN'T SIT WITH US](track_album).
@@ -369,15 +517,15 @@
 - can you please play something from [Kamikaze](track_album)?
 - Play something from [Led Zeppelin IV](track_album), will you?
 - Would you please play cover from [Father of the Bride](track_album) by [Alan Walker](track_artist)?
-- Would you please play a track from [Thriller](track_album) album by [composer](artist:composer) [Justin Hurwitz](track_artist)
-- Play any track from the movie [Outer Peace](track_album) by [composer](artist:composer) [Eagles](track_artist), will you?
+- Would you please play a track from [Thriller](track_album) album by [composer](artist) [Justin Hurwitz](track_artist)
+- Play any track from the movie [Outer Peace](track_album) by [composer](artist) [Eagles](track_artist), will you?
 - Play tracks from album [Legend](track_album) by singer [Sia](track_artist), will you?
 - Play something from movie [Led Zeppelin IV](track_album)
 - will you please play something from [Vertigo](track_album) album by singer [Mellen Gi](track_artist)
 - will you please play any track from the movie [Father of the Bride](track_album)?
 - I want to listen something by artist [Eagles](track_artist)
 - can you play a track from [Beware of the Dogs](track_album) album by [Dr. Dre;Eminem](track_artist).
-- Would you please play any track from [Kamikaze](track_album) by [singer](artist:singer) [Kanye West](track_artist)?
+- Would you please play any track from [Kamikaze](track_album) by [singer](artist) [Kanye West](track_artist)?
 - Would you please play some [song](music:track) from [Heard It in a Past Life](track_album) by [Dr. Dre](track_artist)?
 - I would love to dance to [Akon](track_artist)
 - will you please play something from [Young Enough](track_album) album.
@@ -385,14 +533,14 @@
 - can you please play any song from [AMDN](track_album) album
 - will you please play any track from album [The Immaculate Collection](track_album) by [Drake](track_artist)?
 - Would you please play some [blues](track_genre) [song](music:track)?
-- Would you please play tracks from [Remind Me Tomorrow](track_album) by [singer](artist:singer) [George Michael](track_artist)?
+- Would you please play tracks from [Remind Me Tomorrow](track_album) by [singer](artist) [George Michael](track_artist)?
 - I would like to dance to cover from [Metallica](track_album) by [Coldplay](track_artist)
 - I would like to hear to [Ariana Grande](track_artist)
 - Play any track from the album [Titanic Rising](track_album), will you?
 - I would like to listen to the [hip-hop](track_genre) track
 - I would like to dance to the [blues](track_genre) cover
 - Play any track from [Let’s Talk About Love](track_album) album.
-- I would like to dance to cover from [YOU CAN'T SIT WITH US](track_album) by [singer](artist:singer) [XAMES3](track_artist).
+- I would like to dance to cover from [YOU CAN'T SIT WITH US](track_album) by [singer](artist) [XAMES3](track_artist).
 - play [Public Service Announcement 2000](track_name)
 - can you play songs from [When I Get Home](track_album)?
 - Play tracks from album [Appetite for Destruction](track_album).
@@ -400,7 +548,7 @@
 - I wanna dance to any track from [Mania](track_album) album
 - Play some tone from the album [What Chaos Is Imaginary](track_album), will you?
 - I wanna listen something from the movie [Bandana](track_album).
-- Play any track from the album [Heard It In A Past Life](track_album) by [singer](artist:singer) [Drake](track_artist), will you?
+- Play any track from the album [Heard It In A Past Life](track_album) by [singer](artist) [Drake](track_artist), will you?
 - I would like to dance to cover from [Angel's Pulse](track_album) by [Kanye West](track_artist).
 - Play any [Rock](track_genre) beat
 - I would like to hear to [music](music:track) from [Bad](track_album) by artist [XAMES3](track_artist)
@@ -457,7 +605,7 @@
 - I would like to listen a track from [Phoenix](track_album).
 - Please play the [soundtrack](track_genre) tracks
 - will you please play tracks from album [Appetite for Destruction](track_album)?
-- will you please play any track from [Remind Me Tomorrow](track_album) album by [singer](artist:singer) [Lil Wayne](track_artist)
+- will you please play any track from [Remind Me Tomorrow](track_album) album by [singer](artist) [Lil Wayne](track_artist)
 - Play any tone from the album [Flamagra](track_album)
 - Would you please play any track from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
 - can you play any track from the album [Western Stars](track_album) by singer [Charlotte Rose Ellis](track_artist)?
@@ -475,7 +623,7 @@
 - I would love to listen to [Halsey](track_artist)
 - I would like to listen some song from the movie [I Am Easy To Find](track_album)
 - I wanna listen any track from [Let’s Talk About Love](track_album) album.
-- Play cover by [composer](artist:composer) [Eagles](track_artist)
+- Play cover by [composer](artist) [Eagles](track_artist)
 - Would you please play any track from movie [Requiem for a Dream](track_album) by artist [Eagles](track_artist)?
 - I would like to listen some msuci from the movie [Nevermind](track_album)
 - Play something from [We Love to sing](track_album) album.
@@ -494,7 +642,7 @@
 - I would like to listen to the [grunge](track_genre) track
 - Play any track from movie [Slaves of Fear](track_album), will you?
 - I wanna listen some song from [Thriller](track_album)
-- will you please play a track from [Revival](track_album) album by [singer](artist:singer) [Lady Gaga](track_artist).
+- will you please play a track from [Revival](track_album) album by [singer](artist) [Lady Gaga](track_artist).
 - Play something from movie [Angel's Pulse](track_album) by singer [Dr. Dre;Eminem](track_artist), will you?
 - will you please play any tone from album [Nevermind](track_album)?
 - can you play any cover from the album [Oasis](track_album)?
@@ -513,8 +661,8 @@
 - will you please play any [song](music:track) from the movie [Rumours](track_album) by [Post Malone](track_artist)?
 - Please play the [dubstep](track_genre) track
 - Please play some [funk](track_genre) music
-- Would you please play some msuci from [Let’s Talk About Love](track_album) by [composer](artist:composer) [Mad Money](track_artist)?
-- Would you play something by [composer](artist:composer) [Halsey](track_artist)?
+- Would you please play some msuci from [Let’s Talk About Love](track_album) by [composer](artist) [Mad Money](track_artist)?
+- Would you play something by [composer](artist) [Halsey](track_artist)?
 - please play some [blues](track_genre) track  for me
 - I would like to dance to the [Electronic](track_genre) [music](music:track)
 - I would like to listen any track from [Heard It In A Past Life](track_album)
@@ -568,11 +716,11 @@
 - will you please play a track from [The Craving for Absolute Serenity](track_album) album
 - cheer me up by playing tracks from movie [New Breed](track_album), will you?
 - Play some song from [The Saint of Lost Causes](track_album)
-- can you play some tone from [Western Stars](track_album) by [singer](artist:singer) [Rick0 James](track_artist)?
+- can you play some tone from [Western Stars](track_album) by [singer](artist) [Rick0 James](track_artist)?
 - Play some [song](music:track) from [Recovery](track_album).
 - can you play a track from album [Vertigo](track_album) by [Dr. Dre](track_artist)?
 - I wanna dance to song from [Abbey Road](track_album).
-- will you please play any [song](music:track) from the album [Revival](track_album) by [singer](artist:singer) [Dr. Dre](track_artist)?
+- will you please play any [song](music:track) from the album [Revival](track_album) by [singer](artist) [Dr. Dre](track_artist)?
 - I would like you to please play some [Rap](track_genre) [music](music:track)
 - Would you please play any msuci from the movie [The Wizrd](track_album)?
 - I wanna listen something from [The Wizrd](track_album)
@@ -583,8 +731,8 @@
 - Play the [grunge](track_genre) song
 - Would you please play songs from [Back in Black](track_album)?
 - will you please play some [music](music:track) from the movie [The Marshall Mathers LP 2 Disc 2]will you ptrack_album)?
-- will you please play any track from movie [Young Enough](track_album) by [composer](artist:composer) [Drake](track_artist)?
-- Would you please play any track from [Make It Big](track_album) album by [singer](artist:singer) [Three Days Grace](track_artist).
+- will you please play any track from movie [Young Enough](track_album) by [composer](artist) [Drake](track_artist)?
+- Would you please play any track from [Make It Big](track_album) album by [singer](artist) [Three Days Grace](track_artist).
 - Please play some [dubstep](track_genre) song
 - I will like to have the [pop](track_genre)
 - will you please play tracks from album [Illuminate](track_album)?
@@ -598,7 +746,7 @@
 - I would like you to please play some [blues](track_genre) tracks
 - Play something from [Rumours](track_album)
 - I would like to listen to the [funk](track_genre) track
-- Would you please play a track from [Rumours](track_album) album by [composer](artist:composer) [Sean Paul](track_artist)
+- Would you please play a track from [Rumours](track_album) album by [composer](artist) [Sean Paul](track_artist)
 - I would like to listen song from album [LP3](track_album)
 - Play a [Metal](track_genre) song
 - can you play any track from album [Phoenix](track_album) by singer [Cardi B](track_artist)?
@@ -640,14 +788,14 @@
 - Could you please play the [Dubstep](track_genre) for us?
 - play music [Crack A Bottle](track_name) by [Sean Hurley](track_artist) from [Remind Me Tomorrow](track_album).
 - can you please play any msuci from [On the Line](track_album)?
-- can you play a track from [Oh My God](track_album) album by [composer](artist:composer) [50 cents](track_artist)
+- can you play a track from [Oh My God](track_album) album by [composer](artist) [50 cents](track_artist)
 - Play something from [Let’s Talk About Love](track_album) by [Drake](track_artist), will you?
 - I would like to listen a track from [Nevermind](track_album) album.
 - please play any [funk](track_genre) track for us
-- can you play any music from the album [Abbey Road](track_album) by [singer](artist:singer) [Eagles](track_artist)?
+- can you play any music from the album [Abbey Road](track_album) by [singer](artist) [Eagles](track_artist)?
 - will you please play any track from [Thriller](track_album) album by composer [George Michael](track_artist).
 - Play something from album [On The Line](track_album), will you?
-- will you please play some song from [The Marshall Mathers LP 2 Disc 2](track_album) by [singer](artist:singer) [Ozuna](track_artist)?
+- will you please play some song from [The Marshall Mathers LP 2 Disc 2](track_album) by [singer](artist) [Ozuna](track_artist)?
 - play music [Evil Twin](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
 - I would like to hear some [blues](track_genre) tracks
 - can you please play a track from album [Hotel California](track_album)?
@@ -671,7 +819,7 @@
 - Could you please play some [grunge](track_genre) tracks for us?
 - Please play music [Lose Yourself](track_name) by [Teddy Geiger](track_artist) from [Remind Me Tomorrow](track_album).
 - can you please play any song from movie [Mania](track_album)?
-- can you play tracks by [singer](artist:singer) [BTS](track_artist) from album [Legend](track_album)?
+- can you play tracks by [singer](artist) [BTS](track_artist) from album [Legend](track_album)?
 - will you please play songs from album [Rumours](track_album) by singer [Dr. Dre;Eminem](track_artist)?
 - I would like to groove to some [grunge](track_genre) track
 - Could you please play the [Pop](track_genre)?
@@ -682,7 +830,7 @@
 - Would you please play any track from movie [Let’s Talk About Love](track_album)?
 - please play some [pop](track_genre) song
 - play music [Lose Yourself](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
-- I want to listen to tone by [composer](artist:composer) [Post Malone](track_artist) from [Oliver Appropriate](track_album).
+- I want to listen to tone by [composer](artist) [Post Malone](track_artist) from [Oliver Appropriate](track_album).
 - I wanna listen any track from movie [On the Line](track_album)
 - Could you please play some [Electronic](track_genre)?
 - Could you please play any [rap](track_genre) track for us?
@@ -700,7 +848,7 @@
 - I would like to listen to any [Hiphop](track_genre) tone
 - Play [songs](music:track) from album [when we all fall asleep where do we go](track_album), will you?
 - Will you please play something by composer [Selena Gomez](track_artist)?
-- Would you please play any song from album [Oh My God](track_album) by [composer](artist:composer) [Drake](track_artist)?
+- Would you please play any song from album [Oh My God](track_album) by [composer](artist) [Drake](track_artist)?
 - can you play any track from movie [Kamikaze](track_album) by singer [Drake](track_artist)?
 - will you please play something from the album [Crushing](track_album)?
 - I wanna listen some music from the album [Mania](track_album)
@@ -729,7 +877,7 @@
 - cheer me up by playing tracks from [Father of the Bride](track_album) album, will you?
 - please play any [edm](track_genre) music for me
 - can you please play some song from [The Wizrd](track_album)?
-- can you play any track from album [Titanic Rising](track_album) by [singer](artist:singer) [Future](track_artist)?
+- can you play any track from album [Titanic Rising](track_album) by [singer](artist) [Future](track_artist)?
 - I wanna listen a track from the movie [Heard It in a Past Life](track_album)
 - will you please play any msuci from [Mania](track_album) by composer [Bonobo](track_artist)?
 - Play any [msuci](music:track) from the movie [In League With Dragons](track_album)
@@ -739,34 +887,34 @@
 - Would you please play any track from [Nevermind](track_album) album by composer [Dr. Dre;Eminem](track_artist)
 - Would you please play any track from album [Hotel California](track_album)?
 - Play some tone from movie [Crushing](track_album)
-- I want to listen to song from [IGOR](track_album) by [composer](artist:composer) [Dr. Dre](track_artist)
+- I want to listen to song from [IGOR](track_album) by [composer](artist) [Dr. Dre](track_artist)
 - Play any track from the movie [Purple Reign](track_album), will you?
 - Play some [rap](track_genre) songs
-- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [singer](artist:singer) [Clint Mansell](track_artist)?
+- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [singer](artist) [Clint Mansell](track_artist)?
 - Play some music from the album [Recovery](track_album), will you?
 - I would like to listen any track from movie [I Am Easy To Find](track_album)
 - cheer me up by playing any track from movie [What Chaos Is Imaginary](track_album), will you?
-- can you play any track from the movie [Marshal Mather LP II](track_album) by [singer](artist:singer) [Drake](track_artist)?
+- can you play any track from the movie [Marshal Mather LP II](track_album) by [singer](artist) [Drake](track_artist)?
 - I would like to listen something from [Vertigo](track_album)
-- Play any [cover](music:track) from [Western Stars](track_album) album by [composer](artist:composer) [Kanye West](track_artist), will you?
+- Play any [cover](music:track) from [Western Stars](track_album) album by [composer](artist) [Kanye West](track_artist), will you?
 - I wanna listen any [msuci](music:track) from the album [Remind Me Tomorrow](track_album)
 - Could you please play the [soundtrack](track_genre) [songs](music:track)?
 - I wanna dance to any [msuci](music:track) from album [New Breed](track_album)
-- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [composer](artist:composer) [Eminem](track_artist)?
+- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [composer](artist) [Eminem](track_artist)?
 - will you please play any [music](music:track) from [The Marshall Mathers LP 2 Disc 2](track_album)?
 - Would you please play any track from [This Is How You Smile](track_album) album
 - cheer me up by playing songs from [Chapter VI](track_album), will you?
 - Could you kindly [Till I Collapse](track_name) by [Nate Dogg](track_artist)
-- can you play song from [Oliver Appropriate](track_album) by [composer](artist:composer) [Eagles](track_artist)?
+- can you play song from [Oliver Appropriate](track_album) by [composer](artist) [Eagles](track_artist)?
 - please play the [funk](track_genre) track  for us
 - can you please play any track from the album [Heard It In A Past Life](track_album)?
-- Would you please play tracks from [Bad](track_album) by [singer](artist:singer) [Dr. Dre;Eminem](track_artist)?
+- Would you please play tracks from [Bad](track_album) by [singer](artist) [Dr. Dre;Eminem](track_artist)?
 - can you play any track from [Illuminate](track_album)?
 - can you play a track from the movie [Mania](track_album)?
 - Play any song from [Revival](track_album), will you?
 - Play any track by singer [Katy Perry](track_artist) from the album [The Saint of Lost Causes](track_album), will you?
 - Would you please play something by singer [Ludacris](track_artist)?
-- can you play tracks from [AMDN](track_album) album by [singer](artist:singer) [Camila Cabello](track_artist)
+- can you play tracks from [AMDN](track_album) album by [singer](artist) [Camila Cabello](track_artist)
 - Would you please play any song by composer [Drake](track_artist) from [TBA](track_album)?
 - I would like to listen any music from album [The Unseen In-Between](track_album)
 - Could you please play the [edm](track_genre) track ?
@@ -790,7 +938,7 @@
 - I would like to hear some [punk](track_genre) songs
 - Please play music [Crack A Bottle](track_name) by [Teddy Geiger](track_artist) from [Remind Me Tomorrow](track_album).
 - I wanna dance to a track from the album [Legend](track_album)
-- will you please play any song from [Young Enough](track_album) by [singer](artist:singer) [Future](track_artist)?
+- will you please play any song from [Young Enough](track_album) by [singer](artist) [Future](track_artist)?
 - play music [Crack A Bottle](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
 - I wanna dance to any track from [Anima](track_album) album
 - I wanna listen any song from album [Revival](track_album)
@@ -841,7 +989,7 @@
 - play music [Patience](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
 - Would you please play any music from movie [Thank U, Next](track_album) by composer [Sean Paul](track_artist)?
 - Would you please play any track from the movie [Titanic Rising](track_album) by [Dr. Dre](track_artist)?
-- Play something from [Anima](track_album) by [composer](artist:composer) [Dr. Dre](track_artist), will you?
+- Play something from [Anima](track_album) by [composer](artist) [Dr. Dre](track_artist), will you?
 - I would like to listen any track from album [Make It Big](track_album)
 - cheer me up by playing something from album [The Night King](track_album), will you?
 - Would you please play some [punk](track_genre) songs?
@@ -855,12 +1003,12 @@
 - I would like to listen any track from movie [Gold and Grey](track_album)
 - can you play [msuci](music:track) from [Supernatural](track_album)?
 - I would like to dance to the [pop](track_genre) tracks
-- I wonder if someone could play [Baby](track_name) by [composer](artist:composer) [Justin Bieber](track_artist)
+- I wonder if someone could play [Baby](track_name) by [composer](artist) [Justin Bieber](track_artist)
 - cheer me up by playing any song from the movie [Heard It in a Past Life](track_album), will you?
 - Play some [edm](track_genre)
 - can you play tracks from [Marshal Mather LP II](track_album) album by singer [George Michael](track_artist).
 - can you please play tracks from [New Breed](track_album) album.
-- can you play something from [Angel's Pulse](track_album) album by [composer](artist:composer) [XAMES3](track_artist).
+- can you play something from [Angel's Pulse](track_album) album by [composer](artist) [XAMES3](track_artist).
 - Play any track from [Legend](track_album) album.
 - I just want to listen to the music [Berzerk](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
 - play music [Love Game](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album).
@@ -908,7 +1056,7 @@
 - Please play music [Evil Twin](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
 - will you please play something from [Abbey Road](track_album)?
 - Play some tone from movie [Norman Fucking Rockwell](track_album)
-- Play any track from [La La Land](track_album) by [singer](artist:singer) [Justin Hurwitz](track_artist), will you?
+- Play any track from [La La Land](track_album) by [singer](artist) [Justin Hurwitz](track_artist), will you?
 - Play any cover from [On The Line](track_album) album, will you?
 - cheer me up by playing any [cover](music:track) from the movie [YOU CAN'T SIT WITH US](track_album), will you?
 - can you play any track from the album [Thank U, Next](track_album)?
@@ -976,7 +1124,7 @@
 - cheer me up by playing any song from the album [Remind Me Tomorrow](track_album), will you?
 - can you please play some [msuci](music:track) from the album [Abbey Road](track_album)?
 - will you please play song from [Supernatural](track_album) by [The Chainsmokers](track_artist)?
-- Play song from [I Am Easy To Find](track_album) by [singer](artist:singer) [George Michael](track_artist), will you?
+- Play song from [I Am Easy To Find](track_album) by [singer](artist) [George Michael](track_artist), will you?
 - But play [Lose Yourself](track_name) by [Joel Little](track_artist)
 - can you play something from the album [Dedicated](track_album)?
 - I would like you to please play some [blues](track_genre) [cover](music:track)
@@ -994,6 +1142,60 @@
 - I wanna dance to songs from album [Oasis](track_album)
 - Play a track from the album [Oasis](track_album), will you?
 - will you please play a track from movie [IGOR](track_album)?
+- babe could you please play [berserk](track_name) by [eminem](track_artist)
+- play [craving](track_name)
+- plz play [hip-hop](track_genre) music.
+- i want to listen to [dubstep](track_genre) music. could you play that for me
+- I can dance to any [music](music:track) from album [Age of Extinction](track_album), will you play that?
+- play [Monster](track_name) by [rihanna](track_artist)
+- We all want to listen to some [Classic](track_genre) music. could you please play that for us?
+- could you please play [Hip-hop](track_genre) music
+- But play [Lose Yourself](track_name) by [Joel Little](track_artist)
+- Play [Beautiful](track_name).
+- play [not afraid](track_name) by [eminem](track_artist).
+- will you play any song by [Billie Eilish](track_artist)?
+- I think its best for me if I start listening to [pop](track_genre) music.
+- I must ask you to play a song by artist [Shamur](track_artist).
+- Could you kindly play a [grunge](track_genre) beat for us
+- Can you please play any [pop](track_genre) track for me?
+- I just want to listen to [Killshot](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
+- Could you please play the [Pop](track_genre)?
+- Could you kindly play [Till I Collapse](track_name) by [Nate Dogg](track_artist)
+- Just wanna to listen [Lose Yourself](track_name) by [Kendrick Lamar](track_artist) from [Recovery](track_album).
+- play [i wanna fuck you](track_name)
+- Play [parking slot](track_name) by [Eminem](track_artist).
+- Could we get something by [Bruno Mars](track_artist)?
+- Could you play an [orchestra](track_genre) beat?
+- we all would like to listen [Metal](track_genre)
+- [Charlotte](ai), play [yin-yang](track_name)
+- Could you please play [Berzerk](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album)?
+- I wanna dance to song from [EVEN IN THE TREMOR](track_album) album.
+- We wanna listen some [Electronic](track_genre) music.
+- I think I'll listen to [Oh God](track_name) by [John Mayer](track_artist).
+- I want to dance to track from movie [Oasis](track_album)
+- can you please play any [rap](track_genre) track for everyone present here?
+- play [love game](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album)
+- I must say, play the song [Stan](track_name) by [Rihanna](track_artist)
+- Play [Crack](track_name)
+- i want to listen to some [dubstep](track_genre) music.
+- play [one love](track_name) by [one direction](track_artist).
+- Play [stan](track_name) by [nate dogg](track_artist).
+- play [tiktok](track_name) by [keisha](track_artist).
+- Could you please play the [soundtrack](track_genre) [songs](music:track)?
+- Cud you kindly play [low](track_name) by [T-pain](track_artist) from [Step Up](track_album)
+- play [crack a bottle](track_name).
+- I wanna groove to track from the album [Legend](track_album)
+- I wanna dance to any [msuci](music:track) from album [New Breed](track_album)
+- I wanna dance to music from album [Kamikaze](track_album).
+- Could you kindly play [I wanna love you](track_name) by [Akon](track_artist) from [Konvict](track_album)
+- Could you please play the [edm](track_genre) track ?
+- I request you to play some [Pop](track_genre) music.
+- babe play [moon](track_name)
+- babe could you play [moon](track_name) ringtone
+- play [Superman](track_name)
+- Could you please play [Carnival](track_name) for me?
+- could you please play [Okami](track_name) track?
+- actually yes, play some music by [Chainsmokers](track_artist)
 
 ## intent:asking_someones_name
 - what is your name?
@@ -1230,6 +1432,7 @@
 - could you please tell me how will it be outside of [brooklyn](city)?
 - could you please tell me the weather in [alice](city)?
 - yes, tell me weather in [birmingham](city)
+- yes, tell me weather for [London](city)
 
 ## intent:asking_who_built_you
 - [Plz](action:please) tell me who made you
@@ -1417,6 +1620,8 @@
 - hello [charlotte](ai)
 - hey!
 - hey [charlotte](ai)
+- hello
+- hello [charlotte](ai)!
 
 ## intent:saying_no
 - no
@@ -1576,6 +1781,9 @@
 - nah, i'm good. thanks
 - no, nothing. that will be it.
 - nothing
+- Nah, I'm fine. Thanks
+- no that will be it from myside.
+- no, nothing for [now](time). Thanks for asking
 
 ## intent:saying_no_for_telling_name
 - I'm not going to tell my name
@@ -1741,6 +1949,9 @@
 - thanks, dear!
 - thanks [charlotte](ai). byw
 - thanks.
+- thanks [charlotte](ai)
+- Thanks bae
+- thanks again [charlotte](ai), you are the best.
 
 ## intent:saying_yes
 - yes
@@ -1835,7 +2046,7 @@
 - I am planning my trip to [Amsterdam](city).
 - I'll be flying to [Unites States of America](country)
 - I'll be flying to [India](country).
-- We are visiting [Stonehenge](landmark) [tomorrow](date).
+- We are visiting [chicago](city) [tomorrow](date).
 - I'll be travelling to [London](city) [tomorrow](date) [morning](time).
 - I'm planning to leave for [Canada](country).
 - I'll see you in [France](country).
@@ -1859,7 +2070,7 @@
 - Im from [Kolkata](city).
 - I'm in [South Dakota](state)
 - I'm driving to [US](country:usa) on my own.
-- We arrived at [Las Vegas](city) [airport](airport) this [morning](time)
+- We arrived at [Las Vegas](city) airport this [morning](time)
 - We should have a drink in [Las Vegas](city).
 - I'm in [Mumbai](city)
 - I am currently residing in [the states](country:usa) [now](time)
@@ -1868,7 +2079,7 @@
 - Near [Dr. R.P.Road](street)
 - I'm based of [San Francisco](city)
 - I live in [New York](city)
-- At [Frankfurt](city) [airport](airport)
+- At [Frankfurt](city) airport
 - I'll leave for [San Francisco](city) [tomorrow](date).
 - in [Westminster](city) please.
 - In [tokyo](city).
@@ -1884,7 +2095,7 @@
 - from [America](country:usa)
 - I am going to [London](city) [today](date).
 - somewhere in [Bombay](city)
-- Nearby [Thames river](landmark) in [London](city).
+- Nearby thames river in [London](city).
 - Currently Im in [Mumbai](city).
 - [UK](country:uk)
 - Why are you in [UK](country:uk)
@@ -2063,10 +2274,10 @@
 ## synonym:male
 - sir
 - Guys
+- bruh
 - pal
 - boy
 - man
-- bruh
 - bro
 
 ## synonym:minutes
@@ -2098,28 +2309,30 @@
 - plz
 - plzz
 - pleas
+- puh-lease
 - plzzz
 - Plz
-- puh-lease
 - Pl
 
 ## synonym:should
 - shud
 
 ## synonym:track
+- song
+- cover
+- musci
 - music
+- msuci
+- songs
+- msucis
 - musik
 - beat
 - tune
-- music
 - beats
-- songs
-- song
 - rhythms
 - tunes
 - songz
 - tracks
-- cover
 - msuic
 - musical tracks
 - songzz

@@ -1,8 +1,8 @@
-%YAML 1.1
----
 actions:
 - action_greet_user
 - action_play_music
+- action_play_previous_music
+- action_play_next_music
 - action_tell_current_forecast_weather_conditions
 - action_tell_current_weather_conditions
 - action_tell_forecast_weather_conditions
@@ -18,7 +18,6 @@ entities:
 - action
 - ai
 - ai_creator
-- airport
 - bleep_words
 - city
 - country
@@ -29,7 +28,6 @@ entities:
 - gender
 - grammar
 - hours
-- landmark
 - minutes
 - music_file
 - name
@@ -53,11 +51,11 @@ entities:
 - weather
 intents:
 - saying_hello
-- asking_weather_conditions
-- asking_play_music
 - saying_no
+- asking_play_music
 - saying_thank_you
 - asking_forecast_weather_conditions
+- asking_weather_conditions
 - saying_okay
 - saying_yes
 - asking_current_weather_conditions
@@ -107,9 +105,13 @@ slots:
     type: text
   name:
     type: text
+  next_track:
+    type: text
   people:
     type: text
   planet:
+    type: text
+  previous_track:
     type: text
   quantity:
     type: text
@@ -143,16 +145,19 @@ slots:
     type: text
   weather:
     type: text
-  xa:
+  xa_lower:
+    initial_value: boss
+    type: text
+  xa_title:
     initial_value: Boss
     type: text
 templates:
   action_default_fallback:
   - text: Sorry, I am not sure how to help you with that yet.
-  - text: Sorry, {xa} I didn't quite get that part.
-  - text: I would need your help, {xa}.
+  - text: Sorry, {xa_lower} I didn't quite get that part.
+  - text: I would need your help, {xa_lower}.
   - text: Sorry, I am not sure how to help you with that yet. But I am still learning.
-  - text: Sorry, {xa}. Perhaps could you rephrase that one more time, please?
+  - text: Sorry, {xa_lower}. Perhaps could you rephrase that one more time, please?
   - text: I am afraid I didn't quite understand what you just said.
   - text: Pardon me, could you rephrase that please?
   - text: Pardon me, could you please rephrase that?
@@ -160,16 +165,16 @@ templates:
   - text: Please may I request you to rephrase what you just said?
   - text: My apologies, I didn't understand what you mean.
   utter_do_you_need_anything_else:
-  - text: Any other request, {xa}?
-  - text: Do you need anything else, {xa}?
-  - text: Anything else, {xa}?
+  - text: Any other request, {xa_lower}?
+  - text: Do you need anything else, {xa_lower}?
+  - text: Anything else, {xa_lower}?
+  - text: Will there be anything else?
   utter_how_can_i_help:
   - text: What can I do for you?
-  - text: How may I help you, {xa}?
-  - text: How can I help you, {xa}?
+  - text: How may I help you?
+  - text: How can I help you?
   - text: What would you like me to do?
-  - text: '{xa}, what would you like me to do?'
-  - text: What can I help you with, {xa}?
+  - text: What can I help you with?
   utter_saying_fetching_weather_details:
   - text: Just a moment...
   - text: Fetching weather details for {city}...
@@ -186,24 +191,20 @@ templates:
   - text: Umm... okay.
   - text: Mm-hmm.
   - text: As you wish.
-  - text: Alright, {xa}.
-  - text: Okay, {xa}.
-  - text: Sure, {xa}.
+  - text: Sure, {xa_lower}.
   - text: Erm... okay.
   - text: Umm... okay.
-  - text: Umm... okay, {xa}.
-  - text: As you wish, {xa}.
+  - text: As you wish, {xa_lower}.
   utter_saying_okay_for_weather_searches:
   - text: Okay.
-  - text: Okay, {xa}.
+  - text: Okay, {xa_lower}.
   - text: Erm... okay.
   - text: Umm... okay.
   utter_saying_okay_to_denial:
   - text: Alright.
-  - text: Alright, {xa}.
-  - text: Okay, {xa}.
+  - text: Okay, {xa_lower}.
   - text: Okay.
-  - text: As you wish, {xa}.
+  - text: As you wish, {xa_lower}.
   utter_saying_welcome_to_action:
   - text: No problem.
   - text: Ah... No problem.
@@ -211,7 +212,7 @@ templates:
   - text: No worries.
   utter_saying_what_would_that_be:
   - text: And what would that be?
-  - text: And what would that be, {xa}?
+  - text: And what would that be, {xa_lower}?
   - text: What would that be?
   - text: Okay, what would that be?
   - text: Okay, tell me what should I do next?
