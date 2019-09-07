@@ -46,6 +46,7 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.1 - Added reference links to the functions.
 #   1.0.0 - First code.
 
 from __future__ import absolute_import
@@ -149,6 +150,8 @@ def render_model(model_name: str = None) -> None:
     models. If you only want to choose specific model, you can use this
     function to do so.
     """
+    # You can find the reference code here:
+    # https://rasa.com/docs/rasa/user-guide/command-line-interface/
     from questionary import Choice, select
 
     try:
@@ -206,6 +209,8 @@ def test_nlu() -> None:
     Note: It will use the default Charlotte model, `./models/charlotte.tar.gz`
     for testing.
     """
+    # You can find the reference code here:
+    # https://rasa.com/docs/rasa/user-guide/command-line-interface/
     from questionary import Choice, select
 
     try:
@@ -236,6 +241,8 @@ def start_training() -> None:
     for training. Training will be skipped if the training data and config have
     not changed.
     """
+    # You can find the reference code here:
+    # https://rasa.com/docs/rasa/user-guide/command-line-interface/
     try:
         # Checks if `charlotte.tar.gz` exists.
         # Story visualization is disabled as a personal preference. You can
@@ -306,6 +313,8 @@ def evaluate_model() -> None:
     Note: It is recommended to use this function to check the precision and
     accuracy of the model, if it is overfitting or underfitting.
     """
+    # You can find the reference code here:
+    # https://rasa.com/docs/rasa/user-guide/command-line-interface/
     from os.path import join
     from questionary import Choice, select
 

@@ -18,6 +18,10 @@ At a glance, the structure of the module is following:
                         with `*` just like the password field in HTML/CSS.
  - decide():            Provides choice and then asks answer based on the
                         choosed option.
+ - choose():            Provides options to choose from. These options are
+                        then to be used for further code execution. It is
+                        recommended to use this function when any one of the
+                        multiple options needs to be selected.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -25,12 +29,13 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.1 - Removed general questionary imports. Added `choose` function to
+#           substitute the `select` from questionary module and updated main
+#           docstring accordingly.
 #   1.0.0 - First code.
 
 from inspect import stack
 from sys import exc_info
-
-from questionary import Choice, select, text, password
 
 # Constant used by `answer` and `decide` to return if no response is given.
 _NO_RESPONSE = 'null'
@@ -149,3 +154,19 @@ def decide(confirm_question: str, question: str) -> str:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
               f' {exc_info()[-1].tb_lineno}.')
+
+
+def choose(question: str, **kwargs) -> str:
+    """Provides options.
+
+    question: Question or Message presenting multiple options.
+
+    Provides options to choose from. These options are then to be used for
+    further code execution.
+
+    Note: It is recommended to use this function when any one of the multiple
+    options needs to be selected.
+    """
+    from questionary import Choice, select
+
+    return select(question, [Choice(v, k) for k, v in kwargs.items()]).ask()
