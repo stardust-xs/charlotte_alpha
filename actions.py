@@ -11,6 +11,8 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Slots for music_file in `ActionPlayMusic`, `ActionPlayNextMusic`
+#           and `ActionPlayPreviousMusic` are set, previously were kept None.
 #   1.0.0 - First code.
 
 from rasa_sdk import Action
@@ -114,7 +116,7 @@ class ActionPlayMusic(Action):
         dispatcher.utter_message(reply_on_playing(playing_file[0],
                                                   playing_file[1],
                                                   playing_file[2]))
-        return [SlotSet('music_file', None),
+        return [SlotSet('music_file', playing_file[0]),
                 SlotSet('track_name', None),
                 SlotSet('track_artist', None),
                 SlotSet('track_albumartist', None),
@@ -141,7 +143,7 @@ class ActionPlayPreviousMusic(Action):
         dispatcher.utter_message(reply_on_playing(playing_file[0],
                                                   playing_file[1],
                                                   playing_file[2]))
-        return [SlotSet('music_file', None),
+        return [SlotSet('music_file', playing_file[0]),
                 SlotSet('track_name', None),
                 SlotSet('track_artist', None),
                 SlotSet('track_albumartist', None),
@@ -168,7 +170,7 @@ class ActionPlayNextMusic(Action):
         dispatcher.utter_message(reply_on_playing(playing_file[0],
                                                   playing_file[1],
                                                   playing_file[2]))
-        return [SlotSet('music_file', None),
+        return [SlotSet('music_file', playing_file[0]),
                 SlotSet('track_name', None),
                 SlotSet('track_artist', None),
                 SlotSet('track_albumartist', None),
