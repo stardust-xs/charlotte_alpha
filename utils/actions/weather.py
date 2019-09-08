@@ -17,6 +17,8 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Fixed error caused by redundant quotes in `forecast_weather`
+#           function.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -224,7 +226,7 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
                      f' {forecast_condition} in next {mins} mins.']
         # Checks if hours or minutes are passed for predicting the weather.
         if hours is None or hours is _NONE or hours is _NULL:
-            if mins is None or mins is _NONE or mins is _NULL':
+            if mins is None or mins is _NONE or mins is _NULL:
                 # Checks if it is day using the Apixu`s internal sunset time
                 # checker.
                 if is_day == 0:
