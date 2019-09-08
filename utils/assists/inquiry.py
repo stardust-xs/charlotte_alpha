@@ -6,10 +6,10 @@ use of the same. This module should be used on command line only otherwise, it
 will raise an Exception.
 
 At a glance, the structure of the module is following:
- - confirm():           Asks for confirmation. Provides `Yes` or `No` options
+ - confirm():           Asks for confirmation. Provides Yes or No options
                         to confirm. It is recommended to use this function by
                         assigning it to a variable and then the variable
-                        should be used in an `if-else` condition to invoke the
+                        should be used in an if-else condition to invoke the
                         action.
  - answer():            Answers the asked question. It is recommended to use
                         this function while taking inputs.
@@ -22,6 +22,7 @@ At a glance, the structure of the module is following:
                         then to be used for further code execution. It is
                         recommended to use this function when any one of the
                         multiple options needs to be selected.
+ - select_file():       Provides list of files to choose from a directory.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -29,9 +30,13 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
-#   1.0.1 - Removed general questionary imports. Added `choose` function to
-#           substitute the `select` from questionary module and updated main
-#           docstring accordingly.
+#   1.0.2 - Synced all updates in history as other files.
+#           Reduced unnecessary use of "`" in comments for simplicity.
+#           Added new function, `select_file` to select a file from the
+#           directory.
+#   1.0.1 - Removed general questionary imports.
+#           Added `choose` function to substitute the `select` from
+#           questionary module and updated main docstring accordingly.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -42,14 +47,14 @@ _NO_RESPONSE = 'null'
 
 
 def confirm(question: str) -> bool:
-    """Provides `Yes` or `No` options.
+    """Provides Yes or No options.
 
     question: Question for yes-no options.
 
-    Asks for confirmation. Provides `Yes` or `No` options to confirm.
+    Asks for confirmation. Provides Yes or No options to confirm.
 
     Note: It is recommended to use this function by assigning it to a variable
-    and then the variable should be used in an `if-else` condition to invoke
+    and then the variable should be used in an if-else condition to invoke
     the action.
     """
     from questionary import Choice, select
@@ -170,3 +175,18 @@ def choose(question: str, **kwargs) -> str:
     from questionary import Choice, select
 
     return select(question, [Choice(v, k) for k, v in kwargs.items()]).ask()
+
+
+def select_file(question: str, file_dir: list) -> str:
+    """Provides list of files.
+
+    question: Question or Message selecting multiple files.
+
+    Provides option to select the file from a directory.
+    """
+    # You can find the reference code here:
+    # https://stackoverflow.com/questions/1747817/create-a-dictionary-with-list-comprehension
+    from questionary import Choice, select
+
+    files_dict = {index: file_dir[index] for index in range(0, len(file_dir))}
+    return select(question, [Choice(v, k) for k, v in files_dict.items()]).ask()
