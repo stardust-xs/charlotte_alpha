@@ -10,6 +10,7 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Added comments for alias and assistant name.
 #   1.0.0 - First code.
 
 import os
@@ -158,8 +159,12 @@ try:
         username = decrypt(os.environ.get(_USERNAME), key)
         mobile = decrypt(os.environ.get(_MOBILE), key)
         hotword = decrypt(os.environ.get(_HOTWORD), key)
+        # Lower and Title case alias of the main user.
+        # This is used for all future interactions with the primary user.
         lower = alias.lower()
         title = alias.title()
+        # Lower and Title case name of the assistant.
+        # This name would be used for calling the assistant.
         ai_lower = hotword.lower()
         ai_title = hotword.title()
 except Exception as error:
