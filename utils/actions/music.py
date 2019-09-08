@@ -29,6 +29,13 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Fixed error caused when `os.walk` was not imported in
+#           `play_music_using_metadata` function.
+#           Added ignored support for previous and next track in
+#           `play_music_using_metadata` function.
+#           Added support for fuzzy finder while finding the previous and next
+#           tracks from the track_list in `play_music_using_metadata`.
+#           Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -162,7 +169,7 @@ def _play_music(file: str = None, file_dir: str = local_dir['music']) -> None:
         # any random music file from the default music directory.
         if file:
             # This returns a tuple with file name and it`s score.
-            # For more information on the function, refer `generic.py` module.
+            # For more information on the function, refer generic.py module.
             file_name, file_score = find_file(file, file_dir)
             if file_score == 0:
                 return file_name
@@ -215,6 +222,7 @@ def play_music_using_metadata(music_file: str = None,
     passed to the `_play_music` function inside it. No input to `_play_music`
     will play file randomly.
     """
+    from os import walk
     from random import randint
     from numpy import ones
     from pandas import read_csv, Series
@@ -227,17 +235,21 @@ def play_music_using_metadata(music_file: str = None,
         if music_file:
             # This generated track list is used for finding the relative next
             # and previous tracks.
-            previous_track = track_list[track_list.index(music_file) - 1]
-            next_track = track_list[track_list.index(music_file) + 1]
+            previous_track = track_list[track_list.index(
+                str_match(music_file, track_list)) - 1]
+            next_track = track_list[track_list.index(
+                str_match(music_file, track_list)) + 1]
             playing_file = _play_music(music_file)
             return playing_file, previous_track, next_track
         elif track_name:
-            # The same can`t be applied to track_name as it is only available
-            # if the music file is given and the track_name is available using
-            # the `_extract_metadata` function, hence returning None and None
-            # for it`s previous_track and next_track references.
+            # Added support for previous and next track since the inputs come
+            # from a Slot, track_name.
+            previous_track = track_list[track_list.index(
+                str_match(track_name, track_list)) - 1]
+            next_track = track_list[track_list.index(
+                str_match(track_name, track_list)) + 1]
             playing_file = _play_music(track_name)
-            return playing_file, None, None
+            return playing_file, previous_track, next_track
         else:
             music_csv_file = ai_file['music']
             # Calling csv object for lookup.
