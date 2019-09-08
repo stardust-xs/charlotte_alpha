@@ -22,6 +22,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -75,7 +76,7 @@ def age(birthdate: str) -> int:
     Calculates the age based on the given date. This function calculates the
     time delta between today and the given date and returns age in integer.
 
-    Note: The birthdate needs to be ISO 8601 format (For e.g. `1995-05-31`).
+    Note: The birthdate needs to be ISO 8601 format (For e.g. 1995-05-31).
     It just provides years and not months.
     """
     from datetime import date
@@ -103,7 +104,7 @@ def locate(area: str = None) -> str:
     Note: Function uses Google Maps for retreiving latitude and longitude
     using Google Maps API. Hence it is necessary to generate the API key first
     before running this function.
-    You can generate it here: `https://console.developers.google.com`
+    You can generate it here: https://console.developers.google.com
 
     Caution: If you run the function without passing valid API key, it will
     raise an exception.

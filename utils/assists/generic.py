@@ -46,11 +46,11 @@ At a glance, the structure of the module is following:
  - find_file():         Finds the matching file in the directory. This
                         function uses Fuzzy Logic for determining the best
                         possible match. Function can provide 3 best possible
-                        matches but we use just 1 i.e. `The best match`.
+                        matches but we use just 1 i.e. The best match.
  - str_match():         Finds the matching string in the list. This function
                         is similar to `find_file` function but it needs to be
                         used for searching file from directory while this
-                        function can be used for guessing `text` from any
+                        function can be used for guessing text from any
                         valid list like for ex. CSV columns.
 
 See https://github.com/xames3/charlotte for cloning the repository.
@@ -59,6 +59,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -173,7 +174,7 @@ def make_log(file: str, show_warning: bool = None) -> classmethod:
     try:
         make_dir(ai_dir['logs'])
         log = getLogger(file)
-        # Logging level is set to `debug` by default. You can change this if
+        # Logging level is set to debug by default. You can change this if
         # needed.
         log.setLevel(DEBUG)
         log_file = Path(str(file).lower()).stem
@@ -412,7 +413,7 @@ def find_file(file: str, file_dir: str, min_score: int = 65) -> tuple:
     for determining the best possible match.
 
     Note: Function can provide 3 best possible matches but we use just 1
-    i.e. `The best match`.
+    i.e. The best match.
     """
     from os import walk
     from fuzzywuzzy.fuzz import partial_ratio
@@ -449,7 +450,7 @@ def str_match(text: str, text_list: list, min_score: int = 65) -> str:
 
     Finds the matching string in the list. This function is similar to
     `find_file` function but it needs to be used for searching file from
-    directory while `str_match` can be used for guessing `text` from any valid
+    directory while `str_match` can be used for guessing text from any valid
     list like for ex. CSV columns.
     """
     from os import walk

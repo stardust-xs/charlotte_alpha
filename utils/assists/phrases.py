@@ -10,6 +10,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -20,7 +21,7 @@ from charlotte.utils.actions.person import wish_user
 from charlotte.utils.assists.profile import ai_lower, ai_title, lower, title
 
 try:
-    # All choices starting with `cmdline_main_options` are used by the `run.py`
+    # All choices starting with `cmdline_main_options` are used by the run.py
     # module.
     cmdline_main_options_start_greet = choice([
         wish_user() + ' How can I assist you?',
@@ -57,7 +58,7 @@ try:
         f'Your terminal is ready, {lower}.',
         f'{title}, the terminal is ready. Please start typing.',
         'Activating terminal... Ready'])
-    # Choices starting with `rasa_model` are used by the `rasa.py` module.
+    # Choices starting with `rasa_model` are used by the rasa.py module.
     rasa_model_rename_check = choice([
         f'Would you like to rename the model, {lower}? Default model name '
         f'is "{ai_lower}".',
