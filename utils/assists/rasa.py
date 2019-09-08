@@ -46,13 +46,17 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Added `show` in `get_nlu_stats` function to respond once the temp
+#           result is generated.
+#           Removed import `isfile` function import from general imports as it
+#           is not used in any of the functions.
+#           Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.1 - Added reference links to the functions.
 #   1.0.0 - First code.
 
 from __future__ import absolute_import
 from __future__ import print_function
 
-from os.path import isfile
 from inspect import stack
 from os.path import exists
 from subprocess import call
@@ -78,7 +82,7 @@ def model_check(model: str, model_dir: str = ai_dir['models']) -> None:
 
     model:     Name of the model
     model_dir: Path of the models directory
-               Default: ./models/
+               Default: `./models/`
 
     Checks if the model exists in `./models/` directory, and returns the model
     name.
@@ -141,7 +145,7 @@ def render_model(model_name: str = None) -> None:
     """Renders model.
 
     model_name: Name of the model.
-                Default: None i.e. `charlotte`
+                Default: None i.e. charlotte
 
     Creates models using your NLU data and stories. The function renders model
     by overwriting the previous model (if the model has same name).
@@ -165,7 +169,7 @@ def render_model(model_name: str = None) -> None:
         make_dir(ai_dir['models'])
         rename = confirm(rasa_model_rename_check)
         # If I ever want to rename the model, it will take input and render
-        # that model. Else, it will use `charlotte` as the default model name.
+        # that model. Else, it will use charlotte as the default model name.
         if rename is True:
             model_name = answer(f'{title}, what would you like to call it?')
             model_name.lower()
@@ -297,6 +301,7 @@ def get_nlu_stats() -> None:
             temp_file.write('\nEntities:\n')
             for index in entities:
                 temp_file.write(index + '\n')
+        show(f'Done. Results are stored in {named_temp_file.name} file.')
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
