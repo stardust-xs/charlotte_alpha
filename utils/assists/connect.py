@@ -17,10 +17,13 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.2 - Added reference link to the code.
 #   1.0.0 - First code.
 
-from sanic import Blueprint
-from sanic.response import json
+import logging
+import json
+from sanic import Blueprint, response
+from sanic.request import Request
 
 from rasa.core.channels.channel import UserMessage, OutputChannel
 from rasa.core.channels.channel import InputChannel
@@ -31,37 +34,35 @@ from charlotte.utils.assists.profile import lower
 
 class Assistant(InputChannel):
     """A custom http input channel."""
-
+    # You can find the reference code here:
+    # https://medium.com/rasa-blog/going-beyond-hey-google-building-a-rasa-powered-google-assistant-5ff916409a25
     @classmethod
     def name(cls):
         # Name of the class.
         return 'assistant'
 
     def blueprint(self, on_new_message):
-        assistant_webhook = Blueprint('assistant_webhook', __name__)
 
-        # Checking health of the connection.
-        @assistant_webhook.route('/', methods=['GET'])
+        google_webhook = Blueprint('google_webhook', __name__)
+
+        @google_webhook.route("/", methods=['GET'])
         async def health(request):
-            return json({"status": "working"})
+            return response.json({"status": "ok"})
 
-        # Sending response back.
-        @assistant_webhook.route('/charlotte', methods=['POST'])
+        @google_webhook.route("/webhook", methods=['POST'])
         async def receive(request):
             payload = request.json
             intent = payload['inputs'][0]['intent']
             text = payload['inputs'][0]['rawInputs'][0]['query']
-            # If the session is just started, greet user else reply back
-            # using the response from Rasa.
+
             if intent == 'actions.intent.MAIN':
-                message = 'Hello, I\'m Charlotte. Your personal assistant!'
+                message = "Hello! Welcome to the Rasa-powered Google Assistant skill. You can start by saying hi."
             else:
                 out = CollectingOutputChannel()
                 await on_new_message(UserMessage(text, out))
-                responses = [reply['text'] for reply in out.messages]
+                responses = [m["text"] for m in out.messages]
                 message = responses[0]
-            # Google Assistant Actions JSON template.
-            response = {
+            r = {
                 "expectUserResponse": 'true',
                 "expectedInputs": [
                     {
@@ -76,7 +77,7 @@ class Assistant(InputChannel):
                                     {
                                         "simpleResponse": {
                                             "textToSpeech": message,
-                                            "showText": message
+                                            "displayText": message
                                         }
                                     }
                                 ]
@@ -85,5 +86,7 @@ class Assistant(InputChannel):
                     }
                 ]
             }
-            return json(response)
-        return assistant_webhook
+
+            return response.json(r)
+
+        return google_webhook
