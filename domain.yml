@@ -1,8 +1,10 @@
+%YAML 1.1
+---
 actions:
 - action_greet_user
 - action_play_music
-- action_play_previous_music
 - action_play_next_music
+- action_play_previous_music
 - action_tell_current_forecast_weather_conditions
 - action_tell_current_weather_conditions
 - action_tell_forecast_weather_conditions
@@ -50,16 +52,17 @@ entities:
 - train_station
 - weather
 intents:
-- saying_hello
-- saying_no
 - asking_play_music
+- saying_no
+- saying_hello
+- asking_goto_next_step
+- asking_goto_previous_step
 - saying_thank_you
 - asking_forecast_weather_conditions
 - asking_weather_conditions
 - saying_okay
 - saying_yes
 - asking_current_weather_conditions
-- asking_goto_previous_step
 - saying_goodbye
 - saying_no_for_telling_name
 - asking_who_built_you
@@ -68,7 +71,6 @@ intents:
 - asking_someones_name
 - telling_my_name
 - telling_location
-- asking_goto_next_step
 - asking_how_are_you
 slots:
   action:
