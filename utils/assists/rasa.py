@@ -46,6 +46,8 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.3 - Added `show` warning in `render_model` function while running the
+#           `rasa train` command.
 #   1.0.2 - Added `show` in `get_nlu_stats` function to respond once the temp
 #           result is generated.
 #           Removed import `isfile` function import from general imports as it
@@ -197,7 +199,8 @@ def render_model(model_name: str = None) -> None:
                 call(
                     f'rasa train {model_type} --fixed-model-name "{ai_lower}_core"')
             else:
-                call(f'rasa train --fixed-model-name "{ai_lower}"')
+                show('This will overwrite the existing main model.')
+                call(f'rasa train --fixed-model-name "{ai_lower}" --force')
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
