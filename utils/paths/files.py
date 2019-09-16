@@ -15,6 +15,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.3 - Added reference link to ngrok file.
 #   1.0.0 - First code.
 
 from charlotte.utils.paths.directories import PARENT, ai_dir
@@ -28,5 +29,6 @@ ai_file = {
     'domain': PARENT/'domain.yml',
     'endpoints': PARENT/'endpoints.yml',
     'chrome': ai_dir['bin']/'chromedriver.exe',
-    'music': ai_dir['csv']/'music.csv'
+    'music': ai_dir['csv']/'music.csv',
+    'ngrok': ai_dir['bin']/'ngrok.exe'
 }
