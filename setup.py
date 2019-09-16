@@ -25,26 +25,41 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.3 - Updated to 1.0.3 - 8, September 2019
+#           Added support for virtual environment - ./env/ - This is a major
+#           change.
+#           Fixed connector code in connect.py module.
+#           Deprecated `select` and used `choose` instead in run.py module.
+#           Added new phrase for `no_internet_connection` in phrases.py module.
+#           Added error handling support for internet failure in actions.py
+#           module.
+#           actions.py now supports exception handling if no internet is
+#           detected.
+#           Added warning for model overwriting in rasa.py module.
+#           Corrected typos in setup.py module.
+#           weather.py now returns None if exceptions are raised.
+#           Added few more examples in nlu.md data file.
+#           ngrok.exe can be accessed through file.py module.
 #   1.0.2 - Updated to 1.0.2 - 7, September 2019
-#           Updated rasa to 1.3.0 and rasa_sdk to 1.3.2.
+#           Updated rasa to 1.3.0 and rasa_sdk to 1.3.2 - This is major change.
 #           Updated requirements.txt to match new rasa requirements (including
 #           tensorflow/tensorflow-gpu v1.14.0).
 #           Added brief introduction to setup.py module.
 #           Reduced unnecessary use of "`" in comments for simplicity from
 #           multiple files.
-#           Fixed typo in weather.py.
-#           Fixed error caused by not importing `os.walk` in music.py.
-#           Added support for previous and next track in music.py.
-#           Added support for fuzzy finder in music.py while finding next
-#           and previous tracks.
-#           Setting slot, `music_file` in actions.py.
-#           Added show and removed unused import in rasa.py
-#           Added comments in profile.py.
-#           Added `select_file` function in inquiry.py
+#           Fixed typo in weather.py module.
+#           Fixed error caused by not importing `os.walk` in music.py module.
+#           Added support for previous and next track in music.py module.
+#           music.py now uses fuzzy matcher while finding next and previous
+#           tracks.
+#           `music_file` slot is now set in actions.py module.
+#           Added `show` and removed unused import in rasa.py module.
+#           Added `select_file` function in inquiry.py module.
+#           Added comments in profile.py module.
 #   1.0.1 - Updated to 1.0.1 - 6, September 2019
 #           Updated inquiry.py by adding `choose` function, rasa.py by
 #           adding links to reference code in function and updated main
-#           docstring of setup.py.
+#           docstring of setup.py module.
 #   1.0.0 - First code.
 
 import os
@@ -55,7 +70,7 @@ CODENAME = 'lazuli'
 
 NUMBER = os.environ.get('CHARLOTTE_NUMBER')
 
-VERSION = '1.0.2'
+VERSION = '1.0.3'
 
 AUTHOR = MAINTAINER = 'XAMES3'
 
