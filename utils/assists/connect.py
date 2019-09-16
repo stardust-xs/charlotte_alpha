@@ -17,19 +17,17 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.3 - Fixed code with the correct and working connector code which was
+#           changed in previous build.
 #   1.0.2 - Added reference link to the code.
 #   1.0.0 - First code.
 
-import logging
-import json
-from sanic import Blueprint, response
-from sanic.request import Request
+from sanic import Blueprint
+from sanic.response import json
 
 from rasa.core.channels.channel import UserMessage, OutputChannel
 from rasa.core.channels.channel import InputChannel
 from rasa.core.channels.channel import CollectingOutputChannel
-
-from charlotte.utils.assists.profile import lower
 
 
 class Assistant(InputChannel):
@@ -42,27 +40,26 @@ class Assistant(InputChannel):
         return 'assistant'
 
     def blueprint(self, on_new_message):
+        assistant_webhook = Blueprint('assistant_webhook', __name__)
 
-        google_webhook = Blueprint('google_webhook', __name__)
-
-        @google_webhook.route("/", methods=['GET'])
+        @assistant_webhook.route('/', methods=['GET'])
         async def health(request):
-            return response.json({"status": "ok"})
+            return json({"status": "working"})
 
-        @google_webhook.route("/webhook", methods=['POST'])
+        @assistant_webhook.route('/charlotte', methods=['POST'])
         async def receive(request):
             payload = request.json
             intent = payload['inputs'][0]['intent']
             text = payload['inputs'][0]['rawInputs'][0]['query']
 
             if intent == 'actions.intent.MAIN':
-                message = "Hello! Welcome to the Rasa-powered Google Assistant skill. You can start by saying hi."
+                message = 'Hello, I\'m Charlotte. Your digital assistant!'
             else:
                 out = CollectingOutputChannel()
                 await on_new_message(UserMessage(text, out))
-                responses = [m["text"] for m in out.messages]
+                responses = [reply['text'] for reply in out.messages]
                 message = responses[0]
-            r = {
+            response = {
                 "expectUserResponse": 'true',
                 "expectedInputs": [
                     {
@@ -87,6 +84,6 @@ class Assistant(InputChannel):
                 ]
             }
 
-            return response.json(r)
+            return json(response)
 
-        return google_webhook
+        return assistant_webhook
