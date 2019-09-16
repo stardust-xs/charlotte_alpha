@@ -22,15 +22,14 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.3 - Deprecated `select` and used `choose` instead.
 #   1.0.0 - First code.
 
 from inspect import stack
 from subprocess import call
 from sys import exc_info, exit
 
-from questionary import Choice, select
-
-from charlotte.utils.assists.inquiry import answer, confirm
+from charlotte.utils.assists.inquiry import answer, choose, confirm
 from charlotte.utils.assists.phrases import (cmdline_main_options_start_greet,
                                              cmdline_main_options_quit_confirm,
                                              cmdline_main_options_clear_screen,
@@ -45,16 +44,16 @@ from charlotte.utils.assists.constants import ACTION_SERVER_PORT
 
 try:
     while True:
-        option = select(cmdline_main_options_start_greet,
-                        [Choice('Render model', 'render_model'),
-                         Choice('Train system', 'start_training'),
-                         Choice('Evaluate model', 'evaluate_model'),
-                         Choice('Test NLU model', 'test_nlu'),
-                         Choice('Get NLU statistics', 'get_nlu_stats'),
-                         Choice('Start action server', 'start_action_server'),
-                         Choice('Run user commands', 'user_command'),
-                         Choice('Clear screen', 'clear_screen'),
-                         Choice('Exit', 'exit')]).ask()
+        option = choose(cmdline_main_options_start_greet,
+                        render_model='Render model',
+                        start_training='Train system',
+                        evaluate_model='Evaluate model',
+                        test_nlu='Test NLU model',
+                        get_nlu_stats='Get NLU statistics',
+                        start_action_server='Start Action Server',
+                        user_command='Run user commands',
+                        clear_screen='Clear screen',
+                        exit='Exit')
         if option is 'render_model':
             render_model()
         elif option is 'start_training':
