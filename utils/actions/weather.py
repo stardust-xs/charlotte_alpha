@@ -17,6 +17,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.3 - All the functions returns None if any error or exception is raised.
 #   1.0.2 - Fixed error caused by redundant quotes in `forecast_weather`
 #           function.
 #   1.0.0 - First code.
@@ -112,6 +113,7 @@ def current_weather(city: str) -> str:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
               f' {exc_info()[-1].tb_lineno}.')
+        return None
 
 
 def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
@@ -241,6 +243,7 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
               f' {exc_info()[-1].tb_lineno}.')
+        return None
 
 
 def current_forecast_weather(city: str) -> str:
@@ -257,3 +260,4 @@ def current_forecast_weather(city: str) -> str:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
               f' {exc_info()[-1].tb_lineno}.')
+        return None
