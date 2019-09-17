@@ -25,42 +25,55 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.4 - Updated to 1.0.4 - 16, September 2019
+#           - Downgraded rasa and rasa_sdk from 1.3.0 and higher builds to
+#             rasa==1.2.8 and rasa_sdk==1.2.0 builds - This is a major change.
+#           - requirements.txt file now has only the essential packages.
+#           - Added hyphenated indents in setup.py history section.
+#           - Downloaded spacy model - python -m spacy download en_core_web_lg.
+#           - Added few more examples in nlu.md data file.
+#           - Exception handling in actions.py is now replaced with if-else.
+#           - Added one more example and fixed typo in phrases.py module.
+#           - Added new function, `check_internet` in system.py module.
+#           - person.py now uses `check_internet` function while locating the
+#             user location.
+#           - weather.py now uses `check_internet` function while finding the
+#             weather-forecast details.
+#           - Added support comments while returning None in weather.py module.
 #   1.0.3 - Updated to 1.0.3 - 8, September 2019
-#           Added support for virtual environment - ./env/ - This is a major
-#           change.
-#           Fixed connector code in connect.py module.
-#           Deprecated `select` and used `choose` instead in run.py module.
-#           Added new phrase for `no_internet_connection` in phrases.py module.
-#           Added error handling support for internet failure in actions.py
-#           module.
-#           actions.py now supports exception handling if no internet is
-#           detected.
-#           Added warning for model overwriting in rasa.py module.
-#           Corrected typos in setup.py module.
-#           weather.py now returns None if exceptions are raised.
-#           Added few more examples in nlu.md data file.
-#           ngrok.exe can be accessed through file.py module.
+#           - Added support for virtual environment - This is a major change.
+#           - Fixed connector code in connect.py module.
+#           - Deprecated `select` and used `choose` instead in run.py module.
+#           - Added new phrase, `no_internet_connection` in phrases.py module.
+#           - Added error handling on no internet in actions.py module.
+#           - actions.py now supports exception handling if no internet is
+#             detected.
+#           - Added warning for model overwriting in rasa.py module.
+#           - Corrected typos in setup.py module.
+#           - weather.py now returns None if exceptions are raised.
+#           - Added few more examples in nlu.md data file.
+#           - ngrok.exe can be accessed through files.py module.
 #   1.0.2 - Updated to 1.0.2 - 7, September 2019
-#           Updated rasa to 1.3.0 and rasa_sdk to 1.3.2 - This is major change.
-#           Updated requirements.txt to match new rasa requirements (including
-#           tensorflow/tensorflow-gpu v1.14.0).
-#           Added brief introduction to setup.py module.
-#           Reduced unnecessary use of "`" in comments for simplicity from
-#           multiple files.
-#           Fixed typo in weather.py module.
-#           Fixed error caused by not importing `os.walk` in music.py module.
-#           Added support for previous and next track in music.py module.
-#           music.py now uses fuzzy matcher while finding next and previous
-#           tracks.
-#           `music_file` slot is now set in actions.py module.
-#           Added `show` and removed unused import in rasa.py module.
-#           Added `select_file` function in inquiry.py module.
-#           Added comments in profile.py module.
+#           - Updated rasa to 1.3.0 & rasa_sdk to 1.3.2 - This is major change.
+#           - Updated requirements.txt to match new rasa requirements
+#             (including tensorflow/tensorflow-gpu v1.14.0).
+#           - Added brief introduction to setup.py module.
+#           - Reduced unnecessary use of "`" in comments for simplicity from
+#             multiple files.
+#           - Fixed typo in weather.py module.
+#           - Fixed error caused by not importing `os.walk` in music.py module.
+#           - Added support for previous and next track in music.py module.
+#             music.py now uses fuzzy matcher while finding next and previous
+#             tracks.
+#           - `music_file` slot is now set in actions.py module.
+#           - Added `show` and removed unused import in rasa.py module.
+#           - Added `select_file` function in inquiry.py module.
+#           - Added comments in profile.py module.
 #   1.0.1 - Updated to 1.0.1 - 6, September 2019
-#           Updated inquiry.py by adding `choose` function, rasa.py by
-#           adding links to reference code in function and updated main
-#           docstring of setup.py module.
-#   1.0.0 - First code.
+#           - Updated inquiry.py by adding `choose` function, rasa.py by
+#             adding links to reference code in function and updated main
+#             docstring of setup.py module.
+#   1.0.0 - First code - 5, September 2019
 
 import os
 
@@ -70,7 +83,7 @@ CODENAME = 'lazuli'
 
 NUMBER = os.environ.get('CHARLOTTE_NUMBER')
 
-VERSION = '1.0.3'
+VERSION = '1.0.4'
 
 AUTHOR = MAINTAINER = 'XAMES3'
 
