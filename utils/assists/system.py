@@ -4,11 +4,15 @@ The system module: Provides functions which deals with Windows platform.
 These functions help you deal with handling of system related events.
 
 At a glance, the structure of the module is following:
-- list_windows():       Lists all currently active windows. It is recommended
+ - list_windows():      Lists all currently active windows. It is recommended
                         to use this function in conjunction with
                         `minimize_window`.
-- minimize_window():    Minimizes the window frame. It is recommended to use
+ - minimize_window():   Minimizes the window frame. It is recommended to use
                         when the process starts and needs to be minimized.
+ - check_internet():    Checks the internet connectivity of the system. If the
+                        internet connection is available, it returns True else
+                        False. It is recommended to use to this function where
+                        internet connection is required.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -16,11 +20,15 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.4 - Added `check_internet` function to check the internet connection.
 #   1.0.0 - First code.
 
 from sys import exc_info
 
 from charlotte.utils.assists.generic import str_match
+
+# Constant used by `check_internet` to ping google.
+_URL = 'https://www.google.com/'
 
 
 def list_windows() -> list:
@@ -81,3 +89,23 @@ def minimize_window(window_name: str, delay: float = 1.0) -> None:
     # Minimizes window using the `str_match` function (fuzzy string match).
     ShowWindow(FindWindow(None, str_match(window_name, list_windows())),
                SW_MINIMIZE)
+
+
+def check_internet(timeout: int = 10) -> bool:
+    """Checks internet.
+
+    Checks the internet connectivity of the system. If the internet connection
+    is available, it returns True else False.
+
+    Note: It is recommended to use to this function where internet connection
+    is required.
+    """
+    # You can find the reference code here:
+    # https://gist.github.com/yasinkuyu/aa505c1f4bbb4016281d7167b8fa2fc2
+    from requests import ConnectionError, get
+
+    try:
+        _ = get(_URL, timeout=timeout)
+        return True
+    except ConnectionError:
+        return False
