@@ -216,6 +216,7 @@
 - let's get on with this
 - Next
 - uh... next
+- Play next song.
 
 ## intent:asking_goto_previous_step
 - Take me to the previous step
@@ -247,6 +248,8 @@
 - Move a step [backward](direction)
 - what was the previous step about?
 - move [li'l](quantity:less) [backwards](direction)
+- play previous track.
+- Play the previous song. please.
 
 ## intent:asking_how_are_you
 - How are you?
@@ -1196,6 +1199,9 @@
 - Could you please play [Carnival](track_name) for me?
 - could you please play [Okami](track_name) track?
 - actually yes, play some music by [Chainsmokers](track_artist)
+- could you please play okami village?
+- Could you please play [Okami Village](track_name)?
+- yes, please play [Darta](track_name) hoon.
 
 ## intent:asking_someones_name
 - what is your name?
@@ -1622,6 +1628,8 @@
 - hey [charlotte](ai)
 - hello
 - hello [charlotte](ai)!
+- hello [charlotte](ai)
+- hello [charlotte](ai)
 
 ## intent:saying_no
 - no
@@ -1784,6 +1792,7 @@
 - Nah, I'm fine. Thanks
 - no that will be it from myside.
 - no, nothing for [now](time). Thanks for asking
+- no. thanks, dear
 
 ## intent:saying_no_for_telling_name
 - I'm not going to tell my name
