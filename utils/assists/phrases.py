@@ -10,6 +10,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.4 - Added one example to `no_internet_connection` and fixed typo in it.
 #   1.0.3 - Added new phrase option, `no_internet_connection`.
 #   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
@@ -73,14 +74,15 @@ try:
         'the default model name.'])
     # Choices when no internet connection is detected.
     no_internet_connection = choice([
-        f'{title}, it appears that you are not connected to the Internet. I am'
-        ' unable to simulate the action.',
+        f'{title}, it appears that we are not connected to the Internet. I am'
+        ' not able to perform the action.',
         f'We have no internet connection right now, I am not able to perform'
         ' the action.',
         f'Working on it, {lower}. It seems the internet connection is lost.',
-        f'{title}, the internet connection is questionable. It may not be'
-        ' able to perform the action.',
-        f'{title}, I am unable to access the internet.'])
+        f'{title}, currently there is no internet connection available.',
+        f'{title}, the internet connection is questionable. I am not able'
+        ' to perform the action.',
+        f'{title}, I am not able to access the internet.'])
 except Exception as error:
     print('An error occured while performing this operation because of'
           f' {error} in function "{stack()[0][3]}" on line'
