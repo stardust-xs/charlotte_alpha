@@ -11,6 +11,8 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.4 - Replaced the exception handling from previous build with if-else
+#           conditions.
 #   1.0.3 - Added exception handling support when no internet is detected in
 #           weather functions.
 #   1.0.2 - Slots for music_file in `ActionPlayMusic`, `ActionPlayNextMusic`
@@ -50,12 +52,13 @@ class ActionTellCurrentWeatherConditions(Action):
 
     def run(self, dispatcher, tracker, domain) -> list:
         city = tracker.get_slot('city')
-        try:
-            if city is None:
-                city = locate('city')
-            dispatcher.utter_message(current_weather(city))
+        if city is None:
+            city = locate('city')
+        response = current_weather(city)
+        if response is not None:
+            dispatcher.utter_message(response)
             return [SlotSet('city', city)]
-        except:
+        else:
             dispatcher.utter_message(no_internet_connection)
             return [SlotSet('city', None)]
 
@@ -70,14 +73,15 @@ class ActionTellForecastWeatherConditions(Action):
         city = tracker.get_slot('city')
         hours = tracker.get_slot('hours')
         mins = tracker.get_slot('minutes')
-        try:
-            if city is None:
-                city = locate('city')
-            dispatcher.utter_message(forecast_weather(city, hours, mins))
+        if city is None:
+            city = locate('city')
+        response = forecast_weather(city, hours, mins)
+        if response is not None:
+            dispatcher.utter_message(response)
             return [SlotSet('city', city),
                     SlotSet('hours', hours),
                     SlotSet('minutes', mins)]
-        except:
+        else:
             dispatcher.utter_message(no_internet_connection)
             return [SlotSet('city', None),
                     SlotSet('hours', None),
@@ -92,12 +96,13 @@ class ActionTellCurrentForecastWeatherConditions(Action):
 
     def run(self, dispatcher, tracker, domain) -> list:
         city = tracker.get_slot('city')
-        try:
-            if city is None:
-                city = locate('city')
-            dispatcher.utter_message(current_forecast_weather(city))
+        if city is None:
+            city = locate('city')
+        response = current_forecast_weather(city)
+        if response is not None:
+            dispatcher.utter_message(response)
             return [SlotSet('city', city)]
-        except:
+        else:
             dispatcher.utter_message(no_internet_connection)
             return [SlotSet('city', None)]
 
