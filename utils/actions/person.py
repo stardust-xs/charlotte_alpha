@@ -22,6 +22,8 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.4 - `locate` function now uses `check_internet` to check if internet
+#           connection is available or not.
 #   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
@@ -29,6 +31,7 @@ from inspect import stack
 from sys import exc_info
 
 from charlotte.utils.assists.profile import title
+from charlotte.utils.assists.system import check_internet
 
 # Constant used by `wish_user` to define hour for dawn.
 _MORNING = 5
@@ -114,24 +117,28 @@ def locate(area: str = None) -> str:
     from googlemaps import Client
 
     try:
-        # Passing Google maps API key.
-        gmaps = Client(key=os.environ.get('CHARLOTTE_MAPS_KEY'))
-        # Finding current latitude and longitude details.
-        current_coords = gmaps.geolocate()
-        location = osm(
-            list(current_coords['location'].values()), method='reverse')
-        if area is not None:
-            try:
-                # Returns particular address detail only.
-                return location.json[area]
-            except:
-                return _NO_RESPONSE
+        if check_internet():
+            # Passing Google maps API key.
+            gmaps = Client(key=os.environ.get('CHARLOTTE_MAPS_KEY'))
+            # Finding current latitude and longitude details.
+            current_coords = gmaps.geolocate()
+            location = osm(
+                list(current_coords['location'].values()), method='reverse')
+            if area is not None:
+                try:
+                    # Returns particular address detail only.
+                    return location.json[area]
+                except:
+                    return _NO_RESPONSE
+            else:
+                try:
+                    # Returns complete address.
+                    return location.json['address']
+                except:
+                    return _NO_RESPONSE
         else:
-            try:
-                # Returns complete address.
-                return location.json['address']
-            except:
-                return _NO_RESPONSE
+            # Returns None if no internet connection is available.
+            return None
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
