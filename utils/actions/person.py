@@ -4,7 +4,8 @@ The person module: Provides functions related to the user.
 These functions help to perform user level requests.
 
 At a glance, the structure of the module is following:
- - wish_user():         Greets the user based on time of the day. These
+ - greet_user():        Greets the user based on time of the day and returns
+                        current time, current hour and minutes. These
                         responses needs to be expanded in future. The time is
                         calculated on the basis of the current hour.
  - age():               Calculates the age based on the given date. This
@@ -22,6 +23,8 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.5 - `wish_user` is now changed to `greet_user` and fixed typos in it.
+#           `greet_user` function now returns current time, hour and minutes.
 #   1.0.4 - `locate` function now uses `check_internet` to check if internet
 #           connection is available or not.
 #   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
@@ -30,16 +33,17 @@ See https://github.com/xames3/charlotte for cloning the repository.
 from inspect import stack
 from sys import exc_info
 
+from charlotte.utils.assists.generic import timestamp
 from charlotte.utils.assists.profile import title
 from charlotte.utils.assists.system import check_internet
 
-# Constant used by `wish_user` to define hour for dawn.
+# Constant used by `greet_user` to define hour for dawn.
 _MORNING = 5
-# Constant used by `wish_user` to define hour for noon.
+# Constant used by `greet_user` to define hour for noon.
 _NOON = 12
-# Constant used by `wish_user` to define hour for evening.
+# Constant used by `greet_user` to define hour for evening.
 _EVENING = 17
-# Constant used by `wish_user` to define hour for night.
+# Constant used by `greet_user` to define hour for night.
 _NIGHT = 21
 # Constant used by `age` to define the total days in a year.
 _DAYS_IN_YEAR = 365.2425
@@ -47,10 +51,11 @@ _DAYS_IN_YEAR = 365.2425
 _NO_RESPONSE = 'null'
 
 
-def wish_user() -> str:
+def greet_user() -> str:
     """Greets user.
 
-    Greets the user based on time of the day.
+    Greets the user based on time of the day and returns current time (in
+    24hr format), current hour and minutes.
 
     Note: These responses needs to be expanded in future. The time is
     calculated on the basis of the current hour.
@@ -58,8 +63,10 @@ def wish_user() -> str:
     from datetime import datetime
     from random import choice
 
-    # Calculates current hour.
+    # Calculates current hour and minutes.
+    time = datetime.now().strftime(timestamp('%H:%M'))
     hour = datetime.now().hour
+    minutes = datetime.now().minute
     morning = choice([f'Good Morning, {title}.', 'Good Morning!'])
     afternoon = choice([f'Good Afternoon, {title}.', 'Good Afternoon!'])
     evening = choice([f'Good Evening, {title}.', 'Good Evening!'])
@@ -67,8 +74,9 @@ def wish_user() -> str:
                     f'Oh hello, {title}!',
                     f'Welcome back, {title}.'])
     # Determining which greeting should be used.
-    wishing = morning if hour >= _MORNING and hour < _NOON else afternoon if hour >= _NOON and hour < _EVENING else evening if hour >= _EVENING and hour < _NIGHT else night
-    return wishing
+    greeting = morning if hour >= _MORNING and hour < _NOON else afternoon if hour >= _NOON and hour < _EVENING else evening if hour >= _EVENING and hour < _NIGHT else night
+    # Returns greetings as per the day and returns current time-hour-minutes.
+    return greeting, time, hour, minutes
 
 
 def age(birthdate: str) -> int:
