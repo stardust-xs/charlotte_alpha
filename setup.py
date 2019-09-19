@@ -25,6 +25,12 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.5 - Updated to 1.0.5 - 18, September 2019
+#           - Updated the slots in domain.yml file.
+#           - `wish_user` is now changed to `greet_user` in person.py module.
+#           - `greet_user` now returns current time, hour & minutes along with
+#             greetings in person.py module.
+#           - Renamed sandbox directory to dump. Corrected in .gitignore file.
 #   1.0.4 - Updated to 1.0.4 - 16, September 2019
 #           - Downgraded rasa and rasa_sdk from 1.3.0 and higher builds to
 #             rasa==1.2.8 and rasa_sdk==1.2.0 builds - This is a major change.
@@ -83,7 +89,7 @@ CODENAME = 'lazuli'
 
 NUMBER = os.environ.get('CHARLOTTE_NUMBER')
 
-VERSION = '1.0.4'
+VERSION = '1.0.5'
 
 AUTHOR = MAINTAINER = 'XAMES3'
 
