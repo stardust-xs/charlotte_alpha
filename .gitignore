@@ -123,8 +123,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Sandbox Directory
-/sandbox/
+# Dump Directory
+/dump/
 
 # CSV Directory
 /data/knowledge/csv/
