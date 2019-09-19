@@ -1,5 +1,3 @@
-%YAML 1.1
----
 actions:
 - action_greet_user
 - action_play_music
@@ -17,52 +15,50 @@ actions:
 - utter_saying_welcome_to_action
 - utter_saying_what_would_that_be
 entities:
-- action
-- ai
-- ai_creator
-- bleep_words
-- city
-- country
-- date
-- direction
-- forecast
-- full_name
-- gender
-- grammar
-- hours
-- minutes
-- music_file
-- name
-- people
-- planet
 - quantity
-- state
-- street
-- temperature
-- time
-- track_album
-- track_albumartist
-- track_artist
-- track_composer
-- track_duration
-- track_filesize
-- track_genre
-- track_name
-- track_year
-- train_station
+- query_city
 - weather
+- train_station
+- ai_creator
+- query_country
+- query_state
+- city
+- track_album
+- query_minutes
+- date
+- time
+- forecast
+- music
+- track_name
+- planet
+- action
+- full_name
+- charlotte
+- track_genre
+- grammar
+- query_street
+- bleep_words
+- track_artist
+- people
+- artist
+- name
+- country
+- direction
+- query_hours
+- temperature
+- gender
 intents:
+- saying_hello
+- asking_weather_conditions
+- asking_forecast_weather_conditions
+- asking_current_weather_conditions
 - asking_play_music
 - saying_no
-- saying_hello
 - asking_goto_next_step
 - asking_goto_previous_step
 - saying_thank_you
-- asking_forecast_weather_conditions
-- asking_weather_conditions
 - saying_okay
 - saying_yes
-- asking_current_weather_conditions
 - saying_goodbye
 - saying_no_for_telling_name
 - asking_who_built_you
@@ -73,57 +69,65 @@ intents:
 - telling_location
 - asking_how_are_you
 slots:
-  action:
+  charlotte_hotword:
     type: text
-  ai:
+  is_charlotte_online:
+    type: bool
+  is_charlotte_greeted:
+    type: bool
+  is_curr_weather_checked:
+    type: bool
+  is_fore_weather_checked:
+    type: bool
+  current_city:
     type: text
-  airport:
+  current_country:
     type: text
-  bleep_words:
+  current_hour:
     type: text
-  city:
+  current_minutes:
     type: text
-  country:
+  current_state:
     type: text
-  date:
+  current_street:
     type: text
-  direction:
+  current_temperature:
     type: text
-  full_name:
+  current_time:
     type: text
-  gender:
+  current_weather_cond:
     type: text
-  genre:
-    type: text
-  hours:
-    type: text
-  landmark:
-    type: text
-  minutes:
-    type: text
-  music:
+  forecast_weather_cond:
     type: text
   music_file:
     type: text
-  name:
-    type: text
   next_track:
-    type: text
-  people:
-    type: text
-  planet:
     type: text
   previous_track:
     type: text
-  quantity:
+  query_city:
     type: text
-  state:
+  query_country:
     type: text
-  street:
+  query_date:
     type: text
-  temperature:
+  query_forecast_cond:
     type: text
-  time:
+  query_hours:
+    type: text
+  query_minutes:
+    type: text
+  query_state:
+    type: text
+  query_street:
+    type: text
+  query_temperature:
+    type: text
+  query_time:
+    type: text
+  query_weather_cond:
+    type: text
+  today_date:
     type: text
   track_album:
     type: text
@@ -142,10 +146,6 @@ slots:
   track_name:
     type: text
   track_year:
-    type: text
-  train_station:
-    type: text
-  weather:
     type: text
   xa_lower:
     initial_value: boss
@@ -179,11 +179,11 @@ templates:
   - text: What can I help you with?
   utter_saying_fetching_weather_details:
   - text: Just a moment...
-  - text: Fetching weather details for {city}...
+  - text: Fetching weather details for {query_city}...
   - text: Processing...
   - text: Working on it...
   - text: Accessing weather details from server...
-  - text: Running weather check for {city}...
+  - text: Running weather check for {query_city}...
   - text: I'm working on it...
   utter_saying_okay:
   - text: Okay.
