@@ -71,14 +71,6 @@ intents:
 slots:
   charlotte_hotword:
     type: text
-  is_charlotte_online:
-    type: bool
-  is_charlotte_greeted:
-    type: bool
-  is_curr_weather_checked:
-    type: bool
-  is_fore_weather_checked:
-    type: bool
   current_city:
     type: text
   current_country:
@@ -99,6 +91,14 @@ slots:
     type: text
   forecast_weather_cond:
     type: text
+  is_charlotte_greeted:
+    type: bool
+  is_charlotte_online:
+    type: bool
+  is_curr_weather_checked:
+    type: bool
+  is_fore_weather_checked:
+    type: bool
   music_file:
     type: text
   next_track:
