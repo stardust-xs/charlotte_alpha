@@ -25,6 +25,20 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.6 - Updated to 1.0.6 - 25, September 2019
+#           - Using TF-GPU is discontinued from now - This is a major change.
+#           - Upgraded to rasa and rasa_sdk to 1.3.6 and 1.3.2 respectively
+#             with TF v1.14.0.
+#           - Updated requirements.txt to download few of the updated packages.
+#           - Tensorflow-GPU is now removed from requirements.txt file.
+#           - `MaxHistoryTrackerFeaturizer` is commented to handle bug with
+#             history tracking in Rasa.
+#           - Added boolean slots for checking conditions at inference in
+#             domain.yml file.
+#           - Phrases are accessed using the dictionaries instead of variables
+#             in phrases.py module.
+#           - Comments updated in rasa.py module.
+#           - run.py now uses dictionaries for displaying output phrases.
 #   1.0.5 - Updated to 1.0.5 - 18, September 2019
 #           - Updated the slots in domain.yml file.
 #           - `wish_user` is now changed to `greet_user` in person.py module.
@@ -89,7 +103,7 @@ CODENAME = 'lazuli'
 
 NUMBER = os.environ.get('CHARLOTTE_NUMBER')
 
-VERSION = '1.0.5'
+VERSION = '1.0.6'
 
 AUTHOR = MAINTAINER = 'XAMES3'
 
