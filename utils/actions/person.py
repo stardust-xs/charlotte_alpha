@@ -23,6 +23,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.6 - `greet_user` function now uses new dictionaries.
 #   1.0.5 - `wish_user` is now changed to `greet_user` and fixed typos in it.
 #           `greet_user` function now returns current time, hour and minutes.
 #   1.0.4 - `locate` function now uses `check_internet` to check if internet
@@ -34,6 +35,7 @@ from inspect import stack
 from sys import exc_info
 
 from charlotte.utils.assists.generic import timestamp
+from charlotte.utils.assists.phrases import greetings_protocol
 from charlotte.utils.assists.profile import title
 from charlotte.utils.assists.system import check_internet
 
@@ -67,12 +69,10 @@ def greet_user() -> str:
     time = datetime.now().strftime(timestamp('%H:%M'))
     hour = datetime.now().hour
     minutes = datetime.now().minute
-    morning = choice([f'Good Morning, {title}.', 'Good Morning!'])
-    afternoon = choice([f'Good Afternoon, {title}.', 'Good Afternoon!'])
-    evening = choice([f'Good Evening, {title}.', 'Good Evening!'])
-    night = choice([f'Hello, {title}!',
-                    f'Oh hello, {title}!',
-                    f'Welcome back, {title}.'])
+    morning = choice(greetings_protocol['morning'])
+    afternoon = choice(greetings_protocol['afternoon'])
+    evening = choice(greetings_protocol['evening'])
+    night = choice(greetings_protocol['night'])
     # Determining which greeting should be used.
     greeting = morning if hour >= _MORNING and hour < _NOON else afternoon if hour >= _NOON and hour < _EVENING else evening if hour >= _EVENING and hour < _NIGHT else night
     # Returns greetings as per the day and returns current time-hour-minutes.

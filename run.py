@@ -22,19 +22,17 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.6 - commandline outputs now use dictionaries instead of variables.
 #   1.0.3 - Deprecated `select` and used `choose` instead.
 #   1.0.0 - First code.
 
 from inspect import stack
+from random import choice
 from subprocess import call
 from sys import exc_info, exit
 
 from charlotte.utils.assists.inquiry import answer, choose, confirm
-from charlotte.utils.assists.phrases import (cmdline_main_options_start_greet,
-                                             cmdline_main_options_quit_confirm,
-                                             cmdline_main_options_clear_screen,
-                                             cmdline_main_options_user_command,
-                                             cmdline_main_options_terminal_set)
+from charlotte.utils.assists.phrases import cmdline_options
 from charlotte.utils.assists.rasa import (evaluate_model,
                                           get_nlu_stats,
                                           render_model,
@@ -44,7 +42,7 @@ from charlotte.utils.assists.constants import ACTION_SERVER_PORT
 
 try:
     while True:
-        option = choose(cmdline_main_options_start_greet,
+        option = choose(choice(cmdline_options['greetings']),
                         render_model='Render model',
                         start_training='Train system',
                         evaluate_model='Evaluate model',
@@ -67,15 +65,16 @@ try:
         elif option is 'start_action_server':
             call(f'rasa run actions -p {ACTION_SERVER_PORT}', shell=True)
         elif option is 'user_command':
-            option = confirm(cmdline_main_options_user_command)
+            option = confirm(choice(cmdline_options['user_command']))
             if option is True:
-                call(answer(cmdline_main_options_terminal_set), shell=True)
+                call(
+                    answer(choice(cmdline_options['terminal_set'])), shell=True)
         elif option is 'clear_screen':
-            option = confirm(cmdline_main_options_clear_screen)
+            option = confirm(choice(cmdline_options['clear_screen']))
             if option is True:
                 call('cls', shell=True)
         elif option is 'exit':
-            option = confirm(cmdline_main_options_quit_confirm)
+            option = confirm(choice(cmdline_options['confirm_quit']))
             if option is True:
                 exit()
 except Exception as error:

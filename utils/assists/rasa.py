@@ -46,6 +46,9 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.6 - Updated comments in `render_model` function.
+#           Updated command line comments to use new dictionaries from
+#           phrases.py module.
 #   1.0.3 - Added `show` warning in `render_model` function while running the
 #           `rasa train` command.
 #   1.0.2 - Added `show` in `get_nlu_stats` function to respond once the temp
@@ -61,6 +64,7 @@ from __future__ import print_function
 
 from inspect import stack
 from os.path import exists
+from random import choice
 from subprocess import call
 from sys import exc_info
 
@@ -69,8 +73,7 @@ from charlotte.utils.assists.generic import (find_file,
                                              show,
                                              timestamp)
 from charlotte.utils.assists.inquiry import answer, confirm
-from charlotte.utils.assists.phrases import (cmdline_main_options_model_choice,
-                                             rasa_model_rename_check)
+from charlotte.utils.assists.phrases import cmdline_options
 from charlotte.utils.assists.profile import ai_lower, lower, title
 from charlotte.utils.paths.directories import ai_dir
 from charlotte.utils.paths.files import ai_file
@@ -162,15 +165,15 @@ def render_model(model_name: str = None) -> None:
 
     try:
         # Asks which model to render.
-        model_type = select(cmdline_main_options_model_choice,
+        model_type = select(choice(cmdline_options['choose_model']),
                             [Choice('NLU', 'nlu'),
                              Choice('Core', 'core'),
                              Choice('Both', 'both')]).ask()
         # Builds domain file with the my details.
         _build_domain()
         make_dir(ai_dir['models'])
-        rename = confirm(rasa_model_rename_check)
-        # If I ever want to rename the model, it will take input and render
+        rename = confirm(choice(cmdline_options['rename_model']))
+        # If the model is to be renamed, it will take input and render
         # that model. Else, it will use charlotte as the default model name.
         if rename is True:
             model_name = answer(f'{title}, what would you like to call it?')
@@ -328,7 +331,7 @@ def evaluate_model() -> None:
 
     try:
         # Asks which model to evaluate.
-        model_type = select(cmdline_main_options_model_choice,
+        model_type = select(choice(cmdline_options['choose_model']),
                             [Choice('NLU', 'nlu'),
                              Choice('Core', 'core'),
                              Choice('Both', 'both')]).ask()
