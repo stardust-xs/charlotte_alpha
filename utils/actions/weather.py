@@ -17,6 +17,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.0.6 - All the functions now return None if internet is not available.
 #   1.0.4 - `current_weather` and `forecast_weather` function now uses
 #           `check_internet` to check if internet connection is available.
 #           'current_forecast_weather' now also retuns None if no internet is
@@ -117,12 +118,12 @@ def current_weather(city: str) -> str:
                      f' {condition} with winds running upto {wind_kph} km/h.']
             # Checks if it is day using Apixu`s internal sunset time checker.
             if is_day == 0:
-                return choice(at_pm)
+                return choice(at_pm), condition
             else:
-                return choice(at_am)
+                return choice(at_am), condition
         else:
             # Returns None if no internet connection is available.
-            return None
+            return None, None, None
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
@@ -247,16 +248,16 @@ def forecast_weather(city: str, hours: int = None, mins: int = None) -> str:
                     # Checks if it is day using the Apixu`s internal sunset time
                     # checker.
                     if is_day == 0:
-                        return choice(at_pm)
+                        return choice(at_pm), condition
                     else:
-                        return choice(at_am)
+                        return choice(at_am), condition
                 else:
-                    return choice(with_mins)
+                    return choice(with_mins), condition
             else:
-                return choice(with_hrs)
+                return choice(with_hrs), condition
         else:
             # Returns None if no internet connection is available.
-            return None
+            return None, None, None
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
@@ -272,15 +273,15 @@ def current_forecast_weather(city: str) -> str:
     functions.
     """
     try:
-        current_weather_value = current_weather(city)
-        forecast_weather_value = forecast_weather(city)
+        current_weather_value, current_condition = current_weather(city)
+        forecast_weather_value, forecast_condition = forecast_weather(city)
         # Checks if the output of depending functions is valid or None.
         if current_weather_value and forecast_weather_value is not None:
-            return current_weather_value + ' ' + forecast_weather_value
+            return current_weather_value + ' ' + forecast_weather_value, current_condition
         else:
             # Returns None if any exception was raised or if internet is not
             # available.
-            return None
+            return None, None, None
     except Exception as error:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
