@@ -123,21 +123,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Dump Directory
-/dump/
-
-# CSV Directory
+# Ignored on device directories
+/bin/
 /data/knowledge/csv/
-
-# Assistant Files
-/bin/action.json
-/bin/creds.data
-
-# Charlotte Models
 /models/
-
-# Test Directory
-/tests/
-
-# Temp Directory
+/reserves/
 /temp/
+/tests/
