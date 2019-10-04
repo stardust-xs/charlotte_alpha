@@ -3,74 +3,57 @@ actions:
 - action_play_music
 - action_play_next_music
 - action_play_previous_music
-- action_tell_current_forecast_weather_conditions
-- action_tell_current_weather_conditions
-- action_tell_forecast_weather_conditions
+- action_weather_event
 - utter_do_you_need_anything_else
 - utter_how_can_i_help
-- utter_saying_fetching_weather_details
-- utter_saying_okay
-- utter_saying_okay_for_weather_searches
-- utter_saying_okay_to_denial
-- utter_saying_welcome_to_action
-- utter_saying_what_would_that_be
+- utter_responding_fetching_weather_details
+- utter_responding_okay
+- utter_responding_okay_to_denial
+- utter_responding_welcome_to_action
+- utter_responding_what_would_that_be
 entities:
-- quantity
-- query_city
-- weather
-- train_station
-- ai_creator
-- query_country
-- query_state
-- city
-- track_album
-- query_minutes
-- date
-- time
-- forecast
-- music
-- track_name
-- planet
-- action
-- full_name
-- charlotte
-- track_genre
-- grammar
-- query_street
-- bleep_words
-- track_artist
-- people
+- xa
 - artist
-- name
-- country
+- abuse
+- hotword
+- date
 - direction
-- query_hours
-- temperature
+- forecast
 - gender
+- grammar
+- music
+- name
+- person
+- query_city
+- query_country
+- query_hours
+- query_minutes
+- query_state
+- query_street
+- time
+- track_album
+- track_artist
+- track_genre
+- track_name
+- train_station
+- units_imperial
+- weather
+- weather_condition
 intents:
-- saying_hello
-- asking_weather_conditions
-- asking_forecast_weather_conditions
-- asking_current_weather_conditions
-- asking_play_music
-- saying_no
-- asking_goto_next_step
-- asking_goto_previous_step
-- saying_thank_you
-- saying_okay
-- saying_yes
-- saying_goodbye
-- saying_no_for_telling_name
-- asking_who_built_you
-- telling_future_location
-- asking_do_you_need_anything_else
-- asking_someones_name
-- telling_my_name
+- querying_weather_event
+- responding_hello
+- responding_thank_you
+- responding_no
+- responding_goodbye
 - telling_location
-- asking_how_are_you
+- querying_goto_previous_step
+- responding_yes
+- querying_do_you_need_anything_else
+- querying_goto_next_step
+- querying_play_music
+- responding_okay
+- telling_future_location
 slots:
-  charlotte_hotword:
-    type: text
   current_city:
     type: text
   current_country:
@@ -83,21 +66,15 @@ slots:
     type: text
   current_street:
     type: text
-  current_temperature:
-    type: text
   current_time:
     type: text
-  current_weather_cond:
-    type: text
-  forecast_weather_cond:
+  hotword:
     type: text
   is_charlotte_greeted:
     type: bool
   is_charlotte_online:
     type: bool
-  is_curr_weather_checked:
-    type: bool
-  is_fore_weather_checked:
+  is_weather_checked:
     type: bool
   music_file:
     type: text
@@ -111,8 +88,6 @@ slots:
     type: text
   query_date:
     type: text
-  query_forecast_cond:
-    type: text
   query_hours:
     type: text
   query_minutes:
@@ -120,8 +95,6 @@ slots:
   query_state:
     type: text
   query_street:
-    type: text
-  query_temperature:
     type: text
   query_time:
     type: text
@@ -147,6 +120,9 @@ slots:
     type: text
   track_year:
     type: text
+  units_imperial:
+    initial_value: false
+    type: bool
   xa_lower:
     initial_value: boss
     type: text
@@ -177,7 +153,7 @@ templates:
   - text: How can I help you?
   - text: What would you like me to do?
   - text: What can I help you with?
-  utter_saying_fetching_weather_details:
+  utter_responding_fetching_weather_details:
   - text: Just a moment...
   - text: Fetching weather details for {query_city}...
   - text: Processing...
@@ -185,7 +161,7 @@ templates:
   - text: Accessing weather details from server...
   - text: Running weather check for {query_city}...
   - text: I'm working on it...
-  utter_saying_okay:
+  utter_responding_okay:
   - text: Okay.
   - text: Alright.
   - text: Sure.
@@ -197,22 +173,18 @@ templates:
   - text: Erm... okay.
   - text: Umm... okay.
   - text: As you wish, {xa_lower}.
-  utter_saying_okay_for_weather_searches:
-  - text: Okay.
-  - text: Okay, {xa_lower}.
-  - text: Erm... okay.
-  - text: Umm... okay.
-  utter_saying_okay_to_denial:
+  utter_responding_okay_to_denial:
   - text: Alright.
-  - text: Okay, {xa_lower}.
+  - text: Erm... okay.
   - text: Okay.
   - text: As you wish, {xa_lower}.
-  utter_saying_welcome_to_action:
+  - text: Umm... okay.
+  utter_responding_welcome_to_action:
   - text: No problem.
   - text: Ah... No problem.
   - text: My pleasure.
   - text: No worries.
-  utter_saying_what_would_that_be:
+  utter_responding_what_would_that_be:
   - text: And what would that be?
   - text: And what would that be, {xa_lower}?
   - text: What would that be?
