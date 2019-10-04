@@ -46,6 +46,8 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.0 - Added `make_dir` in `evaluate_model` function for creating test
+#           directory.
 #   1.0.6 - Updated comments in `render_model` function.
 #           Updated command line comments to use new dictionaries from
 #           phrases.py module.
@@ -330,6 +332,7 @@ def evaluate_model() -> None:
     from questionary import Choice, select
 
     try:
+        make_dir(ai_dir['tests'])
         # Asks which model to evaluate.
         model_type = select(choice(cmdline_options['choose_model']),
                             [Choice('NLU', 'nlu'),
