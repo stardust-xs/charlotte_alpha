@@ -16,6 +16,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.0 - Stories are now part of `./data/stories/` directory.
 #   1.0.0 - First code.
 
 from os.path import join
@@ -53,6 +54,7 @@ ai_dir = {
     'docs': PARENT/'docs',
     'logs': PARENT/'logs',
     'models': PARENT/'models',
+    'reserves': PARENT/'reserves',
     'temp': PARENT/'temp',
     'tests': PARENT/'tests',
     'utils': PARENT/'utils',
@@ -60,6 +62,7 @@ ai_dir = {
     'assists': PARENT/'utils/assists',
     'profiles': PARENT/'utils/profiles',
     'knowledge': PARENT/'data/knowledge',
+    'stories': PARENT/'data/stories',
     'csv': PARENT/'data/knowledge/csv'
 }
 
