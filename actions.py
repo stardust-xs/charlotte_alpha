@@ -11,6 +11,10 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.0 - Reworked `ActionGreetUser` and replaced all weather related classes
+#           with `ActionWeatherEvent`.
+#           Added internal checks to measuree if the conditions are meeting or
+#           not. For e.g: is_charlotte_greeted, is_charlotte_online, etc.
 #   1.0.4 - Replaced the exception handling from previous build with if-else
 #           conditions.
 #   1.0.3 - Added exception handling support when no internet is detected in
@@ -30,10 +34,9 @@ from charlotte.utils.actions.music import (play_music_using_metadata,
                                            reply_on_playing)
 from charlotte.utils.actions.person import (greet_user,
                                             locate)
-from charlotte.utils.actions.weather import (current_weather,
-                                             forecast_weather,
-                                             current_forecast_weather)
-from charlotte.utils.assists.phrases import (greetings_protocol,
+from charlotte.utils.actions.weather import weather_event
+from charlotte.utils.assists.phrases import (errors,
+                                             greetings_protocol,
                                              weather_protocol)
 from charlotte.utils.assists.system import check_internet
 
@@ -45,177 +48,98 @@ class ActionGreetUser(Action):
         return 'action_greet_user'
 
     def run(self, dispatcher, tracker, domain) -> list:
-        is_charlotte_greeted = tracker.get_slot('is_charlotte_greeted')
-        if is_charlotte_greeted is False:
-            response, time, hour, minutes = greet_user()
-            dispatcher.utter_message(response)
-            return [SlotSet('current_time', time),
-                    SlotSet('current_hour', hour),
-                    SlotSet('current_minutes', minutes),
-                    SlotSet('is_charlotte_greeted', True)]
-        else:
-            response = choice(greetings_protocol['yes'])
-            dispatcher.utter_message(response)
+        try:
+            is_charlotte_greeted = tracker.get_slot('is_charlotte_greeted')
+            if is_charlotte_greeted is None:
+                response, time, hour, minutes = greet_user()
+                dispatcher.utter_message(response)
+                return [SlotSet('current_time', time),
+                        SlotSet('current_hour', hour),
+                        SlotSet('current_minutes', minutes),
+                        SlotSet('is_charlotte_greeted', True)]
+            else:
+                response = choice(greetings_protocol['yes_boss'])
+                dispatcher.utter_message(response)
+        except Exception as error:
+            dispatcher.utter_message(error['unknown'])
+            return [SlotSet('current_time', None),
+                    SlotSet('current_hour', None),
+                    SlotSet('current_minutes', None),
+                    SlotSet('is_charlotte_greeted', False)]
 
 
-class ActionTellCurrentWeatherConditions(Action):
-    """Returns current weather."""
+class ActionWeatherEvent(Action):
+    """Returns weather details."""
 
     def name(self) -> str:
-        return 'action_tell_current_weather_conditions'
+        return 'action_weather_event'
 
     def run(self, dispatcher, tracker, domain) -> list:
-        query_city = tracker.get_slot('query_city')
-        is_charlotte_online = tracker.get_slot('is_charlotte_online')
-        is_curr_weather_checked = tracker.get_slot('is_curr_weather_checked')
-        if is_charlotte_online is False:
-            _retry = True
-            _retrying = choice(weather_protocol['retrying'])
-            dispatcher.utter_message(_retrying)
-        else:
-            _retry = False
-        if check_internet():
-            current_city = locate('city')
-            current_response, current_weather_cond = current_weather(
-                current_city)
-            if query_city is None:
-                query_weather_cond = None
-                response = current_response
+        try:
+            query_city = tracker.get_slot('query_city')
+            query_hours = tracker.get_slot('query_hours')
+            query_minutes = tracker.get_slot('query_minutes')
+            units_imperial = tracker.get_slot('units_imperial')
+            is_weather_checked = tracker.get_slot('is_weather_checked')
+            is_charlotte_online = tracker.get_slot('is_charlotte_online')
+            if units_imperial is not False:
+                units_imperial = True
             else:
-                response, query_weather_cond = current_weather(query_city)
-            if not is_curr_weather_checked:
-                _working_on_it = choice(weather_protocol['working_on_it'],
-                                        weather_protocol['saying_okay'])
-                dispatcher.utter_message(_working_on_it)
-            dispatcher.utter_message(response)
-            return [SlotSet('query_city', query_city),
-                    SlotSet('current_city', current_city),
-                    SlotSet('query_weather_cond', query_weather_cond),
-                    SlotSet('current_weather_cond', current_weather_cond),
-                    SlotSet('is_charlotte_online', True),
-                    SlotSet('is_curr_weather_checked', True)]
-        else:
-            if _retry:
-                _still_no_internet = choice(
-                    weather_protocol['still_no_internet'])
-                dispatcher.utter_message(_still_no_internet)
+                units_imperial = False
+            if is_charlotte_online is False:
+                _retry = True
+                _retrying = choice(weather_protocol['retrying'])
+                dispatcher.utter_message(_retrying)
             else:
-                _no_internet = choice(weather_protocol['no_internet'])
-                dispatcher.utter_message(_no_internet)
-            return [SlotSet('query_city', None),
-                    SlotSet('current_city', None),
-                    SlotSet('query_weather_cond', None),
-                    SlotSet('current_weather_cond', None),
-                    SlotSet('is_charlotte_online', False)]
-
-
-class ActionTellForecastWeatherConditions(Action):
-    """Returns weather forecast."""
-
-    def name(self) -> str:
-        return 'action_tell_forecast_weather_conditions'
-
-    def run(self, dispatcher, tracker, domain) -> list:
-        query_city = tracker.get_slot('query_city')
-        query_hours = tracker.get_slot('query_hours')
-        query_mins = tracker.get_slot('query_minutes')
-        is_charlotte_online = tracker.get_slot('is_charlotte_online')
-        if is_charlotte_online is False:
-            _retry = True
-            _retrying = choice(weather_protocol['retrying'])
-            dispatcher.utter_message(_retrying)
-        else:
-            _retry = False
-        if check_internet():
-            current_city = locate('city')
-            forecast_response, forecast_weather_cond = forecast_weather(
-                current_city, query_hours, query_mins)
-            if query_city is None:
-
-                query_forecast_cond = None
-                response = forecast_response
+                _retry = False
+            if check_internet():
+                current_city = locate('city')
+                if query_city is None:
+                    query_city = current_city
+                _query_resp, _query_cond = weather_event(city=query_city,
+                                                         hours=query_hours,
+                                                         minutes=query_minutes,
+                                                         imperial=units_imperial)
+                if not is_weather_checked:
+                    _working_on_it = choice(weather_protocol['working_on_it'])
+                    _saying_okay = choice(weather_protocol['saying_okay'])
+                    _choice_resp = choice([_working_on_it, _saying_okay])
+                    dispatcher.utter_message(_choice_resp)
+                dispatcher.utter_message(_query_resp)
+                return [SlotSet('query_city', query_city),
+                        SlotSet('query_hours', query_hours),
+                        SlotSet('query_minutes', query_minutes),
+                        SlotSet('current_city', current_city),
+                        SlotSet('query_weather_cond', _query_cond),
+                        SlotSet('is_charlotte_online', True),
+                        SlotSet('is_weather_checked', True),
+                        SlotSet('units_imperial', units_imperial)]
             else:
-                response, query_forecast_cond = forecast_weather(query_city,
-                                                                 query_hours,
-                                                                 query_mins)
-            if not is_fore_weather_checked:
-                _working_on_it = choice(weather_protocol['working_on_it'],
-                                        weather_protocol['saying_okay'])
-                dispatcher.utter_message(_working_on_it)
-            dispatcher.utter_message(response)
-            return [SlotSet('query_city', query_city),
-                    SlotSet('query_hours', query_hours),
-                    SlotSet('query_minutes', query_mins),
-                    SlotSet('current_city', current_city),
-                    SlotSet('query_forecast_cond', query_forecast_cond),
-                    SlotSet('forecast_weather_cond', forecast_weather_cond),
-                    SlotSet('is_charlotte_online', True)]
-        else:
-            if _retry:
-                _still_no_internet = choice(
-                    weather_protocol['still_no_internet'])
-                dispatcher.utter_message(_still_no_internet)
-            else:
-                _no_internet = choice(weather_protocol['no_internet'])
-                dispatcher.utter_message(_no_internet)
+                if _retry:
+                    _still_no_internet = choice(
+                        weather_protocol['still_no_internet'])
+                    dispatcher.utter_message(_still_no_internet)
+                else:
+                    _no_internet = choice(weather_protocol['no_internet'])
+                    dispatcher.utter_message(_no_internet)
+                return [SlotSet('query_city', None),
+                        SlotSet('query_hours', None),
+                        SlotSet('query_minutes', None),
+                        SlotSet('current_city', None),
+                        SlotSet('query_weather_cond', None),
+                        SlotSet('is_charlotte_online', False),
+                        SlotSet('is_weather_checked', False),
+                        SlotSet('units_imperial', False)]
+        except Exception as error:
+            dispatcher.utter_message(error['unknown'])
             return [SlotSet('query_city', None),
                     SlotSet('query_hours', None),
                     SlotSet('query_minutes', None),
                     SlotSet('current_city', None),
-                    SlotSet('query_forecast_cond', None),
-                    SlotSet('forecast_weather_cond', None),
-                    SlotSet('is_charlotte_online', False)]
-
-
-class ActionTellCurrentForecastWeatherConditions(Action):
-    """Returns weather."""
-
-    def name(self) -> str:
-        return 'action_tell_current_forecast_weather_conditions'
-
-    def run(self, dispatcher, tracker, domain) -> list:
-        query_city = tracker.get_slot('query_city')
-        is_charlotte_online = tracker.get_slot('is_charlotte_online')
-        if is_charlotte_online is False:
-            _retry = True
-            _retrying = choice(weather_protocol['retrying'])
-            dispatcher.utter_message(_retrying)
-        else:
-            _retry = False
-        if check_internet():
-            current_city = locate('city')
-            current_response, current_weather_cond = current_forecast_weather(
-                current_city)
-            if query_city is None:
-
-                query_weather_cond = None
-                response = current_response
-            else:
-                response, query_weather_cond = current_forecast_weather(
-                    query_city)
-            if not is_curr_weather_checked:
-                _working_on_it = choice(weather_protocol['working_on_it'],
-                                        weather_protocol['saying_okay'])
-                dispatcher.utter_message(_working_on_it)
-            dispatcher.utter_message(response)
-            return [SlotSet('query_city', query_city),
-                    SlotSet('current_city', current_city),
-                    SlotSet('query_weather_cond', query_weather_cond),
-                    SlotSet('current_weather_cond', current_weather_cond),
-                    SlotSet('is_charlotte_online', True)]
-        else:
-            if _retry:
-                _still_no_internet = choice(
-                    weather_protocol['still_no_internet'])
-                dispatcher.utter_message(_still_no_internet)
-            else:
-                _no_internet = choice(weather_protocol['no_internet'])
-                dispatcher.utter_message(_no_internet)
-            return [SlotSet('query_city', None),
-                    SlotSet('current_city', None),
                     SlotSet('query_weather_cond', None),
-                    SlotSet('current_weather_cond', None),
-                    SlotSet('is_charlotte_online', False)]
+                    SlotSet('is_charlotte_online', False),
+                    SlotSet('is_weather_checked', False),
+                    SlotSet('units_imperial', False)]
 
 
 class ActionPlayMusic(Action):
