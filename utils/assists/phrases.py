@@ -10,6 +10,8 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.0 - Changed all variables into dictionary values.
+#   1.0.7 - Added one more phrase in weather_protocol[`retrying`].
 #   1.0.6 - Replaced all options into respective dictionaries for better
 #           handling.
 #   1.0.5 - Updated `wish_user` to `greet_user`.
@@ -31,7 +33,7 @@ try:
         'afternoon': [f'Good Afternoon, {title}.', 'Good Afternoon!'],
         'evening': [f'Good Evening, {title}.', 'Good Evening!'],
         'night': [f'Hello, {title}!', f'Welcome back, {title}.'],
-        'yes': [f'{title}.', f'Yes, {lower}.']}
+        'yes_boss': [f'{title}?', f'Yes, {lower}?']}
     # For handling options on command prompt.
     cmdline_options = {
         'greetings': ['How can I assist you?',
@@ -91,7 +93,17 @@ try:
                         ' available.',
                         f'{title}, the internet connection is questionable.'
                         ' I am not able to perform the action.',
-                        f'{title}, I am not able to access the internet.']}
+                        f'{title}, I am not able to access the internet.'],
+        'unknown': [f'{title}, I\'m not able to perform this action. Perhaps'
+                    ' could you please try that again?'
+                    f' Sorry, {lower}. Perhaps could you rephrase that one'
+                    ' more time, please?',
+                    'I\'m afraid I didn\'t quite understand what you just'
+                    ' said. Could you please repeat it one more time?',
+                    'Pardon me, could you rephrase that one please?',
+                    f'Pardon me, {lower}. Could you please rephrase that?'
+                    f'My apologies, {lower}. But I\'m not able to perform'
+                    ' that action. Perhaps could you try that again?']}
     # For handling weather related responses.
     weather_protocol = {
         'no_internet': [f'Internet connection is knackered, {lower}.',
@@ -109,7 +121,8 @@ try:
                           'I\'m working on it...',
                           'Accessing weather details...'],
         'retrying': ['Not sure. I\'m working on it.',
-                     'Trying again...'],
+                     'Trying again...',
+                     'Retrying...'],
         'still_no_internet': [f'{title}, I\'m still not able to access the'
                               ' internet.',
                               'We still don\'t have a good internet'
