@@ -25,6 +25,36 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.0 - Updated to 1.1.0 - 4, October 2019
+#           - Reworked nlu.md, actions.py, weather.py, domain.yml from ground
+#             up - This is a major change.
+#           - weather.py now checks the internet before making an API call.
+#           - New constants are added for handling Imperial metric system in
+#             `weather.py` module.
+#           - weather.py has replaced the old functions in favor for new ones.
+#           - `_predict()` in weather.py now has more natural responses for
+#             weather predictions.
+#           - nlu.md data is now cleaned off from all redundancies and now uses
+#             `querying` suffix instead of `asking` for its intents.
+#           - Also, examples to retrieve weather details in imperial have been
+#             added. This has helped to overcome Overfitting.
+#           - Stories are removed for now and are accessed through it`s own
+#             directory which is added in directory.py under ./data/stories/.
+#           - All the variables that were used are replaced with dictionaries
+#             in phrases.py module.
+#           - Added explicit `make_dir` command while evaluating models in
+#             rasa.py module.
+#           - Deleted ./dump/ directory in favor of ./tests/ and ./temp/.
+#           - Reference link to ./dump/ is removed from .gitignore file.
+#           - ./bin/ directory is also now added to the .gitignore file.
+#           - Added key for ./reserves/ in directories.py module.
+#   1.0.7 - Updated to 1.0.7 - 27, September 2019 (UNRELEASED)
+#           - Downgraded rasa and rasa_sdk from 1.3.x builds to 1.2.x builds
+#             with TF-GPU 1.3.2 installed - This is a major change.
+#           - requirements.txt file is updated with correct rasa and TF builds.
+#           - Downloaded spacy model - python -m spacy download en_core_web_md.
+#           - Fixed a typo in weather.py module.
+#           - Added one more phrase in phrases.py module.
 #   1.0.6 - Updated to 1.0.6 - 25, September 2019
 #           - Using TF-GPU is discontinued from now - This is a major change.
 #           - Upgraded to rasa and rasa_sdk to 1.3.6 and 1.3.2 respectively
@@ -103,7 +133,7 @@ CODENAME = 'lazuli'
 
 NUMBER = os.environ.get('CHARLOTTE_NUMBER')
 
-VERSION = '1.0.6'
+VERSION = '1.1.0'
 
 AUTHOR = MAINTAINER = 'XAMES3'
 
