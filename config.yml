@@ -8,11 +8,11 @@ policies:
       epochs: 300
       max_training_samples: 300
       max_history: 5
-      # featurizer:
-      #     - name: MaxHistoryTrackerFeaturizer
-      #       max_history: 5
-      #       state_featurizer:
-      #         - name: BinarySingleStateFeaturizer
+      featurizer:
+          - name: MaxHistoryTrackerFeaturizer
+            max_history: 5
+            state_featurizer:
+              - name: BinarySingleStateFeaturizer
     - name: MemoizationPolicy
       max_history: 5
     - name: FallbackPolicy
