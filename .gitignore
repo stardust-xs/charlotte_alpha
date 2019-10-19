@@ -104,6 +104,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+cenv/
 
 # Spyder project settings
 .spyderproject
@@ -124,9 +125,16 @@ dmypy.json
 .pyre/
 
 # Ignored on device directories
-/bin/
 /data/knowledge/csv/
 /models/
-/reserves/
+/backup/
+/beta/
 /temp/
 /tests/
+
+# Ignored on device files
+/action.json
+/creds.data
+/gactions.exe
+/ngrok.exe
+/test.py
