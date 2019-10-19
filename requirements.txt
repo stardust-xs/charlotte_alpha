@@ -1,0 +1,14 @@
+# Package requirements
+fuzzywuzzy
+geocoder
+geolocation-python
+googlemaps
+hurry.filesize
+pypiwin32
+python-Levenshtein
+rasa
+reverse-geocode
+spacy
+tinytag
+pandas
+numpy==1.16.3
