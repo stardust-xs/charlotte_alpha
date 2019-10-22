@@ -25,11 +25,13 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Improved the type hints by using the typing module.
 #   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
 from sys import exc_info
+from typing import Optional, Text, Union
 
 # Constant used by `keygen`, `encrypt` and `decrypt` to use default UTF-8
 # encoding.
@@ -39,7 +41,9 @@ _ENCODING = 'utf-8'
 _KEY_NAME = 'ADMIN_USER_KEY'
 
 
-def keygen(key_name: str, passcode: str, return_key: bool = None) -> None:
+def keygen(key_name: Text,
+           passcode: Text,
+           return_key: Optional[bool] = None) -> Union[None, Text]:
     """Generates key.
 
     key_name:   The name with which the key needs to be stored in as an
@@ -58,7 +62,6 @@ def keygen(key_name: str, passcode: str, return_key: bool = None) -> None:
     from base64 import urlsafe_b64encode
     from os import urandom
     from subprocess import PIPE, Popen
-
     from cryptography.hazmat.backends import default_backend
     from cryptography.hazmat.primitives.hashes import SHA512
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
@@ -91,7 +94,7 @@ def keygen(key_name: str, passcode: str, return_key: bool = None) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def encrypt(message: str, key: str) -> str:
+def encrypt(message: Text, key: Text) -> Text:
     """Encrypts message.
 
     message: String to be encrypted.
@@ -120,7 +123,7 @@ def encrypt(message: str, key: str) -> str:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def decrypt(encrypted_text: str, key: str) -> str:
+def decrypt(encrypted_text: Text, key: Text) -> Text:
     """Decrypts message.
 
     encrypted_text: Encrypted text that needs to be decrypted.
