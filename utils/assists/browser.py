@@ -20,11 +20,12 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Improved the type hints by using the typing module.
 #   1.0.0 - First code.
 
 from inspect import stack
 from sys import exc_info
-from time import sleep
+from typing import NoReturn, Text, Union
 
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
@@ -62,7 +63,7 @@ except Exception as error:
     chrome.quit()
 
 
-def wait_for_frame(frame: str, time: int = 10) -> None:
+def wait_for_frame(frame: Text, time: Union[int, float] = 10) -> NoReturn:
     """Waits for frame.
 
     frame: Frame or IFrame to search on webpage.
@@ -88,7 +89,7 @@ def wait_for_frame(frame: str, time: int = 10) -> None:
         chrome.quit()
 
 
-def find_class(class_name: str, time: int = 10) -> None:
+def find_class(class_name: Text, time: Union[int, float] = 10) -> NoReturn:
     """Finds class.
 
     class_name: Name of the class to be searched on webpage.
