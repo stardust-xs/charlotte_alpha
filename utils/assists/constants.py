@@ -10,6 +10,15 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Added constants for day times.
 #   1.0.0 - First code.
 
 ACTION_SERVER_PORT = 6969
+
+DAWN = 5
+
+NOON = 12
+
+DUSK = 17
+
+DARK = 21
