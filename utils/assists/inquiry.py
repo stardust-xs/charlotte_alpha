@@ -30,6 +30,7 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Improved the type hints by using the typing module.
 #   1.0.2 - Synced all updates in history as other files.
 #           Reduced unnecessary use of "`" in comments for simplicity.
 #           Added new function, `select_file` to select a file from the
@@ -41,12 +42,13 @@ See https://github.com/xames3/charlotte for cloning the repository.
 
 from inspect import stack
 from sys import exc_info
+from typing import List, Text, Union
 
 # Constant used by `answer` and `decide` to return if no response is given.
 _NO_RESPONSE = 'null'
 
 
-def confirm(question: str) -> bool:
+def confirm(question: Text) -> bool:
     """Provides Yes or No options.
 
     question: Question for yes-no options.
@@ -62,7 +64,7 @@ def confirm(question: str) -> bool:
     return select(question, [Choice('Yes', True), Choice('No', False)]).ask()
 
 
-def answer(question: str) -> str:
+def answer(question: Text) -> Text:
     """Takes input for question.
 
     question: Question that needs to be asked for expecting answer.
@@ -98,7 +100,7 @@ def answer(question: str) -> str:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def secure(question: str) -> str:
+def secure(question: Text) -> Text:
     """Takes input like password for question.
 
     question: Question that needs to be asked for expecting a secure answer.
@@ -135,7 +137,7 @@ def secure(question: str) -> str:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def decide(confirm_question: str, question: str) -> str:
+def decide(confirm_question: Text, question: Text) -> Text:
     """Ask question if confirmed.
 
     confirm_question: Question that needs confirmation.
@@ -161,7 +163,7 @@ def decide(confirm_question: str, question: str) -> str:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def choose(question: str, **kwargs) -> str:
+def choose(question: Text, **kwargs: Union[int, float, List, Text]) -> Text:
     """Provides options.
 
     question: Question or Message presenting multiple options.
@@ -177,7 +179,7 @@ def choose(question: str, **kwargs) -> str:
     return select(question, [Choice(v, k) for k, v in kwargs.items()]).ask()
 
 
-def select_file(question: str, file_dir: list) -> str:
+def select_file(question: Text, file_dir: List) -> Text:
     """Provides list of files.
 
     question: Question or Message selecting multiple files.
