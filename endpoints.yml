@@ -1,2 +1,7 @@
 action_endpoint:
-    url: 'http://localhost:6969/webhook'
+    url: "http://localhost:6969/webhook"
+
+tracker_store:
+    type: "SQL"
+    dialect: "sqlite"
+    db: "./conv/store.db"
