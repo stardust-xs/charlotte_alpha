@@ -1,57 +1,68 @@
 """
-The generic module: Provides generic, low-level and high-level functions.
+The generic module: Provides generic, low/high-level functions.
 
-These functions help to perform certain tasks with relative ease and without
-re-writing them. It also provides various functions that are useful to you
-while working with project data.
+These functions help to perform certain tasks with relative ease and
+without re-writing them. It also provides various functions that are
+useful to you while working with project data.
 
 At a glance, the structure of the module is following:
- - make_dir():          Creates a leaf directory and all intermediate ones.
-                        If the target directory already exists, it will skip
-                        this and resume with executing the rest code. Works
-                        like mkdir, except that any intermediate path segment
-                        will be created if it does not exist.
- - timestamp():         Returns current timestamp for logging purposes in
-                        desired format. It is recommended to use this while
-                        creating logs, files and folders which serve same
-                        purpose but need to be distinct from one another.
- - make_log():          Creates log file. The output log file is created with
-                        current file name under `./logs/` directory with
-                        chosen timestamp. The function disables TensorFlow
-                        warnings with `TF_CPP_MIN_LOG_LEVEL` metrics. It is
-                        totally optional and you can choose to show it on
-                        command line if needed.
- - show():              Prints statements with `?` prefix. This function is
-                        simply for the looks of output statement on CMD.
+ - make_dir():          Creates a leaf directory and all intermediate
+                        ones. If the target directory already exists, it
+                        will skip this and resume with executing the
+                        rest code. Works like mkdir, except that any
+                        intermediate path segment will be created if it
+                        does not exist.
+ - timestamp():         Returns current timestamp for logging purposes
+                        in desired format. It is recommended to use this
+                        while creating logs, files and folders which
+                        serve same purpose but need to be distinct from
+                        one another.
+ - make_log():          Creates log file. The output log file is created
+                        with current file name under `./logs/` directory
+                        with chosen timestamp. The function disables
+                        TensorFlow warnings with `TF_CPP_MIN_LOG_LEVEL`
+                        metrics. It is totally optional and you can
+                        choose to show it on command line if needed.
+ - show():              Prints statements with `?` prefix. This function
+                        is simply for the looks of output statement on
+                        CMD.
  - quit():              Terminates the code with a confirmation.
- - write_to_csv():      Creates a csv file and writes data into it. Directory
-                        hosting the csv file should exist, if not it will
-                        raise an Exception for the same. The default delimiter
-                        here is a `comma` or `,`.
- - extract_csv():       Extracts specific column from csv file and saves it in
-                        another file. After extracting the column it sorts the
-                        data. The target file can be any text handling file.
-                        It is recommended to use for creating lookup tables.
+ - write_to_csv():      Creates a csv file and writes data into it.
+                        Directory hosting the csv file should exist, if
+                        not it will raise an Exception for the same. The
+                        default delimiter here is a `comma` or `,`.
+ - extract_csv():       Extracts specific column from csv file and saves
+                        it in another file. After extracting the column
+                        it sorts the data. The target file can be any
+                        text handling file. It is recommended to use for
+                        creating lookup tables.
  - sort_lines():        Sorts the lines in the file and saves it. This
-                        function is used to debug any redundancies in NLU data.
- - randomize_lines():   Randomizes the lines in the file. This function is
-                        used to make the dataset slightly random.
- - replace_data():      Randomly replaces the given words in the file with
-                        required word and saves it. It is recommended to use
-                        this to replace the common words OR patterns in your
-                        dataset.
- - delete_lines():      Randomly deletes lines from the file and saves it. It
-                        is recommended to use this function for shrinking the
-                        dataset.
+                        function is used to debug any redundancies in
+                        NLU data.
+ - randomize_lines():   Randomizes the lines in the file. This function
+                        is used to make the dataset slightly random.
+ - replace_data():      Randomly replaces the given words in the file
+                        with required word and saves it. It is
+                        recommended to use this to replace the common
+                        words OR patterns in your dataset.
+ - delete_lines():      Randomly deletes lines from the file and saves
+                        it. It is recommended to use this function for
+                        shrinking the dataset.
  - find_file():         Finds the matching file in the directory. This
-                        function uses Fuzzy Logic for determining the best
-                        possible match. Function can provide 3 best possible
-                        matches but we use just 1 i.e. The best match.
- - str_match():         Finds the matching string in the list. This function
-                        is similar to `find_file` function but it needs to be
-                        used for searching file from directory while this
-                        function can be used for guessing text from any
-                        valid list like for ex. CSV columns.
+                        function uses Fuzzy Logic for determining the
+                        best possible match. Function can provide 3 best
+                        possible matches but we use just 1 i.e. The best
+                        match.
+ - str_match():         Finds the matching string in the list. This
+                        function is similar to `find_file` function but
+                        it needs to be used for searching file from
+                        directory while this function can be used for
+                        guessing text from any valid list like for
+                        ex. CSV columns.
+ - say():               Returns random phrase value from the list of
+                        values for the respective key from the passed
+                        dictionary. The dictionary used for function, is
+                        from phrases.py module.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -59,11 +70,15 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Improved the type hints by using the typing module.
+#           Added new `say` function.
+#           Made the code more* PEP-8 compliant.
 #   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
 from sys import exc_info
+from typing import ClassVar, Dict, List, NoReturn, Optional, Text, Tuple, Union
 
 from charlotte.utils.assists.inquiry import confirm
 from charlotte.utils.paths.directories import ai_dir
@@ -77,20 +92,20 @@ _ENCODING = 'utf-8'
 _NO_MATCH_SCORE = 0
 
 
-def make_dir(dir_name: str, need_init: bool = None) -> None:
+def make_dir(dir_name: Text, need_init: Optional[bool] = None) -> NoReturn:
     """Creates directory.
 
     dir_name:  Name of the directory to be created.
-    need_init: If made True, it will create `__init__.py` in the directory.
+    need_init: If made True, it will create `__init__.py` in directory.
                Default: None
 
     Creates a leaf directory and all intermediate ones. If the target
-    directory already exists, it will skip this and resume with executing the
-    rest code. Works like mkdir, except that any intermediate path segment
-    will be created if it does not exist.
+    directory already exists, it will skip this and resume with
+    executing the rest code. Works like mkdir, except that any
+    intermediate path segment will be created if it does not exist.
 
-    Note: If the target directory already exists, it will skip this and resume
-    with executing the rest code.
+    Note: If the target directory already exists, it will skip this and
+    resume with executing the rest code.
     """
     from os import makedirs
     from os.path import exists, join
@@ -108,16 +123,17 @@ def make_dir(dir_name: str, need_init: bool = None) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def timestamp(format: str) -> str:
+def timestamp(format: Text) -> Text:
     """Returns timestamp.
 
     format: Timestamp format that you need to show the time.
 
-    Returns current timestamp for logging purposes in desired format. It is
-    recommended to use this while creating logs, files and folders which serve
-    same purpose but need to be distinct from one another.
+    Returns current timestamp for logging purposes in desired format.
+    It is recommended to use this while creating logs, files and folders
+    which serve same purpose but need to be distinct from one another.
 
-    Note: Here are some of the useful timestamp formats that you can use:
+    Note: Here are some of the useful timestamp formats that you can
+          use:
             * %d.%m.%Y                - 31.05.2019
             * %I:%M:%S %p             - 01:23:45 AM
             * %H:%M:%S                - 01:23:45
@@ -137,12 +153,12 @@ def timestamp(format: str) -> str:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def _plain(text: str) -> str:
+def _plain(text: Text) -> Text:
     """Escapes ANSI sequence."""
     from re import compile
 
     try:
-        # Most helpful while striping colors from colored text on command line.
+        # Most helpful while striping colors from colored text on CLI.
         ansi_escape = compile(r'\x1B\[[0-?]*[ -/]*[@-~]')
         return ansi_escape.sub('', text)
     except Exception as error:
@@ -151,7 +167,7 @@ def _plain(text: str) -> str:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def make_log(file: str, show_warning: bool = None) -> classmethod:
+def make_log(file: Text, show_warning: Optional[bool] = None) -> ClassVar:
     """Creates log file.
 
     file:         Name of the current file.
@@ -159,10 +175,10 @@ def make_log(file: str, show_warning: bool = None) -> classmethod:
                   warnings while running.
                   Default: False
 
-    The output log file is created with current file name under `./logs/`
-    directory with chosen timestamp. The function disables TensorFlow warnings
-    with `TF_CPP_MIN_LOG_LEVEL` metrics. It is totally optional and you can
-    choose to show it on command line if needed.
+    The output log file is created with current file name under
+    `./logs/` directory with chosen timestamp. The function disables
+    TensorFlow warnings with `TF_CPP_MIN_LOG_LEVEL` metrics. It is
+    totally optional and you can choose to show it on CLI if needed.
 
     Note: Using `__file__` is advisable as input to the file argument.
     """
@@ -174,14 +190,15 @@ def make_log(file: str, show_warning: bool = None) -> classmethod:
     try:
         make_dir(ai_dir['logs'])
         log = getLogger(file)
-        # Logging level is set to debug by default. You can change this if
-        # needed.
+        # Logging level is set to debug by default. You can change this
+        # if needed.
         log.setLevel(DEBUG)
         log_file = Path(str(file).lower()).stem
         log_time = timestamp('%d_%m_%Y_%I_%M_%S_%p')
         # Log name will be <filename>_<current_timestamp>.log
-        # For ex. If logging is used in cipher.py, it will create a log file
-        # like cipher_31_05_2019_01_23_45_AM.log under ./logs/ directory.
+        # For ex. If logging is used in cipher.py, it will create a
+        # log file like cipher_31_05_2019_01_23_45_AM.log under ./logs/
+        # directory.
         log_name = f'{log_file}_{timestamp(log_time)}.log'
         log_formatter = Formatter(f'%(asctime)s.%(msecs)06d    %(levelname)'
                                   '-8s    %(filename)s:%(lineno)-4s '
@@ -193,8 +210,8 @@ def make_log(file: str, show_warning: bool = None) -> classmethod:
         stream_handler = StreamHandler(stdout)
         stream_handler.setFormatter(log_formatter)
         log.addHandler(stream_handler)
-        # This part of code is not required now as the deprecation warnings
-        # have been taken care by Rasa itself.
+        # This part of code is not required now as the deprecation
+        # warnings have been taken care by Rasa itself.
         if show_warning is None:
             import os
             import tensorflow.python.util.deprecation as deprecation
@@ -209,12 +226,12 @@ def make_log(file: str, show_warning: bool = None) -> classmethod:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def show(message: str) -> None:
+def show(message: Text) -> NoReturn:
     """Prints statements with `?` prefix."""
     print(f'? {message}')
 
 
-def quit() -> None:
+def quit() -> NoReturn:
     """Terminates the code with a confirmation."""
     from sys import exit
 
@@ -228,14 +245,18 @@ def quit() -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def write_to_csv(file: str, *args) -> None:
+def write_to_csv(file: Text,
+                 delimiter: Optional[Text] = ',',
+                 *args: Union[Text, int, float]) -> NoReturn:
     """Creates and writes csv file.
 
-    file: Path to the csv file.
-    args: Objects to be added to the csv file.
+    file:      Path to the csv file.
+    delimiter: Delimiter for CSV file.
+               Default: `comma` or `,`
+    args:      Objects to be added to the csv file.
 
-    Creates a csv file and writes data into it. Directory hosting the csv file
-    should exist, if not it will raise an Exception for the same.
+    Creates a csv file and writes data into it. Directory hosting the
+    csv file should exist, if not it will raise an exception.
 
     Note: The default delimiter here is a `comma` or `,`.
     """
@@ -244,7 +265,7 @@ def write_to_csv(file: str, *args) -> None:
     try:
         with open(file, 'a', newline='', encoding=_ENCODING) as csv_file:
             write_to_csv = writer(csv_file,
-                                  delimiter=',',
+                                  delimiter=delimiter,
                                   quoting=QUOTE_MINIMAL)
             write_to_csv.writerow([*args])
     except Exception as error:
@@ -253,23 +274,24 @@ def write_to_csv(file: str, *args) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def extract_csv(src_file: str, tgt_file: str, column: str) -> None:
+def extract_csv(src_file: Text, tgt_file: Text, column: Text) -> NoReturn:
     """Extracts column from csv file.
 
     src_file: File name from which the data needs to be read.
     tgt_file: File name to which the sorted data needs to be written.
     column:   Column name to be extracted.
 
-    Extracts specific column from csv file and saves it in another file. After
-    extracting the column it sorts the data. The target file can be any text
-    handling file.
+    Extracts specific column from csv file and saves it in another file.
+    After extracting the column it sorts the data. The target file can
+    be any text handling file.
 
     Note: It is recommended to use this for creating lookup tables.
     """
     from csv import DictReader
 
     try:
-        with open(src_file, 'r', encoding=_ENCODING, errors='ignore') as source_file:
+        with open(src_file, 'r', encoding=_ENCODING, errors='ignore') \
+                as source_file:
             csv_data = DictReader(source_file)
             data_dict = {}
             for index in csv_data:
@@ -288,13 +310,13 @@ def extract_csv(src_file: str, tgt_file: str, column: str) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def sort_lines(file: str) -> None:
+def sort_lines(file: Text) -> NoReturn:
     """Sorts lines in file.
 
     file: File whose data needs to be sorted.
 
-    Sorts the lines in the file and saves it. This function is used to debug
-    any redundancies in the NLU data.
+    Sorts the lines in the file and saves it. This function is used to
+    debug any redundancies in the NLU data.
     """
     try:
         with open(file, encoding=_ENCODING) as source_file:
@@ -310,7 +332,7 @@ def sort_lines(file: str) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def randomize_lines(file: str) -> None:
+def randomize_lines(file: Text) -> NoReturn:
     """Randomizes lines.
 
     file: File whose lines need to be randomized.
@@ -334,20 +356,20 @@ def randomize_lines(file: str) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def replace_data(file: str,
-                 find_words: list,
-                 replace_words: list) -> None:
+def replace_data(file: Text,
+                 find_words: List,
+                 replace_words: List) -> NoReturn:
     """Replaces words or phrases.
 
     file:          File from which the words needs to be replaced.
     find_words:    List of words to be replaced from the opened file.
     replace_words: List of words to be replaced with in the opened file.
 
-    Randomly replaces the given words in the file with required word and saves
-    it.
+    Randomly replaces the given words in the file with required word and
+    saves it.
 
-    Note: It is recommended to use this to replace the common words OR patterns
-    in your dataset.
+    Note: It is recommended to use this to replace the common words OR
+    patterns in your dataset.
     """
     from random import choice
 
@@ -369,7 +391,7 @@ def replace_data(file: str,
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def delete_lines(file: str, lines_to_retain: int = 1000) -> None:
+def delete_lines(file: Text, lines_to_retain: int = 1000) -> NoReturn:
     """Deletes lines randomly.
 
     file:            File from which the lines are to be deleted.
@@ -378,7 +400,8 @@ def delete_lines(file: str, lines_to_retain: int = 1000) -> None:
 
     Randomly deletes lines from the file and saves it.
 
-    Note: It is recommended to use this function for shrinking the dataset.
+    Note: It is recommended to use this function for shrinking the
+    dataset.
     """
     from random import choices, shuffle
 
@@ -400,17 +423,21 @@ def delete_lines(file: str, lines_to_retain: int = 1000) -> None:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def find_file(file: str, file_dir: str, min_score: int = 65) -> tuple:
+def find_file(file: Text,
+              file_dir: Text,
+              min_score: Optional[int] = 65) -> Tuple[Text, int]:
     """Finds file in directory.
 
-    file:      Approx. name of the file you need to search in the directory.
-    file_dir:  Directory in which the file exists or needs to be searched in.
-    min_score: Minimum score/Threshold score that should match while making as
-               approximate guess.
+    file:      Approx. name of the file you need to search in the
+               directory.
+    file_dir:  Directory in which the file exists or needs to be
+               searched in.
+    min_score: Minimum score/Threshold score that should match while
+               making as approximate guess.
                Default: 65
 
-    Finds the matching file in the directory. This function uses Fuzzy Logic
-    for determining the best possible match.
+    Finds the matching file in the directory. This function uses Fuzzy
+    Logic for determining the best possible match.
 
     Note: Function can provide 3 best possible matches but we use just 1
     i.e. The best match.
@@ -421,15 +448,17 @@ def find_file(file: str, file_dir: str, min_score: int = 65) -> tuple:
 
     try:
         for _, _, files in walk(file_dir):
-            # This will give us 3 best matches for our search query. Hence,
-            # these are our best guesses.
+            # This will give us 3 best matches for our search query.
+            # Hence, these are our best guesses.
             guessed_files = extract(file, files, limit=3, scorer=partial_ratio)
-            no_match_found = f'Sorry, I could not find "{file}" in the directory.'
-            # Using the list of guessed words we will consider a single match
-            # whose Levenshtein distance score is near to 100.
+            no_match_found = f'Sorry, I could not find "{file}" in the ' \
+                'directory.'
+            # Using the list of guessed words we will consider a single
+            # match whose Levenshtein distance score is near to 100.
             for best_guess in guessed_files:
                 current_score = partial_ratio(file, best_guess)
-                if current_score > min_score and current_score > _NO_MATCH_SCORE:
+                if current_score > min_score and \
+                        current_score > _NO_MATCH_SCORE:
                     return best_guess[0], current_score
                 else:
                     return no_match_found, _NO_MATCH_SCORE
@@ -439,35 +468,37 @@ def find_file(file: str, file_dir: str, min_score: int = 65) -> tuple:
               f' {exc_info()[-1].tb_lineno}.')
 
 
-def str_match(text: str, text_list: list, min_score: int = 65) -> str:
+def str_match(text: Text,
+              text_list: List,
+              min_score: Optional[int] = 65) -> Text:
     """Finds string in list.
 
     text:      Approximate text that you need to find from the list.
     text_list: List in which the text exists or needs to be searched in.
-    min_score: Minimum score/Threshold score that should match while making as
-               approximate guess.
+    min_score: Minimum score/Threshold score that should match while
+               making as approximate guess.
                Default: 65
 
     Finds the matching string in the list. This function is similar to
     `find_file` function but it needs to be used for searching file from
-    directory while `str_match` can be used for guessing text from any valid
-    list like for ex. CSV columns.
+    directory while `str_match` can be used for guessing text from any
+    valid list like for ex. CSV columns.
     """
-    from os import walk
     from fuzzywuzzy.fuzz import partial_ratio
     from fuzzywuzzy.process import extract
 
     try:
-        # Similar to `find_file` functions, we will give get 3 best matches
-        # for our search query.
+        # Similar to `find_file` functions, we will give get 3 best
+        # matches for our search query.
         if text is not None:
             guessed = extract(text, text_list, limit=3, scorer=partial_ratio)
             no_match_found = f'Sorry, I could not find a match for "{text}".'
-            # Using the list of guessed words we will consider a single match
-            # whose Levenshtein distance score is near to 100.
+            # Using the list of guessed words we will consider a single
+            # match whose Levenshtein distance score is near to 100.
             for best_guess in guessed:
                 current_score = partial_ratio(text, best_guess)
-                if current_score > min_score and current_score > _NO_MATCH_SCORE:
+                if current_score > min_score and \
+                        current_score > _NO_MATCH_SCORE:
                     return best_guess[0]
                 else:
                     return no_match_found
@@ -475,3 +506,35 @@ def str_match(text: str, text_list: list, min_score: int = 65) -> str:
         print('An error occured while performing this operation because of'
               f' {error} in function "{stack()[0][3]}" on line'
               f' {exc_info()[-1].tb_lineno}.')
+
+
+def say(phrases: Dict, key: Text) -> Text:
+    """Returns random phrase value.
+
+    phrases: Dictionary from which the random value needs to be chosen.
+    key:     Key from the dictionary.
+
+    It returns a random value from the list of values for the respective
+    key from the passed dictionary. The dictionary used for function,
+    is from phrases.py module.
+    """
+    from random import choice
+
+    try:
+        return [choice(v) for k, v in phrases.items() if k == key][0]
+    except Exception as error:
+        print('An error occured while performing this operation because of'
+              f' {error} in function "{stack()[0][3]}" on line'
+              f' {exc_info()[-1].tb_lineno}.')
+
+
+# def speak(message: Text) -> None:
+#     """This is a TTS testing function."""
+#     from pyttsx3 import init
+#
+#     engine = init()
+#     voices = engine.getProperty('voices')
+#     engine.setProperty('voice', voices[1].id)
+#     engine.setProperty('rate', 135)
+#     engine.say(message)
+#     engine.runAndWait()
