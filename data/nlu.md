@@ -1,1916 +1,530 @@
-## intent:querying_do_you_need_anything_else
-- what else do you need?
-- anything else is what you want to ask?
-- [ma'am](gender:female) do you need anything else?
-- [sir](gender:male) do you need anything else besides this?
-- anything else, [ma'am](gender:female)
-- what are ur expectations?
-- [sir](gender:male) will that be it?
-- what are you expecting?
-- do u need anything else?
-- were you expecting things differently?
-- anything else [sir](gender:male)
-- do you want something?
-- will that be it?
-- is there anything else?
-- is there anything else that I can help you with?
-- will that be it or is there anything else to ask?
-- do you need anything else?
-- Is there anything else you [wanna](grammar:want) talk?
-- anything else you want to discuss?
-- [wat](grammar:what) r u expecting?
-- is something else bothering you?
-- do you want anything?
-- are you expecting anything?
-- do u [wanna](grammar:want) ask anything else besides that?
-- Do you want something?
-- were you expecting something else?
-- [sir](gender:male) anything?
-- any other thing that I can help you with?
-- [shud](grammar:should) I say anything?
-- should I say something [now](time)?
-- anything else?
-- feel free to ask anything
-- is there anything else other than this?
-
-## intent:querying_goto_next_step
-- take me to the next step
-- let's get going
-- we should probably get moving
-- uh... next
-- Next
-- let's move on
-- I think we should not stop here but move on.
-- go on.
-- Next step
-- [Please](action:please) take me to the next step
-- [Guys](gender:male) I think we should start moving on.
-- step [forward](direction)
-- Can you [please](action) tell me the next step?
-- next step plz
-- Go on
-- let's go [ahead](direction:forward)
-- let's get on with this
-- Take me to the next step
-- lets go a [little](quantity:less) [further](direction:forward)
-- Jump to the next step
-- let's keep going
-- next [plzz](action:please)
-- I want to go to the next step.
-- Go to the next step
-- lets move [ahead](direction:forward)
-- lets move [ahead](direction:forward) a [little](quantity:less)
-- next step please
-- Play next song.
-- Next step please
-- next step [please](action)
-- Move a step [forward](direction)
-- lets go to the bext step
-
-## intent:querying_goto_previous_step
-- Previous step please
-- Can you [plz](action:please) tell me the [previous](direction:backward) step?
-- Go [back](direction:backward)
-- Go to the previous step
-- stop, go [back](direction:backward)
-- show me the previous step
-- go [back](direction:backward)
-- what was the previous step about?
-- Take me to the previous step
-- can you please go [back](direction:backward) a [little](quantity:less)
-- before this.
-- [previous](direction:backward) step please
-- I want to go to the previous step.
-- Please take me to the previous step
-- move [li'l](quantity:less) [backwards](direction)
-- go [back](direction:backward) a [lil](quantity:less)
-- play previous track.
-- Move a step [backward](direction)
-- what was that before this?
-- which is the [previous](direction:backward) step?
-- sho me the previous step
-- ah.. [back](direction:backward)
-- show me before this
-- take me [back](direction:backward).
-- Play the previous song. please.
-- a step [back](direction:backward)
-- i [wanna](grammar:want) go a step [back](direction:backward)
-- step [backward](direction)
-- [previous](direction:backward)step
-- let's go [back](direction:backward)
-- Jump to the previous step
-
-## intent:querying_play_music
-- can you play song from [Oliver Appropriate](track_album) by [composer](person:artist) [Eagles](track_artist)?
-- I would like to listen any cover from [What Chaos Is Imaginary](track_album) album
-- Play [msucis](music:track) from [Beware of the Dogs](track_album) by composer [The Chainsmokers](track_artist), will you?
-- plz play [hip-hop](track_genre) music.
-- play music
-- I would like to listen to any [punk](track_genre) song
-- can you play any track from the album [Western Stars](track_album) by singer [Charlotte Rose Ellis](track_artist)?
-- do we have something from [akon](track_artist) and [Eminem](track_artist)?
-- Play any track from the movie [Purple Reign](track_album), will you?
-- Play the [blues](track_genre) songs
-- I would like to groove to any [metal](track_genre) track
-- I wanna dance to any track from [Mania](track_album) album
-- will you please play any song from [SASAMI](track_album) album.
-- will you play any song by [Billie Eilish](track_artist)?
-- [Eminem](track_artist)'s songs, please.
-- will you please play some [music](music:track) from the movie [The Marshall Mathers LP 2 Disc 2]will you ptrack_album)?
-- can you play cover from the movie [Led Zeppelin IV](track_album)?
-- Play some tone from movie [Crushing](track_album)
-- I wanna dance to songs from [The Saint of Lost Causes](track_album)
-- I wanna dance to a track from [EVEN IN THE TREMOR](track_album) album.
-- I would like to hear some [punk](track_genre) tone
-- Play any tone from the album [On The Line](track_album)
-- Would you please play any track from the movie [LP3](track_album) by [Rick0 James](track_artist)?
-- cheer me up by playing something from the movie [Vertigo](track_album), will you?
-- Play something
-- I think its best for me if I start listening to [pop](track_genre) music.
-- can you please play something by [Akon](track_artist)
-- can you play some tone from movie [Metallica](track_album)?
-- I wanna listen any track from [Rumours](track_album) album
-- can you play any music from the album [Abbey Road](track_album) by [singer](person:artist) [Eagles](track_artist)?
-- will you please play songs from the movie [Back in Black](track_album) by [Ludacris](track_artist)?
-- I just want to listen to the music [Berzerk](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- play that tune.
-- Would you please play something by singer [Ludacris](track_artist)?
-- I would like to dance to cover from [Metallica](track_album) by [Coldplay](track_artist)
-- I would like to hear any [punk](track_genre) beat
-- please play the [funk](track_genre) track  for us
-- cheer me up by playing any track from album [Back in Black](track_album), will you?
-- I must ask you to play a song by artist [Shamur](track_artist).
-- Would you please play songs from [Recovery](track_album)?
-- Will you please play something by composer [Selena Gomez](track_artist)?
-- can you play some music to release the tension?
-- can you play tracks from album [Nevermind](track_album) by singer [Lil Wayne](track_artist)?
-- will you please play any [music](music:track) from [The Marshall Mathers LP 2 Disc 2](track_album)?
-- can you please play any track from [Remind Me Tomorrow](track_album) album
-- will you please play any track from the movie [Vertigo](track_album) by singer [Maroon 5](track_artist)?
-- can you play any track from the movie [Quiet Signs](track_album)?
-- play music [Lose Yourself](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album).
-- Play [Parking Lot](track_name) by [Jamie N Commons](track_artist)
-- can you please play any song from movie [Mania](track_album)?
-- Please play any [Hiphop](track_genre) track
-- will you please play some [cover](music:track) from the movie [On The Line](track_album) by [singer](person:artist) [Charlotte Rose Ellis](track_artist)?
-- cheer me up by playing something from [Let’s Talk About Love](track_album), will you?
-- please play the [pop](track_genre) tracks for us
-- make my mood.
-- Could you please play the [Dubstep](track_genre) for us?
-- I wanna dance to some [rap](track_genre) music.
-- Could you kindly play music [Berzerk](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album)?
-- cheer me up by playing any song from the movie [Heard It in a Past Life](track_album), will you?
-- babe, play something by [Dr. Dre](track_artist).
-- please play any [funk](track_genre) track for us
-- Would you please play any song by composer [Drake](track_artist) from [TBA](track_album)?
-- Would you please play tracks from album [Thriller](track_album)?
-- Please play some [grunge](track_genre)
-- Play a track from the movie [This Is How You Smile](track_album) by [Rick0 James](track_artist), will you?
-- Would you please play songs from movie [IGOR](track_album)?
-- I wanna dance to song from [EVEN IN THE TREMOR](track_album) album.
-- cheer me up.
-- can you play something from [Angel's Pulse](track_album) album by [composer](person:artist) [XAMES3](track_artist).
-- Play any track from [Legend](track_album) album.
-- can you play any track from [Illuminate](track_album)?
-- Please play music [Fall](track_name) by [Zach Filkins](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play any track from [Appetite for Destruction](track_album) album.
-- I would like to hear some [blues](track_genre) tracks
-- will you please play a track from album [When I Get Home](track_album)?
-- Some [edm](track_genre) here would be nice.
-- Play any [song](music:track) from [Anima](track_album) album, will you?
-- I wanna listen some song from [Thriller](track_album)
-- I would like to listen any track from [Gold and Grey](track_album) album
-- Play any track from [Quiet Signs](track_album), will you?
-- will you please play any song from the movie [On the Line](track_album)?
-- I would like you to please play any [dubstep](track_genre) beat
-- play [cover](music:track) from [Recovery](track_album).
-- playy music
-- Play a track by artist [Future](track_artist) from [Legend](track_album) album, will you?
-- Could you please play any [hip-hop](track_genre) track?
-- turn on the music
-- [Charlotte](hotword), could you please play something?
-- Play [stan](track_name) by [nate dogg](track_artist).
-- Play [songs](music:track) from album [when we all fall asleep where do we go](track_album), will you?
-- can you please play a track from album [Hotel California](track_album)?
-- will you please play tracks from [On the Line](track_album) album.
-- some [soundtrack](track_genre) beat
-- I would like to hear some [hip-hop](track_genre) songs
-- I want some music here.
-- Drop the needle.
-- Lets listen to [Groundhog Day](track_name) by [Steve Berman](track_artist)
-- cheer me up by playing something from [YOU CAN'T SIT WITH US](track_album).
-- can you please play some cover from [Gold and Grey](track_album)?
-- Please play music [Berzerk](track_name) by [Sean Hurley](track_artist) from [Remind Me Tomorrow](track_album).
-- Please play the [grunge](track_genre) covers
-- I wanna listen any track from movie [On the Line](track_album)
-- Could you please play some [funk](track_genre)?
-- I would like you to please play some [rap](track_genre) track
-- can you please play tracks from the movie [Marshal Mather LP II](track_album)?
-- can you play some tone from [Western Stars](track_album) by [singer](person:artist) [Rick0 James](track_artist)?
-- Please play music [Berzerk](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album).
-- Could you play an [orchestra](track_genre) beat?
-- I wanna listen any track from album [Young Enough](track_album)
-- can you play any song from [Recovery](track_album) album.
-- drop that bass
-- Play some [song](music:track) from [Recovery](track_album).
-- I would like to listen to some [soundtrack](track_genre) tracks
-- will you please play a track from the album [The Saint of Lost Causes](track_album) by artist [Dr. Dre](track_artist)?
-- can you play any song from movie [Revival](track_album)?
-- [charlotte](hotword), play something
-- play [tiktok](track_name) by [keisha](track_artist).
-- Play any song from [Supernatural](track_album) album.
-- I will like to have the [rap](track_genre) track
-- I would like to listen any song from movie [Western Stars](track_album)
-- Play a track from movie [AMDN](track_album)
-- can you please play songs from [New Breed](track_album)?
-- I would like to listen any track from [YOU CAN'T SIT WITH US](track_album) album
-- can you play a track from the movie [Mania](track_album)?
-- can you play any track from movie [Gallipoli](track_album)?
-- I wanna dance to any track from [Anima](track_album) album
-- play me songs like this.
-- yes, please play [Darta](track_name) hoon.
-- Would you please play any cover from [Remind Me Tomorrow](track_album) album by [composer](person:artist) [Future](track_artist).
-- can you please play any msuci from [On the Line](track_album)?
-- Would you please play any tone from [Revival](track_album) album
-- play music [Evil Twin](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- I wanna listen tracks from [Bad](track_album)
-- will you please play something from the movie [U.F.O.F](track_album)?
-- cheer me up by playing any track from movie [What Chaos Is Imaginary](track_album), will you?
-- we all would like to listen [Metal](track_genre)
-- Play any track from [Back in Black](track_album)
-- I would enjoy listening to [Greatest](track_name) by [Sia](track_artist)
-- I wanna listen any song from album [Revival](track_album)
-- I wanna dance to any song from [Outer Peace](track_album)
-- Can we get something playing here to [Adele](track_artist)'s music?
-- Play something from [Let’s Talk About Love](track_album) album, will you?
-- I would like to listen a track from the movie [The Craving for Absolute Serenity](track_album)
-- I would like to listen to some [rap](track_genre) songs
-- cheer me up by playing any track from [Nevermind](track_album) album, will you?
-- I would like you to please play some [blues](track_genre) tracks
-- Play some music from the album [Recovery](track_album), will you?
-- Play some tone from [Mania](track_album)
-- will you please play tracks from album [Appetite for Destruction](track_album)?
-- I would like to listen a track from [Nevermind](track_album) album.
-- will you please play any track from the album [Notes on a Conditional Form](track_album)?
-- Could you please play [Okami Village](track_name)?
-- I just want to listen to the music [Berzerk](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album).
-- Could you please play some [Metal](track_genre) track ?
-- I think I'll listen to [Rap God](track_name) by [John Mayer](track_artist)
-- Play songs from album [Young Enough](track_album).
-- sing me song by [drake](track_artist).
-- I would like to listen to the [punk](track_genre) songs
-- Play any track from [when we all fall asleep where do we go](track_album) album by [Sia](track_artist), will you?
-- can you play a track from [Metallica](track_album)?
-- I wanna listen something from [The Wizrd](track_album)
-- Would you guys play [Lost In Japan](track_name) by [Skylar Grey](track_artist)
-- play music [Love Game](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play songs from [Remind Me Tomorrow](track_album)?
-- can you play any track from the album [Vertigo](track_album)?
-- Play a track from [Supernatural](track_album) album, will you?
-- wanna sing a song now!!
-- calm me.
-- Play the [edm](track_genre) track
-- music by [Ramin Djawadi](track_artist).
-- I'm feelin a low. Pep me up.
-- I would like to hear any [punk](track_genre) music
-- Would you please play [songs](music:track) from [The Marshall Mathers LP 2 Disc 2](track_album) by [Eagles](track_artist)?
-- can you play any track from album [Titanic Rising](track_album) by [singer](person:artist) [Future](track_artist)?
-- Play [songs](music:track) from [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
-- Would you please play a track from [Rumours](track_album) album by [composer](person:artist) [Sean Paul](track_artist)
-- turn the music on!!
-- I would like to hear to [Khalid](track_artist)
-- I would like to listen to the [grunge](track_genre) track
-- will you please play any track from [SASAMI](track_album) album by [Dr. Dre;Eminem](track_artist)
-- can you play a track from the movie [Thriller](track_album)?
-- will you please play something from [Vertigo](track_album) album by singer [Mellen Gi](track_artist)
-- I would like to groove to the [soundtrack](track_genre)
-- I just want to listen to music [The One](track_name) by [Olivier Manchon](track_artist) from [Remind Me Tomorrow](track_album).
-- please play the [blues](track_genre) tracks for me
-- Play any song from the movie [Everything Not Saved Will Be Lost—Part 1](track_album) by composer [Drake](track_artist), will you?
-- play [not afraid](track_name) by [eminem](track_artist).
-- I would like to listen to the [soundtrack](track_genre) beat
-- play songs by artist [Adele](track_artist) and [Dr. Dre](track_artist)
-- Play some [dubstep](track_genre) cover
-- I wanna listen songs from [Appetite for Destruction](track_album).
-- will u play some [edm](track_genre).
-- start the beat.
-- play [Superman](track_name)
-- i would like to calm myself by some soothing music
-- cheer me up by playing songs from [Chapter VI](track_album), will you?
-- I wanna dance to [Akon](track_artist)'s tracks.
-- will you please play any tone from album [Nevermind](track_album)?
-- will you please play a track from album [Tip of the Sphere](track_album) by artist [Drake](track_artist)?
-- I wonder if someone could play [Baby](track_name) by [composer](person:artist) [Justin Bieber](track_artist)
-- I would like to listen a track from [Phoenix](track_album).
-- I wanna listen a track from the album [Sunshine Rock](track_album)
-- Play any cover from [On The Line](track_album) album, will you?
-- Play any track from the album [Revival](track_album) by artist [Skrillex](track_artist), will you?
-- play [dubstep](track_genre)
-- Play the [Dubstep](track_genre).
-- Would you please play the [Blues](track_genre) tone?
-- I wanna listen some music from the album [Mania](track_album)
-- will you please play a track from movie [IGOR](track_album)?
-- i want to hear some music
-- Would you please play some [punk](track_genre) songs?
-- Play [Beautiful](track_name).
-- I wanna listen something from [What Chaos Is Imaginary](track_album) album
-- play songs by [Adele](track_artist) and [Dr. Dre](track_artist)
-- will you please play any track from movie [Young Enough](track_album) by [composer](person:artist) [Drake](track_artist)?
-- please play the [Funk](track_genre) music for us
-- play [Monster](track_name) by [rihanna](track_artist)
-- Would you please play the [soundtrack](track_genre) beat?
-- show me your musical talent
-- Would you please play a track from album [Back in Black](track_album)?
-- Play the [grunge](track_genre) song
-- can you please play songs from [On the Line](track_album)?
-- Play [electronic](track_genre) msuci
-- can you please play something by [Alan Walker](track_artist)?
-- I would like to listen a track from movie [Bad](track_album)
-- Would you please play a track from the album [Beware of the Dogs](track_album) by [50 cents](track_artist)?
-- Play tracks from album [Legend](track_album) by singer [Sia](track_artist), will you?
-- Play [music](music:track) from the movie [Recovery](track_album) by singer [Cardi B](track_artist), will you?
-- Could you please play some [Electronic](track_genre) tracks?
-- can you play some [song](music:track) from movie [Recovery](track_album)?
-- Play something from [Led Zeppelin IV](track_album), will you?
-- Play any [song](music:track) by [Future](track_artist) from album [Kamikaze](track_album), will you?
-- I would like to listen any track from the movie [EVEN IN THE TREMOR](track_album)
-- Play songs by singer [Halsey](track_artist)
-- Play any track by singer [Katy Perry](track_artist) from the album [The Saint of Lost Causes](track_album), will you?
-- Play a track from the album [Oasis](track_album), will you?
-- can you play a track from [Beware of the Dogs](track_album) album by [Dr. Dre;Eminem](track_artist).
-- I would like to listen some msuci from [Let’s Talk About Love](track_album).
-- Play something from [We Love to sing](track_album) album.
-- Would you please play any track from [Revival](track_album) by [Eagles](track_artist)?
-- can you play any track from album [In League With Dragons](track_album) by [singer](person:artist) [Charlotte Rose Ellis](track_artist)?
-- Play some [song](music:track) from the movie [when we all fall asleep where do we go](track_album) by singer [Drake](track_artist), will you?
-- can you please play any track from the album [Heard It In A Past Life](track_album)?
-- help me relax.
-- I would love to listen to [Halsey](track_artist)
-- play music [Lose Yourself](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
-- Play any tone from the movie [Crushing](track_album)
-- Play some [edm](track_genre)
-- cheer me up by playing any track from [Appetite for Destruction](track_album) album, will you?
-- please play the [metal](track_genre) music for us
-- can you please play tracks from [New Breed](track_album) album.
-- can you play some song from the movie [U.F.O.F](track_album)?
-- Play some musci
-- I would like to listen a track from movie [Atlanta Millionaires Club](track_album).
-- play [crack a bottle](track_name).
-- can you please play any msuci from the album [New Breed](track_album)?
-- can you play any track from album [Phoenix](track_album) by singer [Cardi B](track_artist)?
-- I would like to dance to the [pop](track_genre) tracks
-- can you play any [song](music:track) from album [Marshal Mather LP II](track_album)?
-- Please play some [metal](track_genre) songs
-- Play any track from the movie [Outer Peace](track_album) by [composer](person:artist) [Eagles](track_artist), will you?
-- I would like to dance to the [grunge](track_genre) tracks
-- could youu play some [edm](track_genre).
-- Play something from [IGOR](track_album) album, will you?
-- can you please play any [music](music:track) from [Metallica](track_album)?
-- can you play any track from album [Kamikaze](track_album)?
-- Could you please play the [Pop](track_genre)?
-- can you play any track from the album [Thank U, Next](track_album)?
-- play music [Love Game](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album).
-- I would like to groove to the [soundtrack](track_genre) [msuci](music:track)
-- I would like to listen any track from movie [Gold and Grey](track_album)
-- I would like to listen to the [hip-hop](track_genre) track
-- cheer me up with [Ramin Djawadi](track_artist)'s music.
-- Please play music [Evil Twin](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- play [i wanna fuck you](track_name)
-- Would you please play a track from movie [Revival](track_album)?
-- I will like to have some [blues](track_genre) cover
-- I [wanna](grammar:want) [hear](action:listen) some classic [dubstep](track_genre) music.
-- Play a track from movie [Mania](track_album) by [50 cents](track_artist), will you?
-- play songs by [Adele](track_artist)
-- cheer me up by playing tracks from movie [New Breed](track_album), will you?
-- i want a live performance
-- Play something from album [Angel's Pulse](track_album), will you?
-- play [love game](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album)
-- will you please play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [composer](person:artist) [Eminem](track_artist)?
-- Play some song from [The Saint of Lost Causes](track_album)
-- Play any song from [Revival](track_album), will you?
-- I would like to listen to the [blues](track_genre)
-- will you please play tracks from [AMDN](track_album) album by artist [Bonobo](track_artist)
-- Would you please play any music from movie [Supernatural](track_album) by artist [Sean Paul](track_artist)?
-- will you please play a track from [Kamikaze](track_album) album
-- please play the [blues](track_genre) [musci](music:track) for me
-- I would like to listen any music from [New Breed](track_album)
-- I can dance to any [music](music:track) from album [Age of Extinction](track_album), will you play that?
-- can you please play any tone from the album [Titanic Rising](track_album)?
-- I wanna listen something from the movie [Bandana](track_album).
-- Play any track from the movie [Nevermind](track_album)
-- please play any [edm](track_genre) music for me
-- will you please play tracks from album [Revival](track_album)?
-- play music to set my mood
-- can you play [msuci](music:track) from [Supernatural](track_album)?
-- I wanna listen any song from album [Marshal Mather LP II](track_album)
-- Would you please play songs from [Young Enough](track_album) by [Post Malone](track_artist)?
-- Play song from [I Am Easy To Find](track_album) by [singer](person:artist) [George Michael](track_artist), will you?
-- Play [Dubstep](track_genre) songs
-- Play tracks by artist [Ludacris](track_artist) from [Outer Peace](track_album) album, will you?
-- Would you play something by singer [Adele](track_artist)?
-- Play any track from the album [Lets Try the After](track_album)
-- will you please play something from the album [Crushing](track_album)?
-- I am feeling little low. cheer me [up](direction).
-- I would love to dance to [Rihanna](track_artist)
-- Play some [rap](track_genre) songs
-- will you please play some song by composer [Kanye West](track_artist) from [Gold and Grey](track_album)?
-- will you please play a track from [Revival](track_album) album by [singer](person:artist) [Lady Gaga](track_artist).
-- I wanna listen any track from movie [Heard It in a Past Life](track_album)
-- please play the [rap](track_genre) covers for me
-- I [wud](grammar:would) like to [listen](action) to some music.
-- can you play tracks from [Marshal Mather LP II](track_album) album by singer [George Michael](track_artist).
-- cheer me up by playing any track from [New Breed](track_album), will you?
-- Play songs from [Oliver Appropriate](track_album).
-- Play [blues](track_genre) song
-- play music [Patience](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- I wanna dance to some [edm](track_genre) music.
-- I would like to hear some [soundtrack](track_genre) track
-- play songs
-- Play tracks from album [Appetite for Destruction](track_album).
-- I would like you to please play some [dubstep](track_genre) tracks
-- I would like to listen any song from [Appetite for Destruction](track_album)
-- Could you please play [Berzerk](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album)?
-- can you play a track from the movie [When I Get Home](track_album) by artist [50 cents](track_artist)?
-- Would you please play any song from album [Recovery](track_album)?
-- Play a track from [Nevermind](track_album) album by [Three Days Grace](track_artist), will you?
-- will you please play songs from [La La Land](track_album) by artist [Dr. Dre;Eminem](track_artist)?
-- I would like to listen songs from album [Mitsubishi Macchiato](track_album)
-- Would you please play any song from movie [When I Get Home](track_album)?
-- I just want to listen to [Killshot](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- how quiet is here. music please
-- Would you please play any track from [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
-- I would like to dance to cover from [Angel's Pulse](track_album) by [Kanye West](track_artist).
-- Play any tone from [Western Stars](track_album) by [Mad Money](track_artist), will you?
-- Play [Dubstep](track_genre).
-- I would like to listen some song from the movie [I Am Easy To Find](track_album)
-- I wanna dance to any [msuci](music:track) from album [New Breed](track_album)
-- play [Public Service Announcement 2000](track_name)
-- Would you please play tracks from the movie [The Immaculate Collection](track_album) by composer [Mad Money](track_artist)?
-- Play something from [Dedicated](track_album) album
-- Please play any [hip-hop](track_genre) track
-- play anything on music player.
-- I would like to dance to cover from [YOU CAN'T SIT WITH US](track_album) by [singer](person:artist) [XAMES3](track_artist).
-- I wanna listen songs from [Young Enough](track_album).
-- Would you please play a track from [Thriller](track_album) album by [composer](person:artist) [Justin Hurwitz](track_artist)
-- Play [parking slot](track_name) by [Eminem](track_artist).
-- I wanna listen any track from movie [Buoys](track_album)
-- Please play some [dubstep](track_genre) song
-- I would like to groove to any [rap](track_genre) cover
-- can you play something from movie [In League With Dragons](track_album)?
-- Would you please play some msuci by singer [Nate Dogg](track_artist) from [Thank U, Next](track_album)?
-- Play something from [Let’s Talk About Love](track_album) by [Drake](track_artist), will you?
-- Would you please play tracks from album [Led Zeppelin IV](track_album) by [Dr. Dre;Eminem](track_artist)?
-- Would you please play any track from [Kamikaze](track_album) by [singer](person:artist) [Kanye West](track_artist)?
-- please play any [dubstep](track_genre) track for us
-- Play something from the movie [Bad](track_album)
-- could you play something from [Recovery](track_album).
-- I wanna listen any track from [Vertigo](track_album) album
-- I would like to listen song from album [LP3](track_album)
-- I would like to listen any msuci from the album [Bandana](track_album)
-- will you please play something from [Abbey Road](track_album)?
-- I would like to listen something from [Vertigo](track_album)
-- I would like to listen to some [blues](track_genre) songs
-- will you please play tone from [Requiem for a Dream](track_album) by singer [Warner & Chappell](track_artist)?
-- Please play music [Patience](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album).
-- can you please play some music by [Afterhours](track_artist)?
-- can you please play songs from [Bad](track_album)?
-- i wanna enjoy music
-- Play tracks from [Bad](track_album), will you?
-- I would like to groove to some [dubstep](track_genre) music
-- will you please play something from [Young Enough](track_album) album.
-- Would you please play any track from [Western Stars](track_album) by [Shakira](track_artist)?
-- Please play some [dubstep](track_genre) tracks
-- Play cover from [LP3](track_album) by [Nate Dogg](track_artist), will you?
-- will you please play any track from album [EVEN IN THE TREMOR](track_album) by singer [Mad Money](track_artist)?
-- will you please play some song from [The Marshall Mathers LP 2 Disc 2](track_album) by [singer](person:artist) [Ozuna](track_artist)?
-- Play something from album [On The Line](track_album), will you?
-- will you please play a track from movie [New Breed](track_album)?
-- Play something from movie [In League With Dragons](track_album), will you?
-- Play something by composer [Ludacris](track_artist) from the album [Heard It In A Past Life](track_album), will you?
-- I just want to listen to music [Smack That](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- I wanna dance to music from album [Kamikaze](track_album).
-- Would you please play cover from [Father of the Bride](track_album) by [Alan Walker](track_artist)?
-- I would like to listen any track from movie [I Am Easy To Find](track_album)
-- will you please play [msucis](music:track) from [Thank U, Next](track_album)?
-- will you please play any msuci from [Buoys](track_album) album.
-- please play the [Rock](track_genre) msuci for us
-- I would like to listen any track from album [Atlanta Millionaires Club](track_album).
-- can you please play tone from album [Gold and Grey](track_album)?
-- will you please play some msuci from [Kamikaze](track_album)?
-- play music [Crack A Bottle](track_name) by [Sean Hurley](track_artist) from [Remind Me Tomorrow](track_album).
-- can you please play any [music](music:track) from [SASAMI](track_album)?
-- can you play any tone from [Mitsubishi Macchiato](track_album)?
-- I wanna listen any track from [New Breed](track_album)
-- can you please play something from [Kamikaze](track_album)?
-- Play songs from [I Am Easy To Find](track_album), will you?
-- Play tone by singer [Justin Hurwitz](track_artist) from [Metallica](track_album), will you?
-- But play [Lose Yourself](track_name) by [Joel Little](track_artist)
-- I would like to listen any track from album [Make It Big](track_album)
-- I wanna dance to a track from movie [Oasis](track_album)
-- Play tracks from album [U.F.O.F](track_album) by [Akon](track_artist), will you?
-- cheer me up by playing any track from [Revival](track_album) album, will you?
-- can you please play something?
-- Play any song from [Requiem for a Dream](track_album), will you?
-- can you please play tracks from [Hijas del Tomate](track_album)?
-- Well I wanted to hear [Rhyme or Reason](track_name) by [Ryan Tedder](track_artist)
-- can you please play any song from [AMDN](track_album) album
-- will you please play any music from movie [What Chaos Is Imaginary](track_album) by singer [Jay-Z](track_artist)?
-- Could you kindly [Till I Collapse](track_name) by [Nate Dogg](track_artist)
-- will you please play songs from the movie [Dedicated](track_album) by [Charlotte Rose Ellis](track_artist)?
-- can you play any msuci from album [Bad](track_album)?
-- Could you please play something by artist [Billie Eilish](track_artist)?
-- I wanna listen cover from movie [Make It Big](track_album).
-- What do you think of the songs from [Recovery](track_album)? I like them.
-- can you play tracks from [Heard It in a Past Life](track_album) album by singer [Charlotte Rose Ellis](track_artist).
-- I would like to listen to the [funk](track_genre) track
-- will you please play some music from [Supernatural](track_album) by artist [Dr. Dre;Eminem](track_artist)?
-- Play [cover](music:track) from the movie [Metallica](track_album), will you?
-- I wanna dance to song from [Abbey Road](track_album).
-- can you play any tone from [Nevermind](track_album)?
-- Play any track from [Supernatural](track_album), will you?
-- babe could you please play [berserk](track_name) by [eminem](track_artist)
-- I would like to dance to some [dubstep](track_genre) music
-- [babe](gender:female), play something for me, would you?
-- Would you please play any song from album [Oh My God](track_album) by [composer](person:artist) [Drake](track_artist)?
-- will you please play something from [Metallica](track_album) album
-- thrill me.
-- I would like to hear to [Ariana Grande](track_artist)
-- I would like to listen a track from [Outer Peace](track_album)
-- Play any tone from the album [Flamagra](track_album)
-- I just want to listen to music [Lose Yourself](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
-- I would like to listen tracks from the movie [Hotel California](track_album)
-- cheer me up by playing tracks from album [On the Line](track_album), will you?
-- Play [Crack](track_name)
-- i want to relax myself by music
-- I would like to hear to tone from [Angel's Pulse](track_album) by [Linkin Park](track_artist)
-- Oh gee.. I like [Adele](track_artist) a lot. Please play her [music]music.
-- Would you please play some [blues](track_genre) [song](music:track)?
-- play [one love](track_name) by [one direction](track_artist).
-- Play any [song](music:track) from [Assume Form](track_album), will you?
-- play something
-- I wanna dance to something from album [Recovery](track_album).
-- Could you please play the song [The Night](track_name)?
-- Play music.
-- Play msuci from [Bandana](track_album).
-- drop my needle
-- Play any song from the album [Supernatural](track_album)
-- Play a track from movie [Mania](track_album), will you?
-- will you please play any track from [Remind Me Tomorrow](track_album) album by [singer](person:artist) [Lil Wayne](track_artist)
-- play [Bad Guy](track_name) from music player
-- i want to listen to [dubstep](track_genre) music. could you play that for me
-- cheer me up by playing something from [Thank U, Next](track_album), will you?
-- play something by [Eminem](track_artist).
-- Would you please play something from the movie [Thank U, Next](track_album)?
-- I will like to have the [pop](track_genre)
-- Play any [Rock](track_genre) beat
-- I would like to hear any [hip-hop](track_genre) beat
-- [cud](grammar:could) you please play something?
-- I would like to hear any [hip-hop](track_genre) track
-- will you please play a track from [Thriller](track_album)?
-- Play a track from [Abbey Road](track_album) by [Drake](track_artist), will you?
-- I think I'll listen to [Oh God](track_name) by [John Mayer](track_artist).
-- please play the [punk](track_genre) tracks for us
-- cheer me up by playing tracks from [Father of the Bride](track_album), will you?
-- can you play any music from [When I Get Home](track_album) album
-- will you please play any track from [I Am Easy To Find](track_album) album
-- I would like to listen any song from [The Craving for Absolute Serenity](track_album) album
-- Could you kindly play [I wanna love you](track_name) by [Akon](track_artist) from [Konvict](track_album)
-- I would like to groove to the [dubstep](track_genre) tracks
-- I would like to listen any song from [Oasis](track_album) album
-- please play the [grunge](track_genre) [music](music:track) for us
-- [Daddy](person)'s home!
-- will you please play any track from album [The Immaculate Collection](track_album) by [Drake](track_artist)?
-- I would like to listen any song from [Nevermind](track_album) album
-- Would you play something by [composer](person:artist) [Halsey](track_artist)?
-- cheer me up by playing songs from album [Rumours](track_album), will you?
-- Would you please play any track from movie [Let’s Talk About Love](track_album)?
-- can you play something from [Abbey Road](track_album) by artist [Queen](track_artist)?
-- I would like to listen any music from [On the Line](track_album) album
-- I just want to listen to music [Killshot](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play any [music](music:track) from [Chapter VI](track_album) album
-- can you play something from [Flamagra](track_album) by [Rick0 James](track_artist)?
-- Would you please play something by singer [Khalid](track_artist)?
-- I would like to listen any track from [Heard It In A Past Life](track_album)
-- Could you kindly play music [Love Game](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album)?
-- I will like to have some [pop](track_genre)
-- I want to listen to song from [Led Zeppelin IV](track_album) by composer [Drake](track_artist).
-- I would like to listen to any [Hiphop](track_genre) tone
-- make me feel comfortable.
-- I would like to listen something from [Marshal Mather LP II](track_album)
-- Drop basss!
-- I would like to listen some music from [Led Zeppelin IV](track_album)
-- Play a track from [Metallica](track_album), will you?
-- Would you please play any song from [This is Acting](track_album) album by [Rick0 James](track_artist)
-- Could you please play some [grunge](track_genre) tracks for us?
-- Please play music [Lose Yourself](track_name) by [Teddy Geiger](track_artist) from [Remind Me Tomorrow](track_album).
-- Would you please play [music](music:track) from [Appetite for Destruction](track_album) by [Skrillex](track_artist)?
-- can you please play any [rap](track_genre) track for everyone present here?
-- I would enjoy to dance to [Ariana Grande](track_artist)
-- I would like to hear to [music](music:track) from [Bad](track_album) by artist [XAMES3](track_artist)
-- will you please play any msuci from [Mania](track_album) by composer [Bonobo](track_artist)?
-- I want to listen to song from [IGOR](track_album) by [composer](person:artist) [Dr. Dre](track_artist)
-- please play any [hip-hop](track_genre) track for me
-- I wanna listen the song [Kill You](track_name).
-- can you play any cover from the movie [What Chaos Is Imaginary](track_album)?
-- will you please play any [cover](music:track) from [The Wizrd](track_album) album by composer [Kanye West](track_artist).
-- cheer me up by playing any song from the album [Remind Me Tomorrow](track_album), will you?
-- can you play tracks by [singer](person:artist) [BTS](track_artist) from album [Legend](track_album)?
-- Would you please play any track from [Oasis](track_album) album
-- Would you please play a track by artist [Selena Gomez](track_artist) from the album [Bad](track_album)?
-- I would like to listen to [Dr. Dre](track_artist).
-- dance mode on!!!
-- I wanna listen any msuci from the album [Chapter VI](track_album)
-- please play some [hip-hop](track_genre) music for us
-- Play [Dubstep](track_genre) music.
-- babe play [moon](track_name)
-- can you play some music from movie [Flamagra](track_album) by composer [Selena Gomez](track_artist)?
-- can you please play some song from [The Wizrd](track_album)?
-- i'm feeling low. play something
-- I wanna listen any tone from movie [Assume Form](track_album)
-- can you play something from album [Gallipoli](track_album)?
-- I would like to listen to the [Hip-hop](track_genre) msuci
-- can you play something by [singer](person:artist) [Shawn Mendes](track_artist) from [Supernatural](track_album) album.
-- Would you please play something by singer [Imagine Dragons](track_artist)?
-- Would you please play any track from [Dedicated](track_album) by singer [Linkin Park](track_artist)?
-- can you please play a track from the album [Revival](track_album)?
-- play music [Crack A Bottle](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album).
-- will you please play any song from [Kamikaze](track_album) album
-- Could we get something by [Bruno Mars](track_artist)?
-- Would you please play any track from the movie [Titanic Rising](track_album) by [Dr. Dre](track_artist)?
-- will you please play any song from [Young Enough](track_album) by [singer](person:artist) [Future](track_artist)?
-- I wanna dance to [Eminem](track_artist)'s songs.
-- Cheer me up.
-- I will like to have the [rap](track_genre) covers
-- make me happy.
-- play song [The Ringer](track_name) from system.
-- Would you please play any track from the movie [Quiet Signs](track_album)?
-- please play some [blues](track_genre) track  for me
-- sing me a song by [Drake](track_artist)
-- please play some [pop](track_genre) song
-- will you please play any [msuci](music:track) from the movie [Requiem for a Dream](track_album) by [BTS](track_artist)?
-- can you play a track from [Appetite for Destruction](track_album) album by composer [Celine Dion](track_artist).
-- Would you please play any msuci from [Abbey Road](track_album) album
-- I would love to dance to [Usher](track_artist)
-- Please play some [funk](track_genre) music
-- I wanna listen any [song](music:track) from movie [The Wizrd](track_album)
-- can you play something from the movie [The Marshall Mathers LP 2 Disc 2](track_album)?
-- I would like to hear some [pop](track_genre) track
-- will you please play any [song](music:track) from [when we all fall asleep where do we go](track_album) by [50 cents](track_artist)?
-- cheer me up by playing songs from [Beware of the Dogs](track_album), will you?
-- Please play music [Crack A Bottle](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play any track from [The Marshall Mathers LP 2 Disc 2](track_album) by [singer](person:artist) [Clint Mansell](track_artist)?
-- Play tracks by [singer](person:artist) [Usher](track_artist)
-- cheer me up by playing something from [AMDN](track_album) album, will you?
-- Play any track from [La La Land](track_album) by [singer](person:artist) [Justin Hurwitz](track_artist), will you?
-- Play a [Metal](track_genre) song
-- Play a track from movie [Supernatural](track_album).
-- I will like to have some [soundtrack](track_genre) tracks
-- I wanna dance to songs from album [Oasis](track_album)
-- I would like to listen a track from the movie [Vertigo](track_album)
-- Play a track from movie [Revival](track_album), will you?
-- will you please play some msuci from the album [Bad](track_album)?
-- cheer me up by playing tracks from [Father of the Bride](track_album) album, will you?
-- play music [The Real Slim Shady](track_name) by [Soulja Boys](track_artist)
-- I will like to have the [soundtrack](track_genre) msucic
-- Would you please play any track from [Nevermind](track_album) album by composer [Dr. Dre;Eminem](track_artist)
-- will you please play songs from album [AMDN](track_album) by composer [Jay-Z](track_artist)?
-- will you please play any track from [LP3](track_album) album by singer [Nate Dogg](track_artist).
-- Could you please play the [soundtrack](track_genre) track ?
-- I would love to dance to [Akon](track_artist)
-- Would you please play any track from [This Is How You Smile](track_album) album
-- I would like to groove to some [grunge](track_genre) track
-- Play something from [Supernatural](track_album) album.
-- I would like to listen tracks from [Yandhi](track_album) album.
-- I would like you to please play some [grunge](track_genre)
-- Play any msuci from [EVEN IN THE TREMOR](track_album) album, will you?
-- Play any track from [Let’s Talk About Love](track_album) album.
-- can you please play a track from [LP3](track_album)?
-- will you please play any track from [Thriller](track_album) album by composer [George Michael](track_artist).
-- Cn you play [rap](track_genre) by [Eminem](track_artist)?
-- i [wanna](grammar:want) [listen](action) some music
-- Would you please play music from the movie [The Night King](track_album)?
-- I wanna listen any track from [Let’s Talk About Love](track_album) album.
-- I will like to have some [blues](track_genre) tracks
-- I will like to have the [edm](track_genre) songs
-- Would you please play any [song](music:track) from movie [EVEN IN THE TREMOR](track_album)?
-- will you please play tracks from album [Illuminate](track_album)?
-- I wanna listen any track from the movie [Metallica](track_album)
-- shoot me with some beats
-- I wanna listen something from the album [Rumours](track_album)
-- Please play the [soundtrack](track_genre) tracks
-- I would like to listen some song from movie [Metallica](track_album)
-- can you please something from [Slaves of the Shadow Realm](track_album)
-- Would you please play any [music](music:track) from [Bad](track_album)?
-- I would like you to please play some [blues](track_genre) [cover](music:track)
-- Play any track from movie [Slaves of Fear](track_album), will you?
-- Play cover by [composer](person:artist) [Eagles](track_artist)
-- Would you please play tracks from album [La La Land](track_album)?
-- will you please play any track from album [Remind Me Tomorrow](track_album)?
-- can you play any cover from the album [Oasis](track_album)?
-- put the music in action
-- can you play cover by [George Michael](track_artist) from movie [Outer Peace](track_album)?
-- Could you please play some [Electronic](track_genre)?
-- i [wnna](grammar:want) dance to some music.
-- I must say, play the song [Stan](track_name) by [Rihanna](track_artist)
-- Would you please play any music from movie [Thank U, Next](track_album) by composer [Sean Paul](track_artist)?
-- Play any track from album [This Is How You Smile](track_album) by [singer](person:artist) [Ludacris](track_artist), will you?
-- Cud you kindly play [low](track_name) by [T-pain](track_artist) from [Step Up](track_album)
-- Could you kindly play music [Venom](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album)?
-- will you please play any [song](music:track) from the movie [Rumours](track_album) by [Post Malone](track_artist)?
-- Music by [Alana Davis](track_artist).
-- can you play some cover from the movie [Revival](track_album) by singer [Drake](track_artist)?
-- can you please play songs from [TBA](track_album)?
-- Play some tone from movie [Norman Fucking Rockwell](track_album)
-- Play tracks from the movie [Back in Black](track_album), will you?
-- Play something from [Anima](track_album) by [composer](person:artist) [Dr. Dre](track_artist), will you?
-- make some noise
-- Please play music [Crack A Bottle](track_name) by [Teddy Geiger](track_artist) from [Remind Me Tomorrow](track_album).
-- I would like to hear any [dubstep](track_genre) song
-- Play some [Dubstep](track_genre) music
-- Please play the [dubstep](track_genre) track
-- I would like to groove to some [edm](track_genre) msuci
-- Play songs from album [The Immaculate Collection](track_album) by [Diplo](track_artist), will you?
-- I would love to dance to [Imagine Dragons](track_artist)
-- Play [dubstep](track_genre). please.
-- Play a track from the album [Supernatural](track_album), will you?
-- I will like to have the [hip-hop](track_genre) tracks
-- Would you please play songs from movie [Rumours](track_album) by [Kanye West](track_artist)?
-- Set the mood
-- Will you please play something by composer [Akon](track_artist)?
-- Please play music [Smack That](track_name) by [Teddy Geiger](track_artist) from [Remind Me Tomorrow](track_album).
-- Play any track from the movie [Good Ass Job](track_album), will you?
-- I would like you to please play some [pop](track_genre) tracks
-- I would like to hear to [Adele](track_artist)
-- Play [Nervous](track_name) by artist [Dr. Dre;Eminem](track_artist)
-- Please play music [The One](track_name) by [Sia](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play something from [Thriller](track_album) album.
-- Play some tone from the album [Bad](track_album), will you?
-- I would like to listen any track from the movie [IGOR](track_album)
-- I would like to dance to the [blues](track_genre)
-- I want to hear some music very badly
-- will you please play any song from [The Marshall Mathers LP 2 Disc 2](track_album) album by [Dr. Dre;Eminem](track_artist)
-- could you please play [Okami](track_name) track?
-- i want to listen to some [dubstep](track_genre) music.
-- Would you please play any msuci from the movie [The Wizrd](track_album)?
-- We all want to listen to some [Classic](track_genre) music. could you please play that for us?
-- music please
-- Could you please play any [pop](track_genre) track for us?
-- can you play something that would make me happy?
-- can you please play any track from movie [Supernatural](track_album)?
-- Would you please play any track from [Make It Big](track_album) album by [singer](person:artist) [Three Days Grace](track_artist).
-- Play some [punk](track_genre) tracks
-- Would you please play something from movie [Requiem for a Dream](track_album) by [Warner & Chappell](track_artist)?
-- I would like to listen to some [pop](track_genre) tracks
-- can you please play any track from movie [Dedicated](track_album)?
-- Could you please play [Carnival](track_name) for me?
-- I would like you to please play some [punk](track_genre) songs
-- Could you please play any [grunge](track_genre) beat for us?
-- babe could you play [moon](track_name) ringtone
-- I would like to dance to tone from [When I Get Home](track_album) by artist [Drake](track_artist)
-- cheer me up by playing something from [Metallica](track_album) album, will you?
-- what do u think of [dubstep](track_genre) Play it.
-- Play a track from album [The Immaculate Collection](track_album), will you?
-- play music [Shady](track_name) by [Soulja Boys](track_artist) from [Revival](track_album).
-- Play some tone from the album [What Chaos Is Imaginary](track_album), will you?
-- I want to dance to track from movie [Oasis](track_album)
-- play music [Crack A Bottle](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play something from the movie [The Wizrd](track_album)?
-- Play some musik
-- Play [edm](track_genre), would u?
-- can you please play covers from movie [The Saint of Lost Causes](track_album)?
-- cheer me up by playing something from [Thank U, Next](track_album) album, will you?
-- Play any [msuci](music:track) from movie [U.F.O.F](track_album) by [Celine Dion](track_artist), will you?
-- I wanna dance to any track from [Heard It In A Past Life](track_album) album
-- I wanna listen to [Ray J](track_artist) very badly.
-- can you please play a track from the movie [Slaves of Fear](track_album)?
-- Play track [Light of the Seven](track_name) by [Ed Sheeran](track_artist)
-- will you please play a track from [The Craving for Absolute Serenity](track_album) album
-- can you play a track from album [Vertigo](track_album) by [Dr. Dre](track_artist)?
-- I wanna dance to a track from the album [Legend](track_album)
-- play tunes by [Ramin Djawadi](track_artist)
-- Could you please play some [grunge](track_genre) track  for us?
-- cheer me up by playing something from album [The Night King](track_album), will you?
-- I wanna listen any [msuci](music:track) from the album [Remind Me Tomorrow](track_album)
-- Will you please play something by [Ludacris](track_artist)?
-- [Charlotte](hotword), play [yin-yang](track_name)
-- play [craving](track_name)
-- Well, can you play [Lucky You](track_name) by artist [Dr. Dre](track_artist) please?
-- Play [dubstep](track_genre) songs.
-- Play any [msuci](music:track) from the movie [In League With Dragons](track_album)
-- I wanna listen songs from movie [The Marshall Mathers LP 2 Disc 2](track_album)
-- play something by [Drake](track_artist).
-- will you please play any song from [The Wizrd](track_album) album by artist [XAMES3](track_artist)
-- Play any track from movie [Heard It in a Past Life](track_album), will you?
-- can you play songs from [Notes on a Conditional Form](track_album)?
-- Please play the [grunge](track_genre)
-- will you please play a track from [Led Zeppelin IV](track_album) album.
-- drop the beat
-- do we have something by [Shawn Mendes](track_artist).
-- please play some [pop](track_genre) tracks for me
-- Play some [pop](track_genre)
-- Would you please play any [pop](track_genre) beat?
-- Play any track by [composer](person:artist) [Mellen Gi](track_artist) from [Legend](track_album), will you?
-- cheer me up by playing any song from [SASAMI](track_album), will you?
-- Play songs from [Recovery](track_album) by singer [Drake](track_artist), will you?
-- I would like to listen tracks from [Beware of the Dogs](track_album)
-- Play some music from [Dr. Dre](track_artist)'s album.
-- Play [Sing For The Moment](track_name) from system.
-- could you please play [Hip-hop](track_genre) music
-- play music by [Adonis](track_artist).
-- will you please play tracks from [Young Enough](track_album) album
-- can you please play any track from movie [Kamikaze](track_album)?
-- could you please something by [rihanna](track_artist)?
-- Just wanna to listen [Lose Yourself](track_name) by [Kendrick Lamar](track_artist) from [Recovery](track_album).
-- Could you please play any [rap](track_genre) track for us?
-- can you play something from the album [Dedicated](track_album)?
-- Could you please play the [edm](track_genre) track ?
-- Would you please play some [song](music:track) from [Heard It in a Past Life](track_album) by [Dr. Dre](track_artist)?
-- Play the [pop](track_genre) cover.
-- Would you please play tracks from [Bad](track_album) by [singer](person:artist) [Dr. Dre;Eminem](track_artist)?
-- We wanna listen some [Electronic](track_genre) music.
-- play [In My Blood](track_name) by [Martin Garrix](track_artist)
-- play the tune from your system
-- can you play a track from [Back in Black](track_album) album by composer [PSY](track_artist).
-- will you please play any track from the movie [Father of the Bride](track_album)?
-- I would like to groove to cover from [Let’s Talk About Love](track_album) by [Eagles](track_artist)
-- will you please play any msuci from the album [Metallica](track_album)?
-- I would like you to please play some [Rap](track_genre) [music](music:track)
-- can you play any track by composer [Mellen Gi](track_artist) from movie [Abbey Road](track_album)?
-- Could you please play some [funk](track_genre) [cover](music:track)?
-- play songs by [Future](track_artist).
-- Would you please play any song from album [Thriller](track_album)?
-- can you please play some music from [Metallica](track_album)?
-- Can you please play any [pop](track_genre) track for me?
-- I just want to listen to the music [Crack A Bottle](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album).
-- Would you please play tracks from [Heard It In A Past Life](track_album)?
-- will you please play any msuci from album [Legend](track_album) by composer [XAMES3](track_artist)?
-- Play songs by composer [Usher](track_artist)
-- Could you please play the [soundtrack](track_genre) [songs](music:track)?
-- will you please play song from [Supernatural](track_album) by [The Chainsmokers](track_artist)?
-- sure. play something.
-- I just want to listen to the music [Lose Yourself](track_name) by [Kendrick Lamar](track_artist) from [Remind Me Tomorrow](track_album).
-- Would you please play any [grunge](track_genre) cover?
-- can you play songs from [When I Get Home](track_album)?
-- Need to listen music from [Aegan](track_artist).
-- can you play any track from the movie [Marshal Mather LP II](track_album) by [singer](person:artist) [Drake](track_artist)?
-- I will like to have the [Hip-hop](track_genre) tracks
-- i would like to dance to some music
-- Play some [punk](track_genre) track
-- Would you please play tracks from [Remind Me Tomorrow](track_album) by [singer](person:artist) [George Michael](track_artist)?
-- I wanna dance to something from [What Chaos Is Imaginary](track_album) album
-- sing me a song
-- I wanna listen a track from the movie [Heard It in a Past Life](track_album)
-- cheer me up by playing covers from the movie [Thriller](track_album), will you?
-- Could you kindly play a [grunge](track_genre) beat for us
-- please play the [blues](track_genre) track  for me
-- show me how you sing a song.
-- actually yes, play some music by [Chainsmokers](track_artist)
-- can you play any track from movie [Kamikaze](track_album) by singer [Drake](track_artist)?
-- will you please play any [song](music:track) from the album [Revival](track_album) by [singer](person:artist) [Dr. Dre](track_artist)?
-- Play any [cover](music:track) from [Western Stars](track_album) album by [composer](person:artist) [Kanye West](track_artist), will you?
-- Play some [edm](track_genre) tone
-- Would you please play some msuci from [Let’s Talk About Love](track_album) by [composer](person:artist) [Mad Money](track_artist)?
-- please play some [hip-hop](track_genre) tone
-- play music [Smack That](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album).
-- can you play something from the movie [Recovery](track_album)?
-- Play a track from movie [Angel's Pulse](track_album) by [Dr. Dre;Eminem](track_artist), will you?
-- I will like to have some [Electronic](track_genre) track
-- I wanna dance to a track from album [Kamikaze](track_album).
-- Could you please play some [punk](track_genre) track  for us?
-- can you play a track by [Linkin Park](track_artist) from [Recovery](track_album) album.
-- I would like to listen some msuci from the movie [Nevermind](track_album)
-- will you please play any track from album [Rumours](track_album) by [Dr. Dre;Eminem](track_artist)?
-- Would you please play songs from [Back in Black](track_album)?
-- will you please play something by [Shakira](track_artist)
-- I wanna listen some cover from the movie [Nevermind](track_album)
-- Play some [music](music:track) by [Mellen Gi](track_artist) from album [Everything Not Saved Will Be Lost—Part 1](track_album), will you?
-- will you please play songs from album [Rumours](track_album) by singer [Dr. Dre;Eminem](track_artist)?
-- cheer me up by playing any [cover](music:track) from the movie [YOU CAN'T SIT WITH US](track_album), will you?
-- I would like to listen to any [edm](track_genre) beat
-- could youu play some [dubstep](track_genre).
-- I would like to dance to the [Electronic](track_genre) [music](music:track)
-- Play any track from the album [Titanic Rising](track_album), will you?
-- I would like to dance to some [pop](track_genre) tracks
-- I want to listen to tone by [composer](person:artist) [Post Malone](track_artist) from [Oliver Appropriate](track_album).
-- can you please play tracks from [The Immaculate Collection](track_album)?
-- I would like to groove to some [rap](track_genre)
-- Play something from movie [Led Zeppelin IV](track_album)
-- I will like to have some [grunge](track_genre) tracks
-- Play any track from [On The Line](track_album) album.
-- I would enjoy to hear to [Eagles](track_artist)
-- please play [rap](track_genre) song
-- I would like to dance to the [metal](track_genre) tracks
-- please play any [blues](track_genre) track for us
-- Please play some [punk](track_genre) track
-- play [rap](track_genre) for me dear
-- [could](grammar) u play [rap](track_genre) for us?
-- Would you please play tone from [Young Enough](track_album)?
-- I would like to hear any [punk](track_genre) track
-- I would like to listen to any [edm](track_genre) track
-- I wanna hear to artist called as [Ray Vega](track_artist).
-- Could you kindly play [Till I Collapse](track_name) by [Nate Dogg](track_artist)
-- Would you please play any track from movie [Requiem for a Dream](track_album) by artist [Eagles](track_artist)?
-- I'm not feeling good [now](time). Could u please play something by [Eminem](track_artist) to set my mood.
-- I request you to play some [Pop](track_genre) music.
-- Play [edm](track_genre) music.
-- Would you please play some [song](music:track) from [What Chaos Is Imaginary](track_album)?
-- Play songs from [Hijas del Tomate](track_album)
-- I just want to listen to music [Lose Yourself](track_name) by [Olivier Manchon](track_artist) from [Remind Me Tomorrow](track_album).
-- I wanna listen any msuci from [Led Zeppelin IV](track_album) album
-- can you play something from the album [Thriller](track_album)?
-- will you please play something from [Titanic Rising](track_album) album by artist [Selena Gomez](track_artist).
-- I would like to listen any track from [Chapter VI](track_album) album.
-- Would you please play tracks from [Titanic Rising](track_album)?
-- I want to listen something by [Adele](track_artist)
-- Would you please play any track from album [Hotel California](track_album)?
-- I wanna dance to something from the album [Phoenix](track_album)
-- I wanna listen any track from [Rumours](track_album)
-- play some music by [Akon](track_artist), will ya?
-- I wanna listen something from album [Legend](track_album)
-- I would like to listen any track from album [Thriller](track_album)
-- will you please play any track from the movie [Let’s Talk About Love](track_album) by composer [Miley Cyrus](track_artist)?
-- I would like to listen any music from album [The Unseen In-Between](track_album)
-- Play any track from the album [Heard It In A Past Life](track_album) by [singer](person:artist) [Drake](track_artist), will you?
-- Play a track from movie [This Is How You Smile](track_album) by [Drake](track_artist), will you?
-- will you please play tracks from album [Everything Not Saved Will Be Lost—Part 1](track_album) by [singer](person:artist) [Nicki Minaj](track_artist)?
-- play something by [Huma](track_artist).
-- can you play any track from [Kamikaze](track_album) album by artist [Akon](track_artist)
-- Please play music [Bad Reputation](track_name) by [Teddy Geiger](track_artist) from [Remind Me Tomorrow](track_album).
-- I want to listen something by artist [Eagles](track_artist)
-- can you please play some [msuci](music:track) from the album [Abbey Road](track_album)?
-- I would like to listen some tone from the movie [What Chaos Is Imaginary](track_album)
-- Play something from [Rumours](track_album)
-- I would like to hear some [punk](track_genre) songs
-- will you please play tracks from [Legend](track_album) by [Lil Wayne](track_artist)?
-- can you play something by [Florida](track_artist) from the movie [Harverd Dropout](track_album)?
-- Play something from movie [Angel's Pulse](track_album) by singer [Dr. Dre;Eminem](track_artist), will you?
-- I wanna groove to track from the album [Legend](track_album)
-- Could you kindly play music [Love Game](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album)?
-- cheer me up by playing any [msuci](music:track) from [Bandana](track_album) album, will you?
-- please me
-- can you play tracks from [AMDN](track_album) album by [singer](person:artist) [Camila Cabello](track_artist)
-- Play songs from [The Immaculate Collection](track_album)
-- play music [The One](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album).
-- I would love to hear to [Usher](track_artist)
-- Could you please play an [orchestra](track_genre) beat?
-- can you play something from [Vertigo](track_album)?
-- will you please play any music from album [Thank U, Next](track_album)?
-- I would like to hear the [blues](track_genre) song
-- Please play music [Crack A Bottle](track_name) by [Nate Dogg](track_artist) from [Remind Me Tomorrow](track_album).
-- I wanna listen some msuci from album [Angel's Pulse](track_album)
-- yes i would like some music to be playing [now](time).
-- please play the [edm](track_genre) track  for me
-- Could you kindly play music [Berzerk](track_name) by [Rihanna](track_artist) from [Remind Me Tomorrow](track_album)?
-- can you please play a track from movie [Thank U, Next](track_album)?
-- could you please play okami village?
-- I would like to dance to the [blues](track_genre) cover
-- [cud](grammar:could) u play [edm](track_genre)?
-- Would you please play a track from the album [What Chaos Is Imaginary](track_album)?
-- Play any tone from [Father of the Bride](track_album)
-- Play [Desperation](track_name) from [Euphoria](track_album).
-- I wanna dance to songs from [Angel's Pulse](track_album)
-- can you play a track from [Oh My God](track_album) album by [composer](person:artist) [50 cents](track_artist)
-- will you please play a track from [Bad](track_album)?
-
 ## intent:querying_weather_event
-- what is the current [humidity](weather_condition) like in [Mumbai](query_city).
-- what must be like the [temperature](weather_condition) in [fahrenheit](units_imperial) here in next [15](query_minutes) mins?
-- hey could you pleaz tell me whats the weather going to be in next [10](query_minutes) [mins](time:minutes)?
-- yo! tell me weather for [abhor](query_city)
-- Will it be sunny in [apace](query_city)?
-- how [hot](weather_condition) is it in [Texas](query_state)?
-- how [chilling](weather_condition) it would be in [Rhode Island](query_state)?
-- what could be the weather in [45](query_minutes) [mins](time:minutes)
-- What's the [current](time:now) [temperature](weather_condition) in [Manchester](query_city)?
-- could you please tell me how's the weather looking [now](time)?
-- Weather forecast reports for [later](time) tonight.
-- please tell [current](time:now) weather
-- [Fuck](abuse)! Is the weather going to [pour](weather_condition:rain) the entire [day](date)?
-- Heyo! tell me weather in [Sacramento](query_city)
-- how fast is the wind blowing here currently?
-- latest [humidity](weather_condition) report please in [imperial](units_imperial) metric system.
-- tell me the [current](time:now) weather
-- just tell the [damn](abuse) weather
-- will you please tell me the weather for [today](date)
-- please tell me the current weater
-- what do you think the weather of [Mumbai](query_city) is like?
-- Can you tell me weather, please?
-- whats the weather predicted to be in [Ape](query_city) for next [10](query_hours) hours in [imperial](units_imperial) form?
-- weather in [New York](query_city)
-- how will be the [weather](weather) [today](date)?
-- How is the weather in [Westminster](query_city)?
-- How hot is it here? In [fahrenheit](units_imperial)?
-- i need to know the weather details
-- what is the [current](time:now) wetaher?
-- I need to know the weather
-- could you please tell me the weather in [london](query_city) for next [56](query_minutes) [mins](time:minutes)?
-- what is the weather information [today](date)
-- could you please get the forecast reports for me?
-- i wish to know the weather in [tokyo](query_city) in next [57](query_minutes) [mins](time:minutes)
-- how is the weather looking outside now? In [imperial](units_imperial) of course.
-- please tell me the forecast for next [22](query_hours) hours
-- what is the current speed of the wind?
-- tell me [current](time:now) weather in [malibu](query_city)
-- Is it raining?
-- What is the weather at your place?
-- May I understand the weather conditions in [Alabama](query_state)?
-- Show me the weather details.
-- Is the weather nice in [Barcelona](query_city) [today](date)?
-- how is the current weather in [fahrenheit](units_imperial)?
-- hey tell me weather in [America](query_country)
-- I wonder how must the weather be in [Mexico](query_country).
-- [Tomorrow](date)'s weather reports.
-- actually I wanted to know weather forecast in [mumbai](query_city) in next [25](query_minutes) mins. could you do that for me?
-- whats weather looking like for rest of the [day](date)?
-- yes tell me the weather forecast for [aberdeen](query_city)
-- Can I get the weather details, please?
-- weather for next [5](query_hours) hrs in [imperial](units_imperial).
-- what is the weather looking like [today](date) in next [5](query_hours) [hrs](time:hours)?
-- can you please get me weather reports for [munich](query_city), will ya?
-- in [imperial](units_imperial), please.
-- hey could you please tell me [current](time:now) weather, could you?
-- just tell me weather forecast for [26](query_minutes) [mins](time:minutes).
-- how would be the weather in next [12](query_hours) hours?
-- I want to know the weather details.
-- what is the [climate](weather) in [Mumbai](query_city)?
-- what must be the [climate](weather) in [Sudan](query_country) right now?
-- i want to know what the weather is going to be any minute.
-- Is it going to snow in [India](query_country) for next [4](query_hours) hours?
-- What's the weather forecast for [abha](query_city) in next [26](query_minutes) [mins](time:minutes)?
-- what is the weather gonna look like in [15](query_minutes) [min](time:minutes).
-- How is the weather in [Oklahoma City](query_city)?
-- [charlotte](hotword) i wonder what could be the weather in [houston](query_city) in next [6](query_hours) hours?
-- How much precipitation is gonna happen in next [5](query_minutes) mins? Any idea bout that?
-- what's the [latest](time:now) weather report?
-- What do you think is the current [temperature](weather_condition) out there in [fahrenheit](units_imperial)?
-- I want to the curret weather related details for my current location in [imperial](units_imperial) metric system.
-- I'm guessing what [cud](grammar:could) be the weather be like in [New York](query_city)?
-- hey get me weather update for [San Francisco](query_city)
-- hows the weather going to be in next couple of hours here in [LA](city: los_angeles)?
-- tell me the forecast for [mumbai](query_city) as well.
-- Is the weather going to be the same in [Los Angeles](city: los_angeles)?
-- What do you think about the current weather in [paris](query_city)?
-- tell me the [current](time:now) weather in [alesund](query_city)
-- can you please report the current [weather](weather) report?
-- what is the current weather in [fahrenheit](units_imperial) in [london](query_city)?
-- I need to know the [current](time:now) weather.
-- What's the current [temperature](weather_condition) in [chicago](query_city)?
-- i want to know the weather situations in next [54](query_minutes) minutes.
-- whats the weather like in [china](query_country)?
-- Hello tell me weather for [Abakan](query_city)
-- weather condition in [Cairo](query_city).
-- how cold does it gets here in summer?
-- what are your [weather](weather) [predictions](forecast:forecast)?
+- Weather in [Mumbai](query_place)?
+- what is the current weather in [fahrenheit](query_imperial)?
+- i wish i could knew the weather in [ape](query_place) for next [18](query_hours) [hrs](time:hours).
+- what is the weather like in [san jose](query_place) for next [15](query_days) days in [mph](query_imperial).
+- what do you predict of the weather in [luxemborg](query_place) for nearly [3](query_hours) hours?
+- Is it going to snow in [Russia](query_place)?
 - what [would](grammar) be the weather there?
-- yes, tell mwe the weather in [london](query_city)
-- [Predicted](forecast:forecast) weather for [tomorrow](date)?
-- hi tell me weather in [San Francisco](query_city)
-- [charlotte](hotword), tell me the weather in [abau](query_city)
-- weather forecast for [23](query_minutes) minutes.
-- check weather
-- yes can you please tell me the forecast for [Mumbai](query_city) for next [18](query_hours) hours?
-- what must be the weather forecast for next [4](query_hours) hours?
-- [Charlotte](hotword), can you please tell me the weather for next [21](query_hours) hours?
-- please tell me weather in [San Jose](query_city)
-- whats the weather like in [pune](query_city). In [imperial](units_imperial) by the way.
-- could you possibly tell me the current weather.
-- may I know the current weather condition please?
-- what's the weather there?
-- Do you have good weather?
-- please tell me the weather in [newcastle](query_city) as well.
-- what is [tomorrow](date)'s weather
-- Hey! I'm in [North Carolina](query_state). Can you [puh-lease](action:please) tell me the weather here?
-- tell me weather in [Brazil](query_country)
-- tell me the forecast in [rajkot](query_city) for like next [10](query_minutes) minutes.
-- Weather forecast for [london](query_city) in next [15](query_minutes) [mins](time:minutes) in [imperial](units_imperial) metrics.
-- Upcoming weather details for [Chitre](query_city).
-- whats the weather gonna be in like next [6](query_hours) hours?
-- Hi. Waht are the weather updates for [Sacramento](query_city)?
-- Can you [plzzz](action:please) tell me what's the weather [today](date) in [Mumbai](query_city)?
-- How [hot](weather_condition) is it in [Rajasthan](query_state)?
-- current weather in [imperial](units_imperial) metric system.
-- hello, I want to weather for [brisbane](query_city).
-- [temperature](weather_condition) prediction for nwxt [10](query_minutes)[mins](time:minutes).
-- Is it quite breezy?
-- what is the weather forecast in [alice](query_city)?
-- Is it going to snow in [Russia](query_country)?
-- could i get to know whats the [temperature](weather_condition) gonna be here in like next [56](query_minutes) in [fahrenheit](units_imperial)?
-- what is the weather like in [shanghai](query_city)?
-- tell me the outside weather
-- in which direction the wind is currently blowing?
-- what is the weather outside?
-- yes, i would like to know the weather in [mumbai](query_city)
-- tell me whats the going to be like in [23](query_hours) hours in [montreal](query_city)
-- what is the weather [now](time)?
-- tell me [mumbai](query_city)'s weather.
-- [charlotte](hotword), tell me the weather.
-- What's it like out there?
-- yes, please tell me what's the weather in [london](query_city)
 - Weather check
-- Can you please tell me the [current](time:now) weather?
-- Hello. tell me weather in [Mumbai](query_city)?
-- how [cold](weather_condition) it would be in [Dublin](query_city), now?
-- how [cloudy](weather_condition) is it? Whats the weather looking currently?
-- [charlotte](hotword) dear, i need a full [23](query_hours) hrs temperature report on my phone in [fahrenheits](units_imperial). Can you do this for me please?
-- Wat is the [humidity](weather_condition) here in [mph](units_imperial)?
-- i would like to know how's the going to be in [paris](query_city) in next [3](query_hours) hrs
-- I wanna know what the [weather](weather) will look like in [10](query_minutes) minutes.
-- Will it be sunny in [Mumbai](query_city)?
-- can you tell me the speed at which the wind is blowing in [mumbai](query_city) right now?
-- can you please tell me how's the weather going to be in next [8](query_hours) hours.
-- [Charlotte](hotword), dear could you please tell me the [temperature](weather_condition) in [fahrenheit](units_imperial).
-- what would you say about the current [weather](weather) condition?
-- what do you think the weather is going to be [tomorrow](date).
-- the [latest](time:now) weather conditions.
-- will the [skies be clear](weather_condition) for next [8](query_hours) hrs?
-- what [cud](grammar:could) be the weather out there?
-- [latest](time:now) weather please.
-- tell me weather now in [fahrenheit](units_imperial).
-- [plz](action:please) tell the [current](time:now) weather.
-- What's the weather in [London](query_city) [today](date)?
-- How is [Europe](query_country) doing in terms of weather conditions?
-- what is the weather like in [san jose](query_city) for next [15](query_minutes) mins in [mph](units_imperial).
-- I wonder what is the weather out there?
-- tell me [malibu](query_city)'s weather [today](date)
-- [Latest](time:now) weather report, please
-- What's the current [temperature](weather_condition) in [Delhi](query_city)?
-- with what speeds the winds woulf be blowing here in next [5](query_minutes) mins? aalso i wanna know it in [Imperial](units_imperial) metric system.
-- how [cold](weather_condition) it would be in [london](query_city) [right now](time)?
-- any weather forecast reports for [brisbane](query_city) for next [2](query_hours) [hrs](time:hours)?
-- tell me the weather for forecast for [Amsterdam](query_city)
-- I want to understand the weather out [today](date)
-- what is the weather forecasting for [apodi](query_city) for [27](query_minutes) mins?
-- how [cold](weather_condition) is there?
-- hello dear, tell me the current [temperature](weather_condition) here in [las vegas](query_city).
-- what is the [current](time:now) weather?
-- I would like to know the current [wind speed](weather_condition)?
-- what must be it like the weather in [russia](query_country)?
-- what do you think the [wetaher](weather:weather) is going to be like in [San Francisco](query_city) for next [19](query_minutes) minutes?
-- tell me the [current](time:now) [temperature](weather_condition) in [Mumbai](query_city) in [fahrenheit](units_imperial).
-- [Forecast](forecast:forecast) report for [America](query_country)
-- How is the weather [today](date)?
-- What is the weather going to be like in future?
-- what is the weather forecast?
-- what [wud](grammar:would) be the weather like in [New Jersey](query_state)?
-- hey can you tell me weather in [luxemborg](query_country)?
-- what is the [forecasted](forecast:forecast) weather in [berlin](query_city)?
+- hey I need weather details for [Mumbai](query_place).
+- What's it like out there?
+- [charlotte](hotword) dear, i need a full [23](query_hours) hrs temperature report on my phone in [fahrenheits](query_imperial). Can you do this for me please?
+- hey tell me weather in [America](query_place)
+- Show me the weather details.
+- how [cold](weather_condition) it would be in [london](query_place) [right now](time)?
+- what is the weather information [today](query_days:0)
+- How [hot](weather_condition) is it in [Rajasthan](query_place)?
 - what do you think the weather be like in next [hr](time:hours)?
-- what do you think the [wetaher](weather:weather) is going to be like in [San Francisco](query_city)?
-- tell me weather conditions for [Mumbai](query_city)
-- could you please tell me the weather in [alice](query_city)?
-- dear could u please get me  the weather reports?
-- current [temperature](weather_condition) in [fahrenheit](units_imperial)
-- what is the current weather in [fahrenheit](units_imperial)?
-- Hey I need weather conditions for [Abuja](query_city).
-- how is the [climate](weather) in [Sudan](query_country)?
-- hey I need weather details for [Mumbai](query_city).
-- How is the weather be like in [Lyon](query_city)?
-- hows the weather going to be in next couple of hours here in [Los Angeles](city: los_angeles)?
-- just tell me the forecast for [aberdeen](query_city).
-- hey tell me weather for [Washington](query_state)
-- if [imperial](units_imperial) metric system is to be considered, then how cold it is currently in [ape](query_city)?
-- how much will it [rain](weather_condition) in [5](query_hours) hours?
-- do you know the weather conditions in [Algeria](query_country)?
-- [temperature](weather_condition) forecast in [fahrenheit](units_imperial)
-- what do you think the weather is gonna be like in [luxemborg](query_country)?
-- just tell me the forecast
-- tell me the weather.
-- current weather in [mph](units_imperial)
-- oh my god, what [woould](grammar:would) next [52](query_minutes) minutes.
-- [Please](action:please) tell the [currnt](time:now) weather.
-- What are the weather conditions in [Toronto](query_city)?
-- what could be the [climate](weather) of [algeria](query_country) be like?
+- what could the weather be like in [paris](query_place) [now](time)?
+- How is [Europe](query_place) doing in terms of weather conditions?
+- Show me the weather in [Dublin](query_place), please. Also I need it in [mph](query_imperial)
 - What's the weather forecast for next [3](query_hours) hrs?
-- what is the weather like?
-- [current](time:now) weather condition
-- hey girl, can you get me weather details for [Alaska](query_state)?
-- what do yu think the [wetaher](weather:weather) is going to be like?
-- I wonder what [wud](grammar:would) be the weather in [Paris](query_city).
-- what's the [current](time:now) climate in [imperial](units_imperial) metric system?
-- What are the [curent](time:now) weather conditions.
-- what's the weather like?
-- [charlotte](hotword), can you please tell me the weather in [chicago](query_city)
-- tell me weather in [Mumbai](query_city).
-- [Current](time:now) weather
-- Currently Im in [Mumbai](query_city). what is the weather here?
-- I wanna understand if it is gonna [rain](weather_condition) here in next [12](query_hours) hrs here in [mumbai](query_city). Also i want to know it in [mph](units_imperial).
-- what is current weather like in [imperial](units_imperial) metric system?
-- current [temperature](weather_condition) in [jaipur](query_city) in [fahrenheit](units_imperial)
-- do you happen to know the [future](forecast:forecast) weather in [Mumbai](query_city) city and in [imperial](units_imperial) units?
-- hi. how does the weather look like in [LA](city: los_angeles)?
-- is there any forecast report for me with next [17](query_minutes) mins?
-- [Mumbai](query_city)'s weather?
-- show me weather
-- wats the weather be like in [Seoul](query_city)?
-- yes, tell me weather for [London](query_city)
-- How [humid](weather_condition) is it in [Madagascar](query_country)?
-- I want to understand the current weather conditions.
-- How is the weather?
-- I want in [imperial](units_imperial) system.
-- future weather.
-- what could the weather be like in [paris](query_city) [now](time)?
-- tell me weather condition in [russia](query_country).
-- What's the weather like?
-- do you have any idea what could be the weather in next [5](query_minutes) [mins](time:minutes)?
-- Hey babe... whats the current weather like? In [fahrenheit](units_imperial), I want.
-- Current weather in [imperial](units_imperial).
-- what do you think the [temperature](weather_condition) is going to be like in next [20](query_hours) hrs?
-- please tell me the weather forecast in [sayre](query_city) for like next [5](query_hours) hours
-- tell me the weather at [vienna](query_city) [right now](time).
-- current wind speed in [Mumbai](query_city).
-- i wanna know the [predicted](forecast:forecast) [climate](weather:weather) for [Mumbai](query_city).
-- what's the weather out there [now](time)?
-- yes, tell me weather in [birmingham](query_city)
-- [charlotte](hotword) whats the weather like in [mumbai](query_city) for next [8](query_hours) hours?
-- What's the current [temperature](weather_condition) in [NYC](query_city)?
-- [mexico](query_country)'s weather
-- current minimum [temperature](weather_condition) in [fahrenheit](units_imperial)?
-- I need weather predictions for [Mumbai](query_city)
-- Show me the weather in [Dublin](query_city), please. Also I need it in [mph](units_imperial)
-- I would like to know the [curretn](time:now) [temperature](weather_condition) in [fahrenheit](units_imperial).
-- Upcoming weather details.
-- what is the [imperial](units_imperial) weather now out there in [moscow](query_city)?
-- what do you think the wind is blowing here at maximum speeds? In [mph](units_imperial).
-- [pleas](action:please) tell me [today](date)'s weather.
-- What do you think of [today](date)'s weather currently?
-- how is the weather looking like for rest of the day in [imperial](units_imperial)?
-- I wonder how is the weather out there obviously in [imperial](units_imperial)?
-- whats wrong with the weather? Is it going to [rain](weather_condition) tonight?
-- what is the weather?
-- tell me the [climatic](weather:weather) conditions of [norway](query_country) now.
-- hey can you please tell me the weather in [rajkot](query_city)?
-- future weather predict in [imperial](units_imperial).
-- what do you predict the [humidity](weather_condition) be like in next [5](query_minutes)
+- I need to know the [current](time:now) weather.
 - I want the weather details.
-- tell me th weather in [houston](query_city)
-- cud u please tell me the weather forecast here in [san Francisco](query_city)
+- just tell me the forecast
+- What are the [curent](time:now) weather conditions.
 - I would like to knew the weather in next [10](query_hours) hours.
-- How [warm](weather_condition) would it be in [malibu](query_city)?
-- tell me weather, please
-- what is the weather in [lyon](query_city)?
-- Jeez, I wonder what would be the wetaher in tonight.
-- could you please tell me the current wind speed in [mph](units_imperial)?
-- tell me weather in [Oklahoma City](query_city).
-- tell me weather for next [10](query_minutes) minutes.
-- Currently how is the [temperature](weather_condition) looking like in [fahrenheit](units_imperial)?
-- also, tell me hows the weather looking like in [moscow](query_city) [right now](time:now)?
-- hey dear, what are the weather predictions looking like [today](date) in [fahrenheit](units_imperial).
-- nah, find weather in [seoul](query_city)
-- please show me the [current](time:now) weather condition.
-- how is the [temper](weather_condition) looking like currently?
-- can i get to know how hot can it get here in degree [fahrenheit](units_imperial), please?
-- weather [predictions](forecast:forecast) for [57](query_minutes) [mins](time:minutes).
-- weather [forecast](forecast)
-- what is the weather forecasted in the news?
-- WEather forecast reports with [imperial](units_imperial) units, please.
-- tell me the weather
-- I need the [weather](weather) details.
-- weather forecast.
-- current weather details please.
-- I want the weather details, please.
-- i [wnna](grammar:want) know the weather in next [10](query_minutes) [mins](time:minutes)
-- weather forecasted for next [32](query_minutes) mins.
-- what is the [climate](weather) in [Washington](query_state) now?
-- what is the [current](time:now) weather in [allen](query_city)?
-- Helllooo I'm in [Mumbai](query_city) I need weather details
-- tell me weather in [Bristol](query_city)
-- I wanna know [cureent](time:now) weather details.
-- Charlotte, what is the weather [forecast](forecast) for [today](date)?
-- Weather forecast for [today](date)?
-- Current [humidity](weather_condition) in [london](query_city) in [imperial](units_imperial) metric system.
-- Show me what's the weather in [Munich](query_state)
-- I wonder what is the weather in [Vilnius](query_city) [right now](time)?
-- forecast [temperature](weather_condition).
-- wonder what would the weather look like here in [mumbai](query_city) for rest of the day in [imperial](units_imperial) metric system?
-- I would like to know what's the weather going to be like in next [5](query_hours) hours.
-- what is top [wind speed](weather_condition) in [mph](units_imperial) in [paris](query_city)?
-- i wonder whats the be like for [15](query_minutes) mins here?
-- I wanna know how's the wind speed looking like here currently in [mumbai](query_city) and I wanna know it in [imperial](units_imperial) system.
-- what is the [forecasted](forecast:forecast) weather?
-- Weather in [Mumbai](query_city)?
-- any weather forecast reports for [brisbane](query_city)?
-- could you please tell me how will it be outside of [brooklyn](query_city)?
-- what the current [windspeed](weather) here in [mph](units_imperial)?
-- May I know the weather, please?
-- I would be much happy if I could get the prediction for the weather upto [23](query_minutes) minutes.
-- what is the [Forecasted](forecast:forecast) weather?
-- tell me weather
-- Can you please tell me the weather in [Thane](query_city)
-- what's its gonna be like in [Mumbai](query_city) [later](time)
-- tell me weather in [aberdeen](query_city)
-- will it be rainy in [America](query_country)?
-- whats weather gonna look like in [35](query_minutes) [min](time:minutes) if you were asked in [fahrenheit](units_imperial).
-- what would be the weather in next [19](query_hours) hours in [mumbai](query_city)?
-- what weather [should](grammar) I expect in [california](query_state)?
-- Do a weather check.
-- What's the current [temperature](weather_condition) in [pune](query_city)?
-- I wanna know the [current](time:now) weather conditions
-- What's the [curretn](time:now) [temperature](weather_condition) in [London](query_city)?
-- hello update me with weather details for [westeros](query_state)
-- I need some help with weather details
-- what is the weather in [Berlin](query_city) as we speak?
-- i wish i could knew the weather in [ape](query_city) for next [18](query_hours) [hrs](time:hours).
-- could you pleae show me the now weather in [imperial](units_imperial) system?
-- how is the [climate](weather) in [Thane](query_city)?
-- what should I assume the [current](time:now) weather conditions are?
-- what is the [current](time:now) weather.
-- Hello [Mumbai](query_city), weather details.
-- I would like to know the [current](time:now) weather.
-- Current speed of the wind and the [humidity](weather_condition) in [imperial](units_imperial) please.
-- wats its gonna be like in [antrim](query_city) [later](time)
-- I want weather updates for [Mumbai](query_city) and Hi by the way.
-- what is the [humidity](weather_condition) like here now?
-- what isthe weather looking like currently? in [imperial](units_imperial) ofcourse
-- what are your [predictions](forecast:forecast) for [Sacramento](query_city)?
-- what is the weather forecast looking like?
-- In [imperial](units_imperial), what is the weather looking like currently?
-- babe i wonder what would be the weather like in [kalyan](query_city) in next [38](query_minutes) [mins](time:minutes)?
-- tell me the weather in [delhi](query_city)
-- what is the weather like [today](date)?
-- I want to know what's the weather?
-- I need weather predictions for [Mumbai](query_city) upto [7](query_hours) [hrs](time:hours).
-- will it be rainy in [Sudan](query_country) for [14](query_hours) hours straight?
-- I want to know how [cold](weather_condition) is the [temperature](weather_condition) in [Mumbai](query_city) is?
-- give me the [imperial](units_imperial) weather details quickly!
-- I need to know what is the [current](time:now) weather outside.
-- babe, could you pleasr find the weather forecast for me for like [12](query_minutes) mins?
-- what else is new with you? how's the [current](time:now) weather in [london](query_city)
-- what is the [current](time:now) maximum [temperature](weather_condition) in [fahrenheit](units_imperial)?
-- What's the weather [today](date)?
-- what do you predict of the weather in [luxemborg](query_country) for nearly [3](query_hours) hours?
+- please tell me the current weater
+- [charlotte](hotword), tell me the weather.
+- tell me th weather in [houston](query_place)
 - What is the current [humidity](weather_condition) like here?
-- I would like to know the forecast here in next [25](query_minutes) [mins](time:minutes).
-- how bad the weather is in [mumbai](query_city) [currently](time:now)?
-- howdy! tell me weather in [Alabama](query_state)
+- What's the current [temperature](weather_condition) in [pune](query_place)?
+- yes, tell mwe the weather in [london](query_place)
+- tell me the weather in [delhi](query_place)
+- I wanna understand if it is gonna [rain](weather_condition) here in next [12](query_hours) hrs here in [mumbai](query_place). Also i want to know it in [mph](query_imperial).
+- hey girl, can you get me weather details for [Alaska](query_place)?
+- What do you think of [tonight](query_days:0)'s weather currently?
+- I need to know the weather
+- Current speed of the wind and the [humidity](weather_condition) in [imperial](query_imperial) please.
+- what should I assume the [current](time:now) weather conditions are?
+- Show me what's the weather in [Munich](query_place)
+- tell me the weather
+- [Predicted](forecast:forecast) weather for [tomorrow](query_days:1)?
+- tell me [current](time:now) weather in [malibu](query_place)
+- current [temperature](weather_condition) in [247  Adhyaru Ind Est,  Nd Flr Sitaram Jadhav Marg, Delisle Road](query_place) in [fahrenheit](query_imperial)
+- [Greece NY](query_place)'s weather?
+- what else is new with you? how's the [current](time:now) weather in [london](query_place)
+- what is the weather in [Berlin](query_place) as we speak?
+- hey get me weather update for [San Francisco](query_place)
+- hello, I want to weather for [brisbane](query_place).
+- can you please report the current [weather](weather) report?
+- Currently Im in [Mumbai](query_place). what is the weather here?
+- I want weather updates for [Mumbai](query_place) and Hi by the way.
+- please tell me the weather in [newcastle](query_place) as well.
+- Can you please tell me the [current](time:now) weather?
+- what is the [current](time:now) weather?
+- what must be the weather forecast for next [4](query_hours) hours?
+- I wonder how is the weather out there obviously in [imperial](query_imperial)?
+- any weather forecast reports for [brisbane](query_place) for next [2](query_hours) [hrs](time:hours)?
+- [charlotte](hotword) whats the weather like in [mumbai](query_place) for next [8](query_hours) hours?
+- tell me weather
+- tell me the [climatic](weather:weather) conditions of [norway](query_place) now.
+- what could be the weather in [45](query_days) [days](time:days)
+- weather for next [5](query_hours) hrs in [imperial](query_imperial).
+- weather condition in [Cairo](query_place).
+- what would you say about the current [weather](weather) condition?
+- what is the weather forecast at [338 Cedar Swamp Ave.](query_place)?
+- i want to know what the weather is going to be any minute.
+- what is the current weather in [fahrenheit](query_imperial) in [london](query_place)?
+- Hello tell me weather for [Abakan](query_place)
+- wonder what would the weather look like here in [mumbai](query_place) for rest of the day in [imperial](query_imperial) metric system?
+- i wanna know the [predicted](forecast:forecast) [climate](weather:weather) for [Mumbai](query_place).
+- could you pleae show me the now weather in [imperial](query_imperial) system?
+- [Please](action:please) tell the [currnt](time:now) weather.
+- How is the weather be like in [Lyon](query_place)?
+- do you have any idea what could be the weather in next [5](query_days) [days](time:days)?
+- Is it going to snow in [India](query_place) for next [4](query_hours) hours?
+- tell me weather in [Lakewood NY 14750](query_place).
+- Weather forecast for [london](query_place) in next [15](query_days) [days](time:days) in [imperial](query_imperial) metrics.
+- could you please tell me how will it be outside of [brooklyn](query_place)?
+- [mexico](query_place)'s weather
+- [charlotte](hotword), tell me the weather in [abau](query_place)
+- what is the [current](time:now) weather in [allen](query_place)?
+- What are the weather conditions in [Toronto](query_place)?
+- [Forecast](forecast:forecast) report for [100 Charlton Road](query_place)
+- Jeez, I wonder what would be the wetaher in tonight.
+- what's the weather there?
+- What's the [curretn](time:now) [temperature](weather_condition) in [London](query_place)?
+- hello dear, tell me the current [temperature](weather_condition) here in [las vegas](query_place).
+- Weather forecast for [today](query_days:0)?
+- what do you think the [wetaher](weather:weather) is going to be like in [San Francisco](query_place)?
+- wats the weather be like in [Seoul](query_place)?
+- [Charlotte](hotword), dear could you please tell me the [temperature](weather_condition) in [fahrenheit](query_imperial).
+- i [wnna](grammar:want) know the weather in next [10](query_days) [days](time:days)
+- weather forecast.
+- [tomrrw](grammar:tomorrow)'s weather details for [Otis Street](query_place).
+- please tell me weather in [San Jose](query_place)
+- How is the weather?
+- hey can you tell me weather in [luxemborg](query_place)?
+- i wonder whats the be like for [15](query_days) days here?
+- [tomorrow](query_days:1)'s weather reports.
+- what is the weather?
+- i need to know the weather details
+- [Latest](time:now) weather report, please
+- I need weather predictions for [Mumbai](query_place) upto [7](query_hours) [hrs](time:hours).
+- what do you predict the [humidity](weather_condition) be like in next [5](query_days)
+- what is the [climate](weather) in [Mumbai](query_place)?
+- how [cold](weather_condition) it would be in [Dublin](query_place), now?
+- What's the weather in [London](query_place) [tonight](query_days:0)?
+- hi. how does the weather look like in [LA](query_place)?
+- will the [skies be clear](weather_condition) for next [8](query_hours) hrs?
+- whats the weather gonna be in like next [6](query_hours) hours?
+- with what speeds the winds woulf be blowing here in next [5](query_days) days? aalso i wanna know it in [Imperial](query_imperial) metric system.
+- wats its gonna be like in [antrim](query_place) [later](time)
 - what would be the weather conditions in next [7](query_hours) hours
+- Hi. Waht are the weather updates for [Sacramento](query_place)?
+- just tell the [damn](abuse) weather
+- any weather forecast reports for [brisbane](query_place)?
+- what is the current [humidity](weather_condition) like in [8008 W. Oakwood Street Chicago, IL 60621](query_place).
+- what [wud](grammar:would) be the weather like in [New Jersey](query_place)?
+- tell me the forecast for [mumbai](query_place) as well.
+- could you possibly tell me the current weather.
+- what is the [current](time:now) maximum [temperature](weather_condition) in [fahrenheit](query_imperial)?
+- tell me the [Todsy](grammar:today) outside weather
+- what [cud](grammar:could) be the weather out there?
+- what is the weather forecasted in the news?
+- how is the [climate](weather) in [Thane](query_place)?
+- future weather predict in [imperial](query_imperial).
+- What is the weather at your place?
+- will it be rainy in [Sudan](query_place) for [14](query_hours) hours straight?
+- I need some help with weather details
+- [pleas](action:please) tell me [tonight](query_days:0)'s weather.
+- what is the [Forecasted](forecast:forecast) weather?
+- i would like to know how's the going to be in [paris](query_place) in next [3](query_hours) hrs
+- I want to understand the weather out [tonight](query_days:0)
+- what is the [climate](weather) in [Washington](query_place) now?
+- yes, i would like to know the weather in [mumbai](query_place)
+- tell me weather, please
+- tell me the [current](time:now) weather
+- can you please tell me how's the weather going to be in next [8](query_hours) hours.
+- tell me the weather.
+- current minimum [temperature](weather_condition) in [fahrenheit](query_imperial)?
+- what's the [latest](time:now) weather report?
+- Will it be sunny in [apace](query_place)?
+- yes, please tell me what's the weather in [london](query_place)
+- whats weather looking like for rest of the [day](date)?
+- what is the [current](time:now) weather.
+- tell me weather in [Brazil](query_place)
+- weather forecast for [23](query_days) days.
+- what must be it like the weather in [russia](query_place)?
+- Is the weather going to be the same in [Los Angeles](query_place)?
+- if [imperial](query_imperial) metric system is to be considered, then how cold it is currently in [ape](query_place)?
+- babe i wonder what would be the weather like in [kalyan](query_place) in next [38](query_days) [days](time:days)?
+- weather in [New York](query_place)
+- tell me weather condition in [russia](query_place).
+- could you please tell me the weather in [alice](query_place)?
+- howdy! tell me weather in [Lynnway](query_place)
+- what do you think the weather is gonna be like in [luxemborg](query_place)?
+- yes can you please tell me the forecast for [Mumbai](query_place) for next [18](query_hours) hours?
+- What's the [current](time:now) [temperature](weather_condition) in [Manchester](query_place)?
+- babe, could you pleasr find the weather forecast for me for like [12](query_days) days?
+- is there any forecast report for me with next [17](query_days) days?
+- i wish to know the weather in [tokyo](query_place) in next [57](query_days) [days](time:days)
+- what is current weather like in [imperial](query_imperial) metric system?
+- hows the weather going to be in next couple of hours here in [Los Angeles](query_place)?
+- what would be the weather in next [19](query_hours) hours in [mumbai](query_place)?
+- How hot is it here? In [fahrenheit](query_imperial)?
+- I want the weather details, please.
+- what is the [forecasted](forecast:forecast) weather in [berlin](query_place)?
+- do you know the weather conditions in [Algeria](query_place)?
+- hey can you please tell me the weather in [rajkot](query_place)?
+- What's the current [temperature](weather_condition) in [NYC](query_place)?
+- could you please get the forecast reports for me?
+- Can you please tell me the weather in [Thane](query_place)
+- just tell me the forecast for [aberdeen](query_place).
+- please tell me the weather forecast in [sayre](query_place) for like next [5](query_hours) hours
+- what is the weather in [lyon](query_place)?
+- I wonder what is the weather in [Vilnius](query_place) [right now](time)?
+- I wonder what is the weather out there?
+- what do you think the weather of [Mumbai](query_place) is like?
+- what the current [windspeed](weather) here in [mph](query_imperial)?
+- tell me the [current](time:now) [temperature](weather_condition) in [Mumbai](query_place) in [fahrenheit](query_imperial).
+- what do you think the wind is blowing here at maximum speeds? In [mph](query_imperial).
+- how [chilling](weather_condition) it would be in [Rhode Island](query_place)?
+- please tell [current](time:now) weather
+- Is the weather nice in [Barcelona](query_place) [today](query_days:0)?
+- I'm guessing what [cud](grammar:could) be the weather be like in [New York](query_place)?
+- I want to know the weather details.
+- tell me weather conditions for [Mumbai](query_place)
+- what must be like the [temperature](weather_condition) in [fahrenheit](query_imperial) here in next [15](query_days) days?
+- what is the [imperial](query_imperial) weather now out there in [moscow](query_place)?
+- weather forecasted for next [32](query_days) days.
+- Can I get the weather details, please?
+- tell me [malibu](query_place)'s weather [today](query_days:0)
+- hey could u possibly tell me if its gonna [rain](weather_condition) in next [10](query_days) [days](time:days)?
+- oh my god, what [woould](grammar:would) next [52](query_days) days.
+- whats wrong with the weather? Is it going to [rain](weather_condition) tonight?
+- will you please tell me the weather for [tonight](query_days:0)
+- nah, find weather in [seoul](query_place)
+- whats weather gonna look like in [35](query_days) [day](time:days) if you were asked in [fahrenheit](query_imperial).
+- what is the weather forecast?
+- Is it quite breezy?
+- What's the current [temperature](weather_condition) in [Delhi](query_place)?
+- I would like to know the current [wind speed](weather_condition)?
+- WEather forecast reports with [imperial](query_imperial) units, please.
+- I want in [imperial](query_imperial) system.
+- give me the [imperial](query_imperial) weather details quickly!
+- How is the weather in [Westdayster](query_place)?
+- do you happen to know the [future](forecast:forecast) weather in [Mumbai](query_place) city and in [imperial](query_imperial) units?
+- what is the weather [now](time)?
+- can you tell me the speed at which the wind is blowing in [mumbai](query_place) right now?
+- weather [predictions](forecast:forecast) for [57](query_days) [days](time:days).
+- hey could you please tell me [current](time:now) weather, could you?
+- what weather [should](grammar) I expect in [Pleasant Valley Street](query_place)?
+- Helllooo I'm in [Mumbai](query_place) I need weather details
+- [charlotte](hotword) i wonder what could be the weather in [houston](query_place) in next [6](query_hours) hours?
+- what do you think the weather is going to be [tomorrow](query_days:1).
+- latest [humidity](weather_condition) report please in [imperial](query_imperial) metric system.
+- Will it be sunny in [Mumbai](query_place)?
+- yes, tell me weather for [5360 Southwestern Blvd, Hamburg NY 14075](query_place)
+- hey dear, what are the weather predictions looking like [today](query_days:0) in [fahrenheit](query_imperial).
+- tell me weather in [Oklahoma City](query_place).
+- actually I wanted to know weather forecast in [mumbai](query_place) in next [25](query_days) days. could you do that for me?
+- may I know the current weather condition please?
+- what isthe weather looking like currently? in [imperial](query_imperial) ofcourse
+- can i get to know how hot can it get here in degree [fahrenheit](query_imperial), please?
+- future weather.
+- What's the weather like?
+- how is the [climate](weather) in [Sudan](query_place)?
+- whats the weather like in [pune](query_place). In [imperial](query_imperial) by the way.
+- Charlotte, what is the weather [forecast](forecast) for [tonight](query_days:0)?
+- what's the weather like?
+- yes, tell me weather in [birmingham](query_place)
+- can you please get me weather reports for [munich](query_place), will ya?
+- how cold does it gets here in summer?
+- Weather forecast reports for [later](time) tonight.
+- i want to know the weather situations in next [54](query_days) days.
+- [Fuck](abuse)! Is the weather going to [pour](weather_condition:rain) the entire [day](date)?
+- tell me weather for next [10](query_days) days.
+- I would like to know the [curretn](time:now) [temperature](weather_condition) in [fahrenheit](query_imperial).
+- tell me the [current](time:now) weather in [alesund](query_place)
+- What's the weather [tonight](query_days:0)?
+- What's the weather forecast for [Geneva NY](query_place) in next [26](query_days) [days](time:days)?
+- How [warm](weather_condition) would it be in [malibu](query_place)?
+- I wonder what [wud](grammar:would) be the weather in [Paris](query_place).
+- hey tell me weather for [Washington](query_place)
+- will it be rainy in [America](query_place)?
+- what is the current speed of the wind?
+- what do you think the [wetaher](weather:weather) is going to be like in [San Francisco](query_place) for next [19](query_days) days?
+- what are your [predictions](forecast:forecast) for [Sacramento](query_place)?
+- Hey I need weather conditions for [Abuja](query_place).
+- how fast is the wind blowing here currently?
+- Can you tell me weather, please?
+- how bad the weather is in [mumbai](query_place) [currently](time:now)?
+- How [humid](weather_condition) is it in [Madagascar](query_place)?
+- yo! tell me weather for [3133 E Main St, Mohegan Lake NY 10547](query_place)
+- could i get to know whats the [temperature](weather_condition) gonna be here in like next [56](query_days) in [fahrenheit](query_imperial)?
+- forecast [temperature](weather_condition).
+- Help me with [Plymouth Street](query_place), weather details.
+- what do you think the [temperature](weather_condition) is going to be like in next [20](query_hours) hrs?
+- Hey! I'm in [North Carolina](query_place). Can you [puh-lease](action:please) tell me the weather here?
+- what is the [humidity](weather_condition) like here now?
+- I want to the curret weather related details for my current location in [imperial](query_imperial) metric system.
+- Heyo! tell me weather in [Sacramento](query_place)
+- just tell me weather forecast for [26](query_days) [days](time:days).
+- whats the weather like in [china](query_place)?
+- how [cold](weather_condition) is there?
+- what is the weather looking like [today](query_days:0) in next [5](query_hours) [hrs](time:hours)?
+- current weather details please.
+- what is top [wind speed](weather_condition) in [mph](query_imperial) in [paris](query_place)?
+- what is the weather outside?
+- I want to understand the current weather conditions.
+- also, tell me the weather for [851 , Maker Chambers V, Nariman Point](query_place)
+- show me weather
+- I would like to know the forecast here in next [25](query_days) [days](time:days).
+- Hey babe... whats the current weather like? In [fahrenheit](query_imperial), I want.
+- tell me the weather for forecast for [Amsterdam](query_place)
+- [Forecasted](forecast:forecast) [temperature](weather_condition) in [sentosa](query_place) in [fahrenheit](query_imperial)
+- the [latest](time:now) weather conditions.
+- How is the weather [today](query_days:0)?
+- [temperature](weather_condition) forecast in [fahrenheit](query_imperial)
+- hi tell me weather in [San Francisco](query_place)
+- cud u please tell me the weather forecast here in [san Francisco](query_place)
+- current weather in [mph](query_imperial)
+- tell me weather in [Brooksby Village Way](query_place)
+- What is the weather going to be like in future?
+- how is the current weather in [fahrenheit](query_imperial)?
+- I wanna know what the [weather](weather) will look like in [10](query_days) days.
+- [latest](time:now) weather please.
+- what is the weather like?
+- current [temperature](weather_condition) in [fahrenheit](query_imperial)
+- what could be the [climate](weather) of [algeria](query_place) be like?
+- hello update me with weather details for [westeros](query_place)
+- what are your [weather](weather) [predictions](forecast:forecast)?
+- Can you [plzzz](action:please) tell me what's the weather [today](query_days:0) in [Mumbai](query_place)?
+- what is the weather gonna look like in [15](query_days) [day](time:days).
+- I want to know what's the weather?
+- Current [humidity](weather_condition) in [london](query_place) in [imperial](query_imperial) metric system.
+- also, tell me hows the weather looking like in [moscow](query_place) [right now](time:now)?
+- how [hot](weather_condition) is it in [Texas](query_place)?
+- tell me [mumbai](query_place)'s weather.
+- I would like to know what's the weather going to be like in next [5](query_hours) hours.
+- how [cloudy](weather_condition) is it? Whats the weather looking currently?
+- what's the weather out there [now](time)?
+- current weather in [imperial](query_imperial) metric system.
+- whats the weather predicted to be in [Ape](query_place) for next [10](query_hours) hours in [imperial](query_imperial) form?
+- weather [forecast](forecast)
+- could you please tell me the weather in [london](query_place) for next [56](query_days) [days](time:days)?
+- hows the weather going to be in next couple of hours here in [LA](query_place)?
+- how much will it [rain](weather_condition) in [5](query_hours) hours?
+- what is the weather like in [shanghai](query_place)?
+- I wonder how must the weather be in [279 Troy Road, East Greenbush NY](query_place).
+- I need the [weather](weather) details.
+- Hello. tell me weather in [Mumbai](query_place)?
 - i wonder what is the current [humidity](weather_condition) here?
-- Show me the weather in [Paris](query_city)
-- [Forecasted](forecast:forecast) [temperature](weather_condition) in [sentosa](query_city) in [fahrenheit](units_imperial)
-- Is it bit too much to ask for the [temperature](weather_condition) here in [Mumbai](query_city) in [fahrenheit](units_imperial)?
-- hey could u possibly tell me if its gonna [rain](weather_condition) in next [10](query_minutes) [mins](time:minutes)?
-- also, tell me the weather for [San Fransisco](query_city)
+- Do you have good weather?
+- what is the [current](time:now) wetaher?
+- dear could u please get me  the weather reports?
+- how is the [temper](weather_condition) looking like currently?
+- How is the weather in [Oklahoma City](query_place)?
+- please show me the [current](time:now) weather condition.
+- tell me the forecast in [rajkot](query_place) for like next [10](query_days) days.
+- May I know the weather, please?
+- What do you think about the current weather in [paris](query_place)?
+- I would be much happy if I could get the prediction for the weather upto [23](query_days) days.
+- what's the [current](time:now) climate in [imperial](query_imperial) metric system?
+- Currently how is the [temperature](weather_condition) looking like in [fahrenheit](query_imperial)?
+- what is [tomorrow](query_days:1)'s weather
+- I wanna know [cureent](time:now) weather details.
+- May I understand the weather conditions in [Alabama](query_place)?
+- tell me the weather at [vienna](query_place) [right now](time).
+- Current weather in [imperial](query_imperial).
+- I want to know how [cold](weather_condition) is the [temperature](weather_condition) in [Mumbai](query_place) is?
+- what do yu think the [wetaher](weather:weather) is going to be like?
+- what's its gonna be like in [Mumbai](query_place) [later](time)
+- Upcoming weather details.
+- [current](time:now) weather condition
+- In [imperial](query_imperial), what is the weather looking like currently?
+- how is the weather looking outside now? In [imperial](query_imperial) of course.
+- What's the current [temperature](weather_condition) in [chicago](query_place)?
+- [Charlotte](hotword), can you please tell me the weather for next [21](query_hours) hours?
+- what is the weather forecast looking like?
+- tell me weather in [42 Fairhaven Commons Way, Fairhaven MA 2719](query_place)
+- What do you think is the current [temperature](weather_condition) out there in [fahrenheit](query_imperial)?
+- I wanna know how's the wind speed looking like here currently in [mumbai](query_place) and I wanna know it in [imperial](query_imperial) system.
+- what is the weather forecasting for [apodi](query_place) for [27](query_days) days?
+- in [imperial](query_imperial), please.
+- Do a weather check.
+- Is it bit too much to ask for the [temperature](weather_condition) here in [Mumbai](query_place) in [fahrenheit](query_imperial)?
+- Wat is the [humidity](weather_condition) here in [mph](query_imperial)?
+- [temperature](weather_condition) prediction for nwxt [10](query_days)[days](time:days).
+- Is it raining?
+- how is the weather looking like for rest of the day in [imperial](query_imperial)?
+- how would be the weather in next [12](query_hours) hours?
+- tell me weather now in [fahrenheit](query_imperial).
+- current wind speed in [Bazar Peth, Agashi Rd, Virar](query_place).
+- I need weather predictions for [Mumbai](query_place)
+- how will be the [weather](weather) [tonight](query_days:0)?
+- please tell me the forecast for next [22](query_hours) hours
+- How much precipitation is gonna happen in next [5](query_days) days? Any idea bout that?
+- what must be the [climate](weather) in [Sudan](query_place) right now?
+- I would like to know t he [current](time:now) weather.
+- hey could you pleaz tell me whats the weather going to be in next [10](query_days) [days](time:days)?
+- could you please tell me the current wind speed in [mph](query_imperial)?
+- [Current](time:now) weather
+- tell me whats the going to be like in [23](query_hours) hours in [montreal](query_place)
+- in which direction the wind is currently blowing?
+- yes tell me the weather forecast for [aberdeen](query_place)
+- what is the weather like [today](query_days:0)?
+- could you please tell me how's the weather looking [now](time)?
+- Show me the weather in [Manchester](query_place) for [2moro](grammar:tomorrow)
+- check weather
+- I wanna know the [current](time:now) weather conditions for [todya](grammar:today)
+- [plz](action:please) tell the [current](time:now) weather.
+- [charlotte](hotword), can you please tell me the weather in [chicago](query_place)
+- what is the [forecasted](forecast:forecast) weather?
+- [XA](xa) could you please get me the weather reports in [13](query_hours) hours
+- I need to know what is the [current](time:now) weather outside.
 
 ## intent:responding_goodbye
-- thank you good bye
-- catch you [later](time)
-- Good Bye
-- noise thank you good bye
-- bye bye
-- farewell
-- until next time
-- smell you [later](time)
-- and thats all thank you and good bye
-- byyeee
-- cu later.
-- um thank you good bye
-- okay bye
-- see u around
-- okay thank you good bye
-- will see you [soon](time)
-- goodbye
-- bye
-- have a great [day](time)
-- byee
-- have a nice [day](time)
-- unintelligible thank you goodbye
-- [later](time) aligator.
-- byeee
-- see you [friend](person)
-- sorry about my mistakes thank you good bye
-- Bye
-- thanks bye
-- uh thank you good bye
-- thank you goodbye noise
-- thank you goodbye noise thank you goodbye
-- got to go
-- see you [later](time)
-- breath thank you goodbye
-- breath thank you very much goodbye
-- it was nice talking to you
-- bye!
-- cya
-- thank you goodbye
-- see you next time
-- ttyl
-- ta ta
-- k bye
-- ah thank you goodbye
-- cu
-- okay cool uh good bye thank you
-- good bye!
-- have a good [day](time)
-- thank you noise
-- uh okay thank you good bye
-- ciao
-- thank you bye
-- bu-bye
-- will talk to u [soon](time)
-- goodbye [friend](person)
-- c u [later](time)
-- thank you and good bye
-- gotta go
-- see ya
-- um okay thank you good bye
-- ok bye
-- bye for [now](time)
-- catch u [later](time)
-- bye now
-- okay thank you goodbye
-- you rock [xa](xa)
-- see you
-- goodnight
-- tata
-- noise thank you goodbye
 - talk to u [later](time)
-- thanks goodbye
-- talk to you [later](time)
-- c ya
-- it was nice talking to u
-- Goodbye!
-- good [night](time)
+- hey you there?
+- thank you goodbye
+- Hello
+- and thats all thank you and good bye
+- helloo
+- hi there
+- sorry about my mistakes thank you good bye
+- thank you good bye
+- hallo
+- Aye!
+- thank you and good bye
+- see you next time
+- hey yo!
+- thank you noise
+- howdy
+- bye [XA](xa)
 
 ## intent:responding_hello
-- Hey
-- Hey [pal](gender:male)!
-- Hi?
-- Aye!
-- hi there
-- Oi!
-- have a good [evening](time)
-- How you doing?
-- hello again
-- hello [charlotte](hotword)
-- Hola!
-- yo!
-- greetings
-- hello [charlotte](hotword)!
-- wazzup?
-- hey
-- whaddup
-- hey there!
-- good [morning](time) [charlotte](hotword)
-- hey yo!
-- good [day](time)
-- Well, hello there
-- hello [babe](gender:female)
-- whats [up](direction)?
-- Hope you are having a good [day](time)
-- Hi
-- hey [girl](gender:female)
-- hey [friend](person)
-- Que pasa!
-- yo
-- Heyo!
-- hi there, it's me
-- Bonjour!
-- hello
-- howdy
-- hey [charlotte](hotword)
-- Hey bot
-- Oh hello
-- hallo
-- hey good [morning](time) chalrotte
-- Wassup?
-- hola
-- helloo
-- Hey you!
-- hellooo
-- good [morning](time)
-- hey!
-- Heya
-- good [evening](time)
-- Hey hi!
-- hi
-- hey, let's talk
-- heya
-- good [afternoon](time)
-- Hey [boy](gender:male)
-- Hello
-- gday
-- Hey yo!
-- Ahoy!
-- Hi again
-- hey you there?
-- Helllo
 - hiya!
-- Hi [folks](person)
+- catch u [later](time)
+- Hope you are having a good [day](time)
+- have a good [day](time)
+- see ya
+- cya
+- tata
+- hey, let's talk
+- okay thank you goodbye
+- until next time
+- Wassup?
+- hello [charlotte](hotword)!
+- hey [friend](person)
+- breath thank you goodbye
+- Heyo!
+- um thank you good bye
+- bye now
 - Hi bot!
-- hey there
-- Hey [man](gender:male)!
+- byee
 - hey
-
-## intent:responding_no
-- absolutely not
-- no american food
-- no
-- breath no
-- no. thanks
-- I'm afraid not
-- no, nothing for [now](time). Thanks for asking
-- nothing as of [now](time).
-- Nope. That's all I need
-- no, that'll be it.
-- do you have something else
-- No, just the forecast.
-- no!!!!
-- no.
-- No [sir](gender:male)
-- Nothing!
-- no thanks.
-- not a chance
-- I don't think I'll giving it to you
-- refuse
-- No [people](person)
-- nt sure
-- not really
-- no center
-- No you [moron](abuse)
-- no hungarian food
-- no i want american food
-- nothing
-- I dn't want to.
-- I disapprove
-- not right
-- Naah
-- No!
-- cannot say
-- No [ma'am](gender:female)
-- no, that would be it [charlotte](hotword).
-- not cool
-- no im looking in the south of the town
-- no spanish
-- no indian food
-- cancel
-- Naa
-- not for real
-- No. That's all i wanted.
-- Nothing
-- no thank you good bye
-- no chinese
-- nope, that [wud](grammar:would) be it
-- that's horrible
-- Nahi
-- Incorrect
-- no way
-- no spanish food
-- naa
-- that's wrong
-- disagree
-- didn't understand
-- no. that's fine
-- that's incorrect
-- no, I can't
-- No, not really
-- definitely not
-- never mind
-- no i want halal food
-- Not a chance
-- reject
-- that's not correct
-- No, use something else.
-- Nah.
-- no no no
-- sounds terrible
-- no the south part
-- No thanks
-- no. that would be it. thanks
-- I don't think so.
-- no, I don't need that.
-- no. dont  add it.
-- no [charlotte](hotword), that will be it for [now](time).
-- not my thing
-- that's not what I meant
-- no that will be it from myside.
-- no thank you
-- No!!
-- ah no
-- Nah thanks
-- no new selection
-- that's not good
-- Nah, I'm good. Thanks
-- Not sure
-- no. i'm really not interested in knowing that.
-- no, that will be it.
-- Not okay
-- Nah, I'm fine. Thanks
-- don't go for it
-- yep, nothing more from me.
-- No. That will be it.
-- can't confirm
-- no thank you.
-- no danish food
-- no south part of town
-- nevermind
-- No way!
-- not possible
-- nope
-- nah, i'm good. thanks
-- not okay
-- Sorry no
-- decline
-- oh no. this will make it.
-- no thanks
-- That's not right
-- that's all
-- no. thanks, dear
-- Nope
-- that's not [right](direction)
-- I don't [wanna](grammar:want) give it to you
-- Nothing from me
-- of course not
-- no thai
-- that's [stupid](abuse)
-- that's not okay
-- negative
-- Wrong
-- that is incorrect
-- nah
-- oh no and cheap
-- nt a chance
-- never
-- no im looking for pan asian
-- No.
-- No! No!
-- no this does not work for me
-- No [folks](person)
-- no im looking for one that serves vietnamese food
-- no. that would be it.
-- rejection
-- nope. that's fine.
-- no north
-- uh no
-- nope. thank you.
-- deny
-- Nah
-- I don't think so
-- Neither of these
-- no, nothing. that will be it.
-- no british food
-- Nothing from [XA](xa:xa)
-
-## intent:responding_okay
-- thanks [a lot](quantity:more)
-- really appreciate it. thanks [XA](xa:xa)!
-- cheers
-- that's totally fine.
-- gotcha
-- its alright.
-- thanks [charlotte](hotword), this will do.
-- thanks this is great
-- cool, thanks
-- sounds okay to me.
-- perfect thanks!
-- alright, that's fine.
-- that's fine.
-- Thanks for that
-- Its okay [XA](xa:xa).
-- it's okay, [Tony](name)
-- I get it [Alice](name), its okay.
-- Gotcha!
-- thanks, [Michelle](name)
-- danke schön
-- okay alright
-- thank you, [ruby](name)
-- perfect thank you
-- Thank you very much
-- dhanyawad
-- nothing from me, thanks for the details.
-- OKAY!
-- thanks again [charlotte](hotword), you are the best.
-- thanks dear
-- Thank you so much
-- Thanks!
-- thanks for the help
-
-## intent:responding_thank_you
-- thanks [a bunch](quantity:more) for everything
-- Alrighty
-- cool, thank you
-- okay. I understood
-- okay.
-- thanks [charlotte](hotword)
-- Cool. Thanks
-- Thanks [a lot](quantity:more)!
-- thanks [bruh](gender:male)
-- that's fine
-- that's absolutely fine.
-- thanks
-- understood
-- oh ok
-- cool thanks
-- okay thank you!
-- alright
-- Thanks bae
-- Owkay alright!
-- cheers [girl](gender:female)
-- alright. I got this.
-- thanks [a ton](quantity:more)!
-- thanks, dear
-- alright.
-- Ah ok.
-- okay, that's fine.
-- Thanks
-- thanks, dear!
-- cheers [bro](gender:male)
-- owkay!!
-- thanks [charlotte](hotword). byw
-- thankful!
-- okay thanks!
-- thank you
-- Thank you
-- [charlotte](hotword), its alright.
-- I'm very thankful to you.
-- Hmmm, okay
-- ok thanks!
-- thanks for that.
-- thank you [charlotte](hotword)
-- hmm okay
-- fine
-- It's fine with me.
-- I appreciate what you did.
-- Shukriya
-- [Natasha](name) that's absolutely fine.
-- thanks!
-- Uh, okay
-- got it
-- Oh, okay
-- okay
-- Owkay.
-- great thanks
-- hmmm ok
-- oki doki
-- thanks, [charlotte](hotword)!
-- thanks [Sam](name)
-- ok
-- I think it's fine.
-- thanks.
-- Thank you!
-- okay cool
-- thank you [gal](gender:female)
-- It's okay, [Hannah](name)
-- Shukriyah
-- thanks, [charlotte](hotword)
-- okay. alright
-- Thanks [a lot](quantity:more) [Saj](name)
-- ok cool
-- thank you [charlotte](hotword)!
-
-## intent:responding_yes
-- yes, why not
-- Yep
-- I knew it.
-- ye
-- Hell yes!
-- definitely yes without a doubt
-- that sounds good.
-- sure thing
-- yes, got it.
-- Oh awesome!
-- Yes [madam](gender:female)
-- yes, that would be fine.
-- yes that sounds bout right
-- accept
-- sure!
-- go for it
-- i love that
-- yes, that will be it [charlotte](hotword).
-- absolutely
-- Ho
-- yes please
-- Yup!
-- I accept
-- Sure
-- yeah yeah
-- agree
-- yes, sounds good to me.
-- yep, will do
-- great
-- Yes please
-- yup
-- yes, I do have another request.
-- Of course
-- yes [sir](gender:male)
-- correct!
-- yes
-- Yup.
-- how nice!
-- that's a step in [right](direction) direction
-- [right](direction)
-- Hell yeah!
-- yop
-- confirm
-- approve
-- that's correct
-- yes, will do
-- that's great!
-- sounds good
-- I accept it
-- sure
-- yes, please
-- Sure, why not
-- yeah that's correct
-- uh yes im looking [forward](direction) to it
-- yep, will do thank you
-- that's so correct
-- uh huh
-- Yas
-- Yes [sir](gender:male)
-- yes [ma'am](gender:female)
-- let's do it
-- Absolutely [sir](gender:male)
-- yeah!
-- Yes my [lady](gender:female)
-- correct
-- Yes
-- Uh huh
-- actually yes
-- yeah
-- uh yes
-- Yass!
-- indeed
-
-## intent:telling_future_location
-- I shall be in [Montreal](query_city) by [tomorrow](date).
-- I'll be leaving for [Mumbai](query_city) this [morning](time).
-- I am going to [London](query_city) [today](date)
-- I'm going to [France](query_country)
-- I'll be in [Kolkata](query_city)
-- I am leaving for [chicago](query_city).
-- I'm leaving [US](country:usa) for [now](time)
-- I'll be going to [Dadar](train_station) for picking up [charlotte](hotword)
-- I am planning my trip to [Amsterdam](query_city).
-- I'll be flying to [Unites States of America](query_country)
-- I'll be flying to [India](query_country).
-- We are visiting [chicago](query_city) [tomorrow](date).
-- I'll be travelling to [London](query_city) [tomorrow](date) [morning](time).
-- I'm planning to leave for [Canada](query_country).
-- I'll see you in [France](query_country).
-- I am planning my trip to [Amsterdam](query_city).
-- [tomorrow](date) I'm coming to [Denmark](query_country).
-- I might go to [Thane](train_station) [later](time)
-- I would be going to [Delhi](train_station) later.
-
-## intent:telling_location
-- In [Fenchurch](query_street).
-- Out of [Las Vegas](query_city)
-- I am from [The United States of America](country:usa)
-- in [Delhi](query_state)
-- at [Oberhausen](query_city)
-- Im calling from [britain](country:uk)
-- In [london](query_city), please
-- I am at [CST](train_station) [now](time)
-- [United States](query_country) is the place.
-- I'm in [Mumbai](query_city).
-- [Russia](query_country)
-- Im from [Kolkata](query_city).
-- I'm in [South Dakota](query_state)
-- I'm driving to [US](country:usa) on my own.
-- We arrived at [Las Vegas](query_city) airport this [morning](time)
-- We should have a drink in [Las Vegas](query_city).
-- I'm in [Mumbai](query_city)
-- I am currently residing in [the states](country:usa) [now](time)
-- At [Costa Rica](query_country).
-- in [London](query_city).
-- Near [Dr. R.P.Road](query_street)
-- I'm based of [San Francisco](query_city)
-- I live in [New York](query_city)
-- At [Frankfurt](query_city) airport
-- I'll leave for [San Francisco](query_city) [tomorrow](date).
-- in [Westminster](query_city) please.
-- In [tokyo](query_city).
-- [Mumbai](query_city)
-- [USA](country:usa)
-- I'm from [Mumbai](query_city)
-- im in currently in [united Kingdom](country:uk)
-- presently i'm in [berlin](query_city).
-- I'm currently completing my graduation in [the states](country:usa).
-- [US](country:usa)
-- [United Kingdom](query_country)
-- on [Freemont street](query_street)
-- from [America](country:usa)
-- I am going to [London](query_city) [today](date).
-- somewhere in [Bombay](query_city)
-- Nearby thames river in [London](query_city).
-- Currently Im in [Mumbai](query_city).
-- [UK](country:uk)
-- Why are you in [UK](country:uk)
-- We [shud](grammar:should) catchup in [Germany](query_country).
-- in [San Jose](query_city).
-- In [Mumbai](query_city)
-- Well I'm in [Mumbai](query_city) right now.
-- in [shanghai](query_city)
-- for [cairo](query_city)
-- in [toronto](query_city)
-- In [San Francisco](query_city)
-- in the [great britain](country:uk)
-- at [Baker street](query_street).
-- in [the united states of america](country:usa)
-- in [newcastle](query_city)
-- [cairo](query_city)
-- [london](query_city)
-- in [chicago](query_city)
-- in [jaipur](query_city)
-- in [malibu](query_city)
+- see you
+- bye bye
+- ok bye
+- breath thank you very much goodbye
+- byyeee
+- thanks bye
+- bye
+- will talk to u [soon](time)
+- yo
+- goodnight
+- okay thank you good bye
+- Helllo
+- [later](time) aligator.
+- hey there
+- you rock [xa](xa)
+- Hey [man](gender:male)!
+- catch you [later](time)
+- whaddup
+- good [morning](time) [charlotte](hotword)
+- Hi?
+- hey good [morning](time) chalrotte
+- Well, hello there
+- Que pasa!
+- hi
+- Oh hello
+- Heya
+- thank you goodbye noise
+- gotta go
+- hola
+- bu-bye
+- greetings
+- Oi!
+- thank you goodbye noise thank you goodbye
+- Hi
+- okay bye
+- hey [girl](gender:female)
+- gday
+- uh thank you good bye
+- Hey hi!
+- good [morning](time)
+- Bye
+- bye for [now](time)
+- Good Bye
+- How you doing?
+- smell you [later](time)
+- have a good [evening](time)
+- hello
+- bye!
+- wazzup?
+- cu later.
+- Hey
+- Hola!
+- Hey yo!
+- k bye
+- will see you [soon](time)
+- hey!
+- c u [later](time)
+- hellooo
+- Goodbye!
+- it was nice talking to u
+- hey there!
+- Hey [boy](gender:male)
+- good [day](time)
+- thank you bye
+- byeee
+- Hey bot
+- goodbye [friend](person)
+- good [evening](time)
+- noise thank you good bye
+- Hey [pal](gender:male)!
+- c ya
+- Hi [folks](person)
+- ta ta
+- hi there, it's me
+- ttyl
+- unintelligible thank you goodbye
+- farewell
+- see you [later](time)
+- ah thank you goodbye
+- uh okay thank you good bye
+- hello [charlotte](hotword)
+- see u around
+- have a great [day](time)
+- good bye!
+- yo!
+- ciao
+- good [night](time)
+- goodbye
+- hello [babe](gender:female)
+- got to go
+- talk to you [later](time)
+- Bonjour!
+- it was nice talking to you
+- hey [charlotte](hotword)
+- have a nice [day](time)
+- thanks goodbye
+- noise thank you goodbye
+- Hey you!
+- Hi again
+- see you [friend](person)
+- heya
+- whats up?
+- um okay thank you good bye
+- okay cool uh good bye thank you
+- hello again
+- Ahoy!
+- cu
+- good [afternoon](time)
 
 ## synonym: los_angeles
 - LA
@@ -1976,12 +590,6 @@
 - man
 - bruh
 - bro
-
-## synonym:minutes
-- mins
-- min
-- minute
-- minutes
 
 ## synonym:more
 - a lot
@@ -2086,20 +694,5 @@
 - Akshay Arvind Mestry
 - xa
 
-## lookup:query_city
-  data/lookup_tables/query_city.txt
-
-## lookup:query_country
-  data/lookup_tables/query_country.txt
-
-## lookup:query_hours
-  data/lookup_tables/query_hours.txt
-
-## lookup:query_minutes
-  data/lookup_tables/query_minutes.txt
-
 ## lookup:track_artist
   data/lookup_tables/track_artist.txt
-
-## lookup:query_planets
-  data/lookup_tables/query_planets.txt
