@@ -93,7 +93,8 @@ def list_windows() -> List:
             titles
         return True
 
-    # Listing all the active windows, includes windows which has no name too.
+    # Listing all the active windows, includes windows which has no name
+    # too.
     ctypes.windll.user32.EnumWindows(EnumWindowsProc(_each_window), 0)
     # Returns list of only active windows with title names.
     return list(filter(None, titles))

@@ -4,15 +4,16 @@ The browser module: Provides functions related to Selenium.
 This module will help you for browser based automation.
 
 At a glance, the structure of the module is following:
- - wait_for_frame():    Explicitly waits till the frame is visible. The frame
-                        can be any `frame` or `iframe` element. This function
-                        uses the WebDriver instance and timeout in seconds.
-                        Once the frame is detected, the wait stops and
+ - wait_for_frame():    Explicitly waits till the frame is visible.
+                        The frame can be a `frame` or `iframe` element.
+                        This function uses the WebDriver instance and
+                        timeout in seconds. Once the frame is detected,
+                        the wait stops and execution is resumed.
+ - find_class():        Explicitly waits till the particular class
+                        element is detected in webcode. This function
+                        uses the WebDriver instance and timeout in secs.
+                        Once the class is located, the wait stops and
                         execution is resumed.
- - find_class():        Explicitly waits till the particular class element is
-                        detected in webcode. This function uses the WebDriver
-                        instance and timeout in seconds. Once the class is
-                        located, the wait stops and execution is resumed.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -21,6 +22,8 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #   < Checkout my github repo for history and latest stable build >
 #
 #   1.1.1 - Improved the type hints by using the typing module.
+#           Made code more PEP-8 compliant.
+#           Corrected chromedriver.exe path.
 #   1.0.0 - First code.
 
 from inspect import stack
@@ -40,7 +43,7 @@ from charlotte.utils.assists.profile import lower, title
 from charlotte.utils.paths.files import ai_file
 
 # Constant used for declaring the path to chrome webdriver.
-_CHROME_DRIVER_PATH = 'Z:/charlotte/charlotte/bin/chromedriver.exe'
+_CHROME_DRIVER_PATH = 'Z:/charlotte/charlotte/chromedriver.exe'
 
 options = ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
@@ -70,15 +73,16 @@ def wait_for_frame(frame: Text, time: Union[int, float] = 10) -> NoReturn:
     time:  Time to wait in secs.
            Default: 10 secs.
 
-    Explicitly waits till the frame is visible. The frame can be any `frame`
-    or `iframe` element. This function uses the WebDriver instance and timeout
-    in seconds.
+    Explicitly waits till the frame is visible. The frame can be a
+    `frame` or `iframe` element. This function uses the WebDriver
+    instance and timeout in seconds.
 
-    Note: Once the frame is detected, the wait stops and the execution is
+    Note: Once the frame is detected, the wait stops & the execution is
     resumed.
     """
     try:
-        # WebDriver waiting instance till given time. Default wait time is 10s.
+        # WebDriver waiting instance till given time. Default wait time
+        # is 10s.
         wait = WebDriverWait(chrome, time)
         # Waits until the frame or iframe is visible in the webcode.
         wait.until(EC.frame_to_be_available_and_switch_to_it(frame))
@@ -96,13 +100,16 @@ def find_class(class_name: Text, time: Union[int, float] = 10) -> NoReturn:
     time:  Time to wait in secs.
            Default: 10 secs.
 
-    Explicitly waits till the particular class element is detected in webcode.
-    This function uses the WebDriver instance and timeout in seconds.
+    Explicitly waits till the particular class element is detected in
+    webcode. This function uses the WebDriver instance and timeout in
+    seconds.
 
-    Note: Once the class is located, the wait stops and execution is resumed.
+    Note: Once the class is located, the wait stops & execution is
+    resumed.
     """
     try:
-        # WebDriver waiting instance till given time. Default wait time is 10s.
+        # WebDriver waiting instance till given time. Default wait time
+        # is 10s.
         wait = WebDriverWait(chrome, time)
         # Waits until the class is located in the webcode.
         wait.until(EC.presence_of_element_located((By.CLASS_NAME, class_name)))
