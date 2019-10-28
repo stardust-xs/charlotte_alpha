@@ -1,8 +1,8 @@
 """
 The phrases module: Replies with responses at inference.
 
-This module is for returning random replies for particular task on the command
-line.
+This module is for returning random replies for particular task on the
+command line.
 
 See https://github.com/xames3/charlotte for cloning the repository.
 """
@@ -10,21 +10,22 @@ See https://github.com/xames3/charlotte for cloning the repository.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Made the code more* PEP-8 compliant.
 #   1.1.0 - Changed all variables into dictionary values.
 #   1.0.7 - Added one more phrase in weather_protocol[`retrying`].
 #   1.0.6 - Replaced all options into respective dictionaries for better
 #           handling.
 #   1.0.5 - Updated `wish_user` to `greet_user`.
-#   1.0.4 - Added one example to `no_internet_connection` and fixed typo in it.
+#   1.0.4 - Added one example to `no_internet_connection` and fixed typo
+#           in it.
 #   1.0.3 - Added new phrase option, `no_internet_connection`.
 #   1.0.2 - Reduced unnecessary use of "`" in comments for simplicity.
 #   1.0.0 - First code.
 
 from inspect import stack
-from random import choice
 from sys import exc_info
 
-from charlotte.utils.assists.profile import ai_lower, ai_title, lower, title
+from charlotte.utils.assists.profile import ai_lower, lower, title
 
 try:
     # For greetings.
@@ -105,28 +106,27 @@ try:
                     f'My apologies, {lower}. But I\'m not able to perform'
                     ' that action. Perhaps could you try that again?']}
     # For handling weather related responses.
-    weather_protocol = {
-        'no_internet': [f'Internet connection is knackered, {lower}.',
-                        f'Internet connection is not good, {lower}.',
-                        f'Internet connection is questionable, {lower}.'],
-        'saying_okay': [f'Okay, {lower}.',
-                        f'Umm... okay, {lower}.',
-                        'Okay.',
-                        'On it.',
-                        'Erm... okay.'],
-        'working_on_it': ['Fetching weather details...',
-                          'Working on it.',
-                          'Just a moment...',
-                          'Processing...',
-                          'I\'m working on it...',
-                          'Accessing weather details...'],
-        'retrying': ['Not sure. I\'m working on it.',
-                     'Trying again...',
-                     'Retrying...'],
-        'still_no_internet': [f'{title}, I\'m still not able to access the'
-                              ' internet.',
-                              'We still don\'t have a good internet'
-                              ' connection.']}
+    weather = {
+        'no_net': [f'Internet connection is knackered, {lower}.',
+                   f'Internet connection is not good, {lower}.',
+                   f'Internet connection is questionable, {lower}.'],
+        'okay': [f'Okay, {lower}.',
+                 f'Umm... okay, {lower}.',
+                 'Okay.',
+                 'On it.',
+                 'Erm... okay.'],
+        'wait': ['Fetching weather details...',
+                 'Working on it.',
+                 'Just a moment...',
+                 'Processing...',
+                 'I\'m working on it...',
+                 'Accessing weather details...'],
+        'retry': ['Not sure. I\'m working on it.',
+                  'Trying again...',
+                  'Retrying...'],
+        'still': [f'{title}, I\'m still not able to access the'
+                  ' internet.',
+                  'We still don\'t have a good internet connection.']}
 except Exception as error:
     print('An error occured while performing this operation because of'
           f' {error} in function "{stack()[0][3]}" on line'
