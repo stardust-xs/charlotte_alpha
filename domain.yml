@@ -1,128 +1,46 @@
 actions:
+- action_forecast
 - action_greet_user
-- action_play_music
-- action_play_next_music
-- action_play_previous_music
-- action_weather_event
-- utter_do_you_need_anything_else
-- utter_how_can_i_help
-- utter_responding_fetching_weather_details
-- utter_responding_okay
-- utter_responding_okay_to_denial
-- utter_responding_welcome_to_action
-- utter_responding_what_would_that_be
+- utter_fetching_forecast
 entities:
-- xa
-- artist
+- query_days
+- query_hours
+- query_imperial
 - abuse
-- hotword
-- date
-- direction
-- forecast
+- xa
 - gender
 - grammar
-- music
-- name
+- action
+- query_place
 - person
-- query_city
-- query_country
-- query_hours
-- query_minutes
-- query_state
-- query_street
 - time
-- track_album
-- track_artist
-- track_genre
-- track_name
-- train_station
-- units_imperial
-- weather
 - weather_condition
+- forecast
+- date
+- weather
+- hotword
 intents:
-- querying_weather_event
 - responding_hello
-- responding_thank_you
-- responding_no
+- querying_weather_event
 - responding_goodbye
-- telling_location
-- querying_goto_previous_step
-- responding_yes
-- querying_do_you_need_anything_else
-- querying_goto_next_step
-- querying_play_music
-- responding_okay
-- telling_future_location
 slots:
-  current_city:
-    type: text
-  current_country:
-    type: text
-  current_hour:
-    type: text
-  current_minutes:
-    type: text
-  current_state:
-    type: text
-  current_street:
-    type: text
-  current_time:
-    type: text
   hotword:
     type: text
-  is_charlotte_greeted:
+  is_greeted:
     type: bool
-  is_charlotte_online:
+  is_online:
     type: bool
   is_weather_checked:
     type: bool
-  music_file:
-    type: text
-  next_track:
-    type: text
-  previous_track:
-    type: text
-  query_city:
-    type: text
-  query_country:
-    type: text
-  query_date:
+  query_days:
     type: text
   query_hours:
     type: text
-  query_minutes:
-    type: text
-  query_state:
-    type: text
-  query_street:
-    type: text
-  query_time:
-    type: text
-  query_weather_cond:
-    type: text
-  today_date:
-    type: text
-  track_album:
-    type: text
-  track_albumartist:
-    type: text
-  track_artist:
-    type: text
-  track_composer:
-    type: text
-  track_duration:
-    type: text
-  track_filesize:
-    type: text
-  track_genre:
-    type: text
-  track_name:
-    type: text
-  track_year:
-    type: text
-  units_imperial:
+  query_imperial:
     initial_value: false
     type: bool
+  query_place:
+    type: text
   xa_lower:
     initial_value: boss
     type: text
@@ -142,51 +60,10 @@ templates:
   - text: Pardon me could you please rephrase that again?
   - text: Please may I request you to rephrase what you just said?
   - text: My apologies, I didn't understand what you mean.
-  utter_do_you_need_anything_else:
-  - text: Any other request, {xa_lower}?
-  - text: Do you need anything else, {xa_lower}?
-  - text: Anything else, {xa_lower}?
-  - text: Will there be anything else?
-  utter_how_can_i_help:
-  - text: What can I do for you?
-  - text: How may I help you?
-  - text: How can I help you?
-  - text: What would you like me to do?
-  - text: What can I help you with?
-  utter_responding_fetching_weather_details:
+  utter_fetching_forecast:
   - text: Just a moment...
-  - text: Fetching weather details for {query_city}...
+  - text: Fetching weather details...
   - text: Processing...
-  - text: Working on it...
-  - text: Accessing weather details from server...
-  - text: Running weather check for {query_city}...
+  - text: Working on it.
+  - text: Accessing DarkSky...
   - text: I'm working on it...
-  utter_responding_okay:
-  - text: Okay.
-  - text: Alright.
-  - text: Sure.
-  - text: Erm... okay.
-  - text: Umm... okay.
-  - text: Mm-hmm.
-  - text: As you wish.
-  - text: Sure, {xa_lower}.
-  - text: Erm... okay.
-  - text: Umm... okay.
-  - text: As you wish, {xa_lower}.
-  utter_responding_okay_to_denial:
-  - text: Alright.
-  - text: Erm... okay.
-  - text: Okay.
-  - text: As you wish, {xa_lower}.
-  - text: Umm... okay.
-  utter_responding_welcome_to_action:
-  - text: No problem.
-  - text: Ah... No problem.
-  - text: My pleasure.
-  - text: No worries.
-  utter_responding_what_would_that_be:
-  - text: And what would that be?
-  - text: And what would that be, {xa_lower}?
-  - text: What would that be?
-  - text: Okay, what would that be?
-  - text: Okay, tell me what should I do next?
