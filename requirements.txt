@@ -12,3 +12,6 @@ spacy
 tinytag
 pandas
 numpy==1.16.3
+google-cloud-storage
+pyttsx3
+django
