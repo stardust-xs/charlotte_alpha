@@ -10,13 +10,15 @@ See https://github.com/xames3/charlotte for complete documentation.
 #
 #   < Checkout my github repo for history and latest stable build >
 #
+#   1.1.1 - Program sleeps after printing the restart warning, instead
+#           of sleeping before.
+#           Made the code more* PEP-8 compliant.
 #   1.0.2 - Added comments for alias and assistant name.
 #   1.0.0 - First code.
 
 import os
 from inspect import stack
 from os import system
-from os.path import exists
 from random import randint
 from subprocess import PIPE, Popen
 from sys import exc_info, exit
@@ -29,9 +31,9 @@ from charlotte.utils.assists.cipher import encrypt, decrypt, keygen
 from charlotte.utils.assists.generic import show
 from charlotte.utils.assists.inquiry import answer, confirm, secure
 
-# Constant used to store the main master password for encryption-decryption.
-# This key or password is used to for ciphering all the strings used in this
-# package.
+# Constant used to store the main master password for ciphering.
+# This key or password is used to for ciphering all the strings used in
+# this package.
 _MASTER_KEY = 'CHARLOTTE_MASTER_KEY'
 # Constant used to store alias name for calling.
 # Alias is required to call the user with nickname or designation.
@@ -47,29 +49,41 @@ _MOBILE = 'XA_MOBILE'
 _HOTWORD = 'XA_HOTWORD'
 # Constant used for showing tip #1.
 # This tip is regarding password setup.
-_TIP_1 = 'Tip #1: Password should be unique, with at least 1 uppercase, 1 lowercase, 1 special character [!, @, \#, $, %, ^,..] and a number.'
+_TIP_1 = 'Tip #1: Password should be unique, with at least 1 uppercase, 1 ' \
+    'lowercase, 1 special character [!, @, #, $, %, ^,..] and a number.'
 # Constant used for showing tip #2.
 # This tip is regarding giving an aliad name.
-_TIP_2 = 'Tip #2: All inputs should be one-worded, for e.g: Sir, Ma\'am, Boss, Master, XA, etc.'
+_TIP_2 = 'Tip #2: All inputs should be one-worded, for e.g: Sir, Ma\'am, ' \
+    'Boss, Master, XA, etc.'
 # Constant used for showing tip #3.
 # This tip is regarding skipping a question.
-_TIP_3 = 'Tip #3: If you do not want to share something or just want to skip a question, just press Enter.'
+_TIP_3 = 'Tip #3: If you do not want to share something or just want to ' \
+    'skip a question, just press Enter.'
 # Constant used for showing tip #4.
 # This tip is regarding providing mobile number.
-_TIP_4 = 'Tip #4: This is mandatory. Mobile number should contain the country codes with "+" symbol. Eg: +9190XXXXXX52'
+_TIP_4 = 'Tip #4: This is mandatory. Mobile number should contain the ' \
+    'country codes with "+" symbol. Eg: +9190XXXXXX52'
 # Constant used to wish the user for initial setup.
-_INITIAL_SETUP = f'Hello, I\'m {NAME.title()}, your personal assistant.\n  I do not see any profile in my system. Would you like me to create one now?'
-# Constant used to respond if the process of profile creation is skipped.
+_INITIAL_SETUP = f'Hello, I\'m {NAME.title()}, your personal assistant.\n  ' \
+    'I do not see any profile in my system. Would you like me to create one ' \
+    'now?'
+# Constant used to respond if the process of profile creation is
+# skipped.
 _PROFILE_SKIPPED = 'Profile creation unsuccessful. Terminating program...'
 # Constant used to warn regarding the upcoming system restart.
-_RESTART_REQUIRED = 'WARNING: Profile creation requires a system reboot to take effect. So please save all your data before proceeding.'
+_RESTART_REQUIRED = 'WARNING: Profile creation requires a system reboot to ' \
+    'take effect. So please save all your data before proceeding.'
 # Constant used to take the master password.
-_GIVE_PASSWORD = 'Please provide a password. This password will be used for all ciphering.'
-# Constant used to respond if password exists already in environment variable.
-_PASSWORD_DETECTED = 'Master password detected! Would you like to use the same password?'
-# Constant used to warn regarding the applicability of the password after the
-# system restart.
-_PASSWORD_RESTART = 'Please provide a password. This password will be used for all encrypting. You need to restart your system to show it\'s effect.'
+_GIVE_PASSWORD = 'Please provide a password. This password will be used ' \
+    'for all ciphering.'
+# Constant used to respond if password exists already in environment
+# variable.
+_PASSWORD_DETECTED = 'Master password detected! Would you like to use the ' \
+    'same password?'
+# Constant used to warn regarding the applicability of the password
+# after the system restart.
+_PASSWORD_RESTART = 'Please provide a password. This password will be used ' \
+    'for all encrypting. You need to restart your system to show it\'s effect.'
 # Constant used to ask the alias.
 _ASK_ALIAS = 'What should I call you?'
 # Constant used to ask the username.
@@ -81,7 +95,8 @@ _ASK_HOTWORD = f'And finally, how would you like to call me?'
 # Constant used to ask for OTP.
 _ENTER_OTP = 'I have sent a code onto your phone. Please enter it to proceed.'
 # Constant used to respond if the user verification is failed.
-_RECOGNIZE_FAILURE = 'I could not verify you. I am afraid I must terminate this session.'
+_RECOGNIZE_FAILURE = 'I could not verify you. I am afraid I must terminate '\
+    'this session.'
 
 # Code starts here:
 # Checks if all the necessary environment variables are present or not.
@@ -137,17 +152,17 @@ try:
             body=f'{name.title()}, your verification code is: {otp}')
         match = secure(_ENTER_OTP)
         if int(match) == otp:
-            # If OTP matches write into environment variables, terminates the
-            # process.
+            # If OTP matches write into environment variables,
+            # terminates the process.
             Popen(f"setx {_MASTER_KEY} {key}", stdout=PIPE, shell=True)
             Popen(f"setx {_ALIAS} {alias}", stdout=PIPE, shell=True)
             Popen(f"setx {_USERNAME} {username}", stdout=PIPE, shell=True)
             Popen(f"setx {_MOBILE} {mobile}", stdout=PIPE, shell=True)
             Popen(f"setx {_HOTWORD} {hotword}", stdout=PIPE, shell=True)
             for index in range(5, -1, -1):
-                sleep(1)
                 print('\r? Profile created successfully! System will restart'
                       f' in {index} seconds', end='')
+                sleep(1)
             system('shutdown /r /t 1')
             exit()
         else:
@@ -160,7 +175,7 @@ try:
         mobile = decrypt(os.environ.get(_MOBILE), key)
         hotword = decrypt(os.environ.get(_HOTWORD), key)
         # Lower and Title case alias of the main user.
-        # This is used for all future interactions with the primary user.
+        # This is used for all future interactions with primary user.
         lower = alias.lower()
         title = alias.title()
         # Lower and Title case name of the assistant.
