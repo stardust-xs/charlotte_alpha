@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>
+        Charlotte
+    </title>
+</head>
+
+<body>
+    <div id="webchat" />
+    <script src="./web/js/charlotte.js"></script>
+    <script>
+        WebChat.default.init({
+            selector: "#webchat",
+            initPayload: "/get_started",
+            interval: 1000,
+            customData: {
+                "session_id": ["session_id"]
+            },
+            socketUrl: "http://localhost:5005",
+            socketPath: "/socket.io/",
+            title: "Charlotte",
+            subtitle: "Online",
+            inputTextFieldHint: "Talk to Charlotte...",
+            connectingText: "Waiting for server...",
+            hideWhenNotConnected: true,
+            fullScreenMode: true,
+            showFullScreenButton: true,
+            showCloseButton: true,
+            // profileAvatar: "./web/img/logo.png",
+            openLauncherImage: "./web/img/logo.png",
+            displayUnreadCount: true,
+            showMessageDate: true,
+            docViewer: true,
+            params: {
+                images: {
+                    dims: {
+                        width: 300,
+                        height: 200,
+                    }
+                },
+                storage: "local"
+            },
+        })
+    </script>
+    <script>
+        function getStylesheet() {
+            var currentTime = new Date().getHours();
+            if (7 <= currentTime && currentTime < 18) {
+                document.write("<link rel='stylesheet' href='./web/css/colors-light.css' type='text/css'>");
+            } else {
+                document.write("<link rel='stylesheet' href='./web/css/colors-dark.css' type='text/css'>");
+            }
+        }
+        getStylesheet();
+    </script>
+    <noscript>
+        <link href="main.css" rel="stylesheet"></noscript>
+</body>
+
+</html>

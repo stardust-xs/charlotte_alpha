@@ -1,0 +1,28 @@
+:root {
+    --charlotte-white: rgb(255, 255, 255);
+    --charlotte-black: rgb(0, 0, 0);
+    --charlotte-blue: rgb(0, 122, 255);
+    --charlotte-green: rgb(52, 199, 89);
+    --charlotte-indigo: rgb(88, 86, 214);
+    --charlotte-orange: rgb(255, 149, 0);
+    --charlotte-pink: rgb(255, 45, 85);
+    --charlotte-purple: rgb(175, 82, 222);
+    --charlotte-red: rgb(255, 59, 48);
+    --charlotte-teal: rgb(90, 200, 250);
+    --charlotte-yellow: rgb(255, 204, 0);
+    --charlotte-gray-1: rgb(142, 142, 147);
+    --charlotte-gray-2: rgb(174, 174, 178);
+    --charlotte-gray-3: rgb(199, 199, 204);
+    --charlotte-gray-4: rgb(209, 209, 214);
+    --charlotte-gray-5: rgb(229, 229, 234);
+    --charlotte-gray-6: rgb(242, 242, 247);
+    --charlotte-floating-button: rgb(72, 72, 74);
+    --charlotte-box-shadow: rgba(0, 0, 0, 0.2);
+    --charlotte-header-shadow: rgba(0, 0, 0, 0.05);
+    --charlotte-primary-accent: var(--charlotte-blue);
+    --user-chat-bubble-background: var(--charlotte-blue);
+    --charlotte-chat-bubble-background: var(--charlotte-gray-5);
+    --user-chat-bubble-text: var(--charlotte-white);
+    --charlotte-chat-bubble-text: var(--charlotte-black);
+    --charlotte-background: var(--charlotte-white);
+}
