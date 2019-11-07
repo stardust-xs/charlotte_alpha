@@ -58,7 +58,7 @@ from charlotte.utils.assists.constants import DARK, DAWN, DUSK, NOON
 from charlotte.utils.assists.system import check_internet, resolve_days
 
 
-def _get_coords(location: Text = Optional[None]) -> Tuple:
+def _get_coords(location: Optional[Text] = None) -> Tuple:
     """Returns coords for the asked location.
 
     location: Location or the address to be converted to latitude and
@@ -170,7 +170,7 @@ def forecast(location: Optional[Text] = None,
     will raise an exception.
     """
     import os
-    from random import choice
+    from random import choice, shuffle
     from requests import get
 
     try:
@@ -227,105 +227,75 @@ def forecast(location: Optional[Text] = None,
             part = _part_day()
             day = resolve_days(days)
             pl = 'day' if days == 1 else 'days'
-            days_template = choice([f'For the next {days} {pl} there are some '
-                                    f'places in {loc} that will be {cond}. '
-                                    f'Interestingly, there would be {fore}',
-                                    f'Well it does look as if we\'ll see more '
-                                    f'{cond} across {loc} for the '
-                                    f'next {days} {pl}. More so there will be '
-                                    f'{fore}',
-                                    f'Some parts of {loc} will be seeing a '
-                                    f'bit of {cond} for the next {days} '
-                                    f'{pl} with average temperature of {feel}'
-                                    f'. But for the most part it\'ll '
-                                    f'fluctuate between {max} high & {min} '
-                                    'low.',
-                                    f'Well for the next {days} {pl}, it seems '
-                                    f'it\'ll be fairly {cond} in some parts '
-                                    f'of {loc}. Winds can be seen gushing '
-                                    f'at speeds upto {spd} and as we go '
-                                    'through the week the temperature will '
-                                    f'vary between {max} high & {min} low.',
-                                    f'I could see some {sky} skies over {dir} '
-                                    f'parts of {loc} for the next {days} '
-                                    f'{pl}. Also we do have some {cond} '
-                                    'spells with the temperature struggling '
-                                    f'to be about {temp}.',
-                                    f'For {day} it is forecasted that there '
-                                    f'are some places in {loc} that will be '
-                                    f'{cond}. Interestingly, there would be '
-                                    f'{fore}',
-                                    f'Some parts of {loc} will be seeing a '
-                                    f'bit of {cond} by {day} with '
-                                    f'average temperature of {feel}. But for '
-                                    'the most part it\'ll fluctuate between '
-                                    f'{max} high & {min} low.',
-                                    f'Well till {day}, it seems it\'ll be '
-                                    f'fairly {cond} in some parts of {loc}. '
-                                    f'Winds can be seen gushing at speeds '
-                                    f'upto {spd} and as we go through the '
-                                    'week the temperature will vary between '
-                                    f'{max} high & {min} low.'])
-            hours_template = choice([f'We are going to see {cond} in the next '
-                                     f'{hours} hours with {sky} skies in some '
-                                     f'parts {loc} with temperature '
-                                     f'fluctuating between {max} high & {min} '
-                                     'low.',
-                                     f'There is going to be {cond} here in '
-                                     f'{loc} for the next {hours} hours, '
-                                     f'also we may experience {sky} skies '
-                                     f'with temperatures spiking upto {temp}.'
-                                     ])
-            norm_template = choice([f'Well, it is {cond} in some places '
-                                    f'across much of {loc}. Having said that '
-                                    f'the temperature has been around {temp} '
-                                    f'roughly and will stay the same for the '
-                                    f'most part of the {part}.',
-                                    f'It is {cond} in {dir} parts of '
-                                    f'{loc}. We will however see the '
-                                    f'temperature between {min} & {max}. '
-                                    f'Interestingly, there would be {fore}',
-                                    f'It is {cond} across {dir} {loc} '
-                                    f'especially in the early hours. It\'s '
-                                    f'the expected humidity of {hum} with the '
-                                    f'unsettling breeze is affecting the '
-                                    f'average temperature of {feel}.',
-                                    f'Looking at {loc} from above, it is '
-                                    f'{cond}. While some of the areas in '
-                                    f'{dir} {loc} would get as low as {min} '
-                                    f'& as high as {max} because of the '
-                                    'humidity.',
-                                    f'Well from above here, it seems it is '
-                                    f'{cond}. Winds can be seen gushing at '
-                                    f'speeds upto {spd} across {loc} and as '
-                                    f'we go throughout the {part} the '
-                                    f'temperature will vary between {max} '
-                                    f'high & {min} low.',
-                                    f'Most likely it is {cond}. '
-                                    'However, we could see temperature rise '
-                                    f'upto {temp} over the grounds of {dir} '
-                                    f'parts of {loc}. Interestingly, there '
-                                    f'would be {fore}',
-                                    f'In the {part} we shall witness '
-                                    f'{cond} in places across '
-                                    f'{loc}. It\'s a fine start to the '
-                                    f'{part} but we\'ve got some windy '
-                                    'weather which should feel relatively '
-                                    'pleasant with the temperature slightly '
-                                    f'above {temp}.',
-                                    f'The temperature in {loc} is going to '
-                                    f'stay between {temp} & {feel} all {part} '
-                                    f'with a bit of {cond} in the {dir} '
-                                    f'parts. However, it\'ll be {fore}'])
+            _days = [f'For the next {days} {pl} there are some places in '
+                     f'{loc} that will be {cond}. Interestingly, there would '
+                     f'be {fore}',
+                     f'Well it does look as if we\'ll see more {cond} across '
+                     f'{loc} for the next {days} {pl}. More so there will be '
+                     f'{fore}',
+                     f'Some parts of {loc} will be seeing a bit of {cond} for '
+                     f'the next {days} {pl} with average temperature of {feel}'
+                     f'. But for the most part it\'ll fluctuate between {max} '
+                     f'high & {min} low.',
+                     f'Well for the next {days} {pl}, it seems it\'ll be '
+                     f'fairly {cond} in some parts of {loc}. Winds can be '
+                     f'seen gushing at speeds upto {spd} and as we go '
+                     'through the week the temperature will vary between '
+                     f'{max} high & {min} low.',
+                     f'I could see some {sky} skies over {dir} parts of {loc} '
+                     f'for the next {days} {pl}. Also we do have some {cond} '
+                     'spells with the temperature struggling to be '
+                     f'about {temp}.',
+                     f'For {day} it is forecasted that there are some places '
+                     f'in {loc} that will be {cond}. Interestingly, there '
+                     f'would be {fore}',
+                     f'Some parts of {loc} will be seeing a bit of {cond} by '
+                     f'{day} with average temperature of {feel}. But for the '
+                     f'most part it\'ll fluctuate between {max} high & '
+                     f'{min} low.',
+                     f'Well till {day}, it seems it\'ll be fairly {cond} in '
+                     f'some parts of {loc}. Winds can be seen gushing at '
+                     f'speeds upto {spd} and as we go through the week the '
+                     f'temperature will vary between {max} high & {min} low.']
+            _hrs = [f'We are going to see {cond} in the next {hours} hours '
+                    f'with {sky} skies in some parts {loc} with temperature '
+                    f'fluctuating between {max} high & {min} low.',
+                    f'There is going to be {cond} here in {loc} for the next '
+                    f'{hours} hours, also we may experience {sky} skies with '
+                    f'temperatures spiking upto {temp}.']
+            _now = [f'Well, it is {cond} in some places across much of {loc}. '
+                    f'Having said that the temperature has been around {temp} '
+                    'roughly and will stay the same for the most part of the '
+                    f'{part}.',
+                    f'It is {cond} in {dir} parts of {loc}. We will however '
+                    f'see the temperature between {min} & {max}. '
+                    f'Interestingly, there would be {fore}',
+                    f'It is {cond} across {dir} {loc} especially in the early '
+                    f'hours. It\'s the expected humidity of {hum} with the '
+                    'unsettling breeze is affecting the average temperature '
+                    f'of {feel}.',
+                    f'Looking at {loc} from above, it is {cond}. While some '
+                    f'of the areas in {dir} {loc} would get as low as {min} '
+                    f'& as high as {max} because of the humidity.',
+                    f'Well from above here, it seems it is {cond}. Winds can '
+                    f'be seen gushing at speeds upto {spd} across {loc} and '
+                    f'as we go throughout the {part} the temperature will'
+                    f' vary between {max} high & {min} low.',
+                    f'Most likely it is {cond}. However, we could see '
+                    f'temperature rise upto {temp} over the grounds of {dir} '
+                    f'parts of {loc}. Interestingly, there would be {fore}',
+                    f'In the {part} we shall witness {cond} in places across '
+                    f'{loc}. It\'s a fine start to the {part} but we\'ve got '
+                    'some windy weather which should feel relatively pleasant '
+                    f'with the temperature slightly above {temp}.',
+                    f'The temperature in {loc} is going to stay between '
+                    f'{temp} & {feel} all {part} with a bit of {cond} in the '
+                    f'{dir} parts. However, it\'ll be {fore}']
 
-            def _generate_random_response() -> Text:
-                """Random response generator"""
+            response = _days if idx == 0 else _hrs if idx == 1 else _now
+            shuffle(response)
 
-                response = days_template if idx == 0 else hours_template if \
-                    idx == 1 else norm_template
-                yield response
-
-            return list(_generate_random_response())[0]
+            return choice(response)
         else:
             # Returns None if no internet connection is available.
             return None
