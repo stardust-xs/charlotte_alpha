@@ -126,7 +126,6 @@ dmypy.json
 # Ignored on-device directories
 /data/knowledge/csv/
 /models/
-/backup/
 /temp/
 /tests/
 /conv/
