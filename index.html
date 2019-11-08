@@ -10,11 +10,12 @@
 
 <body>
     <div id="webchat" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="./web/js/charlotte.js"></script>
     <script>
         WebChat.default.init({
             selector: "#webchat",
-            initPayload: "/get_started",
+            initPayload: "/saying_hello",
             interval: 1000,
             customData: {
                 "session_id": ["session_id"]
