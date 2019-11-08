@@ -440,7 +440,7 @@ html {
     border-radius: var(--charlotte-bubble-radius);
     padding: var(--charlotte-pixel-20);
     padding-right: var(--charlotte-pixel-85);
-    text-align: left;
+    text-align: right;
     margin-left: auto;
     margin-right: auto;
     left: auto;
