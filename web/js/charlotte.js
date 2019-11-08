@@ -18538,7 +18538,8 @@
 				sent_audio = new Audio ("./web/audio/sent.wav"),
 				begin_mic = new Audio ("./web/audio/begin.wav"),
 				stop_mic = new Audio ("./web/audio/stop.wav"),
-				error_mic = new Audio ("./web/audio/error.wav");
+				error_mic = new Audio ("./web/audio/error.wav"),
+				placeholders = ['Talk to Charlotte...', 'Say Hi...', 'Ask for weather...', "What's the weather like?", 'Say Hello to Charlotte...'];
             return r.default.createElement("form", {
                 className: "sender",
                 onSubmit: e
@@ -18546,11 +18547,16 @@
                 type: "text",
                 className: "new-message",
                 name: "message",
-                placeholder: "Talk to Charlotte...",
+				id: "transcript",
+                placeholder: (function cycle() {
+					var placeholder = placeholders[Math.floor(Math.random() * placeholders.length)];
+					$('input').attr('placeholder', placeholder);
+					placeholders.push(placeholder);
+					setTimeout(cycle,2500);
+				})(),
                 disabled: o,
                 autoFocus: !0,
-                autoComplete: "on",
-				id: "transcript",
+                autoComplete: "off",
             }), r.default.createElement("button", {
                 type: "submit",
                 className: "send"
