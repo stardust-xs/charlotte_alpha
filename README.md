@@ -37,7 +37,7 @@
 
 ## Philosophy
 
-C.H.A.R.L.O.T.T.E or simply Charlotte is a **WIP** Conversational AI built with <a href="https://rasa.com/">Rasa</a>. Conversational AI is an extremely difficult and far from being a solved problem.
+C.H.A.R.L.O.T.T.E or simply Charlotte is a ~~**WIP**~~ Conversational AI built with <a href="https://rasa.com/">Rasa</a>. Conversational AI is an extremely difficult and far from being a solved problem.
 The sole purpose of this project is to build something remotely similar to the likes of Tony Stark's <a href="https://ironman.fandom.com/wiki/F.R.I.D.A.Y.">Friday</a> NL UI using Rasa and so far it seems to be working  `pretty good`.
 
 <p align="center"><i>If you are good at something don't forget to brag about it.<br>
