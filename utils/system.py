@@ -203,35 +203,21 @@ def check_internet(timeout: Optional[Union[float, int]] = 10.0) -> bool:
         return False
 
 
-def find_file(file: Text,
-              dir_name: Text,
-              min_score: Optional[int] = 70) -> Tuple[Text, int]:
+def find_file(file: Text, dir_name: List) -> Tuple[Text, int]:
     """Finds file in directory.
 
     file:      Approx. name of the file to search in the directory.
     dir_name:  Directory in which the file needs to be searched in.
-    min_score: Minimum score needed to make an approximate guess.
-               Default: 70
-
+    
     Finds the matching file in the directory. This function uses Fuzzy
     Logic for determining the best possible match.
 
     Note: Function can provide 3 best possible matches but we use just 1
     i.e. The best match.
     """
-    from os import listdir
-    from fuzzywuzzy.fuzz import partial_ratio
-    from fuzzywuzzy.process import extract
-
-    # This will give us list of 3 best matches for our search query.
-    guessed = extract(file, listdir(dir_name), limit=3, scorer=partial_ratio)
-    for best_guess in guessed:
-        # Finding the best match whose Levenshtein score is near to 100.
-        current_score = partial_ratio(file, best_guess)
-        if current_score > min_score and current_score > 0:
-            return best_guess[0], current_score
-        else:
-            return f'Sorry, I could not find "{file}" in the directory.', 0
+    from rapidfuzz import fuzz, process
+  
+    return process.extractOne(file, dir_name, scorer=fuzz.partial_ratio)[0]
 
 
 def get_drives(drive_letter: Text) -> Text:
