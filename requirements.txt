@@ -1,11 +1,10 @@
 # Package requirements
-fuzzywuzzy
+rapidfuzz
 geocoder
 geolocation-python
 googlemaps
 hurry.filesize
 pypiwin32
-python-Levenshtein
 rasa
 reverse-geocode
 spacy
