@@ -1,7 +1,4 @@
 <h1 align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/xames3/charlotte/assets/min_charlotte_logo.png" title="Charlotte logo by XA" width="400">
-  <br>
   <h4 align="center">Conversational Heuristic Assistant Recognizing Language Oriented Task & Thought Expressions</h4>
 </h1>
 
