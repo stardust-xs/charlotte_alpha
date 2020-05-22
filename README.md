@@ -1,4 +1,5 @@
 <h1 align="center">
+  <p align="center">C.H.A.R.L.O.T.T.E</P>
   <h4 align="center">Conversational Heuristic Assistant Recognizing Language Oriented Task & Thought Expressions</h4>
 </h1>
 
